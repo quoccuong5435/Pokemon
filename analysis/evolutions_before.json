@@ -1,0 +1,1507 @@
+{
+ "source": "PokeAPI evolution-chain (cached in analysis/pokeapi_cache)",
+ "species": {
+  "Abomasnow": {
+   "chain_id": "239",
+   "chain": [
+    [
+     "snover",
+     "abomasnow",
+     "level-up",
+     40
+    ]
+   ]
+  },
+  "Aerodactyl": {
+   "chain_id": "71",
+   "chain": []
+  },
+  "Arbok": {
+   "chain_id": "9",
+   "chain": [
+    [
+     "ekans",
+     "arbok",
+     "level-up",
+     22
+    ]
+   ]
+  },
+  "Baltoy": {
+   "chain_id": "175",
+   "chain": [
+    [
+     "baltoy",
+     "claydol",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Bayleef": {
+   "chain_id": "79",
+   "chain": [
+    [
+     "chikorita",
+     "bayleef",
+     "level-up",
+     16
+    ],
+    [
+     "bayleef",
+     "meganium",
+     "level-up",
+     32
+    ]
+   ]
+  },
+  "Bellossom": {
+   "chain_id": "18",
+   "chain": [
+    [
+     "oddish",
+     "gloom",
+     "level-up",
+     21
+    ],
+    [
+     "gloom",
+     "vileplume",
+     "use-item",
+     "leaf-stone"
+    ],
+    [
+     "gloom",
+     "bellossom",
+     "use-item",
+     "sun-stone"
+    ]
+   ]
+  },
+  "Blissey": {
+   "chain_id": "51",
+   "chain": [
+    [
+     "happiny",
+     "chansey",
+     "level-up",
+     ""
+    ],
+    [
+     "chansey",
+     "blissey",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Bonsly": {
+   "chain_id": "91",
+   "chain": [
+    [
+     "bonsly",
+     "sudowoodo",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Buzzwole": {
+   "chain_id": "415",
+   "chain": []
+  },
+  "Carvanha": {
+   "chain_id": "160",
+   "chain": [
+    [
+     "carvanha",
+     "sharpedo",
+     "level-up",
+     30
+    ]
+   ]
+  },
+  "Chandelure": {
+   "chain_id": "308",
+   "chain": [
+    [
+     "litwick",
+     "lampent",
+     "level-up",
+     41
+    ],
+    [
+     "lampent",
+     "chandelure",
+     "use-item",
+     "dusk-stone"
+    ]
+   ]
+  },
+  "Chansey": {
+   "chain_id": "51",
+   "chain": [
+    [
+     "happiny",
+     "chansey",
+     "level-up",
+     ""
+    ],
+    [
+     "chansey",
+     "blissey",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Chikorita": {
+   "chain_id": "79",
+   "chain": [
+    [
+     "chikorita",
+     "bayleef",
+     "level-up",
+     16
+    ],
+    [
+     "bayleef",
+     "meganium",
+     "level-up",
+     32
+    ]
+   ]
+  },
+  "Claydol": {
+   "chain_id": "175",
+   "chain": [
+    [
+     "baltoy",
+     "claydol",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Clefable": {
+   "chain_id": "14",
+   "chain": [
+    [
+     "cleffa",
+     "clefairy",
+     "level-up",
+     ""
+    ],
+    [
+     "clefairy",
+     "clefable",
+     "use-item",
+     "moon-stone"
+    ]
+   ]
+  },
+  "Clefairy": {
+   "chain_id": "14",
+   "chain": [
+    [
+     "cleffa",
+     "clefairy",
+     "level-up",
+     ""
+    ],
+    [
+     "clefairy",
+     "clefable",
+     "use-item",
+     "moon-stone"
+    ]
+   ]
+  },
+  "Cradily": {
+   "chain_id": "176",
+   "chain": [
+    [
+     "lileep",
+     "cradily",
+     "level-up",
+     40
+    ]
+   ]
+  },
+  "Croagunk": {
+   "chain_id": "235",
+   "chain": [
+    [
+     "croagunk",
+     "toxicroak",
+     "level-up",
+     37
+    ]
+   ]
+  },
+  "Cubone": {
+   "chain_id": "46",
+   "chain": [
+    [
+     "cubone",
+     "marowak",
+     "level-up",
+     28
+    ]
+   ]
+  },
+  "Cyndaquil": {
+   "chain_id": "80",
+   "chain": [
+    [
+     "cyndaquil",
+     "quilava",
+     "level-up",
+     14
+    ],
+    [
+     "quilava",
+     "typhlosion",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Darumaka": {
+   "chain_id": "282",
+   "chain": [
+    [
+     "darumaka",
+     "darmanitan",
+     "level-up",
+     35
+    ]
+   ]
+  },
+  "Deino": {
+   "chain_id": "323",
+   "chain": [
+    [
+     "deino",
+     "zweilous",
+     "level-up",
+     50
+    ],
+    [
+     "zweilous",
+     "hydreigon",
+     "level-up",
+     64
+    ]
+   ]
+  },
+  "Dewgong": {
+   "chain_id": "37",
+   "chain": [
+    [
+     "seel",
+     "dewgong",
+     "level-up",
+     34
+    ]
+   ]
+  },
+  "Ditto": {
+   "chain_id": "66",
+   "chain": []
+  },
+  "Drowzee": {
+   "chain_id": "42",
+   "chain": [
+    [
+     "drowzee",
+     "hypno",
+     "level-up",
+     26
+    ]
+   ]
+  },
+  "Dugtrio": {
+   "chain_id": "21",
+   "chain": [
+    [
+     "diglett",
+     "dugtrio",
+     "level-up",
+     26
+    ]
+   ]
+  },
+  "Dusclops": {
+   "chain_id": "182",
+   "chain": [
+    [
+     "duskull",
+     "dusclops",
+     "level-up",
+     37
+    ],
+    [
+     "dusclops",
+     "dusknoir",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Duskull": {
+   "chain_id": "182",
+   "chain": [
+    [
+     "duskull",
+     "dusclops",
+     "level-up",
+     37
+    ],
+    [
+     "dusclops",
+     "dusknoir",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Ekans": {
+   "chain_id": "9",
+   "chain": [
+    [
+     "ekans",
+     "arbok",
+     "level-up",
+     22
+    ]
+   ]
+  },
+  "Electabuzz": {
+   "chain_id": "60",
+   "chain": [
+    [
+     "elekid",
+     "electabuzz",
+     "level-up",
+     30
+    ],
+    [
+     "electabuzz",
+     "electivire",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Electrike": {
+   "chain_id": "153",
+   "chain": [
+    [
+     "electrike",
+     "manectric",
+     "level-up",
+     26
+    ]
+   ]
+  },
+  "Elekid": {
+   "chain_id": "60",
+   "chain": [
+    [
+     "elekid",
+     "electabuzz",
+     "level-up",
+     30
+    ],
+    [
+     "electabuzz",
+     "electivire",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Entei": {
+   "chain_id": "124",
+   "chain": []
+  },
+  "Farfetch'd": {
+   "chain_id": "35",
+   "chain": [
+    [
+     "farfetchd",
+     "sirfetchd",
+     "three-critical-hits",
+     ""
+    ]
+   ]
+  },
+  "Feebas": {
+   "chain_id": "178",
+   "chain": [
+    [
+     "feebas",
+     "milotic",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Gabite": {
+   "chain_id": "230",
+   "chain": [
+    [
+     "gible",
+     "gabite",
+     "level-up",
+     24
+    ],
+    [
+     "gabite",
+     "garchomp",
+     "level-up",
+     48
+    ]
+   ]
+  },
+  "Galvantula": {
+   "chain_id": "303",
+   "chain": [
+    [
+     "joltik",
+     "galvantula",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Garchomp": {
+   "chain_id": "230",
+   "chain": [
+    [
+     "gible",
+     "gabite",
+     "level-up",
+     24
+    ],
+    [
+     "gabite",
+     "garchomp",
+     "level-up",
+     48
+    ]
+   ]
+  },
+  "Gible": {
+   "chain_id": "230",
+   "chain": [
+    [
+     "gible",
+     "gabite",
+     "level-up",
+     24
+    ],
+    [
+     "gabite",
+     "garchomp",
+     "level-up",
+     48
+    ]
+   ]
+  },
+  "Gloom": {
+   "chain_id": "18",
+   "chain": [
+    [
+     "oddish",
+     "gloom",
+     "level-up",
+     21
+    ],
+    [
+     "gloom",
+     "vileplume",
+     "use-item",
+     "leaf-stone"
+    ],
+    [
+     "gloom",
+     "bellossom",
+     "use-item",
+     "sun-stone"
+    ]
+   ]
+  },
+  "Golduck": {
+   "chain_id": "23",
+   "chain": [
+    [
+     "psyduck",
+     "golduck",
+     "level-up",
+     33
+    ]
+   ]
+  },
+  "Granbull": {
+   "chain_id": "105",
+   "chain": [
+    [
+     "snubbull",
+     "granbull",
+     "level-up",
+     23
+    ]
+   ]
+  },
+  "Heracross": {
+   "chain_id": "108",
+   "chain": []
+  },
+  "Ho-Oh": {
+   "chain_id": "128",
+   "chain": []
+  },
+  "Horsea": {
+   "chain_id": "54",
+   "chain": [
+    [
+     "horsea",
+     "seadra",
+     "level-up",
+     32
+    ],
+    [
+     "seadra",
+     "kingdra",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Hydreigon": {
+   "chain_id": "323",
+   "chain": [
+    [
+     "deino",
+     "zweilous",
+     "level-up",
+     50
+    ],
+    [
+     "zweilous",
+     "hydreigon",
+     "level-up",
+     64
+    ]
+   ]
+  },
+  "Hypno": {
+   "chain_id": "42",
+   "chain": [
+    [
+     "drowzee",
+     "hypno",
+     "level-up",
+     26
+    ]
+   ]
+  },
+  "Jigglypuff": {
+   "chain_id": "16",
+   "chain": [
+    [
+     "igglybuff",
+     "jigglypuff",
+     "level-up",
+     ""
+    ],
+    [
+     "jigglypuff",
+     "wigglytuff",
+     "use-item",
+     "moon-stone"
+    ]
+   ]
+  },
+  "Jirachi": {
+   "chain_id": "201",
+   "chain": []
+  },
+  "Joltik": {
+   "chain_id": "303",
+   "chain": [
+    [
+     "joltik",
+     "galvantula",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Jynx": {
+   "chain_id": "59",
+   "chain": [
+    [
+     "smoochum",
+     "jynx",
+     "level-up",
+     30
+    ]
+   ]
+  },
+  "Kingdra": {
+   "chain_id": "54",
+   "chain": [
+    [
+     "horsea",
+     "seadra",
+     "level-up",
+     32
+    ],
+    [
+     "seadra",
+     "kingdra",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Kyogre": {
+   "chain_id": "198",
+   "chain": []
+  },
+  "Lampent": {
+   "chain_id": "308",
+   "chain": [
+    [
+     "litwick",
+     "lampent",
+     "level-up",
+     41
+    ],
+    [
+     "lampent",
+     "chandelure",
+     "use-item",
+     "dusk-stone"
+    ]
+   ]
+  },
+  "Lanturn": {
+   "chain_id": "86",
+   "chain": [
+    [
+     "chinchou",
+     "lanturn",
+     "level-up",
+     27
+    ]
+   ]
+  },
+  "Leafeon": {
+   "chain_id": "67",
+   "chain": [
+    [
+     "eevee",
+     "vaporeon",
+     "use-item",
+     "water-stone"
+    ],
+    [
+     "eevee",
+     "jolteon",
+     "use-item",
+     "thunder-stone"
+    ],
+    [
+     "eevee",
+     "flareon",
+     "use-item",
+     "fire-stone"
+    ],
+    [
+     "eevee",
+     "espeon",
+     "level-up",
+     ""
+    ],
+    [
+     "eevee",
+     "umbreon",
+     "level-up",
+     ""
+    ],
+    [
+     "eevee",
+     "leafeon",
+     "level-up",
+     ""
+    ],
+    [
+     "eevee",
+     "glaceon",
+     "level-up",
+     ""
+    ],
+    [
+     "eevee",
+     "sylveon",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Lileep": {
+   "chain_id": "176",
+   "chain": [
+    [
+     "lileep",
+     "cradily",
+     "level-up",
+     40
+    ]
+   ]
+  },
+  "Litwick": {
+   "chain_id": "308",
+   "chain": [
+    [
+     "litwick",
+     "lampent",
+     "level-up",
+     41
+    ],
+    [
+     "lampent",
+     "chandelure",
+     "use-item",
+     "dusk-stone"
+    ]
+   ]
+  },
+  "Lombre": {
+   "chain_id": "136",
+   "chain": [
+    [
+     "lotad",
+     "lombre",
+     "level-up",
+     14
+    ],
+    [
+     "lombre",
+     "ludicolo",
+     "use-item",
+     "water-stone"
+    ]
+   ]
+  },
+  "Magby": {
+   "chain_id": "61",
+   "chain": [
+    [
+     "magby",
+     "magmar",
+     "level-up",
+     30
+    ],
+    [
+     "magmar",
+     "magmortar",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Magcargo": {
+   "chain_id": "111",
+   "chain": [
+    [
+     "slugma",
+     "magcargo",
+     "level-up",
+     38
+    ]
+   ]
+  },
+  "Magmar": {
+   "chain_id": "61",
+   "chain": [
+    [
+     "magby",
+     "magmar",
+     "level-up",
+     30
+    ],
+    [
+     "magmar",
+     "magmortar",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Magnezone": {
+   "chain_id": "34",
+   "chain": [
+    [
+     "magnemite",
+     "magneton",
+     "level-up",
+     30
+    ],
+    [
+     "magneton",
+     "magnezone",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Marowak": {
+   "chain_id": "46",
+   "chain": [
+    [
+     "cubone",
+     "marowak",
+     "level-up",
+     28
+    ]
+   ]
+  },
+  "Meowth": {
+   "chain_id": "22",
+   "chain": [
+    [
+     "meowth",
+     "persian",
+     "level-up",
+     28
+    ],
+    [
+     "meowth",
+     "perrserker",
+     "level-up",
+     28
+    ]
+   ]
+  },
+  "Milotic": {
+   "chain_id": "178",
+   "chain": [
+    [
+     "feebas",
+     "milotic",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Mr. Mime": {
+   "chain_id": "57",
+   "chain": [
+    [
+     "mime-jr",
+     "mr-mime",
+     "level-up",
+     ""
+    ],
+    [
+     "mr-mime",
+     "mr-rime",
+     "level-up",
+     42
+    ]
+   ]
+  },
+  "Nincada": {
+   "chain_id": "144",
+   "chain": [
+    [
+     "nincada",
+     "ninjask",
+     "level-up",
+     20
+    ],
+    [
+     "nincada",
+     "shedinja",
+     "shed",
+     ""
+    ]
+   ]
+  },
+  "Ninjask": {
+   "chain_id": "144",
+   "chain": [
+    [
+     "nincada",
+     "ninjask",
+     "level-up",
+     20
+    ],
+    [
+     "nincada",
+     "shedinja",
+     "shed",
+     ""
+    ]
+   ]
+  },
+  "Oddish": {
+   "chain_id": "18",
+   "chain": [
+    [
+     "oddish",
+     "gloom",
+     "level-up",
+     21
+    ],
+    [
+     "gloom",
+     "vileplume",
+     "use-item",
+     "leaf-stone"
+    ],
+    [
+     "gloom",
+     "bellossom",
+     "use-item",
+     "sun-stone"
+    ]
+   ]
+  },
+  "Persian": {
+   "chain_id": "22",
+   "chain": [
+    [
+     "meowth",
+     "persian",
+     "level-up",
+     28
+    ],
+    [
+     "meowth",
+     "perrserker",
+     "level-up",
+     28
+    ]
+   ]
+  },
+  "Politoed": {
+   "chain_id": "26",
+   "chain": [
+    [
+     "poliwag",
+     "poliwhirl",
+     "level-up",
+     25
+    ],
+    [
+     "poliwhirl",
+     "poliwrath",
+     "use-item",
+     "water-stone"
+    ],
+    [
+     "poliwhirl",
+     "politoed",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Porygon": {
+   "chain_id": "68",
+   "chain": [
+    [
+     "porygon",
+     "porygon2",
+     "trade",
+     ""
+    ],
+    [
+     "porygon2",
+     "porygon-z",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Psyduck": {
+   "chain_id": "23",
+   "chain": [
+    [
+     "psyduck",
+     "golduck",
+     "level-up",
+     33
+    ]
+   ]
+  },
+  "Quilava": {
+   "chain_id": "80",
+   "chain": [
+    [
+     "cyndaquil",
+     "quilava",
+     "level-up",
+     14
+    ],
+    [
+     "quilava",
+     "typhlosion",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Raikou": {
+   "chain_id": "123",
+   "chain": []
+  },
+  "Regirock": {
+   "chain_id": "193",
+   "chain": []
+  },
+  "Sableye": {
+   "chain_id": "149",
+   "chain": []
+  },
+  "Seadra": {
+   "chain_id": "54",
+   "chain": [
+    [
+     "horsea",
+     "seadra",
+     "level-up",
+     32
+    ],
+    [
+     "seadra",
+     "kingdra",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Seel": {
+   "chain_id": "37",
+   "chain": [
+    [
+     "seel",
+     "dewgong",
+     "level-up",
+     34
+    ]
+   ]
+  },
+  "Sharpedo": {
+   "chain_id": "160",
+   "chain": [
+    [
+     "carvanha",
+     "sharpedo",
+     "level-up",
+     30
+    ]
+   ]
+  },
+  "Shedinja": {
+   "chain_id": "144",
+   "chain": [
+    [
+     "nincada",
+     "ninjask",
+     "level-up",
+     20
+    ],
+    [
+     "nincada",
+     "shedinja",
+     "shed",
+     ""
+    ]
+   ]
+  },
+  "Shroomish": {
+   "chain_id": "142",
+   "chain": [
+    [
+     "shroomish",
+     "breloom",
+     "level-up",
+     23
+    ]
+   ]
+  },
+  "Sirfetch'd": {
+   "chain_id": "35",
+   "chain": [
+    [
+     "farfetchd",
+     "sirfetchd",
+     "three-critical-hits",
+     ""
+    ]
+   ]
+  },
+  "Slowbro": {
+   "chain_id": "33",
+   "chain": [
+    [
+     "slowpoke",
+     "slowbro",
+     "level-up",
+     37
+    ],
+    [
+     "slowpoke",
+     "slowking",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Slowking": {
+   "chain_id": "33",
+   "chain": [
+    [
+     "slowpoke",
+     "slowbro",
+     "level-up",
+     37
+    ],
+    [
+     "slowpoke",
+     "slowking",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Slowpoke": {
+   "chain_id": "33",
+   "chain": [
+    [
+     "slowpoke",
+     "slowbro",
+     "level-up",
+     37
+    ],
+    [
+     "slowpoke",
+     "slowking",
+     "trade",
+     ""
+    ]
+   ]
+  },
+  "Slugma": {
+   "chain_id": "111",
+   "chain": [
+    [
+     "slugma",
+     "magcargo",
+     "level-up",
+     38
+    ]
+   ]
+  },
+  "Smoochum": {
+   "chain_id": "59",
+   "chain": [
+    [
+     "smoochum",
+     "jynx",
+     "level-up",
+     30
+    ]
+   ]
+  },
+  "Snover": {
+   "chain_id": "239",
+   "chain": [
+    [
+     "snover",
+     "abomasnow",
+     "level-up",
+     40
+    ]
+   ]
+  },
+  "Snubbull": {
+   "chain_id": "105",
+   "chain": [
+    [
+     "snubbull",
+     "granbull",
+     "level-up",
+     23
+    ]
+   ]
+  },
+  "Sudowoodo": {
+   "chain_id": "91",
+   "chain": [
+    [
+     "bonsly",
+     "sudowoodo",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Suicune": {
+   "chain_id": "125",
+   "chain": []
+  },
+  "Swablu": {
+   "chain_id": "168",
+   "chain": [
+    [
+     "swablu",
+     "altaria",
+     "level-up",
+     35
+    ]
+   ]
+  },
+  "Tangela": {
+   "chain_id": "52",
+   "chain": [
+    [
+     "tangela",
+     "tangrowth",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Tangrowth": {
+   "chain_id": "52",
+   "chain": [
+    [
+     "tangela",
+     "tangrowth",
+     "level-up",
+     ""
+    ]
+   ]
+  },
+  "Togekiss": {
+   "chain_id": "87",
+   "chain": [
+    [
+     "togepi",
+     "togetic",
+     "level-up",
+     ""
+    ],
+    [
+     "togetic",
+     "togekiss",
+     "use-item",
+     "shiny-stone"
+    ]
+   ]
+  },
+  "Togepi": {
+   "chain_id": "87",
+   "chain": [
+    [
+     "togepi",
+     "togetic",
+     "level-up",
+     ""
+    ],
+    [
+     "togetic",
+     "togekiss",
+     "use-item",
+     "shiny-stone"
+    ]
+   ]
+  },
+  "Togetic": {
+   "chain_id": "87",
+   "chain": [
+    [
+     "togepi",
+     "togetic",
+     "level-up",
+     ""
+    ],
+    [
+     "togetic",
+     "togekiss",
+     "use-item",
+     "shiny-stone"
+    ]
+   ]
+  },
+  "Torkoal": {
+   "chain_id": "163",
+   "chain": []
+  },
+  "Toxicroak": {
+   "chain_id": "235",
+   "chain": [
+    [
+     "croagunk",
+     "toxicroak",
+     "level-up",
+     37
+    ]
+   ]
+  },
+  "Trapinch": {
+   "chain_id": "166",
+   "chain": [
+    [
+     "trapinch",
+     "vibrava",
+     "level-up",
+     35
+    ],
+    [
+     "vibrava",
+     "flygon",
+     "level-up",
+     45
+    ]
+   ]
+  },
+  "Typhlosion": {
+   "chain_id": "80",
+   "chain": [
+    [
+     "cyndaquil",
+     "quilava",
+     "level-up",
+     14
+    ],
+    [
+     "quilava",
+     "typhlosion",
+     "level-up",
+     36
+    ]
+   ]
+  },
+  "Tyrogue": {
+   "chain_id": "47",
+   "chain": [
+    [
+     "tyrogue",
+     "hitmonlee",
+     "level-up",
+     20
+    ],
+    [
+     "tyrogue",
+     "hitmonchan",
+     "level-up",
+     20
+    ],
+    [
+     "tyrogue",
+     "hitmontop",
+     "level-up",
+     20
+    ]
+   ]
+  },
+  "Vileplume": {
+   "chain_id": "18",
+   "chain": [
+    [
+     "oddish",
+     "gloom",
+     "level-up",
+     21
+    ],
+    [
+     "gloom",
+     "vileplume",
+     "use-item",
+     "leaf-stone"
+    ],
+    [
+     "gloom",
+     "bellossom",
+     "use-item",
+     "sun-stone"
+    ]
+   ]
+  },
+  "Wigglytuff": {
+   "chain_id": "16",
+   "chain": [
+    [
+     "igglybuff",
+     "jigglypuff",
+     "level-up",
+     ""
+    ],
+    [
+     "jigglypuff",
+     "wigglytuff",
+     "use-item",
+     "moon-stone"
+    ]
+   ]
+  },
+  "Wobbuffet": {
+   "chain_id": "100",
+   "chain": [
+    [
+     "wynaut",
+     "wobbuffet",
+     "level-up",
+     15
+    ]
+   ]
+  },
+  "Wynaut": {
+   "chain_id": "100",
+   "chain": [
+    [
+     "wynaut",
+     "wobbuffet",
+     "level-up",
+     15
+    ]
+   ]
+  },
+  "Zweilous": {
+   "chain_id": "323",
+   "chain": [
+    [
+     "deino",
+     "zweilous",
+     "level-up",
+     50
+    ],
+    [
+     "zweilous",
+     "hydreigon",
+     "level-up",
+     64
+    ]
+   ]
+  }
+ },
+ "missing": [
+  "Alolan-Geodude",
+  "Alolan-Golem",
+  "Alolan-Graveler",
+  "Alolan-Raichu",
+  "Darmanitan",
+  "Tauros Aqua",
+  "Tauros Blaze",
+  "Tauros Combat"
+ ]
+}

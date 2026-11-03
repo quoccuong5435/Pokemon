@@ -1,0 +1,660 @@
+[
+ {
+  "id": 144,
+  "name": "articuno",
+  "gen": "generation-i",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 145,
+  "name": "zapdos",
+  "gen": "generation-i",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 146,
+  "name": "moltres",
+  "gen": "generation-i",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 150,
+  "name": "mewtwo",
+  "gen": "generation-i",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 151,
+  "name": "mew",
+  "gen": "generation-i",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 243,
+  "name": "raikou",
+  "gen": "generation-ii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 244,
+  "name": "entei",
+  "gen": "generation-ii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 245,
+  "name": "suicune",
+  "gen": "generation-ii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 249,
+  "name": "lugia",
+  "gen": "generation-ii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 250,
+  "name": "ho-oh",
+  "gen": "generation-ii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 251,
+  "name": "celebi",
+  "gen": "generation-ii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 377,
+  "name": "regirock",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 378,
+  "name": "regice",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 379,
+  "name": "registeel",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 380,
+  "name": "latias",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 381,
+  "name": "latios",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 382,
+  "name": "kyogre",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 383,
+  "name": "groudon",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 384,
+  "name": "rayquaza",
+  "gen": "generation-iii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 385,
+  "name": "jirachi",
+  "gen": "generation-iii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 386,
+  "name": "deoxys",
+  "gen": "generation-iii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 480,
+  "name": "uxie",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 481,
+  "name": "mesprit",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 482,
+  "name": "azelf",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 483,
+  "name": "dialga",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 484,
+  "name": "palkia",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 485,
+  "name": "heatran",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 486,
+  "name": "regigigas",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 487,
+  "name": "giratina",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 488,
+  "name": "cresselia",
+  "gen": "generation-iv",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 489,
+  "name": "phione",
+  "gen": "generation-iv",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 490,
+  "name": "manaphy",
+  "gen": "generation-iv",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 491,
+  "name": "darkrai",
+  "gen": "generation-iv",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 492,
+  "name": "shaymin",
+  "gen": "generation-iv",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 493,
+  "name": "arceus",
+  "gen": "generation-iv",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 494,
+  "name": "victini",
+  "gen": "generation-v",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 638,
+  "name": "cobalion",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 639,
+  "name": "terrakion",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 640,
+  "name": "virizion",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 641,
+  "name": "tornadus",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 642,
+  "name": "thundurus",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 643,
+  "name": "reshiram",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 644,
+  "name": "zekrom",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 645,
+  "name": "landorus",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 646,
+  "name": "kyurem",
+  "gen": "generation-v",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 647,
+  "name": "keldeo",
+  "gen": "generation-v",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 648,
+  "name": "meloetta",
+  "gen": "generation-v",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 649,
+  "name": "genesect",
+  "gen": "generation-v",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 716,
+  "name": "xerneas",
+  "gen": "generation-vi",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 717,
+  "name": "yveltal",
+  "gen": "generation-vi",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 718,
+  "name": "zygarde",
+  "gen": "generation-vi",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 719,
+  "name": "diancie",
+  "gen": "generation-vi",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 720,
+  "name": "hoopa",
+  "gen": "generation-vi",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 721,
+  "name": "volcanion",
+  "gen": "generation-vi",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 772,
+  "name": "type-null",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 773,
+  "name": "silvally",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 785,
+  "name": "tapu-koko",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 786,
+  "name": "tapu-lele",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 787,
+  "name": "tapu-bulu",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 788,
+  "name": "tapu-fini",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 789,
+  "name": "cosmog",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 790,
+  "name": "cosmoem",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 791,
+  "name": "solgaleo",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 792,
+  "name": "lunala",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 800,
+  "name": "necrozma",
+  "gen": "generation-vii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 801,
+  "name": "magearna",
+  "gen": "generation-vii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 802,
+  "name": "marshadow",
+  "gen": "generation-vii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 807,
+  "name": "zeraora",
+  "gen": "generation-vii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 808,
+  "name": "meltan",
+  "gen": "generation-vii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 809,
+  "name": "melmetal",
+  "gen": "generation-vii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 888,
+  "name": "zacian",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 889,
+  "name": "zamazenta",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 890,
+  "name": "eternatus",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 891,
+  "name": "kubfu",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 892,
+  "name": "urshifu",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 893,
+  "name": "zarude",
+  "gen": "generation-viii",
+  "legendary": false,
+  "mythical": true
+ },
+ {
+  "id": 894,
+  "name": "regieleki",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 895,
+  "name": "regidrago",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 896,
+  "name": "glastrier",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 897,
+  "name": "spectrier",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 898,
+  "name": "calyrex",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 905,
+  "name": "enamorus",
+  "gen": "generation-viii",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1001,
+  "name": "wo-chien",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1002,
+  "name": "chien-pao",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1003,
+  "name": "ting-lu",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1004,
+  "name": "chi-yu",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1007,
+  "name": "koraidon",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1008,
+  "name": "miraidon",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1014,
+  "name": "okidogi",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1015,
+  "name": "munkidori",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1016,
+  "name": "fezandipiti",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1017,
+  "name": "ogerpon",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1024,
+  "name": "terapagos",
+  "gen": "generation-ix",
+  "legendary": true,
+  "mythical": false
+ },
+ {
+  "id": 1025,
+  "name": "pecharunt",
+  "gen": "generation-ix",
+  "legendary": false,
+  "mythical": true
+ }
+]

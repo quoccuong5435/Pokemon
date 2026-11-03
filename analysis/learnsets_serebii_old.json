@@ -1,0 +1,4961 @@
+{
+ "source": "Serebii (https://www.serebii.net/pokedex-sv/<species>/): level-up tables, Scarlet/Violet. Evolve, dash and double dash rows count as level 1.",
+ "fields": "[level, move, category, power]",
+ "species": {
+  "torchic": [
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Peck",
+    "Physical",
+    35
+   ],
+   [
+    3,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    6,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    9,
+    "Flame Charge",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Aerial Ace",
+    "Physical",
+    60
+   ],
+   [
+    21,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    24,
+    "Bounce",
+    "Physical",
+    85
+   ],
+   [
+    27,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    50,
+    "Feather Dance",
+    "Status",
+    0
+   ],
+   [
+    55,
+    "Flare Blitz",
+    "Physical",
+    120
+   ]
+  ],
+  "treecko": [
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    3,
+    "Leafage",
+    "Physical",
+    40
+   ],
+   [
+    6,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    9,
+    "Absorb",
+    "Special",
+    20
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    14,
+    "Leech Seed",
+    "Status",
+    0
+   ],
+   [
+    21,
+    "Giga Drain",
+    "Special",
+    75
+   ],
+   [
+    27,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    33,
+    "Energy Ball",
+    "Special",
+    90
+   ],
+   [
+    35,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    40,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    50,
+    "Synthesis",
+    "Status",
+    0
+   ],
+   [
+    55,
+    "Leaf Storm",
+    "Special",
+    130
+   ]
+  ],
+  "larvitar": [
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    3,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    9,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    12,
+    "Sand Tomb",
+    "Physical",
+    35
+   ],
+   [
+    15,
+    "Rock Slide",
+    "Physical",
+    75
+   ],
+   [
+    21,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    27,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    37,
+    "Stone Edge",
+    "Physical",
+    100
+   ],
+   [
+    40,
+    "Rock Blast",
+    "Physical",
+    25
+   ],
+   [
+    48,
+    "Hyper Beam",
+    "Special",
+    150
+   ]
+  ],
+  "ralts": [
+   [
+    1,
+    "Disarming Voice",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    6,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    9,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Draining Kiss",
+    "Special",
+    50
+   ],
+   [
+    15,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    20,
+    "Magical Leaf",
+    "Special",
+    60
+   ],
+   [
+    24,
+    "Confuse Ray",
+    "Status",
+    0
+   ],
+   [
+    28,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Calm Mind",
+    "Status",
+    0
+   ],
+   [
+    38,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    44,
+    "Mystical Fire",
+    "Special",
+    75
+   ],
+   [
+    58,
+    "Future Sight",
+    "Special",
+    120
+   ]
+  ],
+  "bagon": [
+   [
+    1,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    15,
+    "Headbutt",
+    "Physical",
+    70
+   ],
+   [
+    25,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    30,
+    "Dragon Claw",
+    "Physical",
+    80
+   ],
+   [
+    35,
+    "Zen Headbutt",
+    "Physical",
+    80
+   ],
+   [
+    40,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    50,
+    "Outrage",
+    "Physical",
+    120
+   ],
+   [
+    55,
+    "Double-Edge",
+    "Physical",
+    120
+   ]
+  ],
+  "lucario": [
+   [
+    1,
+    "Bullet Punch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Endure",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    8,
+    "Metal Claw",
+    "Physical",
+    50
+   ],
+   [
+    16,
+    "Work Up",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Rock Smash",
+    "Physical",
+    40
+   ],
+   [
+    24,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Aura Sphere",
+    "Special",
+    80
+   ],
+   [
+    28,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    32,
+    "Metal Sound",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Swords Dance",
+    "Status",
+    0
+   ],
+   [
+    38,
+    "Dragon Pulse",
+    "Special",
+    85
+   ],
+   [
+    45,
+    "Extreme Speed",
+    "Physical",
+    80
+   ],
+   [
+    54,
+    "Close Combat",
+    "Physical",
+    120
+   ]
+  ],
+  "absol": [
+   [
+    1,
+    "Confuse Ray",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Shadow Sneak",
+    "Physical",
+    40
+   ],
+   [
+    10,
+    "Knock Off",
+    "Physical",
+    65
+   ],
+   [
+    15,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Swords Dance",
+    "Status",
+    0
+   ],
+   [
+    23,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    27,
+    "Night Slash",
+    "Physical",
+    70
+   ],
+   [
+    32,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    36,
+    "Taunt",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Shadow Claw",
+    "Physical",
+    70
+   ],
+   [
+    43,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    46,
+    "Air Slash",
+    "Special",
+    75
+   ],
+   [
+    48,
+    "Future Sight",
+    "Special",
+    120
+   ],
+   [
+    54,
+    "Perish Song",
+    "Status",
+    0
+   ]
+  ],
+  "metagross": [
+   [
+    1,
+    "Bullet Punch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Metal Claw",
+    "Physical",
+    50
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    6,
+    "Zen Headbutt",
+    "Physical",
+    80
+   ],
+   [
+    18,
+    "Flash Cannon",
+    "Special",
+    80
+   ],
+   [
+    26,
+    "Take Down",
+    "Physical",
+    90
+   ],
+   [
+    34,
+    "Psycho Cut",
+    "Physical",
+    70
+   ],
+   [
+    42,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    46,
+    "Brutal Swing",
+    "Physical",
+    60
+   ],
+   [
+    50,
+    "Iron Head",
+    "Physical",
+    80
+   ],
+   [
+    54,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    58,
+    "Hyper Beam",
+    "Special",
+    150
+   ]
+  ],
+  "salamence": [
+   [
+    1,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    1,
+    "Dragon Tail",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Dual Wingbeat",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Roost",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Headbutt",
+    "Physical",
+    70
+   ],
+   [
+    20,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Dragon Claw",
+    "Physical",
+    80
+   ],
+   [
+    39,
+    "Zen Headbutt",
+    "Physical",
+    80
+   ],
+   [
+    46,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    55,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    73,
+    "Double-Edge",
+    "Physical",
+    120
+   ]
+  ],
+  "gardevoir": [
+   [
+    1,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Disarming Voice",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Heal Pulse",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Healing Wish",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Misty Terrain",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Mystical Fire",
+    "Special",
+    75
+   ],
+   [
+    9,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Draining Kiss",
+    "Special",
+    50
+   ],
+   [
+    15,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    23,
+    "Life Dew",
+    "Status",
+    0
+   ],
+   [
+    28,
+    "Wish",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Calm Mind",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    49,
+    "Moonblast",
+    "Special",
+    95
+   ],
+   [
+    56,
+    "Dream Eater",
+    "Special",
+    100
+   ],
+   [
+    63,
+    "Future Sight",
+    "Special",
+    120
+   ]
+  ],
+  "blaziken": [
+   [
+    1,
+    "Double Kick",
+    "Physical",
+    30
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    9,
+    "Flame Charge",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Sand Attack",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Aerial Ace",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    30,
+    "Bounce",
+    "Physical",
+    85
+   ],
+   [
+    35,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Bulk Up",
+    "Status",
+    0
+   ],
+   [
+    49,
+    "Reversal",
+    "Physical",
+    0
+   ],
+   [
+    56,
+    "Flare Blitz",
+    "Physical",
+    120
+   ],
+   [
+    63,
+    "Brave Bird",
+    "Physical",
+    120
+   ]
+  ],
+  "tyranitar": [
+   [
+    1,
+    "Dark Pulse",
+    "Special",
+    80
+   ],
+   [
+    1,
+    "Fire Fang",
+    "Physical",
+    65
+   ],
+   [
+    1,
+    "Ice Fang",
+    "Physical",
+    65
+   ],
+   [
+    1,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Payback",
+    "Physical",
+    50
+   ],
+   [
+    1,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Thunder Fang",
+    "Physical",
+    65
+   ],
+   [
+    9,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    12,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Rock Slide",
+    "Physical",
+    75
+   ],
+   [
+    18,
+    "Stomping Tantrum",
+    "Physical",
+    75
+   ],
+   [
+    21,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Smack Down",
+    "Physical",
+    50
+   ],
+   [
+    27,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    37,
+    "Stone Edge",
+    "Physical",
+    100
+   ],
+   [
+    42,
+    "Thrash",
+    "Physical",
+    120
+   ],
+   [
+    47,
+    "Sandstorm",
+    "Status",
+    0
+   ],
+   [
+    52,
+    "Hyper Beam",
+    "Special",
+    150
+   ],
+   [
+    59,
+    "Giga Impact",
+    "Physical",
+    150
+   ]
+  ],
+  "sceptile": [
+   [
+    1,
+    "Leafage",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Pound",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    5,
+    "Mega Drain",
+    "Special",
+    40
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Quick Guard",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Assurance",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Giga Drain",
+    "Special",
+    75
+   ],
+   [
+    30,
+    "Slam",
+    "Physical",
+    80
+   ],
+   [
+    35,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    49,
+    "Endeavor",
+    "Physical",
+    0
+   ],
+   [
+    56,
+    "Leaf Storm",
+    "Special",
+    130
+   ]
+  ],
+  "pupitar": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Payback",
+    "Physical",
+    50
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    9,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    12,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Rock Slide",
+    "Physical",
+    75
+   ],
+   [
+    18,
+    "Stomping Tantrum",
+    "Physical",
+    75
+   ],
+   [
+    21,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Smack Down",
+    "Physical",
+    50
+   ],
+   [
+    27,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    37,
+    "Stone Edge",
+    "Physical",
+    100
+   ],
+   [
+    42,
+    "Thrash",
+    "Physical",
+    120
+   ],
+   [
+    47,
+    "Sandstorm",
+    "Status",
+    0
+   ],
+   [
+    52,
+    "Hyper Beam",
+    "Special",
+    150
+   ]
+  ],
+  "shelgon": [
+   [
+    1,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    15,
+    "Headbutt",
+    "Physical",
+    70
+   ],
+   [
+    20,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Crunch",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Dragon Claw",
+    "Physical",
+    80
+   ],
+   [
+    39,
+    "Zen Headbutt",
+    "Physical",
+    80
+   ],
+   [
+    46,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    53,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    60,
+    "Outrage",
+    "Physical",
+    120
+   ],
+   [
+    67,
+    "Double-Edge",
+    "Physical",
+    120
+   ]
+  ],
+  "beldum": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ]
+  ],
+  "kirlia": [
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Disarming Voice",
+    "Special",
+    40
+   ],
+   [
+    6,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    9,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Draining Kiss",
+    "Special",
+    50
+   ],
+   [
+    15,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    20,
+    "Magical Leaf",
+    "Special",
+    60
+   ],
+   [
+    24,
+    "Confuse Ray",
+    "Status",
+    0
+   ],
+   [
+    28,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Calm Mind",
+    "Status",
+    0
+   ],
+   [
+    38,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    44,
+    "Mystical Fire",
+    "Special",
+    75
+   ],
+   [
+    58,
+    "Future Sight",
+    "Special",
+    120
+   ]
+  ],
+  "grovyle": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "X-Scissor",
+    "Physical",
+    80
+   ],
+   [
+    3,
+    "Leafage",
+    "Physical",
+    40
+   ],
+   [
+    6,
+    "Quick Attack",
+    "Physical",
+    30
+   ],
+   [
+    9,
+    "Absorb",
+    "Special",
+    20
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    14,
+    "Leech Seed",
+    "Status",
+    0
+   ],
+   [
+    21,
+    "Giga Drain",
+    "Special",
+    75
+   ],
+   [
+    27,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    33,
+    "Energy Ball",
+    "Special",
+    90
+   ],
+   [
+    35,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    38,
+    "Leaf Blade",
+    "Physical",
+    90
+   ],
+   [
+    40,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Dragon Rush",
+    "Physical",
+    100
+   ],
+   [
+    50,
+    "Synthesis",
+    "Status",
+    0
+   ],
+   [
+    55,
+    "Leaf Storm",
+    "Special",
+    130
+   ]
+  ],
+  "combusken": [
+   [
+    1,
+    "Double Kick",
+    "Physical",
+    30
+   ],
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    9,
+    "Flame Charge",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Sand Attack",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Aerial Ace",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    30,
+    "Bounce",
+    "Physical",
+    85
+   ],
+   [
+    35,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Blaze Kick",
+    "Physical",
+    85
+   ],
+   [
+    45,
+    "Bulk Up",
+    "Status",
+    0
+   ],
+   [
+    50,
+    "Reversal",
+    "Physical",
+    0
+   ],
+   [
+    55,
+    "Flare Blitz",
+    "Physical",
+    120
+   ]
+  ],
+  "gallade": [
+   [
+    1,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    1,
+    "Night Slash",
+    "Physical",
+    70
+   ],
+   [
+    1,
+    "Imprison",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Life Dew",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Future Sight",
+    "Special",
+    120
+   ],
+   [
+    1,
+    "Fury Cutter",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Sacred Sword",
+    "Physical",
+    90
+   ],
+   [
+    1,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Disarming Voice",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Calm Mind",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leaf Blade",
+    "Physical",
+    90
+   ],
+   [
+    1,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Draining Kiss",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    1,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Dream Eater",
+    "Special",
+    100
+   ],
+   [
+    1,
+    "Aqua Cutter",
+    "Physical",
+    70
+   ],
+   [
+    9,
+    "Helping Hand",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Feint",
+    "Physical",
+    30
+   ],
+   [
+    15,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Aerial Ace",
+    "Physical",
+    60
+   ],
+   [
+    23,
+    "False Swipe",
+    "Physical",
+    40
+   ],
+   [
+    28,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Swords Dance",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Psycho Cut",
+    "Physical",
+    70
+   ],
+   [
+    49,
+    "Heal Pulse",
+    "Status",
+    0
+   ],
+   [
+    56,
+    "Wide Guard",
+    "Status",
+    0
+   ],
+   [
+    56,
+    "Quick Guard",
+    "Status",
+    0
+   ],
+   [
+    63,
+    "Close Combat",
+    "Physical",
+    120
+   ]
+  ],
+  "venusaur": [
+   [
+    1,
+    "Power Whip",
+    "Physical",
+    120
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    3,
+    "Vine Whip",
+    "Physical",
+    45
+   ],
+   [
+    6,
+    "Growth",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Leech Seed",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Razor Leaf",
+    "Physical",
+    55
+   ],
+   [
+    15,
+    "Poison Powder",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Sleep Powder",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Take Down",
+    "Physical",
+    90
+   ],
+   [
+    30,
+    "Magical Leaf",
+    "Special",
+    60
+   ],
+   [
+    35,
+    "Synthesis",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Amnesia",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Sludge Wave",
+    "Special",
+    95
+   ],
+   [
+    45,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    55,
+    "Solar Beam",
+    "Special",
+    120
+   ]
+  ],
+  "charmander": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    4,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    8,
+    "Smokescreen",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    17,
+    "Fire Fang",
+    "Physical",
+    65
+   ],
+   [
+    20,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    24,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    28,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    32,
+    "Fire Spin",
+    "Special",
+    35
+   ],
+   [
+    36,
+    "Inferno",
+    "Special",
+    100
+   ],
+   [
+    40,
+    "Flare Blitz",
+    "Physical",
+    120
+   ]
+  ],
+  "squirtle": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    3,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    6,
+    "Withdraw",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Rapid Spin",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    15,
+    "Water Pulse",
+    "Special",
+    60
+   ],
+   [
+    18,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    21,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Aqua Tail",
+    "Physical",
+    90
+   ],
+   [
+    27,
+    "Shell Smash",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    36,
+    "Wave Crash",
+    "Physical",
+    120
+   ]
+  ],
+  "pikachu": [
+   [
+    4,
+    "Thunder Wave",
+    "Status",
+    0
+   ],
+   [
+    8,
+    "Double Team",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Electro Ball",
+    "Special",
+    0
+   ],
+   [
+    16,
+    "Feint",
+    "Physical",
+    30
+   ],
+   [
+    20,
+    "Spark",
+    "Physical",
+    65
+   ],
+   [
+    24,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    28,
+    "Iron Tail",
+    "Physical",
+    100
+   ],
+   [
+    32,
+    "Discharge",
+    "Special",
+    80
+   ],
+   [
+    36,
+    "Thunderbolt",
+    "Special",
+    90
+   ],
+   [
+    40,
+    "Light Screen",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Thunder",
+    "Special",
+    110
+   ],
+   [
+    1,
+    "Thunder Shock",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ]
+  ],
+  "raichu": [
+   [
+    1,
+    "Thunder Punch",
+    "Physical",
+    75
+   ],
+   [
+    1,
+    "Thunder Shock",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Quick Attack",
+    "Physical",
+    30
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    4,
+    "Thunder Wave",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Nuzzle",
+    "Physical",
+    20
+   ],
+   [
+    16,
+    "Spark",
+    "Physical",
+    65
+   ],
+   [
+    20,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Thunderbolt",
+    "Special",
+    90
+   ],
+   [
+    30,
+    "Charge",
+    "Status",
+    0
+   ],
+   [
+    35,
+    "Light Screen",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Thunder",
+    "Special",
+    110
+   ],
+   [
+    99,
+    "Volt Tackle",
+    "Physical",
+    120
+   ]
+  ],
+  "charmeleon": [
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Smokescreen",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    19,
+    "Fire Fang",
+    "Physical",
+    65
+   ],
+   [
+    24,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    30,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    37,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    48,
+    "Inferno",
+    "Special",
+    100
+   ],
+   [
+    54,
+    "Flare Blitz",
+    "Physical",
+    120
+   ]
+  ],
+  "wartortle": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Withdraw",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Rapid Spin",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    15,
+    "Water Pulse",
+    "Special",
+    60
+   ],
+   [
+    20,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Aqua Tail",
+    "Physical",
+    90
+   ],
+   [
+    35,
+    "Shell Smash",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    50,
+    "Wave Crash",
+    "Physical",
+    120
+   ]
+  ],
+  "pidgey": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Gust",
+    "Special",
+    40
+   ],
+   [
+    13,
+    "Quick Attack",
+    "Physical",
+    30
+   ],
+   [
+    17,
+    "Twister",
+    "Special",
+    40
+   ],
+   [
+    21,
+    "Wing Attack",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Whirlwind",
+    "Status",
+    0
+   ],
+   [
+    29,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Air Slash",
+    "Special",
+    75
+   ],
+   [
+    40,
+    "Feather Dance",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Hurricane",
+    "Special",
+    110
+   ],
+   [
+    50,
+    "Brave Bird",
+    "Physical",
+    120
+   ]
+  ],
+  "pidgeotto": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Gust",
+    "Special",
+    40
+   ],
+   [
+    13,
+    "Quick Attack",
+    "Physical",
+    30
+   ],
+   [
+    17,
+    "Twister",
+    "Special",
+    40
+   ],
+   [
+    21,
+    "Wing Attack",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Whirlwind",
+    "Status",
+    0
+   ],
+   [
+    29,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Air Slash",
+    "Special",
+    75
+   ],
+   [
+    40,
+    "Feather Dance",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Hurricane",
+    "Special",
+    110
+   ],
+   [
+    50,
+    "Brave Bird",
+    "Physical",
+    120
+   ]
+  ],
+  "pidgeot": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Gust",
+    "Special",
+    40
+   ],
+   [
+    13,
+    "Quick Attack",
+    "Physical",
+    30
+   ],
+   [
+    17,
+    "Twister",
+    "Special",
+    40
+   ],
+   [
+    21,
+    "Wing Attack",
+    "Physical",
+    60
+   ],
+   [
+    25,
+    "Whirlwind",
+    "Status",
+    0
+   ],
+   [
+    29,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Air Slash",
+    "Special",
+    75
+   ],
+   [
+    40,
+    "Feather Dance",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Hurricane",
+    "Special",
+    110
+   ],
+   [
+    50,
+    "Brave Bird",
+    "Physical",
+    120
+   ]
+  ],
+  "charizard": [
+   [
+    1,
+    "Air Slash",
+    "Special",
+    75
+   ],
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Ember",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Smokescreen",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Heat Wave",
+    "Special",
+    95
+   ],
+   [
+    1,
+    "Dragon Claw",
+    "Physical",
+    80
+   ],
+   [
+    12,
+    "Dragon Breath",
+    "Special",
+    60
+   ],
+   [
+    19,
+    "Fire Fang",
+    "Physical",
+    65
+   ],
+   [
+    24,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    30,
+    "Flamethrower",
+    "Special",
+    90
+   ],
+   [
+    39,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    46,
+    "Fire Spin",
+    "Special",
+    35
+   ],
+   [
+    54,
+    "Inferno",
+    "Special",
+    100
+   ],
+   [
+    62,
+    "Flare Blitz",
+    "Physical",
+    120
+   ]
+  ],
+  "bulbasaur": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    3,
+    "Vine Whip",
+    "Physical",
+    45
+   ],
+   [
+    6,
+    "Growth",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Leech Seed",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Razor Leaf",
+    "Physical",
+    55
+   ],
+   [
+    15,
+    "Poison Powder",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Sleep Powder",
+    "Status",
+    0
+   ],
+   [
+    18,
+    "Seed Bomb",
+    "Physical",
+    80
+   ],
+   [
+    21,
+    "Take Down",
+    "Physical",
+    90
+   ],
+   [
+    24,
+    "Sweet Scent",
+    "Status",
+    0
+   ],
+   [
+    27,
+    "Synthesis",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Worry Seed",
+    "Status",
+    0
+   ],
+   [
+    33,
+    "Power Whip",
+    "Physical",
+    120
+   ],
+   [
+    36,
+    "Solar Beam",
+    "Special",
+    120
+   ]
+  ],
+  "sandshrew": [
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Defense Curl",
+    "Status",
+    0
+   ],
+   [
+    3,
+    "Poison Sting",
+    "Physical",
+    15
+   ],
+   [
+    6,
+    "Sand Attack",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Rollout",
+    "Physical",
+    30
+   ],
+   [
+    12,
+    "Fury Cutter",
+    "Physical",
+    40
+   ],
+   [
+    15,
+    "Rapid Spin",
+    "Physical",
+    50
+   ],
+   [
+    18,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    21,
+    "Swift",
+    "Special",
+    60
+   ],
+   [
+    24,
+    "Fury Swipes",
+    "Physical",
+    18
+   ],
+   [
+    27,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    33,
+    "Dig",
+    "Physical",
+    80
+   ],
+   [
+    36,
+    "Gyro Ball",
+    "Physical",
+    0
+   ],
+   [
+    39,
+    "Swords Dance",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Sandstorm",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Earthquake",
+    "Physical",
+    100
+   ]
+  ],
+  "sandslash": [
+   [
+    1,
+    "Scratch",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Crush Claw",
+    "Physical",
+    75
+   ],
+   [
+    1,
+    "Sand Attack",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Poison Sting",
+    "Physical",
+    15
+   ],
+   [
+    1,
+    "Defense Curl",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Rollout",
+    "Physical",
+    30
+   ],
+   [
+    12,
+    "Fury Cutter",
+    "Physical",
+    40
+   ],
+   [
+    15,
+    "Rapid Spin",
+    "Physical",
+    50
+   ],
+   [
+    18,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    21,
+    "Swift",
+    "Special",
+    60
+   ],
+   [
+    26,
+    "Fury Swipes",
+    "Physical",
+    18
+   ],
+   [
+    31,
+    "Sand Tomb",
+    "Physical",
+    35
+   ],
+   [
+    36,
+    "Slash",
+    "Physical",
+    70
+   ],
+   [
+    41,
+    "Dig",
+    "Physical",
+    80
+   ],
+   [
+    46,
+    "Gyro Ball",
+    "Physical",
+    0
+   ],
+   [
+    51,
+    "Swords Dance",
+    "Status",
+    0
+   ],
+   [
+    56,
+    "Sandstorm",
+    "Status",
+    0
+   ],
+   [
+    61,
+    "Earthquake",
+    "Physical",
+    100
+   ]
+  ],
+  "kadabra": [
+   [
+    1,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    1,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Reflect",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Psycho Cut",
+    "Physical",
+    70
+   ],
+   [
+    25,
+    "Recover",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Psyshock",
+    "Special",
+    80
+   ],
+   [
+    35,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    40,
+    "Safeguard",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Future Sight",
+    "Special",
+    120
+   ],
+   [
+    50,
+    "Calm Mind",
+    "Status",
+    0
+   ]
+  ],
+  "alakazam": [
+   [
+    1,
+    "Confusion",
+    "Special",
+    50
+   ],
+   [
+    1,
+    "Psybeam",
+    "Special",
+    65
+   ],
+   [
+    1,
+    "Teleport",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Reflect",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Psycho Cut",
+    "Physical",
+    70
+   ],
+   [
+    25,
+    "Recover",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Psyshock",
+    "Special",
+    80
+   ],
+   [
+    35,
+    "Psychic",
+    "Special",
+    90
+   ],
+   [
+    40,
+    "Safeguard",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Future Sight",
+    "Special",
+    120
+   ],
+   [
+    50,
+    "Calm Mind",
+    "Status",
+    0
+   ]
+  ],
+  "geodude": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Defense Curl",
+    "Status",
+    0
+   ],
+   [
+    6,
+    "Rock Polish",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Rollout",
+    "Physical",
+    30
+   ],
+   [
+    12,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    16,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    18,
+    "Smack Down",
+    "Physical",
+    50
+   ],
+   [
+    24,
+    "Self-Destruct",
+    "Physical",
+    200
+   ],
+   [
+    28,
+    "Stealth Rock",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Rock Blast",
+    "Physical",
+    25
+   ],
+   [
+    34,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    36,
+    "Explosion",
+    "Physical",
+    250
+   ],
+   [
+    40,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    42,
+    "Stone Edge",
+    "Physical",
+    100
+   ]
+  ],
+  "graveler": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Defense Curl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Rock Polish",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Rollout",
+    "Physical",
+    30
+   ],
+   [
+    12,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    16,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    18,
+    "Smack Down",
+    "Physical",
+    50
+   ],
+   [
+    24,
+    "Self-Destruct",
+    "Physical",
+    200
+   ],
+   [
+    30,
+    "Stealth Rock",
+    "Status",
+    0
+   ],
+   [
+    34,
+    "Rock Blast",
+    "Physical",
+    25
+   ],
+   [
+    40,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    44,
+    "Explosion",
+    "Physical",
+    250
+   ],
+   [
+    50,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    54,
+    "Stone Edge",
+    "Physical",
+    100
+   ]
+  ],
+  "golem": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Defense Curl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Rock Polish",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Heavy Slam",
+    "Physical",
+    0
+   ],
+   [
+    16,
+    "Rock Throw",
+    "Physical",
+    50
+   ],
+   [
+    18,
+    "Smack Down",
+    "Physical",
+    50
+   ],
+   [
+    22,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    24,
+    "Self-Destruct",
+    "Physical",
+    200
+   ],
+   [
+    30,
+    "Stealth Rock",
+    "Status",
+    0
+   ],
+   [
+    34,
+    "Rock Blast",
+    "Physical",
+    25
+   ],
+   [
+    40,
+    "Earthquake",
+    "Physical",
+    100
+   ],
+   [
+    44,
+    "Explosion",
+    "Physical",
+    250
+   ],
+   [
+    50,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    54,
+    "Stone Edge",
+    "Physical",
+    100
+   ]
+  ],
+  "machop": [
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Rock Smash",
+    "Physical",
+    40
+   ],
+   [
+    4,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Power-Up Punch",
+    "Physical",
+    40
+   ],
+   [
+    14,
+    "Brutal Swing",
+    "Physical",
+    60
+   ],
+   [
+    16,
+    "Bullet Punch",
+    "Physical",
+    30
+   ],
+   [
+    18,
+    "Knock Off",
+    "Physical",
+    65
+   ],
+   [
+    20,
+    "Bulk Up",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Brick Break",
+    "Physical",
+    75
+   ],
+   [
+    30,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    36,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    54,
+    "Dynamic Punch",
+    "Physical",
+    100
+   ]
+  ],
+  "machoke": [
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Rock Smash",
+    "Physical",
+    40
+   ],
+   [
+    4,
+    "Focus Energy",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Power-Up Punch",
+    "Physical",
+    40
+   ],
+   [
+    14,
+    "Brutal Swing",
+    "Physical",
+    60
+   ],
+   [
+    16,
+    "Bullet Punch",
+    "Physical",
+    30
+   ],
+   [
+    18,
+    "Knock Off",
+    "Physical",
+    65
+   ],
+   [
+    20,
+    "Bulk Up",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Brick Break",
+    "Physical",
+    75
+   ],
+   [
+    30,
+    "Bulldoze",
+    "Physical",
+    60
+   ],
+   [
+    36,
+    "Detect",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    54,
+    "Dynamic Punch",
+    "Physical",
+    100
+   ]
+  ],
+  "ivysaur": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    3,
+    "Vine Whip",
+    "Physical",
+    45
+   ],
+   [
+    6,
+    "Growth",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Leech Seed",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Razor Leaf",
+    "Physical",
+    55
+   ],
+   [
+    15,
+    "Poison Powder",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Sleep Powder",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Take Down",
+    "Physical",
+    90
+   ],
+   [
+    30,
+    "Magical Leaf",
+    "Special",
+    60
+   ],
+   [
+    35,
+    "Synthesis",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Amnesia",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Sludge Wave",
+    "Special",
+    95
+   ],
+   [
+    45,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    55,
+    "Solar Beam",
+    "Special",
+    120
+   ]
+  ],
+  "poliwag": [
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    6,
+    "Pound",
+    "Physical",
+    40
+   ],
+   [
+    12,
+    "Mud Shot",
+    "Special",
+    55
+   ],
+   [
+    18,
+    "Bubble Beam",
+    "Special",
+    65
+   ],
+   [
+    24,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Body Slam",
+    "Physical",
+    85
+   ],
+   [
+    36,
+    "Earth Power",
+    "Special",
+    90
+   ],
+   [
+    42,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    48,
+    "Belly Drum",
+    "Status",
+    0
+   ],
+   [
+    54,
+    "Double-Edge",
+    "Physical",
+    120
+   ]
+  ],
+  "poliwhirl": [
+   [
+    1,
+    "Pound",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Mud Shot",
+    "Special",
+    55
+   ],
+   [
+    18,
+    "Bubble Beam",
+    "Special",
+    65
+   ],
+   [
+    24,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    32,
+    "Body Slam",
+    "Physical",
+    85
+   ],
+   [
+    40,
+    "Earth Power",
+    "Special",
+    90
+   ],
+   [
+    48,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    56,
+    "Belly Drum",
+    "Status",
+    0
+   ],
+   [
+    66,
+    "Double-Edge",
+    "Physical",
+    120
+   ]
+  ],
+  "tauros": [
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    5,
+    "Work Up",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Payback",
+    "Physical",
+    50
+   ],
+   [
+    15,
+    "Assurance",
+    "Physical",
+    60
+   ],
+   [
+    20,
+    "Horn Attack",
+    "Physical",
+    65
+   ],
+   [
+    25,
+    "Scary Face",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Zen Headbutt",
+    "Physical",
+    80
+   ],
+   [
+    35,
+    "Raging Bull",
+    "Physical",
+    90
+   ],
+   [
+    40,
+    "Rest",
+    "Status",
+    0
+   ],
+   [
+    45,
+    "Swagger",
+    "Status",
+    0
+   ],
+   [
+    50,
+    "Thrash",
+    "Physical",
+    120
+   ],
+   [
+    55,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    60,
+    "Giga Impact",
+    "Physical",
+    150
+   ]
+  ],
+  "weezing": [
+   [
+    1,
+    "Double Hit",
+    "Physical",
+    35
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Smokescreen",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Smog",
+    "Special",
+    30
+   ],
+   [
+    1,
+    "Poison Gas",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Heat Wave",
+    "Special",
+    95
+   ],
+   [
+    12,
+    "Clear Smog",
+    "Special",
+    50
+   ],
+   [
+    16,
+    "Assurance",
+    "Physical",
+    60
+   ],
+   [
+    20,
+    "Sludge",
+    "Special",
+    65
+   ],
+   [
+    24,
+    "Haze",
+    "Status",
+    0
+   ],
+   [
+    28,
+    "Self-Destruct",
+    "Physical",
+    200
+   ],
+   [
+    32,
+    "Sludge Bomb",
+    "Special",
+    90
+   ],
+   [
+    38,
+    "Toxic",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Belch",
+    "Special",
+    120
+   ],
+   [
+    50,
+    "Explosion",
+    "Physical",
+    250
+   ],
+   [
+    56,
+    "Memento",
+    "Status",
+    0
+   ],
+   [
+    62,
+    "Destiny Bond",
+    "Status",
+    0
+   ]
+  ],
+  "weepinbell": [
+   [
+    1,
+    "Vine Whip",
+    "Physical",
+    45
+   ],
+   [
+    1,
+    "Wrap",
+    "Physical",
+    15
+   ],
+   [
+    1,
+    "Growth",
+    "Status",
+    0
+   ],
+   [
+    13,
+    "Sleep Powder",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Poison Powder",
+    "Status",
+    0
+   ],
+   [
+    17,
+    "Stun Spore",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Acid",
+    "Special",
+    40
+   ],
+   [
+    29,
+    "Knock Off",
+    "Physical",
+    65
+   ],
+   [
+    32,
+    "Sweet Scent",
+    "Status",
+    0
+   ],
+   [
+    39,
+    "Gastro Acid",
+    "Status",
+    0
+   ],
+   [
+    44,
+    "Razor Leaf",
+    "Physical",
+    55
+   ],
+   [
+    47,
+    "Poison Jab",
+    "Physical",
+    80
+   ],
+   [
+    54,
+    "Slam",
+    "Physical",
+    80
+   ],
+   [
+    58,
+    "Power Whip",
+    "Physical",
+    120
+   ]
+  ],
+  "blastoise": [
+   [
+    1,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    1,
+    "Flash Cannon",
+    "Special",
+    80
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Withdraw",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Rapid Spin",
+    "Physical",
+    50
+   ],
+   [
+    12,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    15,
+    "Water Pulse",
+    "Special",
+    60
+   ],
+   [
+    20,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    30,
+    "Aqua Tail",
+    "Physical",
+    90
+   ],
+   [
+    35,
+    "Shell Smash",
+    "Status",
+    0
+   ],
+   [
+    42,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    49,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    56,
+    "Wave Crash",
+    "Physical",
+    120
+   ]
+  ],
+  "voltorb": [
+   [
+    1,
+    "Charge",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    4,
+    "Thunder Shock",
+    "Special",
+    40
+   ],
+   [
+    6,
+    "Eerie Impulse",
+    "Status",
+    0
+   ],
+   [
+    9,
+    "Spark",
+    "Physical",
+    65
+   ],
+   [
+    11,
+    "Rollout",
+    "Physical",
+    30
+   ],
+   [
+    13,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    16,
+    "Charge Beam",
+    "Special",
+    50
+   ],
+   [
+    20,
+    "Swift",
+    "Special",
+    60
+   ],
+   [
+    22,
+    "Electro Ball",
+    "Special",
+    0
+   ],
+   [
+    26,
+    "Self-Destruct",
+    "Physical",
+    200
+   ],
+   [
+    29,
+    "Light Screen",
+    "Status",
+    0
+   ],
+   [
+    34,
+    "Magnet Rise",
+    "Status",
+    0
+   ],
+   [
+    37,
+    "Discharge",
+    "Special",
+    80
+   ],
+   [
+    41,
+    "Explosion",
+    "Physical",
+    250
+   ],
+   [
+    46,
+    "Gyro Ball",
+    "Physical",
+    0
+   ],
+   [
+    50,
+    "Mirror Coat",
+    "Special",
+    0
+   ]
+  ],
+  "jolteon": [
+   [
+    1,
+    "Thunder Shock",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Baton Pass",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Swift",
+    "Special",
+    60
+   ],
+   [
+    1,
+    "Helping Hand",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Covet",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Charm",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Bite",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Growl",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tail Whip",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Double-Edge",
+    "Physical",
+    120
+   ],
+   [
+    1,
+    "Take Down",
+    "Physical",
+    90
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Copycat",
+    "Status",
+    0
+   ],
+   [
+    5,
+    "Sand Attack",
+    "Status",
+    0
+   ],
+   [
+    10,
+    "Quick Attack",
+    "Physical",
+    40
+   ],
+   [
+    15,
+    "Baby-Doll Eyes",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Thunder Wave",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Double Kick",
+    "Physical",
+    30
+   ],
+   [
+    30,
+    "Thunder Fang",
+    "Physical",
+    65
+   ],
+   [
+    35,
+    "Pin Missile",
+    "Physical",
+    25
+   ],
+   [
+    40,
+    "Discharge",
+    "Special",
+    80
+   ],
+   [
+    45,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    50,
+    "Thunder",
+    "Special",
+    110
+   ],
+   [
+    55,
+    "Last Resort",
+    "Physical",
+    140
+   ]
+  ],
+  "cloyster": [
+   [
+    1,
+    "Icicle Spear",
+    "Physical",
+    25
+   ],
+   [
+    1,
+    "Icicle Crash",
+    "Physical",
+    85
+   ],
+   [
+    1,
+    "Shell Smash",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Ice Shard",
+    "Physical",
+    40
+   ],
+   [
+    1,
+    "Toxic Spikes",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Iron Defense",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Whirlpool",
+    "Special",
+    35
+   ],
+   [
+    1,
+    "Spikes",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Protect",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Withdraw",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Aurora Beam",
+    "Special",
+    65
+   ],
+   [
+    1,
+    "Ice Beam",
+    "Special",
+    90
+   ],
+   [
+    1,
+    "Hydro Pump",
+    "Special",
+    110
+   ],
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Supersonic",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Tackle",
+    "Physical",
+    40
+   ],
+   [
+    5,
+    "Razor Shell",
+    "Physical",
+    75
+   ]
+  ],
+  "tentacruel": [
+   [
+    1,
+    "Wrap",
+    "Physical",
+    15
+   ],
+   [
+    1,
+    "Poison Sting",
+    "Physical",
+    15
+   ],
+   [
+    1,
+    "Acid",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Water Gun",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Reflect Type",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Supersonic",
+    "Status",
+    0
+   ],
+   [
+    16,
+    "Water Pulse",
+    "Special",
+    60
+   ],
+   [
+    20,
+    "Screech",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Bubble Beam",
+    "Special",
+    65
+   ],
+   [
+    28,
+    "Hex",
+    "Special",
+    65
+   ],
+   [
+    34,
+    "Acid Armor",
+    "Status",
+    0
+   ],
+   [
+    40,
+    "Poison Jab",
+    "Physical",
+    80
+   ],
+   [
+    46,
+    "Surf",
+    "Special",
+    90
+   ],
+   [
+    52,
+    "Sludge Wave",
+    "Special",
+    95
+   ],
+   [
+    58,
+    "Hydro Pump",
+    "Special",
+    110
+   ]
+  ],
+  "gengar": [
+   [
+    1,
+    "Mean Look",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Shadow Punch",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Reflect Type",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Perish Song",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Confuse Ray",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Lick",
+    "Physical",
+    30
+   ],
+   [
+    1,
+    "Hypnosis",
+    "Status",
+    0
+   ],
+   [
+    12,
+    "Payback",
+    "Physical",
+    50
+   ],
+   [
+    16,
+    "Spite",
+    "Status",
+    0
+   ],
+   [
+    20,
+    "Curse",
+    "Status",
+    0
+   ],
+   [
+    24,
+    "Hex",
+    "Special",
+    65
+   ],
+   [
+    30,
+    "Night Shade",
+    "Special",
+    0
+   ],
+   [
+    36,
+    "Sucker Punch",
+    "Physical",
+    70
+   ],
+   [
+    42,
+    "Dark Pulse",
+    "Special",
+    80
+   ],
+   [
+    48,
+    "Shadow Ball",
+    "Special",
+    80
+   ],
+   [
+    54,
+    "Destiny Bond",
+    "Status",
+    0
+   ],
+   [
+    60,
+    "Dream Eater",
+    "Special",
+    100
+   ]
+  ],
+  "dragonite": [
+   [
+    1,
+    "Hurricane",
+    "Special",
+    110
+   ],
+   [
+    1,
+    "Roost",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Extreme Speed",
+    "Physical",
+    80
+   ],
+   [
+    1,
+    "Twister",
+    "Special",
+    40
+   ],
+   [
+    1,
+    "Thunder Wave",
+    "Status",
+    0
+   ],
+   [
+    1,
+    "Fire Punch",
+    "Physical",
+    75
+   ],
+   [
+    1,
+    "Wrap",
+    "Physical",
+    15
+   ],
+   [
+    1,
+    "Wing Attack",
+    "Physical",
+    60
+   ],
+   [
+    1,
+    "Thunder Punch",
+    "Physical",
+    75
+   ],
+   [
+    1,
+    "Leer",
+    "Status",
+    0
+   ],
+   [
+    15,
+    "Dragon Tail",
+    "Physical",
+    60
+   ],
+   [
+    20,
+    "Agility",
+    "Status",
+    0
+   ],
+   [
+    25,
+    "Slam",
+    "Physical",
+    80
+   ],
+   [
+    33,
+    "Aqua Tail",
+    "Physical",
+    90
+   ],
+   [
+    39,
+    "Dragon Rush",
+    "Physical",
+    100
+   ],
+   [
+    41,
+    "Outrage",
+    "Physical",
+    120
+   ],
+   [
+    46,
+    "Safeguard",
+    "Status",
+    0
+   ],
+   [
+    53,
+    "Rain Dance",
+    "Status",
+    0
+   ],
+   [
+    62,
+    "Dragon Dance",
+    "Status",
+    0
+   ],
+   [
+    80,
+    "Hyper Beam",
+    "Special",
+    150
+   ]
+  ]
+ },
+ "unverified": [
+  "beldum (pokemondb trả về 1 dòng, cần lấy lại)",
+  "gallade (dữ liệu trả về có move không thuộc Gallade, cần kiểm tra)",
+  "grovyle, combusken, kirlia, pupitar, shelgon (chưa lấy)"
+ ]
+}

@@ -1,0 +1,25 @@
+__pycache__/
+.pytest_cache/
+.superpowers/
+out/
+extracted_v1.8/
+mega_models/
+*.w3x
+*.mpq
+# third-party game data and images (not ours to publish)
+analysis/jass_ref/
+analysis/pokeapi_cache/
+analysis/shots/
+analysis/type_icons/
+analysis/type_icons_*/
+analysis/soul_icons/
+analysis/soul_sprites/
+analysis/fandom_icons_*.py
+analysis/*.png
+analysis/*.bak
+analysis/war3map_pretty.j
+analysis/_tmp_*
+analysis/pklegends_pokedex*.json
+analysis/pklegends_stats.csv
+analysis/*.html
+tools/known_names_v18.txt

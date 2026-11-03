@@ -1,0 +1,313 @@
+# Danh sach Pokemon playable: he, ability, skill
+
+Moi dong: ten (id unit) | he | Ability | chieu hoc theo level (level hero co the hoc) | so TM/HM co the mua (3000 vang).
+
+
+## Dang moi (tavern theo he / tien hoa)
+
+- **Abomasnow** (`P00A`) | Grass&Ice | Overgrow | Ice Punch (Lv 1), Leafage (Lv 1), Powder Snow (Lv 1), Ice Shard (Lv 15), Razor Leaf (Lv 20), Icy Wind (Lv 25), Wood Hammer (Lv 43), Blizzard (Lv 49) | TM: 38
+- **Absol** (`EN0K`) | Dark | Pressure | Quick Attack (Lv 1), Knock Off (Lv 10), Slash (Lv 25), Night Slash (Lv 30), Sucker Punch (Lv 40), Future Sight (Lv 50) | TM: 40
+- **Aegislash** (`P4QA`) | Steel&Ghost | Clear Body | Head Smash (Lv 1), Sacred Sword (Lv 1), Iron Head (Lv 1), Night Slash (Lv 1), Retaliate (Lv 1), Slash (Lv 1), Aerial Ace (Lv 1), Shadow Sneak (Lv 1) | TM: 18
+- **Aerodactyl** (`P02A`) | Rock&Flying | Rock Head | Ancient Power (Lv 1), Rock Slide (Lv 20), Crunch (Lv 30), Iron Head (Lv 35), Take Down (Lv 40), Stone Edge (Lv 45), Hyper Beam (Lv 55), Giga Impact (Lv 60) | TM: 32
+- **Alolan-Geodude** (`P03A`) | Rock&Electric | Magnet Pull | Spark (Lv 12), Smack Down (Lv 18), Thunder Punch (Lv 22), Self Destruct (Lv 24), Discharge (Lv 34), Explosion (Lv 36), Double Edge (Lv 40), Stone Edge (Lv 42) | TM: 30
+- **Alolan-Golem** (`P04A`) | Rock&Electric | Magnet Pull | Spark (Lv 12), Smack Down (Lv 18), Thunder Punch (Lv 22), Self Destruct (Lv 24), Discharge (Lv 40), Explosion (Lv 44), Double Edge (Lv 50), Stone Edge (Lv 54) | TM: 36
+- **Alolan-Graveler** (`P05A`) | Rock&Electric | Magnet Pull | Spark (Lv 12), Smack Down (Lv 18), Thunder Punch (Lv 22), Self Destruct (Lv 24), Discharge (Lv 40), Explosion (Lv 44), Double Edge (Lv 50), Stone Edge (Lv 54) | TM: 32
+- **Alolan-Raichu** (`P06A`) | Electric&Psychic | Static | Psychic (Lv 1), Discharge (Lv 1), Thunder (Lv 1), Iron Tail (Lv 1), Spark (Lv 1), Quick Attack (Lv 1), Thunder Shock (Lv 1), Thunderbolt (Lv 5) | TM: 31
+- **Alolan-Sandshrew** (`P4MA`) | Ice&Steel | Snow Cloak | Scratch (Lv 1), Powder Snow (Lv 6), Rapid Spin (Lv 15), Metal Claw (Lv 18), Swift (Lv 21), Slash (Lv 30), Iron Head (Lv 33), Blizzard (Lv 45) | TM: 33
+- **Alolan-Sandslash** (`P4NA`) | Ice&Steel | Snow Cloak | Icicle Spear (Lv 1), Icicle Crash (Lv 1), Slash (Lv 1), Metal Claw (Lv 1) | TM: 38
+- **Altaria** (`P07A`) | Dragon&Flying | Natural Cure | Dragon Pulse (Lv 1), Pluck (Lv 1), Disarming Voice (Lv 1), Round (Lv 16), Dragon Breath (Lv 20), Take Down (Lv 38), Moonblast (Lv 44), Sky Attack (Lv 56) | TM: 35
+- **Ampharos** (`P08A`) | Electric | Static | Thunder Punch (Lv 1), Dragon Pulse (Lv 1), Fire Punch (Lv 1), Take Down (Lv 20), Power Gem (Lv 35), Discharge (Lv 40), Dazzling Gleam (Lv 51), Thunder (Lv 62) | TM: 32
+- **Arbok** (`P09A`) | Poison | Intimidate | Crunch (Lv 1), Fire Fang (Lv 1), Ice Fang (Lv 1), Thunder Fang (Lv 1), Bite (Lv 1), Sludge Bomb (Lv 39), Belch (Lv 48), Gunk Shot (Lv 63) | TM: 40
+- **Bagon** (`EN0D`) | Dragon&Flying | Rock Head | Bite (Lv 5), Headbutt (Lv 15), Crunch (Lv 25), Dragon Claw (Lv 31), Zen Headbutt (Lv 35), Flamethrower (Lv 45), Outrage (Lv 50), Double Edge (Lv 55) | TM: 25
+- **Baltoy** (`P0BA`) | Ground&Psychic | Levitate | Rapid Spin (Lv 3), Rock Tomb (Lv 9), Psybeam (Lv 15), Ancient Power (Lv 18), Extrasensory (Lv 27), Earth Power (Lv 30), Self Destruct (Lv 33), Explosion (Lv 42) | TM: 20
+- **Bayleef** (`P0CA`) | Grass | Overgrow | Razor Leaf (Lv 1), Tackle (Lv 1), Magical Leaf (Lv 22), Body Slam (Lv 40), Giga Drain (Lv 50), Solar Beam (Lv 54) | TM: 19
+- **Beldum** (`EN0G`) | Steel&Psychic | Clear Body | Tackle (Lv 1) | TM: 5
+- **Bellossom** (`P0EA`) | Grass | Chlorophyll | Petal Blizzard (Lv 1), Petal Dance (Lv 1), Moonblast (Lv 1), Giga Drain (Lv 1), Acid (Lv 1), Mega Drain (Lv 1), Absorb (Lv 1) | TM: 25
+- **Bisharp** (`P4SA`) | Dark&Steel | Inner Focus | Metal Claw (Lv 1), Scratch (Lv 1), Fury Cutter (Lv 1), Assurance (Lv 25), Slash (Lv 35), Night Slash (Lv 40), Retaliate (Lv 50), Iron Head (Lv 57) | TM: 27
+- **Blaziken** (`EN02`) | Fire&Fighting | Blaze | Blaze Kick (Lv 1), Quick Attack (Lv 1), Flame Charge (Lv 9), Aerial Ace (Lv 20), Slash (Lv 25), Bounce (Lv 30), Flare Blitz (Lv 56), Brave Bird (Lv 63) | TM: 40
+- **Blissey** (`P0GA`) | Normal | Natural Cure | Covet (Lv 1), Disarming Voice (Lv 1), Pound (Lv 1), Echoed Voice (Lv 8), Take Down (Lv 24), Double Edge (Lv 40), Last Resort (Lv 48) | TM: 40
+- **Bonsly** (`P0HA`) | Rock | Sturdy | Rock Throw (Lv 8), Rock Tomb (Lv 20), Sucker Punch (Lv 28), Rock Slide (Lv 32), Double Edge (Lv 44) | TM: 23
+- **Breloom** (`P0IA`) | Grass&Fighting | Overgrow | Mach Punch (Lv 1), Tackle (Lv 1), Headbutt (Lv 15), Force Palm (Lv 28), Brick Break (Lv 39), Seed Bomb (Lv 44), Dynamic Punch (Lv 50), Focus Punch (Lv 55) | TM: 36
+- **Buzzwole** (`P0JA`) | Bug&Fighting | Swarm | Fell Stinger (Lv 10), Vital Throw (Lv 15), Mega Punch (Lv 35), Lunge (Lv 40), Dynamic Punch (Lv 50), Hammer Arm (Lv 60), Superpower (Lv 65), Focus Punch (Lv 70) | TM: 29
+- **Carvanha** (`P0KA`) | Water&Dark | Torrent | Aqua Jet (Lv 1), Poison Fang (Lv 4), Bite (Lv 16), Ice Fang (Lv 20), Crunch (Lv 32), Liquidation (Lv 40), Take Down (Lv 44) | TM: 27
+- **Celebi** (`PZZA`) | Psychic&Grass | Natural Cure | Confusion (Lv 1), Magical Leaf (Lv 10), Ancient Power (Lv 30), Future Sight (Lv 70), Leaf Storm (Lv 90) | TM: 26
+- **Chandelure** (`P0LA`) | Ghost&Fire | Flash Fire | Overheat (Lv 1), Shadow Ball (Lv 1), Hex (Lv 1), Inferno (Lv 1), Ember (Lv 1), Astonish (Lv 1), Fire Spin (Lv 1), Smog (Lv 1) | TM: 24
+- **Chansey** (`P0MA`) | Normal | Natural Cure | Covet (Lv 1), Disarming Voice (Lv 1), Pound (Lv 1), Echoed Voice (Lv 8), Take Down (Lv 24), Double Edge (Lv 40), Last Resort (Lv 48) | TM: 39
+- **Chikorita** (`P0NA`) | Grass | Overgrow | Tackle (Lv 1), Razor Leaf (Lv 6), Magical Leaf (Lv 20), Body Slam (Lv 34), Giga Drain (Lv 42), Solar Beam (Lv 45) | TM: 17
+- **Chinchou** (`P0OA`) | Water&Electric | Volt Absorb | Water Gun (Lv 1), Bubble Beam (Lv 12), Spark (Lv 20), Discharge (Lv 28), Take Down (Lv 40), Hydro Pump (Lv 44) | TM: 25
+- **Claydol** (`P0PA`) | Ground&Psychic | Levitate | Hyper Beam (Lv 1), Rock Tomb (Lv 9), Psybeam (Lv 15), Ancient Power (Lv 18), Extrasensory (Lv 27), Earth Power (Lv 30), Self Destruct (Lv 33), Explosion (Lv 48) | TM: 26
+- **Clefable** (`P0QA`) | Fairy | Cute Charm | Moonblast (Lv 1), Meteor Mash (Lv 1) | TM: 40
+- **Clefairy** (`P0RA`) | Fairy | Cute Charm | Disarming Voice (Lv 1), Pound (Lv 1), Stored Power (Lv 4), Meteor Mash (Lv 32), Moonblast (Lv 44) | TM: 40
+- **Combusken** (`EN01`) | Fire&Fighting | Blaze | Ember (Lv 1), Quick Attack (Lv 1), Flame Charge (Lv 9), Aerial Ace (Lv 20), Slash (Lv 25), Bounce (Lv 30), Blaze Kick (Lv 40), Flare Blitz (Lv 55) | TM: 31
+- **Cradily** (`P0TA`) | Rock&Grass | Sturdy | Acid (Lv 1), Astonish (Lv 1), Wrap (Lv 1), Ancient Power (Lv 16), Mega Drain (Lv 20), Brine (Lv 24), Giga Drain (Lv 36), Energy Ball (Lv 48) | TM: 24
+- **Croagunk** (`P0UA`) | Poison&Fighting | Poison Point | Mud Slap (Lv 1), Poison Sting (Lv 1), Astonish (Lv 4), Venoshock (Lv 20), Sucker Punch (Lv 24), Poison Jab (Lv 32), Sludge Bomb (Lv 44), Belch (Lv 48) | TM: 35
+- **Cubone** (`P0VA`) | Ground | Rock Head | False Swipe (Lv 8), Headbutt (Lv 12), Retaliate (Lv 16), Stomping Tantrum (Lv 24), Bone Rush (Lv 29), Bonemerang (Lv 40), Thrash (Lv 44), Double Edge (Lv 48) | TM: 29
+- **Cyndaquil** (`P0WA`) | Fire | Blaze | Flame Wheel (Lv 19), Flame Charge (Lv 28), Swift (Lv 31), Lava Plume (Lv 37), Flamethrower (Lv 40), Double Edge (Lv 55), Overheat (Lv 58), Eruption (Lv 64) | TM: 23
+- **Darmanitan** (`P0XA`) | Fire | Blaze | Hammer Arm (Lv 1), Fire Fang (Lv 20), Headbutt (Lv 24), Fire Punch (Lv 28), Uproar (Lv 32), Flare Blitz (Lv 44), Thrash (Lv 50), Superpower (Lv 56) | TM: 36
+- **Darumaka** (`P0YA`) | Fire | Blaze | Bite (Lv 8), Fire Fang (Lv 20), Headbutt (Lv 24), Fire Punch (Lv 28), Uproar (Lv 32), Flare Blitz (Lv 40), Thrash (Lv 44), Superpower (Lv 48) | TM: 23
+- **Deino** (`P0ZA`) | Dark&Dragon | Pressure | Dragon Breath (Lv 4), Headbutt (Lv 20), Crunch (Lv 32), Dragon Pulse (Lv 40), Body Slam (Lv 44), Hyper Voice (Lv 48), Dragon Rush (Lv 52), Outrage (Lv 60) | TM: 18
+- **Dewgong** (`P10A`) | Water&Ice | Thick Fat | Headbutt (Lv 1), Icy Wind (Lv 1), Aurora Beam (Lv 27), Brine (Lv 33), Take Down (Lv 39), Dive (Lv 45), Aqua Tail (Lv 49), Ice Beam (Lv 55) | TM: 31
+- **Diglett** (`P11A`) | Ground | Sand Veil | Scratch (Lv 1), Astonish (Lv 8), Bulldoze (Lv 16), Sucker Punch (Lv 20), Slash (Lv 24), Dig (Lv 32), Earth Power (Lv 36), Earthquake (Lv 40) | TM: 25
+- **Ditto** (`P12A`) | Normal | Run Away | (khong co chieu level-up co sat thuong) | TM: 0
+- **Doublade** (`P4PA`) | Steel&Ghost | No Guard | Shadow Sneak (Lv 1), Tackle (Lv 1), Aerial Ace (Lv 12), Slash (Lv 20), Night Slash (Lv 24), Retaliate (Lv 28), Iron Head (Lv 38), Sacred Sword (Lv 56) | TM: 14
+- **Drowzee** (`P13A`) | Psychic | Insomnia | Pound (Lv 1), Confusion (Lv 9), Headbutt (Lv 13), Psybeam (Lv 21), Zen Headbutt (Lv 29), Psychic (Lv 37), Psyshock (Lv 45), Future Sight (Lv 49) | TM: 29
+- **Dugtrio** (`P14A`) | Ground | Sand Veil | Tri Attack (Lv 1), Night Slash (Lv 1), Bulldoze (Lv 16), Sucker Punch (Lv 20), Slash (Lv 24), Dig (Lv 36), Earth Power (Lv 42), Earthquake (Lv 48) | TM: 28
+- **Dusclops** (`P15A`) | Ghost | Pressure | Shadow Punch (Lv 1), Fire Punch (Lv 1), Ice Punch (Lv 1), Thunder Punch (Lv 1), Payback (Lv 20), Hex (Lv 32), Shadow Ball (Lv 42), Future Sight (Lv 48) | TM: 24
+- **Dusknoir** (`P16A`) | Ghost | Pressure | Fire Punch (Lv 1), Ice Punch (Lv 1), Thunder Punch (Lv 1), Shadow Punch (Lv 1), Payback (Lv 20), Hex (Lv 32), Shadow Ball (Lv 42), Future Sight (Lv 48) | TM: 29
+- **Duskull** (`P17A`) | Ghost | Levitate | Astonish (Lv 1), Shadow Sneak (Lv 8), Payback (Lv 20), Hex (Lv 32), Shadow Ball (Lv 40), Future Sight (Lv 44) | TM: 16
+- **Eevee** (`P4VA`) | Normal | Adaptability | Covet (Lv 1), Tackle (Lv 1), Quick Attack (Lv 10), Swift (Lv 20), Bite (Lv 25), Take Down (Lv 40), Double Edge (Lv 50), Last Resort (Lv 55) | TM: 14
+- **Ekans** (`P18A`) | Poison | Intimidate | Wrap (Lv 1), Poison Sting (Lv 4), Bite (Lv 9), Acid (Lv 20), Acid Spray (Lv 28), Sludge Bomb (Lv 33), Belch (Lv 38), Gunk Shot (Lv 49) | TM: 31
+- **Electabuzz** (`P19A`) | Electric | Static | Quick Attack (Lv 1), Swift (Lv 12), Shock Wave (Lv 16), Thunder Punch (Lv 28), Discharge (Lv 34), Thunderbolt (Lv 46), Thunder (Lv 58), Giga Impact (Lv 64) | TM: 27
+- **Electivire** (`P1AA`) | Electric | Static | Quick Attack (Lv 1), Swift (Lv 12), Shock Wave (Lv 16), Thunder Punch (Lv 28), Discharge (Lv 34), Thunderbolt (Lv 46), Thunder (Lv 58), Giga Impact (Lv 64) | TM: 35
+- **Electrike** (`P1BA`) | Electric | Static | Tackle (Lv 1), Quick Attack (Lv 12), Shock Wave (Lv 16), Bite (Lv 20), Thunder Fang (Lv 24), Discharge (Lv 32), Wild Charge (Lv 40), Thunder (Lv 44) | TM: 19
+- **Elekid** (`P1CA`) | Electric | Static | Quick Attack (Lv 1), Thunder Shock (Lv 4), Swift (Lv 12), Shock Wave (Lv 16), Thunder Punch (Lv 28), Discharge (Lv 32), Thunderbolt (Lv 40), Thunder (Lv 48) | TM: 24
+- **Entei** (`P1DA`) | Fire | Pressure | Stomp (Lv 1), Flame Wheel (Lv 6), Fire Fang (Lv 30), Crunch (Lv 42), Extrasensory (Lv 48), Lava Plume (Lv 54), Fire Blast (Lv 72), Eruption (Lv 78) | TM: 28
+- **Farfetch'd** (`P1EA`) | Normal&Flying | Keen Eye | Cut (Lv 15), Aerial Ace (Lv 20), Air Cutter (Lv 25), Knock Off (Lv 30), Slash (Lv 40), Air Slash (Lv 50), Leaf Blade (Lv 55), Brave Bird (Lv 65) | TM: 24
+- **Feebas** (`P1FA`) | Water | Swift Swim | Tackle (Lv 15) | TM: 16
+- **Flaaffy** (`P1GA`) | Electric | Static | Tackle (Lv 1), Thunder Shock (Lv 6), Take Down (Lv 20), Power Gem (Lv 34), Discharge (Lv 38), Dazzling Gleam (Lv 47), Thunder (Lv 56) | TM: 21
+- **Flygon** (`P1HA`) | Ground&Dragon | Levitate | Dragon Claw (Lv 1), Bulldoze (Lv 1), Bug Buzz (Lv 28), Earth Power (Lv 38), Earthquake (Lv 44), Uproar (Lv 52), Dragon Rush (Lv 60), Boomburst (Lv 68) | TM: 40
+- **Gabite** (`P1IA`) | Dragon&Ground | Sand Veil | Dragon Breath (Lv 1), Bulldoze (Lv 18), Bite (Lv 27), Slash (Lv 34), Dragon Claw (Lv 42), Dig (Lv 50), Take Down (Lv 66), Dragon Rush (Lv 74) | TM: 34
+- **Gallade** (`EN0C`) | Psychic&Fighting | Steadfast | Slash (Lv 1), Future Sight (Lv 1), Dream Eater (Lv 1), Leaf Blade (Lv 1), Psychic (Lv 1), Sacred Sword (Lv 1), Aqua Cutter (Lv 1), Close Combat (Lv 63) | TM: 40
+- **Galvantula** (`P1KA`) | Bug&Electric | Compound Eyes | Bug Bite (Lv 1), Electroweb (Lv 1), Fury Cutter (Lv 1), Absorb (Lv 1), Sucker Punch (Lv 28), Slash (Lv 32), Discharge (Lv 39), Bug Buzz (Lv 56) | TM: 24
+- **Garchomp** (`P1LA`) | Dragon&Ground | Sand Veil | Crunch (Lv 1), Dragon Breath (Lv 1), Bulldoze (Lv 18), Slash (Lv 34), Dragon Claw (Lv 42), Dig (Lv 52), Take Down (Lv 72), Dragon Rush (Lv 82) | TM: 40
+- **Gardevoir** (`EN0B`) | Psychic&Fairy | Synchronize | Dazzling Gleam (Lv 1), Mystical Fire (Lv 1), Confusion (Lv 1), Psybeam (Lv 18), Psychic (Lv 42), Moonblast (Lv 49), Dream Eater (Lv 56), Future Sight (Lv 63) | TM: 35
+- **Gible** (`P1NA`) | Dragon&Ground | Sand Veil | Dragon Breath (Lv 12), Bulldoze (Lv 18), Bite (Lv 25), Slash (Lv 30), Dragon Claw (Lv 36), Dig (Lv 42), Take Down (Lv 54), Dragon Rush (Lv 60) | TM: 30
+- **Gloom** (`P1OA`) | Grass&Poison | Chlorophyll | Acid (Lv 1), Absorb (Lv 1), Mega Drain (Lv 12), Giga Drain (Lv 20), Moonblast (Lv 32), Petal Dance (Lv 50) | TM: 16
+- **Golduck** (`P1PA`) | Water | Torrent | Confusion (Lv 1), Aqua Jet (Lv 1), Scratch (Lv 1), Water Gun (Lv 1), Water Pulse (Lv 12), Zen Headbutt (Lv 18), Aqua Tail (Lv 24), Hydro Pump (Lv 40) | TM: 39
+- **Granbull** (`P1QA`) | Fairy | Intimidate | Outrage (Lv 1), Fire Fang (Lv 1), Ice Fang (Lv 1), Thunder Fang (Lv 1), Headbutt (Lv 19), Last Resort (Lv 35), Play Rough (Lv 43), Crunch (Lv 59) | TM: 40
+- **Groudon** (`P4UA`) | Ground | Drought | Precipice Blades (Lv 1), Lava Plume (Lv 1), Earth Power (Lv 9), Earthquake (Lv 27), Hammer Arm (Lv 36), Fire Blast (Lv 72), Solar Beam (Lv 81), Eruption (Lv 90) | TM: 40
+- **Grovyle** (`EN04`) | Grass | Overgrow | Leafage (Lv 1), Pound (Lv 1), Quick Attack (Lv 1), Assurance (Lv 20), Giga Drain (Lv 25), Slam (Lv 30), Leaf Blade (Lv 40), Leaf Storm (Lv 55) | TM: 32
+- **Heracross** (`P1SA`) | Bug&Fighting | Swarm | Tackle (Lv 1), Aerial Ace (Lv 15), Horn Attack (Lv 20), Brick Break (Lv 30), Throat Chop (Lv 40), Thrash (Lv 45), Megahorn (Lv 55), Close Combat (Lv 60) | TM: 37
+- **Ho-Oh** (`P1TA`) | Fire&Flying | Pressure | Ancient Power (Lv 1), Weather Ball (Lv 1), Extrasensory (Lv 36), Sacred Fire (Lv 54), Fire Blast (Lv 72), Future Sight (Lv 81), Sky Attack (Lv 90), Overheat (Lv 99) | TM: 37
+- **Honedge** (`P4OA`) | Steel&Ghost | No Guard | Tackle (Lv 1), Shadow Sneak (Lv 4), Aerial Ace (Lv 12), Slash (Lv 20), Night Slash (Lv 24), Retaliate (Lv 28), Iron Head (Lv 36), Sacred Sword (Lv 48) | TM: 14
+- **Hoothoot** (`P1UA`) | Normal&Flying | Insomnia | Tackle (Lv 3), Confusion (Lv 9), Air Slash (Lv 18), Extrasensory (Lv 21), Take Down (Lv 24), Uproar (Lv 27), Moonblast (Lv 33), Dream Eater (Lv 39) | TM: 21
+- **Horsea** (`P1VA`) | Water | Swift Swim | Water Gun (Lv 1), Twister (Lv 10), Dragon Breath (Lv 20), Bubble Beam (Lv 25), Water Pulse (Lv 35), Dragon Pulse (Lv 40), Hydro Pump (Lv 45) | TM: 20
+- **Houndoom** (`P1WA`) | Dark&Fire | Early Bird | Thunder Fang (Lv 1), Bite (Lv 16), Incinerate (Lv 20), Fire Fang (Lv 30), Foul Play (Lv 45), Flamethrower (Lv 50), Crunch (Lv 56), Inferno (Lv 62) | TM: 33
+- **Houndour** (`P1XA`) | Dark&Fire | Early Bird | Ember (Lv 1), Bite (Lv 16), Incinerate (Lv 20), Fire Fang (Lv 28), Foul Play (Lv 40), Flamethrower (Lv 44), Crunch (Lv 49), Inferno (Lv 56) | TM: 30
+- **Hydreigon** (`P1YA`) | Dark&Dragon | Levitate | Tri Attack (Lv 1), Crunch (Lv 32), Dragon Pulse (Lv 40), Body Slam (Lv 44), Hyper Voice (Lv 48), Dragon Rush (Lv 54), Outrage (Lv 68), Hyper Beam (Lv 76) | TM: 40
+- **Hypno** (`P1ZA`) | Psychic | Insomnia | Confusion (Lv 1), Pound (Lv 1), Headbutt (Lv 13), Psybeam (Lv 21), Zen Headbutt (Lv 32), Psychic (Lv 42), Psyshock (Lv 51), Future Sight (Lv 56) | TM: 33
+- **Jigglypuff** (`P20A`) | Normal&Fairy | Cute Charm | Disarming Voice (Lv 1), Pound (Lv 1), Echoed Voice (Lv 4), Covet (Lv 8), Round (Lv 16), Body Slam (Lv 24), Hyper Voice (Lv 36), Double Edge (Lv 44) | TM: 40
+- **Jirachi** (`P21A`) | Steel&Psychic | Clear Body | Swift (Lv 7), Zen Headbutt (Lv 28), Psychic (Lv 42), Meteor Mash (Lv 49), Future Sight (Lv 70), Double Edge (Lv 77), Last Resort (Lv 91), Doom Desire (Lv 98) | TM: 35
+- **Joltik** (`P22A`) | Bug&Electric | Compound Eyes | Fury Cutter (Lv 1), Absorb (Lv 1), Electroweb (Lv 4), Bug Bite (Lv 8), Sucker Punch (Lv 28), Slash (Lv 32), Discharge (Lv 37), Bug Buzz (Lv 48) | TM: 21
+- **Jynx** (`P23A`) | Ice&Psychic | Snow Cloak | Pound (Lv 1), Powder Snow (Lv 1), Lick (Lv 1), Confusion (Lv 12), Covet (Lv 16), Ice Punch (Lv 28), Psychic (Lv 34), Blizzard (Lv 58) | TM: 30
+- **Kingambit** (`P4TA`) | Dark&Steel | Pressure | Kowtow Cleave (Lv 1), Metal Claw (Lv 1), Scratch (Lv 1), Assurance (Lv 25), Slash (Lv 35), Night Slash (Lv 40), Retaliate (Lv 50), Iron Head (Lv 57) | TM: 28
+- **Kingdra** (`P24A`) | Water&Dragon | Swift Swim | Twister (Lv 1), Water Gun (Lv 1), Dragon Breath (Lv 20), Bubble Beam (Lv 25), Water Pulse (Lv 37), Dragon Pulse (Lv 44), Hydro Pump (Lv 51), Wave Crash (Lv 72) | TM: 30
+- **Kirlia** (`EN0A`) | Psychic&Fairy | Synchronize | Confusion (Lv 1), Disarming Voice (Lv 1), Draining Kiss (Lv 12), Psybeam (Lv 18), Psychic (Lv 38), Dream Eater (Lv 48), Future Sight (Lv 53) | TM: 28
+- **Kyogre** (`P26A`) | Water | Torrent | Origin Pulse (Lv 1), Body Slam (Lv 1), Aqua Tail (Lv 9), Muddy Water (Lv 27), Ice Beam (Lv 36), Hydro Pump (Lv 72), Double Edge (Lv 81), Water Spout (Lv 90) | TM: 27
+- **Lampent** (`P27A`) | Ghost&Fire | Flash Fire | Ember (Lv 1), Astonish (Lv 1), Smog (Lv 1), Hex (Lv 16), Fire Spin (Lv 24), Shadow Ball (Lv 36), Inferno (Lv 40), Overheat (Lv 58) | TM: 21
+- **Lanturn** (`P28A`) | Water&Electric | Volt Absorb | Water Gun (Lv 1), Bubble Beam (Lv 12), Spark (Lv 20), Discharge (Lv 30), Take Down (Lv 48), Hydro Pump (Lv 54) | TM: 27
+- **Lapras** (`P29A`) | Water&Ice | Water Absorb | Water Gun (Lv 1), Ice Shard (Lv 20), Water Pulse (Lv 30), Brine (Lv 35), Body Slam (Lv 40), Ice Beam (Lv 45), Hydro Pump (Lv 55) | TM: 37
+- **Larvitar** (`EN06`) | Rock&Dark | Guts | Bite (Lv 9), Rock Slide (Lv 15), Stomping Tantrum (Lv 18), Crunch (Lv 27), Earthquake (Lv 31), Stone Edge (Lv 33), Thrash (Lv 36), Hyper Beam (Lv 42) | TM: 26
+- **Leafeon** (`P2BA`) | Grass | Leaf Guard | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Swift (Lv 1), Giga Drain (Lv 40), Leaf Blade (Lv 50), Last Resort (Lv 55) | TM: 29
+- **Lileep** (`P2CA`) | Rock&Grass | Sturdy | Astonish (Lv 1), Wrap (Lv 1), Acid (Lv 4), Ancient Power (Lv 16), Mega Drain (Lv 20), Brine (Lv 24), Giga Drain (Lv 36), Energy Ball (Lv 44) | TM: 16
+- **Litwick** (`P2DA`) | Ghost&Fire | Flash Fire | Astonish (Lv 1), Smog (Lv 1), Ember (Lv 4), Hex (Lv 16), Fire Spin (Lv 24), Shadow Ball (Lv 36), Inferno (Lv 40), Overheat (Lv 52) | TM: 20
+- **Lombre** (`P2EA`) | Water&Grass | Swift Swim | Knock Off (Lv 1), Fake Out (Lv 1), Water Gun (Lv 1), Bubble Beam (Lv 24), Giga Drain (Lv 36), Zen Headbutt (Lv 50), Energy Ball (Lv 57), Hydro Pump (Lv 64) | TM: 36
+- **Lotad** (`P2FA`) | Water&Grass | Swift Swim | Astonish (Lv 1), Absorb (Lv 3), Water Gun (Lv 6), Mega Drain (Lv 12), Bubble Beam (Lv 20), Giga Drain (Lv 28), Zen Headbutt (Lv 38), Energy Ball (Lv 43) | TM: 26
+- **Lucario** (`EN0J`) | Fighting&Steel | Steadfast | Aura Sphere (Lv 1), Metal Claw (Lv 1), Quick Attack (Lv 1), Force Palm (Lv 20), Meteor Mash (Lv 48), Dragon Pulse (Lv 52), Extreme Speed (Lv 56), Close Combat (Lv 60) | TM: 38
+- **Ludicolo** (`P2GA`) | Water&Grass | Swift Swim | Bubble Beam (Lv 1), Fake Out (Lv 1) | TM: 40
+- **Magby** (`P2HA`) | Fire | Flame Body | Smog (Lv 1), Ember (Lv 4), Clear Smog (Lv 12), Flame Wheel (Lv 16), Fire Punch (Lv 28), Lava Plume (Lv 32), Flamethrower (Lv 40), Fire Blast (Lv 48) | TM: 22
+- **Magcargo** (`P2IA`) | Fire&Rock | Flame Body | Earth Power (Lv 1), Clear Smog (Lv 20), Ancient Power (Lv 22), Incinerate (Lv 27), Rock Slide (Lv 29), Lava Plume (Lv 34), Body Slam (Lv 43), Flamethrower (Lv 54) | TM: 30
+- **Magmar** (`P2JA`) | Fire | Flame Body | Ember (Lv 1), Clear Smog (Lv 12), Flame Wheel (Lv 16), Fire Punch (Lv 28), Lava Plume (Lv 34), Flamethrower (Lv 46), Fire Blast (Lv 58), Hyper Beam (Lv 64) | TM: 29
+- **Magmortar** (`P2KA`) | Fire | Flame Body | Ember (Lv 1), Clear Smog (Lv 12), Flame Wheel (Lv 16), Fire Punch (Lv 28), Lava Plume (Lv 34), Flamethrower (Lv 46), Fire Blast (Lv 58), Hyper Beam (Lv 64) | TM: 38
+- **Magnemite** (`P4WA`) | Electric&Steel | Magnet Pull | Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 20), Flash Cannon (Lv 32), Discharge (Lv 36), Zap Cannon (Lv 52) | TM: 13
+- **Magneton** (`P4XA`) | Electric&Steel | Magnet Pull | Tri Attack (Lv 1), Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 20), Flash Cannon (Lv 34), Discharge (Lv 40), Zap Cannon (Lv 64) | TM: 14
+- **Magnezone** (`P2LA`) | Electric&Steel | Magnet Pull | Tri Attack (Lv 1), Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 20), Flash Cannon (Lv 34), Discharge (Lv 40), Zap Cannon (Lv 64) | TM: 19
+- **Mamoswine** (`P2MA`) | Ice&Ground | Snow Cloak | Ice Fang (Lv 1), Ancient Power (Lv 1), Powder Snow (Lv 1), Icy Wind (Lv 30), Take Down (Lv 44), Earthquake (Lv 51), Blizzard (Lv 58), Thrash (Lv 65) | TM: 32
+- **Manectric** (`P2NA`) | Electric | Static | Fire Fang (Lv 1), Tackle (Lv 1), Shock Wave (Lv 16), Bite (Lv 20), Thunder Fang (Lv 24), Discharge (Lv 36), Wild Charge (Lv 48), Thunder (Lv 54) | TM: 23
+- **Mareep** (`P2OA`) | Electric | Static | Tackle (Lv 1), Thunder Shock (Lv 8), Take Down (Lv 18), Power Gem (Lv 29), Discharge (Lv 32), Dazzling Gleam (Lv 39), Thunder (Lv 46) | TM: 15
+- **Marowak** (`P2PA`) | Ground | Rock Head | False Swipe (Lv 1), Headbutt (Lv 12), Retaliate (Lv 16), Stomping Tantrum (Lv 24), Bone Rush (Lv 31), Bonemerang (Lv 48), Thrash (Lv 54), Double Edge (Lv 60) | TM: 35
+- **Meowth** (`P2QA`) | Normal | Technician | Fake Out (Lv 1), Feint (Lv 4), Scratch (Lv 8), Pay Day (Lv 12), Bite (Lv 16), Assurance (Lv 24), Slash (Lv 36), Play Rough (Lv 44) | TM: 30
+- **Metagross** (`EN0I`) | Steel&Psychic | Clear Body | Hammer Arm (Lv 1), Confusion (Lv 1), Zen Headbutt (Lv 6), Flash Cannon (Lv 16), Take Down (Lv 26), Psychic (Lv 34), Meteor Mash (Lv 52), Hyper Beam (Lv 82) | TM: 39
+- **Metang** (`EN0H`) | Steel&Psychic | Clear Body | Confusion (Lv 1), Metal Claw (Lv 1), Zen Headbutt (Lv 6), Flash Cannon (Lv 18), Take Down (Lv 26), Psychic (Lv 34), Meteor Mash (Lv 50), Hyper Beam (Lv 74) | TM: 32
+- **Milotic** (`P2TA`) | Water | Torrent | Water Pulse (Lv 1), Tackle (Lv 1), Water Gun (Lv 1), Disarming Voice (Lv 4), Dragon Tail (Lv 24), Aqua Tail (Lv 32), Surf (Lv 40), Hydro Pump (Lv 52) | TM: 34
+- **Misdreavus** (`P2UA`) | Ghost | Levitate | Confusion (Lv 1), Astonish (Lv 10), Hex (Lv 23), Psybeam (Lv 28), Payback (Lv 37), Shadow Ball (Lv 41), Power Gem (Lv 50) | TM: 29
+- **Mismagius** (`P2VA`) | Ghost | Levitate | Phantom Force (Lv 1), Power Gem (Lv 1), Mystical Fire (Lv 1), Magical Leaf (Lv 1), Astonish (Lv 1) | TM: 30
+- **Mr. Mime** (`P2WA`) | Psychic&Fairy | Soundproof | Pound (Lv 1), Confusion (Lv 12), Psybeam (Lv 28), Sucker Punch (Lv 40), Dazzling Gleam (Lv 44), Psychic (Lv 48) | TM: 32
+- **Nincada** (`P2XA`) | Bug&Ground | Compound Eyes | Scratch (Lv 1), False Swipe (Lv 10), Mud Slap (Lv 15), Absorb (Lv 21), Metal Claw (Lv 25), Fury Swipes (Lv 30), Dig (Lv 40) | TM: 11
+- **Ninjask** (`P2YA`) | Bug&Flying | Speed Boost | Dig (Lv 1), Aerial Ace (Lv 1), Metal Claw (Lv 1), False Swipe (Lv 1), Scratch (Lv 1), Bug Bite (Lv 29), Slash (Lv 50), X Scissor (Lv 64) | TM: 19
+- **Noctowl** (`P2ZA`) | Normal&Flying | Insomnia | Sky Attack (Lv 1), Confusion (Lv 9), Air Slash (Lv 18), Extrasensory (Lv 23), Take Down (Lv 28), Uproar (Lv 33), Moonblast (Lv 43), Dream Eater (Lv 53) | TM: 27
+- **Oddish** (`P30A`) | Grass&Poison | Chlorophyll | Absorb (Lv 1), Acid (Lv 4), Mega Drain (Lv 12), Giga Drain (Lv 20), Moonblast (Lv 28), Petal Dance (Lv 40) | TM: 14
+- **Pawniard** (`P4RA`) | Dark&Steel | Inner Focus | Scratch (Lv 1), Fury Cutter (Lv 5), Metal Claw (Lv 10), Assurance (Lv 25), Slash (Lv 35), Night Slash (Lv 40), Retaliate (Lv 50), Iron Head (Lv 55) | TM: 23
+- **Persian** (`P31A`) | Normal | Technician | Power Gem (Lv 1), Fake Out (Lv 1), Scratch (Lv 1), Pay Day (Lv 12), Bite (Lv 16), Assurance (Lv 24), Slash (Lv 42), Play Rough (Lv 54) | TM: 33
+- **Piloswine** (`P32A`) | Ice&Ground | Snow Cloak | Ice Fang (Lv 1), Ancient Power (Lv 1), Powder Snow (Lv 1), Icy Wind (Lv 30), Take Down (Lv 44), Earthquake (Lv 51), Blizzard (Lv 58), Thrash (Lv 65) | TM: 28
+- **Politoed** (`P34A`) | Water | Water Absorb | Bounce (Lv 1), Hydro Pump (Lv 1), Pound (Lv 1) | TM: 34
+- **Poliwag** (`P4YA`) | Water | Water Absorb | Water Gun (Lv 1), Pound (Lv 6), Mud Shot (Lv 12), Bubble Beam (Lv 18), Body Slam (Lv 30), Earth Power (Lv 36), Hydro Pump (Lv 42), Double Edge (Lv 54) | TM: 26
+- **Poliwhirl** (`P4ZA`) | Water | Water Absorb | Mud Shot (Lv 1), Pound (Lv 1), Water Gun (Lv 1), Bubble Beam (Lv 18), Body Slam (Lv 32), Earth Power (Lv 40), Hydro Pump (Lv 48), Double Edge (Lv 66) | TM: 30
+- **Porygon** (`P35A`) | Normal | Trace | Tackle (Lv 1), Thunder Shock (Lv 15), Psybeam (Lv 20), Discharge (Lv 40), Tri Attack (Lv 45), Double Edge (Lv 50), Zap Cannon (Lv 60) | TM: 22
+- **Psyduck** (`P36A`) | Water | Torrent | Scratch (Lv 1), Water Gun (Lv 3), Confusion (Lv 6), Fury Swipes (Lv 9), Water Pulse (Lv 12), Zen Headbutt (Lv 18), Aqua Tail (Lv 24) | TM: 34
+- **Pupitar** (`EN07`) | Rock&Dark | Shed Skin | Bite (Lv 9), Rock Slide (Lv 15), Stomping Tantrum (Lv 18), Crunch (Lv 27), Earthquake (Lv 33), Stone Edge (Lv 37), Thrash (Lv 42), Hyper Beam (Lv 52) | TM: 29
+- **Quilava** (`P38A`) | Fire | Blaze | Flame Wheel (Lv 20), Swift (Lv 31), Flame Charge (Lv 35), Lava Plume (Lv 42), Flamethrower (Lv 46), Double Edge (Lv 64), Overheat (Lv 68), Eruption (Lv 75) | TM: 24
+- **Raikou** (`P39A`) | Electric | Pressure | Extreme Speed (Lv 1), Spark (Lv 6), Bite (Lv 12), Thunder Fang (Lv 30), Crunch (Lv 42), Extrasensory (Lv 48), Discharge (Lv 54), Thunder (Lv 72) | TM: 26
+- **Ralts** (`EN09`) | Psychic&Fairy | Synchronize | Disarming Voice (Lv 1), Confusion (Lv 6), Draining Kiss (Lv 12), Psybeam (Lv 18), Psychic (Lv 30), Dream Eater (Lv 36), Future Sight (Lv 39) | TM: 26
+- **Regirock** (`P3BA`) | Rock | Clear Body | Bulldoze (Lv 6), Stomp (Lv 18), Rock Slide (Lv 24), Hammer Arm (Lv 42), Stone Edge (Lv 48), Superpower (Lv 54), Hyper Beam (Lv 72), Explosion (Lv 78) | TM: 33
+- **Rhydon** (`P51A`) | Ground&Rock | Lightning Rod | Hammer Arm (Lv 1), Horn Attack (Lv 15), Stomp (Lv 25), Drill Run (Lv 35), Take Down (Lv 40), Earthquake (Lv 47), Stone Edge (Lv 54), Megahorn (Lv 61) | TM: 40
+- **Rhyhorn** (`P50A`) | Ground&Rock | Lightning Rod | Bulldoze (Lv 10), Horn Attack (Lv 15), Stomp (Lv 25), Drill Run (Lv 35), Take Down (Lv 40), Earthquake (Lv 45), Stone Edge (Lv 50), Megahorn (Lv 55) | TM: 38
+- **Rhyperior** (`P3CA`) | Ground&Rock | Lightning Rod | Hammer Arm (Lv 1), Horn Attack (Lv 15), Drill Run (Lv 35), Take Down (Lv 40), Earthquake (Lv 47), Stone Edge (Lv 54), Megahorn (Lv 61), Rock Wrecker (Lv 75) | TM: 40
+- **Sableye** (`P3DA`) | Dark&Ghost | Keen Eye | Scratch (Lv 1), Shadow Sneak (Lv 9), Knock Off (Lv 27), Shadow Claw (Lv 33), Power Gem (Lv 39), Zen Headbutt (Lv 42), Shadow Ball (Lv 45), Foul Play (Lv 48) | TM: 40
+- **Salamence** (`EN0F`) | Dragon&Flying | Intimidate | Fly (Lv 1), Bite (Lv 1), Headbutt (Lv 15), Crunch (Lv 25), Dragon Claw (Lv 33), Zen Headbutt (Lv 39), Flamethrower (Lv 55), Double Edge (Lv 73) | TM: 40
+- **Sceptile** (`EN05`) | Grass | Overgrow | Leaf Blade (Lv 1), Leafage (Lv 1), Pound (Lv 1), Quick Attack (Lv 1), Assurance (Lv 20), Giga Drain (Lv 25), Slam (Lv 30), Leaf Storm (Lv 56) | TM: 40
+- **Seadra** (`P3GA`) | Water | Poison Point | Twister (Lv 1), Water Gun (Lv 1), Dragon Breath (Lv 20), Bubble Beam (Lv 25), Water Pulse (Lv 37), Dragon Pulse (Lv 44), Hydro Pump (Lv 51) | TM: 22
+- **Seel** (`P3HA`) | Water | Thick Fat | Headbutt (Lv 1), Icy Wind (Lv 11), Aurora Beam (Lv 27), Brine (Lv 33), Take Down (Lv 37), Dive (Lv 41), Aqua Tail (Lv 43), Ice Beam (Lv 47) | TM: 25
+- **Sharpedo** (`P3IA`) | Water&Dark | Torrent | Slash (Lv 1), Night Slash (Lv 1), Poison Fang (Lv 1), Bite (Lv 16), Ice Fang (Lv 20), Crunch (Lv 34), Liquidation (Lv 46), Take Down (Lv 52) | TM: 35
+- **Shedinja** (`P3JA`) | Bug&Ghost | Swarm | Dig (Lv 1), Shadow Claw (Lv 1), Metal Claw (Lv 1), False Swipe (Lv 1), Scratch (Lv 1), Shadow Sneak (Lv 29), Shadow Ball (Lv 50), Phantom Force (Lv 64) | TM: 17
+- **Shelgon** (`EN0E`) | Dragon&Flying | Rock Head | Bite (Lv 1), Headbutt (Lv 15), Crunch (Lv 25), Dragon Claw (Lv 33), Zen Headbutt (Lv 39), Flamethrower (Lv 53), Outrage (Lv 60), Double Edge (Lv 67) | TM: 26
+- **Shroomish** (`P3LA`) | Grass | Overgrow | Tackle (Lv 1), Absorb (Lv 1), Mega Drain (Lv 12), Headbutt (Lv 15), Giga Drain (Lv 26), Seed Bomb (Lv 36) | TM: 18
+- **Sirfetch'd** (`P3MA`) | Fighting | Steadfast | First Impression (Lv 1), Brutal Swing (Lv 20), Knock Off (Lv 30), Brick Break (Lv 40), Slam (Lv 50), Leaf Blade (Lv 55), Brave Bird (Lv 65), Meteor Assault (Lv 70) | TM: 17
+- **Slowbro** (`P3NA`) | Water&Psychic | Torrent | Tackle (Lv 1), Water Gun (Lv 1), Confusion (Lv 12), Water Pulse (Lv 18), Headbutt (Lv 21), Zen Headbutt (Lv 24), Surf (Lv 30), Psychic (Lv 36) | TM: 40
+- **Slowking** (`P3OA`) | Water&Psychic | Torrent | Power Gem (Lv 1), Tackle (Lv 1), Water Gun (Lv 1), Confusion (Lv 12), Water Pulse (Lv 18), Headbutt (Lv 21), Surf (Lv 30), Psychic (Lv 36) | TM: 40
+- **Slowpoke** (`P3PA`) | Water&Psychic | Torrent | Tackle (Lv 1), Water Gun (Lv 6), Confusion (Lv 12), Water Pulse (Lv 18), Headbutt (Lv 21), Zen Headbutt (Lv 24), Surf (Lv 30), Psychic (Lv 36) | TM: 31
+- **Slugma** (`P3QA`) | Fire | Flame Body | Clear Smog (Lv 20), Ancient Power (Lv 22), Incinerate (Lv 27), Rock Slide (Lv 29), Lava Plume (Lv 34), Body Slam (Lv 41), Flamethrower (Lv 48), Earth Power (Lv 50) | TM: 23
+- **Smoochum** (`P3RA`) | Ice&Psychic | Snow Cloak | Pound (Lv 1), Lick (Lv 1), Powder Snow (Lv 4), Confusion (Lv 12), Covet (Lv 16), Ice Punch (Lv 28), Psychic (Lv 32), Blizzard (Lv 48) | TM: 20
+- **Sneasel** (`P3SA`) | Dark&Ice | Inner Focus | Scratch (Lv 1), Quick Attack (Lv 12), Metal Claw (Lv 18), Icy Wind (Lv 24), Fury Swipes (Lv 30), Slash (Lv 60) | TM: 34
+- **Snorlax** (`P3TA`) | Normal | Thick Fat | Last Resort (Lv 1), Covet (Lv 1), Crunch (Lv 24), Body Slam (Lv 28), High Horsepower (Lv 40), Hammer Arm (Lv 44), Belch (Lv 52), Giga Impact (Lv 56) | TM: 40
+- **Snover** (`P3UA`) | Grass&Ice | Overgrow | Powder Snow (Lv 1), Leafage (Lv 5), Ice Shard (Lv 15), Razor Leaf (Lv 20), Icy Wind (Lv 25), Wood Hammer (Lv 41), Blizzard (Lv 45) | TM: 25
+- **Snubbull** (`P3VA`) | Fairy | Intimidate | Fire Fang (Lv 1), Ice Fang (Lv 1), Thunder Fang (Lv 1), Bite (Lv 7), Headbutt (Lv 19), Last Resort (Lv 31), Play Rough (Lv 37), Crunch (Lv 49) | TM: 40
+- **Sudowoodo** (`P3WA`) | Rock | Sturdy | Slam (Lv 1), Wood Hammer (Lv 1), Hammer Arm (Lv 1), Stone Edge (Lv 1), Sucker Punch (Lv 28), Rock Slide (Lv 32), Double Edge (Lv 44), Head Smash (Lv 48) | TM: 34
+- **Suicune** (`P3XA`) | Water | Pressure | Water Pulse (Lv 6), Bite (Lv 12), Ice Fang (Lv 30), Crunch (Lv 42), Extrasensory (Lv 48), Surf (Lv 54), Hydro Pump (Lv 72), Blizzard (Lv 78) | TM: 28
+- **Swablu** (`P3YA`) | Normal&Flying | Natural Cure | Peck (Lv 1), Disarming Voice (Lv 4), Fury Attack (Lv 12), Round (Lv 16), Dragon Breath (Lv 20), Take Down (Lv 36), Moonblast (Lv 40) | TM: 21
+- **Swinub** (`P3ZA`) | Ice&Ground | Snow Cloak | Tackle (Lv 1), Mud Slap (Lv 1), Powder Snow (Lv 5), Ice Shard (Lv 15), Icy Wind (Lv 30), Take Down (Lv 40), Earthquake (Lv 45), Blizzard (Lv 50) | TM: 25
+- **Tangela** (`P40A`) | Grass | Chlorophyll | Absorb (Lv 1), Mega Drain (Lv 12), Vine Whip (Lv 16), Ancient Power (Lv 24), Knock Off (Lv 28), Giga Drain (Lv 32), Slam (Lv 40), Power Whip (Lv 48) | TM: 15
+- **Tangrowth** (`P41A`) | Grass | Chlorophyll | Absorb (Lv 1), Mega Drain (Lv 12), Vine Whip (Lv 16), Ancient Power (Lv 24), Knock Off (Lv 28), Giga Drain (Lv 32), Slam (Lv 40), Power Whip (Lv 48) | TM: 26
+- **Tauros Aqua** (`P42A`) | Fighting&Water | Intimidate | Tackle (Lv 1), Aqua Jet (Lv 15), Headbutt (Lv 20), Zen Headbutt (Lv 30), Raging Bull (Lv 35), Thrash (Lv 50), Wave Crash (Lv 55), Close Combat (Lv 60) | TM: 32
+- **Tauros Blaze** (`P43A`) | Fighting&Fire | Intimidate | Tackle (Lv 1), Flame Charge (Lv 15), Headbutt (Lv 20), Zen Headbutt (Lv 30), Raging Bull (Lv 35), Thrash (Lv 50), Flare Blitz (Lv 55), Close Combat (Lv 60) | TM: 33
+- **Tauros Combat** (`P44A`) | Fighting | Intimidate | Tackle (Lv 1), Assurance (Lv 15), Headbutt (Lv 20), Zen Headbutt (Lv 30), Raging Bull (Lv 35), Thrash (Lv 50), Double Edge (Lv 55), Close Combat (Lv 60) | TM: 28
+- **Togekiss** (`P45A`) | Fairy&Flying | Cute Charm | Air Slash (Lv 1), Last Resort (Lv 1), Sky Attack (Lv 1), Double Edge (Lv 1), Aura Sphere (Lv 1), Extreme Speed (Lv 1), Tri Attack (Lv 1), Ancient Power (Lv 1) | TM: 35
+- **Togepi** (`P46A`) | Fairy | Cute Charm | Pound (Lv 1), Ancient Power (Lv 16), Double Edge (Lv 32), Last Resort (Lv 48) | TM: 23
+- **Togetic** (`P47A`) | Fairy&Flying | Cute Charm | Fairy Wind (Lv 1), Pound (Lv 1), Ancient Power (Lv 16), Double Edge (Lv 32), Last Resort (Lv 48) | TM: 33
+- **Torchic** (`EN00`) | Fire&Fighting | Blaze | Scratch (Lv 1), Ember (Lv 3), Flame Charge (Lv 9), Aerial Ace (Lv 18), Slash (Lv 21), Bounce (Lv 24), Flamethrower (Lv 30), Flare Blitz (Lv 39) | TM: 21
+- **Torkoal** (`P49A`) | Fire | Drought | Rapid Spin (Lv 8), Clear Smog (Lv 16), Flame Wheel (Lv 20), Lava Plume (Lv 28), Body Slam (Lv 32), Flamethrower (Lv 40), Heat Wave (Lv 48), Eruption (Lv 64) | TM: 29
+- **Toxicroak** (`P4AA`) | Poison&Fighting | Poison Point | Astonish (Lv 1), Mud Slap (Lv 1), Poison Sting (Lv 1), Venoshock (Lv 20), Sucker Punch (Lv 24), Poison Jab (Lv 32), Sludge Bomb (Lv 48), Belch (Lv 54) | TM: 40
+- **Trapinch** (`P4BA`) | Ground | Hyper Cutter | Astonish (Lv 1), Bite (Lv 8), Bulldoze (Lv 20), Dig (Lv 24), Crunch (Lv 28), Earth Power (Lv 36), Earthquake (Lv 40), Superpower (Lv 44) | TM: 20
+- **Treecko** (`EN03`) | Grass | Overgrow | Pound (Lv 1), Leafage (Lv 3), Quick Attack (Lv 6), Assurance (Lv 18), Giga Drain (Lv 21), Slam (Lv 24), Energy Ball (Lv 30), Leaf Storm (Lv 39) | TM: 27
+- **Typhlosion** (`P4DA`) | Fire | Blaze | Eruption (Lv 1), Double Edge (Lv 1), Flame Wheel (Lv 20), Swift (Lv 31), Flame Charge (Lv 35), Lava Plume (Lv 43), Flamethrower (Lv 48), Overheat (Lv 74) | TM: 40
+- **Tyranitar** (`EN08`) | Rock&Dark | Sand Stream | Dark Pulse (Lv 1), Stomping Tantrum (Lv 18), Crunch (Lv 27), Earthquake (Lv 33), Stone Edge (Lv 37), Thrash (Lv 42), Hyper Beam (Lv 52), Giga Impact (Lv 59) | TM: 40
+- **Tyrogue** (`P4EA`) | Fighting | Guts | Fake Out (Lv 1), Tackle (Lv 1) | TM: 13
+- **Vibrava** (`P4FA`) | Ground&Dragon | Levitate | Dragon Breath (Lv 1), Dig (Lv 1), Bug Buzz (Lv 28), Earth Power (Lv 38), Earthquake (Lv 44), Uproar (Lv 50), Dragon Rush (Lv 56), Boomburst (Lv 62) | TM: 38
+- **Vileplume** (`P4GA`) | Grass&Poison | Chlorophyll | Petal Blizzard (Lv 1), Petal Dance (Lv 1), Moonblast (Lv 1), Giga Drain (Lv 1), Acid (Lv 1), Mega Drain (Lv 1), Absorb (Lv 1) | TM: 23
+- **Weavile** (`P4HA`) | Dark&Ice | Pressure | Slash (Lv 1), Assurance (Lv 1), Ice Shard (Lv 1), Quick Attack (Lv 1), Metal Claw (Lv 18), Icy Wind (Lv 24), Night Slash (Lv 60), Dark Pulse (Lv 66) | TM: 38
+- **Wigglytuff** (`P4IA`) | Normal&Fairy | Cute Charm | Double Edge (Lv 1), Hyper Voice (Lv 1), Body Slam (Lv 1), Covet (Lv 1), Round (Lv 1), Disarming Voice (Lv 1), Echoed Voice (Lv 1), Play Rough (Lv 5) | TM: 40
+- **Wobbuffet** (`P4JA`) | Psychic | Shadow Tag | (khong co chieu level-up co sat thuong) | TM: 0
+- **Wynaut** (`P4KA`) | Psychic | Shadow Tag | (khong co chieu level-up co sat thuong) | TM: 0
+- **Zweilous** (`P4LA`) | Dark&Dragon | Pressure | Bite (Lv 1), Headbutt (Lv 20), Crunch (Lv 32), Dragon Pulse (Lv 40), Body Slam (Lv 44), Hyper Voice (Lv 48), Dragon Rush (Lv 54), Outrage (Lv 66) | TM: 20
+
+## v1.8 (map goc)
+
+- **Abra** (`E00G`) | Psychic | Synchronize | (khong co chieu level-up co sat thuong) | TM: 21
+- **Alakazam** (`E00I`) | Psychic | Synchronize | Confusion (Lv 1), Psybeam (Lv 5), Psycho Cut (Lv 20), Psyshock (Lv 30), Psychic (Lv 35), Future Sight (Lv 45) | TM: 27
+- **Arcanine** (`E01C`) | Fire | Intimidate | Extreme Speed (Lv 1), Flare Blitz (Lv 1), Play Rough (Lv 1), Crunch (Lv 1), Take Down (Lv 1), Retaliate (Lv 1), Fire Fang (Lv 1), Flamethrower (Lv 5) | TM: 34
+- **Arceus** (`E02A`) | God | Multitype | Earth Power (Lv 20), Hyper Voice (Lv 30), Extreme Speed (Lv 40), Future Sight (Lv 60), Hyper Beam (Lv 80), Judgment (Lv 100) | TM: 40
+- **Articuno** (`E020`) | Ice&Flying | Pressure | Gust (Lv 1), Powder Snow (Lv 5), Ice Shard (Lv 15), Ancient Power (Lv 25), Freeze Dry (Lv 35), Ice Beam (Lv 45), Hurricane (Lv 55), Blizzard (Lv 65) | TM: 24
+- **Beedrill** (`E02K`) | Bug&Poison | Swarm | Twineedle (Lv 1), Rage (Lv 14), Pursuit (Lv 17), Venoshock (Lv 23), Assurance (Lv 26), Pin Missile (Lv 32), Poison Jab (Lv 35), Fell Stinger (Lv 44) | TM: 19
+- **Bellsprout** (`E02B`) | Grass&Poison | Chlorophyll | Vine Whip (Lv 1), Wrap (Lv 11), Acid (Lv 23), Knock Off (Lv 27), Razor Leaf (Lv 39), Poison Jab (Lv 41), Slam (Lv 47), Power Whip (Lv 52) | TM: 22
+- **Blastoise** (`E000`) | Water | Torrent | Flash Cannon (Lv 1), Tackle (Lv 1), Rapid Spin (Lv 9), Bite (Lv 12), Water Pulse (Lv 15), Aqua Tail (Lv 30), Hydro Pump (Lv 49), Wave Crash (Lv 56) | TM: 40
+- **Bulbasaur** (`E008`) | Grass&Poison | Overgrow | Tackle (Lv 1), Vine Whip (Lv 3), Razor Leaf (Lv 12), Seed Bomb (Lv 18), Take Down (Lv 21), Power Whip (Lv 33), Solar Beam (Lv 36) | TM: 21
+- **Butterfree** (`E01Q`) | Bug&Flying | Compound Eyes | Gust (Lv 1), Bug Bite (Lv 1), Tackle (Lv 1), Confusion (Lv 8), Psybeam (Lv 16), Air Slash (Lv 24), Bug Buzz (Lv 32) | TM: 21
+- **Caterpie** (`E01N`) | Bug | Compound Eyes | Tackle (Lv 1), Bug Bite (Lv 9) | TM: 1
+- **Charizard** (`E00E`) | Fire&Flying | Blaze | Air Slash (Lv 1), Heat Wave (Lv 1), Dragon Claw (Lv 1), Dragon Breath (Lv 12), Fire Fang (Lv 19), Slash (Lv 24), Flamethrower (Lv 30), Flare Blitz (Lv 62) | TM: 40
+- **Charmander** (`E003`) | Fire | Blaze | Scratch (Lv 1), Ember (Lv 4), Dragon Breath (Lv 12), Fire Fang (Lv 17), Slash (Lv 20), Flamethrower (Lv 24), Inferno (Lv 36), Flare Blitz (Lv 40) | TM: 33
+- **Charmeleon** (`E007`) | Fire | Blaze | Ember (Lv 1), Scratch (Lv 1), Dragon Breath (Lv 12), Fire Fang (Lv 19), Slash (Lv 24), Flamethrower (Lv 30), Inferno (Lv 48), Flare Blitz (Lv 54) | TM: 32
+- **Cloyster** (`E01F`) | Water&Ice | Shell Armor | Ice Beam (Lv 1), Hydro Pump (Lv 1), Icicle Crash (Lv 1), Aurora Beam (Lv 1), Ice Shard (Lv 1), Tackle (Lv 1), Water Gun (Lv 1), Razor Shell (Lv 5) | TM: 26
+- **Crobat** (`E049`) | Poison&Flying | Inner Focus | Cross Poison (Lv 1), Astonish (Lv 1), Poison Fang (Lv 15), Air Cutter (Lv 27), Bite (Lv 34), Venoshock (Lv 48), Air Slash (Lv 62), Leech Life (Lv 69) | TM: 29
+- **Darkrai** (`E023`) | Dark | Bad Dreams | Quick Attack (Lv 11), Sucker Punch (Lv 29), Dream Eater (Lv 84), Dark Pulse (Lv 93) | TM: 31
+- **Deoxys** (`E027`) | Psychic | Pressure | Wrap (Lv 1), Knock Off (Lv 19), Psyshock (Lv 25), Psychic (Lv 31), Zen Headbutt (Lv 49), Psycho Boost (Lv 67), Hyper Beam (Lv 73) | TM: 40
+- **Dialga** (`E04C`) | Time | Pressure | Slash (Lv 24), Flash Cannon (Lv 32), Dragon Claw (Lv 40), Aura Sphere (Lv 48), Power Gem (Lv 56), Earth Power (Lv 72), Iron Tail (Lv 80), Roar Of Time (Lv 88) | TM: 39
+- **Dragonair** (`E01T`) | Dragon | Shed Skin | Twister (Lv 1), Wrap (Lv 1), Dragon Tail (Lv 15), Slam (Lv 25), Aqua Tail (Lv 33), Dragon Rush (Lv 39), Outrage (Lv 67), Hyper Beam (Lv 74) | TM: 28
+- **Dragonite** (`E01K`) | Dragon&Flying | Multiscale | Hurricane (Lv 1), Extreme Speed (Lv 1), Fire Punch (Lv 1), Thunder Punch (Lv 1), Aqua Tail (Lv 33), Dragon Rush (Lv 39), Outrage (Lv 41), Hyper Beam (Lv 80) | TM: 40
+- **Dratini** (`E01S`) | Dragon | Shed Skin | Wrap (Lv 1), Twister (Lv 5), Dragon Tail (Lv 15), Slam (Lv 25), Aqua Tail (Lv 31), Dragon Rush (Lv 35), Outrage (Lv 55), Hyper Beam (Lv 60) | TM: 27
+- **Eevee** (`E03A`) | Normal | Adaptability | Covet (Lv 1), Tackle (Lv 1), Quick Attack (Lv 10), Swift (Lv 20), Bite (Lv 25), Take Down (Lv 40), Double Edge (Lv 50), Last Resort (Lv 55) | TM: 14
+- **Electrode** (`E01X`) | Electric | Static | Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 9), Charge Beam (Lv 16), Swift (Lv 20), Self Destruct (Lv 26), Discharge (Lv 41), Explosion (Lv 47) | TM: 16
+- **Espeon** (`E03H`) | Psychic | Synchronize | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Psybeam (Lv 25), Psychic (Lv 40), Future Sight (Lv 50), Last Resort (Lv 55) | TM: 28
+- **Exeggcute** (`E02U`) | Grass&Psychic | Chlorophyll | Absorb (Lv 1), Mega Drain (Lv 15), Confusion (Lv 20), Bullet Seed (Lv 30), Giga Drain (Lv 35), Extrasensory (Lv 40), Uproar (Lv 45), Solar Beam (Lv 55) | TM: 18
+- **Exeggutor** (`E02W`) | Grass&Psychic | Chlorophyll | Solar Beam (Lv 1), Wood Hammer (Lv 1), Leaf Storm (Lv 1), Uproar (Lv 1), Extrasensory (Lv 1), Psyshock (Lv 1), Seed Bomb (Lv 1), Giga Drain (Lv 1) | TM: 29
+- **Flareon** (`E038`) | Fire | Flash Fire | Double Edge (Lv 1), Take Down (Lv 1), Covet (Lv 1), Swift (Lv 1), Fire Fang (Lv 30), Lava Plume (Lv 40), Flare Blitz (Lv 50), Last Resort (Lv 55) | TM: 26
+- **Gastly** (`E02G`) | Ghost&Poison | Levitate | Lick (Lv 1), Payback (Lv 12), Hex (Lv 24), Sucker Punch (Lv 32), Dark Pulse (Lv 36), Shadow Ball (Lv 40), Dream Eater (Lv 48) | TM: 25
+- **Gengar** (`E01G`) | Ghost&Poison | Levitate | Shadow Punch (Lv 1), Lick (Lv 1), Payback (Lv 12), Hex (Lv 24), Sucker Punch (Lv 36), Dark Pulse (Lv 42), Shadow Ball (Lv 48), Dream Eater (Lv 60) | TM: 36
+- **Geodude** (`E00N`) | Rock&Ground | Sturdy | Bulldoze (Lv 12), Rock Throw (Lv 16), Smack Down (Lv 18), Self Destruct (Lv 24), Earthquake (Lv 34), Explosion (Lv 36), Double Edge (Lv 40), Stone Edge (Lv 42) | TM: 24
+- **Giratina** (`E028`) | Ghost&Dragon | Pressure | Dragon Breath (Lv 7), Hex (Lv 21), Slash (Lv 28), Shadow Claw (Lv 42), Aura Sphere (Lv 56), Dragon Claw (Lv 63), Earth Power (Lv 70), Shadow Force (Lv 77) | TM: 34
+- **Glaceon** (`E03T`) | Ice | Snow Cloak | Double Edge (Lv 1), Take Down (Lv 1), Covet (Lv 1), Swift (Lv 1), Ice Fang (Lv 30), Freeze Dry (Lv 40), Blizzard (Lv 50), Last Resort (Lv 55) | TM: 25
+- **Golbat** (`E048`) | Poison&Flying | Inner Focus | Astonish (Lv 1), Absorb (Lv 1), Poison Fang (Lv 15), Air Cutter (Lv 27), Bite (Lv 34), Venoshock (Lv 48), Air Slash (Lv 62), Leech Life (Lv 69) | TM: 24
+- **Golem** (`E00P`) | Rock&Ground | Sturdy | Rock Throw (Lv 16), Smack Down (Lv 18), Bulldoze (Lv 22), Self Destruct (Lv 24), Earthquake (Lv 40), Explosion (Lv 44), Double Edge (Lv 50), Stone Edge (Lv 54) | TM: 29
+- **Graveler** (`E00O`) | Rock&Ground | Sturdy | Bulldoze (Lv 12), Rock Throw (Lv 16), Smack Down (Lv 18), Self Destruct (Lv 24), Earthquake (Lv 40), Explosion (Lv 44), Double Edge (Lv 50), Stone Edge (Lv 54) | TM: 27
+- **Growlithe** (`E02F`) | Fire | Intimidate | Bite (Lv 8), Fire Fang (Lv 24), Retaliate (Lv 28), Crunch (Lv 32), Take Down (Lv 36), Flamethrower (Lv 40), Play Rough (Lv 48), Flare Blitz (Lv 56) | TM: 25
+- **Gyarados** (`E03F`) | Water&Flying | Intimidate | Brine (Lv 12), Waterfall (Lv 21), Crunch (Lv 24), Aqua Tail (Lv 32), Hydro Pump (Lv 40), Hurricane (Lv 44), Thrash (Lv 48), Hyper Beam (Lv 52) | TM: 37
+- **Haunter** (`E02H`) | Ghost&Poison | Levitate | Shadow Punch (Lv 1), Lick (Lv 1), Payback (Lv 12), Hex (Lv 24), Sucker Punch (Lv 36), Dark Pulse (Lv 42), Shadow Ball (Lv 48), Dream Eater (Lv 60) | TM: 28
+- **Hitmonchan** (`E01Z`) | Fighting | Iron Fist | Drain Punch (Lv 1), Fake Out (Lv 1), Fire Punch (Lv 24), Ice Punch (Lv 24), Thunder Punch (Lv 24), Mega Punch (Lv 32), Close Combat (Lv 36), Focus Punch (Lv 44) | TM: 31
+- **Hitmonlee** (`E03Y`) | Fighting | Reckless | Brick Break (Lv 1), Low Sweep (Lv 1), Sucker Punch (Lv 16), Blaze Kick (Lv 24), Mega Kick (Lv 32), Close Combat (Lv 36), High Jump Kick (Lv 44), Axe Kick (Lv 50) | TM: 27
+- **Hitmontop** (`E03Z`) | Fighting | Intimidate | Fake Out (Lv 1), Tackle (Lv 1), Feint (Lv 1), Quick Attack (Lv 4), Rapid Spin (Lv 16), Sucker Punch (Lv 24), Dig (Lv 32), Close Combat (Lv 36) | TM: 24
+- **Ivysaur** (`E001`) | Grass&Poison | Overgrow | Vine Whip (Lv 1), Tackle (Lv 1), Razor Leaf (Lv 12), Seed Bomb (Lv 20), Take Down (Lv 25), Power Whip (Lv 45), Solar Beam (Lv 50) | TM: 21
+- **Jolteon** (`E01E`) | Electric | Volt Absorb | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Thunder Fang (Lv 30), Discharge (Lv 40), Thunder (Lv 50), Last Resort (Lv 55) | TM: 23
+- **Kabuto** (`E03P`) | Rock&Water | Battle Armor | Scratch (Lv 5), Aqua Jet (Lv 15), Mud Shot (Lv 25), Ancient Power (Lv 30), Brine (Lv 35), Leech Life (Lv 45), Liquidation (Lv 50), Stone Edge (Lv 60) | TM: 24
+- **Kabutops** (`E035`) | Rock&Water | Battle Armor | Slash (Lv 1), Night Slash (Lv 1), Mud Shot (Lv 25), Ancient Power (Lv 30), Brine (Lv 35), Leech Life (Lv 49), Liquidation (Lv 56), Stone Edge (Lv 70) | TM: 34
+- **Kadabra** (`E00H`) | Psychic | Synchronize | Confusion (Lv 1), Psybeam (Lv 5), Psycho Cut (Lv 20), Psyshock (Lv 30), Psychic (Lv 35), Future Sight (Lv 45) | TM: 23
+- **Kakuna** (`E02J`) | Bug&Poison | Swarm | (khong co chieu level-up co sat thuong) | TM: 0
+- **Kangaskhan** (`E02P`) | Normal | Early Bird | Pound (Lv 1), Bite (Lv 12), Stomp (Lv 16), Headbutt (Lv 24), Sucker Punch (Lv 28), Crunch (Lv 36), Outrage (Lv 48), Last Resort (Lv 52) | TM: 40
+- **Kingler** (`E03D`) | Water | Hyper Cutter | Hammer Arm (Lv 1), Metal Claw (Lv 1), Mud Shot (Lv 12), Bubble Beam (Lv 20), Stomp (Lv 24), Razor Shell (Lv 36), Slam (Lv 42), Crabhammer (Lv 54) | TM: 29
+- **Koffing** (`E01V`) | Poison | Levitate | Tackle (Lv 1), Clear Smog (Lv 12), Assurance (Lv 16), Sludge (Lv 20), Self Destruct (Lv 28), Sludge Bomb (Lv 32), Belch (Lv 40), Explosion (Lv 44) | TM: 17
+- **Krabby** (`E03C`) | Water | Hyper Cutter | Water Gun (Lv 1), Metal Claw (Lv 8), Mud Shot (Lv 12), Bubble Beam (Lv 20), Stomp (Lv 24), Razor Shell (Lv 32), Slam (Lv 36), Crabhammer (Lv 44) | TM: 23
+- **Leafleon** (`E03S`) | Grass | Leaf Guard | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Swift (Lv 1), Giga Drain (Lv 40), Leaf Blade (Lv 50), Last Resort (Lv 55) | TM: 29
+- **Lugia** (`E022`) | Psychic&Water | Multiscale | Ancient Power (Lv 1), Weather Ball (Lv 1), Gust (Lv 1), Extrasensory (Lv 36), Aeroblast (Lv 54), Hydro Pump (Lv 72), Future Sight (Lv 81), Sky Attack (Lv 90) | TM: 40
+- **Machamp** (`E010`) | Fighting | Guts | Revenge (Lv 1), Low Sweep (Lv 12), Knock Off (Lv 16), Vital Throw (Lv 24), Strength (Lv 31), Dynamic Punch (Lv 54), Cross Chop (Lv 60), Double Edge (Lv 66) | TM: 36
+- **Machoke** (`E00Z`) | Fighting | Guts | Revenge (Lv 1), Low Sweep (Lv 12), Knock Off (Lv 16), Vital Throw (Lv 24), Strength (Lv 31), Dynamic Punch (Lv 54), Cross Chop (Lv 60), Double Edge (Lv 66) | TM: 27
+- **Machop** (`E00Y`) | Fighting | Guts | Revenge (Lv 8), Low Sweep (Lv 12), Knock Off (Lv 16), Vital Throw (Lv 24), Strength (Lv 29), Dynamic Punch (Lv 44), Cross Chop (Lv 48), Double Edge (Lv 52) | TM: 26
+- **Magikarp** (`E03E`) | Water | Swift Swim | Tackle (Lv 15) | TM: 2
+- **Magnemite** (`E031`) | Electric&Steel | Magnet Pull | Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 20), Flash Cannon (Lv 32), Discharge (Lv 36), Zap Cannon (Lv 52) | TM: 13
+- **Magneton** (`E032`) | Electric&Steel | Magnet Pull | Tri Attack (Lv 1), Tackle (Lv 1), Thunder Shock (Lv 1), Spark (Lv 20), Flash Cannon (Lv 34), Discharge (Lv 40), Zap Cannon (Lv 64) | TM: 14
+- **Mankey** (`E02S`) | Fighting | Anger Point | Covet (Lv 1), Scratch (Lv 1), Cross Chop (Lv 22), Assurance (Lv 26), Thrash (Lv 29), Close Combat (Lv 33), Stomping Tantrum (Lv 40), Outrage (Lv 44) | TM: 35
+- **Metapod** (`E01P`) | Bug | Compound Eyes | (khong co chieu level-up co sat thuong) | TM: 1
+- **Mew** (`E024`) | Psychic | Synchronize | Pound (Lv 1), Ancient Power (Lv 30), Aura Sphere (Lv 90), Psychic (Lv 100) | TM: 40
+- **Mewtwo** (`E026`) | Psychic | Pressure | Swift (Lv 1), Confusion (Lv 1), Ancient Power (Lv 8), Psycho Cut (Lv 16), Aura Sphere (Lv 40), Psychic (Lv 48), Psystrike (Lv 72), Future Sight (Lv 88) | TM: 40
+- **Moltres** (`E021`) | Fire&Flying | Pressure | Wing Attack (Lv 15), Ancient Power (Lv 25), Incinerate (Lv 30), Air Slash (Lv 35), Heat Wave (Lv 45), Hurricane (Lv 55), Overheat (Lv 65), Sky Attack (Lv 70) | TM: 28
+- **Mr.mime** (`E040`) | Psychic | Soundproof | Pound (Lv 1), Confusion (Lv 12), Psybeam (Lv 28), Sucker Punch (Lv 40), Dazzling Gleam (Lv 44), Psychic (Lv 48) | TM: 32
+- **Nidoking** (`E01J`) | Ground&Poison | Poison Point | Megahorn (Lv 1), Earth Power (Lv 1), Poison Jab (Lv 1), Horn Attack (Lv 1), Peck (Lv 1), Double Kick (Lv 1), Poison Sting (Lv 1), Fury Attack (Lv 1) | TM: 40
+- **Nidoran** (`E01M`) | Poison | Poison Point | Poison Sting (Lv 1), Peck (Lv 5), Fury Attack (Lv 15), Double Kick (Lv 25), Horn Attack (Lv 30), Poison Jab (Lv 50), Earth Power (Lv 55) | TM: 18
+- **Nidorino** (`E01L`) | Poison | Poison Point | Peck (Lv 1), Poison Sting (Lv 1), Fury Attack (Lv 15), Double Kick (Lv 29), Horn Attack (Lv 36), Poison Jab (Lv 64), Earth Power (Lv 71) | TM: 19
+- **Ninetales** (`E04P`) | Fire | Flash Fire | Flamethrower (Lv 1), Quick Attack (Lv 1) | TM: 29
+- **Omanyte** (`E03Q`) | Rock&Water | Swift Swim | Rollout (Lv 5), Water Gun (Lv 15), Mud Shot (Lv 25), Ancient Power (Lv 30), Brine (Lv 35), Rock Blast (Lv 45), Surf (Lv 50), Hydro Pump (Lv 60) | TM: 21
+- **Omastar** (`E03R`) | Rock&Water | Swift Swim | Crunch (Lv 1), Rollout (Lv 1), Water Gun (Lv 15), Mud Shot (Lv 25), Ancient Power (Lv 30), Brine (Lv 35), Surf (Lv 56), Hydro Pump (Lv 70) | TM: 27
+- **Onix** (`E03U`) | Rock&Ground | Rock Head | Smack Down (Lv 4), Dragon Breath (Lv 12), Rock Slide (Lv 20), Slam (Lv 36), Dig (Lv 44), Iron Tail (Lv 48), Stone Edge (Lv 52), Double Edge (Lv 56) | TM: 25
+- **Palkia** (`E04D`) | Space | Pressure | Water Pulse (Lv 1), Slash (Lv 24), Aura Sphere (Lv 48), Power Gem (Lv 56), Aqua Tail (Lv 64), Earth Power (Lv 72), Spacial Rend (Lv 80), Hydro Pump (Lv 88) | TM: 40
+- **Pidgeot** (`E00D`) | Flying | Keen Eye | Hurricane (Lv 1), Gust (Lv 1), Quick Attack (Lv 1), Tackle (Lv 1), Twister (Lv 22), Wing Attack (Lv 38), Air Slash (Lv 62) | TM: 10
+- **Pidgeotto** (`E00C`) | Flying | Keen Eye | Gust (Lv 1), Tackle (Lv 1), Quick Attack (Lv 13), Twister (Lv 22), Wing Attack (Lv 37), Air Slash (Lv 57), Hurricane (Lv 62) | TM: 8
+- **Pidgey** (`E00B`) | Flying | Keen Eye | Tackle (Lv 1), Gust (Lv 9), Quick Attack (Lv 13), Twister (Lv 21), Wing Attack (Lv 33), Air Slash (Lv 49), Hurricane (Lv 53) | TM: 8
+- **Pikachu** (`E005`) | Electric | Static | Quick Attack (Lv 1), Thunder Shock (Lv 1), Feint (Lv 16), Spark (Lv 20), Iron Tail (Lv 28), Discharge (Lv 32), Thunderbolt (Lv 36), Thunder (Lv 44) | TM: 24
+- **Pinsir** (`E03W`) | Bug | Hyper Cutter | Vice Grip (Lv 1), Bug Bite (Lv 16), Storm Throw (Lv 20), Vital Throw (Lv 28), X Scissor (Lv 32), Strength (Lv 36), Submission (Lv 44), Superpower (Lv 52) | TM: 23
+- **Poliwag** (`E012`) | Water | Water Absorb | Water Gun (Lv 1), Pound (Lv 6), Mud Shot (Lv 12), Bubble Beam (Lv 18), Body Slam (Lv 30), Earth Power (Lv 36), Hydro Pump (Lv 42), Double Edge (Lv 54) | TM: 26
+- **Poliwhirl** (`E013`) | Water | Water Absorb | Mud Shot (Lv 1), Pound (Lv 1), Water Gun (Lv 1), Bubble Beam (Lv 18), Body Slam (Lv 32), Earth Power (Lv 40), Hydro Pump (Lv 48), Double Edge (Lv 66) | TM: 30
+- **Poliwrath** (`E014`) | Water&Fighting | Water Absorb | Dynamic Punch (Lv 1), Body Slam (Lv 1), Bubble Beam (Lv 1) | TM: 40
+- **Ponyta** (`E01B`) | Fire | Flame Body | Tackle (Lv 1), Flame Charge (Lv 15), Flame Wheel (Lv 25), Stomp (Lv 30), Take Down (Lv 41), Inferno (Lv 45), Fire Blast (Lv 50), Flare Blitz (Lv 55) | TM: 19
+- **Primeape** (`E02T`) | Fighting | Anger Point | Scratch (Lv 1), Cross Chop (Lv 22), Assurance (Lv 26), Thrash (Lv 30), Rage Fist (Lv 35), Close Combat (Lv 39), Stomping Tantrum (Lv 48), Outrage (Lv 53) | TM: 40
+- **Raichu** (`E006`) | Electric | Static | Thunder Punch (Lv 1), Discharge (Lv 1), Thunder (Lv 1), Iron Tail (Lv 1), Spark (Lv 1), Quick Attack (Lv 1), Thunder Shock (Lv 1), Thunderbolt (Lv 5) | TM: 27
+- **Rapidash** (`E01H`) | Fire | Flame Body | Smart Strike (Lv 1), Megahorn (Lv 1), Poison Jab (Lv 1), Flame Wheel (Lv 25), Stomp (Lv 30), Take Down (Lv 43), Fire Blast (Lv 56), Flare Blitz (Lv 63) | TM: 27
+- **Raticate** (`E00U`) | Normal | Run Away | Quick Attack (Lv 1), Tackle (Lv 1), Bite (Lv 10), Hyper Fang (Lv 16), Assurance (Lv 19), Crunch (Lv 24), Sucker Punch (Lv 29), Double Edge (Lv 39) | TM: 14
+- **Rattata** (`E00T`) | Normal | Run Away | Tackle (Lv 1), Quick Attack (Lv 4), Bite (Lv 10), Hyper Fang (Lv 16), Assurance (Lv 19), Crunch (Lv 22), Sucker Punch (Lv 25), Double Edge (Lv 31) | TM: 12
+- **Rayquaza** (`E029`) | Dragon&Flying | Air Lock | Dragon Ascent (Lv 1), Crunch (Lv 9), Extreme Speed (Lv 27), Dragon Pulse (Lv 36), Hyper Voice (Lv 45), Fly (Lv 63), Outrage (Lv 81), Hyper Beam (Lv 90) | TM: 40
+- **Regigigas** (`E025`) | Normal | Slow Start | Facade (Lv 12), Stomp (Lv 18), Knock Off (Lv 30), Mega Punch (Lv 36), Body Press (Lv 42), Zen Headbutt (Lv 54), Hammer Arm (Lv 66), Giga Impact (Lv 72) | TM: 30
+- **Rhydon** (`E02Z`) | Rock&Ground | Lightning Rod | Hammer Arm (Lv 1), Horn Attack (Lv 15), Stomp (Lv 25), Drill Run (Lv 35), Take Down (Lv 40), Earthquake (Lv 47), Stone Edge (Lv 54), Megahorn (Lv 61) | TM: 40
+- **Rhyhorn** (`E02Y`) | Rock&Ground | Lightning Rod | Bulldoze (Lv 10), Horn Attack (Lv 15), Stomp (Lv 25), Drill Run (Lv 35), Take Down (Lv 40), Earthquake (Lv 45), Stone Edge (Lv 50), Megahorn (Lv 55) | TM: 38
+- **Sandshrew** (`E00A`) | Ground | Sand Veil | Scratch (Lv 1), Fury Cutter (Lv 12), Rapid Spin (Lv 15), Bulldoze (Lv 18), Swift (Lv 21), Slash (Lv 30), Dig (Lv 33), Earthquake (Lv 45) | TM: 32
+- **Sandslash** (`E00F`) | Ground | Sand Veil | Crush Claw (Lv 1), Scratch (Lv 1), Rapid Spin (Lv 15), Bulldoze (Lv 18), Swift (Lv 21), Slash (Lv 36), Dig (Lv 41), Earthquake (Lv 61) | TM: 37
+- **Scizor** (`E03M`) | Bug&Steel | Technician | Bullet Punch (Lv 1), Air Slash (Lv 1), Wing Attack (Lv 1), False Swipe (Lv 1), Metal Claw (Lv 12), Slash (Lv 24), Iron Head (Lv 36), X Scissor (Lv 40) | TM: 31
+- **Scyther** (`E03L`) | Bug&Flying | Swarm | Quick Attack (Lv 1), Fury Cutter (Lv 4), False Swipe (Lv 8), Wing Attack (Lv 12), Double Hit (Lv 20), Slash (Lv 24), Air Slash (Lv 36), X Scissor (Lv 40) | TM: 25
+- **Shellder** (`E02E`) | Water&Ice | Shell Armor | Tackle (Lv 1), Water Gun (Lv 1), Ice Shard (Lv 8), Whirlpool (Lv 16), Aurora Beam (Lv 24), Razor Shell (Lv 32), Ice Beam (Lv 40), Hydro Pump (Lv 48) | TM: 19
+- **Squirtle** (`E004`) | Water | Torrent | Tackle (Lv 1), Water Gun (Lv 3), Rapid Spin (Lv 9), Bite (Lv 12), Water Pulse (Lv 15), Aqua Tail (Lv 24), Hydro Pump (Lv 33), Wave Crash (Lv 36) | TM: 25
+- **Starmie** (`E04M`) | Water&Psychic | Natural Cure | Psychic (Lv 1), Surf (Lv 1), Hydro Pump (Lv 1), Power Gem (Lv 1), Brine (Lv 1), Psybeam (Lv 1), Swift (Lv 1), Rapid Spin (Lv 1) | TM: 26
+- **Staryu** (`E04N`) | Water | Natural Cure | Rapid Spin (Lv 12), Swift (Lv 20), Psybeam (Lv 24), Brine (Lv 28), Power Gem (Lv 36), Psychic (Lv 40), Surf (Lv 44), Hydro Pump (Lv 56) | TM: 21
+- **Steelix** (`E03V`) | Steel&Ground | Sturdy | Crunch (Lv 1), Fire Fang (Lv 1), Ice Fang (Lv 1), Rock Slide (Lv 20), Dig (Lv 44), Iron Tail (Lv 48), Stone Edge (Lv 52), Double Edge (Lv 56) | TM: 33
+- **Sylveon** (`E03X`) | Fairy | Cute Charm | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Swift (Lv 20), Draining Kiss (Lv 30), Moonblast (Lv 50), Last Resort (Lv 55) | TM: 23
+- **Tauros** (`E018`) | Normal | Intimidate | Payback (Lv 10), Assurance (Lv 15), Horn Attack (Lv 20), Zen Headbutt (Lv 30), Raging Bull (Lv 35), Thrash (Lv 50), Double Edge (Lv 55), Giga Impact (Lv 60) | TM: 35
+- **Tentacool** (`E02D`) | Water&Poison | Clear Body | Water Gun (Lv 1), Water Pulse (Lv 16), Bubble Beam (Lv 24), Hex (Lv 28), Poison Jab (Lv 36), Surf (Lv 40), Sludge Wave (Lv 44), Hydro Pump (Lv 48) | TM: 28
+- **Tentacruel** (`E01I`) | Water&Poison | Clear Body | Acid (Lv 1), Water Pulse (Lv 16), Bubble Beam (Lv 24), Hex (Lv 28), Poison Jab (Lv 40), Surf (Lv 46), Sludge Wave (Lv 52), Hydro Pump (Lv 58) | TM: 32
+- **Umbreon** (`E03I`) | Dark | Synchronize | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Swift (Lv 1), Assurance (Lv 25), Dark Pulse (Lv 40), Last Resort (Lv 55) | TM: 23
+- **Vaporeon** (`E037`) | Water | Water Absorb | Double Edge (Lv 1), Take Down (Lv 1), Bite (Lv 1), Covet (Lv 1), Aurora Beam (Lv 30), Muddy Water (Lv 40), Hydro Pump (Lv 50), Last Resort (Lv 55) | TM: 29
+- **Venusaur** (`E002`) | Grass&Poison | Overgrow | Petal Blizzard (Lv 1), Petal Dance (Lv 1), Vine Whip (Lv 1), Razor Leaf (Lv 12), Seed Bomb (Lv 20), Take Down (Lv 25), Power Whip (Lv 51), Solar Beam (Lv 58) | TM: 30
+- **Victreebel** (`E02C`) | Grass&Poison | Chlorophyll | Leaf Storm (Lv 1), Razor Leaf (Lv 1), Vine Whip (Lv 1), Leaf Blade (Lv 44) | TM: 27
+- **Voltorb** (`E01D`) | Electric | Static | Tackle (Lv 1), Thunder Shock (Lv 4), Spark (Lv 9), Charge Beam (Lv 16), Swift (Lv 20), Self Destruct (Lv 26), Discharge (Lv 37), Explosion (Lv 41) | TM: 13
+- **Vulpix** (`E04O`) | Fire | Flash Fire | Ember (Lv 1), Quick Attack (Lv 8), Incinerate (Lv 16), Extrasensory (Lv 28), Flamethrower (Lv 32), Fire Spin (Lv 40), Inferno (Lv 48), Fire Blast (Lv 52) | TM: 22
+- **Wartortle** (`E009`) | Water | Torrent | Tackle (Lv 1), Water Gun (Lv 1), Rapid Spin (Lv 9), Bite (Lv 12), Water Pulse (Lv 15), Aqua Tail (Lv 30), Hydro Pump (Lv 45), Wave Crash (Lv 50) | TM: 25
+- **Weedle** (`E02I`) | Bug&Poison | Swarm | Poison Sting (Lv 1), Bug Bite (Lv 9) | TM: 0
+- **Weepinbell** (`E01A`) | Grass&Poison | Chlorophyll | Vine Whip (Lv 1), Wrap (Lv 1), Acid (Lv 24), Knock Off (Lv 29), Razor Leaf (Lv 44), Poison Jab (Lv 47), Slam (Lv 54), Power Whip (Lv 58) | TM: 25
+- **Weezing** (`E019`) | Poison | Levitate | Heat Wave (Lv 1), Clear Smog (Lv 12), Assurance (Lv 16), Sludge (Lv 20), Self Destruct (Lv 28), Sludge Bomb (Lv 32), Belch (Lv 44), Explosion (Lv 50) | TM: 20
+- **Zapdos** (`E03J`) | Electric&Flying | Pressure | Peck (Lv 1), Thunder Shock (Lv 5), Pluck (Lv 15), Ancient Power (Lv 25), Drill Peck (Lv 35), Discharge (Lv 45), Thunder (Lv 55), Zap Cannon (Lv 70) | TM: 21
+- **Zubat** (`E046`) | Poison&Flying | Inner Focus | Absorb (Lv 1), Astonish (Lv 5), Poison Fang (Lv 15), Air Cutter (Lv 25), Bite (Lv 30), Venoshock (Lv 40), Air Slash (Lv 50), Leech Life (Lv 55) | TM: 22
+
+Tong: 301 Pokemon playable (cac dang tien hoa co trong danh sach, chi dang goc co trong menu tavern).

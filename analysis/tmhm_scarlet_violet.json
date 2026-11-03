@@ -1,0 +1,1376 @@
+[
+ {
+  "id": 1816,
+  "item": "tm01",
+  "version_group": "scarlet-violet",
+  "move": "take-down"
+ },
+ {
+  "id": 1817,
+  "item": "tm02",
+  "version_group": "scarlet-violet",
+  "move": "charm"
+ },
+ {
+  "id": 1818,
+  "item": "tm03",
+  "version_group": "scarlet-violet",
+  "move": "fake-tears"
+ },
+ {
+  "id": 1819,
+  "item": "tm04",
+  "version_group": "scarlet-violet",
+  "move": "agility"
+ },
+ {
+  "id": 1820,
+  "item": "tm05",
+  "version_group": "scarlet-violet",
+  "move": "mud-slap"
+ },
+ {
+  "id": 1821,
+  "item": "tm06",
+  "version_group": "scarlet-violet",
+  "move": "scary-face"
+ },
+ {
+  "id": 1822,
+  "item": "tm07",
+  "version_group": "scarlet-violet",
+  "move": "protect"
+ },
+ {
+  "id": 1823,
+  "item": "tm08",
+  "version_group": "scarlet-violet",
+  "move": "fire-fang"
+ },
+ {
+  "id": 1824,
+  "item": "tm09",
+  "version_group": "scarlet-violet",
+  "move": "thunder-fang"
+ },
+ {
+  "id": 1825,
+  "item": "tm10",
+  "version_group": "scarlet-violet",
+  "move": "ice-fang"
+ },
+ {
+  "id": 1826,
+  "item": "tm11",
+  "version_group": "scarlet-violet",
+  "move": "water-pulse"
+ },
+ {
+  "id": 1827,
+  "item": "tm12",
+  "version_group": "scarlet-violet",
+  "move": "low-kick"
+ },
+ {
+  "id": 1828,
+  "item": "tm13",
+  "version_group": "scarlet-violet",
+  "move": "acid-spray"
+ },
+ {
+  "id": 1829,
+  "item": "tm14",
+  "version_group": "scarlet-violet",
+  "move": "acrobatics"
+ },
+ {
+  "id": 1830,
+  "item": "tm15",
+  "version_group": "scarlet-violet",
+  "move": "struggle-bug"
+ },
+ {
+  "id": 1831,
+  "item": "tm16",
+  "version_group": "scarlet-violet",
+  "move": "psybeam"
+ },
+ {
+  "id": 1832,
+  "item": "tm17",
+  "version_group": "scarlet-violet",
+  "move": "confuse-ray"
+ },
+ {
+  "id": 1833,
+  "item": "tm18",
+  "version_group": "scarlet-violet",
+  "move": "thief"
+ },
+ {
+  "id": 1834,
+  "item": "tm19",
+  "version_group": "scarlet-violet",
+  "move": "disarming-voice"
+ },
+ {
+  "id": 1835,
+  "item": "tm20",
+  "version_group": "scarlet-violet",
+  "move": "trailblaze"
+ },
+ {
+  "id": 1836,
+  "item": "tm21",
+  "version_group": "scarlet-violet",
+  "move": "pounce"
+ },
+ {
+  "id": 1837,
+  "item": "tm22",
+  "version_group": "scarlet-violet",
+  "move": "chilling-water"
+ },
+ {
+  "id": 1838,
+  "item": "tm23",
+  "version_group": "scarlet-violet",
+  "move": "charge-beam"
+ },
+ {
+  "id": 1839,
+  "item": "tm24",
+  "version_group": "scarlet-violet",
+  "move": "fire-spin"
+ },
+ {
+  "id": 1840,
+  "item": "tm25",
+  "version_group": "scarlet-violet",
+  "move": "facade"
+ },
+ {
+  "id": 1841,
+  "item": "tm26",
+  "version_group": "scarlet-violet",
+  "move": "poison-tail"
+ },
+ {
+  "id": 1842,
+  "item": "tm27",
+  "version_group": "scarlet-violet",
+  "move": "aerial-ace"
+ },
+ {
+  "id": 1843,
+  "item": "tm28",
+  "version_group": "scarlet-violet",
+  "move": "bulldoze"
+ },
+ {
+  "id": 1844,
+  "item": "tm29",
+  "version_group": "scarlet-violet",
+  "move": "hex"
+ },
+ {
+  "id": 1845,
+  "item": "tm30",
+  "version_group": "scarlet-violet",
+  "move": "snarl"
+ },
+ {
+  "id": 1846,
+  "item": "tm31",
+  "version_group": "scarlet-violet",
+  "move": "metal-claw"
+ },
+ {
+  "id": 1847,
+  "item": "tm32",
+  "version_group": "scarlet-violet",
+  "move": "swift"
+ },
+ {
+  "id": 1848,
+  "item": "tm33",
+  "version_group": "scarlet-violet",
+  "move": "magical-leaf"
+ },
+ {
+  "id": 1849,
+  "item": "tm34",
+  "version_group": "scarlet-violet",
+  "move": "icy-wind"
+ },
+ {
+  "id": 1850,
+  "item": "tm35",
+  "version_group": "scarlet-violet",
+  "move": "mud-shot"
+ },
+ {
+  "id": 1851,
+  "item": "tm36",
+  "version_group": "scarlet-violet",
+  "move": "rock-tomb"
+ },
+ {
+  "id": 1852,
+  "item": "tm37",
+  "version_group": "scarlet-violet",
+  "move": "draining-kiss"
+ },
+ {
+  "id": 1853,
+  "item": "tm38",
+  "version_group": "scarlet-violet",
+  "move": "flame-charge"
+ },
+ {
+  "id": 1854,
+  "item": "tm39",
+  "version_group": "scarlet-violet",
+  "move": "low-sweep"
+ },
+ {
+  "id": 1855,
+  "item": "tm40",
+  "version_group": "scarlet-violet",
+  "move": "air-cutter"
+ },
+ {
+  "id": 1856,
+  "item": "tm41",
+  "version_group": "scarlet-violet",
+  "move": "stored-power"
+ },
+ {
+  "id": 1857,
+  "item": "tm42",
+  "version_group": "scarlet-violet",
+  "move": "night-shade"
+ },
+ {
+  "id": 1858,
+  "item": "tm43",
+  "version_group": "scarlet-violet",
+  "move": "fling"
+ },
+ {
+  "id": 1859,
+  "item": "tm44",
+  "version_group": "scarlet-violet",
+  "move": "dragon-tail"
+ },
+ {
+  "id": 1860,
+  "item": "tm45",
+  "version_group": "scarlet-violet",
+  "move": "venoshock"
+ },
+ {
+  "id": 1861,
+  "item": "tm46",
+  "version_group": "scarlet-violet",
+  "move": "avalanche"
+ },
+ {
+  "id": 1862,
+  "item": "tm47",
+  "version_group": "scarlet-violet",
+  "move": "endure"
+ },
+ {
+  "id": 1863,
+  "item": "tm48",
+  "version_group": "scarlet-violet",
+  "move": "volt-switch"
+ },
+ {
+  "id": 1864,
+  "item": "tm49",
+  "version_group": "scarlet-violet",
+  "move": "sunny-day"
+ },
+ {
+  "id": 1865,
+  "item": "tm50",
+  "version_group": "scarlet-violet",
+  "move": "rain-dance"
+ },
+ {
+  "id": 1866,
+  "item": "tm51",
+  "version_group": "scarlet-violet",
+  "move": "sandstorm"
+ },
+ {
+  "id": 1867,
+  "item": "tm52",
+  "version_group": "scarlet-violet",
+  "move": "snowscape"
+ },
+ {
+  "id": 1868,
+  "item": "tm53",
+  "version_group": "scarlet-violet",
+  "move": "smart-strike"
+ },
+ {
+  "id": 1869,
+  "item": "tm54",
+  "version_group": "scarlet-violet",
+  "move": "psyshock"
+ },
+ {
+  "id": 1870,
+  "item": "tm55",
+  "version_group": "scarlet-violet",
+  "move": "dig"
+ },
+ {
+  "id": 1871,
+  "item": "tm56",
+  "version_group": "scarlet-violet",
+  "move": "bullet-seed"
+ },
+ {
+  "id": 1872,
+  "item": "tm57",
+  "version_group": "scarlet-violet",
+  "move": "false-swipe"
+ },
+ {
+  "id": 1873,
+  "item": "tm58",
+  "version_group": "scarlet-violet",
+  "move": "brick-break"
+ },
+ {
+  "id": 1874,
+  "item": "tm59",
+  "version_group": "scarlet-violet",
+  "move": "zen-headbutt"
+ },
+ {
+  "id": 1875,
+  "item": "tm60",
+  "version_group": "scarlet-violet",
+  "move": "u-turn"
+ },
+ {
+  "id": 1876,
+  "item": "tm61",
+  "version_group": "scarlet-violet",
+  "move": "shadow-claw"
+ },
+ {
+  "id": 1877,
+  "item": "tm62",
+  "version_group": "scarlet-violet",
+  "move": "foul-play"
+ },
+ {
+  "id": 1878,
+  "item": "tm63",
+  "version_group": "scarlet-violet",
+  "move": "psychic-fangs"
+ },
+ {
+  "id": 1879,
+  "item": "tm64",
+  "version_group": "scarlet-violet",
+  "move": "bulk-up"
+ },
+ {
+  "id": 1880,
+  "item": "tm65",
+  "version_group": "scarlet-violet",
+  "move": "air-slash"
+ },
+ {
+  "id": 1881,
+  "item": "tm66",
+  "version_group": "scarlet-violet",
+  "move": "body-slam"
+ },
+ {
+  "id": 1882,
+  "item": "tm67",
+  "version_group": "scarlet-violet",
+  "move": "fire-punch"
+ },
+ {
+  "id": 1883,
+  "item": "tm68",
+  "version_group": "scarlet-violet",
+  "move": "thunder-punch"
+ },
+ {
+  "id": 1884,
+  "item": "tm69",
+  "version_group": "scarlet-violet",
+  "move": "ice-punch"
+ },
+ {
+  "id": 1885,
+  "item": "tm70",
+  "version_group": "scarlet-violet",
+  "move": "sleep-talk"
+ },
+ {
+  "id": 1886,
+  "item": "tm71",
+  "version_group": "scarlet-violet",
+  "move": "seed-bomb"
+ },
+ {
+  "id": 1887,
+  "item": "tm72",
+  "version_group": "scarlet-violet",
+  "move": "electro-ball"
+ },
+ {
+  "id": 1888,
+  "item": "tm73",
+  "version_group": "scarlet-violet",
+  "move": "drain-punch"
+ },
+ {
+  "id": 1889,
+  "item": "tm74",
+  "version_group": "scarlet-violet",
+  "move": "reflect"
+ },
+ {
+  "id": 1890,
+  "item": "tm75",
+  "version_group": "scarlet-violet",
+  "move": "light-screen"
+ },
+ {
+  "id": 1891,
+  "item": "tm76",
+  "version_group": "scarlet-violet",
+  "move": "rock-blast"
+ },
+ {
+  "id": 1892,
+  "item": "tm77",
+  "version_group": "scarlet-violet",
+  "move": "waterfall"
+ },
+ {
+  "id": 1893,
+  "item": "tm78",
+  "version_group": "scarlet-violet",
+  "move": "dragon-claw"
+ },
+ {
+  "id": 1894,
+  "item": "tm79",
+  "version_group": "scarlet-violet",
+  "move": "dazzling-gleam"
+ },
+ {
+  "id": 1895,
+  "item": "tm80",
+  "version_group": "scarlet-violet",
+  "move": "metronome"
+ },
+ {
+  "id": 1896,
+  "item": "tm81",
+  "version_group": "scarlet-violet",
+  "move": "grass-knot"
+ },
+ {
+  "id": 1897,
+  "item": "tm82",
+  "version_group": "scarlet-violet",
+  "move": "thunder-wave"
+ },
+ {
+  "id": 1898,
+  "item": "tm83",
+  "version_group": "scarlet-violet",
+  "move": "poison-jab"
+ },
+ {
+  "id": 1899,
+  "item": "tm84",
+  "version_group": "scarlet-violet",
+  "move": "stomping-tantrum"
+ },
+ {
+  "id": 1900,
+  "item": "tm85",
+  "version_group": "scarlet-violet",
+  "move": "rest"
+ },
+ {
+  "id": 1901,
+  "item": "tm86",
+  "version_group": "scarlet-violet",
+  "move": "rock-slide"
+ },
+ {
+  "id": 1902,
+  "item": "tm87",
+  "version_group": "scarlet-violet",
+  "move": "taunt"
+ },
+ {
+  "id": 1903,
+  "item": "tm88",
+  "version_group": "scarlet-violet",
+  "move": "swords-dance"
+ },
+ {
+  "id": 1904,
+  "item": "tm89",
+  "version_group": "scarlet-violet",
+  "move": "body-press"
+ },
+ {
+  "id": 1905,
+  "item": "tm90",
+  "version_group": "scarlet-violet",
+  "move": "spikes"
+ },
+ {
+  "id": 1906,
+  "item": "tm91",
+  "version_group": "scarlet-violet",
+  "move": "toxic-spikes"
+ },
+ {
+  "id": 1907,
+  "item": "tm92",
+  "version_group": "scarlet-violet",
+  "move": "imprison"
+ },
+ {
+  "id": 1908,
+  "item": "tm93",
+  "version_group": "scarlet-violet",
+  "move": "flash-cannon"
+ },
+ {
+  "id": 1909,
+  "item": "tm94",
+  "version_group": "scarlet-violet",
+  "move": "dark-pulse"
+ },
+ {
+  "id": 1910,
+  "item": "tm95",
+  "version_group": "scarlet-violet",
+  "move": "leech-life"
+ },
+ {
+  "id": 1911,
+  "item": "tm96",
+  "version_group": "scarlet-violet",
+  "move": "eerie-impulse"
+ },
+ {
+  "id": 1912,
+  "item": "tm97",
+  "version_group": "scarlet-violet",
+  "move": "fly"
+ },
+ {
+  "id": 1913,
+  "item": "tm98",
+  "version_group": "scarlet-violet",
+  "move": "skill-swap"
+ },
+ {
+  "id": 1914,
+  "item": "tm99",
+  "version_group": "scarlet-violet",
+  "move": "iron-head"
+ },
+ {
+  "id": 1915,
+  "item": "tm100",
+  "version_group": "scarlet-violet",
+  "move": "dragon-dance"
+ },
+ {
+  "id": 1916,
+  "item": "tm101",
+  "version_group": "scarlet-violet",
+  "move": "power-gem"
+ },
+ {
+  "id": 1917,
+  "item": "tm102",
+  "version_group": "scarlet-violet",
+  "move": "gunk-shot"
+ },
+ {
+  "id": 1918,
+  "item": "tm103",
+  "version_group": "scarlet-violet",
+  "move": "substitute"
+ },
+ {
+  "id": 1919,
+  "item": "tm104",
+  "version_group": "scarlet-violet",
+  "move": "iron-defense"
+ },
+ {
+  "id": 1920,
+  "item": "tm105",
+  "version_group": "scarlet-violet",
+  "move": "x-scissor"
+ },
+ {
+  "id": 1921,
+  "item": "tm106",
+  "version_group": "scarlet-violet",
+  "move": "drill-run"
+ },
+ {
+  "id": 1922,
+  "item": "tm107",
+  "version_group": "scarlet-violet",
+  "move": "will-o-wisp"
+ },
+ {
+  "id": 1923,
+  "item": "tm108",
+  "version_group": "scarlet-violet",
+  "move": "crunch"
+ },
+ {
+  "id": 1924,
+  "item": "tm109",
+  "version_group": "scarlet-violet",
+  "move": "trick"
+ },
+ {
+  "id": 1925,
+  "item": "tm110",
+  "version_group": "scarlet-violet",
+  "move": "liquidation"
+ },
+ {
+  "id": 1926,
+  "item": "tm111",
+  "version_group": "scarlet-violet",
+  "move": "giga-drain"
+ },
+ {
+  "id": 1927,
+  "item": "tm112",
+  "version_group": "scarlet-violet",
+  "move": "aura-sphere"
+ },
+ {
+  "id": 1928,
+  "item": "tm113",
+  "version_group": "scarlet-violet",
+  "move": "tailwind"
+ },
+ {
+  "id": 1929,
+  "item": "tm114",
+  "version_group": "scarlet-violet",
+  "move": "shadow-ball"
+ },
+ {
+  "id": 1930,
+  "item": "tm115",
+  "version_group": "scarlet-violet",
+  "move": "dragon-pulse"
+ },
+ {
+  "id": 1931,
+  "item": "tm116",
+  "version_group": "scarlet-violet",
+  "move": "stealth-rock"
+ },
+ {
+  "id": 1932,
+  "item": "tm117",
+  "version_group": "scarlet-violet",
+  "move": "hyper-voice"
+ },
+ {
+  "id": 1933,
+  "item": "tm118",
+  "version_group": "scarlet-violet",
+  "move": "heat-wave"
+ },
+ {
+  "id": 1934,
+  "item": "tm119",
+  "version_group": "scarlet-violet",
+  "move": "energy-ball"
+ },
+ {
+  "id": 1935,
+  "item": "tm120",
+  "version_group": "scarlet-violet",
+  "move": "psychic"
+ },
+ {
+  "id": 1936,
+  "item": "tm121",
+  "version_group": "scarlet-violet",
+  "move": "heavy-slam"
+ },
+ {
+  "id": 1937,
+  "item": "tm122",
+  "version_group": "scarlet-violet",
+  "move": "encore"
+ },
+ {
+  "id": 1938,
+  "item": "tm123",
+  "version_group": "scarlet-violet",
+  "move": "surf"
+ },
+ {
+  "id": 1939,
+  "item": "tm124",
+  "version_group": "scarlet-violet",
+  "move": "ice-spinner"
+ },
+ {
+  "id": 1940,
+  "item": "tm125",
+  "version_group": "scarlet-violet",
+  "move": "flamethrower"
+ },
+ {
+  "id": 1941,
+  "item": "tm126",
+  "version_group": "scarlet-violet",
+  "move": "thunderbolt"
+ },
+ {
+  "id": 1942,
+  "item": "tm127",
+  "version_group": "scarlet-violet",
+  "move": "play-rough"
+ },
+ {
+  "id": 1943,
+  "item": "tm128",
+  "version_group": "scarlet-violet",
+  "move": "amnesia"
+ },
+ {
+  "id": 1944,
+  "item": "tm129",
+  "version_group": "scarlet-violet",
+  "move": "calm-mind"
+ },
+ {
+  "id": 1945,
+  "item": "tm130",
+  "version_group": "scarlet-violet",
+  "move": "helping-hand"
+ },
+ {
+  "id": 1946,
+  "item": "tm131",
+  "version_group": "scarlet-violet",
+  "move": "pollen-puff"
+ },
+ {
+  "id": 1947,
+  "item": "tm132",
+  "version_group": "scarlet-violet",
+  "move": "baton-pass"
+ },
+ {
+  "id": 1948,
+  "item": "tm133",
+  "version_group": "scarlet-violet",
+  "move": "earth-power"
+ },
+ {
+  "id": 1949,
+  "item": "tm134",
+  "version_group": "scarlet-violet",
+  "move": "reversal"
+ },
+ {
+  "id": 1950,
+  "item": "tm135",
+  "version_group": "scarlet-violet",
+  "move": "ice-beam"
+ },
+ {
+  "id": 1951,
+  "item": "tm136",
+  "version_group": "scarlet-violet",
+  "move": "electric-terrain"
+ },
+ {
+  "id": 1952,
+  "item": "tm137",
+  "version_group": "scarlet-violet",
+  "move": "grassy-terrain"
+ },
+ {
+  "id": 1953,
+  "item": "tm138",
+  "version_group": "scarlet-violet",
+  "move": "psychic-terrain"
+ },
+ {
+  "id": 1954,
+  "item": "tm139",
+  "version_group": "scarlet-violet",
+  "move": "misty-terrain"
+ },
+ {
+  "id": 1955,
+  "item": "tm140",
+  "version_group": "scarlet-violet",
+  "move": "nasty-plot"
+ },
+ {
+  "id": 1956,
+  "item": "tm141",
+  "version_group": "scarlet-violet",
+  "move": "fire-blast"
+ },
+ {
+  "id": 1957,
+  "item": "tm142",
+  "version_group": "scarlet-violet",
+  "move": "hydro-pump"
+ },
+ {
+  "id": 1958,
+  "item": "tm143",
+  "version_group": "scarlet-violet",
+  "move": "blizzard"
+ },
+ {
+  "id": 1959,
+  "item": "tm144",
+  "version_group": "scarlet-violet",
+  "move": "fire-pledge"
+ },
+ {
+  "id": 1960,
+  "item": "tm145",
+  "version_group": "scarlet-violet",
+  "move": "water-pledge"
+ },
+ {
+  "id": 1961,
+  "item": "tm146",
+  "version_group": "scarlet-violet",
+  "move": "grass-pledge"
+ },
+ {
+  "id": 1962,
+  "item": "tm147",
+  "version_group": "scarlet-violet",
+  "move": "wild-charge"
+ },
+ {
+  "id": 1963,
+  "item": "tm148",
+  "version_group": "scarlet-violet",
+  "move": "sludge-bomb"
+ },
+ {
+  "id": 1964,
+  "item": "tm149",
+  "version_group": "scarlet-violet",
+  "move": "earthquake"
+ },
+ {
+  "id": 1965,
+  "item": "tm150",
+  "version_group": "scarlet-violet",
+  "move": "stone-edge"
+ },
+ {
+  "id": 1966,
+  "item": "tm151",
+  "version_group": "scarlet-violet",
+  "move": "phantom-force"
+ },
+ {
+  "id": 1967,
+  "item": "tm152",
+  "version_group": "scarlet-violet",
+  "move": "giga-impact"
+ },
+ {
+  "id": 1968,
+  "item": "tm153",
+  "version_group": "scarlet-violet",
+  "move": "blast-burn"
+ },
+ {
+  "id": 1969,
+  "item": "tm154",
+  "version_group": "scarlet-violet",
+  "move": "hydro-cannon"
+ },
+ {
+  "id": 1970,
+  "item": "tm155",
+  "version_group": "scarlet-violet",
+  "move": "frenzy-plant"
+ },
+ {
+  "id": 1971,
+  "item": "tm156",
+  "version_group": "scarlet-violet",
+  "move": "outrage"
+ },
+ {
+  "id": 1972,
+  "item": "tm157",
+  "version_group": "scarlet-violet",
+  "move": "overheat"
+ },
+ {
+  "id": 1973,
+  "item": "tm158",
+  "version_group": "scarlet-violet",
+  "move": "focus-blast"
+ },
+ {
+  "id": 1974,
+  "item": "tm159",
+  "version_group": "scarlet-violet",
+  "move": "leaf-storm"
+ },
+ {
+  "id": 1975,
+  "item": "tm160",
+  "version_group": "scarlet-violet",
+  "move": "hurricane"
+ },
+ {
+  "id": 1976,
+  "item": "tm161",
+  "version_group": "scarlet-violet",
+  "move": "trick-room"
+ },
+ {
+  "id": 1977,
+  "item": "tm162",
+  "version_group": "scarlet-violet",
+  "move": "bug-buzz"
+ },
+ {
+  "id": 1978,
+  "item": "tm163",
+  "version_group": "scarlet-violet",
+  "move": "hyper-beam"
+ },
+ {
+  "id": 1979,
+  "item": "tm164",
+  "version_group": "scarlet-violet",
+  "move": "brave-bird"
+ },
+ {
+  "id": 1980,
+  "item": "tm165",
+  "version_group": "scarlet-violet",
+  "move": "flare-blitz"
+ },
+ {
+  "id": 1981,
+  "item": "tm166",
+  "version_group": "scarlet-violet",
+  "move": "thunder"
+ },
+ {
+  "id": 1982,
+  "item": "tm167",
+  "version_group": "scarlet-violet",
+  "move": "close-combat"
+ },
+ {
+  "id": 1983,
+  "item": "tm168",
+  "version_group": "scarlet-violet",
+  "move": "solar-beam"
+ },
+ {
+  "id": 1984,
+  "item": "tm169",
+  "version_group": "scarlet-violet",
+  "move": "draco-meteor"
+ },
+ {
+  "id": 1985,
+  "item": "tm170",
+  "version_group": "scarlet-violet",
+  "move": "steel-beam"
+ },
+ {
+  "id": 1986,
+  "item": "tm171",
+  "version_group": "scarlet-violet",
+  "move": "tera-blast"
+ },
+ {
+  "id": 1987,
+  "item": "tm172",
+  "version_group": "scarlet-violet",
+  "move": "roar"
+ },
+ {
+  "id": 1988,
+  "item": "tm173",
+  "version_group": "scarlet-violet",
+  "move": "charge"
+ },
+ {
+  "id": 1989,
+  "item": "tm174",
+  "version_group": "scarlet-violet",
+  "move": "haze"
+ },
+ {
+  "id": 1990,
+  "item": "tm175",
+  "version_group": "scarlet-violet",
+  "move": "toxic"
+ },
+ {
+  "id": 1991,
+  "item": "tm176",
+  "version_group": "scarlet-violet",
+  "move": "sand-tomb"
+ },
+ {
+  "id": 1992,
+  "item": "tm177",
+  "version_group": "scarlet-violet",
+  "move": "spite"
+ },
+ {
+  "id": 1993,
+  "item": "tm178",
+  "version_group": "scarlet-violet",
+  "move": "gravity"
+ },
+ {
+  "id": 1994,
+  "item": "tm179",
+  "version_group": "scarlet-violet",
+  "move": "smack-down"
+ },
+ {
+  "id": 1995,
+  "item": "tm180",
+  "version_group": "scarlet-violet",
+  "move": "gyro-ball"
+ },
+ {
+  "id": 1996,
+  "item": "tm181",
+  "version_group": "scarlet-violet",
+  "move": "knock-off"
+ },
+ {
+  "id": 1997,
+  "item": "tm182",
+  "version_group": "scarlet-violet",
+  "move": "bug-bite"
+ },
+ {
+  "id": 1998,
+  "item": "tm183",
+  "version_group": "scarlet-violet",
+  "move": "super-fang"
+ },
+ {
+  "id": 1999,
+  "item": "tm184",
+  "version_group": "scarlet-violet",
+  "move": "vacuum-wave"
+ },
+ {
+  "id": 2000,
+  "item": "tm185",
+  "version_group": "scarlet-violet",
+  "move": "lunge"
+ },
+ {
+  "id": 2001,
+  "item": "tm186",
+  "version_group": "scarlet-violet",
+  "move": "high-horsepower"
+ },
+ {
+  "id": 2002,
+  "item": "tm187",
+  "version_group": "scarlet-violet",
+  "move": "icicle-spear"
+ },
+ {
+  "id": 2003,
+  "item": "tm188",
+  "version_group": "scarlet-violet",
+  "move": "scald"
+ },
+ {
+  "id": 2004,
+  "item": "tm189",
+  "version_group": "scarlet-violet",
+  "move": "heat-crash"
+ },
+ {
+  "id": 2005,
+  "item": "tm190",
+  "version_group": "scarlet-violet",
+  "move": "solar-blade"
+ },
+ {
+  "id": 2006,
+  "item": "tm191",
+  "version_group": "scarlet-violet",
+  "move": "uproar"
+ },
+ {
+  "id": 2007,
+  "item": "tm192",
+  "version_group": "scarlet-violet",
+  "move": "focus-punch"
+ },
+ {
+  "id": 2008,
+  "item": "tm193",
+  "version_group": "scarlet-violet",
+  "move": "weather-ball"
+ },
+ {
+  "id": 2009,
+  "item": "tm194",
+  "version_group": "scarlet-violet",
+  "move": "grassy-glide"
+ },
+ {
+  "id": 2010,
+  "item": "tm195",
+  "version_group": "scarlet-violet",
+  "move": "burning-jealousy"
+ },
+ {
+  "id": 2011,
+  "item": "tm196",
+  "version_group": "scarlet-violet",
+  "move": "flip-turn"
+ },
+ {
+  "id": 2012,
+  "item": "tm197",
+  "version_group": "scarlet-violet",
+  "move": "dual-wingbeat"
+ },
+ {
+  "id": 2013,
+  "item": "tm198",
+  "version_group": "scarlet-violet",
+  "move": "poltergeist"
+ },
+ {
+  "id": 2014,
+  "item": "tm199",
+  "version_group": "scarlet-violet",
+  "move": "lash-out"
+ },
+ {
+  "id": 2015,
+  "item": "tm200",
+  "version_group": "scarlet-violet",
+  "move": "scale-shot"
+ },
+ {
+  "id": 2016,
+  "item": "tm201",
+  "version_group": "scarlet-violet",
+  "move": "misty-explosion"
+ },
+ {
+  "id": 2017,
+  "item": "tm202",
+  "version_group": "scarlet-violet",
+  "move": "pain-split"
+ },
+ {
+  "id": 2018,
+  "item": "tm203",
+  "version_group": "scarlet-violet",
+  "move": "psych-up"
+ },
+ {
+  "id": 2019,
+  "item": "tm204",
+  "version_group": "scarlet-violet",
+  "move": "double-edge"
+ },
+ {
+  "id": 2020,
+  "item": "tm205",
+  "version_group": "scarlet-violet",
+  "move": "endeavor"
+ },
+ {
+  "id": 2021,
+  "item": "tm206",
+  "version_group": "scarlet-violet",
+  "move": "petal-blizzard"
+ },
+ {
+  "id": 2022,
+  "item": "tm207",
+  "version_group": "scarlet-violet",
+  "move": "temper-flare"
+ },
+ {
+  "id": 2023,
+  "item": "tm208",
+  "version_group": "scarlet-violet",
+  "move": "whirlpool"
+ },
+ {
+  "id": 2024,
+  "item": "tm209",
+  "version_group": "scarlet-violet",
+  "move": "muddy-water"
+ },
+ {
+  "id": 2025,
+  "item": "tm210",
+  "version_group": "scarlet-violet",
+  "move": "supercell-slam"
+ },
+ {
+  "id": 2026,
+  "item": "tm211",
+  "version_group": "scarlet-violet",
+  "move": "electroweb"
+ },
+ {
+  "id": 2027,
+  "item": "tm212",
+  "version_group": "scarlet-violet",
+  "move": "triple-axel"
+ },
+ {
+  "id": 2028,
+  "item": "tm213",
+  "version_group": "scarlet-violet",
+  "move": "coaching"
+ },
+ {
+  "id": 2029,
+  "item": "tm214",
+  "version_group": "scarlet-violet",
+  "move": "sludge-wave"
+ },
+ {
+  "id": 2030,
+  "item": "tm215",
+  "version_group": "scarlet-violet",
+  "move": "scorching-sands"
+ },
+ {
+  "id": 2031,
+  "item": "tm216",
+  "version_group": "scarlet-violet",
+  "move": "feather-dance"
+ },
+ {
+  "id": 2032,
+  "item": "tm217",
+  "version_group": "scarlet-violet",
+  "move": "future-sight"
+ },
+ {
+  "id": 2033,
+  "item": "tm218",
+  "version_group": "scarlet-violet",
+  "move": "expanding-force"
+ },
+ {
+  "id": 2034,
+  "item": "tm219",
+  "version_group": "scarlet-violet",
+  "move": "skitter-smack"
+ },
+ {
+  "id": 2035,
+  "item": "tm220",
+  "version_group": "scarlet-violet",
+  "move": "meteor-beam"
+ },
+ {
+  "id": 2036,
+  "item": "tm221",
+  "version_group": "scarlet-violet",
+  "move": "throat-chop"
+ },
+ {
+  "id": 2037,
+  "item": "tm222",
+  "version_group": "scarlet-violet",
+  "move": "breaking-swipe"
+ },
+ {
+  "id": 2038,
+  "item": "tm223",
+  "version_group": "scarlet-violet",
+  "move": "metal-sound"
+ },
+ {
+  "id": 2039,
+  "item": "tm224",
+  "version_group": "scarlet-violet",
+  "move": "curse"
+ },
+ {
+  "id": 2040,
+  "item": "tm225",
+  "version_group": "scarlet-violet",
+  "move": "hard-press"
+ },
+ {
+  "id": 2041,
+  "item": "tm226",
+  "version_group": "scarlet-violet",
+  "move": "dragon-cheer"
+ },
+ {
+  "id": 2042,
+  "item": "tm227",
+  "version_group": "scarlet-violet",
+  "move": "alluring-voice"
+ },
+ {
+  "id": 2043,
+  "item": "tm228",
+  "version_group": "scarlet-violet",
+  "move": "psychic-noise"
+ },
+ {
+  "id": 2044,
+  "item": "tm229",
+  "version_group": "scarlet-violet",
+  "move": "upper-hand"
+ }
+]

@@ -1,0 +1,354 @@
+E001<Emoo> Ivysaur        mdl=002.mdl                    Grass&Poison Pokemon   hp=960 mp=120 dmg=30 def=2 str/agi/int=27/20/27 prim=STR hab=A01Z,A043,A023,A0B5,A05O abi=A01P,AInv scale=1.2000000476837158
+E002<Emoo> Venusaur       mdl=003.mdl                    Grass&Poison Pokemon   hp=1440 mp=160 dmg=50 def=4 str/agi/int=33/27/33 prim=STR hab=A01Z,A043,A023,A0B5,A05O abi=A01P,AInv scale=1.2000000476837158
+E003<Emoo> Charmander     mdl=004.mdl                    Fire Pokemon           hp=560 mp=80 dmg=26 def=1 str/agi/int=17/22/22 prim=None hab=A05F,A037,A00C,A014,A013 abi=A00X,AInv scale=1.2000000476837158
+E004<Emoo> Squirtle       mdl=007.mdl                    Water Pokemon          hp=750 mp=100 dmg=24 def=3 str/agi/int=21/14/17 prim=STR hab=A04B,A035,A024,A0B2,A001 abi=A01R,AInv scale=1.2000000476837158
+E005<Emoo> Pikachu        mdl=025.mdl                    Electric Pokemon       hp=472 mp=70 dmg=27 def=1 str/agi/int=13/30/20 prim=None hab=A062,A00J,A02L,A00I,A006 abi=A01W,AInv scale=1.350000023841858
+E006<Emoo> Raichu         mdl=026.mdl                    Electric Pokemon       hp=960 mp=120 dmg=45 def=2 str/agi/int=23/33/30 prim=None hab=A062,A02L,A00J,A00I,A006 abi=A01W,AInv scale=1.7000000476837158
+E007<Emoo> Charmeleon     mdl=005.mdl                    Fire Pokemon           hp=960 mp=120 dmg=32 def=2 str/agi/int=22/27/27 prim=None hab=A05F,A037,A00C,A014,A013 abi=A00X,AInv scale=1.2000000476837158
+E009<Emoo> Wartortle      mdl=008.mdl                    Water Pokemon          hp=990 mp=130 dmg=32 def=5 str/agi/int=27/None/22 prim=STR hab=A04B,A035,A024,A0B2,A001 abi=A01R,AInv scale=1.2000000476837158
+E00B<Emoo> Pidgey         mdl=016.mdl                    Flying Pokemon         hp=560 mp=80 dmg=22 def=1 str/agi/int=16/None/12 prim=None hab=A038,A02O,A01H,A01F,A016 abi=A05Z,AInv scale=None
+E00C<Emoo> Pidgeotto      mdl=017.mdl                    Flying Pokemon         hp=1072 mp=130 dmg=30 def=2 str/agi/int=None/24/16 prim=None hab=A038,A02O,A01H,A01F,A016 abi=A05Z,AInv scale=None
+E00D<Emoo> Pidgeot        mdl=018.mdl                    Flying Pokemon         hp=1572 mp=170 dmg=40 def=3 str/agi/int=25/30/23 prim=None hab=A038,A02O,A01H,A01F,A016 abi=A05Z,AInv scale=1.600000023841858
+E00E<Emoo> Charizard      mdl=006.mdl                    Fire&Flying Pokemon    hp=1440 mp=160 dmg=50 def=4 str/agi/int=28/36/33 prim=None hab=A05F,A037,A00C,A014,A013 abi=A00X,AInv scale=0.6499999761581421
+E008<Emoo> Bulbasaur      mdl=001.mdl                    Grass&Poison Pokemon   hp=652 mp=90 dmg=25 def=1 str/agi/int=22/15/22 prim=STR hab=A01Z,A043,A023,A0B5,A05O abi=A01P,AInv scale=1.2000000476837158
+E000<Emoo> Blastoise      mdl=009.mdl                    Water Pokemon          hp=1572 mp=170 dmg=42 def=7 str/agi/int=35/26/28 prim=STR hab=A04B,A035,A024,A0B2,A001 abi=A01R,AInv scale=1.2000000476837158
+E00A<Emoo> Sandshrew      mdl=027.mdl                    Ground Pokemon         hp=750 mp=100 dmg=37 def=5 str/agi/int=28/13/10 prim=STR hab=A08S,A01X,A01U,A019,A00M abi=A01C,AInv scale=1.350000023841858
+E00F<Emoo> Sandslash      mdl=028.mdl                    Ground Pokemon         hp=1312 mp=150 dmg=50 def=8 str/agi/int=37/22/None prim=STR hab=A08S,A01X,A01U,A019,A00M abi=A01C,AInv scale=1.7000000476837158
+E00G<Emoo> Abra           mdl=063.mdl                    Psychic Pokemon        hp=312 mp=50 dmg=52 def=1 str/agi/int=12/30/32 prim=INT hab=A0A4,A026,A008,A005 abi=A02N,AInv scale=1.350000023841858
+E00H<Emoo> Kadabra        mdl=064.mdl                    Psychic Pokemon        hp=560 mp=80 dmg=60 def=2 str/agi/int=16/32/40 prim=INT hab=A0A4,A026,A008,A005 abi=A06Z,AInv scale=1.2000000476837158
+E00I<Emoo> Alakazam       mdl=065.mdl                    Psychic Pokemon        hp=852 mp=110 dmg=68 def=3 str/agi/int=20/40/45 prim=INT hab=A0A4,A026,A008,A005 abi=A070,AInv scale=1.350000023841858
+n000<ntav> None           mdl=None                       None                   hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,Ane2 scale=0.5
+h002<hpea> Dummy_Volt Tackle mdl=none.mdl                   Dummy_Volt Tackle      hp=199999 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+e00J<espv> Avatar of Psycho Cut mdl=Abilities\Weapons\FaerieDragonMissile\FaerieDragonMissile.mdl Avatar of Psycho Cut   hp=None mp=None dmg=49 def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,A00B,A00A,ACm2,Aeth scale=3.0
+h003<hpea> Dummy_Psycho Cut With Big Shadow mdl=.mdl                       Dummy_Psycho Cut With Big Shadow hp=1 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+e00K<ewsp> Dummy_Shock Thunderbolt mdl=none.mdl                   Dummy_Shock Thunderbolt hp=None mp=10000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A00F,A00H,Aloc scale=None
+e00L<ewsp> Dummy_Thunder Wave mdl=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl Dummy_Thunder Wave     hp=None mp=10000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=4.199999809265137
+e00M<ewsp> Dummy_Thunder Bolt mdl=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl Dummy_Thunder Bolt     hp=None mp=10000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=1.600000023841858
+n002<nsha> Dummy_Dig      mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Dig              hp=1000 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A00L,A00K,Aloc scale=None
+h006<hfoo> Dummy(Start)_Flash Canon mdl=Abilities\Spells\Other\Charm\CharmTarget.mdl Dummy(Start)_Flash Canon hp=None mp=50000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=None
+h007<hfoo> Dummy_Ion Canon mdl=Abilities\Spells\NightElf\Starfall\StarfallCaster.mdl Dummy_Ion Canon        hp=None mp=50000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=0.20000000298023224
+E00N<Emoo> Geodude        mdl=074.mdl                    Rock&Ground Pokemon    hp=560 mp=80 dmg=40 def=8 str/agi/int=30/7/10 prim=STR hab=A039,A011,A00Y,A00T,A00P abi=A00V,AInv scale=1.350000023841858
+E00O<Emoo> Graveler       mdl=075.mdl                    Rock&Ground Pokemon    hp=852 mp=110 dmg=47 def=12 str/agi/int=36/11/None prim=STR hab=A039,A011,A00Y,A00T,A00P abi=A07G,AInv scale=1.350000023841858
+E00P<Emoo> Golem          mdl=076.mdl                    Rock&Ground Pokemon    hp=1440 mp=160 dmg=55 def=15 str/agi/int=44/15/18 prim=STR hab=A039,A011,A00Y,A00T,A00P abi=A07H,AInv scale=1.7999999523162842
+e00Q<ewsp> Dummy_Magnitude mdl=EpicPulse.mdl              Dummy_Magnitude        hp=2 mp=1000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=0.5
+h008<hpea> Dummy_Earth Quake mdl=Abilities\Spells\Orc\EarthQuake\EarthQuakeTarget.mdl Dummy_Earth Quake      hp=1 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A00R,Aloc,Avul scale=1.850000023841858
+h009<hfoo> Dummy_Rock Blast mdl= .mdl                      Dummy_Rock Blast       hp=None mp=9999 dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=None
+e00R<ewsp> Dummy_Iron Defense mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Iron Defense     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A00Z,Aloc scale=None
+h00A<hpea> Dummy stun_Rollout mdl=None                       Dummy stun_Rollout     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A012,Aloc scale=2.0
+h00B<hpea> Dummy roll_Rollout mdl=Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl Dummy roll_Rollout     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.0
+h00C<hfoo> Dummy_Dragon Dance mdl= .mdl                      Dummy_Dragon Dance     hp=None mp=9999 dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=None
+h00D<hpea> Dummy_Quick Attack mdl=Dick_in_a_box.mdl          Dummy_Quick Attack     hp=1000 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A017 scale=None
+e00S<ewsp> Dummy_Hurricane mdl=Abilities\Spells\NightElf\Cyclone\CycloneTarget.mdl Dummy_Hurricane        hp=None mp=1000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+E00T<Emoo> Rattata        mdl=019.mdl                    Normal Pokemon         hp=390 mp=60 dmg=28 def=2 str/agi/int=12/24/8 prim=None hab=A08U,A00E,A02G,A021,A00D abi=A027,AInv scale=1.350000023841858
+E00U<Emoo> Raticate       mdl=020.mdl                    Normal Pokemon         hp=852 mp=110 dmg=40 def=4 str/agi/int=23/32/18 prim=None hab=A08U,A00E,A02G,A021,A00D abi=A027,AInv scale=1.100000023841858
+h004<hpea> Dummy_Mud Slap mdl=none.mdl                   Dummy_Mud Slap         hp=199999 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+h005<hfoo> Dummy_Sky Attack mdl=.mdl                       Dummy_Sky Attack       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,AInv,Aloc scale=None
+h00F<hfoo> Dummy_Whirl Wind mdl=Abilities\Spells\Other\Tornado\TornadoElemental.mdl Dummy_Whirl Wind       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,Aloc scale=None
+h00G<hfoo> Dummy_RapidSpin mdl=.mdl                       Dummy_RapidSpin        hp=None mp=50000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=1.5
+u000<ugho> Dummy_Frenzy Plant mdl=none.mdl                   Dummy_Frenzy Plant     hp=3 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A01N,Aloc scale=None
+n004<nmgd> Tauros         mdl=128.mdl                    Tauros                 hp=7500 mp=None dmg=350 def=None str/agi/int=None/None/None prim=None hab=None abi= scale=2.5
+n005<nmgd> Aerodactyle    mdl=Aerodactyl.mdl             Aerodactyle            hp=7500 mp=None dmg=350 def=None str/agi/int=None/None/None prim=None hab=None abi=ACcb,ACtc scale=1.5
+n006<nmgd> Gyarados       mdl=Gyarados by Pmz.mdl        Gyarados               hp=7500 mp=None dmg=350 def=None str/agi/int=None/None/None prim=None hab=None abi=ACcb,ACtc scale=4.0
+n007<nmgd> Skarmory       mdl=Skarmory.mdl               Skarmory               hp=7500 mp=None dmg=350 def=None str/agi/int=None/None/None prim=None hab=None abi=ACcb,ACtc scale=4.0
+n008<nmgd> Hitmontop      mdl=hitmontop.mdl              Hitmontop              hp=7500 mp=None dmg=350 def=None str/agi/int=None/None/None prim=None hab=None abi=ACcb,ACtc scale=0.8500000238418579
+e00V<ewsp> Dummy_Static   mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Static           hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A01V,Aloc scale=None
+e00W<ewsp> Dummy_Fury Swipes mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Fury Swipes      hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A01Y,Aloc scale=None
+n009<nalb> Dummy Effect_Sludge Bomb mdl=Abilities\Spells\NightElf\shadowstrike\ShadowStrikeMissile.mdl Dummy Effect_Sludge Bomb hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=3.0
+n00A<nalb> Dummy_Sludge Bomb mdl=.mdl                       Dummy_Sludge Bomb      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=1.0
+e00X<ewsp> Dummy_Disable  mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Disable          hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A025 scale=None
+E00Y<Emoo> Machop         mdl=066.mdl                    Fighting Pokemon       hp=850 mp=140 dmg=40 def=2 str/agi/int=27/12/12 prim=STR hab=A036,A02D,A02B,A02C,A028 abi=A029,AInv scale=1.2000000476837158
+E00Z<Emoo> Machoke        mdl=067.mdl                    Fighting Pokemon       hp=1440 mp=160 dmg=50 def=4 str/agi/int=30/15/None prim=STR hab=A036,A02D,A02B,A02C,A028 abi=A029,AInv scale=1.7000000476837158
+E010<Emoo> Machamp        mdl=068.mdl                    Fighting Pokemon       hp=1710 mp=160 dmg=65 def=6 str/agi/int=40/20/20 prim=STR hab=A036,A02D,A02B,A02C,A028 abi=A029,AInv scale=1.7000000476837158
+e011<ewsp> Dummy_Guts     mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Guts             hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A02A,Aloc scale=None
+h00J<hpea> Dummy_Super Power mdl=Abilities\Spells\Orc\Shockwave\ShockwaveMissile.mdl Dummy_Super Power      hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul,Amim scale=2.0
+h00K<hpea> Dummy effect_Supper Power mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy effect_Supper Power hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul,Amim scale=None
+n00B<ntav> None           mdl=None                       None                   hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,Ane2 scale=0.5
+E012<Emoo> Poliwag        mdl=060.mdl                    Water Pokemon          hp=560 mp=80 dmg=25 def=1 str/agi/int=13/30/13 prim=None hab=A0CT,A035,A034,A02K,A02J abi=AInv scale=0.8500000238418579
+E013<Emoo> Poliwhirl      mdl=061.mdl                    Water Pokemon          hp=1072 mp=130 dmg=32 def=2 str/agi/int=22/30/22 prim=None hab=A0CT,A035,A034,A02K,A02J abi=AInv scale=None
+E014<Emoo> Poliwrath      mdl=062.mdl                    Water&Fighting Pokemon hp=1710 mp=180 dmg=42 def=5 str/agi/int=30/28/23 prim=STR hab=A0CT,A035,A034,A02K,A02J abi=AInv scale=None
+h00L<hpea> Dummy_Super Fang mdl=.mdl                       Dummy_Super Fang       hp=None mp=9999 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+h00M<hfoo> Dummy_BulkUp   mdl= .mdl                      Dummy_BulkUp           hp=None mp=9999 dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=None
+e015<ewsp> Dummy_Iron Tail mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Iron Tail        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=AInv,A02M,Aloc scale=None
+n00C<nmgd> Articuno       mdl=jidongniao.mdl             Articuno               hp=20000 mp=5000 dmg=1000 def=33 str/agi/int=None/None/None prim=None hab=None abi=A03I,A04C scale=1.5
+n00D<nmgd> Moltres        mdl=Moltres.mdl                Moltres                hp=20000 mp=5000 dmg=1000 def=33 str/agi/int=None/None/None prim=None hab=None abi=A04L scale=1.5
+n00F<nmgd> Darkrai        mdl=emengshen.mdl              Darkrai                hp=30000 mp=5000 dmg=1500 def=77 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n00G<nmgd> Rayquaza       mdl=384.mdl                    Rayquaza               hp=50000 mp=10000 dmg=2000 def=66 str/agi/int=None/None/None prim=None hab=None abi=A0CO,A0CP scale=2.5
+n00H<nmrm> Butterfree     mdl=012.mdl                    Butterfree             hp=1250 mp=500 dmg=80 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.2999999523162842
+n00I<nmrl> Caterpie       mdl=010.mdl                    Caterpie               hp=300 mp=100 dmg=10 def=1 str/agi/int=None/None/None prim=None hab=None abi=None scale=1.5
+n00J<nmrr> Metapod        mdl=011.mdl                    Metapod                hp=800 mp=200 dmg=30 def=2 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n00K<nmrl> Caterpie       mdl=010.mdl                    Caterpie               hp=500 mp=100 dmg=20 def=1 str/agi/int=None/None/None prim=None hab=None abi=None scale=1.5
+n00L<nmrr> Metapod        mdl=011.mdl                    Metapod                hp=1000 mp=200 dmg=50 def=2 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n00M<nmrm> Butterfree     mdl=012.mdl                    Butterfree             hp=1500 mp=500 dmg=100 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.2999999523162842
+n00O<ngme> Poke Mart      mdl=pokemart.mdl               Poke Mart              hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Ane2,Avul,Apit scale=0.4000000059604645
+n00P<ngme> Poke Center    mdl=pokecenter.mdl             Poke Center            hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Ane2,ACnr,ANre,Avul,Apit scale=0.75
+u001<uloc> Dummy_Air Slash mdl=Abilities\Spells\Other\Tornado\Tornado_Target.mdl Dummy_Air Slash        hp=None mp=None dmg=75 def=None str/agi/int=None/None/None prim=None hab=None abi=None scale=2.0
+n00N<ngme> Poke Super Mart 1 mdl=pokemart.mdl               Poke Super Mart 1      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Ane2,Avul,Apit scale=0.5
+e016<ewsp> Dummy_Poison Barb mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Poison Barb      hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A03G scale=None
+n00Q<ngme> Poke Super Mart 2 mdl=pokemart.mdl               Poke Super Mart 2      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Ane2,Avul,Apit scale=0.5
+e017<ewsp> Dummy_Solf Sand mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Solf Sand        hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A03R scale=None
+n00R<nmrm> Weepinbell     mdl=070.mdl                    Weepinbell             hp=2722 mp=1765 dmg=154 def=8 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.2000000476837158
+n00S<nmrm> Raticate       mdl=020.mdl                    Raticate               hp=2802 mp=1025 dmg=148 def=12 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.100000023841858
+n00T<nmrm> Pidgeot        mdl=018.mdl                    Pidgeot                hp=4497 mp=1790 dmg=181 def=16 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=None
+E018<Emoo> Tauros         mdl=128.mdl                    Normal Pokemon         hp=1312 mp=150 dmg=50 def=4 str/agi/int=32/36/13 prim=STR hab=A0B1,A08H,A05M,A034,A05L abi=A05N,AInv scale=1.7999999523162842
+n00U<nmrm> Tauros         mdl=128.mdl                    Tauros                 hp=4412 mp=900 dmg=174 def=17 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7999999523162842
+E019<Emoo> Weezing        mdl=110.mdl                    Poison Pokemon         hp=1072 mp=130 dmg=45 def=5 str/agi/int=35/20/28 prim=STR hab=A04Y,A049,A047 abi=A050,AInv scale=1.149999976158142
+E01A<Emoo> Weepinbell     mdl=070.mdl                    Grass&Poison Pokemon   hp=1072 mp=130 dmg=55 def=2 str/agi/int=17/18/33 prim=INT hab=A09Q,A07Z,A082,A07Y,A07W abi=A07U,AInv scale=1.2000000476837158
+n00V<nmrm> Venusaur       mdl=003.mdl                    Venusaur               hp=5715 mp=2725 dmg=221 def=17 str/agi/int=None/None/None prim=None hab=None abi=AInv,A01P scale=1.2000000476837158
+n00W<nmrm> Weezing        mdl=110.mdl                    Weezing                hp=4922 mp=1975 dmg=199 def=13 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.149999976158142
+E01B<Emoo> Ponyta         mdl=077.mdl                    Fire Pokemon           hp=750 mp=100 dmg=42 def=2 str/agi/int=22/30/22 prim=None hab=A09R,A04S,A04M,A04E abi=A088,AInv scale=1.149999976158142
+E01C<Emoo> Arcanine       mdl=059.mdl                    Fire Pokemon           hp=1710 mp=180 dmg=70 def=3 str/agi/int=27/32/30 prim=None hab=A0BP,A08U,A000,A060,A04M abi=A08A,AInv scale=1.600000023841858
+n00X<nmrm> Ponyta         mdl=077.mdl                    Ponyta                 hp=3150 mp=1540 dmg=178 def=14 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.149999976158142
+n00Y<nmrm> Arcanine       mdl=059.mdl                    Arcanine               hp=2802 mp=1025 dmg=216 def=18 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=None
+n00Z<nmrm> Charizard      mdl=006.mdl                    Charizard              hp=5415 mp=2980 dmg=255 def=22 str/agi/int=None/None/None prim=None hab=None abi=A00X,AInv scale=0.6499999761581421
+E01D<Emoo> Voltorb        mdl=100.mdl                    Electric Pokemon       hp=560 mp=100 dmg=25 def=1 str/agi/int=None/33/18 prim=None hab=A076,A073,A071,A051,A04D abi=A01W,AInv scale=1.75
+E01E<Emoo> Jolteon        mdl=Jolteon.mdl                Electric Pokemon       hp=1070 mp=220 dmg=55 def=5 str/agi/int=27/43/36 prim=None hab=A02L,A07O,A04S,A092,A091 abi=A01W,AInv scale=1.25
+E01F<Emoo> Cloyster       mdl=cloyster.mdl               Water&Ice Pokemon      hp=750 mp=100 dmg=42 def=8 str/agi/int=45/23/28 prim=INT hab=A0AG,A0A8,A01D,A066,A064 abi=A07J,AInv scale=4.0
+E01G<Emoo> Gengar         mdl=gengar.mdl                 Ghost&Poison Pokemon   hp=960 mp=120 dmg=75 def=3 str/agi/int=25/37/43 prim=INT hab=A08Z,A085,A083,A05W,A04R abi=A061,AInv scale=1.350000023841858
+n010<nmrm> Voltorb        mdl=100.mdl                    Voltorb                hp=2535 mp=1585 dmg=170 def=15 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.75
+n011<nmrm> Jolteon        mdl=Jolteon.mdl                Jolteon                hp=5247 mp=3565 dmg=321 def=28 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.25
+n012<nmrm> Raichu         mdl=026.mdl                    Raichu                 hp=4060 mp=2050 dmg=223 def=19 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7000000476837158
+n013<nmrm> Poliwrath      mdl=062.mdl                    Poliwrath              hp=6135 mp=2205 dmg=219 def=19 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.0
+n014<nmrm> Cloyster       mdl=cloyster.mdl               Cloyster               hp=6825 mp=2365 dmg=193 def=19 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=4.0
+n015<nmrm> Blastoise      mdl=009.mdl                    Blastoise              hp=7422 mp=2975 dmg=276 def=23 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.2000000476837158
+n016<nmrm> Machamp        mdl=068.mdl                    Machamp                hp=6510 mp=2080 dmg=257 def=18 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7000000476837158
+n017<nmrm> Golem          mdl=076.mdl                    Golem                  hp=9340 mp=2095 dmg=371 def=18 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7999999523162842
+n018<nmrm> Sandslash      mdl=028.mdl                    Sandslash              hp=6510 mp=2080 dmg=268 def=17 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7000000476837158
+n019<nmrm> Alakazam       mdl=065.mdl                    Alakazam               hp=4802 mp=5435 dmg=423 def=34 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.350000023841858
+n01A<nmrm> Gengar         mdl=gengar.mdl                 Gengar                 hp=5885 mp=5205 dmg=414 def=31 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.350000023841858
+E01H<Emoo> Rapidash       mdl=078.mdl                    Fire Pokemon           hp=1072 mp=130 dmg=50 def=3 str/agi/int=25/35/27 prim=None hab=A09R,A04S,A04M,A04E abi=A089,AInv scale=1.5
+E01I<Emoo> Tentacruel     mdl=073.mdl                    Water&Poison Pokemon   hp=1440 mp=160 dmg=40 def=4 str/agi/int=28/33/38 prim=None hab=A08C,A07Y,A08E,A08B abi=A0B4,AInv scale=1.2000000476837158
+E01J<Emoo> Nidoking       mdl=nidoking.mdl               Ground&Poison Pokemon  hp=1440 mp=160 dmg=46 def=6 str/agi/int=34/30/30 prim=STR hab=A048,A046,A045,A044,A042 abi=A05J,AInv scale=0.8500000238418579
+E01K<Emoo> Dragonite      mdl=Dragonite.mdl              Dragon&Flying Pokemon  hp=1710 mp=180 dmg=67 def=5 str/agi/int=48/30/33 prim=STR hab=A0AS,A097,A04W,A055,A04U abi=A04Z,AInv scale=0.8999999761581421
+n01B<nmrm> Rapidash       mdl=078.mdl                    Rapidash               hp=5997 mp=3325 dmg=326 def=30 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.5
+n01C<nmrm> Tentacruel     mdl=073.mdl                    Tentacruel             hp=6965 mp=4660 dmg=292 def=27 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.2000000476837158
+n01D<nmrm> Nidoking       mdl=nidoking.mdl               Nidoking               hp=12385 mp=4575 dmg=494 def=31 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=0.8500000238418579
+n01E<nmrm> Dragonite      mdl=Dragonite.mdl              Dragonite              hp=12335 mp=4575 dmg=494 def=31 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=0.8999999761581421
+E01L<Emoo> Nidorino       mdl=Nidorino.mdl               Poison Pokemon         hp=990 mp=122 dmg=36 def=4 str/agi/int=26/24/22 prim=STR hab=A048,A046,A045,A044,A042 abi=A05J,AInv scale=2.0
+E01M<Emoo> Nidoran        mdl=nidoranm.mdl               Poison Pokemon         hp=672 mp=92 dmg=30 def=2 str/agi/int=15/14/13 prim=STR hab=A048,A046,A045,A044,A042 abi=A05J,AInv scale=1.399999976158142
+n01F<necr> Dummy_Hydro Canon mdl=.mdl                       Dummy_Hydro Canon      hp=3 mp=9999 dmg=25 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.0
+h00N<hpea> Ice Age Dummy  mdl=Doodads\Icecrown\Rocks\Icecrown_Crystal\Icecrown_Crystal2.mdl Ice Age Dummy          hp=1 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=1.7999999523162842
+h00O<hpea> Ice Age End Dummy mdl=Doodads\Icecrown\Rocks\Icecrown_Crystal\Icecrown_Crystal2.mdl Ice Age End Dummy      hp=1 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=10.0
+h00P<hpea> Ice Age Start Dummy mdl=Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl Ice Age Start Dummy    hp=1 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=8.0
+E01N<Emoo> Caterpie       mdl=010.mdl                    Bug Pokemon            hp=652 mp=90 dmg=15 def=1 str/agi/int=8/15/8 prim=INT hab=A053,A04Q,A04O,A04J,A05E abi=A04N,AInv scale=1.5
+e01O<ewsp> Dummy_String Shot mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_String Shot      hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A04G,A04H,Aloc scale=None
+h00Q<hfoo> Dummy_Silver Wind mdl=Abilities\Spells\NightElf\TargetArtLumber\TargetArtLumber.mdl Dummy_Silver Wind      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A04I,Aloc,Avul scale=4.0
+E01P<Emoo> Metapod        mdl=011.mdl                    Bug Pokemon            hp=750 mp=100 dmg=15 def=4 str/agi/int=22/8/10 prim=INT hab=A053,A04Q,A04O,A04J,A05E abi=A04N,AInv scale=1.5
+E01Q<Emoo> Butterfree     mdl=012.mdl                    Bug&Flying Pokemon     hp=960 mp=120 dmg=40 def=2 str/agi/int=27/23/27 prim=INT hab=A053,A04Q,A04O,A04J,A05E abi=A04N,AInv scale=1.2999999523162842
+h00E<hfoo> Dummy_Fire Realm mdl=none.mdl                   Dummy_Fire Realm       hp=1 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.5
+e01R<ewsp> Dummy_Sleep Powder mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Sleep Powder     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A04P,Aloc scale=None
+h00R<hfoo> Dummy_Draco Meteor mdl=FireStone.mdl              Dummy_Draco Meteor     hp=1 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=1.5
+E01S<Emoo> Dratini        mdl=Dratini.mdl                Dragon Pokemon         hp=560 mp=80 dmg=32 def=2 str/agi/int=None/18/18 prim=INT hab=A0AS,A097,A04W,A055,A04U abi=A04Z,AInv scale=0.8999999761581421
+E01T<Emoo> Dragonair      mdl=Dragonire.mdl              Dragon Pokemon         hp=960 mp=120 dmg=60 def=3 str/agi/int=23/23/23 prim=INT hab=A0AS,A097,A04W,A055,A04U abi=A04Z,AInv scale=0.8999999761581421
+e01U<ewsp> Dummy_Smoke Screen mdl=none.mdl                   Dummy_Smoke Screen     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=0.8999999761581421
+E01V<Emoo> Koffing        mdl=109.mdl                    Poison Pokemon         hp=560 mp=80 dmg=33 def=3 str/agi/int=28/12/20 prim=STR hab=A04Y,A049,A047 abi=A050,AInv scale=1.149999976158142
+e01W<ewsp> Dummy_Swift    mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Swift            hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A052,Aloc scale=None
+E01X<Emoo> Electrode      mdl=101.mdl                    Electric Pokemon       hp=960 mp=120 dmg=33 def=2 str/agi/int=25/45/27 prim=None hab=A076,A073,A071,A051,A04D abi=A01W,AInv scale=1.75
+n01G<ntav> None           mdl=None                       None                   hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,Ane2 scale=0.5
+n01H<ntav> None           mdl=None                       None                   hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,Ane2 scale=0.5
+e01Y<ewsp> Dummy_Out Rage mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Out Rage         hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+h00S<hfoo> Dummy_Whirl Pool 2 mdl=Abilities\Spells\NightElf\MoonWell\MoonWellTarget.mdl Dummy_Whirl Pool 2     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A056,A057,Aloc,Avul scale=6.0
+h00T<hfoo> Dummy_Whirl Pool 1 mdl=Abilities\Spells\Other\CrushingWave\CrushingWaveMissile.mdl Dummy_Whirl Pool 1     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A058,A059,Aloc,Avul scale=None
+E01Z<Emoo> Hitmonchan     mdl=Hitmonchan.mdl             Fighting Pokemon       hp=750 mp=100 dmg=52 def=5 str/agi/int=35/28/13 prim=STR hab=A08P,A00S,A05D,A05C,A05B abi=A09D,AInv scale=3.200000047683716
+n01I<nmgd> Lugia          mdl=Lugia Animated.mdl         Lugia                  hp=25000 mp=5000 dmg=1250 def=77 str/agi/int=None/None/None prim=None hab=None abi=A0CB scale=1.75
+n01J<nmgd> Arceus         mdl=Arceus2.mdl                Arceus                 hp=50000 mp=5000 dmg=2500 def=99 str/agi/int=None/None/None prim=None hab=None abi=A0CM,A0BK scale=2.5
+n01K<nmgd> Regigigas      mdl=RegigigasFarWargale.mdl    Regigigas              hp=45000 mp=5000 dmg=2000 def=77 str/agi/int=None/None/None prim=None hab=None abi=A0BB scale=1.5
+n01L<nmgd> Mew            mdl=Mew.mdl                    Mew                    hp=30000 mp=5000 dmg=1500 def=44 str/agi/int=None/None/None prim=None hab=None abi=A0CJ,A069 scale=7.5
+n01M<nmgd> Giratina       mdl=2.mdl                      Giratina               hp=50000 mp=5000 dmg=2000 def=88 str/agi/int=None/None/None prim=None hab=None abi=A0CA,A0C6 scale=2.5
+n01N<nmgd> Deoxys         mdl=Deoxys.mdl                 Deoxys                 hp=45000 mp=10000 dmg=2250 def=66 str/agi/int=None/None/None prim=None hab=None abi=A0C9,A0CK scale=1.5
+n01O<nmgd> Mewtwo         mdl=MewtwoFinal.mdl            Mewtwo                 hp=45000 mp=10000 dmg=2250 def=66 str/agi/int=None/None/None prim=None hab=None abi=A0C9,A0C8 scale=4.0
+E020<Emoo> Articuno       mdl=jidongniao.mdl             Ice&Flying Pokemon     hp=1710 mp=180 dmg=63 def=5 str/agi/int=46/34/38 prim=INT hab=A01F,A06V,A01M abi=A04C,AInv scale=1.5
+E021<Emoo> Moltres        mdl=Moltres.mdl                Fire&Flying Pokemon    hp=1710 mp=180 dmg=83 def=5 str/agi/int=36/36/50 prim=INT hab=A01F,A06V abi=A04L,AInv scale=1.399999976158142
+E022<Emoo> Lugia          mdl=Lugia Animated.mdl         Psychic&Water Pokemon  hp=2183 mp=212 dmg=60 def=5 str/agi/int=58/44/44 prim=INT hab=A01M,A06F,A06S,A06B abi=AInv scale=1.75
+E023<Emoo> Darkrai        mdl=emengshen.mdl              Dark Pokemon           hp=1190 mp=140 dmg=90 def=5 str/agi/int=36/50/54 prim=INT hab=A083,A05W,A05U,A05T abi=A05R,AInv scale=1.5
+E024<Emoo> Mew            mdl=Mew.mdl                    Psychic Pokemon        hp=2000 mp=200 dmg=67 def=5 str/agi/int=40/40/40 prim=INT hab=A06G,A06A,A068,A00G abi=A069,AInv scale=5.0
+E025<Emoo> Regigigas      mdl=RegigigasFarWargale.mdl    Normal Pokemon         hp=2310 mp=220 dmg=107 def=5 str/agi/int=52/40/33 prim=STR hab=A05L,A09A,A086 abi=A09C,AInv scale=0.75
+E026<Emoo> Mewtwo         mdl=MewtwoFinal.mdl            Psychic Pokemon        hp=2183 mp=212 dmg=103 def=5 str/agi/int=36/52/62 prim=INT hab=A0C7,A06C,A026,A06B abi=A070,AInv scale=2.5
+E027<Emoo> Deoxys         mdl=Deoxys.mdl                 Psychic Pokemon        hp=750 mp=100 dmg=100 def=5 str/agi/int=28/60/60 prim=INT hab=A06X,A06W,A06C abi=AInv,A06U scale=0.800000011920929
+E028<Emoo> Giratina       mdl=2.mdl                      Ghost&Dragon Pokemon   hp=3750 mp=300 dmg=67 def=5 str/agi/int=56/36/44 prim=STR hab=A083,A037,A09E abi=AInv scale=1.5
+E029<Emoo> Rayquaza       mdl=384.mdl                    Dragon&Flying Pokemon  hp=2152 mp=210 dmg=100 def=5 str/agi/int=40/36/70 prim=INT hab=A037,A000,A01F abi=AInv scale=3.0
+E02A<Emoo> Arceus         mdl=Arceus2.mdl                God Pokemon            hp=2820 mp=270 dmg=90 def=5 str/agi/int=55/55/55 prim=INT hab=A08N,A05Y abi=AInv scale=1.5
+E02B<Emoo> Bellsprout     mdl=069.mdl                    Grass&Poison Pokemon   hp=750 mp=100 dmg=42 def=1 str/agi/int=11/13/28 prim=INT hab=A09Q,A07Z,A082,A07Y,A07W abi=A07U,AInv scale=1.149999976158142
+E02C<Emoo> Victreebel     mdl=071.mdl                    Grass&Poison Pokemon   hp=1440 mp=160 dmg=68 def=3 str/agi/int=22/23/40 prim=INT hab=A09Q,A07Z,A082,A07Y,A07W abi=A07U,AInv scale=1.399999976158142
+E02D<Emoo> Tentacool      mdl=072.mdl                    Water&Poison Pokemon   hp=560 mp=80 dmg=25 def=2 str/agi/int=23/23/28 prim=None hab=A08C,A07Y,A08E,A08B abi=A0B4,AInv scale=1.2000000476837158
+E02E<Emoo> Shellder       mdl=shelder.mdl                Water&Ice Pokemon      hp=390 mp=60 dmg=32 def=5 str/agi/int=30/13/18 prim=INT hab=A0AG,A0A8,A01D,A066,A064 abi=A07J,AInv scale=0.6499999761581421
+E02F<Emoo> Growlithe      mdl=058.mdl                    Fire Pokemon           hp=825 mp=110 dmg=45 def=2 str/agi/int=None/20/25 prim=None hab=A0BP,A08U,A000,A060,A04M abi=A08A,AInv scale=1.350000023841858
+E02G<Emoo> Gastly         mdl=gastly.mdl                 Ghost&Poison Pokemon   hp=390 mp=60 dmg=50 def=1 str/agi/int=12/26/33 prim=INT hab=A08Z,A085,A083,A05W,A04R abi=A061,AInv scale=1.350000023841858
+E02H<Emoo> Haunter        mdl=haunter.mdl                Ghost&Poison Pokemon   hp=390 mp=90 dmg=60 def=2 str/agi/int=17/32/38 prim=INT hab=A08Z,A085,A083,A05W,A04R abi=A061,AInv scale=None
+E02I<Emoo> Weedle         mdl=013.mdl                    Bug&Poison Pokemon     hp=652 mp=90 dmg=17 def=1 str/agi/int=7/17/7 prim=None hab=A07X,A05H,A05G,A046 abi=A05J,AInv scale=1.5
+E02J<Emoo> Kakuna         mdl=014.mdl                    Bug&Poison Pokemon     hp=750 mp=100 dmg=15 def=4 str/agi/int=16/12/8 prim=None hab=A07X,A05H,A05G,A046 abi=A05J,AInv scale=1.4500000476837158
+E02K<Emoo> Beedrill       mdl=015.mdl                    Bug&Poison Pokemon     hp=1025 mp=130 dmg=40 def=2 str/agi/int=24/27/None prim=None hab=A07X,A05H,A05G,A046 abi=A05J,AInv scale=1.2999999523162842
+h00U<hpea> Anti-Tree Dummy mdl=Abilities\Spells\Other\Silence\SilenceTarget.mdl Anti-Tree Dummy        hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,ANha scale=0.10000000149011612
+h00V<hpea> Dummy_Blast Burn mdl=Abilities\Spells\Human\FlameStrike\FlameStrike1.mdl Dummy_Blast Burn       hp=None mp=9999 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A01I,Aloc scale=2.799999952316284
+h00W<hrif> Dummy_Pin Missle mdl=.mdl                       Dummy_Pin Missle       hp=None mp=None dmg=50 def=None str/agi/int=None/None/None prim=None hab=None abi=A04F,Aloc,Avul scale=None
+h00X<hfoo> Dummy_Final Sting mdl=.mdl                       Dummy_Final Sting      hp=None mp=50000 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A05I,Aloc,Avul scale=4.0
+e02L<ewsp> Dummy_Poison Point mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Poison Point     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A05K,Aloc scale=None
+h00Y<hpea> Dummy_Blizzard mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Blizzard         hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=A05P,Aloc,Avul,A05Q scale=None
+u002<ugho> Dummy_Dark Void mdl=none.mdl                   Dummy_Dark Void        hp=3 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A05S,Aloc scale=None
+e02M<ewsp> Dummy_Safe Guard mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Safe Guard       hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A00F,Aloc scale=None
+h00Z<hrif> Dummy_Icicle Spear mdl=.mdl                       Dummy_Icicle Spear     hp=None mp=None dmg=75 def=None str/agi/int=None/None/None prim=None hab=None abi=A063,Aloc,Avul scale=1.25
+e02N<ewsp> Dummy_Hidden Power mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Hidden Power     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A067,Aloc scale=None
+h010<hpea> Dummy_Sonic Wave mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Sonic Wave       hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=A06D,Aloc,Avul scale=None
+e02O<ewsp> Dummy_CosmicPower mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_CosmicPower      hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A06T,Aloc scale=None
+E02P<Emoo> Kangaskhan     mdl=kangaskhan.mdl             Normal Pokemon         hp=1300 mp=150 dmg=43 def=5 str/agi/int=40/30/None prim=STR hab=ANic,A09Z,A02B,A028 abi=A0AN,AInv scale=1.2000000476837158
+e02Q<ewsp> Dummy_Iron ball mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Iron ball        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A072,Aloc scale=None
+e02R<ewsp> Dummy_Extremespeed mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Extremespeed     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A075,Aloc scale=None
+E02S<Emoo> Mankey         mdl=Mankey.mdl                 Fighting Pokemon       hp=600 mp=140 dmg=40 def=3 str/agi/int=26/26/12 prim=None hab=ANic,A08P,A02J,A02B abi=A077,AInv scale=0.3199999928474426
+E02T<Emoo> Primeape       mdl=Primeape.mdl               Fighting Pokemon       hp=1000 mp=160 dmg=52 def=5 str/agi/int=31/31/20 prim=None hab=ANic,A08P,A02J,A02B abi=A077,AInv scale=0.36000001430511475
+E02U<Emoo> Exeggcute      mdl=exeggcute.mdl              Grass&Psychic Pokemon  hp=800 mp=150 dmg=30 def=3 str/agi/int=22/13/24 prim=INT hab=A07I,A07F,A07D,A07B abi=A07A,AInv scale=0.699999988079071
+e02V<ewsp> Dummy_Egg bomb mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Egg bomb         hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A07C,Aloc scale=3.0
+E02W<Emoo> Exeggutor      mdl=exeggutor.mdl              Grass&Psychic Pokemon  hp=1200 mp=200 dmg=62 def=5 str/agi/int=28/18/42 prim=INT hab=A07I,A07F,A07D,A07B abi=A07A,AInv scale=0.6200000047683716
+e02X<ewsp> Dummy_Seed bomb mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Seed bomb        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A07E,Aloc scale=3.0
+E02Y<Emoo> Rhyhorn        mdl=Ryhorn.mdl                 Rock&Ground Pokemon    hp=900 mp=100 dmg=42 def=8 str/agi/int=28/8/10 prim=STR hab=A08J,A08H,A08G,A044 abi=A07J,AInv scale=None
+E02Z<Emoo> Rhydon         mdl=Rhydon.mdl                 Rock&Ground Pokemon    hp=2000 mp=100 dmg=70 def=14 str/agi/int=46/13/None prim=STR hab=A08J,A08H,A08G,A044 abi=A07J,AInv scale=1.2000000476837158
+e030<ewsp> Dummy_Meteor Mash mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Meteor Mash      hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+E031<Emoo> Magnemite      mdl=081.mdl                    Electric&Steel Pokemon hp=360 mp=100 dmg=40 def=4 str/agi/int=23/15/33 prim=INT hab=A07S,A00Y,A07P,A07O,A07M abi=A07R,AInv scale=1.100000023841858
+E032<Emoo> Magneton       mdl=082.mdl                    Electric&Steel Pokemon hp=720 mp=200 dmg=60 def=10 str/agi/int=28/25/40 prim=INT hab=A07S,A00Y,A07P,A07O,A07M abi=A07R,AInv scale=1.100000023841858
+h011<hmpr> Dummy_Thunder  mdl=none.mdl                   Dummy_Thunder          hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul,A07N,Aloc scale=7.0
+e033<ewsp> Dummy_Ingrain  mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Ingrain          hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A07V,A07T,Aloc scale=None
+u003<uloc> Dummy_Leaf Storm 2 mdl=Abilities\Weapons\GargoyleMissile\GargoyleMissile.mdl Dummy_Leaf Storm 2     hp=None mp=None dmg=150 def=None str/agi/int=None/None/None prim=None hab=None abi=None scale=2.0
+u004<uloc> Dummy_Leaf Storm 1 mdl=Abilities\Weapons\GargoyleMissile\GargoyleMissile.mdl Dummy_Leaf Storm 1     hp=None mp=None dmg=125 def=None str/agi/int=None/None/None prim=None hab=None abi=None scale=2.0
+u005<uloc> Dummy_Leaf Storm 3 mdl=Abilities\Weapons\GargoyleMissile\GargoyleMissile.mdl Dummy_Leaf Storm 3     hp=None mp=None dmg=175 def=None str/agi/int=None/None/None prim=None hab=None abi=None scale=2.0
+n01P<nmrm> Raticate       mdl=020.mdl                    Raticate               hp=1100 mp=500 dmg=70 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.100000023841858
+n01Q<nmrm> Raticate       mdl=020.mdl                    Raticate               hp=1300 mp=500 dmg=90 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.100000023841858
+n01R<nmrm> Rattata        mdl=019.mdl                    Rattata                hp=850 mp=200 dmg=45 def=2 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n01S<nmrm> Rattata        mdl=019.mdl                    Rattata                hp=950 mp=200 dmg=55 def=2 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n01T<nmrm> Sandslash      mdl=028.mdl                    Sandslash              hp=1300 mp=500 dmg=80 def=5 str/agi/int=None/None/None prim=None hab=None abi= scale=1.7000000476837158
+n01U<nmrm> Sandslash      mdl=028.mdl                    Sandslash              hp=1500 mp=500 dmg=90 def=5 str/agi/int=None/None/None prim=None hab=None abi= scale=1.7000000476837158
+n01V<nmrm> Sandshrew      mdl=027.mdl                    Sandshrew              hp=950 mp=200 dmg=50 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n01W<nmrm> Sandshrew      mdl=027.mdl                    Sandshrew              hp=1050 mp=200 dmg=60 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n01X<nmrm> Rapidash       mdl=078.mdl                    Rapidash               hp=1500 mp=500 dmg=90 def=4 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n01Y<nmrm> Rapidash       mdl=078.mdl                    Rapidash               hp=1650 mp=500 dmg=110 def=4 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n01Z<nmrm> Ponyta         mdl=077.mdl                    Ponyta                 hp=1000 mp=200 dmg=65 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.149999976158142
+n020<nmrm> Ponyta         mdl=077.mdl                    Ponyta                 hp=1200 mp=200 dmg=75 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.149999976158142
+n021<nmrm> Cloyster       mdl=cloyster.mdl               Cloyster               hp=1550 mp=500 dmg=70 def=6 str/agi/int=None/None/None prim=None hab=None abi= scale=4.0
+n022<nmrm> Cloyster       mdl=cloyster.mdl               Cloyster               hp=1700 mp=500 dmg=85 def=7 str/agi/int=None/None/None prim=None hab=None abi= scale=4.0
+n023<nmrm> Shellder       mdl=shelder.mdl                Shellder               hp=1150 mp=200 dmg=50 def=4 str/agi/int=None/None/None prim=None hab=None abi= scale=0.6499999761581421
+n024<nmrm> Shellder       mdl=shelder.mdl                Shellder               hp=1300 mp=200 dmg=60 def=4 str/agi/int=None/None/None prim=None hab=None abi= scale=0.6499999761581421
+n025<nmrm> Tauros         mdl=128.mdl                    Tauros                 hp=1800 mp=500 dmg=120 def=7 str/agi/int=None/None/None prim=None hab=None abi= scale=1.7999999523162842
+n026<nmrm> Primeape       mdl=Primeape.mdl               Primeape               hp=1600 mp=500 dmg=130 def=5 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=0.36000001430511475
+n027<nmrm> Exeggutor      mdl=exeggutor.mdl              Exeggutor              hp=1650 mp=500 dmg=100 def=6 str/agi/int=None/None/None prim=None hab=None abi= scale=0.6200000047683716
+n028<nmrm> Tentacruel     mdl=073.mdl                    Tentacruel             hp=1800 mp=500 dmg=100 def=6 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.2000000476837158
+n029<nmrm> Tentacruel     mdl=073.mdl                    Tentacruel             hp=2500 mp=500 dmg=150 def=10 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.7000000476837158
+n02A<nmrm> Tentacool      mdl=072.mdl                    Tentacool              hp=1350 mp=200 dmg=65 def=4 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=1.2000000476837158
+e034<ewsp> Dummy_Power Whip mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Power Whip       hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A080,Aloc scale=3.0
+n02B<nalb> Dummy Effect_Shadow Ball mdl=units\nightelf\Wisp\Wisp.mdl Dummy Effect_Shadow Ball hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.0
+n02C<nalb> Dummy_Shadow Ball mdl=.mdl                       Dummy_Shadow Ball      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=1.0
+n02D<nalb> Dummy Effect_Energy Ball mdl=Abilities\Weapons\BloodElfMissile\BloodElfMissile.mdl Dummy Effect_Energy Ball hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=6.0
+n02E<nalb> Dummy_Energy Ball mdl=.mdl                       Dummy_Energy Ball      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=1.0
+n02F<nalb> Dummy Effect_Twister mdl=Abilities\Spells\NightElf\Cyclone\CycloneTarget.mdl Dummy Effect_Twister   hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A087,Aloc scale=0.550000011920929
+n02G<nmrm> Magikarp       mdl=Magikarp.mdl               Magikarp               hp=1500 mp=200 dmg=30 def=2 str/agi/int=None/None/None prim=None hab=None abi=AInv scale=0.4000000059604645
+n02H<nmrm> Tyranitar      mdl=Tyranitar.mdl              Tyranitar              hp=15000 mp=1000 dmg=200 def=20 str/agi/int=None/None/None prim=None hab=None abi= scale=1.649999976158142
+n02I<nmrm> Lucario        mdl=Lucario.mdl                Lucario                hp=15000 mp=1000 dmg=200 def=20 str/agi/int=None/None/None prim=None hab=None abi= scale=0.8999999761581421
+n02J<nmrm> Pidgeot        mdl=018.mdl                    Pidgeot                hp=1700 mp=500 dmg=110 def=5 str/agi/int=None/None/None prim=None hab=None abi= scale=None
+n02K<nmrm> Pidgeotto      mdl=017.mdl                    Pidgeotto              hp=1400 mp=200 dmg=85 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.0
+o000<osp1> Spikes         mdl=Abilities\Spells\Orc\SpikeBarrier\SpikeBarrier.mdl Spikes                 hp=9999 mp=None dmg=1 def=9999 str/agi/int=None/None/None prim=None hab=None abi=Apiv,Aloc,A04V scale=0.20000000298023224
+o003<osp1> Toxic Spikes   mdl=Abilities\Spells\Orc\SpikeBarrier\SpikeBarrier.mdl Toxic Spikes           hp=9999 mp=None dmg=1 def=9999 str/agi/int=None/None/None prim=None hab=None abi=A08F,Apiv,Aloc scale=0.20000000298023224
+n02L<nalb> Dummy Effect_BubbleBeam mdl=units\nightelf\Wisp\Wisp.mdl Dummy Effect_BubbleBeam hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=0.5
+h012<hmpr> Dummy_Rock Slide mdl=none.mdl                   Dummy_Rock Slide       hp=None mp=None dmg=50 def=None str/agi/int=None/None/None prim=None hab=None abi=A08L,A08K,Avul scale=2.0
+n02M<necr> Dummy_Hydro Pump mdl=.mdl                       Dummy_Hydro Pump       hp=3 mp=9999 dmg=25 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.0
+n02N<nalb> Dummy Spirit Bomb mdl=Objects\Spawnmodels\Undead\UCancelDeath\UCancelDeath.mdl Dummy Spirit Bomb      hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A08M,Aloc scale=4.0
+h013<hmpr> Dummy_Close Combat mdl=none.mdl                   Dummy_Close Combat     hp=None mp=None dmg=600 def=None str/agi/int=None/None/None prim=None hab=None abi=A08R,A08Q,A08O,Avul scale=3.200000047683716
+n02O<nalb> Dummy Effect_Sand Storm mdl=Objects\Spawnmodels\Undead\ImpaleTargetDust\ImpaleTargetDust.mdl Dummy Effect_Sand Storm hp=20000 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A08T,Aloc scale=4.5
+E035<Emoo> Kabutops       mdl=kabutops.mdl               Rock&Water Pokemon     hp=960 mp=160 dmg=55 def=10 str/agi/int=28/28/23 prim=None hab=A003,A09L,A08G,A08X,A08V abi=AInv scale=0.550000011920929
+e036<ewsp> Dummy_ShockWave mdl=none.mdl                   Dummy_ShockWave        hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A090,Aloc scale=0.8999999761581421
+E037<Emoo> Vaporeon       mdl=Vaporeon.mdl               Water Pokemon          hp=2140 mp=220 dmg=55 def=5 str/agi/int=33/23/36 prim=STR hab=A093,A035,A01D,A02L,A08C abi=A094,AInv scale=0.44999998807907104
+E038<Emoo> Flareon        mdl=Flareon.mdl                Fire Pokemon           hp=1070 mp=220 dmg=65 def=5 str/agi/int=36/26/33 prim=STR hab=A096,A04E,A02L,A04Y abi=A089,AInv scale=1.149999976158142
+e039<ewsp> Dummy_Fire Fang mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Fire Fang        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=AInv,A095,Aloc scale=None
+E03A<Emoo> Eevee          mdl=eevee.mdl                  Normal Pokemon         hp=700 mp=60 dmg=28 def=2 str/agi/int=20/20/20 prim=None hab=A00E,A016,A02L abi=A09O,AInv scale=22.0
+n003<nalb> Dummy Effect_Giga Impact mdl=Abilities\Spells\Orc\FeralSpirit\feralspiritdone.mdl Dummy Effect_Giga Impact hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A098,Aloc scale=4.0
+e03B<ewsp> Dummy_CrushGrip mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_CrushGrip        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=AInv,A099,Aloc scale=None
+E03C<Emoo> Krabby         mdl=098.mdl                    Water Pokemon          hp=390 mp=60 dmg=52 def=5 str/agi/int=30/18/8 prim=STR hab=A09I,A09H,A05X,A00Y abi=A09J,AInv scale=None
+E03D<Emoo> Kingler        mdl=099.mdl                    Water Pokemon          hp=750 mp=100 dmg=65 def=8 str/agi/int=35/25/18 prim=STR hab=A09I,A09H,A05X,A00Y abi=A09J,AInv scale=1.149999976158142
+E03E<Emoo> Magikarp       mdl=Magikarp.mdl               Water Pokemon          hp=1000 mp=60 dmg=5 def=8 str/agi/int=None/26/5 prim=STR hab= abi=AInv scale=0.4000000059604645
+E03F<Emoo> Gyarados       mdl=Gyarados by Pmz.mdl        Water&Flying Pokemon   hp=1700 mp=100 dmg=62 def=8 str/agi/int=31/29/20 prim=STR hab=A09N,A08C,A04W,A09L abi=A09K,AInv scale=3.0
+e03G<ewsp> Dummy_PoisonPowder mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_PoisonPowder     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A09P,Aloc scale=None
+E03H<Emoo> Espeon         mdl=Espeon.mdl                 Psychic Pokemon        hp=1070 mp=220 dmg=65 def=5 str/agi/int=27/36/43 prim=INT hab=A06B,A0A4,A0AF,A0A0 abi=A069,AInv scale=0.800000011920929
+E03I<Emoo> Umbreon        mdl=Umbreon.mdl                Dark Pokemon           hp=2150 mp=220 dmg=32 def=10 str/agi/int=43/22/25 prim=INT hab=A0AV,A0AL,A0AA,A09Y,A09E abi=A09W,AInv scale=1.149999976158142
+E03J<Emoo> Zapdos         mdl=Zapdos.mdl                 Electric&Flying Pokemon hp=1710 mp=180 dmg=83 def=5 str/agi/int=43/43/41 prim=None hab=A01F,A06V abi=A09U,AInv scale=1.399999976158142
+e03K<ewsp> Dummy_Lightning Rod mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Lightning Rod    hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A09T scale=None
+n001<nmgd> Zapdos         mdl=Zapdos.mdl                 Zapdos                 hp=20000 mp=5000 dmg=1000 def=33 str/agi/int=None/None/None prim=None hab=None abi=A0BC scale=1.5
+E03L<Emoo> Scyther        mdl=123.mdl                    Bug&Flying Pokemon     hp=1140 mp=120 dmg=55 def=4 str/agi/int=28/35/16 prim=None hab=A0A3,A086,A09V,A08V,A08X abi=AInv scale=None
+E03M<Emoo> Scizor         mdl=Scizor.mdl                 Bug&Steel Pokemon      hp=1140 mp=120 dmg=65 def=14 str/agi/int=40/23/16 prim=STR hab=A0A3,A086,A09V,A08V,A08X abi=AInv scale=None
+e03N<ewsp> Dummy_Moonlight mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moonlight        hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A09X,Aloc scale=None
+e03O<ewsp> Dummy_Battle Stomp mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Battle Stomp     hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,ANbr scale=None
+h000<hfoo> Dummy_Ancient  mdl=Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl Dummy_Ancient          hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A002,Aloc,Avul scale=1.5
+E03P<Emoo> Kabuto         mdl=kabutogeos.mdl             Rock&Water Pokemon     hp=600 mp=160 dmg=40 def=7 str/agi/int=26/None/19 prim=None hab=A003,A09L,A08G,A08X,A08V abi=AInv scale=0.800000011920929
+E03Q<Emoo> Omanyte        mdl=omanyte.mdl                Rock&Water Pokemon     hp=500 mp=160 dmg=45 def=7 str/agi/int=26/12/30 prim=INT hab=A0A8,A024,A003 abi=A07J,AInv scale=0.5
+E03R<Emoo> Omastar        mdl=Omastar.mdl                Rock&Water Pokemon     hp=800 mp=160 dmg=58 def=13 str/agi/int=29/None/38 prim=INT hab=A0A8,A024,A003 abi=A07J,AInv scale=0.75
+n02P<nmrm> Nidoking       mdl=nidoking.mdl               Nidoking               hp=2000 mp=500 dmg=120 def=8 str/agi/int=None/None/None prim=None hab=None abi=A074 scale=0.8500000238418579
+n02Q<nmrm> Nidoqueen      mdl=nidoqueen.mdl              Nidoqueen              hp=2000 mp=500 dmg=120 def=8 str/agi/int=None/None/None prim=None hab=None abi=A0A5 scale=0.8500000238418579
+n02R<nmrm> Nidorino       mdl=Nidorino.mdl               Nidorino               hp=1400 mp=300 dmg=80 def=5 str/agi/int=None/None/None prim=None hab=None abi=A0A6 scale=2.0
+n02S<nmrm> Nidoran_M      mdl=nidoranm.mdl               Nidoran_M              hp=1100 mp=200 dmg=60 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=1.399999976158142
+n02T<nmrm> Nidorina       mdl=nidorina.mdl               Nidorina               hp=1400 mp=300 dmg=80 def=5 str/agi/int=None/None/None prim=None hab=None abi=A0A7 scale=0.75
+n02U<nmrm> Nidoran_F      mdl=nidoranF.mdl               Nidoran_F              hp=1100 mp=200 dmg=60 def=3 str/agi/int=None/None/None prim=None hab=None abi= scale=0.8500000238418579
+h001<hrif> Dummy_Spike Canon mdl=.mdl                       Dummy_Spike Canon      hp=None mp=None dmg=50 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=1.2999999523162842
+E03S<Emoo> Leafleon       mdl=Leafeon.mdl                Grass Pokemon          hp=1650 mp=220 dmg=55 def=5 str/agi/int=33/33/22 prim=None hab=A0B5,A085,A07W,A02L abi=A0AB,AInv scale=None
+E03T<Emoo> Glaceon        mdl=Glaceon.mdl                Ice Pokemon            hp=1300 mp=220 dmg=65 def=5 str/agi/int=31/22/43 prim=INT hab=A093,A09N,A02L abi=A0AD,AInv scale=None
+h014<hpea> Dummy_Hail     mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Hail             hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=A0AE,Aloc,Avul scale=None
+E03U<Emoo> Onix           mdl=095.mdl                    Rock&Ground Pokemon    hp=1000 mp=100 dmg=50 def=8 str/agi/int=33/23/10 prim=STR hab=A0AU,A0AI,A02L,A09B,A00M abi=A0AJ,A0AK,AInv scale=2.799999952316284
+E03V<Emoo> Steelix        mdl=steelix.mdl                Steel&Ground Pokemon   hp=2000 mp=100 dmg=60 def=18 str/agi/int=46/13/16 prim=STR hab=A0AU,A0AI,A02L,A09B,A00M abi=A0AJ,A0AK,AInv scale=1.25
+E03W<Emoo> Pinsir         mdl=pinsir.mdl                 Bug Pokemon            hp=1000 mp=120 dmg=62 def=6 str/agi/int=28/28/18 prim=STR hab=A06Y,A0A3,A08X,A09I abi=A0AP,A0AO,AInv scale=1.7999999523162842
+E03X<Emoo> Sylveon        mdl=Sylveon.mdl                Fairy Pokemon          hp=1800 mp=60 dmg=55 def=5 str/agi/int=33/20/38 prim=INT hab=A0AQ,A06A,A02L,A068,A051 abi=AInv scale=None
+E03Y<Emoo> Hitmonlee      mdl=106.mdl                    Fighting Pokemon       hp=750 mp=100 dmg=60 def=5 str/agi/int=35/29/12 prim=STR hab=A0C2,A0BZ,A0BW abi=A0C0,AInv scale=1.7999999523162842
+E03Z<Emoo> Hitmontop      mdl=hitmontop.mdl              Fighting Pokemon       hp=750 mp=100 dmg=42 def=5 str/agi/int=38/23/12 prim=STR hab=A0C3,A02J,A0BT,A0BS abi=A0BR,AInv scale=0.4000000059604645
+E040<Emoo> Mr.mime        mdl=MisterMime_[A].mdl         Psychic Pokemon        hp=560 mp=80 dmg=50 def=5 str/agi/int=30/30/33 prim=INT hab=A020,A0B3,A0AX,A0AW,A06S abi=AInv,A0AY scale=0.699999988079071
+h015<hsor> Dummy_Stone Edge mdl=.mdl                       Dummy_Stone Edge       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0A2,Aloc,Avul scale=2.5
+e041<ewsp> Dummy_Ice Wind mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Ice Wind         hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0AH scale=None
+h016<hfoo> Rock           mdl=Doodads\LordaeronSummer\Terrain\LoardaeronRockChunks\LoardaeronRockChunks3.mdl Rock                   hp=1 mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Avul scale=None
+e042<ewsp> Dummy_Diggy    mdl=.mdl                       Dummy_Diggy            hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+e043<ewsp> Dummy_Flash    mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Flash            hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A0AR scale=0.20000000298023224
+h017<hfoo> Dummy_Hyperbeam mdl=Abilities\Spells\Other\Awaken\Awaken.mdl Dummy_Hyperbeam        hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=3.0
+e044<ewsp> Dummy_DragonBreath mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_DragonBreath     hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0AT,Aloc scale=3.0
+h018<hpea> Dummy Magic Room mdl=Abilities\Spells\Items\AItb\AItbTarget.mdl Dummy Magic Room       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0AZ,A0B0,Aloc scale=0.699999988079071
+e045<ewsp> Dummy_SkullBash mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_SkullBash        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A01B scale=None
+E046<Emoo> Zubat          mdl=041.mdl                    Poison&Flying Pokemon  hp=650 mp=120 dmg=22 def=2 str/agi/int=14/18/10 prim=None hab=A0B8,A0B7,A02G,A04Q abi=A0B6,AInv scale=1.100000023841858
+e047<ewsp> Dummy_Razol Leaf mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Razol Leaf       hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A010 scale=None
+E048<Emoo> Golbat         mdl=042.mdl                    Poison&Flying Pokemon  hp=1000 mp=120 dmg=40 def=4 str/agi/int=24/30/22 prim=None hab=A0B8,A0B7,A02G,A04Q abi=A0B6,AInv scale=1.2999999523162842
+E049<Emoo> Crobat         mdl=Crobat.mdl                 Poison&Flying Pokemon  hp=1550 mp=120 dmg=45 def=6 str/agi/int=27/43/23 prim=None hab=A0B8,A0B7,A02G,A04Q abi=A0B6,AInv scale=None
+e04A<ewsp> Dummy_PoisonFang mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_PoisonFang       hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A0B9 scale=None
+h00H<hfoo> Dummy1_SolarBeam mdl=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl Dummy1_SolarBeam       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.0
+h00I<hfoo> Dummy2_SolarBeam mdl=Abilities\Spells\Items\AIlm\AIlmTarget.mdl Dummy2_SolarBeam       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=2.5
+n00E<nmrm> Alakazam       mdl=065.mdl                    Alakazam               hp=1800 mp=1000 dmg=150 def=10 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n02V<nmrm> Gengar         mdl=gengar.mdl                 Gengar                 hp=1800 mp=1000 dmg=150 def=10 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n02W<nmrm> Haunter        mdl=haunter.mdl                Haunter                hp=1500 mp=800 dmg=130 def=8 str/agi/int=None/None/None prim=None hab=None abi= scale=1.0
+n02X<nmrm> Gastly         mdl=gastly.mdl                 Gastly                 hp=1300 mp=700 dmg=110 def=6 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n02Y<nmrm> Abra           mdl=063.mdl                    Abra                   hp=1300 mp=700 dmg=110 def=6 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n02Z<nmrm> Kadabra        mdl=064.mdl                    Kadabra                hp=1500 mp=800 dmg=130 def=8 str/agi/int=None/None/None prim=None hab=None abi= scale=1.2000000476837158
+h019<hpea> Dummy_ThunderStorm mdl=.mdl                       Dummy_ThunderStorm     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aeth,Aloc scale=None
+n030<ngme> Haunt Legendary mdl=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl Haunt Legendary        hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Ane2,Avul,Apit scale=1.5
+e04B<ewsp> Dummy_Mewtwo_Location mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Mewtwo_Location  hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A0BA scale=None
+h01A<hfoo> Dummy_Deoxys_Location_Damage mdl=buildings\other\MagicVault\MagicVault.mdl Dummy_Deoxys_Location_Damage hp=5000 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi=Amnz scale=None
+h01B<hfoo> Dummy_Deoxys_Location mdl=buildings\other\MagicVault\MagicVault.mdl Dummy_Deoxys_Location  hp=5000 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi= scale=None
+n031<nmrm> Alakazam_Loc Mewtwo Deoxys mdl=065.mdl                    Alakazam_Loc Mewtwo Deoxys hp=5000 mp=1000 dmg=350 def=10 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n032<nmrm> Gengar_Loc Mewtwo Deoxys mdl=gengar.mdl                 Gengar_Loc Mewtwo Deoxys hp=5000 mp=1000 dmg=350 def=10 str/agi/int=None/None/None prim=None hab=None abi= scale=1.350000023841858
+n033<nmgd> Dialga         mdl=DSRA.mdl                   Dialga                 hp=50000 mp=5000 dmg=2000 def=88 str/agi/int=None/None/None prim=None hab=None abi=A0CL,A0BD scale=2.5
+n034<nmgd> Palkia         mdl=HROS.mdl                   Palkia                 hp=50000 mp=5000 dmg=2000 def=88 str/agi/int=None/None/None prim=None hab=None abi=A0CL,A0BE scale=2.5
+n035<nmgd> Celebi         mdl=Celebi.mdl                 Celebi                 hp=45000 mp=5000 dmg=2250 def=44 str/agi/int=None/None/None prim=None hab=None abi= scale=6.0
+h01C<hfoo> Dummy_Mew_Location mdl=Doodads\Cinematic\EyeOfSargeras\EyeOfSargeras.mdl Dummy_Mew_Location     hp=2000 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi= scale=None
+h01D<hfoo> Dummy_Mew_Location_True mdl=Doodads\Cinematic\EyeOfSargeras\EyeOfSargeras.mdl Dummy_Mew_Location_True hp=2000 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi= scale=None
+E04C<Emoo> Dialga         mdl=DSRA.mdl                   Time Pokemon           hp=2820 mp=270 dmg=80 def=5 str/agi/int=53/40/45 prim=STR hab=A0AS,A037 abi=A0BD,AInv scale=1.5
+E04D<Emoo> Palkia         mdl=HROS.mdl                   Space Pokemon          hp=2820 mp=270 dmg=80 def=5 str/agi/int=53/40/45 prim=STR hab=A0AS,A037 abi=A0BE,AInv scale=1.5
+e04E<ewsp> Dummy_BlackGlasses mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_BlackGlasses     hp=None mp=220 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,A0BI scale=None
+h01E<hfoo> Dummy_Darkrai_Location mdl=Doodads\LordaeronSummer\Terrain\LoardaeronRockChunks\LoardaeronRockChunks1.mdl Dummy_Darkrai_Location hp=5000 mp=None dmg=0 def=0 str/agi/int=None/None/None prim=None hab=None abi= scale=None
+h01F<hmpr> Dummy_God      mdl=buildings\other\DalaranGuardTower\DalaranGuardTower.mdl Dummy_God              hp=500 mp=None dmg=1000 def=None str/agi/int=None/None/None prim=None hab=None abi=A0BJ,Avul scale=None
+n036<nalb> Dummy Fire Blast mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy Fire Blast       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BO,A0BN,Aloc scale=0.550000011920929
+e04F<ewsp> Dummy_Moltres Location 4 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 4 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+e04G<ewsp> Dummy_Moltres Location 5 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 5 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+e04H<ewsp> Dummy_Moltres Location 3 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 3 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+e04I<ewsp> Dummy_Moltres Location 1 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 1 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+e04J<ewsp> Dummy_Moltres Location 2 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 2 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+e04K<ewsp> Dummy_Moltres Location 6 mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Moltres Location 6 hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BQ,Aloc scale=3.0
+h01G<hfoo> Dummy_Giratina_Location mdl=Doodads\Ashenvale\Props\Obelisk\Obelisk2.mdl Dummy_Giratina_Location hp=10000 mp=None dmg=0 def=100 str/agi/int=None/None/None prim=None hab=None abi= scale=1.5
+n037<nmgd> Giratina       mdl=2.mdl                      Giratina               hp=50000 mp=5000 dmg=2000 def=88 str/agi/int=None/None/None prim=None hab=None abi=A0C6 scale=2.5
+n038<nech> Dummy_Tripple Kick mdl=hitmontop.mdl              Dummy_Tripple Kick     hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=0.4000000059604645
+e04L<ewsp> Dummy_Jump Kick mdl=Doodads\Terrain\LOSBlocker\IntentionallyLeftBlank.mdl Dummy_Jump Kick        hp=None mp=75 dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0BX,Aloc scale=None
+h01H<hpea> Dummy_High Jump Kick mdl=units\critters\VillagerMan\VillagerMan.mdl Dummy_High Jump Kick   hp=10000 mp=None dmg=0 def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul,Amim scale=0.009999999776482582
+h01I<hfoo> Dummy_Hitmonlee mdl=106.mdl                    Dummy_Hitmonlee        hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=1.7999999523162842
+E04N<Emoo> Staryu         mdl=120.mdl                    Water Pokemon          hp=390 mp=150 dmg=43 def=3 str/agi/int=19/28/23 prim=None hab=A05A,A0C4,A04R,A035 abi=A0C5,A06Z,AInv scale=None
+E04M<Emoo> Starmie        mdl=121.mdl                    Water&Psychic Pokemon  hp=690 mp=150 dmg=50 def=5 str/agi/int=28/38/33 prim=None hab=A05A,A0C4,A04R,A035 abi=A0C5,A06Z,AInv scale=None
+h01J<hpea> Soul Effect_Giratina location mdl=Objects\Spawnmodels\Undead\UndeadDissipate\UndeadDissipate.mdl Soul Effect_Giratina location hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc scale=None
+n039<nalb> Dummy Effect_Fire Spin mdl=units\orc\HeroBladeMaster\HeroBladeMaster.mdl Dummy Effect_Fire Spin hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0CC,Aloc scale=1.0
+E04O<Emoo> Vulpix         mdl=VulpixFar.mdl              Fire Pokemon           hp=600 mp=100 dmg=25 def=2 str/agi/int=20/25/22 prim=None hab=A0CU,A0CI,A0CF,A0CD,A04E abi=A0CE,AInv scale=2.0
+E04P<Emoo> Ninetales      mdl=Ninetails.mdl              Fire Pokemon           hp=600 mp=100 dmg=40 def=5 str/agi/int=32/38/30 prim=None hab=A0CU,A0CI,A0CF,A0CD,A04E abi=A0CE,AInv scale=2.0
+n03A<nalb> Dummy Effect_Rayquaza mdl=Abilities\Spells\NightElf\Cyclone\CycloneTarget.mdl Dummy Effect_Rayquaza  hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=A0CN,Aloc scale=0.800000011920929
+h01K<hfoo> Dummy_Sand Storm mdl=Objects\Spawnmodels\Undead\ImpaleTargetDust\ImpaleTargetDust.mdl Dummy_Sand Storm       hp=None mp=None dmg=None def=None str/agi/int=None/None/None prim=None hab=None abi=Aloc,Avul scale=3.0
