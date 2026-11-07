@@ -1,4 +1,4 @@
-"""v3.4 extras (docs/v3.5-items-league-features-proposal.md, approved 2026-11-07 and folded into v3.4.0):
+"""v3.4 extras (docs/v3.4/3-item-league-tinh-nang.md, approved 2026-11-07 and folded into v3.4.0):
 battle / utility items and two shops, stone evolutions, data for wild creeps that evolve with the tier and elites
 that Mega Evolve, the Elite Four. Called from content.make(); the JASS lives in jass/extra.j, extra_late.j, gym.j.
 """
@@ -131,8 +131,10 @@ def add(c, script, units, allu, ids, by_name, base):
         setf(o, 'usei', ','.join(ITEMS[k][0] for k in slots), T_STRING)
         c.objs.append(o)
     c.data += ["    set Ext_Shop[0] = 'nBS0'", "    set Ext_Shop[1] = 'nIS0'"]
-    spots = [(-5392, -544), (-6304, -544), (-5088, -544), (-5392, -848), (-5696, -848), (-6000, -848),
-             (-6304, -848), (-5088, -848), (-4784, -544), (-4784, -848)]
+    # v3.4.2: the shop rows of a base (y = +-544: Poke Mart / Super Marts, Mega Shops) are full and the first spots
+    # of v3.4.0 sat on Mega Shop III / Haunt Legendary: the free band between the rows, either side of the walkway
+    # from the Poke Center to the door (checked walkable in war3map.wpm, analysis/base_layout.py)
+    spots = [(-5696, 288), (-5696, -288), (-5392, 288), (-5392, -288), (-5904, 288), (-5904, -288)]
     for i, (x, y) in enumerate(spots):
         c.data += ['    set Ext_SpotX[%d] = %s' % (i, repr(float(-x))), '    set Ext_SpotY[%d] = %s' % (i, repr(float(y)))]
     c.data.append('    set Ext_SpotN = %d' % len(spots))
@@ -196,6 +198,79 @@ def add(c, script, units, allu, ids, by_name, base):
                 n_mega += 1
                 break
     c.report.append('wild: %d types know their next form, %d can be Mega elites' % (n_next, n_mega))
+
+    # ---------------- v3.4.1: kind of each learned move = the game skill its abilities are made from (same order)
+    import slk
+    sk = slk.Slk(base.read('Units\\AbilityData.slk').decode('latin-1'))
+    code_x = sk.name_to_x['code']
+    kinds, nk = {}, 0
+    b36 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    n_moves = int(re.search(r'set Mv_N = (\d+)', script).group(1))
+    for m in range(n_moves):
+        row = sk.find('AV' + b36[m // 36] + b36[m % 36])
+        code = (row or {}).get(code_x, '').strip('"')
+        if code not in kinds:
+            kinds[code] = len(kinds)
+        c.data.append('    set Mv_Kind[%d] = %d' % (m, kinds[code]))
+    c.report.append('learned moves: %d kinds of game skill %s' % (len(kinds), sorted(kinds)))
+
+    # ---------------- v3.4.2: evolution items that are type items of another type (Onix / Scyther + Metal Coat):
+    # Type_OnSell lets that Pokemon buy it anyway (Mega_HT key 92 on its type = the item)
+    type_item = dict(re.findall(r"set Type_Item\[(\d+)\] = '(\w{4})'", script))
+    type_word = dict(re.findall(r'set Type_Word\[(\d+)\] = "(\w+)"', script))
+    word_of = {type_item[i]: type_word[i] for i in type_item}
+    funcs = {m.group(1): m.group(2) for m in re.finditer(
+        r'(?ms)^function (\w+) takes nothing returns \w+\n(.*?)\nendfunction', script)}
+    allowed = []
+    for _t, cond, act in re.findall(r"call TriggerAddCondition\((\w+),Condition\(function (\w+)\)\)\n"
+                                    r"call TriggerAddAction\(\1,function (\w+)\)", script):
+        its = [i for i in re.findall(r"GetItemTypeId\(GetManipulatedItem\(\)\)=='(\w{4})'", funcs.get(cond, ''))
+               if i in word_of]
+        if not its:
+            continue
+        for cf, _new in re.findall(r"if\((\w+)\(\)\)then\n(?:[^\n]*\n){0,6}?call Mega_SafeReplace\(GetManipulatingUnit\(\),'(\w{4})'",
+                                   funcs.get(act, '')):
+            for ty in re.findall(r"GetUnitTypeId\(GetManipulatingUnit\(\)\)=='(\w{4})'", funcs.get(cf, '')):
+                for it in its:
+                    if word_of[it] not in (allu.get(ty).get('unam') or '' if allu.get(ty) else ''):
+                        c.data.append("    call SaveInteger(Mega_HT, '%s', 92, '%s')" % (ty, it))
+                        allowed.append('%s+%s' % ((allu.get(ty).get('upro') if allu.get(ty) else ty), it))
+    c.report.append('evolution items of another type allowed: %s' % ', '.join(allowed))
+
+    # ---------------- v3.4.2: type items for all 18 types (Ground: Soft Sand was not registered; Fairy had none)
+    c.item_mods = [('ITFY', {'abilList': '"A03C,A03A"', 'goldcost': '3000', 'stockMax': '1', 'stockRegen': '60'})]
+    c.item_txt_mods = [
+        ('ITFY', [('Name', 'Pixie Plate'), ('Tip', 'Purchase |cffffcc00Pixie Plate|r'),
+                  ('Ubertip', 'Raise 20% damage and recover 50 HP per second.|n|n|cffffcc00Equip with Fairy Pokemon|r'),
+                  ('Description', 'Equip with Fairy Pokemon.'), ('Buttonpos', '2,1')]),
+        ('I013', [('Name', 'Soft Sand'), ('Tip', 'Purchase |cffffcc00Soft Sand [Z]|r')]),
+        ('I01X', [('Ubertip', 'Raise 20% damage and 15 armor.|n|n|cffffcc00Equip with Steel Pokemon. Onix and Scyther '
+                              'evolve with it (they may buy it).|r')]),
+    ]
+    c.shop_add.setdefault('n00Q', []).append('ITFY')
+    c.report.append('type items: Ground (I013 Soft Sand) and Fairy (ITFY Pixie Plate, Super Mart 2) added')
+
+    # ---------------- v3.4.2: the League in Darkrai's room; its Darkrai becomes a random legend (nL19)
+    import league_area
+    c.data += league_area.jass_lines(ids)
+    o = clone(units['n00F'], 'nL19')
+    setf(o, 'unam', 'Wild Darkrai', T_STRING)
+    c.objs.append(o)
+    leg_n = int(re.search(r'set Leg_N = (\d+)', script).group(1)) + 1   # + Latias & Latios (content.py)
+    c.data += ["    set Leg_Type[%d] = 'nL19'" % leg_n, "    set Leg_Soul[%d] = 'I01F'" % leg_n,
+               '    set Leg_Name[%d] = "Darkrai"' % leg_n, '    set Leg_N = %d' % (leg_n + 1)]
+    import abilities
+    c.links.append(('nL19', abilities.by_name()['Bad Dreams']))
+    c.item_txt_mods.append(('IL01', [
+        ('Name', 'Pokemon League'), ('Tip', 'Teleport to the |cffffcc00Pokemon League [D]|r'),
+        ('Ubertip', 'Teleport to the Pokemon League (Elite Four and Champion, 8 badges). The exit portal there '
+                    'brings you back to your base.'),
+        ('Description', 'Teleport to the Pokemon League.'),
+        ('Art', 'ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp')]))
+    c.report.append('League: Darkrai room, Darkrai -> random legend nL19 (Leg %d)' % leg_n)
+
+    # ---------------- v3.4.2: gym difficulty (gyms 1-4 easier; analysis/patch_gym_difficulty.py has the table)
+    c.data += ['    set Gym_DiffHP[0] = 0.35', '    set Gym_DiffDmg[0] = 0.45', '    set Gym_DiffAI[0] = 0.25', '    set Gym_Fast[0] = false', '    set Gym_DiffHP[1] = 0.45', '    set Gym_DiffDmg[1] = 0.55', '    set Gym_DiffAI[1] = 0.25', '    set Gym_Fast[1] = false', '    set Gym_DiffHP[2] = 0.7', '    set Gym_DiffDmg[2] = 0.75', '    set Gym_DiffAI[2] = 0.45', '    set Gym_Fast[2] = false', '    set Gym_DiffHP[3] = 0.85', '    set Gym_DiffDmg[3] = 0.85', '    set Gym_DiffAI[3] = 0.45', '    set Gym_Fast[3] = false', '    set Gym_DiffHP[4] = 1.0', '    set Gym_DiffDmg[4] = 1.0', '    set Gym_DiffAI[4] = 0.6', '    set Gym_Fast[4] = true', '    set Gym_DiffHP[5] = 1.0', '    set Gym_DiffDmg[5] = 1.0', '    set Gym_DiffAI[5] = 0.6', '    set Gym_Fast[5] = true', '    set Gym_DiffHP[6] = 1.0', '    set Gym_DiffDmg[6] = 1.0', '    set Gym_DiffAI[6] = 0.6', '    set Gym_Fast[6] = true', '    set Gym_DiffHP[7] = 1.0', '    set Gym_DiffDmg[7] = 1.0', '    set Gym_DiffAI[7] = 0.6', '    set Gym_Fast[7] = true', '    set Gym_DiffHP[8] = 1.0', '    set Gym_DiffDmg[8] = 1.0', '    set Gym_DiffAI[8] = 0.6', '    set Gym_Fast[8] = true']
 
     # ---------------- Elite Four and Champion
     for s, (who, ty) in enumerate(LEAGUE):

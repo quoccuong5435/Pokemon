@@ -1,6 +1,6 @@
 """v3.4: an icon that matches the name of each of the 319 learned moves (built-in WC3 icons the map already uses,
 analysis/builtin_icons.txt), instead of one icon per type. build_v34 writes them into the Art= line of the 4 slot
-abilities of each move ('A' + V/W/Y/Z + 2 base-36 digits of the move); docs/v3.4-move-icons.md lists them.
+abilities of each move ('A' + V/W/Y/Z + 2 base-36 digits of the move); docs/v3.4/4-icon-chieu.md lists them.
 """
 import os
 import re
@@ -149,7 +149,7 @@ def patch_strings(text, rows):
 
 
 def write_doc(rows, path):
-    lines = ['# v3.4: icon của 319 move học được', '',
+    lines = ['# 4. Icon của 319 move học được', '',
              'Icon chọn theo tên chiêu (cột "Theo" = tên); không khớp từ khóa nào thì dùng icon theo hệ (cột "Theo" = hệ).',
              'Chỉ dùng icon có sẵn của Warcraft III mà map đã dùng (`analysis/builtin_icons.txt`).', '',
              '| # | Move | Hệ | Icon | Theo |', '|---|---|---|---|---|']

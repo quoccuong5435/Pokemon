@@ -1,4 +1,4 @@
-"""v3.4 content from PKLegends v3.2 (docs/v3.4-mega-form-wild-proposal.md, approved 2026-11-07):
+"""v3.4 content from PKLegends v3.2 (docs/v3.4/2-mega-form-quai-hoang.md, approved 2026-11-07):
 
   - 8 Megas (Slowbro, Sharpedo, Ampharos, Houndoom, Aerodactyl, Manectric, Heracross, Altaria): skin units hM0P..hM0W,
     stones IM0P..IM0W in the Mega Shops, item abilities AM0P..AM0W, Mega data 25..32

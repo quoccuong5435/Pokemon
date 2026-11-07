@@ -1,4 +1,4 @@
-# v3.4: icon của 319 move học được
+# 4. Icon của 319 move học được
 
 Icon chọn theo tên chiêu (cột "Theo" = tên); không khớp từ khóa nào thì dùng icon theo hệ (cột "Theo" = hệ).
 Chỉ dùng icon có sẵn của Warcraft III mà map đã dùng (`analysis/builtin_icons.txt`).

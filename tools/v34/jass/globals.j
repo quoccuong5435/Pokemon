@@ -49,7 +49,7 @@ integer array Wild_PowGold
 integer array Wild_PowCnt               // Wild_IndexPool: number of pool entries of each power,
 integer array Wild_PowAt                // and their pool indexes at power * Wild_PowStride + k
 constant integer Wild_PowStride = 400
-// v3.4 extras (extra.j, extra_late.j, League in gym.j; docs/v3.5-items-league-features-proposal.md)
+// v3.4 extras (extra.j, extra_late.j, League in gym.j; docs/v3.4/3-item-league-tinh-nang.md)
 integer Itm_N = 0
 integer array Itm_Id                    // held / utility item k (Ab_HT key 140 + k on the holder)
 integer Itm_Everstone = 0
@@ -81,3 +81,29 @@ integer array League_Type
 string array League_Name
 integer array League_ChampTeam
 integer array League_Cand
+integer array Mv_Kind                   // v3.4.1: game skill a learned move is made from (moves.j: one per kind)
+integer Gym_ArgG = 0                    // v3.4.2: gym / slot for the ExecuteFunc entry points of gym.j
+integer Gym_ArgK = 0
+
+real League_AX = 0.0                    // v3.4.2 League in Darkrai's room (league_area.py): arena centre,
+real League_AY = 0.0
+real League_LX = 0.0                    // lobby (where the portals send you),
+real League_LY = 0.0
+real League_EX = 0.0                    // exit portal (to your base),
+real League_EY = 0.0
+real League_GX = 0.0                    // entrance portal of the west base (the east base mirrors x)
+real League_GY = 0.0
+real League_RoomX0 = 0.0
+real League_RoomY0 = 0.0
+real League_RoomX1 = 0.0
+real League_RoomY1 = 0.0
+integer League_StatueN = 0
+integer array League_StatueType
+real array League_StatueX
+real array League_StatueY
+string array League_StatueName
+unit array League_Gate                  // 0 west base, 1 east base, 2 exit
+real array Gym_DiffHP                  // v3.4.2: per gym (8 = League) HP / damage+armor multipliers, skill-cast
+real array Gym_DiffDmg                 // chance and whether its Pokemon attack 1.7x faster (extras.py)
+real array Gym_DiffAI
+boolean array Gym_Fast

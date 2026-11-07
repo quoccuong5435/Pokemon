@@ -1,6 +1,6 @@
-# Pokemon Arena v3.4: đề xuất làm lại Ability (để duyệt)
+# 1. Ability: làm lại 68 Ability, thêm Ability mới
 
-Số liệu lấy từ file `Pokemon Arena v3.3.3.w3x` (ngày 07/11/2026). Chưa sửa gì, chưa build.
+Số liệu gốc lấy từ `Pokemon Arena v3.3.3.w3x`. **Đã duyệt và đã có trong v3.4.0** (build 07/11/2026). Sau đó thêm Ability 70–73 (Strong Jaw, Solar Power, Skill Link, Zen Mode), xem `2-mega-form-quai-hoang.md`; tổng cộng 73 Ability. Bảng dưới là bản đề xuất đã duyệt (cột "Hiện tại" = v3.3.3).
 
 ## Tình trạng hiện tại
 - 68 Ability. 301 unit chơi được (kể cả các form và Mega); **21 Pokémon chưa có Ability**.
@@ -145,15 +145,15 @@ Mỗi Ability khi kích hoạt sẽ có hiệu ứng hình ảnh riêng (dùng m
 | Absol | **Super Luck (Ability mới)**: 25% chí mạng x1,5 |
 
 ## Trạng thái (07/11/2026)
-Đã duyệt và đã viết code cho v3.4.0 (`tools/v34/`, script `v34/war3map.j`, pjass 0 lỗi). **Chưa build, chưa chơi thử.**
+Đã có trong v3.4.0 (`tools/v34/`). Các lưu ý dưới đây ghi lúc làm v3.4.0; những lỗi tìm ra khi chơi thử đã sửa ở 3.4.1 / 3.4.2 (xem README.md).
 Khác với đề xuất / cần biết khi chơi thử:
 - Gym dùng chính các Pokémon chơi được (unit hero của phe trung lập), vì quái hoang chỉ có 74 loài, thiếu nhiều dòng tiến hóa. Mỗi con có 5 chiêu theo hệ của nó; con thứ 6 có chiêu của hệ khắc bạn. Bảng tiến hóa của gym gồm dữ liệu của mod, trigger v1.8 (Charmander lv16/36…) và level gán sẵn cho các loài tiến hóa bằng đá hoặc trao đổi (Pikachu, Vulpix, Onix… lv36/40).
-- Giết Pokémon gym (giờ là hero) được exp như giết hero; phần thưởng +500 exp +1 gỗ của v1.8 không áp dụng cho chúng.
+- Giết Pokémon gym (giờ là hero) được exp như giết hero; phần thưởng +500 exp +1 gỗ của v1.8 không áp dụng cho chúng. (Lên cấp tiến hóa giữa trận từng làm gym reset: đã sửa ở 3.4.1.)
 - Hệ của chiêu được tính cho sát thương trong vòng 6 giây sau khi dùng chiêu.
 - Hào quang (Flame Body, Pressure…) và hồi máu theo giây chỉ chạy cho Pokémon của người chơi, không chạy cho quái hoang.
 - Sturdy bật bất tử 1,5 giây; nếu đúng lúc đó một skill cũ của v1.8 cũng đang bật bất tử thì nó có thể tắt sớm (hiếm).
 
-## Các thay đổi khác đã chốt (đã viết code, chờ bạn bảo build)
+## Các thay đổi khác làm cùng đợt (có trong v3.4.0)
 - **Gym**: vào gym được hồi đầy máu và mana. Sau khi clear, chỉ người vừa clear phải chờ 5 giây (trước đây gym khóa 60 giây với mọi người); thua hoặc rời gym thì đánh lại được ngay (trước đây 10 giây).
 - **Đội gym 6 con**: chọn từ các Pokémon chơi được, không có 2 con cùng dòng tiến hóa, form đúng theo level (ví dụ lv35 ra Charmeleon, lv36 ra Charizard). **Con thứ 6 luôn có hệ khắc hệ Pokémon của bạn.** Gym Pokémon dùng các chiêu của hệ mình.
 - **Tốc độ đánh**: Pokémon của người chơi đánh nhanh hơn khoảng 1,7 lần (1,8 giây xuống khoảng 1,1 giây mỗi đòn ở mức gốc); Agi cộng thêm vẫn +2% mỗi điểm.

@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------------------------
-// v3.4 extras (docs/v3.5-items-league-features-proposal.md): battle items, weather, Shiny, legend Mega.
+// v3.4 extras (docs/v3.4/3-item-league-tinh-nang.md): battle items, weather, Shiny, legend Mega.
 // Ab_HT on a hero: 120..122 Str/Agi/Int bonus applied (Shiny 10%, Champion 15%), 123 Shiny, 124 Shiny decided,
 // 125 legend Mega, 126 Focus Sash ready time, 127 last XP (Lucky Egg), 128 Champion Aura until, 129 aura effect,
 // 140 + k holds item k (Itm_Id[k]; Itm_Refresh every second and on pickup). Mega_HT on an item type: 91 = k + 1.

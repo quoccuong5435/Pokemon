@@ -1,6 +1,9 @@
 # Pokemon Arena v2.x mod — handoff for a new Claude session
 
+## READ FIRST (2026-11-08): `HANDOFF-v3.4.md` = current state, user rules, pitfalls, open items (latest map v3.4.2)
+
 ## READ FIRST: v3.4 works from the v3.3.3 map, not from v1.8 (2026-11-07)
+- Summary of everything in v3.4.x (versions, features, open items): `docs/v3.4/README.md`; all v3.4 docs live in `docs/v3.4/`.
 - The source of v3.2.16 .. v3.3.3 was never saved here (`tools/version.txt` = 3.2.15, `tools/jass/mega.j` is older;
   its uncommitted `Wish_*` code was never built). The newest playable map is `..\Pokemon Arena v3.3.3.w3x`
   (`Pokemon Arena God Mode.w3x` = same script, other object data). So v3.4+ is made from that map:
@@ -16,7 +19,7 @@
 - v3.4.0 content (not built yet, not played): gyms (team chosen at the start: 6 lines, form of its level, the 6th
   counters the challenger; full HP/mana on entry; only the clearing player waits 5s; no wait after a loss), players'
   attack speed x1.7 (`Hero_ASBoost`), wild HP from the v3.2.15 power table x tier step, type chart on moves (x2 /
-  x0.5 / immune x0.25, clamp 0.25..2), 69 reworked Abilities (spec: `docs/v3.4-ability-rework-proposal.md`).
+  x0.5 / immune x0.25, clamp 0.25..2), 73 Abilities (68 reworked + 5 new; spec: `docs/v3.4/1-ability.md`).
 - Gym Pokemon are now the playable hero types owned by Neutral Aggressive (wild pool lacks most lines); the v1.8
   "Kill Hero" trigger (`bS4`) skips neutral heroes. Their corpses are removed by `Gym_Tick`.
 - 5 Megas have no Mega model anywhere on this PC (Beedrill, Kangaskhan, Mewtwo X/Y, Rayquaza; their skin unit uses
@@ -24,16 +27,28 @@
   MegaRayquaza>.mdx` (+ textures, optional `_portrait.mdx`) is imported by build_v34; without one the Mega is 40%
   bigger, coloured and gets an aura. Mega_Start also tells the owner the Mega Ability (v3.4).
 - v3.4 content (approved, coded, not built): `tools/v34/content.py` makes the units / items / abilities / PKL v3.2
-  imports of `docs/v3.4-mega-form-wild-proposal.md` (8 Megas hM0P.., Meganium/Porygon2/Latias & Latios PV0A..PV2A,
+  imports of `docs/v3.4/2-mega-form-quai-hoang.md` (8 Megas hM0P.., Meganium/Porygon2/Latias & Latios PV0A..PV2A,
   legend nL18, Zen skin hZ00, 211 wild creeps nX00.. with Souls IU00..); apply.py gets its JASS data (V34_Data1..3,
   ExecuteFunc), build_v34.py writes it. Wild_PickType uses a per-power index (Wild_IndexPool).
 - Gym team levels are now challenger -5..-1 and = (v3.3: -30..-10). `jass/ai.j`: elites, gym Pokemon and legends
   cast their kit skills (the creep AI never casts hero skills; Ab_HT key 86 target, 87 kit, 58 order of a skill).
 - BUILT 2026-11-07: `Pokemon Arena v3.4.0.w3x` (105 MB) with everything above plus the approved
-  `docs/v3.5-items-league-features-proposal.md` (folded into 3.4.0): 21 items + Battle Shop / Item Shop (`extras.py`,
+  `docs/v3.4/3-item-league-tinh-nang.md` (folded into 3.4.0): 21 items + Battle Shop / Item Shop (`extras.py`,
   `jass/extra.j`, `jass/extra_late.j`), Shiny, weather, stone evolutions, elite / legend Mega, creeps evolve with the
   tier (`Wild_NextForm`), Elite Four + Champion (`-league`, gym slot 8 in `jass/gym.j`; title +15% stats + aura),
-  move icons (`move_icons.py`, `docs/v3.4-move-icons.md`). Not played yet. Next version: bump tools/v34/version.txt.
+  move icons (`move_icons.py`, `docs/v3.4/4-icon-chieu.md`). Not played yet. Next version: bump tools/v34/version.txt.
+- 3.4.1 (code ready, not built): gym challenger that evolves mid-gym keeps the battle (Mega_SafeReplace retargets
+  Gym_Hero / League_Unit and never replaces gym units, key 33), a vanished gym Pokemon is spawned again, others near
+  a busy gym get a message; one learned move per game-skill kind (`jass/moves.j`, Mv_Kind: same base ability = same
+  order, so the Q button cast the E move); Amulet Coin on its own death trigger.
+- 3.4.2 (code ready, not built): gym team / each spawn in its own thread (ExecuteFunc Gym_StartIt / Gym_SpawnIt /
+  Gym_AdvanceIt), fallback Pokemon for an empty slot, dead-but-unhandled and wandering gym Pokemon handled, `-gym`
+  state command; Onix / Scyther may buy Metal Coat (Mega_HT key 92, Type_OnSell). Shops at fixed spots (+-5696, +-288: the shop rows
+  are full; analysis/base_layout.py draws the base from war3map.wpm); Type_N 18 (I013 Ground, ITFY Fairy).
+  League in Darkrai's closed room (`tools/v34/league_area.py`: w3e texture repaint in build_v34, positions, statues;
+  League_Setup / League_PortalTick in gym.j; base portals +-5392,-288; Darkrai -> random legend nL19, Soul I01F).
+  Gym difficulty per gym (Gym_DiffHP / Gym_DiffDmg / Gym_DiffAI / Gym_Fast, data in extras.py): gyms 1-4 easier. Waiting for approval:
+  `docs/v3.4/6-de-xuat-hieu-ung-chieu.md` (melee moves, PKL v3.2 effect models; generator analysis/effects_plan.py).
 - Heredocs in this shell turn `\\` into `\` even with a quoted EOF: write code with backslashes through the Write tool.
 - JASS names: v1.8 has thousands of 2-3 letter function names (`p1`, `cc`, `sa` ...): never use short local names.
 - Init op limit: Mega_Init already runs ~20k lines of data; new data functions run through `ExecuteFunc`.
@@ -84,7 +99,7 @@ info button at command card 3,1, one damage trigger `Ab_OnDamaging`) + skill dam
 `-random`/chicken, kits by type for 117 old Pokemon · 3.1 learned moves (4 slots Z X C V, Pokemon-style replace dialog).
 
 ## Status / next step
-**Read `HANDOFF.md` next: it has the current state, the decisions and the exact to-do list.**
+**Current state: `HANDOFF-v3.4.md` (v3.4.x).** The section below and `HANDOFF.md` describe the old v2.x / v3.1 pipeline.
 - Latest built map: v3.1 (v3.0 + learned moves, `tools/version.txt` = 3.1). Tests: 184 pass. Not played yet by the user.
 - Learned moves: `tools/learn_data.py`, spec `docs/superpowers/specs/2026-11-01-learned-moves-design.md`, table
   `docs/pokemon-learned-moves-proposal.md`; data `tools/learnsets.json` from PokeAPI (`analysis/fetch_pokeapi.py`).

@@ -1,7 +1,7 @@
-"""v3.4 Pokemon Abilities: number, JASS constant, name, in-game text (docs/v3.4-ability-rework-proposal.md).
+"""v3.4 Pokemon Abilities: number, JASS constant, name, in-game text (docs/v3.4/1-ability.md).
 
 The effects themselves are written in tools/v34/jass/ab_core.j and ab_tick.j; this table only gives the numbers
-(1..73: the 68 of v3.3.3, Super Luck, and 70..73 for the new Megas and Darmanitan, docs/v3.4-mega-form-wild-proposal.md), the names and the tooltip text of the info button.
+(1..73: the 68 of v3.3.3, Super Luck, and 70..73 for the new Megas and Darmanitan, docs/v3.4/2-mega-form-quai-hoang.md), the names and the tooltip text of the info button.
 """
 
 ABILITIES = [

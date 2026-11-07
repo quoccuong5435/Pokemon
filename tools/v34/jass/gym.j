@@ -133,6 +133,14 @@ function Gym_Spawn takes integer g, integer k returns nothing
     local integer i = 0
     local integer ti = 0
     local string nm = ""
+    if id == 0 or Ty_OfType(id, 0) < 0 then  // v3.4.2: an empty or broken team slot gets a Pokemon of the pool
+        set id = Gym_FormAt(Gym_Pool[GetRandomInt(0, Gym_PoolN - 1)], lv)
+        set Gym_Team[g * 6 + k] = id
+        set ty = Ty_OfType(id, 0)
+        if kt < 0 then
+            set kt = ty
+        endif
+    endif
     set u = CreateUnit(Player(PLAYER_NEUTRAL_AGGRESSIVE), id, Gym_X[g] + 110.0 * I2R(k - 2), Gym_Y[g], 270.0)
     set h = GetHandleId(u)
     call SaveInteger(Mega_HT, h, 33, 1)
@@ -144,14 +152,17 @@ function Gym_Spawn takes integer g, integer k returns nothing
         call BlzSetUnitIntegerField(u, UNIT_IF_LEVEL, lv)
         set nm = GetUnitName(u)
     endif
-    call BlzSetUnitMaxHP(u, R2I(I2R(150 + 160 * lv) * m * Gym_HPMult))
+    call BlzSetUnitMaxHP(u, R2I(I2R(150 + 160 * lv) * m * Gym_HPMult * Gym_DiffHP[g]))
     call SetUnitLifePercentBJ(u, 100.0)
     call SetUnitState(u, UNIT_STATE_MANA, GetUnitState(u, UNIT_STATE_MAX_MANA))
-    call BlzSetUnitBaseDamage(u, R2I(I2R(6 * lv) * m * 0.8), 0)
+    call BlzSetUnitBaseDamage(u, R2I(I2R(6 * lv) * m * 0.8 * Gym_DiffDmg[g]), 0)
     call BlzSetUnitDiceNumber(u, 1, 0)
     call BlzSetUnitDiceSides(u, 4, 0)
-    call BlzSetUnitArmor(u, I2R(lv) / 4.0 * m)
-    call BlzSetUnitAttackCooldown(u, BlzGetUnitAttackCooldown(u, 0) / Hero_ASBoost, 0)
+    call BlzSetUnitArmor(u, I2R(lv) / 4.0 * m * Gym_DiffDmg[g])
+    if Gym_Fast[g] then  // v3.4.2: gyms 1-4 do not get the 1.7x attack speed
+        call BlzSetUnitAttackCooldown(u, BlzGetUnitAttackCooldown(u, 0) / Hero_ASBoost, 0)
+    endif
+    call SaveReal(Ab_HT, h, 88, Gym_DiffAI[g])  // skill-cast chance of Ai_Tick
     call SaveInteger(Ab_HT, h, 0, LoadInteger(Ab_HT, id, 0))  // the Ability of its species
     if kt >= 0 then  // the 5 kit skills of its type (the 6th Pokemon: the type that counters the challenger)
         loop
@@ -231,7 +242,35 @@ function Gym_Tick takes nothing returns nothing
                 if SquareRoot(dx * dx + dy * dy) > Gym_Leave then
                     call DisplayTimedTextToPlayer(Player(Gym_Pid[g]), 0, 0, 6.0, "|cffff4040Gym " + I2S(g + 1) + ": you left. The gym starts over.|r")
                     call Gym_Reset(g)
+                elseif Gym_Stage[g] < 6 and (Gym_Cur[g] == null or GetUnitTypeId(Gym_Cur[g]) == 0) then
+                    // v3.4.1: the current gym Pokemon vanished (removed or replaced): bring it back
+                    set Gym_ArgG = g
+                    set Gym_ArgK = Gym_Stage[g]
+                    call ExecuteFunc("Gym_SpawnIt")
+                elseif GetWidgetLife(Gym_Cur[g]) <= 0.405 then
+                    // v3.4.2: it died but the death trigger did not move the gym on
+                    set Gym_ArgG = g
+                    call ExecuteFunc("Gym_AdvanceIt")
+                else
+                    set dx = GetUnitX(Gym_Cur[g]) - Gym_X[g]
+                    set dy = GetUnitY(Gym_Cur[g]) - Gym_Y[g]
+                    if SquareRoot(dx * dx + dy * dy) > Gym_Leave then  // v3.4.2: it wandered off: back to the gym
+                        call SetUnitPosition(Gym_Cur[g], Gym_X[g], Gym_Y[g])
+                    endif
                 endif
+            endif
+            if Gym_Pid[g] >= 0 then  // v3.4.1: tell the other players near the gym that it is busy
+                call GroupEnumUnitsInRange(Wild_Tmp, Gym_X[g], Gym_Y[g], Gym_Start, null)
+                loop
+                    set u = FirstOfGroup(Wild_Tmp)
+                    exitwhen u == null
+                    call GroupRemoveUnit(Wild_Tmp, u)
+                    set pid = GetPlayerId(GetOwningPlayer(u))
+                    if pid < 12 and pid != Gym_Pid[g] and IsUnitType(u, UNIT_TYPE_HERO) and Mega_Time >= Gym_Warn[pid] then
+                        set Gym_Warn[pid] = Mega_Time + 5.0
+                        call DisplayTimedTextToPlayer(Player(pid), 0, 0, 5.0, "|cffffcc00Gym " + I2S(g + 1) + " is busy: " + GetPlayerName(Player(Gym_Pid[g])) + " is challenging it (Pokemon " + I2S(Gym_Stage[g] + 1) + " of 6). Wait for your turn or try another gym.|r")
+                    endif
+                endloop
             endif
         else
             set started = false
@@ -241,7 +280,7 @@ function Gym_Tick takes nothing returns nothing
                 exitwhen u == null
                 call GroupRemoveUnit(Wild_Tmp, u)
                 set pid = GetPlayerId(GetOwningPlayer(u))
-                if not started and pid < 12 and IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 and GetUnitTypeId(u) != 'earc' and not Gym_Busy(pid) and not (g == 7 and League_Pid >= 0) then
+                if not started and pid < 12 and IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 and GetUnitTypeId(u) != 'earc' and not Gym_Busy(pid) then
                     if not Gym_Allowed(pid, g) then
                         if Mega_Time >= Gym_Warn[pid] then
                             set Gym_Warn[pid] = Mega_Time + 10.0
@@ -262,8 +301,8 @@ function Gym_Tick takes nothing returns nothing
                         call SetWidgetLife(u, I2R(BlzGetUnitMaxHP(u)))
                         call SetUnitState(u, UNIT_STATE_MANA, GetUnitState(u, UNIT_STATE_MAX_MANA))
                         call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Heal\\HealTarget.mdl", u, "origin"))
-                        call Gym_BuildTeam(g, u)
-                        call Gym_Spawn(g, 0)
+                        set Gym_ArgG = g  // v3.4.2: team + first Pokemon in their own thread (op limit)
+                        call ExecuteFunc("Gym_StartIt")
                     endif
                 endif
             endloop
@@ -287,27 +326,88 @@ function Gym_ClearItems takes unit d returns nothing
     set it = null
 endfunction
 
+// the current gym Pokemon d of gym g is down: next one, or the badge after the 6th
+function Gym_Advance takes integer g, unit d returns nothing
+    local integer pid = Gym_Pid[g]
+    call Gym_ClearItems(d)  // v3.3.2: gym Pokemon drop nothing but the badge
+    set Gym_Dead[g * 6 + Gym_Stage[g]] = d
+    set Gym_Cur[g] = null
+    set Gym_Stage[g] = Gym_Stage[g] + 1
+    if Gym_Stage[g] >= 6 then
+        call CreateItem(Gym_Item[g], GetUnitX(d), GetUnitY(d))
+        set Badge_Has[pid * 8 + g] = true
+        call DisplayTimedTextToPlayer(Player(pid), 0, 0, 8.0, "|cff66ff66Gym " + I2S(g + 1) + " cleared! The gym item dropped. Badges " + I2S(Badge_Count(pid)) + "/8, level cap " + I2S(Badge_Cap(pid)) + ".|r")
+        set Gym_PCool[pid * 8 + g] = Mega_Time + Gym_ClearCool
+        call Gym_Reset(g)
+    else
+        set Gym_ArgG = g
+        set Gym_ArgK = Gym_Stage[g]
+        call ExecuteFunc("Gym_SpawnIt")  // v3.4.2: own thread (op limit)
+    endif
+endfunction
+
+// v3.4.2: ExecuteFunc entry points (arguments in Gym_ArgG / Gym_ArgK)
+function Gym_StartIt takes nothing returns nothing
+    local integer g = Gym_ArgG
+    call Gym_BuildTeam(g, Gym_Hero[g])
+    call Gym_Spawn(g, 0)
+endfunction
+
+function Gym_SpawnIt takes nothing returns nothing
+    call Gym_Spawn(Gym_ArgG, Gym_ArgK)
+endfunction
+
+function Gym_AdvanceIt takes nothing returns nothing
+    if Gym_Pid[Gym_ArgG] >= 0 and Gym_Cur[Gym_ArgG] != null then
+        call Gym_Advance(Gym_ArgG, Gym_Cur[Gym_ArgG])
+    endif
+endfunction
+
+// v3.4.2 "-gym": state of the gym you are in (or of all busy gyms)
+function Gym_OnChat takes nothing returns nothing
+    local player p = GetTriggerPlayer()
+    local integer pid = GetPlayerId(p)
+    local integer g = 0
+    local integer k = 0
+    local string s = ""
+    local boolean any = false
+    loop
+        exitwhen g >= 9
+        if Gym_Pid[g] >= 0 then
+            set any = true
+            set s = "|cffffcc00Gym " + I2S(g + 1) + "|r: " + GetPlayerName(Player(Gym_Pid[g])) + ", Pokemon " + I2S(Gym_Stage[g] + 1) + " of 6"
+            if Gym_Cur[g] == null or GetUnitTypeId(Gym_Cur[g]) == 0 then
+                set s = s + ", current: none (it will be spawned again)"
+            else
+                set s = s + ", current: " + GetUnitName(Gym_Cur[g]) + " " + I2S(R2I(GetWidgetLife(Gym_Cur[g]))) + " HP at " + I2S(R2I(SquareRoot((GetUnitX(Gym_Cur[g]) - Gym_X[g]) * (GetUnitX(Gym_Cur[g]) - Gym_X[g]) + (GetUnitY(Gym_Cur[g]) - Gym_Y[g]) * (GetUnitY(Gym_Cur[g]) - Gym_Y[g])))) + " from the centre"
+            endif
+            call DisplayTimedTextToPlayer(p, 0, 0, 15.0, s)
+            if Gym_Pid[g] == pid then
+                set s = "  team:"
+                set k = 0
+                loop
+                    exitwhen k >= 6
+                    set s = s + " " + I2S(k + 1) + "=" + GetObjectName(Gym_Team[g * 6 + k])
+                    set k = k + 1
+                endloop
+                call DisplayTimedTextToPlayer(p, 0, 0, 15.0, s)
+            endif
+        endif
+        set g = g + 1
+    endloop
+    if not any then
+        call DisplayTimedTextToPlayer(p, 0, 0, 8.0, "|cffffcc00No gym battle right now.|r")
+    endif
+    set p = null
+endfunction
+
 function Gym_OnDeath takes nothing returns boolean
     local unit d = GetDyingUnit()
     local integer g = 0
-    local integer pid = 0
     loop
         exitwhen g >= 8
         if Gym_Pid[g] >= 0 and Gym_Cur[g] != null and d == Gym_Cur[g] then
-            call Gym_ClearItems(d)  // v3.3.2: gym Pokemon drop nothing but the badge
-            set Gym_Dead[g * 6 + Gym_Stage[g]] = d
-            set Gym_Cur[g] = null
-            set Gym_Stage[g] = Gym_Stage[g] + 1
-            if Gym_Stage[g] >= 6 then
-                set pid = Gym_Pid[g]
-                call CreateItem(Gym_Item[g], GetUnitX(d), GetUnitY(d))
-                set Badge_Has[pid * 8 + g] = true
-                call DisplayTimedTextToPlayer(Player(pid), 0, 0, 8.0, "|cff66ff66Gym " + I2S(g + 1) + " cleared! The gym item dropped. Badges " + I2S(Badge_Count(pid)) + "/8, level cap " + I2S(Badge_Cap(pid)) + ".|r")
-                set Gym_PCool[pid * 8 + g] = Mega_Time + Gym_ClearCool
-                call Gym_Reset(g)
-            else
-                call Gym_Spawn(g, Gym_Stage[g])
-            endif
+            call Gym_Advance(g, d)
         endif
         set g = g + 1
     endloop
@@ -316,8 +416,8 @@ function Gym_OnDeath takes nothing returns boolean
 endfunction
 
 // ---------------------------------------------------------------------------------------------
-// v3.4 Elite Four + Champion ("-league", 8 badges): 5 battles in a row in the arena of gym 8 (gym slot 8 of the
-// Gym_* arrays), 6 Pokemon of one type each (Will Psychic, Koga Poison, Bruno Fighting, Karen Dark), then Champion
+// v3.4 Elite Four + Champion ("-league" or walking into the arena circle with 8 badges): 5 battles in a row in the
+// League arena (Darkrai's old room since v3.4.2; gym slot 8 of the Gym_* arrays), 6 Pokemon of one type each (Will Psychic, Koga Poison, Bruno Fighting, Karen Dark), then Champion
 // Lance (Dragon) whose Pokemon Mega Evolve at 50% HP. Win: title [Champion] (+15% STR / AGI / INT, Champion Aura),
 // 10000 gold, a Mega Ring, Shiny Charm (Shiny 1/20). Loss: 60s before the next try.
 // ---------------------------------------------------------------------------------------------
@@ -418,8 +518,8 @@ function League_Win takes nothing returns nothing
     call UnitAddItemById(League_Unit, Itm_Id[18])
     call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 15.0, "|cffffcc00*** " + GetPlayerName(p) + " defeated Champion Lance and is the new Pokemon Champion! ***|r")
     call DisplayTimedTextToPlayer(p, 0, 0, 15.0, "|cff66ff66Title [Champion]: +15% STR / AGI / INT, Champion Aura (allies within 800: +10% damage, -10% damage taken), 10000 gold, a Mega Ring, Shiny Charm (Shiny 1/20).|r")
-    call SetUnitPosition(League_Unit, League_RX, League_RY)
-    call PanCameraToTimedForPlayer(p, League_RX, League_RY, 0.3)
+    call SetUnitPosition(League_Unit, League_LX, League_LY)  // v3.4.2: back to the lobby
+    call PanCameraToTimedForPlayer(p, League_LX, League_LY, 0.3)
     call League_End()
     set p = null
 endfunction
@@ -431,8 +531,8 @@ function League_Start takes integer pid returns nothing
         call DisplayTimedTextToPlayer(p, 0, 0, 6.0, "|cffffcc00You need a Pokemon.|r")
     elseif Badge_Count(pid) < 8 then
         call DisplayTimedTextToPlayer(p, 0, 0, 6.0, "|cffff4040The Pokemon League needs all 8 badges (you have " + I2S(Badge_Count(pid)) + ").|r")
-    elseif League_Pid >= 0 or Gym_Pid[7] >= 0 then
-        call DisplayTimedTextToPlayer(p, 0, 0, 6.0, "|cffffcc00The League arena (gym 8) is busy. Try again soon.|r")
+    elseif League_Pid >= 0 then
+        call DisplayTimedTextToPlayer(p, 0, 0, 6.0, "|cffffcc00The League arena is busy: " + GetPlayerName(Player(League_Pid)) + " is challenging it. Try again soon.|r")
     elseif Gym_Busy(pid) then
         call DisplayTimedTextToPlayer(p, 0, 0, 6.0, "|cffffcc00Finish your gym battle first.|r")
     elseif Mega_Time < League_Cool[pid] then
@@ -444,9 +544,9 @@ function League_Start takes integer pid returns nothing
         set League_RX = GetUnitX(u)
         set League_RY = GetUnitY(u)
         set Gym_Pid[8] = pid
-        set Gym_X[8] = Gym_X[7]
-        set Gym_Y[8] = Gym_Y[7]
-        call SetUnitPosition(u, Gym_X[8], Gym_Y[8] - 250.0)
+        set Gym_X[8] = League_AX  // v3.4.2: the arena in Darkrai's room
+        set Gym_Y[8] = League_AY
+        call SetUnitPosition(u, League_AX + 450.0, League_AY)
         call PanCameraToTimedForPlayer(p, Gym_X[8], Gym_Y[8], 0.3)
         call League_NextStage()
     endif
@@ -462,6 +562,8 @@ function League_Tick takes nothing returns nothing
     local integer k = 0
     local real dx = 0.0
     local real dy = 0.0
+    local unit u = null
+    local integer pid = 0
     loop
         exitwhen k >= 6
         if Gym_Dead[48 + k] != null and GetWidgetLife(Gym_Dead[48 + k]) <= 0.405 then
@@ -470,6 +572,23 @@ function League_Tick takes nothing returns nothing
         endif
         set k = k + 1
     endloop
+    if League_Pid < 0 then  // v3.4.2: a hero that walks into the arena circle starts the League
+        call GroupEnumUnitsInRange(Ext_G, League_AX, League_AY, 350.0, null)
+        loop
+            set u = FirstOfGroup(Ext_G)
+            exitwhen u == null
+            call GroupRemoveUnit(Ext_G, u)
+            set pid = GetPlayerId(GetOwningPlayer(u))
+            if League_Pid < 0 and pid < 12 and IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 then
+                if Badge_Count(pid) >= 8 and Mega_Time >= League_Cool[pid] and not Gym_Busy(pid) then
+                    call League_Start(pid)
+                elseif Mega_Time >= Gym_Warn[pid] then
+                    set Gym_Warn[pid] = Mega_Time + 8.0
+                    call League_Start(pid)  // says why it cannot start (badges, cool-down)
+                endif
+            endif
+        endloop
+    endif
     if League_Pid >= 0 then
         if League_Unit == null or GetUnitTypeId(League_Unit) == 0 or GetWidgetLife(League_Unit) <= 0.405 then
             call League_Lose("you lost.")
@@ -478,6 +597,8 @@ function League_Tick takes nothing returns nothing
             set dy = GetUnitY(League_Unit) - Gym_Y[8]
             if SquareRoot(dx * dx + dy * dy) > Gym_Leave then
                 call League_Lose("you left the arena.")
+            elseif Gym_Stage[8] < 6 and (Gym_Cur[8] == null or GetUnitTypeId(Gym_Cur[8]) == 0) then
+                call Gym_Spawn(8, Gym_Stage[8])
             endif
         endif
     endif
@@ -521,4 +642,97 @@ function League_TryMega takes unit t, real d returns nothing
         endif
         set i = i + 1
     endloop
+endfunction
+
+// v3.4.2: portals. A hero of a player that steps on one goes to the League lobby (base portals) or to its own base
+// (exit portal); Ab_HT key 130 = time before it can use a portal again
+function League_Portal takes real x, real y, boolean toBase returns nothing
+    local unit u = null
+    local player p = null
+    local real tx = League_LX
+    local real ty = League_LY
+    call GroupEnumUnitsInRange(Ext_G, x, y, 150.0, null)
+    loop
+        set u = FirstOfGroup(Ext_G)
+        exitwhen u == null
+        call GroupRemoveUnit(Ext_G, u)
+        set p = GetOwningPlayer(u)
+        if GetPlayerId(p) < 12 and IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 and Mega_Time >= LoadReal(Ab_HT, GetHandleId(u), 130) then
+            call SaveReal(Ab_HT, GetHandleId(u), 130, Mega_Time + 3.0)
+            if toBase then
+                set tx = GetStartLocationX(GetPlayerStartLocation(p))
+                set ty = GetStartLocationY(GetPlayerStartLocation(p))
+            else
+                set tx = League_LX
+                set ty = League_LY
+                call DisplayTimedTextToPlayer(p, 0, 0, 8.0, "|cffffcc00Pokemon League: walk into the arena circle with 8 badges to challenge the Elite Four. The portal behind you leads back to your base.|r")
+            endif
+            call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl", GetUnitX(u), GetUnitY(u)))
+            call SetUnitPosition(u, tx, ty)
+            call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTarget.mdl", tx, ty))
+            call PanCameraToTimedForPlayer(p, tx, ty, 0.3)
+        endif
+    endloop
+    set u = null
+    set p = null
+endfunction
+
+function League_PortalTick takes nothing returns nothing
+    call League_Portal(League_GX, League_GY, false)
+    call League_Portal(-League_GX, League_GY, false)
+    call League_Portal(League_EX, League_EY, true)
+endfunction
+
+function League_Label takes string s, real x, real y, integer r, integer gg, integer b returns nothing
+    local texttag tt = CreateTextTag()
+    call SetTextTagText(tt, s, 0.024)
+    call SetTextTagPos(tt, x - 60.0, y, 220.0)
+    call SetTextTagColor(tt, r, gg, b, 255)
+    call SetTextTagPermanent(tt, true)
+    call SetTextTagVisibility(tt, true)
+    set tt = null
+endfunction
+
+// at map start: Darkrai leaves its room (it is a random legend now), portals, statues and labels
+function League_Setup takes nothing returns nothing
+    local rect r = Rect(League_RoomX0, League_RoomY0, League_RoomX1, League_RoomY1)
+    local unit u = null
+    local integer i = 0
+    call GroupEnumUnitsInRect(Ext_G, r, null)
+    loop
+        set u = FirstOfGroup(Ext_G)
+        exitwhen u == null
+        call GroupRemoveUnit(Ext_G, u)
+        if GetUnitTypeId(u) == 'n00F' then
+            call RemoveUnit(u)
+        endif
+    endloop
+    call RemoveRect(r)
+    set League_Gate[0] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', League_GX, League_GY, 270.0)
+    set League_Gate[1] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', -League_GX, League_GY, 270.0)
+    set League_Gate[2] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', League_EX, League_EY, 180.0)
+    loop
+        exitwhen i > 2
+        call SetUnitInvulnerable(League_Gate[i], true)
+        set i = i + 1
+    endloop
+    call League_Label("Pokemon League", League_GX, League_GY, 255, 204, 0)
+    call League_Label("Pokemon League", -League_GX, League_GY, 255, 204, 0)
+    call League_Label("Exit", League_EX, League_EY, 255, 120, 80)
+    call League_Label("Pokemon League", League_AX, League_AY + 300.0, 255, 204, 0)
+    set i = 0
+    loop
+        exitwhen i >= League_StatueN
+        set u = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), League_StatueType[i], League_StatueX[i], League_StatueY[i], bj_RADTODEG * Atan2(League_AY - League_StatueY[i], League_AX - League_StatueX[i]))
+        call UnitAddAbility(u, 'Aloc')
+        call SetUnitInvulnerable(u, true)
+        call PauseUnit(u, true)
+        call SetUnitVertexColor(u, 150, 150, 165, 255)
+        call SetUnitScale(u, 1.6, 1.6, 1.6)
+        call SetUnitTimeScale(u, 0.0)
+        call League_Label(League_StatueName[i], League_StatueX[i], League_StatueY[i], 220, 220, 230)
+        set i = i + 1
+    endloop
+    set u = null
+    set r = null
 endfunction

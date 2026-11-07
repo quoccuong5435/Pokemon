@@ -1,6 +1,6 @@
-# Đề xuất: item mới, Elite Four, Shiny, thời tiết, đá tiến hóa, Mega cho elite/huyền thoại — để duyệt
+# 3. Item mới, Elite Four, Shiny, thời tiết, đá tiến hóa, Mega cho elite / huyền thoại
 
-Ngày 2026-11-07. Chưa sửa code phần này: chờ bạn duyệt. Đề xuất làm thành **v3.5.0**, sau khi bạn chơi thử v3.4.0. Khắc hệ (x2 / x0,5 / x0,25, chữ "Super effective!") đã có trong v3.4.0 nên không nằm ở đây.
+Ngày 2026-11-07. Lúc đầu đề xuất làm v3.5.0; bạn duyệt và cho **gộp vào v3.4.0** (đã build). Khắc hệ đã có từ trước nên không nằm ở đây. Bảng dưới là bản đề xuất đã duyệt; phần "Trạng thái" cuối file ghi những gì đã làm khác đi. Amulet Coin không chạy ở 3.4.0, đã sửa ở 3.4.1.
 
 ## 1. Item mới (lấy từ game Pokémon)
 
@@ -120,7 +120,7 @@ Ability Drought / Sand Stream vẫn chỉ tác dụng quanh Pokémon đó như v
   - `tools/v34/extras.py`: dữ liệu item, shop, đá tiến hóa, quái theo tier, elite Mega, Elite Four.
   - `jass/extra.j`, `jass/extra_late.j`: item, Shiny, thời tiết, huyền thoại Mega.
   - `jass/gym.j`: League.
-  - `tools/v34/move_icons.py`: icon chiêu; bảng ở `docs/v3.4-move-icons.md`.
+  - `tools/v34/move_icons.py`: icon chiêu; bảng ở `4-icon-chieu.md`.
 - Cách dùng:
   - **Elite Four:** gõ `-league` khi đủ 8 huy hiệu. Đấu ở khu gym 8; gym 8 bị khóa trong lúc đấu.
   - **Shop mới:** Battle Shop và Item Shop xuất hiện cạnh Mega Shop ở hai căn cứ, ở chỗ trống đầu tiên đi lại được.

@@ -1,6 +1,6 @@
-# v3.4.0 (thêm): Mega, form từ PKLegends 3.2 và quái hoang mới — đề xuất để duyệt
+# 2. Mega, form từ PKLegends 3.2 và quái hoang mới
 
-Ngày 2026-11-07. Gộp vào v3.4.0 vì bản này chưa build. Chưa sửa code: chờ bạn duyệt.
+Ngày 2026-11-07. **Đã duyệt và đã có trong v3.4.0.** Bảng dưới là bản đề xuất đã duyệt.
 
 ## Bạn đã chọn
 - 8 Mega còn thiếu: mua đá ở Mega Shop, giống 25 Mega hiện có.
@@ -70,7 +70,7 @@ Sau khi thêm, mỗi bậc có khoảng 85–105 loài, thay vì 3–28 loài nh
   - 60 loài quái cũ giữ chỉ số như hiện tại.
 - **Model và đòn đánh:** dùng model và icon có sẵn của Pokémon đó trong map, nên file map không nặng thêm. Đòn đánh xa hay cận chiến và hình đạn giống Pokémon đó.
 - **Ability và elite:** có Ability của loài. Elite (1 con mỗi trại) dùng 5 skill của hệ chính, giống quái cũ.
-- **Soul:** mỗi loài có Soul riêng, rơi theo luật hiện tại (chỉ elite, 10%). Mang Soul vào vòng tròn giữa map để thành đúng Pokémon đó, giống Soul hiện tại.
+- **Soul:** mỗi loài có Soul riêng, rơi theo luật hiện tại (chỉ elite, 20%). Mang Soul vào vòng tròn giữa map để thành đúng Pokémon đó, giống Soul hiện tại.
   - Icon Soul làm theo kiểu Soul hiện tại (hình Pokémon trên nền tối phát sáng). Hình lấy từ thư mục `Pokedex_files` bạn đã lưu, không cần tải gì.
 - **Huyền thoại** (Mew, Lugia, Kingambit, Buzzwole...) không thành quái thường, vẫn xuất hiện theo kiểu huyền thoại ngẫu nhiên.
 
@@ -113,7 +113,7 @@ Lưu ý: vài form đầu có khoảng bậc dài vì tiến hóa muộn: Chanse
 - Icon Soul mới dùng hình từ trang Pokedex PKL, nên có thể khác nhẹ kiểu hình với 67 Soul cũ (hình HOME của pokemondb).
 - Zen Mode và Mega đều đổi model bằng skin, nhưng Darmanitan không có Mega nên hai thứ này không va nhau.
 
-## Trạng thái (2026-11-07): đã duyệt và đã code, chưa build, chưa chơi thử
+## Trạng thái: đã có trong v3.4.0 (build 2026-11-07)
 - Code: `tools/v34/content.py` (unit, item, ability, model và icon từ PKL v3.2, Soul icon) + `apply.py` / `build_v34.py`.
   pjass báo 0 lỗi; build thử (dry run) chạy được: thêm 494 file, khoảng 13 MB.
 - Id: Mega hM0P..hM0W / IM0P..IM0W / AM0P..AM0W; Pokémon mới PV0A Meganium, PV1A Porygon2, PV2A Latias & Latios;

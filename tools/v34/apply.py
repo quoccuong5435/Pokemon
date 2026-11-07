@@ -486,7 +486,7 @@ WILD_APPLY_NEW = ('        if not HaveSavedInteger(Mega_HT, h, 26) then\n'
                   '            call Wild_PowStats(u)\n'
                   '        endif\n'
                   '    endif\n')
-# ---- v3.4 extras: patches of the v3.3.3 script (docs/v3.5-items-league-features-proposal.md)
+# ---- v3.4 extras: patches of the v3.3.3 script (docs/v3.4/3-item-league-tinh-nang.md)
 EARLY_HELPERS = (
     '// v3.4: does u carry an item of type id (early helper: Everstone, Mega Ring)\n'
     'function Itm_Has takes unit u, integer id returns boolean\n'
@@ -518,12 +518,26 @@ EARLY_HELPERS = (
 SAFE_OLD = ('    if HaveSavedReal(Mega_HT, h, 9) and Mega_Time - LoadReal(Mega_HT, h, 9) < 10.0 then\n'
             '        return\n'
             '    endif\n')
-SAFE_NEW = ('    if not Mega_EvoItem and Itm_Has(u, Itm_Everstone) and Mega_IsEvolution(GetUnitTypeId(u), newId) then\n'
+SAFE_NEW = ('    if LoadInteger(Mega_HT, h, 33) == 1 then\n'
+            '        return  // v3.4.1: gym / League Pokemon are never replaced (the gym would lose track of them)\n'
+            '    endif\n'
+            '    if not Mega_EvoItem and Itm_Has(u, Itm_Everstone) and Mega_IsEvolution(GetUnitTypeId(u), newId) then\n'
             '        return  // v3.4 Everstone: no level evolution (stones and Souls set Mega_EvoItem)\n'
             '    endif\n') + SAFE_OLD
 SHINY_OLD = '    set nu = bj_lastReplacedUnit\n    if nu != null then\n'
 SHINY_NEW = SHINY_OLD + ('        call SaveInteger(Ab_HT, GetHandleId(nu), 123, LoadInteger(Ab_HT, h, 123))  // v3.4 Shiny stays\n'
-                         '        call SaveInteger(Ab_HT, GetHandleId(nu), 124, 1)\n')
+                         '        call SaveInteger(Ab_HT, GetHandleId(nu), 124, 1)\n'
+                         '        set i = 0  // v3.4.1: a gym / League challenger that evolves keeps its battle\n'
+                         '        loop\n'
+                         '            exitwhen i > 8\n'
+                         '            if Gym_Hero[i] == u then\n'
+                         '                set Gym_Hero[i] = nu\n'
+                         '            endif\n'
+                         '            set i = i + 1\n'
+                         '        endloop\n'
+                         '        if League_Unit == u then\n'
+                         '            set League_Unit = nu\n'
+                         '        endif\n')
 RING_DUR_OLD = '    call SaveReal(Mega_HT, h, 1, Mega_Time + Mega_Duration)\n'
 RING_DUR_NEW = ('    if Itm_Has(u, Itm_MegaRing) then  // v3.4 Mega Ring: 90s\n'
                 '        call SaveReal(Mega_HT, h, 1, Mega_Time + Mega_Duration + 30.0)\n'
@@ -615,6 +629,8 @@ WIRING = ('    call TimerStart(CreateTimer(), 1.0, true, function League_Tick)\n
           '    set t = CreateTrigger()\n'
           '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)\n'
           '    call TriggerAddCondition(t, Condition(function League_OnDeath))\n'
+          '    set t = CreateTrigger()\n'
+          '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)\n'
           '    call TriggerAddCondition(t, Condition(function Ext_OnKill))\n'
           '    set t = CreateTrigger()\n'
           '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_PICKUP_ITEM)\n'
@@ -629,7 +645,29 @@ WIRING = ('    call TimerStart(CreateTimer(), 1.0, true, function League_Tick)\n
           '        call TriggerRegisterPlayerChatEvent(t, Player(i), "-league", true)\n'
           '        set i = i + 1\n'
           '    endloop\n'
-          '    call TriggerAddAction(t, function League_OnChat)\n')
+          '    call TriggerAddAction(t, function League_OnChat)\n'
+          '    set t = CreateTrigger()\n'
+          '    set i = 0\n'
+          '    loop\n'
+          '        exitwhen i >= 12\n'
+          '        call TriggerRegisterPlayerChatEvent(t, Player(i), "-gym", true)\n'
+          '        set i = i + 1\n'
+          '    endloop\n'
+          '    call TriggerAddAction(t, function Gym_OnChat)\n')
+# v3.4.2: type items for all 18 types (Soft Sand was sold but not registered as Ground; Fairy had no item)
+TYPE_INIT_OLD = '    set Type_N = 16\n'
+TYPE_INIT_NEW = ('    set Type_N = 18\n'
+                 "    set Type_Item[16] = 'I013'\n"
+                 '    set Type_Word[16] = "Ground"\n'
+                 '    set Type_Cost[16] = 3000\n'
+                 "    set Type_Item[17] = 'ITFY'\n"
+                 '    set Type_Word[17] = "Fairy"\n'
+                 '    set Type_Cost[17] = 3000\n')
+LEGTELE_OLD = '        call SetUnitPosition(b, -9600.0, -2209.0)\n'
+LEGTELE_NEW = '        call SetUnitPosition(b, League_LX, League_LY)  // v3.4.2: Darkrai\'s room is the Pokemon League\n'
+TYPE_SELL_OLD = '            if not Type_Has(GetUnitName(b), Type_Word[i]) then\n'
+TYPE_SELL_NEW = ('            if not Type_Has(GetUnitName(b), Type_Word[i]) and LoadInteger(Mega_HT, GetUnitTypeId(b), 92) != id then'
+                 '  // v3.4.2: unless it evolves with it\n')
 GYM_HEADER = '// ---------------------------------------------------------------------------------------------\n// Gym teams of 6 (v3.3)'
 FX_HEADER = '// ---- timed effects: kind 1 damage over time'
 
@@ -673,6 +711,9 @@ def assemble(base_script, units, version, orders=(), extra=None):
     script = replace_once(script, ELITE_OLD, ELITE_NEW)
     # v3.4 extras
     script = replace_once(script, '\nfunction Mega_SafeReplace takes', '\n' + EARLY_HELPERS + 'function Mega_SafeReplace takes')
+    script = replace_once(script, TYPE_SELL_OLD, TYPE_SELL_NEW)
+    script = replace_once(script, LEGTELE_OLD, LEGTELE_NEW)
+    script = replace_once(script, TYPE_INIT_OLD, TYPE_INIT_NEW)
     for o, n in ((SAFE_OLD, SAFE_NEW), (SHINY_OLD, SHINY_NEW), (RING_DUR_OLD, RING_DUR_NEW), (RING_CD_OLD, RING_CD_NEW),
                  (SCALE_OLD, SCALE_NEW), (DROP_OLD, DROP_NEW), (UPG_OLD, UPG_NEW), (LIMIT_OLD, LIMIT_NEW),
                  (LIMIT_MSG_OLD, LIMIT_MSG_NEW), (EVO_ITEM_OLD, EVO_ITEM_NEW), (SOUL_OLD, SOUL_NEW)):
@@ -686,6 +727,7 @@ def assemble(base_script, units, version, orders=(), extra=None):
     script = replace_once(script, LEG_OLD, LEG_NEW)
     script = replace_range(script, 'Gym_Level', 'Gym_OnDeath', snippet('gym.j'))
     script = replace_functions(script, snippet('ab_head.j'))
+    script = replace_functions(script, snippet('moves.j'))  # v3.4.1: one learned move per kind (no shared button)
     script = replace_range(script, 'Ab_FxFind', 'Ab_BeatFx', snippet('ab_core.j'), start_at=FX_HEADER)
     script = replace_range(script, 'Ab_Hero', 'Ab_OnDamaging', snippet('ab_tick.j'))
     script = replace_once(script, '\nfunction Ab_Hero takes', '\n' + snippet('extra_late.j') + '\nfunction Ab_Hero takes')
@@ -707,7 +749,9 @@ def assemble(base_script, units, version, orders=(), extra=None):
                           '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)\n'
                           '    call TriggerAddCondition(t, Condition(function Ty_OnDeath))\n'
                           '    call TimerStart(CreateTimer(), 1.0, true, function Ai_Tick)\n' + WIRING)
-    script = replace_once(script, '    call Base_Init()\n', '    call Base_Init()\n    call Ext_PlaceShops()\n')
+    script = replace_once(script, '    call Base_Init()\n', '    call Base_Init()\n    call Ext_PlaceShops()\n'
+                          '    call ExecuteFunc("League_Setup")\n'
+                          '    call TimerStart(CreateTimer(), 0.5, true, function League_PortalTick)\n')
     # v1.8 "Kill Hero" (+500 XP, +1 lumber) must not pay for the gym Pokemon (neutral heroes since v3.4)
     script = replace_once(script, KILL_HERO_OLD, KILL_HERO_NEW)
     script = replace_once(script, MEGA_MSG_OLD, MEGA_MSG_NEW)
@@ -731,8 +775,8 @@ def main():
     report = extra.report + report
     import move_icons  # the table of the move icons build_v34 writes
     rows = move_icons.plan(base)
-    move_icons.write_doc(rows, os.path.join(WORK, 'docs', 'v3.4-move-icons.md'))
-    report.append('move icons: %d by name, %d by type (docs/v3.4-move-icons.md)'
+    move_icons.write_doc(rows, os.path.join(WORK, 'docs', 'v3.4', '4-icon-chieu.md'))
+    report.append('move icons: %d by name, %d by type (docs/v3.4/4-icon-chieu.md)'
                   % (sum(1 for r in rows if r[4] == 'name'), sum(1 for r in rows if r[4] != 'name')))
     # the 5 Megas without a Mega model: imported model from mega_models/, else bigger + colour + aura
     script = mega_look.patch_script(script, mpq.MPQ(args.map), units, report)

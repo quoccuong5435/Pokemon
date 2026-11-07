@@ -22,6 +22,14 @@ function Ai_TryCast takes unit u, unit t, integer abil returns boolean
     return IssueImmediateOrder(u, orderstr)
 endfunction
 
+// v3.4.2: chance per second to cast (gym Pokemon of gyms 1-4 cast less: Ab_HT key 88)
+function Ai_Chance takes integer h returns real
+    if HaveSavedReal(Ab_HT, h, 88) then
+        return LoadReal(Ab_HT, h, 88)
+    endif
+    return Ai_CastChance
+endfunction
+
 function Ai_Unit takes unit u returns nothing
     local integer h = GetHandleId(u)
     local integer kit = LoadInteger(Ab_HT, h, 87)
@@ -29,7 +37,7 @@ function Ai_Unit takes unit u returns nothing
     local integer pick0 = 0
     local integer j = 0
     if kit > 0 and t != null and GetWidgetLife(t) > 0.405 and Mega_Time - LoadReal(Ab_HT, h, 60) <= Ai_Memory then
-        if not IsUnitType(u, UNIT_TYPE_STUNNED) and GetRandomReal(0.0, 1.0) < Ai_CastChance then
+        if not IsUnitType(u, UNIT_TYPE_STUNNED) and GetRandomReal(0.0, 1.0) < Ai_Chance(h) then
             set pick0 = GetRandomInt(0, 4)
             loop
                 exitwhen j >= 5

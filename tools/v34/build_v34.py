@@ -36,6 +36,7 @@ import mega_look  # noqa: E402
 import objdata  # noqa: E402
 import content  # noqa: E402
 import move_icons  # noqa: E402
+import league_area  # noqa: E402
 
 BASE_VERSION = '3.3.3'
 BASE_MAP = os.path.join(MAPS, 'Pokemon Arena v%s.w3x' % BASE_VERSION)
@@ -97,12 +98,42 @@ def patch_ability_txt(data, sections, icon_rows=()):
     return _append_sections(text, new + list(sections)).encode('utf-8')
 
 
-def patch_items(slk_data, txt_data, rows, sections):
+def _set_keys(text, sid, pairs):
+    """set key=value lines inside section [sid] of a txt file (add the key when the section lacks it)"""
+    head = text.find('[%s]' % sid)
+    if head < 0:
+        raise SystemExit('item text [%s] not found' % sid)
+    start = text.find('\n', head) + 1
+    nxt = text.find('\n[', start)
+    end = len(text) if nxt < 0 else nxt + 1
+    sec = text[start:end]
+    for k, v in pairs:
+        lines = sec.splitlines(True)
+        for i, ln in enumerate(lines):
+            if ln.split('=', 1)[0] == k:
+                lines[i] = '%s=%s%s' % (k, v, '\r\n' if ln.endswith('\r\n') else '\n')
+                break
+        else:
+            lines.append('%s=%s\n' % (k, v))
+        sec = ''.join(lines)
+    return text[:start] + sec + text[end:]
+
+
+def patch_items(slk_data, txt_data, rows, sections, mods=(), txt_mods=()):
     s = slk.Slk(slk_data.decode('latin-1'))
     for tmpl, new, values in rows:
         if s.find(new) is None:
             objects._row_from(s, tmpl, new, values)
-    return s.to_text().encode('latin-1'), _append_sections(txt_data.decode('utf-8'), sections).encode('utf-8')
+    for iid, values in mods:  # v3.4.2: change existing items (Pixie Plate)
+        row = s.find(iid)
+        if row is None:
+            raise SystemExit('item %s not found' % iid)
+        for col, v in values.items():
+            row[s.name_to_x[col]] = v
+    text = _append_sections(txt_data.decode('utf-8'), sections)
+    for iid, pairs in txt_mods:
+        text = _set_keys(text, iid, pairs)
+    return s.to_text().encode('latin-1'), text.encode('utf-8')
 
 
 def patch_units(w3u, c):
@@ -136,11 +167,13 @@ def build(version, out, dry_run=False):
     extra, warns = mega_look.map_files(w3u)
     for w in warns + [r for r in c.report if r.startswith('WARNING')]:
         print('warning:', w)
-    item_slk, item_txt = patch_items(base.read(objects.ITEM_SLK), base.read(objects.ITEM_TXT), c.item_rows, c.item_txt)
+    item_slk, item_txt = patch_items(base.read(objects.ITEM_SLK), base.read(objects.ITEM_TXT), c.item_rows, c.item_txt,
+                                     getattr(c, 'item_mods', ()), getattr(c, 'item_txt_mods', ()))
     files = {
         'scripts\\war3map.j': script,
         'war3map.w3i': patch_w3i(base.read('war3map.w3i'), version),
         'war3map.w3u': w3u.to_bytes(),
+        'war3map.w3e': league_area.repaint(base.read('war3map.w3e'))[0],  # v3.4.2: League room floor
         objects.ITEM_SLK: item_slk,
         objects.ITEM_TXT: item_txt,
         objects.ABIL_SLK: patch_ability_slk(base.read(objects.ABIL_SLK), c.abil_rows),
