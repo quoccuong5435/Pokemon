@@ -1,0 +1,3642 @@
+{
+"source": "pokemondb.net/pokedex/all + pokemondb.net/move/all (PokeAPI csv, same data), 2026-11-07",
+"unit_types": {
+"E000": [
+"blastoise",
+"water",
+null
+],
+"E001": [
+"ivysaur",
+"grass",
+"poison"
+],
+"E002": [
+"venusaur",
+"grass",
+"poison"
+],
+"E003": [
+"charmander",
+"fire",
+null
+],
+"E004": [
+"squirtle",
+"water",
+null
+],
+"E005": [
+"pikachu",
+"electric",
+null
+],
+"E006": [
+"raichu",
+"electric",
+null
+],
+"E007": [
+"charmeleon",
+"fire",
+null
+],
+"E008": [
+"bulbasaur",
+"grass",
+"poison"
+],
+"E009": [
+"wartortle",
+"water",
+null
+],
+"E00A": [
+"sandshrew",
+"ground",
+null
+],
+"E00B": [
+"pidgey",
+"normal",
+"flying"
+],
+"E00C": [
+"pidgeotto",
+"normal",
+"flying"
+],
+"E00D": [
+"pidgeot",
+"normal",
+"flying"
+],
+"E00E": [
+"charizard",
+"fire",
+"flying"
+],
+"E00F": [
+"sandslash",
+"ground",
+null
+],
+"E00G": [
+"abra",
+"psychic",
+null
+],
+"E00H": [
+"kadabra",
+"psychic",
+null
+],
+"E00I": [
+"alakazam",
+"psychic",
+null
+],
+"E00N": [
+"geodude",
+"rock",
+"ground"
+],
+"E00O": [
+"graveler",
+"rock",
+"ground"
+],
+"E00P": [
+"golem",
+"rock",
+"ground"
+],
+"E00T": [
+"rattata",
+"normal",
+null
+],
+"E00U": [
+"raticate",
+"normal",
+null
+],
+"E00Y": [
+"machop",
+"fighting",
+null
+],
+"E00Z": [
+"machoke",
+"fighting",
+null
+],
+"E010": [
+"machamp",
+"fighting",
+null
+],
+"E012": [
+"poliwag",
+"water",
+null
+],
+"E013": [
+"poliwhirl",
+"water",
+null
+],
+"E014": [
+"poliwrath",
+"water",
+"fighting"
+],
+"E018": [
+"tauros",
+"normal",
+null
+],
+"E019": [
+"weezing",
+"poison",
+null
+],
+"E01A": [
+"weepinbell",
+"grass",
+"poison"
+],
+"E01B": [
+"ponyta",
+"fire",
+null
+],
+"E01C": [
+"arcanine",
+"fire",
+null
+],
+"E01D": [
+"voltorb",
+"electric",
+null
+],
+"E01E": [
+"jolteon",
+"electric",
+null
+],
+"E01F": [
+"cloyster",
+"water",
+"ice"
+],
+"E01G": [
+"gengar",
+"ghost",
+"poison"
+],
+"E01H": [
+"rapidash",
+"fire",
+null
+],
+"E01I": [
+"tentacruel",
+"water",
+"poison"
+],
+"E01J": [
+"nidoking",
+"poison",
+"ground"
+],
+"E01K": [
+"dragonite",
+"dragon",
+"flying"
+],
+"E01L": [
+"nidorino",
+"poison",
+null
+],
+"E01M": [
+"nidoran-m",
+"poison",
+null
+],
+"E01N": [
+"caterpie",
+"bug",
+null
+],
+"E01P": [
+"metapod",
+"bug",
+null
+],
+"E01Q": [
+"butterfree",
+"bug",
+"flying"
+],
+"E01S": [
+"dratini",
+"dragon",
+null
+],
+"E01T": [
+"dragonair",
+"dragon",
+null
+],
+"E01V": [
+"koffing",
+"poison",
+null
+],
+"E01X": [
+"electrode",
+"electric",
+null
+],
+"E01Z": [
+"hitmonchan",
+"fighting",
+null
+],
+"E020": [
+"articuno",
+"ice",
+"flying"
+],
+"E021": [
+"moltres",
+"fire",
+"flying"
+],
+"E022": [
+"lugia",
+"psychic",
+"flying"
+],
+"E023": [
+"darkrai",
+"dark",
+null
+],
+"E024": [
+"mew",
+"psychic",
+null
+],
+"E025": [
+"regigigas",
+"normal",
+null
+],
+"E026": [
+"mewtwo",
+"psychic",
+null
+],
+"E027": [
+"deoxys-normal",
+"psychic",
+null
+],
+"E028": [
+"giratina-altered",
+"ghost",
+"dragon"
+],
+"E029": [
+"rayquaza",
+"dragon",
+"flying"
+],
+"E02A": [
+"arceus",
+"normal",
+null
+],
+"E02B": [
+"bellsprout",
+"grass",
+"poison"
+],
+"E02C": [
+"victreebel",
+"grass",
+"poison"
+],
+"E02D": [
+"tentacool",
+"water",
+"poison"
+],
+"E02E": [
+"shellder",
+"water",
+null
+],
+"E02F": [
+"growlithe",
+"fire",
+null
+],
+"E02G": [
+"gastly",
+"ghost",
+"poison"
+],
+"E02H": [
+"haunter",
+"ghost",
+"poison"
+],
+"E02I": [
+"weedle",
+"bug",
+"poison"
+],
+"E02J": [
+"kakuna",
+"bug",
+"poison"
+],
+"E02K": [
+"beedrill",
+"bug",
+"poison"
+],
+"E02P": [
+"kangaskhan",
+"normal",
+null
+],
+"E02S": [
+"mankey",
+"fighting",
+null
+],
+"E02T": [
+"primeape",
+"fighting",
+null
+],
+"E02U": [
+"exeggcute",
+"grass",
+"psychic"
+],
+"E02W": [
+"exeggutor",
+"grass",
+"psychic"
+],
+"E02Y": [
+"rhyhorn",
+"ground",
+"rock"
+],
+"E02Z": [
+"rhydon",
+"ground",
+"rock"
+],
+"E031": [
+"magnemite",
+"electric",
+"steel"
+],
+"E032": [
+"magneton",
+"electric",
+"steel"
+],
+"E035": [
+"kabutops",
+"rock",
+"water"
+],
+"E037": [
+"vaporeon",
+"water",
+null
+],
+"E038": [
+"flareon",
+"fire",
+null
+],
+"E03A": [
+"eevee",
+"normal",
+null
+],
+"E03C": [
+"krabby",
+"water",
+null
+],
+"E03D": [
+"kingler",
+"water",
+null
+],
+"E03E": [
+"magikarp",
+"water",
+null
+],
+"E03F": [
+"gyarados",
+"water",
+"flying"
+],
+"E03H": [
+"espeon",
+"psychic",
+null
+],
+"E03I": [
+"umbreon",
+"dark",
+null
+],
+"E03J": [
+"zapdos",
+"electric",
+"flying"
+],
+"E03L": [
+"scyther",
+"bug",
+"flying"
+],
+"E03M": [
+"scizor",
+"bug",
+"steel"
+],
+"E03P": [
+"kabuto",
+"rock",
+"water"
+],
+"E03Q": [
+"omanyte",
+"rock",
+"water"
+],
+"E03R": [
+"omastar",
+"rock",
+"water"
+],
+"E03S": [
+"leafeon",
+"grass",
+null
+],
+"E03T": [
+"glaceon",
+"ice",
+null
+],
+"E03U": [
+"onix",
+"rock",
+"ground"
+],
+"E03V": [
+"steelix",
+"steel",
+"ground"
+],
+"E03W": [
+"pinsir",
+"bug",
+null
+],
+"E03X": [
+"sylveon",
+"fairy",
+null
+],
+"E03Y": [
+"hitmonlee",
+"fighting",
+null
+],
+"E03Z": [
+"hitmontop",
+"fighting",
+null
+],
+"E040": [
+"mr-mime",
+"psychic",
+"fairy"
+],
+"E046": [
+"zubat",
+"poison",
+"flying"
+],
+"E048": [
+"golbat",
+"poison",
+"flying"
+],
+"E049": [
+"crobat",
+"poison",
+"flying"
+],
+"E04C": [
+"dialga",
+"steel",
+"dragon"
+],
+"E04D": [
+"palkia",
+"water",
+"dragon"
+],
+"E04M": [
+"starmie",
+"water",
+"psychic"
+],
+"E04N": [
+"staryu",
+"water",
+null
+],
+"E04O": [
+"vulpix",
+"fire",
+null
+],
+"E04P": [
+"ninetales",
+"fire",
+null
+],
+"EN00": [
+"torchic",
+"fire",
+null
+],
+"EN01": [
+"combusken",
+"fire",
+"fighting"
+],
+"EN02": [
+"blaziken",
+"fire",
+"fighting"
+],
+"EN03": [
+"treecko",
+"grass",
+null
+],
+"EN04": [
+"grovyle",
+"grass",
+null
+],
+"EN05": [
+"sceptile",
+"grass",
+null
+],
+"EN06": [
+"larvitar",
+"rock",
+"ground"
+],
+"EN07": [
+"pupitar",
+"rock",
+"ground"
+],
+"EN08": [
+"tyranitar",
+"rock",
+"dark"
+],
+"EN09": [
+"ralts",
+"psychic",
+"fairy"
+],
+"EN0A": [
+"kirlia",
+"psychic",
+"fairy"
+],
+"EN0B": [
+"gardevoir",
+"psychic",
+"fairy"
+],
+"EN0C": [
+"gallade",
+"psychic",
+"fighting"
+],
+"EN0D": [
+"bagon",
+"dragon",
+null
+],
+"EN0E": [
+"shelgon",
+"dragon",
+null
+],
+"EN0F": [
+"salamence",
+"dragon",
+"flying"
+],
+"EN0G": [
+"beldum",
+"steel",
+"psychic"
+],
+"EN0H": [
+"metang",
+"steel",
+"psychic"
+],
+"EN0I": [
+"metagross",
+"steel",
+"psychic"
+],
+"EN0J": [
+"lucario",
+"fighting",
+"steel"
+],
+"EN0K": [
+"absol",
+"dark",
+null
+],
+"P00A": [
+"abomasnow",
+"grass",
+"ice"
+],
+"P02A": [
+"aerodactyl",
+"rock",
+"flying"
+],
+"P03A": [
+"geodude-alola",
+"rock",
+"electric"
+],
+"P04A": [
+"golem-alola",
+"rock",
+"electric"
+],
+"P05A": [
+"graveler-alola",
+"rock",
+"electric"
+],
+"P06A": [
+"raichu-alola",
+"electric",
+"psychic"
+],
+"P07A": [
+"altaria",
+"dragon",
+"flying"
+],
+"P08A": [
+"ampharos",
+"electric",
+null
+],
+"P09A": [
+"arbok",
+"poison",
+null
+],
+"P0BA": [
+"baltoy",
+"ground",
+"psychic"
+],
+"P0CA": [
+"bayleef",
+"grass",
+null
+],
+"P0EA": [
+"bellossom",
+"grass",
+null
+],
+"P0GA": [
+"blissey",
+"normal",
+null
+],
+"P0HA": [
+"bonsly",
+"rock",
+null
+],
+"P0IA": [
+"breloom",
+"grass",
+"fighting"
+],
+"P0JA": [
+"buzzwole",
+"bug",
+"fighting"
+],
+"P0KA": [
+"carvanha",
+"water",
+"dark"
+],
+"P0LA": [
+"chandelure",
+"ghost",
+"fire"
+],
+"P0MA": [
+"chansey",
+"normal",
+null
+],
+"P0NA": [
+"chikorita",
+"grass",
+null
+],
+"P0OA": [
+"chinchou",
+"water",
+"electric"
+],
+"P0PA": [
+"claydol",
+"ground",
+"psychic"
+],
+"P0QA": [
+"clefable",
+"fairy",
+null
+],
+"P0RA": [
+"clefairy",
+"fairy",
+null
+],
+"P0TA": [
+"cradily",
+"rock",
+"grass"
+],
+"P0UA": [
+"croagunk",
+"poison",
+"fighting"
+],
+"P0VA": [
+"cubone",
+"ground",
+null
+],
+"P0WA": [
+"cyndaquil",
+"fire",
+null
+],
+"P0XA": [
+"darmanitan-standard",
+"fire",
+null
+],
+"P0YA": [
+"darumaka",
+"fire",
+null
+],
+"P0ZA": [
+"deino",
+"dark",
+"dragon"
+],
+"P10A": [
+"dewgong",
+"water",
+"ice"
+],
+"P11A": [
+"diglett",
+"ground",
+null
+],
+"P12A": [
+"ditto",
+"normal",
+null
+],
+"P13A": [
+"drowzee",
+"psychic",
+null
+],
+"P14A": [
+"dugtrio",
+"ground",
+null
+],
+"P15A": [
+"dusclops",
+"ghost",
+null
+],
+"P16A": [
+"dusknoir",
+"ghost",
+null
+],
+"P17A": [
+"duskull",
+"ghost",
+null
+],
+"P18A": [
+"ekans",
+"poison",
+null
+],
+"P19A": [
+"electabuzz",
+"electric",
+null
+],
+"P1AA": [
+"electivire",
+"electric",
+null
+],
+"P1BA": [
+"electrike",
+"electric",
+null
+],
+"P1CA": [
+"elekid",
+"electric",
+null
+],
+"P1DA": [
+"entei",
+"fire",
+null
+],
+"P1EA": [
+"farfetchd",
+"normal",
+"flying"
+],
+"P1FA": [
+"feebas",
+"water",
+null
+],
+"P1GA": [
+"flaaffy",
+"electric",
+null
+],
+"P1HA": [
+"flygon",
+"ground",
+"dragon"
+],
+"P1IA": [
+"gabite",
+"dragon",
+"ground"
+],
+"P1KA": [
+"galvantula",
+"bug",
+"electric"
+],
+"P1LA": [
+"garchomp",
+"dragon",
+"ground"
+],
+"P1NA": [
+"gible",
+"dragon",
+"ground"
+],
+"P1OA": [
+"gloom",
+"grass",
+"poison"
+],
+"P1PA": [
+"golduck",
+"water",
+null
+],
+"P1QA": [
+"granbull",
+"fairy",
+null
+],
+"P1SA": [
+"heracross",
+"bug",
+"fighting"
+],
+"P1TA": [
+"ho-oh",
+"fire",
+"flying"
+],
+"P1UA": [
+"hoothoot",
+"normal",
+"flying"
+],
+"P1VA": [
+"horsea",
+"water",
+null
+],
+"P1WA": [
+"houndoom",
+"dark",
+"fire"
+],
+"P1XA": [
+"houndour",
+"dark",
+"fire"
+],
+"P1YA": [
+"hydreigon",
+"dark",
+"dragon"
+],
+"P1ZA": [
+"hypno",
+"psychic",
+null
+],
+"P20A": [
+"jigglypuff",
+"normal",
+"fairy"
+],
+"P21A": [
+"jirachi",
+"steel",
+"psychic"
+],
+"P22A": [
+"joltik",
+"bug",
+"electric"
+],
+"P23A": [
+"jynx",
+"ice",
+"psychic"
+],
+"P24A": [
+"kingdra",
+"water",
+"dragon"
+],
+"P26A": [
+"kyogre",
+"water",
+null
+],
+"P27A": [
+"lampent",
+"ghost",
+"fire"
+],
+"P28A": [
+"lanturn",
+"water",
+"electric"
+],
+"P29A": [
+"lapras",
+"water",
+"ice"
+],
+"P2BA": [
+"leafeon",
+"grass",
+null
+],
+"P2CA": [
+"lileep",
+"rock",
+"grass"
+],
+"P2DA": [
+"litwick",
+"ghost",
+"fire"
+],
+"P2EA": [
+"lombre",
+"water",
+"grass"
+],
+"P2FA": [
+"lotad",
+"water",
+"grass"
+],
+"P2GA": [
+"ludicolo",
+"water",
+"grass"
+],
+"P2HA": [
+"magby",
+"fire",
+null
+],
+"P2IA": [
+"magcargo",
+"fire",
+"rock"
+],
+"P2JA": [
+"magmar",
+"fire",
+null
+],
+"P2KA": [
+"magmortar",
+"fire",
+null
+],
+"P2LA": [
+"magnezone",
+"electric",
+"steel"
+],
+"P2MA": [
+"mamoswine",
+"ice",
+"ground"
+],
+"P2NA": [
+"manectric",
+"electric",
+null
+],
+"P2OA": [
+"mareep",
+"electric",
+null
+],
+"P2PA": [
+"marowak",
+"ground",
+null
+],
+"P2QA": [
+"meowth",
+"normal",
+null
+],
+"P2TA": [
+"milotic",
+"water",
+null
+],
+"P2UA": [
+"misdreavus",
+"ghost",
+null
+],
+"P2VA": [
+"mismagius",
+"ghost",
+null
+],
+"P2WA": [
+"mr-mime",
+"psychic",
+"fairy"
+],
+"P2XA": [
+"nincada",
+"bug",
+"ground"
+],
+"P2YA": [
+"ninjask",
+"bug",
+"flying"
+],
+"P2ZA": [
+"noctowl",
+"normal",
+"flying"
+],
+"P30A": [
+"oddish",
+"grass",
+"poison"
+],
+"P31A": [
+"persian",
+"normal",
+null
+],
+"P32A": [
+"piloswine",
+"ice",
+"ground"
+],
+"P34A": [
+"politoed",
+"water",
+null
+],
+"P35A": [
+"porygon",
+"normal",
+null
+],
+"P36A": [
+"psyduck",
+"water",
+null
+],
+"P38A": [
+"quilava",
+"fire",
+null
+],
+"P39A": [
+"raikou",
+"electric",
+null
+],
+"P3BA": [
+"regirock",
+"rock",
+null
+],
+"P3CA": [
+"rhyperior",
+"ground",
+"rock"
+],
+"P3DA": [
+"sableye",
+"dark",
+"ghost"
+],
+"P3GA": [
+"seadra",
+"water",
+null
+],
+"P3HA": [
+"seel",
+"water",
+null
+],
+"P3IA": [
+"sharpedo",
+"water",
+"dark"
+],
+"P3JA": [
+"shedinja",
+"bug",
+"ghost"
+],
+"P3LA": [
+"shroomish",
+"grass",
+null
+],
+"P3MA": [
+"sirfetchd",
+"fighting",
+null
+],
+"P3NA": [
+"slowbro",
+"water",
+"psychic"
+],
+"P3OA": [
+"slowking",
+"water",
+"psychic"
+],
+"P3PA": [
+"slowpoke",
+"water",
+"psychic"
+],
+"P3QA": [
+"slugma",
+"fire",
+null
+],
+"P3RA": [
+"smoochum",
+"ice",
+"psychic"
+],
+"P3SA": [
+"sneasel",
+"dark",
+"ice"
+],
+"P3TA": [
+"snorlax",
+"normal",
+null
+],
+"P3UA": [
+"snover",
+"grass",
+"ice"
+],
+"P3VA": [
+"snubbull",
+"fairy",
+null
+],
+"P3WA": [
+"sudowoodo",
+"rock",
+null
+],
+"P3XA": [
+"suicune",
+"water",
+null
+],
+"P3YA": [
+"swablu",
+"normal",
+"flying"
+],
+"P3ZA": [
+"swinub",
+"ice",
+"ground"
+],
+"P40A": [
+"tangela",
+"grass",
+null
+],
+"P41A": [
+"tangrowth",
+"grass",
+null
+],
+"P42A": [
+"tauros-paldea-aqua-breed",
+"fighting",
+"water"
+],
+"P43A": [
+"tauros-paldea-blaze-breed",
+"fighting",
+"fire"
+],
+"P44A": [
+"tauros-paldea-combat-breed",
+"fighting",
+null
+],
+"P45A": [
+"togekiss",
+"fairy",
+"flying"
+],
+"P46A": [
+"togepi",
+"fairy",
+null
+],
+"P47A": [
+"togetic",
+"fairy",
+"flying"
+],
+"P49A": [
+"torkoal",
+"fire",
+null
+],
+"P4AA": [
+"toxicroak",
+"poison",
+"fighting"
+],
+"P4BA": [
+"trapinch",
+"ground",
+null
+],
+"P4DA": [
+"typhlosion",
+"fire",
+null
+],
+"P4EA": [
+"tyrogue",
+"fighting",
+null
+],
+"P4FA": [
+"vibrava",
+"ground",
+"dragon"
+],
+"P4GA": [
+"vileplume",
+"grass",
+"poison"
+],
+"P4HA": [
+"weavile",
+"dark",
+"ice"
+],
+"P4IA": [
+"wigglytuff",
+"normal",
+"fairy"
+],
+"P4JA": [
+"wobbuffet",
+"psychic",
+null
+],
+"P4KA": [
+"wynaut",
+"psychic",
+null
+],
+"P4LA": [
+"zweilous",
+"dark",
+"dragon"
+],
+"P4MA": [
+"sandshrew-alola",
+"ice",
+"steel"
+],
+"P4NA": [
+"sandslash-alola",
+"ice",
+"steel"
+],
+"P4OA": [
+"honedge",
+"steel",
+"ghost"
+],
+"P4PA": [
+"doublade",
+"steel",
+"ghost"
+],
+"P4QA": [
+"aegislash-shield",
+"steel",
+"ghost"
+],
+"P4RA": [
+"pawniard",
+"dark",
+"steel"
+],
+"P4SA": [
+"bisharp",
+"dark",
+"steel"
+],
+"P4TA": [
+"kingambit",
+"dark",
+"steel"
+],
+"P4UA": [
+"groudon",
+"ground",
+null
+],
+"P4VA": [
+"eevee",
+"normal",
+null
+],
+"P4WA": [
+"magnemite",
+"electric",
+"steel"
+],
+"P4XA": [
+"magneton",
+"electric",
+"steel"
+],
+"P4YA": [
+"poliwag",
+"water",
+null
+],
+"P4ZA": [
+"poliwhirl",
+"water",
+null
+],
+"P50A": [
+"rhyhorn",
+"ground",
+"rock"
+],
+"P51A": [
+"rhydon",
+"ground",
+"rock"
+],
+"PV0A": [
+"meganium",
+"grass",
+null
+],
+"PV1A": [
+"porygon2",
+"normal",
+null
+],
+"PV2A": [
+"latias",
+"dragon",
+"psychic"
+],
+"PZZA": [
+"celebi",
+"psychic",
+"grass"
+],
+"hM00": [
+"venusaur-mega",
+"grass",
+"poison"
+],
+"hM01": [
+"charizard-mega-x",
+"fire",
+"dragon"
+],
+"hM02": [
+"charizard-mega-y",
+"fire",
+"flying"
+],
+"hM03": [
+"blastoise-mega",
+"water",
+null
+],
+"hM04": [
+"beedrill-mega",
+"bug",
+"poison"
+],
+"hM05": [
+"pidgeot-mega",
+"normal",
+"flying"
+],
+"hM06": [
+"alakazam-mega",
+"psychic",
+null
+],
+"hM07": [
+"gengar-mega",
+"ghost",
+"poison"
+],
+"hM08": [
+"kangaskhan-mega",
+"normal",
+null
+],
+"hM09": [
+"pinsir-mega",
+"bug",
+"flying"
+],
+"hM0A": [
+"gyarados-mega",
+"water",
+"dark"
+],
+"hM0B": [
+"steelix-mega",
+"steel",
+"ground"
+],
+"hM0C": [
+"scizor-mega",
+"bug",
+"steel"
+],
+"hM0D": [
+"mewtwo-mega-x",
+"psychic",
+"fighting"
+],
+"hM0E": [
+"mewtwo-mega-y",
+"psychic",
+null
+],
+"hM0F": [
+"rayquaza-mega",
+"dragon",
+"flying"
+],
+"hM0G": [
+"blaziken-mega",
+"fire",
+"fighting"
+],
+"hM0H": [
+"sceptile-mega",
+"grass",
+"dragon"
+],
+"hM0I": [
+"tyranitar-mega",
+"rock",
+"dark"
+],
+"hM0J": [
+"gardevoir-mega",
+"psychic",
+"fairy"
+],
+"hM0K": [
+"gallade-mega",
+"psychic",
+"fighting"
+],
+"hM0L": [
+"salamence-mega",
+"dragon",
+"flying"
+],
+"hM0M": [
+"metagross-mega",
+"steel",
+"psychic"
+],
+"hM0N": [
+"lucario-mega",
+"fighting",
+"steel"
+],
+"hM0O": [
+"absol-mega",
+"dark",
+null
+],
+"hM0P": [
+"slowbro-mega",
+"water",
+"psychic"
+],
+"hM0Q": [
+"sharpedo-mega",
+"water",
+"dark"
+],
+"hM0R": [
+"ampharos-mega",
+"electric",
+"dragon"
+],
+"hM0S": [
+"houndoom-mega",
+"dark",
+"fire"
+],
+"hM0T": [
+"aerodactyl-mega",
+"rock",
+"flying"
+],
+"hM0U": [
+"manectric-mega",
+"electric",
+null
+],
+"hM0V": [
+"heracross-mega",
+"bug",
+"fighting"
+],
+"hM0W": [
+"altaria-mega",
+"dragon",
+"fairy"
+],
+"n001": [
+"zapdos",
+"electric",
+"flying"
+],
+"n004": [
+"tauros",
+"normal",
+null
+],
+"n005": [
+"aerodactyl",
+"rock",
+"flying"
+],
+"n006": [
+"gyarados",
+"water",
+"flying"
+],
+"n008": [
+"hitmontop",
+"fighting",
+null
+],
+"n00C": [
+"articuno",
+"ice",
+"flying"
+],
+"n00D": [
+"moltres",
+"fire",
+"flying"
+],
+"n00E": [
+"alakazam",
+"psychic",
+null
+],
+"n00F": [
+"darkrai",
+"dark",
+null
+],
+"n00G": [
+"rayquaza",
+"dragon",
+"flying"
+],
+"n00H": [
+"butterfree",
+"bug",
+"flying"
+],
+"n00I": [
+"caterpie",
+"bug",
+null
+],
+"n00J": [
+"metapod",
+"bug",
+null
+],
+"n00K": [
+"caterpie",
+"bug",
+null
+],
+"n00L": [
+"metapod",
+"bug",
+null
+],
+"n00M": [
+"butterfree",
+"bug",
+"flying"
+],
+"n00R": [
+"weepinbell",
+"grass",
+"poison"
+],
+"n00S": [
+"raticate",
+"normal",
+null
+],
+"n00T": [
+"pidgeot",
+"normal",
+"flying"
+],
+"n00U": [
+"tauros",
+"normal",
+null
+],
+"n00V": [
+"venusaur",
+"grass",
+"poison"
+],
+"n00W": [
+"weezing",
+"poison",
+null
+],
+"n00X": [
+"ponyta",
+"fire",
+null
+],
+"n00Y": [
+"arcanine",
+"fire",
+null
+],
+"n00Z": [
+"charizard",
+"fire",
+"flying"
+],
+"n010": [
+"voltorb",
+"electric",
+null
+],
+"n011": [
+"jolteon",
+"electric",
+null
+],
+"n012": [
+"raichu",
+"electric",
+null
+],
+"n013": [
+"poliwrath",
+"water",
+"fighting"
+],
+"n014": [
+"cloyster",
+"water",
+"ice"
+],
+"n015": [
+"blastoise",
+"water",
+null
+],
+"n016": [
+"machamp",
+"fighting",
+null
+],
+"n017": [
+"golem",
+"rock",
+"ground"
+],
+"n018": [
+"sandslash",
+"ground",
+null
+],
+"n019": [
+"alakazam",
+"psychic",
+null
+],
+"n01A": [
+"gengar",
+"ghost",
+"poison"
+],
+"n01B": [
+"rapidash",
+"fire",
+null
+],
+"n01C": [
+"tentacruel",
+"water",
+"poison"
+],
+"n01D": [
+"nidoking",
+"poison",
+"ground"
+],
+"n01E": [
+"dragonite",
+"dragon",
+"flying"
+],
+"n01I": [
+"lugia",
+"psychic",
+"flying"
+],
+"n01J": [
+"arceus",
+"normal",
+null
+],
+"n01K": [
+"regigigas",
+"normal",
+null
+],
+"n01L": [
+"mew",
+"psychic",
+null
+],
+"n01M": [
+"giratina-altered",
+"ghost",
+"dragon"
+],
+"n01N": [
+"deoxys-normal",
+"psychic",
+null
+],
+"n01O": [
+"mewtwo",
+"psychic",
+null
+],
+"n01P": [
+"raticate",
+"normal",
+null
+],
+"n01Q": [
+"raticate",
+"normal",
+null
+],
+"n01R": [
+"rattata",
+"normal",
+null
+],
+"n01S": [
+"rattata",
+"normal",
+null
+],
+"n01T": [
+"sandslash",
+"ground",
+null
+],
+"n01U": [
+"sandslash",
+"ground",
+null
+],
+"n01V": [
+"sandshrew",
+"ground",
+null
+],
+"n01W": [
+"sandshrew",
+"ground",
+null
+],
+"n01X": [
+"rapidash",
+"fire",
+null
+],
+"n01Y": [
+"rapidash",
+"fire",
+null
+],
+"n01Z": [
+"ponyta",
+"fire",
+null
+],
+"n020": [
+"ponyta",
+"fire",
+null
+],
+"n021": [
+"cloyster",
+"water",
+"ice"
+],
+"n022": [
+"cloyster",
+"water",
+"ice"
+],
+"n023": [
+"shellder",
+"water",
+null
+],
+"n024": [
+"shellder",
+"water",
+null
+],
+"n025": [
+"tauros",
+"normal",
+null
+],
+"n026": [
+"primeape",
+"fighting",
+null
+],
+"n027": [
+"exeggutor",
+"grass",
+"psychic"
+],
+"n028": [
+"tentacruel",
+"water",
+"poison"
+],
+"n029": [
+"tentacruel",
+"water",
+"poison"
+],
+"n02A": [
+"tentacool",
+"water",
+"poison"
+],
+"n02G": [
+"magikarp",
+"water",
+null
+],
+"n02H": [
+"tyranitar",
+"rock",
+"dark"
+],
+"n02I": [
+"lucario",
+"fighting",
+"steel"
+],
+"n02J": [
+"pidgeot",
+"normal",
+"flying"
+],
+"n02K": [
+"pidgeotto",
+"normal",
+"flying"
+],
+"n02P": [
+"nidoking",
+"poison",
+"ground"
+],
+"n02R": [
+"nidorino",
+"poison",
+null
+],
+"n02S": [
+"nidoran-m",
+"poison",
+null
+],
+"n02U": [
+"nidoran-f",
+"poison",
+null
+],
+"n02V": [
+"gengar",
+"ghost",
+"poison"
+],
+"n02W": [
+"haunter",
+"ghost",
+"poison"
+],
+"n02X": [
+"gastly",
+"ghost",
+"poison"
+],
+"n02Y": [
+"abra",
+"psychic",
+null
+],
+"n02Z": [
+"kadabra",
+"psychic",
+null
+],
+"n033": [
+"dialga",
+"steel",
+"dragon"
+],
+"n034": [
+"palkia",
+"water",
+"dragon"
+],
+"n035": [
+"celebi",
+"psychic",
+"grass"
+],
+"n037": [
+"giratina-altered",
+"ghost",
+"dragon"
+],
+"nL05": [
+"regigigas",
+"normal",
+null
+],
+"nL0B": [
+"zapdos",
+"electric",
+"flying"
+],
+"nL0C": [
+"dialga",
+"steel",
+"dragon"
+],
+"nL0D": [
+"palkia",
+"water",
+"dragon"
+],
+"nL0F": [
+"raikou",
+"electric",
+null
+],
+"nL10": [
+"entei",
+"fire",
+null
+],
+"nL11": [
+"suicune",
+"water",
+null
+],
+"nL12": [
+"ho-oh",
+"fire",
+"flying"
+],
+"nL13": [
+"regirock",
+"rock",
+null
+],
+"nL14": [
+"kyogre",
+"water",
+null
+],
+"nL15": [
+"jirachi",
+"steel",
+"psychic"
+],
+"nL16": [
+"groudon",
+"ground",
+null
+],
+"nL17": [
+"buzzwole",
+"bug",
+"fighting"
+],
+"nL18": [
+"latias",
+"dragon",
+"psychic"
+],
+"nW00": [
+"hoothoot",
+"normal",
+"flying"
+],
+"nW01": [
+"lotad",
+"water",
+"grass"
+],
+"nW02": [
+"diglett",
+"ground",
+null
+],
+"nW03": [
+"mareep",
+"electric",
+null
+],
+"nW04": [
+"houndour",
+"dark",
+"fire"
+],
+"nW05": [
+"swinub",
+"ice",
+"ground"
+],
+"nW06": [
+"sneasel",
+"dark",
+"ice"
+],
+"nW07": [
+"misdreavus",
+"ghost",
+null
+],
+"nW08": [
+"chinchou",
+"water",
+"electric"
+],
+"nW09": [
+"noctowl",
+"normal",
+"flying"
+],
+"nW0A": [
+"flaaffy",
+"electric",
+null
+],
+"nW0B": [
+"breloom",
+"grass",
+"fighting"
+],
+"nW0C": [
+"manectric",
+"electric",
+null
+],
+"nW0D": [
+"piloswine",
+"ice",
+"ground"
+],
+"nW0E": [
+"vibrava",
+"ground",
+"dragon"
+],
+"nW0F": [
+"houndoom",
+"dark",
+"fire"
+],
+"nW10": [
+"mismagius",
+"ghost",
+null
+],
+"nW11": [
+"weavile",
+"dark",
+"ice"
+],
+"nW12": [
+"ampharos",
+"electric",
+null
+],
+"nW13": [
+"ludicolo",
+"water",
+"grass"
+],
+"nW14": [
+"flygon",
+"ground",
+"dragon"
+],
+"nW15": [
+"mamoswine",
+"ice",
+"ground"
+],
+"nW16": [
+"altaria",
+"dragon",
+"flying"
+],
+"nW17": [
+"absol",
+"dark",
+null
+],
+"nW18": [
+"electivire",
+"electric",
+null
+],
+"nW19": [
+"magmortar",
+"fire",
+null
+],
+"nW1A": [
+"rhyperior",
+"ground",
+"rock"
+],
+"nW1B": [
+"snorlax",
+"normal",
+null
+],
+"nW1C": [
+"lapras",
+"water",
+"ice"
+],
+"nW1D": [
+"dusknoir",
+"ghost",
+null
+],
+"nX00": [
+"abomasnow",
+"grass",
+"ice"
+],
+"nX01": [
+"aegislash-shield",
+"steel",
+"ghost"
+],
+"nX02": [
+"aerodactyl",
+"rock",
+"flying"
+],
+"nX03": [
+"geodude-alola",
+"rock",
+"electric"
+],
+"nX04": [
+"golem-alola",
+"rock",
+"electric"
+],
+"nX05": [
+"graveler-alola",
+"rock",
+"electric"
+],
+"nX06": [
+"raichu-alola",
+"electric",
+"psychic"
+],
+"nX07": [
+"sandshrew-alola",
+"ice",
+"steel"
+],
+"nX08": [
+"sandslash-alola",
+"ice",
+"steel"
+],
+"nX09": [
+"arbok",
+"poison",
+null
+],
+"nX0A": [
+"arcanine",
+"fire",
+null
+],
+"nX0B": [
+"bagon",
+"dragon",
+null
+],
+"nX0C": [
+"baltoy",
+"ground",
+"psychic"
+],
+"nX0D": [
+"bayleef",
+"grass",
+null
+],
+"nX0E": [
+"beedrill",
+"bug",
+"poison"
+],
+"nX0F": [
+"beldum",
+"steel",
+"psychic"
+],
+"nX0G": [
+"bellossom",
+"grass",
+null
+],
+"nX0H": [
+"bellsprout",
+"grass",
+"poison"
+],
+"nX0I": [
+"bisharp",
+"dark",
+"steel"
+],
+"nX0J": [
+"blastoise",
+"water",
+null
+],
+"nX0K": [
+"blaziken",
+"fire",
+"fighting"
+],
+"nX0L": [
+"blissey",
+"normal",
+null
+],
+"nX0M": [
+"bonsly",
+"rock",
+null
+],
+"nX0N": [
+"bulbasaur",
+"grass",
+"poison"
+],
+"nX0O": [
+"carvanha",
+"water",
+"dark"
+],
+"nX0P": [
+"chandelure",
+"ghost",
+"fire"
+],
+"nX0Q": [
+"chansey",
+"normal",
+null
+],
+"nX0R": [
+"charizard",
+"fire",
+"flying"
+],
+"nX0S": [
+"charmander",
+"fire",
+null
+],
+"nX0T": [
+"charmeleon",
+"fire",
+null
+],
+"nX0U": [
+"chikorita",
+"grass",
+null
+],
+"nX0V": [
+"claydol",
+"ground",
+"psychic"
+],
+"nX0W": [
+"clefable",
+"fairy",
+null
+],
+"nX0X": [
+"clefairy",
+"fairy",
+null
+],
+"nX0Y": [
+"combusken",
+"fire",
+"fighting"
+],
+"nX0Z": [
+"cradily",
+"rock",
+"grass"
+],
+"nX10": [
+"croagunk",
+"poison",
+"fighting"
+],
+"nX11": [
+"crobat",
+"poison",
+"flying"
+],
+"nX12": [
+"cubone",
+"ground",
+null
+],
+"nX13": [
+"cyndaquil",
+"fire",
+null
+],
+"nX14": [
+"darmanitan-standard",
+"fire",
+null
+],
+"nX15": [
+"darumaka",
+"fire",
+null
+],
+"nX16": [
+"deino",
+"dark",
+"dragon"
+],
+"nX17": [
+"dewgong",
+"water",
+"ice"
+],
+"nX18": [
+"ditto",
+"normal",
+null
+],
+"nX19": [
+"doublade",
+"steel",
+"ghost"
+],
+"nX1A": [
+"dragonair",
+"dragon",
+null
+],
+"nX1B": [
+"dragonite",
+"dragon",
+"flying"
+],
+"nX1C": [
+"dratini",
+"dragon",
+null
+],
+"nX1D": [
+"drowzee",
+"psychic",
+null
+],
+"nX1E": [
+"dugtrio",
+"ground",
+null
+],
+"nX1F": [
+"dusclops",
+"ghost",
+null
+],
+"nX1G": [
+"duskull",
+"ghost",
+null
+],
+"nX1H": [
+"eevee",
+"normal",
+null
+],
+"nX1I": [
+"ekans",
+"poison",
+null
+],
+"nX1J": [
+"electabuzz",
+"electric",
+null
+],
+"nX1K": [
+"electrike",
+"electric",
+null
+],
+"nX1L": [
+"electrode",
+"electric",
+null
+],
+"nX1M": [
+"elekid",
+"electric",
+null
+],
+"nX1N": [
+"espeon",
+"psychic",
+null
+],
+"nX1O": [
+"exeggcute",
+"grass",
+"psychic"
+],
+"nX1P": [
+"farfetchd",
+"normal",
+"flying"
+],
+"nX1Q": [
+"feebas",
+"water",
+null
+],
+"nX1R": [
+"flareon",
+"fire",
+null
+],
+"nX1S": [
+"gabite",
+"dragon",
+"ground"
+],
+"nX1T": [
+"gallade",
+"psychic",
+"fighting"
+],
+"nX1U": [
+"galvantula",
+"bug",
+"electric"
+],
+"nX1V": [
+"garchomp",
+"dragon",
+"ground"
+],
+"nX1W": [
+"gardevoir",
+"psychic",
+"fairy"
+],
+"nX1X": [
+"geodude",
+"rock",
+"ground"
+],
+"nX1Y": [
+"gible",
+"dragon",
+"ground"
+],
+"nX1Z": [
+"glaceon",
+"ice",
+null
+],
+"nX20": [
+"gloom",
+"grass",
+"poison"
+],
+"nX21": [
+"golbat",
+"poison",
+"flying"
+],
+"nX22": [
+"golduck",
+"water",
+null
+],
+"nX23": [
+"golem",
+"rock",
+"ground"
+],
+"nX24": [
+"granbull",
+"fairy",
+null
+],
+"nX25": [
+"graveler",
+"rock",
+"ground"
+],
+"nX26": [
+"grovyle",
+"grass",
+null
+],
+"nX27": [
+"growlithe",
+"fire",
+null
+],
+"nX28": [
+"gyarados",
+"water",
+"flying"
+],
+"nX29": [
+"heracross",
+"bug",
+"fighting"
+],
+"nX2A": [
+"hitmonchan",
+"fighting",
+null
+],
+"nX2B": [
+"hitmonlee",
+"fighting",
+null
+],
+"nX2C": [
+"hitmontop",
+"fighting",
+null
+],
+"nX2D": [
+"honedge",
+"steel",
+"ghost"
+],
+"nX2E": [
+"horsea",
+"water",
+null
+],
+"nX2F": [
+"hydreigon",
+"dark",
+"dragon"
+],
+"nX2G": [
+"hypno",
+"psychic",
+null
+],
+"nX2H": [
+"ivysaur",
+"grass",
+"poison"
+],
+"nX2I": [
+"jigglypuff",
+"normal",
+"fairy"
+],
+"nX2J": [
+"jolteon",
+"electric",
+null
+],
+"nX2K": [
+"joltik",
+"bug",
+"electric"
+],
+"nX2L": [
+"jynx",
+"ice",
+"psychic"
+],
+"nX2M": [
+"kabuto",
+"rock",
+"water"
+],
+"nX2N": [
+"kabutops",
+"rock",
+"water"
+],
+"nX2O": [
+"kakuna",
+"bug",
+"poison"
+],
+"nX2P": [
+"kangaskhan",
+"normal",
+null
+],
+"nX2Q": [
+"kingdra",
+"water",
+"dragon"
+],
+"nX2R": [
+"kingler",
+"water",
+null
+],
+"nX2S": [
+"kirlia",
+"psychic",
+"fairy"
+],
+"nX2T": [
+"koffing",
+"poison",
+null
+],
+"nX2U": [
+"krabby",
+"water",
+null
+],
+"nX2V": [
+"lampent",
+"ghost",
+"fire"
+],
+"nX2W": [
+"lanturn",
+"water",
+"electric"
+],
+"nX2X": [
+"larvitar",
+"rock",
+"ground"
+],
+"nX2Y": [
+"leafeon",
+"grass",
+null
+],
+"nX2Z": [
+"lileep",
+"rock",
+"grass"
+],
+"nX30": [
+"litwick",
+"ghost",
+"fire"
+],
+"nX31": [
+"lombre",
+"water",
+"grass"
+],
+"nX32": [
+"lucario",
+"fighting",
+"steel"
+],
+"nX33": [
+"machamp",
+"fighting",
+null
+],
+"nX34": [
+"machoke",
+"fighting",
+null
+],
+"nX35": [
+"machop",
+"fighting",
+null
+],
+"nX36": [
+"magby",
+"fire",
+null
+],
+"nX37": [
+"magcargo",
+"fire",
+"rock"
+],
+"nX38": [
+"magmar",
+"fire",
+null
+],
+"nX39": [
+"magnemite",
+"electric",
+"steel"
+],
+"nX3A": [
+"magneton",
+"electric",
+"steel"
+],
+"nX3B": [
+"magnezone",
+"electric",
+"steel"
+],
+"nX3C": [
+"mankey",
+"fighting",
+null
+],
+"nX3D": [
+"marowak",
+"ground",
+null
+],
+"nX3E": [
+"meganium",
+"grass",
+null
+],
+"nX3F": [
+"meowth",
+"normal",
+null
+],
+"nX3G": [
+"metagross",
+"steel",
+"psychic"
+],
+"nX3H": [
+"metang",
+"steel",
+"psychic"
+],
+"nX3I": [
+"milotic",
+"water",
+null
+],
+"nX3J": [
+"mr-mime",
+"psychic",
+"fairy"
+],
+"nX3K": [
+"nincada",
+"bug",
+"ground"
+],
+"nX3L": [
+"ninetales",
+"fire",
+null
+],
+"nX3M": [
+"ninjask",
+"bug",
+"flying"
+],
+"nX3N": [
+"oddish",
+"grass",
+"poison"
+],
+"nX3O": [
+"omanyte",
+"rock",
+"water"
+],
+"nX3P": [
+"omastar",
+"rock",
+"water"
+],
+"nX3Q": [
+"onix",
+"rock",
+"ground"
+],
+"nX3R": [
+"pawniard",
+"dark",
+"steel"
+],
+"nX3S": [
+"persian",
+"normal",
+null
+],
+"nX3T": [
+"pidgey",
+"normal",
+"flying"
+],
+"nX3U": [
+"pikachu",
+"electric",
+null
+],
+"nX3V": [
+"pinsir",
+"bug",
+null
+],
+"nX3W": [
+"politoed",
+"water",
+null
+],
+"nX3X": [
+"poliwag",
+"water",
+null
+],
+"nX3Y": [
+"poliwhirl",
+"water",
+null
+],
+"nX3Z": [
+"poliwrath",
+"water",
+"fighting"
+],
+"nX40": [
+"porygon",
+"normal",
+null
+],
+"nX41": [
+"porygon2",
+"normal",
+null
+],
+"nX42": [
+"psyduck",
+"water",
+null
+],
+"nX43": [
+"pupitar",
+"rock",
+"ground"
+],
+"nX44": [
+"quilava",
+"fire",
+null
+],
+"nX45": [
+"raichu",
+"electric",
+null
+],
+"nX46": [
+"ralts",
+"psychic",
+"fairy"
+],
+"nX47": [
+"rhydon",
+"ground",
+"rock"
+],
+"nX48": [
+"rhyhorn",
+"ground",
+"rock"
+],
+"nX49": [
+"sableye",
+"dark",
+"ghost"
+],
+"nX4A": [
+"salamence",
+"dragon",
+"flying"
+],
+"nX4B": [
+"sceptile",
+"grass",
+null
+],
+"nX4C": [
+"scizor",
+"bug",
+"steel"
+],
+"nX4D": [
+"scyther",
+"bug",
+"flying"
+],
+"nX4E": [
+"seadra",
+"water",
+null
+],
+"nX4F": [
+"seel",
+"water",
+null
+],
+"nX4G": [
+"sharpedo",
+"water",
+"dark"
+],
+"nX4H": [
+"shedinja",
+"bug",
+"ghost"
+],
+"nX4I": [
+"shelgon",
+"dragon",
+null
+],
+"nX4J": [
+"shroomish",
+"grass",
+null
+],
+"nX4K": [
+"sirfetchd",
+"fighting",
+null
+],
+"nX4L": [
+"slowbro",
+"water",
+"psychic"
+],
+"nX4M": [
+"slowking",
+"water",
+"psychic"
+],
+"nX4N": [
+"slowpoke",
+"water",
+"psychic"
+],
+"nX4O": [
+"slugma",
+"fire",
+null
+],
+"nX4P": [
+"smoochum",
+"ice",
+"psychic"
+],
+"nX4Q": [
+"snover",
+"grass",
+"ice"
+],
+"nX4R": [
+"snubbull",
+"fairy",
+null
+],
+"nX4S": [
+"squirtle",
+"water",
+null
+],
+"nX4T": [
+"starmie",
+"water",
+"psychic"
+],
+"nX4U": [
+"staryu",
+"water",
+null
+],
+"nX4V": [
+"steelix",
+"steel",
+"ground"
+],
+"nX4W": [
+"sudowoodo",
+"rock",
+null
+],
+"nX4X": [
+"swablu",
+"normal",
+"flying"
+],
+"nX4Y": [
+"sylveon",
+"fairy",
+null
+],
+"nX4Z": [
+"tangela",
+"grass",
+null
+],
+"nX50": [
+"tangrowth",
+"grass",
+null
+],
+"nX51": [
+"tauros-paldea-aqua-breed",
+"fighting",
+"water"
+],
+"nX52": [
+"tauros-paldea-blaze-breed",
+"fighting",
+"fire"
+],
+"nX53": [
+"tauros-paldea-combat-breed",
+"fighting",
+null
+],
+"nX54": [
+"togekiss",
+"fairy",
+"flying"
+],
+"nX55": [
+"togepi",
+"fairy",
+null
+],
+"nX56": [
+"togetic",
+"fairy",
+"flying"
+],
+"nX57": [
+"torchic",
+"fire",
+null
+],
+"nX58": [
+"torkoal",
+"fire",
+null
+],
+"nX59": [
+"toxicroak",
+"poison",
+"fighting"
+],
+"nX5A": [
+"trapinch",
+"ground",
+null
+],
+"nX5B": [
+"treecko",
+"grass",
+null
+],
+"nX5C": [
+"typhlosion",
+"fire",
+null
+],
+"nX5D": [
+"tyranitar",
+"rock",
+"dark"
+],
+"nX5E": [
+"tyrogue",
+"fighting",
+null
+],
+"nX5F": [
+"umbreon",
+"dark",
+null
+],
+"nX5G": [
+"vaporeon",
+"water",
+null
+],
+"nX5H": [
+"venusaur",
+"grass",
+"poison"
+],
+"nX5I": [
+"victreebel",
+"grass",
+"poison"
+],
+"nX5J": [
+"vileplume",
+"grass",
+"poison"
+],
+"nX5K": [
+"voltorb",
+"electric",
+null
+],
+"nX5L": [
+"vulpix",
+"fire",
+null
+],
+"nX5M": [
+"wartortle",
+"water",
+null
+],
+"nX5N": [
+"weedle",
+"bug",
+"poison"
+],
+"nX5O": [
+"weepinbell",
+"grass",
+"poison"
+],
+"nX5P": [
+"weezing",
+"poison",
+null
+],
+"nX5Q": [
+"wigglytuff",
+"normal",
+"fairy"
+],
+"nX5R": [
+"wobbuffet",
+"psychic",
+null
+],
+"nX5S": [
+"wynaut",
+"psychic",
+null
+],
+"nX5T": [
+"zubat",
+"poison",
+"flying"
+],
+"nX5U": [
+"zweilous",
+"dark",
+"dragon"
+]
+},
+"kit_types": {
+"AP18": "psychic",
+"AP01": "fighting",
+"AP0H": "fairy",
+"AP0B": "dark",
+"AP0C": "ground",
+"AP0V": "psychic",
+"AP0W": "ground"
+},
+"elite_ubertip_v335": {
+"AP00": "\"Breathes a cone dealing 125 damage to every enemy in it, then 15 damage per second for 5 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 200 damage to every enemy in it, then 25 damage per second for 5 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 275 damage to every enemy in it, then 35 damage per second for 5 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\"",
+"AP01": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AP02": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\"",
+"AP04": "\"A huge wave dealing 450 damage to every enemy in its path.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 700 damage to every enemy in its path.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 950 damage to every enemy in its path.|n|cffee8130Type: Fire|r Damage grows with the hero's main attribute.\"",
+"AP05": "\"Blasts the target: 120 damage to every enemy around it, +40 to the target.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"Blasts the target: 190 damage to every enemy around it, +60 to the target.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"Blasts the target: 260 damage to every enemy around it, +80 to the target.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\"",
+"AP06": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\"",
+"AP09": "\"A devastating line attack dealing 500 damage to every enemy in it.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"A devastating line attack dealing 750 damage to every enemy in it.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\",\"A devastating line attack dealing 1000 damage to every enemy in it.|n|cff7ac74cType: Grass|r Damage grows with the hero's main attribute.\"",
+"AP0A": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\"",
+"AP0B": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\"",
+"AP0C": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AP0E": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cffb6a136Type: Rock|r Damage grows with the hero's main attribute.\"",
+"AP0F": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AP0G": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AP0H": "\"Deals 200 damage to the target and 125 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 300 damage to the target and 200 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 400 damage to the target and 275 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\"",
+"AP0J": "\"For 15 seconds strikes nearby enemies for 60 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 90 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 120 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AP0K": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AP0L": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\"",
+"AP0O": "\"Deals 450 damage to every enemy around and stuns for 2 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 700 damage to every enemy around and stuns for 2.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 950 damage to every enemy around and stuns for 3 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AP0P": "\"Breathes a cone dealing 125 damage to every enemy in it, then 15 damage per second for 5 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 200 damage to every enemy in it, then 25 damage per second for 5 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 275 damage to every enemy in it, then 35 damage per second for 5 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\"",
+"AP0Q": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\"",
+"AP0T": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cff6f35fcType: Dragon|r Damage grows with the hero's main attribute.\"",
+"AP0U": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\"",
+"AP0V": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AP0W": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AP0Y": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cffb7b7ceType: Steel|r Damage grows with the hero's main attribute.\"",
+"AP0Z": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AP10": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AP14": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\"",
+"AP15": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cff705746Type: Dark|r Damage grows with the hero's main attribute.\"",
+"AP18": "\"For 15 seconds strikes nearby enemies for 60 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 90 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 120 damage.|n|cfff95587Type: Psychic|r Damage grows with the hero's main attribute.\"",
+"AQ00": "\"Blasts the target: 120 damage to every enemy around it, +40 to the target.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Blasts the target: 190 damage to every enemy around it, +60 to the target.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Blasts the target: 260 damage to every enemy around it, +80 to the target.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\"",
+"AQ01": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\"",
+"AQ02": "\"Breathes a cone dealing 125 damage to every enemy in it, then 15 damage per second for 5 seconds.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 200 damage to every enemy in it, then 25 damage per second for 5 seconds.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 275 damage to every enemy in it, then 35 damage per second for 5 seconds.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\"",
+"AQ04": "\"A huge wave dealing 450 damage to every enemy in its path.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 700 damage to every enemy in its path.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 950 damage to every enemy in its path.|n|cff6390f0Type: Water|r Damage grows with the hero's main attribute.\"",
+"AQ05": "\"Deals 150 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 250 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 350 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\"",
+"AQ06": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\"",
+"AQ07": "\"Deals 200 damage to the target and 125 to every enemy around it, slowing for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 300 damage to the target and 200 to every enemy around it, slowing for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Deals 400 damage to the target and 275 to every enemy around it, slowing for 3 seconds.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\"",
+"AQ09": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cfff7d02cType: Electric|r Damage grows with the hero's main attribute.\"",
+"AQ0A": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AQ0B": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AQ0C": "\"Deals 200 damage to the target and 125 to every enemy around it, slowing for 3 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 300 damage to the target and 200 to every enemy around it, slowing for 3 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 400 damage to the target and 275 to every enemy around it, slowing for 3 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AQ0E": "\"Deals 450 damage to every enemy around and stuns for 2 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 700 damage to every enemy around and stuns for 2.5 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\",\"Deals 950 damage to every enemy around and stuns for 3 seconds.|n|cffe2bf65Type: Ground|r Damage grows with the hero's main attribute.\"",
+"AQ0F": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\"",
+"AQ0G": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\"",
+"AQ0H": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\"",
+"AQ0J": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cff96d9d6Type: Ice|r Damage grows with the hero's main attribute.\"",
+"AQ0L": "\"Deals 175 damage to every enemy around and stuns for 1.25 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 275 damage to every enemy around and stuns for 1.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 375 damage to every enemy around and stuns for 1.75 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AQ0M": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AQ0O": "\"Deals 450 damage to every enemy around and stuns for 2 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 700 damage to every enemy around and stuns for 2.5 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\",\"Deals 950 damage to every enemy around and stuns for 3 seconds.|n|cffc22e28Type: Fighting|r Damage grows with the hero's main attribute.\"",
+"AQ0P": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\"",
+"AQ0Q": "\"Deals 150 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 250 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 350 damage to every enemy around the user and slows it by 40% for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\"",
+"AQ0R": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\"",
+"AQ0S": "\"Deals 200 damage to the target and 125 to every enemy around it, slowing for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 300 damage to the target and 200 to every enemy around it, slowing for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"Deals 400 damage to the target and 275 to every enemy around it, slowing for 3 seconds.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\"",
+"AQ0T": "\"A huge wave dealing 450 damage to every enemy in its path.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 700 damage to every enemy in its path.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 950 damage to every enemy in its path.|n|cffa33ea1Type: Poison|r Damage grows with the hero's main attribute.\"",
+"AQ0U": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\"",
+"AQ0V": "\"Blasts the target: 120 damage to every enemy around it, +40 to the target.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Blasts the target: 190 damage to every enemy around it, +60 to the target.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Blasts the target: 260 damage to every enemy around it, +80 to the target.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\"",
+"AQ0W": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\"",
+"AQ0Y": "\"A devastating line attack dealing 500 damage to every enemy in it.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"A devastating line attack dealing 750 damage to every enemy in it.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\",\"A devastating line attack dealing 1000 damage to every enemy in it.|n|cffa6b91aType: Bug|r Damage grows with the hero's main attribute.\"",
+"AQ0Z": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\"",
+"AQ10": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\"",
+"AQ11": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\"",
+"AQ13": "\"For 15 seconds strikes nearby enemies for 60 damage.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 90 damage.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 120 damage.|n|cff735797Type: Ghost|r Damage grows with the hero's main attribute.\"",
+"AQ14": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\"",
+"AQ15": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\"",
+"AQ16": "\"Breathes a cone dealing 125 damage to every enemy in it, then 15 damage per second for 5 seconds.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 200 damage to every enemy in it, then 25 damage per second for 5 seconds.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Breathes a cone dealing 275 damage to every enemy in it, then 35 damage per second for 5 seconds.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\"",
+"AQ18": "\"Calls 8 waves that deal 90 damage each to every enemy in an area.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Calls 10 waves that deal 130 damage each to every enemy in an area.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\",\"Calls 12 waves that deal 170 damage each to every enemy in an area.|n|cffa98ff3Type: Flying|r Damage grows with the hero's main attribute.\"",
+"AQ19": "\"Deals 100 damage, then 20 damage every few seconds and slows.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Deals 175 damage, then 30 damage every few seconds and slows.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Deals 250 damage, then 40 damage every few seconds and slows.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\"",
+"AQ1A": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\"",
+"AQ1B": "\"Strikes in a line, dealing 175 damage to every enemy in it.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 275 damage to every enemy in it.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"Strikes in a line, dealing 375 damage to every enemy in it.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\"",
+"AQ1D": "\"A huge wave dealing 450 damage to every enemy in its path.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 700 damage to every enemy in its path.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\",\"A huge wave dealing 950 damage to every enemy in its path.|n|cffa8a77aType: Normal|r Damage grows with the hero's main attribute.\"",
+"AQ1E": "\"Sends a wave that deals 150 damage to every enemy in a line.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 250 damage to every enemy in a line.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Sends a wave that deals 350 damage to every enemy in a line.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\"",
+"AQ1F": "\"Deals 200 damage to the target and 125 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 300 damage to the target and 200 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 400 damage to the target and 275 to every enemy around it, slowing for 3 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\"",
+"AQ1G": "\"Deals 200 damage to a target and stuns it for 1 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 325 damage to a target and stuns it for 1.25 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"Deals 450 damage to a target and stuns it for 1.5 seconds.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\"",
+"AQ1I": "\"For 15 seconds strikes nearby enemies for 60 damage.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 90 damage.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\",\"For 15 seconds strikes nearby enemies for 120 damage.|n|cffd685adType: Fairy|r Damage grows with the hero's main attribute.\""
+},
+"jass_v335": {
+"Leg_Spawn": "function Leg_Spawn takes nothing returns nothing\n    local unit lg = null\n    local integer tries = 0\n    local integer i = 0\n    local integer c = 0\n    local real x = 0.0\n    local real y = 0.0\n    if Leg_N == 0 then\n        return\n    endif\n    // v3.3.4: a random legend among those that have not appeared yet\n    loop\n        exitwhen i >= Leg_N\n        if Leg_Up[i] == 0 then\n            set c = c + 1\n        endif\n        set i = i + 1\n    endloop\n    if c == 0 then\n        return\n    endif\n    set tries = GetRandomInt(1, c)\n    set i = -1\n    loop\n        set i = i + 1\n        if Leg_Up[i] == 0 then\n            set tries = tries - 1\n        endif\n        exitwhen tries == 0\n    endloop\n    set c = 0\n    if Wild_CampN > 0 then\n        set c = GetRandomInt(0, Wild_CampN - 1)\n        set x = Wild_CampX[c]\n        set y = Wild_CampY[c]\n    endif\n    set lg = CreateUnit(Player(PLAYER_NEUTRAL_AGGRESSIVE), Leg_Type[i], x, y, 270.0)\n    call SaveInteger(Ab_HT, GetHandleId(lg), 0, LoadInteger(Ab_HT, Leg_Type[i], 0))  // v3.3: legends have an Ability\n    set lg = null\n    set Leg_Alive = Leg_Alive + 1\n    set Leg_Up[i] = 1\n    call PingMinimap(x, y, 5.0)\n    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, \"|cffff66ccA wild \" + Leg_Name[i] + \" (Lv 100) appeared! Only level 100 Pokemon can hurt it.|r\")\nendfunction",
+"Leg_OnDeath": "function Leg_OnDeath takes unit u returns nothing\n    local integer i = 0\n    loop\n        exitwhen i >= Leg_N\n        if Leg_Type[i] == GetUnitTypeId(u) then\n            set Leg_Alive = Leg_Alive - 1\n            // v3.3.4: Leg_Up stays 1, the legend never comes back\n            if GetRandomInt(1, 100) <= Leg_SoulChance then\n                call CreateItem(Leg_Soul[i], GetUnitX(u), GetUnitY(u))\n                call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, \"|cffff66cc\" + Leg_Name[i] + \" dropped its Soul!|r\")\n            else\n                call CreateItem('I00B', GetUnitX(u), GetUnitY(u))\n                call CreateItem('I001', GetUnitX(u), GetUnitY(u))\n                call CreateItem('I000', GetUnitX(u), GetUnitY(u))\n            endif\n            return\n        endif\n        set i = i + 1\n    endloop\nendfunction",
+"Mob_FullMana": "function Mob_FullMana takes unit u returns nothing\n    if GetOwningPlayer(u) == Player(PLAYER_NEUTRAL_AGGRESSIVE) and GetUnitState(u, UNIT_STATE_MAX_MANA) > 0.0 then\n        call SetUnitState(u, UNIT_STATE_MANA, GetUnitState(u, UNIT_STATE_MAX_MANA))\n    endif\nendfunction",
+"Mob_OnEnter": "function Mob_OnEnter takes nothing returns boolean\n    call Mob_FullMana(GetTriggerUnit())\n    return false\nendfunction",
+"Mob_InitMana": "function Mob_InitMana takes nothing returns nothing\n    local unit u = null\n    local trigger t = CreateTrigger()\n    call TriggerRegisterEnterRectSimple(t, GetWorldBounds())\n    call TriggerAddCondition(t, Condition(function Mob_OnEnter))\n    call GroupEnumUnitsOfPlayer(Wild_Tmp, Player(PLAYER_NEUTRAL_AGGRESSIVE), null)\n    loop\n        set u = FirstOfGroup(Wild_Tmp)\n        exitwhen u == null\n        call GroupRemoveUnit(Wild_Tmp, u)\n        call Mob_FullMana(u)\n    endloop\n    set t = null\nendfunction"
+},
+"legends": [
+"n001",
+"n00C",
+"n00D",
+"n00F",
+"n00G",
+"n01I",
+"n01J",
+"n01K",
+"n01L",
+"n01M",
+"n01N",
+"n01O",
+"n033",
+"n034",
+"n035",
+"n037",
+"nL05",
+"nL0B",
+"nL0C",
+"nL0D",
+"nL0F",
+"nL10",
+"nL11",
+"nL12",
+"nL13",
+"nL14",
+"nL15",
+"nL16",
+"nL17",
+"nL18"
+],
+"legend_stats_v335": {
+"n001": [
+893,
+131
+],
+"n00C": [
+678,
+169
+],
+"n00D": [
+893,
+131
+],
+"n00F": [
+965,
+135
+],
+"n00G": [
+1072,
+135
+],
+"n01I": [
+643,
+213
+],
+"n01J": [
+857,
+180
+],
+"n01K": [
+1143,
+165
+],
+"n01L": [
+714,
+150
+],
+"n01M": [
+714,
+180
+],
+"n01N": [
+1072,
+75
+],
+"n01O": [
+1100,
+135
+],
+"n033": [
+1072,
+165
+],
+"n034": [
+1072,
+165
+],
+"n035": [
+714,
+150
+],
+"n037": [
+714,
+180
+],
+"nL05": [
+1143,
+165
+],
+"nL0B": [
+893,
+131
+],
+"nL0C": [
+1072,
+165
+],
+"nL0D": [
+1072,
+165
+],
+"nL0F": [
+821,
+131
+],
+"nL10": [
+821,
+120
+],
+"nL11": [
+643,
+172
+],
+"nL12": [
+929,
+183
+],
+"nL13": [
+714,
+225
+],
+"nL14": [
+1072,
+172
+],
+"nL15": [
+714,
+150
+],
+"nL16": [
+1072,
+172
+],
+"nL17": [
+993,
+144
+]
+}
+}
