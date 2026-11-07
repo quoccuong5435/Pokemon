@@ -23,3 +23,6 @@ analysis/pklegends_pokedex*.json
 analysis/pklegends_stats.csv
 analysis/*.html
 tools/known_names_v18.txt
+
+# v3.4: full map scripts (they hold the v1.8 author's code): python -I tools/v34/extract_base.py, then apply.py
+v34/*.j
