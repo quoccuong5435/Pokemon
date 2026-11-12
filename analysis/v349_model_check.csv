@@ -1,0 +1,300 @@
+﻿Nhóm,Thư mục,Kết quả,Lý do loại,Bán kính đo (scale 1),Độ phủ khi render,Animation game phát,Animation của model,Dùng cho chiêu,Có trong bảng map của chiêu
+ChuaDungTrongMap,Mokuton Tree 2,Đạt,,373,4.5%,stand,"Stand (3.0s), Death (2.0s)",Frenzy Plant,
+HieuUng,A-Bomb,Đạt,,663,100.0%,birth,Birth (9.0s),"Explosion, Heat Wave","Explosion, Heat Wave"
+HieuUng,Air,Đạt,,,4.2%,stand,"Stand (1.5s), Death (1.0s)","Surf, Whirlpool","Surf, Whirlpool"
+HieuUng,Amaterasu_New,Đạt,,138,10.1%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)",Mystical Fire,Mystical Fire
+HieuUng,AncientExplode,Đạt,,497,24.1%,birth,Birth (15.0s),Giga Drain,Giga Drain
+HieuUng,AncientExplode_Blue,Đạt,,497,24.4%,birth,Birth (15.0s),Freeze Dry,"Freeze Dry, Icicle Crash"
+HieuUng,AnimatedEnviromentalEffectRain,Đạt,,,34.9%,birth,"Birth (0.5s), Stand (0.5s), Death (0.5s)",Weather Ball,
+HieuUng,AquaSpikeVersion2,Đạt,,524,100.0%,birth,Birth (2.3s),Liquidation,Liquidation
+HieuUng,ArcaneExplosion,Đạt,,193,4.5%,stand,stand (1.3s),"Aurora Beam, Avalanche, Ice Beam, Ice Punch, Icicle Spear, Icy Wind","Aurora Beam, Avalanche, Blizzard, Freeze Dry, Ice Beam, Ice Punch, Icicle Crash, Icicle Spear, Icy Wind"
+HieuUng,ArcaneTornado,Đạt,,235,6.3%,birth,"Death (1.0s), Birth (0.5s), Stand (0.4s)",Hurricane,Hurricane
+HieuUng,BigCloudFogBlack,Đạt,,290,14.1%,birth,"Birth (0.3s), Stand (0.3s), Death (0.3s)",Dark Pulse,"Dark Pulse, Shadow Force"
+HieuUng,Bijuu Dama 2,Đạt,,884,100.0%,birth,Birth (10.0s),Flare Blitz,Flare Blitz
+HieuUng,Black Ball,Đạt,,110,36.2%,stand,Stand (3.3s),Shadow Ball,Shadow Ball
+HieuUng,Black Stomp,Đạt,,663,81.8%,stand,stand (2.3s),"Burning Jealousy, Dark Pulse, Mystical Fire","Burning Jealousy, Dark Pulse, Mystical Fire"
+HieuUng,BlackSmoke,Đạt,,248,16.4%,birth,"Birth (0.5s), Stand (3.8s), Death (0.6s)",,Shadow Force
+HieuUng,BlizzardEruption,Đạt,,400,96.2%,stand,"Stand (3.3s), Death (0.3s)","Hydro Pump, Water Spout","Hydro Pump, Water Spout"
+HieuUng,Blood_Strike,Đạt,,193,8.3%,birth,Birth (6.0s),"Bone Rush, Hurricane, Psycho Boost, X Scissor","Bone Rush, Hurricane, Psycho Boost, X Scissor"
+HieuUng,Blue Boom,Đạt,,524,75.9%,birth,Birth (13.0s),Air Slash,Air Slash
+HieuUng,Blue Explosion,Đạt,,221,13.3%,birth,Birth (7.4s),"Air Slash, Sacred Sword","Air Slash, Sacred Sword"
+HieuUng,BlueBall,Đạt,,497,27.9%,birth,"Birth (6.0s), Death (0.5s)",Water Pulse,Water Pulse
+HieuUng,CenarionFury,Đạt,,248,12.9%,birth,Birth (6.0s),"Giga Drain, Leaf Blade, Psycho Boost","Giga Drain, Leaf Blade, Psycho Boost"
+HieuUng,Cero,Đạt,,359,97.1%,stand,"Stand (3.3s), Death (0.3s)",Icicle Crash,Icicle Crash
+HieuUng,Clone,Đạt,,152,4.4%,birth,"Birth (0.6s), Death (0.4s)","Aura Sphere, Double Hit","Aura Sphere, Double Hit"
+HieuUng,Cross Flame,LOẠI,render thử không hiện gì ở mọi animation,,0.0%,stand,"Death (2.0s), Stand (4.0s)",,Fire Pledge
+HieuUng,DivineRage,Đạt,,138,48.5%,birth,Birth (1.2s),"Aerial Ace, Extreme Speed, Fury Cutter","Extreme Speed, Fury Cutter"
+HieuUng,Doku Fugu,Đạt,,124,14.9%,stand,"Stand (0.5s), Death (1.5s)",Sludge Bomb,Sludge Bomb
+HieuUng,Doku Gumo 1,Đạt,,386,6.2%,birth,"Birth (0.3s), Stand (0.3s), Death (0.3s)","Sludge Wave, Smog","Sludge Wave, Smog"
+HieuUng,Doku Gumo 2,Đạt,,221,7.6%,birth,"Birth (0.3s), Stand (0.3s), Death (0.3s)",Smog,Smog
+HieuUng,EarthNova,Đạt,,773,70.2%,birth,Birth (1.5s),Shadow Ball,Shadow Ball
+HieuUng,Effect_1,Đạt,,290,100.0%,birth,"Birth (1.0s), Stand (0.4s), Death (2.0s)",Fire Pledge,Fire Pledge
+HieuUng,EmpBomb,Đạt,,166,6.9%,birth,Birth (2.0s),"Discharge, Spark, Thunder Punch","Discharge, Spark, Thunder Punch"
+HieuUng,Enton Honoikazuchi 1,Đạt,,207,13.1%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)",Burning Jealousy,Burning Jealousy
+HieuUng,Explosion,Đạt,,276,86.6%,birth,Birth (1.3s),"Boomburst, Expanding Force","Boomburst, Expanding Force"
+HieuUng,Final Wave Zoro,Đạt,,345,14.4%,stand,"Birth (0.0s), stand (1.2s), Death (0.4s)",Leaf Blade,Leaf Blade
+HieuUng,Fire Ace,Đạt,,152,24.4%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)",Inferno,Inferno
+HieuUng,FireShockRun1,Đạt,,207,26.7%,stand,"Stand (0.5s), Death (1.5s)","Blaze Kick, Double Kick, Flame Charge, Mega Kick","Blaze Kick, Double Kick, Flame Charge, Mega Kick"
+HieuUng,FireStomp,Đạt,,718,91.1%,stand,stand (2.3s),"Draco Meteor, Lava Plume","Draco Meteor, Lava Plume"
+HieuUng,FireStone,Đạt,,607,14.4%,birth,Birth (3.1s),Draco Meteor,Draco Meteor
+HieuUng,Flame_Model_2,Đạt,,442,95.4%,birth,Birth (1.3s),"Blast Burn, Fire Punch, Inferno","Blast Burn, Fire Punch, Inferno"
+HieuUng,Freezing_Ring2,Đạt,,262,85.7%,birth,Birth (1.3s),Whirlpool,Whirlpool
+HieuUng,GainLife,Đạt,,166,15.9%,birth,"Stand (0.9s), Death (2.0s), Birth (1.0s)",Psychic,Psychic
+HieuUng,Getsuga Effect,Đạt,,179,5.9%,birth,Birth (5.1s),Avalanche,Avalanche
+HieuUng,Glow,Đạt,,41,8.6%,stand,Stand (2.0s),Hyper Beam,Hyper Beam
+HieuUng,GlowBlack,LOẠI,render thử không hiện gì ở mọi animation,,0.0%,birth,"Birth (3.3s), Stand - 1 (3.3s), Stand - 2 (6.7s), Stand - 3 (6.7s), Death (1.0s)",,Shadow Force
+HieuUng,GlowLineBlue,Đạt,,,18.9%,birth,Birth (5.1s),Icicle Spear,Icicle Spear
+HieuUng,Goshikito,Đạt,,331,15.2%,stand,"stand (1.2s), Death (0.4s)",X Scissor,X Scissor
+HieuUng,GreatLightning,Đạt,,331,10.4%,stand,Stand (4.0s),"Discharge, Thunder","Discharge, Thunder"
+HieuUng,Green Explosion,Đạt,,221,12.7%,birth,Birth (7.4s),Shadow Ball,Shadow Ball
+HieuUng,Haki DV,Đạt,,179,42.9%,birth,Birth (9.0s),Air Slash,Air Slash
+HieuUng,HarvestLife,Đạt,,166,13.7%,birth,"Stand (0.9s), Death (2.0s), Birth (1.0s)",Shadow Ball,Shadow Ball
+HieuUng,HolyBomb,Đạt,,276,87.4%,birth,Birth (1.3s),"Aerial Ace, Extreme Speed",Extreme Speed
+HieuUng,HolyTornado,Đạt,,262,7.0%,birth,"Death (1.0s), Birth (0.5s), Stand (0.4s)",Hurricane,Hurricane
+HieuUng,Hydra Damage,Đạt,,221,44.6%,birth,Birth (1.4s),Sludge Bomb,Sludge Bomb
+HieuUng,Hyourinmaru 1,Đạt,,110,37.1%,death,Death (1.6s),"Freeze Dry, Ice Beam","Freeze Dry, Ice Beam"
+HieuUng,Hyouten Hyakkasou,Đạt,,317,10.1%,stand,Stand (1.7s),Blizzard,"Blizzard, Icicle Spear"
+HieuUng,Ice Pillar,Đạt,,69,2.1%,birth,"Death (3.3s), Stand (3.3s), Birth (3.3s)",Icicle Crash,Icicle Crash
+HieuUng,IceNova,Đạt,,317,55.6%,stand,stand (1.3s),"Blizzard, Icicle Crash, Icy Wind","Blizzard, Icicle Crash, Icy Wind"
+HieuUng,IceStomp,Đạt,,939,89.6%,stand,stand (9.3s),"Blizzard, Freeze Dry, Icicle Crash","Blizzard, Freeze Dry, Icicle Crash"
+HieuUng,IceStompMist,Đạt,,442,23.8%,stand,stand (2.1s),Blizzard,Blizzard
+HieuUng,Indra's Effect,Đạt,,193,24.8%,birth,"Birth (0.4s), Stand (1.0s), Death (3.0s)","Charge Beam, Shock Wave, Thunderbolt","Charge Beam, Shock Wave, Thunderbolt"
+HieuUng,IonCannonBlue,Đạt,,552,97.7%,birth,Birth (13.6s),Hyper Beam,Hyper Beam
+HieuUng,KamehameHa,Đạt,,442,49.9%,stand,Stand (0.2s),Hyper Beam,Hyper Beam
+HieuUng,KatonGoukaMesshitsu,Đạt,,386,20.0%,birth,"Birth (5.0s), Death (0.1s)","Dragon Rush, Fire Blast",Fire Blast
+HieuUng,Kurama Effect,Đạt,,235,16.9%,birth,Birth (7.4s),Psychic,Psychic
+HieuUng,Lava Crack,LOẠI,"không render thử được (model gọi hiệu ứng phụ của game), chưa xác nhận",,không render được,,,,Flare Blitz
+HieuUng,Lava_Bomd,LOẠI,"chỉ là một chấm rất nhỏ, khung model lỗi (bán kính vô cực)",41,0.4%,stand,"Death - 1 (4.0s), Stand (1.0s), Death - 2 (4.0s), Death - 3 (4.0s)",,"Eruption, Fire Fang, Flare Blitz"
+HieuUng,Lava_Fall,Đạt,,1491,15.6%,birth,Birth (7.0s),Eruption,Eruption
+HieuUng,Liberation,Đạt,,83,13.5%,stand,"Death (2.3s), Stand (1.6s)",Dark Pulse,"Dark Pulse, Shadow Force"
+HieuUng,LightningBoom,Đạt,,262,92.8%,birth,Birth (1.1s),Thunder,Thunder
+HieuUng,Mokuton (2),Đạt,,304,17.7%,stand,"Stand (2.9s), Death (0.4s)","Frenzy Plant, Petal Blizzard, Wood Hammer","Petal Blizzard, Wood Hammer"
+HieuUng,Mokuton Tree 1,Đạt,,373,18.9%,stand,"Stand (3.0s), Death (2.0s)","Frenzy Plant, Wood Hammer",Wood Hammer
+HieuUng,Natsu Flame 2,Đạt,,248,57.3%,birth,"Birth (0.5s), Stand (0.9s), Death (0.7s)",Blast Burn,Blast Burn
+HieuUng,Natsu Spell E,Đạt,,262,37.6%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)","Dragon Claw, Fire Spin, Temper Flare","Dragon Claw, Fire Spin, Temper Flare"
+HieuUng,Natsu Wing,Đạt,,400,11.5%,stand,"Stand (1.0s), Death (1.0s)",Blast Burn,Blast Burn
+HieuUng,NewBlood,Đạt,,276,12.0%,birth,Birth (6.0s),Power Whip,Power Whip
+HieuUng,Pondo Hou,Đạt,,110,7.5%,birth,"Birth (0.3s), Stand (0.8s)",Air Slash,Air Slash
+HieuUng,PsiWave,Đạt,,359,15.5%,stand,stand (1.3s),Sacred Sword,Sacred Sword
+HieuUng,PurgeBuffTarget,Đạt,,83,6.2%,birth,"Birth (0.5s), Stand (0.7s), Death (0.6s)",,Hyper Beam
+HieuUng,PurpleExplosion_2,Đạt,,221,13.4%,birth,Birth (7.4s),"Mystical Fire, Sludge Bomb, Sludge Wave","Mystical Fire, Sludge Bomb, Sludge Wave"
+HieuUng,Raienryuu no Houkou,Đạt,,124,20.9%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)",Flamethrower,Flamethrower
+HieuUng,Red Cero,Đạt,,276,39.4%,birth,Birth (0.5s),Zap Cannon,Zap Cannon
+HieuUng,Red Damage,Đạt,,110,12.0%,stand,"Stand (0.5s), Death (1.5s)","Gunk Shot, Zap Cannon","Gunk Shot, Zap Cannon"
+HieuUng,Red Explosion,Đạt,,221,14.2%,birth,Birth (7.4s),Zap Cannon,Zap Cannon
+HieuUng,RedDragonFlame,Đạt,,166,4.7%,stand,"Birth (0.1s), Stand (0.6s), Death (0.3s)","Dragon Rush, Fire Blast, Fire Fang, Flame Charge","Fire Blast, Fire Fang, Flame Charge, Sacred Sword"
+HieuUng,RedDragonHead,Đạt,,166,22.2%,stand,"Birth (0.1s), Stand (0.4s), Death (0.3s)","Dragon Rush, Fire Fang",Fire Fang
+HieuUng,SandAura,Đạt,,290,25.6%,stand,Stand (61.1s),"Sand Tomb, Scorching Sands","Sand Tomb, Scorching Sands"
+HieuUng,Sand_Effect,Đạt,,290,17.4%,birth,Birth (8.0s),Sand Tomb,Sand Tomb
+HieuUng,Sand_Loop,Đạt,,607,41.7%,stand,"Stand (0.7s), Death (1.0s)",Earth Power,Earth Power
+HieuUng,Sand_New_Spell,Đạt,,345,89.9%,birth,Birth (0.8s),"Sand Tomb, Scorching Sands","Sand Tomb, Scorching Sands"
+HieuUng,ShockwaveYellow,Đạt,,607,60.3%,birth,Birth (2.1s),"Flash Cannon, Solar Beam","Flash Cannon, Solar Beam"
+HieuUng,Slam,Đạt,,193,4.5%,birth,Birth (5.0s),Eruption,Eruption
+HieuUng,Slam Ice,Đạt,,455,26.0%,birth,"by valkemiere (0.4s), Birth (3.0s)",Avalanche,Avalanche
+HieuUng,SpecialAnimeDustWave,Đạt,,166,0.9%,birth,Birth (1.0s),Dragon Claw,Dragon Claw
+HieuUng,Spell W Law,Đạt,,179,22.1%,stand,stand (1.3s),"Dazzling Gleam, Dragon Claw","Dazzling Gleam, Dragon Claw"
+HieuUng,SpiritArrow_ByEpsilon,Đạt,,41,1.2%,stand,"Stand (0.3s), Birth (0.0s), Death (1.5s)",Freeze Dry,Freeze Dry
+HieuUng,Splat,Đạt,,1491,78.5%,birth,Birth (9.0s),Eruption,"Eruption, Hyper Beam"
+HieuUng,SuperShinyThingy,Đạt,,455,30.5%,stand,Stand (1.3s),Hyper Beam,Hyper Beam
+HieuUng,Susanoo Tsukumo,Đạt,,428,2.9%,birth,Birth (0.5s),Psycho Boost,Psycho Boost
+HieuUng,TheShow,Đạt,,97,4.9%,attack - 1,attack - 1 (3.0s),Petal Blizzard,Petal Blizzard
+HieuUng,ThunderStrike,Đạt,,497,40.1%,birth,Birth (0.4s),Zap Cannon,Zap Cannon
+HieuUng,TidalEruption,Đạt,,290,24.0%,birth,Birth (2.1s),Hydro Cannon,Hydro Cannon
+HieuUng,Water Float,Đạt,,331,100.0%,birth,"Birth (2.1s), Death (0.6s)",Blizzard,Blizzard
+HieuUng,WaterArmor,Đạt,,124,22.8%,birth,"Birth (0.9s), Stand (0.7s), Death (0.7s)",Sacred Sword,Sacred Sword
+HieuUng,WaterAura,Đạt,,552,84.1%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)",Aeroblast,Aeroblast
+HieuUng,WaterBlast,Đạt,,152,2.9%,stand,stand (1.3s),Hydro Pump,Hydro Pump
+HieuUng,WaterBlobs1,Đạt,,83,19.1%,birth,"Birth (0.2s), Stand (1.0s), Death (2.5s)","Surf, Weather Ball",Surf
+HieuUng,WaterEnchant,Đạt,,166,56.2%,birth,Birth (4.0s),"Freeze Dry, Ice Beam","Freeze Dry, Ice Beam"
+HieuUng,WaterfallFX,Đạt,,235,33.9%,stand,Stand (1.4s),Whirlpool,Whirlpool
+HieuUng,WhirlPool,Đạt,,607,52.9%,stand,"birth (0.1s), stand (3.0s), death (8.7s)","Surf, Whirlpool","Surf, Whirlpool"
+HieuUng,White Effect 1,Đạt,,179,15.2%,birth,Birth (1.0s),Dragon Pulse,Dragon Pulse
+HieuUng,White Explosion,Đạt,,221,13.9%,birth,Birth (7.4s),"Dragon Pulse, Hyper Beam","Dragon Pulse, Hyper Beam"
+HieuUng,White Haku,Đạt,,110,13.5%,stand,"Death (2.3s), Stand (1.6s)","Dragon Pulse, X Scissor","Dragon Pulse, X Scissor"
+HieuUng,White Holy,Đạt,,455,46.9%,stand,"Stand (0.2s), Death (0.4s)",Dazzling Gleam,Dazzling Gleam
+HieuUng,White Ring,Đạt,,248,10.6%,birth,Birth (1.0s),X Scissor,X Scissor
+HieuUng,White Spell Aura 1,Đạt,,276,17.6%,birth,"Birth (0.5s), Stand (3.8s), Death (0.6s)",Dragon Pulse,Dragon Pulse
+HieuUng,WhiteShockwave,Đạt,,773,69.8%,birth,Birth (2.1s),"Dazzling Gleam, Dragon Pulse","Dazzling Gleam, Dragon Pulse"
+HieuUng,Wind,Đạt,,359,12.9%,birth,"Birth (0.7s), Stand (0.7s), Death (0.7s)",Fire Punch,Fire Punch
+HieuUng,Yellow Goku Effect,Đạt,,235,82.9%,birth,Birth (3.1s),Psychic,Psychic
+HieuUng,Zoro Wave,Đạt,,442,8.0%,stand,"Birth (0.0s), stand (1.2s), Death (0.4s)",Leaf Blade,Leaf Blade
+HieuUng_ENG,@Rock_Lee_Green_Aura,Đạt,,152,32.4%,birth,Birth (2.8s),"Brick Break, High Jump Kick","Brick Break, High Jump Kick"
+HieuUng_ENG,@Terumi_SP_Sp3,Đạt,,442,37.1%,birth,birth (0.6s),Aqua Jet,Aqua Jet
+HieuUng_ENG,AZ Air Dust,Đạt,,994,5.8%,birth,Birth (0.8s),Rock Wrecker,Rock Wrecker
+HieuUng_ENG,AZ_Fireblue Doku 2,Đạt,,428,31.4%,stand,"Stand (2.9s), Death (0.6s)",Gunk Shot,Gunk Shot
+HieuUng_ENG,AZ_Storm_Red 2,Đạt,,607,51.7%,birth,"birth (1.0s), death (2.5s)",Gunk Shot,Gunk Shot
+HieuUng_ENG,AZenitsu (7),Đạt,,3682,5.7%,death,death (6.0s),Quick Attack,Quick Attack
+HieuUng_ENG,Aizen Effect Damage,Đạt,,524,100.0%,stand,stand (2.0s),"Slash, Spacial Rend","Slash, Spacial Rend"
+HieuUng_ENG,Aizen Skill - Fragor Effect Damage,Đạt,,235,79.0%,birth,Birth (1.8s),Rock Wrecker,Rock Wrecker
+HieuUng_ENG,Aizen Skill - Kyouka Suigetsu 2,Đạt,,41,3.2%,birth,Birth (1.8s),Confusion,Confusion
+HieuUng_ENG,AquaSpikeVersion2 (ENG),Đạt,,524,100.0%,birth,Birth (2.3s),"Aqua Jet, Dive","Aqua Jet, Dive"
+HieuUng_ENG,BByakuya (27),Đạt,,442,6.8%,stand,Stand (2.0s),Sucker Punch,Sucker Punch
+HieuUng_ENG,BByakuya (30),Đạt,,939,66.5%,birth,Birth (1.0s),"Petal Dance, Razor Leaf","Petal Dance, Razor Leaf"
+HieuUng_ENG,BByakuya (34),Đạt,,97,8.9%,stand,"Death (2.0s), Stand (1.2s), Birth (0.0s)","Razor Leaf, Sucker Punch","Razor Leaf, Sucker Punch"
+HieuUng_ENG,BByakuya (37),LOẠI,"là model nhân vật, không phải hiệu ứng",97,15.7%,death,Death (2.5s),,Sucker Punch
+HieuUng_ENG,BByakuya (42),Đạt,,1325,29.5%,birth,Birth (0.5s),,Razor Leaf
+HieuUng_ENG,BByakuya (50),Đạt,,386,14.3%,death,Death (1.0s),Sucker Punch,Sucker Punch
+HieuUng_ENG,BByakuya (51),Đạt,,262,5.1%,birth,"birth (1.0s), death (2.0s)",Petal Dance,Petal Dance
+HieuUng_ENG,BByakuya (53),Đạt,,773,97.7%,stand,"Stand (1.6s), Death (1.0s)",Razor Leaf,Razor Leaf
+HieuUng_ENG,BByakuya (58),Đạt,,773,5.8%,birth,"birth (0.7s), death (0.7s)",Razor Leaf,Razor Leaf
+HieuUng_ENG,BByakuya (59),Đạt,,828,43.9%,birth,Birth (1.0s),Petal Dance,Petal Dance
+HieuUng_ENG,BD_Goku (16),Đạt,,1546,57.4%,birth,"birth (0.5s), stand (0.5s), death (2.0s)",Origin Pulse,Origin Pulse
+HieuUng_ENG,BD_Goku (20),Đạt,,552,9.7%,birth,"Birth (0.2s), Stand (0.2s), Death (0.4s)",Origin Pulse,Origin Pulse
+HieuUng_ENG,BD_Goku (26),Đạt,,262,10.1%,birth,"Birth (0.4s), Stand (0.3s), Death (0.4s)",Focus Blast,Focus Blast
+HieuUng_ENG,BD_Goku (28),Đạt,,317,42.7%,stand,"Stand (1.0s), Death (0.2s)",Origin Pulse,Origin Pulse
+HieuUng_ENG,BD_Goku (32),Đạt,,442,26.8%,stand,"stand (1.0s), death (1.0s)",Focus Blast,Focus Blast
+HieuUng_ENG,BD_Goku (6),Đạt,,317,15.6%,death,death (2.0s),Aqua Jet,Aqua Jet
+HieuUng_ENG,BToshiro (20),Đạt,,386,16.6%,death,death (3.0s),"Ice Shard, Ice Spinner","Ice Shard, Ice Spinner"
+HieuUng_ENG,BToshiro (26),Đạt,,497,100.0%,stand,Stand (5.9s),Ice Spinner,Ice Spinner
+HieuUng_ENG,BToshiro (37),Đạt,,994,100.0%,birth,"Birth (1.2s), Death (3.0s)",Ice Spinner,Ice Spinner
+HieuUng_ENG,BToshiro (5),Đạt,,290,39.7%,stand,"Stand (0.2s), Death (0.3s)",Ice Spinner,Ice Spinner
+HieuUng_ENG,BToshiro (59),Đạt,,262,16.8%,birth,"birth (1.0s), death (2.0s)",Ice Spinner,Ice Spinner
+HieuUng_ENG,BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_2_2_2,Đạt,,663,56.6%,death,death (2.6s),Earthquake,Earthquake
+HieuUng_ENG,Bankai Aura 2021,Đạt,,248,20.8%,stand,"Stand (1.3s), Death (0.3s)",Power Gem,Power Gem
+HieuUng_ENG,Bijuu Aura,Đạt,,552,84.2%,stand,"Stand (1.1s), Birth (0.0s), Death (0.3s)","Blaze Kick, Double Kick, Mega Kick","Blaze Kick, Double Kick, Mega Kick"
+HieuUng_ENG,BlackChidori,LOẠI,"gần như không hiện (dưới 0,3% khung hình)",55,0.2%,birth,"Birth (0.3s), Stand (0.5s), Death (0.5s)",,Thunder Punch
+HieuUng_ENG,BlackChidori Style 2,Đạt,,483,4.1%,birth,"birth (0.6s), death (2.0s)",Thunder Punch,Thunder Punch
+HieuUng_ENG,Black_Effect2,Đạt,,828,90.9%,birth,Birth (1.5s),Confusion,Confusion
+HieuUng_ENG,BlueDoom (ENG),Đạt,,262,38.4%,birth,Birth (0.5s),Future Sight,Future Sight
+HieuUng_ENG,Chibaku Tensei Sasuke,Đạt,,1491,100.0%,birth,"Birth (2.7s), Death (3.0s), Stand (0.5s)",Rock Wrecker,Rock Wrecker
+HieuUng_ENG,Crack Green Mihawk,Đạt,,179,75.0%,death,Death (1.0s),High Jump Kick,High Jump Kick
+HieuUng_ENG,DON Flame New 2020,Đạt,,317,12.7%,birth,Birth (6.0s),Self Destruct,Self Destruct
+HieuUng_ENG,Daisen Sekai Type 1,Đạt,,359,4.7%,stand,Stand (2.0s),Blaze Kick,Blaze Kick
+HieuUng_ENG,Daisen Sekai Type 2,Đạt,,414,16.9%,stand,Stand (5.0s),Dragon Claw,Dragon Claw
+HieuUng_ENG,Danku Dust,Đạt,,345,35.6%,birth,Birth (0.8s),Vacuum Wave,Vacuum Wave
+HieuUng_ENG,Doku Doku Effect (1),Đạt,,221,8.7%,stand,Stand (3.3s),Venoshock,Venoshock
+HieuUng_ENG,Doku Doku Effect (2),Đạt,,179,5.0%,birth medium,"Birth Medium (1.3s), Stand Medium (3.3s), Death Medium (0.0s)",Venoshock,Venoshock
+HieuUng_ENG,Doku Doku Effect (5),Đạt,,276,13.5%,birth,Birth (3.0s),Cut,Cut
+HieuUng_ENG,Doku Doku Effect (6),Đạt,,373,35.2%,birth,Birth (7.0s),Venoshock,Venoshock
+HieuUng_ENG,Dust Indra's Slyte 1,Đạt,,221,6.8%,death,death (3.0s),"Shock Wave, Thunderbolt","Shock Wave, Thunderbolt"
+HieuUng_ENG,DustWave_2021,Đạt,,110,11.8%,birth,"Death (0.9s), Birth (1.2s), Stand  (1.0s), spell (1.0s)","Blaze Kick, Double Kick, Mega Kick","Blaze Kick, Double Kick, Mega Kick"
+HieuUng_ENG,E Tanjiro (1),Đạt,,235,77.2%,birth,"birth (1.0s), death (1.0s)",Aqua Cutter,Aqua Cutter
+HieuUng_ENG,E Tanjiro (10),Đạt,,1988,36.2%,stand,"Stand (2.0s), death (0.5s)",Waterfall,Waterfall
+HieuUng_ENG,E Tanjiro (11),Đạt,,469,14.4%,stand,"Stand (1.0s), Death (1.0s), death gold (1.0s)",Waterfall,Waterfall
+HieuUng_ENG,E Tanjiro (19),Đạt,,552,99.9%,death,death (2.0s),"Razor Shell, Waterfall, Wave Crash","Razor Shell, Waterfall, Wave Crash"
+HieuUng_ENG,E Tanjiro (2),Đạt,,221,36.6%,death,Death (1.0s),"Aqua Cutter, Aqua Jet, Razor Shell, Waterfall, Wave Crash","Aqua Cutter, Aqua Jet, Razor Shell, Waterfall, Wave Crash"
+HieuUng_ENG,E Tanjiro (20),Đạt,,773,16.3%,death,Death (0.4s),Psycho Cut,Psycho Cut
+HieuUng_ENG,E Tanjiro (24),Đạt,,1767,95.5%,stand,"Stand (2.0s), ±¾Ä£ÐÍ°æÈ¨ÓÉÍõÕßº½º£×÷Õß×¨Êô£¬Î´¾­ÔÊÐí½ûÖ¹·¢²¼·ÖÏíÓëÊ¹ÓÃ (0.0s)",Flame Wheel,Flame Wheel
+HieuUng_ENG,E Tanjiro (3),Đạt,,110,12.9%,birth,"Death (0.9s), Birth (1.2s), Stand  (1.0s), Spell (1.0s)",Aqua Cutter,Aqua Cutter
+HieuUng_ENG,E Tanjiro (39),Đạt,,1657,82.2%,stand,"±¾Ä£ÐÍÓÉÍõÕßº½º£×÷ÕßGodBoy(QQ:724526101)ÖÆ×÷£¬Î´¾­ÔÊÐí½ûÖ¹·¢²¼·ÖÏíÓëÊ¹ÓÃ (0.0s), Stand (1.7s)",Incinerate,Incinerate
+HieuUng_ENG,E Tanjiro (4),Đạt,,124,10.5%,stand,"Death (1.0s), Stand (1.0s)",Aqua Cutter,Aqua Cutter
+HieuUng_ENG,E Tanjiro (43),Đạt,,607,55.6%,death,death (2.0s),Flame Wheel,Flame Wheel
+HieuUng_ENG,E Tanjiro (5),Đạt,,207,22.3%,birth,"birth (1.0s), death (1.0s)",Aqua Cutter,Aqua Cutter
+HieuUng_ENG,E Tanjiro (6),Đạt,,663,27.7%,birth,"Birth (0.7s), Stand (1.0s), Death (1.8s)",Wave Crash,Wave Crash
+HieuUng_ENG,E Tanjiro (9),Đạt,,235,52.0%,birth az,Birth AZ (3.3s),Razor Shell,Razor Shell
+HieuUng_ENG,Earth Slam 2020,Đạt,,386,15.1%,birth,"birth (1.0s), death (6.0s)",Hammer Arm,Hammer Arm
+HieuUng_ENG,Effect AZ Tornado Shock,Đạt,,828,91.7%,birth,Birth (1.0s),Supercell Slam,Supercell Slam
+HieuUng_ENG,Empyrean Nova Classic,Đạt,,483,70.7%,birth,Birth (2.0s),"Solar Beam, Thrash","Solar Beam, Thrash"
+HieuUng_ENG,FInuyasha (10),Đạt,,262,17.8%,birth,"birth (0.5s), death (2.0s)",Power Gem,Power Gem
+HieuUng_ENG,FInuyasha (14),Đạt,,1325,9.7%,birth az,Birth AZ (2.0s),"Crush Claw, Power Gem","Crush Claw, Power Gem"
+HieuUng_ENG,FInuyasha (17),Đạt,,138,5.5%,birth,"Stand (3.3s), Death (1.2s), Birth (0.5s)",Slash,Slash
+HieuUng_ENG,FInuyasha (18),Đạt,,166,0.6%,birth,"Stand (1.0s), Death (1.2s), Birth (0.5s)",Spacial Rend,Spacial Rend
+HieuUng_ENG,FInuyasha (29),Đạt,,607,100.0%,death,death (2.0s),Spacial Rend,Spacial Rend
+HieuUng_ENG,FInuyasha (3),Đạt,,345,4.6%,stand,"Stand (0.7s), Death (1.2s)",Crush Claw,Crush Claw
+HieuUng_ENG,FInuyasha (36),Đạt,,331,74.1%,birth,"birth (0.6s), death (1.0s)",Spacial Rend,Spacial Rend
+HieuUng_ENG,FInuyasha (4),Đạt,,69,4.0%,death,death (2.0s),"Power Gem, Slash, Spacial Rend","Power Gem, Slash, Spacial Rend"
+HieuUng_ENG,FInuyasha (45),Đạt,,248,5.2%,stand,"stand (1.0s), death (1.0s)",Slash,Slash
+HieuUng_ENG,FInuyasha (46),Đạt,,248,4.8%,stand,"stand (1.0s), death (1.0s)",,Slash
+HieuUng_ENG,FInuyasha (47),Đạt,,511,100.0%,stand,stand (2.0s),Slash,Slash
+HieuUng_ENG,FInuyasha (48),Đạt,,497,99.6%,stand,stand (2.0s),,Slash
+HieuUng_ENG,FS_Natsu (16),Đạt,,469,23.1%,death,Death (4.5s),Sacred Fire,Sacred Fire
+HieuUng_ENG,FS_Natsu (29),Đạt,,607,55.1%,birth,"birth (1.0s), death (2.5s)",Sacred Fire,Sacred Fire
+HieuUng_ENG,FS_Natsu (6),Đạt,,663,14.0%,birth,"birth (1.0s), death (4.0s)",Sacred Fire,Sacred Fire
+HieuUng_ENG,Fuuton Rasen Shuriken 2020,Đạt,,193,66.9%,birth,"Birth (1.0s), Stand (0.3s), Death (0.4s)",Aeroblast,Aeroblast
+HieuUng_ENG,GJ Style (2),Đạt,,55,11.2%,stand,Stand (2.0s),Dynamic Punch,Dynamic Punch
+HieuUng_ENG,GJ Style (20),Đạt,,524,100.0%,death,Death (2.0s),Revenge,Revenge
+HieuUng_ENG,GJ Style (21),Đạt,,524,9.2%,birth,"Birth (0.2s), Stand (0.2s), Death (0.4s)",Overheat,Overheat
+HieuUng_ENG,GJ Style (25),Đạt,,497,36.0%,birth,"Birth (0.4s), Stand (0.3s), Death (0.4s)",Revenge,Revenge
+HieuUng_ENG,GJ Style (3),Đạt,,386,11.4%,death,Death (1.9s),Incinerate,"Incinerate, Sacred Fire"
+HieuUng_ENG,GJ Style (5),Đạt,,773,69.7%,birth,Birth (2.1s),"Close Combat, Dynamic Punch, Overheat, Revenge","Close Combat, Dynamic Punch, Overheat, Revenge, Upper Hand"
+HieuUng_ENG,GJ Style (8),Đạt,,345,29.7%,birth,Birth (1.5s),"Revenge, Upper Hand","Revenge, Upper Hand"
+HieuUng_ENG,Getsuga Gran Rey Cero 2,Đạt,,607,51.1%,birth,"birth (1.0s), death (2.5s)",Supercell Slam,Supercell Slam
+HieuUng_ENG,Green Effect,Đạt,,290,10.5%,stand,"Death (3.0s), Stand (1.0s)",Energy Ball,Energy Ball
+HieuUng_ENG,HCifer Style (12),Đạt,,607,52.0%,birth,"birth (1.0s), death (2.5s)",Moonblast,Moonblast
+HieuUng_ENG,HCifer Style (25),Đạt,,290,65.1%,birth,Birth (6.0s),Night Slash,Night Slash
+HieuUng_ENG,HakkeAura 1,Đạt,,773,62.4%,stand,"Stand (1.3s), Death (0.5s)",Force Palm,Force Palm
+HieuUng_ENG,Kanzen Eishou Kurohitsugi 1,Đạt,,386,15.0%,stand,"Stand (6.7s), Death (1.0s)",Hex,Hex
+HieuUng_ENG,Kanzen Eishou Kurohitsugi 2,Đạt,,207,5.9%,stand,"Death (2.3s), Stand (0.7s)",Hex,Hex
+HieuUng_ENG,Kokuto Arashi Style 2,Đạt,,235,6.8%,stand,stand (0.8s),Rapid Spin,Rapid Spin
+HieuUng_ENG,Lightning Explosion 2020,Đạt,,359,15.5%,death,death (2.0s),Shock Wave,Shock Wave
+HieuUng_ENG,Lion Fists Crit 1,Đạt,,828,43.2%,birth,Birth (1.0s),Future Sight,Future Sight
+HieuUng_ENG,MS Tsukuyomi #1,Đạt,,400,43.4%,birth,"birth (0.5s), death (6.0s)",Dream Eater,Dream Eater
+HieuUng_ENG,MS Tsukuyomi #2,Đạt,,373,14.4%,stand,Stand (2.0s),Dream Eater,Dream Eater
+HieuUng_ENG,Missile Black (1),Đạt,,69,13.0%,stand,"Death (2.3s), Stand (1.6s)",Psybeam,Psybeam
+HieuUng_ENG,Missile Black (14),Đạt,,248,6.6%,stand,"Stand (0.2s), Death (0.1s)",Psycho Cut,Psycho Cut
+HieuUng_ENG,Missile Black (18),Đạt,,193,25.6%,birth,"birth (0.5s), death (1.0s)",Psybeam,Psybeam
+HieuUng_ENG,Missile Black (2),Đạt,,773,69.2%,birth,Birth (2.1s),Psybeam,Psybeam
+HieuUng_ENG,Missile Black (30),Đạt,,262,10.1%,birth,"Birth (0.4s), Stand (0.3s), Death (0.4s)",Judgment,Judgment
+HieuUng_ENG,Missile Black (5),Đạt,,442,30.5%,stand,Stand (1.3s),Psybeam,Psybeam
+HieuUng_ENG,Mokuton Fire,Đạt,,718,98.2%,stand,stand (2.3s),"Dragon Claw, Temper Flare","Dragon Claw, Temper Flare"
+HieuUng_ENG,Mokuton Sashiki All,Đạt,,828,6.3%,stand,"Stand (0.5s), Death (1.0s)",Bullet Seed,Bullet Seed
+HieuUng_ENG,Momoshiki Effect (1),Đạt,,235,90.8%,birth,"birth (1.0s), death (2.0s)","Air Cutter, Twister","Air Cutter, Twister"
+HieuUng_ENG,Momoshiki Effect (14),Đạt,,1215,83.6%,birth,"birth (1.0s), death (1.0s)","Sacred Fire, Upper Hand","Sacred Fire, Upper Hand"
+HieuUng_ENG,Momoshiki Effect (3),Đạt,,207,30.7%,stand,"Stand (4.0s), Death (0.5s), Birth (0.1s)",Thunder Shock,Thunder Shock
+HieuUng_ENG,Momoshiki Effect (5),Đạt,,304,98.6%,birth,Birth (0.5s),Aqua Jet,Aqua Jet
+HieuUng_ENG,Nagashi 2020 Style 1,Đạt,,2025,91.0%,stand,Stand (2.5s),Spark,Spark
+HieuUng_ENG,Nagashi 2020 Style 2,Đạt,,317,15.1%,death,death (3.0s),"Thunder Shock, Thunderbolt","Thunder Shock, Thunderbolt"
+HieuUng_ENG,Newgate Style (2),Đạt,,497,30.9%,birth - 1,"birth - 1 (1.0s), XXdeath (1.0s)","Bulldoze, Earthquake","Bulldoze, Earthquake"
+HieuUng_ENG,Newgate Style (6),Đạt,,193,17.0%,birth,Birth (1.0s),"Bulldoze, Earthquake","Bulldoze, Earthquake"
+HieuUng_ENG,Newgate Style (8),Đạt,,331,19.3%,stand,"Stand (3.0s), Spell (1.2s)",Bulldoze,Bulldoze
+HieuUng_ENG,Newgate Style (9),Đạt,,248,5.1%,stand,"stand (1.0s), death (1.0s)",,Slash
+HieuUng_ENG,PVegeta Style (12),Đạt,,8100,25.2%,birth,"birth (1.0s), death (1.0s), spell channel (0.0s)",Flash Cannon,Flash Cannon
+HieuUng_ENG,PVegeta Style (15),Đạt,,428,75.1%,stand,Stand (1.3s),"Close Combat, Dynamic Punch, Overheat, Upper Hand","Close Combat, Dynamic Punch, Overheat, Revenge, Upper Hand"
+HieuUng_ENG,PVegeta Style (16),Đạt,,994,93.2%,stand,Stand (1.3s),"Dynamic Punch, Overheat, Revenge","Dynamic Punch, Overheat, Revenge, Upper Hand"
+HieuUng_ENG,PVegeta Style (21),Đạt,,138,72.8%,stand,"Stand (1.0s), Death (0.0s)",Dynamic Punch,Dynamic Punch
+HieuUng_ENG,RZoro Effect (14),Đạt,,235,75.5%,stand,"stand (1.0s), death (1.0s)",Thrash,Thrash
+HieuUng_ENG,RZoro Effect (21),Đạt,,235,11.2%,death,Death (0.9s),Thrash,Thrash
+HieuUng_ENG,RZoro Effect (23),Đạt,,884,53.7%,birth,"birth (1.0s), death (1.0s)",Solar Blade,Solar Blade
+HieuUng_ENG,RZoro Effect (27),Đạt,,773,4.3%,birth,Birth (5.9s),Cut,Cut
+HieuUng_ENG,RZoro Effect (28),Đạt,,994,3.2%,stand,"Stand (3.0s), BY¶¯ÂþÖÕÑÉÖ®Õ½ (0.0s), QQ790470818 (0.0s)",Cut,Cut
+HieuUng_ENG,RZoro Effect (31),Đạt,,359,15.7%,death,death (3.0s),"Outrage, Thrash","Outrage, Thrash"
+HieuUng_ENG,RZoro Effect (32),Đạt,,1546,28.3%,death,Death (0.8s),,Thrash
+HieuUng_ENG,RZoro Effect (33),Đạt,,552,46.9%,birth,"birth (1.0s), death (2.5s)",Thrash,Thrash
+HieuUng_ENG,RZoro Effect (6),Đạt,,276,13.7%,birth,Birth (3.0s),Wild Charge,Wild Charge
+HieuUng_ENG,Red Lightning Haki,Đạt,,442,16.4%,stand,Stand (1.0s),Snarl,Snarl
+HieuUng_ENG,SYamamoto (1),Đạt,,331,28.9%,birth,"Birth (1.1s), Stand Walk (3.3s), Death (1.0s)",Incinerate,Incinerate
+HieuUng_ENG,SYamamoto (20),Đạt,,345,6.6%,stand,"Stand (0.8s), Death (1.0s)","Incinerate, Sacred Fire","Incinerate, Sacred Fire"
+HieuUng_ENG,Sage Effect Damage,Đạt,,524,100.0%,stand,stand (2.0s),Crush Claw,Crush Claw
+HieuUng_ENG,Sage Rasengan 2021,Đạt,,41,3.3%,birth,"Stand (0.4s), death (0.1s), Birth (1.5s)",Aura Sphere,Aura Sphere
+HieuUng_ENG,Sand Slash,Đạt,,193,5.5%,birth,Birth (2.9s),Scorching Sands,Scorching Sands
+HieuUng_ENG,Sand Style Mokuton 1,Đạt,,262,49.7%,death,death (5.0s),Power Whip,Power Whip
+HieuUng_ENG,Sand Style Mokuton 2,Đạt,,359,53.4%,death,death (5.0s),"Flash Cannon, Power Whip","Flash Cannon, Power Whip"
+HieuUng_ENG,Sengoku Effect Spell (10),Đạt,,607,51.4%,birth,"birth (1.0s), death (2.5s)",Upper Hand,Upper Hand
+HieuUng_ENG,Sengoku Effect Spell (11),Đạt,,497,13.9%,stand,Stand (1.1s),Vacuum Wave,Vacuum Wave
+HieuUng_ENG,Sengoku Effect Spell (4),Đạt,,552,70.2%,birth,Birth (2.8s),Vacuum Wave,Vacuum Wave
+HieuUng_ENG,Sengoku Effect Spell (8),Đạt,,304,84.8%,birth,Birth (1.1s),Vacuum Wave,Vacuum Wave
+HieuUng_ENG,Shiva's Wrath (ENG),Đạt,,248,50.8%,birth,Birth (1.4s),Water Gun,Water Gun
+HieuUng_ENG,ShockWave Green,Đạt,,773,69.7%,birth,Birth (2.1s),"Brick Break, High Jump Kick","Brick Break, High Jump Kick"
+HieuUng_ENG,ShockwavePurple,Đạt,,773,68.8%,birth,Birth (2.1s),"Judgment, Psycho Cut","Judgment, Psycho Cut"
+HieuUng_ENG,Solar_Force_Explosion,Đạt,,1104,65.5%,birth,Birth (15.0s),,Vacuum Wave
+HieuUng_ENG,Style Effect Kaido (1),Đạt,,718,69.0%,birth,"birth (1.0s), death (1.8s)",Hyper Voice,Hyper Voice
+HieuUng_ENG,Style Effect Kaido (13),Đạt,,994,6.6%,birth,"birth (0.5s), stand (1.0s), death (2.0s)",Dragon Breath,Dragon Breath
+HieuUng_ENG,Style Effect Kaido (14),Đạt,,2761,49.6%,birth,"Birth (0.5s), Stand (0.2s), Death (0.3s)","Dragon Breath, Overheat","Dragon Breath, Overheat"
+HieuUng_ENG,Style Effect Kaido (17),LOẠI,"gần như không hiện (dưới 0,4% khung hình)",207,0.3%,stand,"Stand (2.0s), ÌØÐ§°æÈ¨ByÒ¹Ò¹. (0.0s), QQ790470818 (0.0s)",,Wild Charge
+HieuUng_ENG,Style Effect Kaido (2),Đạt,,400,45.6%,birth,"birth (1.0s), death (1.8s)",Hyper Voice,Hyper Voice
+HieuUng_ENG,Style Effect Kaido (20),Đạt,,276,13.6%,birth,Birth (3.0s),"Twister, Vine Whip","Twister, Vine Whip"
+HieuUng_ENG,Style Effect Kaido (24),Đạt,,386,23.3%,birth,"Birth (0.6s), Death (0.2s)","Blaze Kick, Brick Break, High Jump Kick","Blaze Kick, Brick Break, High Jump Kick"
+HieuUng_ENG,Style Effect Kaido (27),Đạt,,373,23.9%,birth,"Birth (0.6s), Death (0.2s)",Spacial Rend,Spacial Rend
+HieuUng_ENG,Style Effect Kaido (3),Đạt,,828,50.1%,death,death (2.6s),Snarl,Snarl
+HieuUng_ENG,Style Effect Kaido (4),Đạt,,1104,68.8%,stand,Stand (7.0s),Hyper Voice,Hyper Voice
+HieuUng_ENG,Style Effect Kaido (5),Đạt,,235,11.3%,stand,"Stand (0.4s), Death (0.5s)",Supercell Slam,Supercell Slam
+HieuUng_ENG,Style Effect Kaido (6),Đạt,,179,65.1%,stand,Stand (3.3s),Air Cutter,Air Cutter
+HieuUng_ENG,Super Big Explosion Blue 2020,Đạt,,1270,100.0%,birth,Birth (10.0s),Origin Pulse,Origin Pulse
+HieuUng_ENG,Super Big Explosion White 2020,Đạt,,884,100.0%,birth,Birth (10.0s),Misty Explosion,Misty Explosion
+HieuUng_ENG,SuperBigBombExplosion Green,Đạt,,1270,100.0%,birth,Birth (10.0s),Brick Break,Brick Break
+HieuUng_ENG,SuperShinyThingy1,Đạt,,442,30.5%,stand,Stand (1.3s),Energy Ball,Energy Ball
+HieuUng_ENG,SuperShinyThingy7,Đạt,,442,32.5%,stand,Stand (1.3s),Judgment,Judgment
+HieuUng_ENG,UO Kamai Style 1,Đạt,,469,45.4%,birth,"Stand (1.0s), Death (1.0s), Birth (1.0s)",Phantom Force,Phantom Force
+HieuUng_ENG,UO Kamai Style 2,Đạt,,331,17.1%,birth,"Stand (0.9s), Birth (0.8s), Death (0.9s)",Phantom Force,Phantom Force
+HieuUng_ENG,Uitachi Style (16),Đạt,,442,40.8%,birth,Birth (0.5s),Cut,Cut
+HieuUng_ENG,Uitachi Style (17),LOẠI,"chỉ vài mảnh đen rời rạc, gần như không thấy",138,2.2%,birth - 1,"Birth - 1 (1.0s), Birth - 2 (1.0s), Birth - 3 (1.0s), Birth - 4 (1.0s), Birth - 5 (1.0s)",,Future Sight
+HieuUng_ENG,Uitachi Style (18),LOẠI,"gần như không hiện (dưới 0,2% khung hình)",,0.1%,birth,"Birth (2.0s), stand (1.3s), Death (2.4s)",,Future Sight
+HieuUng_ENG,Uitachi Style (21),Đạt,,41,2.0%,stand,"Stand (1.6s), Death (1.6s)",Ember,Ember
+HieuUng_ENG,Uitachi Style (22),Đạt,,262,61.0%,stand,"Stand (1.2s), death (4.0s)",Ember,Ember
+HieuUng_ENG,Uitachi Style (28),Đạt,,884,74.9%,death,Death (0.3s),Swift,Swift
+HieuUng_ENG,Uitachi Style (7),Đạt,,663,59.7%,death,death (2.0s),Swift,Swift
+HieuUng_ENG,X Sesshomaru (17),Đạt,,179,2.8%,death,Death (1.0s),Poison Jab,Poison Jab
+HieuUng_ENG,X Sesshomaru (3),Đạt,,1104,6.1%,birth az,"Birth AZ (1.2s), °æÈ¨ËùÊôAZ ¹ºÂòÊ¹ÓÃ ×÷ÕßQQ 3358167564 (0.0s)",Vine Whip,Vine Whip
+HieuUng_ENG,animeslashfinal,Đạt,,166,4.1%,birth,Birth (0.5s),Psycho Cut,Psycho Cut
+ModelTrieuHoi_ENG,BD_Goku (23),Đạt,,718,3.1%,stand gold,"Stand Gold (2.0s), Spell Channel (0.5s), Spell Throw (0.5s), Stand Ready (0.7s), Spell (2.0s), Death (4.7s), Spell Three (1.0s), Spell Slam Two (0.5s)",Outrage,Outrage
+ModelTrieuHoi_ENG,UItachi_Susanoo_S1,LOẠI,"model triệu hồi (Susanoo), hiển thị không đúng khi dùng làm hiệu ứng",83,1.3%,stand,"Stand (2.0s), Walk (1.1s), Attack - 1 (1.0s), Attack - 2 (1.0s), Attack - 4 (1.0s), Spell (1.8s), Spell Two (1.0s), Morph (1.0s)",,Swift
