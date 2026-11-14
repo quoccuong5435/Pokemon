@@ -1,3 +1,13 @@
+# Pokemon Arena v3.4.14: sửa lỗi chậm / đứng yên vĩnh viễn
+**Đã build 2026-11-14** (`Pokemon Arena v3.4.14.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
+
+| Lỗi | Nguyên nhân | Sửa |
+|---|---|---|
+| Pokémon **đứng yên vĩnh viễn** sau khi dùng move tụ lực (Solar Beam, Solar Blade, Sky Attack, Meteor Beam) | Bản 3.4.11–3.4.13: bấm lại phím chiêu trong 1,2 giây đang tụ lực thì unit bị dừng (`BlzPauseUnitEx`, có bộ đếm) thêm một lần mà chỉ được mở một lần | Đang tụ lực thì không dừng thêm; đồng hồ an toàn tự mở sau 1,5 giây |
+| Pokémon **chạy chậm vĩnh viễn** (ví dụ chậm khoảng 13%) | Có từ 3.4.0, hay gặp hơn từ khi có bậc Speed: hết làm chậm thì tốc chạy được trả về giá trị chụp lúc bắt đầu bị chậm. Mega Evolve / đổi Ability trong lúc bị chậm làm giá trị đó cũ đi và không ai sửa lại | Hero hết làm chậm thì về tốc chạy mặc định cộng phần cộng / trừ hiện tại (`Ab_MoveBonus`) |
+
+---
+
 # Pokemon Arena v3.4.13
 **Đã build 2026-11-14** (`Pokemon Arena v3.4.13.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
 

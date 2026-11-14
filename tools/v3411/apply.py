@@ -850,6 +850,14 @@ def patch_script(s):
             '    if BlzGetUnitAbilityCooldownRemaining(u, abil) > 0.0 then\n        return false\n    endif\n'
             '    if ModuloInteger(LoadInteger(Fx_HT, abil, 1), 2) == 1 and t != null and GetWidgetLife(t) > 0.35 * I2R(BlzGetUnitMaxHP(t)) then\n'
             '        return false  // v3.4.12: the AI keeps recharge moves to finish a target\n    endif\n    // unit target')
+    # v3.4.14: a slow on a hero ends at default speed + its current bonus (Ab_MoveBonus, key 83), not at the speed
+    # saved when the slow began (that one could be stale after a Mega / Ability change: a slow for good)
+    s = rep(s, '        if LoadReal(Ab_HT, h, 11) > 0.0 then\n            call SetUnitMoveSpeed(u, LoadReal(Ab_HT, h, 11))\n        endif\n'
+               '        call SaveReal(Ab_HT, h, 11, 0.0)\n',
+            '        if IsUnitType(u, UNIT_TYPE_HERO) then  // v3.4.14: no stale speed for heroes\n'
+            '            call SetUnitMoveSpeed(u, GetUnitDefaultMoveSpeed(u) + LoadReal(Ab_HT, h, 83))\n'
+            '        elseif LoadReal(Ab_HT, h, 11) > 0.0 then\n            call SetUnitMoveSpeed(u, LoadReal(Ab_HT, h, 11))\n        endif\n'
+            '        call SaveReal(Ab_HT, h, 11, 0.0)\n')
     # init
     s = rep(s, '    call PkFx_Init()  // v3.4.9\n',
             '    call PkFx_Init()  // v3.4.9\n    call ExecuteFunc("Fx_Init")  // v3.4.11\n')

@@ -6,7 +6,7 @@
   (pjass 0 errors) -> `tools/v3411/build.py [--dry-run]` (object data; never overwrites). Version: `tools/v3411/version.txt`.
 - New JASS: `tools/v3411/jass/fx_globals.j`, `fx_core.j` (before Hero_HPSync), `fx_main.j` (before Ext_AfterHit).
   Status moves: `tools/v3411/status_moves.py` (move indices 320..377). Notes / changelog: `docs/v3.4.11/README.md`.
-- Built: 3.4.11, 3.4.12, 3.4.13 (none played yet). Next version: 3.4.14. `v3411/` (generated script with v1.8 code) is not in git.
+- Built: 3.4.11 .. 3.4.14 (none played yet; 3.4.14 fixes a permanent pause and a permanent slow). Next: 3.4.15. `v3411/` (generated script with v1.8 code) is not in git.
 - JASS gotchas: `code` is a type keyword; 2-letter locals (pa, pb ...) collide with v1.8 functions.
 - The sections below describe the older lineage (v3.4.0 .. v3.4.6 built from the v3.3.3 map).
 

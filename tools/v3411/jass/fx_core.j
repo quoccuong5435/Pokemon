@@ -104,9 +104,28 @@ function Fx_MSBonus takes unit u returns real
     return (Fx_StageMult(u, 5) - 1.0) * GetUnitDefaultMoveSpeed(u)
 endfunction
 
-// Mv_Queue: a charging move (Solar Beam, Sky Attack ...) waits 1.2s, the user cannot act meanwhile
+// v3.4.14 safety: a charge never keeps the user paused longer than 1.5s (key 72 = charge serial)
+function Fx_ChargeTimeout takes nothing returns nothing
+    local timer tm = GetExpiredTimer()
+    local integer k = GetHandleId(tm)
+    local unit u = LoadUnitHandle(Fx_HT, k, 0)
+    if u != null and LoadInteger(Fx_HT, GetHandleId(u), 37) == 1 and LoadInteger(Fx_HT, GetHandleId(u), 72) == LoadInteger(Fx_HT, k, 1) then
+        call SaveInteger(Fx_HT, GetHandleId(u), 37, 0)
+        call BlzPauseUnitEx(u, false)
+    endif
+    call FlushChildHashtable(Fx_HT, k)
+    call DestroyTimer(tm)
+    set tm = null
+    set u = null
+endfunction
+
+// Mv_Queue: a charging move (Solar Beam, Sky Attack ...) waits 1.2s, the user cannot act meanwhile.
+// v3.4.14: pressing the move again while it charges must not pause the user a second time (BlzPauseUnitEx counts:
+// two pauses and one unpause left the Pokemon frozen for good).
 function Fx_QueueDelay takes unit u, integer mvi returns real
     local integer bits = 0
+    local integer hand = GetHandleId(u)
+    local timer tm = null
     if mvi < 0 then
         return 0.0
     endif
@@ -117,8 +136,17 @@ function Fx_QueueDelay takes unit u, integer mvi returns real
     if ModuloInteger(bits / 2097152, 2) == 1 and Wth_Cur == 2 then  // Solar Beam / Solar Blade in harsh sun
         return 0.0
     endif
-    call SaveInteger(Fx_HT, GetHandleId(u), 37, 1)
+    if LoadInteger(Fx_HT, hand, 37) == 1 then  // already charging: no second pause
+        return 1.2
+    endif
+    call SaveInteger(Fx_HT, hand, 37, 1)
+    call SaveInteger(Fx_HT, hand, 72, LoadInteger(Fx_HT, hand, 72) + 1)
     call BlzPauseUnitEx(u, true)
+    set tm = CreateTimer()
+    call SaveUnitHandle(Fx_HT, GetHandleId(tm), 0, u)
+    call SaveInteger(Fx_HT, GetHandleId(tm), 1, LoadInteger(Fx_HT, hand, 72))
+    call TimerStart(tm, 1.5, false, function Fx_ChargeTimeout)
+    set tm = null
     call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Invisibility\\InvisibilityTarget.mdl", u, "origin"))
     return 1.2
 endfunction
