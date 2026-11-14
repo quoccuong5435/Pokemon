@@ -26,3 +26,5 @@ tools/known_names_v18.txt
 
 # v3.4: full map scripts (they hold the v1.8 author's code): python -I tools/v34/extract_base.py, then apply.py
 v34/*.j
+# v3.4.11+: generated from the v3.4.10 map (holds the v1.8 author's code): python -I tools/v3411/apply.py
+/v3411/
