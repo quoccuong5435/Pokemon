@@ -1,4 +1,6 @@
-# Pokemon Arena v3.4.13: code xong, chưa build
+# Pokemon Arena v3.4.13
+**Đã build 2026-11-14** (`Pokemon Arena v3.4.13.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
+
 Gồm toàn bộ 3.4.12. Thêm: elite, Pokémon gym, Elite Four và huyền thoại có **nút move trạng thái thật**, thay cho 1 trong
 5 skill của bộ kit (không thêm ô). AI bấm nút đó theo luật của 3.4.12, có hoạt ảnh và hồi chiêu.
 
