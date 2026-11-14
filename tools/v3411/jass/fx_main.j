@@ -19,6 +19,120 @@ function Fx_Say takes unit u, string s, integer red, integer grn, integer blu, u
     set plyB = null
 endfunction
 
+// ---- v3.4.15: what a Pokemon has on it, shown while it lasts: a line over heroes ("Atk+2 Def-1 Burn") and a glow
+// for raised / lowered stats. Fx_HT keys 74 text tag, 75 raised effect, 76 lowered effect. Fx_Tick refreshes it.
+function Fx_ShowLine takes unit u returns string
+    local integer hand = GetHandleId(u)
+    local integer k = 1
+    local integer stage = 0
+    local string s = ""
+    loop
+        exitwhen k > 5
+        set stage = LoadInteger(Fx_HT, hand, k)
+        if stage != 0 and Mega_Time < LoadReal(Fx_HT, hand, 10 + k) then
+            if stage > 0 then
+                set s = s + "|cff66ff66" + Fx_StatShort[k] + "+" + I2S(stage) + "|r "
+            else
+                set s = s + "|cffff6666" + Fx_StatShort[k] + I2S(stage) + "|r "
+            endif
+        endif
+        set k = k + 1
+    endloop
+    if Fx_HasStatus(u) then
+        set s = s + "|cffffcc66" + Fx_StShort[LoadInteger(Fx_HT, hand, 20)] + "|r "
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 26) then
+        set s = s + "|cffff6666Acc-|r "
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 24) then
+        set s = s + "|cffcc88ffConfused|r "
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 61) then
+        set s = s + "|cffaaddffProtect|r "
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 43) and LoadReal(Fx_HT, hand, 42) > 0.0 then
+        set s = s + "|cffaaddffShield|r "
+    endif
+    return s
+endfunction
+
+function Fx_Unshow takes unit u returns nothing
+    local integer hand = GetHandleId(u)
+    if HaveSavedHandle(Fx_HT, hand, 74) then
+        call DestroyTextTag(LoadTextTagHandle(Fx_HT, hand, 74))
+        call RemoveSavedHandle(Fx_HT, hand, 74)
+    endif
+    if HaveSavedHandle(Fx_HT, hand, 75) then
+        call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 75))
+        call RemoveSavedHandle(Fx_HT, hand, 75)
+    endif
+    if HaveSavedHandle(Fx_HT, hand, 76) then
+        call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 76))
+        call RemoveSavedHandle(Fx_HT, hand, 76)
+    endif
+endfunction
+
+function Fx_Show takes unit u returns nothing
+    local integer hand = GetHandleId(u)
+    local string line = Fx_ShowLine(u)
+    local texttag tt = null
+    local boolean up = false
+    local boolean down = false
+    local integer k = 1
+    local integer stage = 0
+    if u == null or not Ab_Alive(u) then
+        call Fx_Unshow(u)
+        set tt = null
+        return
+    endif
+    loop
+        exitwhen k > 5
+        set stage = LoadInteger(Fx_HT, hand, k)
+        if Mega_Time < LoadReal(Fx_HT, hand, 10 + k) then
+            if stage > 0 then
+                set up = true
+            elseif stage < 0 then
+                set down = true
+            endif
+        endif
+        set k = k + 1
+    endloop
+    if up and not HaveSavedHandle(Fx_HT, hand, 75) then
+        call SaveEffectHandle(Fx_HT, hand, 75, AddSpecialEffectTarget("Abilities\\Spells\\Human\\InnerFire\\InnerFireTarget.mdl", u, "overhead"))
+    elseif not up and HaveSavedHandle(Fx_HT, hand, 75) then
+        call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 75))
+        call RemoveSavedHandle(Fx_HT, hand, 75)
+    endif
+    if down and not HaveSavedHandle(Fx_HT, hand, 76) then
+        call SaveEffectHandle(Fx_HT, hand, 76, AddSpecialEffectTarget("Abilities\\Spells\\Undead\\Cripple\\CrippleTarget.mdl", u, "chest"))
+    elseif not down and HaveSavedHandle(Fx_HT, hand, 76) then
+        call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 76))
+        call RemoveSavedHandle(Fx_HT, hand, 76)
+    endif
+    if not IsUnitType(u, UNIT_TYPE_HERO) then  // text tags are few (WC3 limit): only over heroes
+        set tt = null
+        return
+    endif
+    if line == "" then
+        if HaveSavedHandle(Fx_HT, hand, 74) then
+            call DestroyTextTag(LoadTextTagHandle(Fx_HT, hand, 74))
+            call RemoveSavedHandle(Fx_HT, hand, 74)
+        endif
+    else
+        if HaveSavedHandle(Fx_HT, hand, 74) then
+            set tt = LoadTextTagHandle(Fx_HT, hand, 74)
+        else
+            set tt = CreateTextTag()
+            call SetTextTagPermanent(tt, true)
+            call SetTextTagVisibility(tt, true)
+            call SaveTextTagHandle(Fx_HT, hand, 74, tt)
+        endif
+        call SetTextTagText(tt, line, 0.019)
+        call SetTextTagPosUnit(tt, u, 30.0)
+    endif
+    set tt = null
+endfunction
+
 function Fx_Legend takes unit u returns integer
     return LoadInteger(Fx_HT, GetUnitTypeId(u), 3)
 endfunction
@@ -90,6 +204,7 @@ function Fx_StageAdd takes unit u, integer s, integer delta, real dur, unit src 
         set word = I2S(delta) + " " + Fx_StatName[s]
         call Fx_Say(u, word, 255, 120, 120, src)
     endif
+    call Fx_Show(u)  // v3.4.15
 endfunction
 
 // stun that cannot chain forever: a second hard CC within 6s lasts half as long
@@ -130,6 +245,7 @@ function Fx_Cure takes unit u returns nothing
     if slot >= 0 then
         call Ab_FxStop(slot)
     endif
+    call Fx_Show(u)  // v3.4.15
 endfunction
 
 // main status: 1 burn, 2 poison, 3 toxic, 4 paralysis, 5 sleep, 6 freeze. One at a time; type immunities.
@@ -205,6 +321,7 @@ function Fx_Status takes unit t, integer kind, unit src returns boolean
     endif
     call Fx_Track(t)
     call Fx_Say(t, Fx_StName[kind], 255, 200, 80, src)
+    call Fx_Show(t)  // v3.4.15
     if abil == AB_SYNCHRONIZE and src != null and src != t and IsUnitEnemy(src, GetOwningPlayer(t)) then
         call Fx_Status(src, kind, null)
     endif
@@ -215,6 +332,23 @@ function Fx_Confuse takes unit t, real dur, unit src returns nothing
     call SaveReal(Fx_HT, GetHandleId(t), 24, Mega_Time + dur)
     call Fx_Track(t)
     call Fx_Say(t, "Confused!", 220, 120, 255, src)
+    call Fx_Show(t)  // v3.4.15
+endfunction
+
+// v3.4.15: lowered accuracy (Mud-Slap, Muddy Water, Sand Attack): 20% of its attacks and moves miss; a skull over
+// its head while it lasts (key 26 = end, key 73 = the effect; Fx_Tick removes it)
+function Fx_AccDown takes unit t, real dur, unit src returns nothing
+    local integer hand = GetHandleId(t)
+    if t == null or not Ab_Alive(t) or Ab_Num(t) == AB_KEENEYE then
+        return
+    endif
+    call SaveReal(Fx_HT, hand, 26, RMaxBJ(LoadReal(Fx_HT, hand, 26), Mega_Time + dur))
+    if not HaveSavedHandle(Fx_HT, hand, 73) then
+        call SaveEffectHandle(Fx_HT, hand, 73, AddSpecialEffectTarget("Abilities\\Spells\\Undead\\Curse\\CurseTarget.mdl", t, "overhead"))
+    endif
+    call Fx_Track(t)
+    call Fx_Say(t, "Accuracy down", 255, 120, 120, src)
+    call Fx_Show(t)  // v3.4.15
 endfunction
 
 function Fx_Silence takes unit t, real dur, unit src returns nothing
@@ -276,7 +410,8 @@ function Fx_OutMult takes unit src, unit t, boolean atk, boolean skill, integer 
         call Fx_Say(src, "It hurt itself!", 220, 120, 255, t)
         return 0.0
     endif
-    if atk and Mega_Time < LoadReal(Fx_HT, hs, 26) and Ab_Num(src) != AB_KEENEYE and GetRandomReal(0.0, 1.0) < 0.2 then
+    // v3.4.15: lowered accuracy makes attacks AND moves miss (never-miss moves ignore it)
+    if (atk or skill) and Mega_Time < LoadReal(Fx_HT, hs, 26) and Ab_Num(src) != AB_KEENEYE and not (skill and Fx_MoveHas(src, 256)) and GetRandomReal(0.0, 1.0) < 0.2 then
         call Fx_Say(t, "Miss", 210, 210, 210, src)
         return 0.0
     endif
@@ -572,9 +707,8 @@ function Fx_AfterHit takes unit src, unit t, boolean atk, boolean skill, integer
                 endif
                 set s = s + 1
             endloop
-            if LoadInteger(Fx_HT, mkey, 26) == 1 and Ab_Num(t) != AB_KEENEYE then
-                call SaveReal(Fx_HT, ht, 26, Mega_Time + 4.0)
-                call Fx_Say(t, "Accuracy down", 255, 120, 120, src)
+            if LoadInteger(Fx_HT, mkey, 26) == 1 then
+                call Fx_AccDown(t, 4.0, src)
             endif
         endif
         set amount = I2R(LoadInteger(Fx_HT, mkey, 3))
@@ -1301,6 +1435,8 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
         endif
     elseif act == 5 then
         call SaveReal(Fx_HT, hand, 61, Mega_Time + 1.5)
+        call Fx_Track(u)
+        call Fx_Show(u)
         call Ab_Pop(u, "Abilities\\Spells\\Human\\DivineShield\\DivineShieldTarget.mdl", "origin")
     elseif act == 6 or act == 7 then
         set amount = I2R(LoadInteger(Fx_HT, mkey, 42)) / 1000.0
@@ -1340,6 +1476,8 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
             call SetWidgetLife(u, GetWidgetLife(u) - 0.25 * mx)
             call SaveReal(Fx_HT, hand, 42, 0.25 * mx)
             call SaveReal(Fx_HT, hand, 43, Mega_Time + 10.0)
+            call Fx_Track(u)
+            call Fx_Show(u)
             call Ab_Pop(u, "Abilities\\Spells\\Human\\ManaShield\\ManaShieldCaster.mdl", "origin")
         else
             call Fx_Say(u, "But it failed!", 200, 200, 200, null)
@@ -1368,10 +1506,7 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
     elseif act == 21 then
         call Fx_StageSet5(tgt, mkey, 20, u)
     elseif act == 22 then
-        if Ab_Num(tgt) != AB_KEENEYE then
-            call SaveReal(Fx_HT, GetHandleId(tgt), 26, Mega_Time + 6.0)
-            call Fx_Say(tgt, "Accuracy down", 255, 120, 120, u)
-        endif
+        call Fx_AccDown(tgt, 6.0, u)
     elseif act == 23 then
         set kind = LoadInteger(Fx_HT, mkey, 42)
         set immune = LoadInteger(Fx_HT, mkey, 44)
@@ -1649,10 +1784,16 @@ function Fx_Tick takes nothing returns nothing
         set u = FirstOfGroup(Fx_ScanG)
         exitwhen u == null
         call GroupRemoveUnit(Fx_ScanG, u)
+        set hand = GetHandleId(u)
+        if HaveSavedHandle(Fx_HT, hand, 73) and (Mega_Time >= LoadReal(Fx_HT, hand, 26) or not Ab_Alive(u)) then
+            call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 73))  // v3.4.15: lowered accuracy is over
+            call RemoveSavedHandle(Fx_HT, hand, 73)
+            call SaveReal(Fx_HT, hand, 26, 0.0)
+        endif
         if GetUnitTypeId(u) == 0 then
+            call Fx_Unshow(u)
             call GroupRemoveUnit(Fx_G, u)
         elseif Ab_Alive(u) then
-            set hand = GetHandleId(u)
             set st = LoadInteger(Fx_HT, hand, 20)
             if st > 0 and Mega_Time >= LoadReal(Fx_HT, hand, 21) then
                 call SaveInteger(Fx_HT, hand, 20, 0)
@@ -1685,8 +1826,10 @@ function Fx_Tick takes nothing returns nothing
                     call Fx_Cure(u)
                 endif
             endif
+            call Fx_Show(u)  // v3.4.15: the line over it follows it and drops what ended
         else
             call Fx_Cure(u)
+            call Fx_Unshow(u)
         endif
     endloop
     if ModuloInteger(Fx_TickN, 2) == 0 then
@@ -1715,6 +1858,9 @@ function Fx_Stats takes player po, unit h returns nothing
     endloop
     if Fx_HasStatus(h) then
         set s = s + " | " + Fx_StName[LoadInteger(Fx_HT, hand, 20)]
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 26) then
+        set s = s + " | Accuracy down (20% miss)"
     endif
     call DisplayTimedTextToPlayer(po, 0, 0, 12.0, s + "|r")
 endfunction
@@ -1812,6 +1958,17 @@ function Fx_Init takes nothing returns nothing
     set Fx_StName[4] = "Paralyzed!"
     set Fx_StName[5] = "Asleep!"
     set Fx_StName[6] = "Frozen!"
+    set Fx_StatShort[1] = "Atk"
+    set Fx_StatShort[2] = "Def"
+    set Fx_StatShort[3] = "SpA"
+    set Fx_StatShort[4] = "SpD"
+    set Fx_StatShort[5] = "Spe"
+    set Fx_StShort[1] = "Burn"
+    set Fx_StShort[2] = "Poison"
+    set Fx_StShort[3] = "Toxic"
+    set Fx_StShort[4] = "Para"
+    set Fx_StShort[5] = "Sleep"
+    set Fx_StShort[6] = "Frozen"
     set t = CreateTrigger()
     call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_CAST)
     call TriggerAddCondition(t, Condition(function Fx_OnSpellCast))

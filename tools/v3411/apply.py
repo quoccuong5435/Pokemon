@@ -232,7 +232,7 @@ def describe(rec):
     if 'target' in rec or 'acc' in rec:
         parts = ['%+d %s' % (v, names[k]) for k, v in sorted(rec.get('target', {}).items())]
         if rec.get('acc'):
-            parts.append('lower accuracy')
+            parts.append('lower accuracy: 20% of its attacks and moves miss for 4s')
         bits.append('target %s (%d%%)' % (', '.join(parts), rec['target_ch']))
     if 'self' in rec:
         parts = ['%+d %s' % (v, names[k]) for k, v in sorted(rec['self'].items())]
@@ -240,6 +240,8 @@ def describe(rec):
         bits.append('user %s%s' % (', '.join(parts), '' if ch >= 100 else ' (%d%%)' % ch))
     if f & F_TRAP:
         bits.append('traps the target 3s (slowed 90%, 1% max HP per second)')
+    if f & F_NOMISS:
+        bits.append('never misses (ignores lowered accuracy)')
     if f & F_PIVOT:
         bits.append('the user jumps back')
     if f & F_PUSH:

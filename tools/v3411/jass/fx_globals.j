@@ -11,6 +11,8 @@ group Fx_AoeG = CreateGroup()
 integer Fx_TickN = 0
 string array Fx_StatName
 string array Fx_StName
+string array Fx_StatShort               // v3.4.15: Atk / Def / SpA / SpD / Spe (the line over a Pokemon)
+string array Fx_StShort                 // v3.4.15: Burn / Poison / Toxic / Para / Sleep / Frozen
 string array Fx_TItemName               // type index -> name of its type item
 real array Fx_LWarn                     // pid: last League / PvP message
 real array Fx_TpReady                   // pid: when -tp works again

@@ -71,7 +71,7 @@ MOVES = [
     ('Metal Sound', 'steel', 21, 1, {24: -2}, 15, 60, 'BTNSpellSteal', 'The target: -2 Sp. Def for 12 seconds.'),
     ('Scary Face', 'normal', 21, 1, {25: -2}, 15, 60, 'BTNSlow', 'The target: -2 Speed for 12 seconds.'),
     ('String Shot', 'bug', 20, 0, {25: -1}, 15, 50, 'BTNWeb', 'Enemies within 500: -1 Speed for 12 seconds.'),
-    ('Sand Attack', 'ground', 22, 1, {}, 15, 50, 'BTNEnsnare', 'The target misses 20% of its attacks for 6 seconds.'),
+    ('Sand Attack', 'ground', 22, 1, {}, 15, 50, 'BTNEnsnare', 'The target misses 20% of its attacks and moves for 6 seconds.'),
     ('Thunder Wave', 'electric', 23, 1, {42: 4, 43: 100, 44: 2}, 18, 70, 'BTNOrbOfLightning',
      'Paralyzes the target (Ground Pokemon are immune).'),
     ('Will-O-Wisp', 'fire', 23, 1, {42: 1, 43: 100}, 18, 70, 'BTNImmolationOn', 'Burns the target.'),

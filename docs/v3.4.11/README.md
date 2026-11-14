@@ -1,3 +1,23 @@
+# Pokemon Arena v3.4.15: hiển thị buff / debuff, giảm chính xác có tác dụng thật
+**Đã build 2026-11-14** (`Pokemon Arena v3.4.15.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
+
+**Hiển thị** (trước đây chỉ có dòng chữ nổi lên một lần lúc dùng chiêu):
+- Dòng chữ thường trực trên đầu hero (Pokémon người chơi, gym, Elite Four), đi theo Pokémon, tự mất khi hết hiệu lực.
+  Ví dụ: `Atk+2 Def-1 Burn Acc- Confused Protect Shield`. Xanh = tăng, đỏ = giảm, vàng = trạng thái xấu.
+- Ánh sáng trên đầu khi có bậc tăng (hiệu ứng Inner Fire); dấu hiệu ở ngực khi có bậc giảm (hiệu ứng Cripple). Quái
+  thường cũng có, nhưng không có dòng chữ (WC3 giới hạn khoảng 100 dòng chữ cùng lúc).
+
+**Giảm chính xác:**
+
+| Trước (3.4.11–3.4.14) | Bây giờ |
+|---|---|
+| Mud-Slap, Muddy Water, Sand Attack chỉ làm **đòn đánh thường** trượt 20%; move không bao giờ trượt; không có dấu hiệu gì nên gần như không thấy | Trượt 20% cho **cả đòn đánh thường lẫn move**; hiện chữ "Miss" |
+| | Biểu tượng đầu lâu (hiệu ứng Curse) trên đầu Pokémon trong thời gian bị giảm chính xác |
+| | Move không trượt (Aerial Ace, Swift, Aura Sphere, Shock Wave, Magical Leaf…) bỏ qua hiệu ứng này; Keen Eye miễn |
+| | `-stats` hiện "Accuracy down"; tooltip ghi rõ |
+
+---
+
 # Pokemon Arena v3.4.14: sửa lỗi chậm / đứng yên vĩnh viễn
 **Đã build 2026-11-14** (`Pokemon Arena v3.4.14.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
 
