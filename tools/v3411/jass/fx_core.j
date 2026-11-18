@@ -18,12 +18,12 @@
 function Fx_StageMult takes unit u, integer s returns real
     local integer hand = GetHandleId(u)
     local integer stage = LoadInteger(Fx_HT, hand, s)
-    local real step = 0.25
+    local real step = 0.5   // v3.4.16: as in the games (+1 x1.5, +2 x2, -1 x0.67, -2 x0.5); was 0.25
     if stage == 0 or Mega_Time >= LoadReal(Fx_HT, hand, 10 + s) then
         return 1.0
     endif
     if s == 5 then
-        set step = 0.15
+        set step = 0.25     // v3.4.16: Speed +-25% per stage (was 15%), plus attack speed (Fx_StatSync)
     endif
     if stage > 0 then
         return 1.0 + step * I2R(stage)

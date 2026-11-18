@@ -1,0 +1,1407 @@
+{
+"Mokuton Tree 2": {
+"path": "PkFx\\Mokuton_Tree_2.mdx",
+"radius": 373,
+"anim": "Stand (3.0s), Death (2.0s)"
+},
+"A-Bomb": {
+"path": "PkFx\\A_Bomb.mdx",
+"radius": 663,
+"anim": "Birth (9.0s)"
+},
+"Air": {
+"path": "PkFx\\Air.mdx",
+"radius": null,
+"anim": "Stand (1.5s), Death (1.0s)"
+},
+"Amaterasu_New": {
+"path": "PkFx\\Amaterasu_New.mdx",
+"radius": 138,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"AncientExplode": {
+"path": "PkFx\\AncientExplode.mdx",
+"radius": 497,
+"anim": "Birth (15.0s)"
+},
+"AncientExplode_Blue": {
+"path": "PkFx\\AncientExplode_Blue.mdx",
+"radius": 497,
+"anim": "Birth (15.0s)"
+},
+"AnimatedEnviromentalEffectRain": {
+"path": "PkFx\\AnimatedEnviromentalEffectRain.mdx",
+"radius": null,
+"anim": "Birth (0.5s), Stand (0.5s), Death (0.5s)"
+},
+"AquaSpikeVersion2": {
+"path": "PkFx\\AquaSpikeVersion2.mdx",
+"radius": 524,
+"anim": "Birth (2.3s)"
+},
+"ArcaneExplosion": {
+"path": "PkFx\\ArcaneExplosion.mdx",
+"radius": 193,
+"anim": "stand (1.3s)"
+},
+"ArcaneTornado": {
+"path": "PkFx\\ArcaneTornado.mdx",
+"radius": 235,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)"
+},
+"BigCloudFogBlack": {
+"path": "PkFx\\BigCloudFogBlack.mdx",
+"radius": 290,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)"
+},
+"Bijuu Dama 2": {
+"path": "PkFx\\Bijuu_Dama_2.mdx",
+"radius": 884,
+"anim": "Birth (10.0s)"
+},
+"Black Ball": {
+"path": "PkFx\\Black_Ball.mdx",
+"radius": 110,
+"anim": "Stand (3.3s)"
+},
+"Black Stomp": {
+"path": "PkFx\\Black_Stomp.mdx",
+"radius": 663,
+"anim": "stand (2.3s)"
+},
+"BlizzardEruption": {
+"path": "PkFx\\BlizzardEruption.mdx",
+"radius": 400,
+"anim": "Stand (3.3s), Death (0.3s)"
+},
+"Blood_Strike": {
+"path": "PkFx\\Blood_Strike.mdx",
+"radius": 193,
+"anim": "Birth (6.0s)"
+},
+"Blue Boom": {
+"path": "PkFx\\Blue_Boom.mdx",
+"radius": 524,
+"anim": "Birth (13.0s)"
+},
+"Blue Explosion": {
+"path": "PkFx\\Blue_Explosion.mdx",
+"radius": 221,
+"anim": "Birth (7.4s)"
+},
+"BlueBall": {
+"path": "PkFx\\BlueBall.mdx",
+"radius": 497,
+"anim": "Birth (6.0s), Death (0.5s)"
+},
+"CenarionFury": {
+"path": "PkFx\\CenarionFury.mdx",
+"radius": 248,
+"anim": "Birth (6.0s)"
+},
+"Cero": {
+"path": "PkFx\\Cero.mdx",
+"radius": 359,
+"anim": "Stand (3.3s), Death (0.3s)"
+},
+"Clone": {
+"path": "PkFx\\Clone.mdx",
+"radius": 152,
+"anim": "Birth (0.6s), Death (0.4s)"
+},
+"DivineRage": {
+"path": "PkFx\\DivineRage.mdx",
+"radius": 138,
+"anim": "Birth (1.2s)"
+},
+"Doku Fugu": {
+"path": "PkFx\\Doku_Fugu.mdx",
+"radius": 124,
+"anim": "Stand (0.5s), Death (1.5s)"
+},
+"Doku Gumo 1": {
+"path": "PkFx\\Doku_Gumo_1.mdx",
+"radius": 386,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)"
+},
+"Doku Gumo 2": {
+"path": "PkFx\\Doku_Gumo_2.mdx",
+"radius": 221,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)"
+},
+"EarthNova": {
+"path": "PkFx\\EarthNova.mdx",
+"radius": 773,
+"anim": "Birth (1.5s)"
+},
+"Effect_1": {
+"path": "PkFx\\Effect_1.mdx",
+"radius": 290,
+"anim": "Birth (1.0s), Stand (0.4s), Death (2.0s)"
+},
+"EmpBomb": {
+"path": "PkFx\\EmpBomb.mdx",
+"radius": 166,
+"anim": "Birth (2.0s)"
+},
+"Enton Honoikazuchi 1": {
+"path": "PkFx\\Enton_Honoikazuchi_1.mdx",
+"radius": 207,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"Explosion": {
+"path": "PkFx\\Explosion.mdx",
+"radius": 276,
+"anim": "Birth (1.3s)"
+},
+"Final Wave Zoro": {
+"path": "PkFx\\Final_Wave_Zoro.mdx",
+"radius": 345,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)"
+},
+"Fire Ace": {
+"path": "PkFx\\Fire_Ace.mdx",
+"radius": 152,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"FireShockRun1": {
+"path": "PkFx\\FireShockRun1.mdx",
+"radius": 207,
+"anim": "Stand (0.5s), Death (1.5s)"
+},
+"FireStomp": {
+"path": "PkFx\\FireStomp.mdx",
+"radius": 718,
+"anim": "stand (2.3s)"
+},
+"FireStone": {
+"path": "PkFx\\FireStone.mdx",
+"radius": 607,
+"anim": "Birth (3.1s)"
+},
+"Flame_Model_2": {
+"path": "PkFx\\Flame_Model_2.mdx",
+"radius": 442,
+"anim": "Birth (1.3s)"
+},
+"Freezing_Ring2": {
+"path": "PkFx\\Freezing_Ring2.mdx",
+"radius": 262,
+"anim": "Birth (1.3s)"
+},
+"GainLife": {
+"path": "PkFx\\GainLife.mdx",
+"radius": 166,
+"anim": "Stand (0.9s), Death (2.0s), Birth (1.0s)"
+},
+"Getsuga Effect": {
+"path": "PkFx\\Getsuga_Effect.mdx",
+"radius": 179,
+"anim": "Birth (5.1s)"
+},
+"Glow": {
+"path": "PkFx\\Glow.mdx",
+"radius": 41,
+"anim": "Stand (2.0s)"
+},
+"GlowLineBlue": {
+"path": "PkFx\\GlowLineBlue.mdx",
+"radius": null,
+"anim": "Birth (5.1s)"
+},
+"Goshikito": {
+"path": "PkFx\\Goshikito.mdx",
+"radius": 331,
+"anim": "stand (1.2s), Death (0.4s)"
+},
+"GreatLightning": {
+"path": "PkFx\\GreatLightning.mdx",
+"radius": 331,
+"anim": "Stand (4.0s)"
+},
+"Green Explosion": {
+"path": "PkFx\\Green_Explosion.mdx",
+"radius": 221,
+"anim": "Birth (7.4s)"
+},
+"Haki DV": {
+"path": "PkFx\\Haki_DV.mdx",
+"radius": 179,
+"anim": "Birth (9.0s)"
+},
+"HarvestLife": {
+"path": "PkFx\\HarvestLife.mdx",
+"radius": 166,
+"anim": "Stand (0.9s), Death (2.0s), Birth (1.0s)"
+},
+"HolyBomb": {
+"path": "PkFx\\HolyBomb.mdx",
+"radius": 276,
+"anim": "Birth (1.3s)"
+},
+"HolyTornado": {
+"path": "PkFx\\HolyTornado.mdx",
+"radius": 262,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)"
+},
+"Hydra Damage": {
+"path": "PkFx\\Hydra_Damage.mdx",
+"radius": 221,
+"anim": "Birth (1.4s)"
+},
+"Hyourinmaru 1": {
+"path": "PkFx\\Hyourinmaru_1.mdx",
+"radius": 110,
+"anim": "Death (1.6s)"
+},
+"Hyouten Hyakkasou": {
+"path": "PkFx\\Hyouten_Hyakkasou.mdx",
+"radius": 317,
+"anim": "Stand (1.7s)"
+},
+"Ice Pillar": {
+"path": "PkFx\\Ice_Pillar.mdx",
+"radius": 69,
+"anim": "Death (3.3s), Stand (3.3s), Birth (3.3s)"
+},
+"IceNova": {
+"path": "PkFx\\IceNova.mdx",
+"radius": 317,
+"anim": "stand (1.3s)"
+},
+"IceStomp": {
+"path": "PkFx\\IceStomp.mdx",
+"radius": 939,
+"anim": "stand (9.3s)"
+},
+"IceStompMist": {
+"path": "PkFx\\IceStompMist.mdx",
+"radius": 442,
+"anim": "stand (2.1s)"
+},
+"Indra's Effect": {
+"path": "PkFx\\Indra_s_Effect.mdx",
+"radius": 193,
+"anim": "Birth (0.4s), Stand (1.0s), Death (3.0s)"
+},
+"IonCannonBlue": {
+"path": "PkFx\\IonCannonBlue.mdx",
+"radius": 552,
+"anim": "Birth (13.6s)"
+},
+"KamehameHa": {
+"path": "PkFx\\KamehameHa.mdx",
+"radius": 442,
+"anim": "Stand (0.2s)"
+},
+"KatonGoukaMesshitsu": {
+"path": "PkFx\\KatonGoukaMesshitsu.mdx",
+"radius": 386,
+"anim": "Birth (5.0s), Death (0.1s)"
+},
+"Kurama Effect": {
+"path": "PkFx\\Kurama_Effect.mdx",
+"radius": 235,
+"anim": "Birth (7.4s)"
+},
+"Lava_Fall": {
+"path": "PkFx\\Lava_Fall.mdx",
+"radius": 1491,
+"anim": "Birth (7.0s)"
+},
+"Liberation": {
+"path": "PkFx\\Liberation.mdx",
+"radius": 83,
+"anim": "Death (2.3s), Stand (1.6s)"
+},
+"LightningBoom": {
+"path": "PkFx\\LightningBoom.mdx",
+"radius": 262,
+"anim": "Birth (1.1s)"
+},
+"Mokuton (2)": {
+"path": "PkFx\\Mokuton__2_.mdx",
+"radius": 304,
+"anim": "Stand (2.9s), Death (0.4s)"
+},
+"Mokuton Tree 1": {
+"path": "PkFx\\Mokuton_Tree_1.mdx",
+"radius": 373,
+"anim": "Stand (3.0s), Death (2.0s)"
+},
+"Natsu Flame 2": {
+"path": "PkFx\\Natsu_Flame_2.mdx",
+"radius": 248,
+"anim": "Birth (0.5s), Stand (0.9s), Death (0.7s)"
+},
+"Natsu Spell E": {
+"path": "PkFx\\Natsu_Spell_E.mdx",
+"radius": 262,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"Natsu Wing": {
+"path": "PkFx\\Natsu_Wing.mdx",
+"radius": 400,
+"anim": "Stand (1.0s), Death (1.0s)"
+},
+"NewBlood": {
+"path": "PkFx\\NewBlood.mdx",
+"radius": 276,
+"anim": "Birth (6.0s)"
+},
+"Pondo Hou": {
+"path": "PkFx\\Pondo_Hou.mdx",
+"radius": 110,
+"anim": "Birth (0.3s), Stand (0.8s)"
+},
+"PsiWave": {
+"path": "PkFx\\PsiWave.mdx",
+"radius": 359,
+"anim": "stand (1.3s)"
+},
+"PurpleExplosion_2": {
+"path": "PkFx\\PurpleExplosion_2.mdx",
+"radius": 221,
+"anim": "Birth (7.4s)"
+},
+"Raienryuu no Houkou": {
+"path": "PkFx\\Raienryuu_no_Houkou.mdx",
+"radius": 124,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"Red Cero": {
+"path": "PkFx\\Red_Cero.mdx",
+"radius": 276,
+"anim": "Birth (0.5s)"
+},
+"Red Damage": {
+"path": "PkFx\\Red_Damage.mdx",
+"radius": 110,
+"anim": "Stand (0.5s), Death (1.5s)"
+},
+"Red Explosion": {
+"path": "PkFx\\Red_Explosion.mdx",
+"radius": 221,
+"anim": "Birth (7.4s)"
+},
+"RedDragonFlame": {
+"path": "PkFx\\RedDragonFlame.mdx",
+"radius": 166,
+"anim": "Birth (0.1s), Stand (0.6s), Death (0.3s)"
+},
+"RedDragonHead": {
+"path": "PkFx\\RedDragonHead.mdx",
+"radius": 166,
+"anim": "Birth (0.1s), Stand (0.4s), Death (0.3s)"
+},
+"SandAura": {
+"path": "PkFx\\SandAura.mdx",
+"radius": 290,
+"anim": "Stand (61.1s)"
+},
+"Sand_Effect": {
+"path": "PkFx\\Sand_Effect.mdx",
+"radius": 290,
+"anim": "Birth (8.0s)"
+},
+"Sand_Loop": {
+"path": "PkFx\\Sand_Loop.mdx",
+"radius": 607,
+"anim": "Stand (0.7s), Death (1.0s)"
+},
+"Sand_New_Spell": {
+"path": "PkFx\\Sand_New_Spell.mdx",
+"radius": 345,
+"anim": "Birth (0.8s)"
+},
+"ShockwaveYellow": {
+"path": "PkFx\\ShockwaveYellow.mdx",
+"radius": 607,
+"anim": "Birth (2.1s)"
+},
+"Slam": {
+"path": "PkFx\\Slam.mdx",
+"radius": 193,
+"anim": "Birth (5.0s)"
+},
+"Slam Ice": {
+"path": "PkFx\\Slam_Ice.mdx",
+"radius": 455,
+"anim": "by valkemiere (0.4s), Birth (3.0s)"
+},
+"SpecialAnimeDustWave": {
+"path": "PkFx\\SpecialAnimeDustWave.mdx",
+"radius": 166,
+"anim": "Birth (1.0s)"
+},
+"Spell W Law": {
+"path": "PkFx\\Spell_W_Law.mdx",
+"radius": 179,
+"anim": "stand (1.3s)"
+},
+"SpiritArrow_ByEpsilon": {
+"path": "PkFx\\SpiritArrow_ByEpsilon.mdx",
+"radius": 41,
+"anim": "Stand (0.3s), Birth (0.0s), Death (1.5s)"
+},
+"Splat": {
+"path": "PkFx\\Splat.mdx",
+"radius": 1491,
+"anim": "Birth (9.0s)"
+},
+"SuperShinyThingy": {
+"path": "PkFx\\SuperShinyThingy.mdx",
+"radius": 455,
+"anim": "Stand (1.3s)"
+},
+"Susanoo Tsukumo": {
+"path": "PkFx\\Susanoo_Tsukumo.mdx",
+"radius": 428,
+"anim": "Birth (0.5s)"
+},
+"TheShow": {
+"path": "PkFx\\TheShow.mdx",
+"radius": 97,
+"anim": "attack - 1 (3.0s)"
+},
+"ThunderStrike": {
+"path": "PkFx\\ThunderStrike.mdx",
+"radius": 497,
+"anim": "Birth (0.4s)"
+},
+"TidalEruption": {
+"path": "PkFx\\TidalEruption.mdx",
+"radius": 290,
+"anim": "Birth (2.1s)"
+},
+"Water Float": {
+"path": "PkFx\\Water_Float.mdx",
+"radius": 331,
+"anim": "Birth (2.1s), Death (0.6s)"
+},
+"WaterArmor": {
+"path": "PkFx\\WaterArmor.mdx",
+"radius": 124,
+"anim": "Birth (0.9s), Stand (0.7s), Death (0.7s)"
+},
+"WaterAura": {
+"path": "PkFx\\WaterAura.mdx",
+"radius": 552,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"WaterBlast": {
+"path": "PkFx\\WaterBlast.mdx",
+"radius": 152,
+"anim": "stand (1.3s)"
+},
+"WaterBlobs1": {
+"path": "PkFx\\WaterBlobs1.mdx",
+"radius": 83,
+"anim": "Birth (0.2s), Stand (1.0s), Death (2.5s)"
+},
+"WaterEnchant": {
+"path": "PkFx\\WaterEnchant.mdx",
+"radius": 166,
+"anim": "Birth (4.0s)"
+},
+"WaterfallFX": {
+"path": "PkFx\\WaterfallFX.mdx",
+"radius": 235,
+"anim": "Stand (1.4s)"
+},
+"WhirlPool": {
+"path": "PkFx\\WhirlPool.mdx",
+"radius": 607,
+"anim": "birth (0.1s), stand (3.0s), death (8.7s)"
+},
+"White Effect 1": {
+"path": "PkFx\\White_Effect_1.mdx",
+"radius": 179,
+"anim": "Birth (1.0s)"
+},
+"White Explosion": {
+"path": "PkFx\\White_Explosion.mdx",
+"radius": 221,
+"anim": "Birth (7.4s)"
+},
+"White Haku": {
+"path": "PkFx\\White_Haku.mdx",
+"radius": 110,
+"anim": "Death (2.3s), Stand (1.6s)"
+},
+"White Holy": {
+"path": "PkFx\\White_Holy.mdx",
+"radius": 455,
+"anim": "Stand (0.2s), Death (0.4s)"
+},
+"White Ring": {
+"path": "PkFx\\White_Ring.mdx",
+"radius": 248,
+"anim": "Birth (1.0s)"
+},
+"White Spell Aura 1": {
+"path": "PkFx\\White_Spell_Aura_1.mdx",
+"radius": 276,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)"
+},
+"WhiteShockwave": {
+"path": "PkFx\\WhiteShockwave.mdx",
+"radius": 773,
+"anim": "Birth (2.1s)"
+},
+"Wind": {
+"path": "PkFx\\Wind.mdx",
+"radius": 359,
+"anim": "Birth (0.7s), Stand (0.7s), Death (0.7s)"
+},
+"Yellow Goku Effect": {
+"path": "PkFx\\Yellow_Goku_Effect.mdx",
+"radius": 235,
+"anim": "Birth (3.1s)"
+},
+"Zoro Wave": {
+"path": "PkFx\\Zoro_Wave.mdx",
+"radius": 442,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)"
+},
+"@Rock_Lee_Green_Aura": {
+"path": "PkFx\\_Rock_Lee_Green_Aura.mdx",
+"radius": 152,
+"anim": "Birth (2.8s)"
+},
+"@Terumi_SP_Sp3": {
+"path": "PkFx\\_Terumi_SP_Sp3.mdx",
+"radius": 442,
+"anim": "birth (0.6s)"
+},
+"AZ Air Dust": {
+"path": "PkFx\\AZ_Air_Dust.mdx",
+"radius": 994,
+"anim": "Birth (0.8s)"
+},
+"AZ_Fireblue Doku 2": {
+"path": "PkFx\\AZ_Fireblue_Doku_2.mdx",
+"radius": 428,
+"anim": "Stand (2.9s), Death (0.6s)"
+},
+"AZ_Storm_Red 2": {
+"path": "PkFx\\AZ_Storm_Red_2.mdx",
+"radius": 607,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"AZenitsu (7)": {
+"path": "PkFx\\AZenitsu__7_.mdx",
+"radius": 3682,
+"anim": "death (6.0s)"
+},
+"Aizen Effect Damage": {
+"path": "PkFx\\Aizen_Effect_Damage.mdx",
+"radius": 524,
+"anim": "stand (2.0s)"
+},
+"Aizen Skill - Fragor Effect Damage": {
+"path": "PkFx\\Aizen_Skill___Fragor_Effect_Damage.mdx",
+"radius": 235,
+"anim": "Birth (1.8s)"
+},
+"Aizen Skill - Kyouka Suigetsu 2": {
+"path": "PkFx\\Aizen_Skill___Kyouka_Suigetsu_2.mdx",
+"radius": 41,
+"anim": "Birth (1.8s)"
+},
+"AquaSpikeVersion2 (ENG)": {
+"path": "PkFx\\AquaSpikeVersion2__ENG_.mdx",
+"radius": 524,
+"anim": "Birth (2.3s)"
+},
+"BByakuya (27)": {
+"path": "PkFx\\BByakuya__27_.mdx",
+"radius": 442,
+"anim": "Stand (2.0s)"
+},
+"BByakuya (30)": {
+"path": "PkFx\\BByakuya__30_.mdx",
+"radius": 939,
+"anim": "Birth (1.0s)"
+},
+"BByakuya (34)": {
+"path": "PkFx\\BByakuya__34_.mdx",
+"radius": 97,
+"anim": "Death (2.0s), Stand (1.2s), Birth (0.0s)"
+},
+"BByakuya (50)": {
+"path": "PkFx\\BByakuya__50_.mdx",
+"radius": 386,
+"anim": "Death (1.0s)"
+},
+"BByakuya (51)": {
+"path": "PkFx\\BByakuya__51_.mdx",
+"radius": 262,
+"anim": "birth (1.0s), death (2.0s)"
+},
+"BByakuya (53)": {
+"path": "PkFx\\BByakuya__53_.mdx",
+"radius": 773,
+"anim": "Stand (1.6s), Death (1.0s)"
+},
+"BByakuya (58)": {
+"path": "PkFx\\BByakuya__58_.mdx",
+"radius": 773,
+"anim": "birth (0.7s), death (0.7s)"
+},
+"BByakuya (59)": {
+"path": "PkFx\\BByakuya__59_.mdx",
+"radius": 828,
+"anim": "Birth (1.0s)"
+},
+"BD_Goku (16)": {
+"path": "PkFx\\BD_Goku__16_.mdx",
+"radius": 1546,
+"anim": "birth (0.5s), stand (0.5s), death (2.0s)"
+},
+"BD_Goku (20)": {
+"path": "PkFx\\BD_Goku__20_.mdx",
+"radius": 552,
+"anim": "Birth (0.2s), Stand (0.2s), Death (0.4s)"
+},
+"BD_Goku (26)": {
+"path": "PkFx\\BD_Goku__26_.mdx",
+"radius": 262,
+"anim": "Birth (0.4s), Stand (0.3s), Death (0.4s)"
+},
+"BD_Goku (28)": {
+"path": "PkFx\\BD_Goku__28_.mdx",
+"radius": 317,
+"anim": "Stand (1.0s), Death (0.2s)"
+},
+"BD_Goku (32)": {
+"path": "PkFx\\BD_Goku__32_.mdx",
+"radius": 442,
+"anim": "stand (1.0s), death (1.0s)"
+},
+"BD_Goku (6)": {
+"path": "PkFx\\BD_Goku__6_.mdx",
+"radius": 317,
+"anim": "death (2.0s)"
+},
+"BToshiro (20)": {
+"path": "PkFx\\BToshiro__20_.mdx",
+"radius": 386,
+"anim": "death (3.0s)"
+},
+"BToshiro (26)": {
+"path": "PkFx\\BToshiro__26_.mdx",
+"radius": 497,
+"anim": "Stand (5.9s)"
+},
+"BToshiro (37)": {
+"path": "PkFx\\BToshiro__37_.mdx",
+"radius": 994,
+"anim": "Birth (1.2s), Death (3.0s)"
+},
+"BToshiro (5)": {
+"path": "PkFx\\BToshiro__5_.mdx",
+"radius": 290,
+"anim": "Stand (0.2s), Death (0.3s)"
+},
+"BToshiro (59)": {
+"path": "PkFx\\BToshiro__59_.mdx",
+"radius": 262,
+"anim": "birth (1.0s), death (2.0s)"
+},
+"BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_2_2_2": {
+"path": "PkFx\\BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_2_2_2.mdx",
+"radius": 663,
+"anim": "death (2.6s)"
+},
+"Bankai Aura 2021": {
+"path": "PkFx\\Bankai_Aura_2021.mdx",
+"radius": 248,
+"anim": "Stand (1.3s), Death (0.3s)"
+},
+"Bijuu Aura": {
+"path": "PkFx\\Bijuu_Aura.mdx",
+"radius": 552,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)"
+},
+"BlackChidori Style 2": {
+"path": "PkFx\\BlackChidori_Style_2.mdx",
+"radius": 483,
+"anim": "birth (0.6s), death (2.0s)"
+},
+"Black_Effect2": {
+"path": "PkFx\\Black_Effect2.mdx",
+"radius": 828,
+"anim": "Birth (1.5s)"
+},
+"BlueDoom (ENG)": {
+"path": "PkFx\\BlueDoom__ENG_.mdx",
+"radius": 262,
+"anim": "Birth (0.5s)"
+},
+"Chibaku Tensei Sasuke": {
+"path": "PkFx\\Chibaku_Tensei_Sasuke.mdx",
+"radius": 1491,
+"anim": "Birth (2.7s), Death (3.0s), Stand (0.5s)"
+},
+"Crack Green Mihawk": {
+"path": "PkFx\\Crack_Green_Mihawk.mdx",
+"radius": 179,
+"anim": "Death (1.0s)"
+},
+"DON Flame New 2020": {
+"path": "PkFx\\DON_Flame_New_2020.mdx",
+"radius": 317,
+"anim": "Birth (6.0s)"
+},
+"Daisen Sekai Type 1": {
+"path": "PkFx\\Daisen_Sekai_Type_1.mdx",
+"radius": 359,
+"anim": "Stand (2.0s)"
+},
+"Daisen Sekai Type 2": {
+"path": "PkFx\\Daisen_Sekai_Type_2.mdx",
+"radius": 414,
+"anim": "Stand (5.0s)"
+},
+"Danku Dust": {
+"path": "PkFx\\Danku_Dust.mdx",
+"radius": 345,
+"anim": "Birth (0.8s)"
+},
+"Doku Doku Effect (1)": {
+"path": "PkFx\\Doku_Doku_Effect__1_.mdx",
+"radius": 221,
+"anim": "Stand (3.3s)"
+},
+"Doku Doku Effect (2)": {
+"path": "PkFx\\Doku_Doku_Effect__2_.mdx",
+"radius": 179,
+"anim": "Birth Medium (1.3s), Stand Medium (3.3s), Death Medium (0.0s)"
+},
+"Doku Doku Effect (5)": {
+"path": "PkFx\\Doku_Doku_Effect__5_.mdx",
+"radius": 276,
+"anim": "Birth (3.0s)"
+},
+"Doku Doku Effect (6)": {
+"path": "PkFx\\Doku_Doku_Effect__6_.mdx",
+"radius": 373,
+"anim": "Birth (7.0s)"
+},
+"Dust Indra's Slyte 1": {
+"path": "PkFx\\Dust_Indra_s_Slyte_1.mdx",
+"radius": 221,
+"anim": "death (3.0s)"
+},
+"DustWave_2021": {
+"path": "PkFx\\DustWave_2021.mdx",
+"radius": 110,
+"anim": "Death (0.9s), Birth (1.2s), Stand  (1.0s), spell (1.0s)"
+},
+"E Tanjiro (1)": {
+"path": "PkFx\\E_Tanjiro__1_.mdx",
+"radius": 235,
+"anim": "birth (1.0s), death (1.0s)"
+},
+"E Tanjiro (10)": {
+"path": "PkFx\\E_Tanjiro__10_.mdx",
+"radius": 1988,
+"anim": "Stand (2.0s), death (0.5s)"
+},
+"E Tanjiro (11)": {
+"path": "PkFx\\E_Tanjiro__11_.mdx",
+"radius": 469,
+"anim": "Stand (1.0s), Death (1.0s), death gold (1.0s)"
+},
+"E Tanjiro (19)": {
+"path": "PkFx\\E_Tanjiro__19_.mdx",
+"radius": 552,
+"anim": "death (2.0s)"
+},
+"E Tanjiro (2)": {
+"path": "PkFx\\E_Tanjiro__2_.mdx",
+"radius": 221,
+"anim": "Death (1.0s)"
+},
+"E Tanjiro (20)": {
+"path": "PkFx\\E_Tanjiro__20_.mdx",
+"radius": 773,
+"anim": "Death (0.4s)"
+},
+"E Tanjiro (24)": {
+"path": "PkFx\\E_Tanjiro__24_.mdx",
+"radius": 1767,
+"anim": "Stand (2.0s), ±¾Ä£ÐÍ°æÈ¨ÓÉÍõÕßº½º£×÷Õß×¨Êô£¬Î´¾­ÔÊÐí½ûÖ¹·¢²¼·ÖÏíÓëÊ¹ÓÃ (0.0s)"
+},
+"E Tanjiro (3)": {
+"path": "PkFx\\E_Tanjiro__3_.mdx",
+"radius": 110,
+"anim": "Death (0.9s), Birth (1.2s), Stand  (1.0s), Spell (1.0s)"
+},
+"E Tanjiro (39)": {
+"path": "PkFx\\E_Tanjiro__39_.mdx",
+"radius": 1657,
+"anim": "±¾Ä£ÐÍÓÉÍõÕßº½º£×÷ÕßGodBoy(QQ:724526101)ÖÆ×÷£¬Î´¾­ÔÊÐí½ûÖ¹·¢²¼·ÖÏíÓëÊ¹ÓÃ (0.0s), Stand (1.7s)"
+},
+"E Tanjiro (4)": {
+"path": "PkFx\\E_Tanjiro__4_.mdx",
+"radius": 124,
+"anim": "Death (1.0s), Stand (1.0s)"
+},
+"E Tanjiro (43)": {
+"path": "PkFx\\E_Tanjiro__43_.mdx",
+"radius": 607,
+"anim": "death (2.0s)"
+},
+"E Tanjiro (5)": {
+"path": "PkFx\\E_Tanjiro__5_.mdx",
+"radius": 207,
+"anim": "birth (1.0s), death (1.0s)"
+},
+"E Tanjiro (6)": {
+"path": "PkFx\\E_Tanjiro__6_.mdx",
+"radius": 663,
+"anim": "Birth (0.7s), Stand (1.0s), Death (1.8s)"
+},
+"E Tanjiro (9)": {
+"path": "PkFx\\E_Tanjiro__9_.mdx",
+"radius": 235,
+"anim": "Birth AZ (3.3s)"
+},
+"Earth Slam 2020": {
+"path": "PkFx\\Earth_Slam_2020.mdx",
+"radius": 386,
+"anim": "birth (1.0s), death (6.0s)"
+},
+"Effect AZ Tornado Shock": {
+"path": "PkFx\\Effect_AZ_Tornado_Shock.mdx",
+"radius": 828,
+"anim": "Birth (1.0s)"
+},
+"Empyrean Nova Classic": {
+"path": "PkFx\\Empyrean_Nova_Classic.mdx",
+"radius": 483,
+"anim": "Birth (2.0s)"
+},
+"FInuyasha (10)": {
+"path": "PkFx\\FInuyasha__10_.mdx",
+"radius": 262,
+"anim": "birth (0.5s), death (2.0s)"
+},
+"FInuyasha (14)": {
+"path": "PkFx\\FInuyasha__14_.mdx",
+"radius": 1325,
+"anim": "Birth AZ (2.0s)"
+},
+"FInuyasha (17)": {
+"path": "PkFx\\FInuyasha__17_.mdx",
+"radius": 138,
+"anim": "Stand (3.3s), Death (1.2s), Birth (0.5s)"
+},
+"FInuyasha (18)": {
+"path": "PkFx\\FInuyasha__18_.mdx",
+"radius": 166,
+"anim": "Stand (1.0s), Death (1.2s), Birth (0.5s)"
+},
+"FInuyasha (29)": {
+"path": "PkFx\\FInuyasha__29_.mdx",
+"radius": 607,
+"anim": "death (2.0s)"
+},
+"FInuyasha (3)": {
+"path": "PkFx\\FInuyasha__3_.mdx",
+"radius": 345,
+"anim": "Stand (0.7s), Death (1.2s)"
+},
+"FInuyasha (36)": {
+"path": "PkFx\\FInuyasha__36_.mdx",
+"radius": 331,
+"anim": "birth (0.6s), death (1.0s)"
+},
+"FInuyasha (4)": {
+"path": "PkFx\\FInuyasha__4_.mdx",
+"radius": 69,
+"anim": "death (2.0s)"
+},
+"FInuyasha (45)": {
+"path": "PkFx\\FInuyasha__45_.mdx",
+"radius": 248,
+"anim": "stand (1.0s), death (1.0s)"
+},
+"FInuyasha (47)": {
+"path": "PkFx\\FInuyasha__47_.mdx",
+"radius": 511,
+"anim": "stand (2.0s)"
+},
+"FS_Natsu (16)": {
+"path": "PkFx\\FS_Natsu__16_.mdx",
+"radius": 469,
+"anim": "Death (4.5s)"
+},
+"FS_Natsu (29)": {
+"path": "PkFx\\FS_Natsu__29_.mdx",
+"radius": 607,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"FS_Natsu (6)": {
+"path": "PkFx\\FS_Natsu__6_.mdx",
+"radius": 663,
+"anim": "birth (1.0s), death (4.0s)"
+},
+"Fuuton Rasen Shuriken 2020": {
+"path": "PkFx\\Fuuton_Rasen_Shuriken_2020.mdx",
+"radius": 193,
+"anim": "Birth (1.0s), Stand (0.3s), Death (0.4s)"
+},
+"GJ Style (2)": {
+"path": "PkFx\\GJ_Style__2_.mdx",
+"radius": 55,
+"anim": "Stand (2.0s)"
+},
+"GJ Style (20)": {
+"path": "PkFx\\GJ_Style__20_.mdx",
+"radius": 524,
+"anim": "Death (2.0s)"
+},
+"GJ Style (21)": {
+"path": "PkFx\\GJ_Style__21_.mdx",
+"radius": 524,
+"anim": "Birth (0.2s), Stand (0.2s), Death (0.4s)"
+},
+"GJ Style (25)": {
+"path": "PkFx\\GJ_Style__25_.mdx",
+"radius": 497,
+"anim": "Birth (0.4s), Stand (0.3s), Death (0.4s)"
+},
+"GJ Style (3)": {
+"path": "PkFx\\GJ_Style__3_.mdx",
+"radius": 386,
+"anim": "Death (1.9s)"
+},
+"GJ Style (5)": {
+"path": "PkFx\\GJ_Style__5_.mdx",
+"radius": 773,
+"anim": "Birth (2.1s)"
+},
+"GJ Style (8)": {
+"path": "PkFx\\GJ_Style__8_.mdx",
+"radius": 345,
+"anim": "Birth (1.5s)"
+},
+"Getsuga Gran Rey Cero 2": {
+"path": "PkFx\\Getsuga_Gran_Rey_Cero_2.mdx",
+"radius": 607,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"Green Effect": {
+"path": "PkFx\\Green_Effect.mdx",
+"radius": 290,
+"anim": "Death (3.0s), Stand (1.0s)"
+},
+"HCifer Style (12)": {
+"path": "PkFx\\HCifer_Style__12_.mdx",
+"radius": 607,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"HCifer Style (25)": {
+"path": "PkFx\\HCifer_Style__25_.mdx",
+"radius": 290,
+"anim": "Birth (6.0s)"
+},
+"HakkeAura 1": {
+"path": "PkFx\\HakkeAura_1.mdx",
+"radius": 773,
+"anim": "Stand (1.3s), Death (0.5s)"
+},
+"Kanzen Eishou Kurohitsugi 1": {
+"path": "PkFx\\Kanzen_Eishou_Kurohitsugi_1.mdx",
+"radius": 386,
+"anim": "Stand (6.7s), Death (1.0s)"
+},
+"Kanzen Eishou Kurohitsugi 2": {
+"path": "PkFx\\Kanzen_Eishou_Kurohitsugi_2.mdx",
+"radius": 207,
+"anim": "Death (2.3s), Stand (0.7s)"
+},
+"Kokuto Arashi Style 2": {
+"path": "PkFx\\Kokuto_Arashi_Style_2.mdx",
+"radius": 235,
+"anim": "stand (0.8s)"
+},
+"Lightning Explosion 2020": {
+"path": "PkFx\\Lightning_Explosion_2020.mdx",
+"radius": 359,
+"anim": "death (2.0s)"
+},
+"Lion Fists Crit 1": {
+"path": "PkFx\\Lion_Fists_Crit_1.mdx",
+"radius": 828,
+"anim": "Birth (1.0s)"
+},
+"MS Tsukuyomi #1": {
+"path": "PkFx\\MS_Tsukuyomi__1.mdx",
+"radius": 400,
+"anim": "birth (0.5s), death (6.0s)"
+},
+"MS Tsukuyomi #2": {
+"path": "PkFx\\MS_Tsukuyomi__2.mdx",
+"radius": 373,
+"anim": "Stand (2.0s)"
+},
+"Missile Black (1)": {
+"path": "PkFx\\Missile_Black__1_.mdx",
+"radius": 69,
+"anim": "Death (2.3s), Stand (1.6s)"
+},
+"Missile Black (14)": {
+"path": "PkFx\\Missile_Black__14_.mdx",
+"radius": 248,
+"anim": "Stand (0.2s), Death (0.1s)"
+},
+"Missile Black (18)": {
+"path": "PkFx\\Missile_Black__18_.mdx",
+"radius": 193,
+"anim": "birth (0.5s), death (1.0s)"
+},
+"Missile Black (2)": {
+"path": "PkFx\\Missile_Black__2_.mdx",
+"radius": 773,
+"anim": "Birth (2.1s)"
+},
+"Missile Black (30)": {
+"path": "PkFx\\Missile_Black__30_.mdx",
+"radius": 262,
+"anim": "Birth (0.4s), Stand (0.3s), Death (0.4s)"
+},
+"Missile Black (5)": {
+"path": "PkFx\\Missile_Black__5_.mdx",
+"radius": 442,
+"anim": "Stand (1.3s)"
+},
+"Mokuton Fire": {
+"path": "PkFx\\Mokuton_Fire.mdx",
+"radius": 718,
+"anim": "stand (2.3s)"
+},
+"Mokuton Sashiki All": {
+"path": "PkFx\\Mokuton_Sashiki_All.mdx",
+"radius": 828,
+"anim": "Stand (0.5s), Death (1.0s)"
+},
+"Momoshiki Effect (1)": {
+"path": "PkFx\\Momoshiki_Effect__1_.mdx",
+"radius": 235,
+"anim": "birth (1.0s), death (2.0s)"
+},
+"Momoshiki Effect (14)": {
+"path": "PkFx\\Momoshiki_Effect__14_.mdx",
+"radius": 1215,
+"anim": "birth (1.0s), death (1.0s)"
+},
+"Momoshiki Effect (3)": {
+"path": "PkFx\\Momoshiki_Effect__3_.mdx",
+"radius": 207,
+"anim": "Stand (4.0s), Death (0.5s), Birth (0.1s)"
+},
+"Momoshiki Effect (5)": {
+"path": "PkFx\\Momoshiki_Effect__5_.mdx",
+"radius": 304,
+"anim": "Birth (0.5s)"
+},
+"Nagashi 2020 Style 1": {
+"path": "PkFx\\Nagashi_2020_Style_1.mdx",
+"radius": 2025,
+"anim": "Stand (2.5s)"
+},
+"Nagashi 2020 Style 2": {
+"path": "PkFx\\Nagashi_2020_Style_2.mdx",
+"radius": 317,
+"anim": "death (3.0s)"
+},
+"Newgate Style (2)": {
+"path": "PkFx\\Newgate_Style__2_.mdx",
+"radius": 497,
+"anim": "birth - 1 (1.0s), XXdeath (1.0s)"
+},
+"Newgate Style (6)": {
+"path": "PkFx\\Newgate_Style__6_.mdx",
+"radius": 193,
+"anim": "Birth (1.0s)"
+},
+"Newgate Style (8)": {
+"path": "PkFx\\Newgate_Style__8_.mdx",
+"radius": 331,
+"anim": "Stand (3.0s), Spell (1.2s)"
+},
+"PVegeta Style (12)": {
+"path": "PkFx\\PVegeta_Style__12_.mdx",
+"radius": 8100,
+"anim": "birth (1.0s), death (1.0s), spell channel (0.0s)"
+},
+"PVegeta Style (15)": {
+"path": "PkFx\\PVegeta_Style__15_.mdx",
+"radius": 428,
+"anim": "Stand (1.3s)"
+},
+"PVegeta Style (16)": {
+"path": "PkFx\\PVegeta_Style__16_.mdx",
+"radius": 994,
+"anim": "Stand (1.3s)"
+},
+"PVegeta Style (21)": {
+"path": "PkFx\\PVegeta_Style__21_.mdx",
+"radius": 138,
+"anim": "Stand (1.0s), Death (0.0s)"
+},
+"RZoro Effect (14)": {
+"path": "PkFx\\RZoro_Effect__14_.mdx",
+"radius": 235,
+"anim": "stand (1.0s), death (1.0s)"
+},
+"RZoro Effect (21)": {
+"path": "PkFx\\RZoro_Effect__21_.mdx",
+"radius": 235,
+"anim": "Death (0.9s)"
+},
+"RZoro Effect (23)": {
+"path": "PkFx\\RZoro_Effect__23_.mdx",
+"radius": 884,
+"anim": "birth (1.0s), death (1.0s)"
+},
+"RZoro Effect (27)": {
+"path": "PkFx\\RZoro_Effect__27_.mdx",
+"radius": 773,
+"anim": "Birth (5.9s)"
+},
+"RZoro Effect (28)": {
+"path": "PkFx\\RZoro_Effect__28_.mdx",
+"radius": 994,
+"anim": "Stand (3.0s), BY¶¯ÂþÖÕÑÉÖ®Õ½ (0.0s), QQ790470818 (0.0s)"
+},
+"RZoro Effect (31)": {
+"path": "PkFx\\RZoro_Effect__31_.mdx",
+"radius": 359,
+"anim": "death (3.0s)"
+},
+"RZoro Effect (33)": {
+"path": "PkFx\\RZoro_Effect__33_.mdx",
+"radius": 552,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"RZoro Effect (6)": {
+"path": "PkFx\\RZoro_Effect__6_.mdx",
+"radius": 276,
+"anim": "Birth (3.0s)"
+},
+"Red Lightning Haki": {
+"path": "PkFx\\Red_Lightning_Haki.mdx",
+"radius": 442,
+"anim": "Stand (1.0s)"
+},
+"SYamamoto (1)": {
+"path": "PkFx\\SYamamoto__1_.mdx",
+"radius": 331,
+"anim": "Birth (1.1s), Stand Walk (3.3s), Death (1.0s)"
+},
+"SYamamoto (20)": {
+"path": "PkFx\\SYamamoto__20_.mdx",
+"radius": 345,
+"anim": "Stand (0.8s), Death (1.0s)"
+},
+"Sage Effect Damage": {
+"path": "PkFx\\Sage_Effect_Damage.mdx",
+"radius": 524,
+"anim": "stand (2.0s)"
+},
+"Sage Rasengan 2021": {
+"path": "PkFx\\Sage_Rasengan_2021.mdx",
+"radius": 41,
+"anim": "Stand (0.4s), death (0.1s), Birth (1.5s)"
+},
+"Sand Slash": {
+"path": "PkFx\\Sand_Slash.mdx",
+"radius": 193,
+"anim": "Birth (2.9s)"
+},
+"Sand Style Mokuton 1": {
+"path": "PkFx\\Sand_Style_Mokuton_1.mdx",
+"radius": 262,
+"anim": "death (5.0s)"
+},
+"Sand Style Mokuton 2": {
+"path": "PkFx\\Sand_Style_Mokuton_2.mdx",
+"radius": 359,
+"anim": "death (5.0s)"
+},
+"Sengoku Effect Spell (10)": {
+"path": "PkFx\\Sengoku_Effect_Spell__10_.mdx",
+"radius": 607,
+"anim": "birth (1.0s), death (2.5s)"
+},
+"Sengoku Effect Spell (11)": {
+"path": "PkFx\\Sengoku_Effect_Spell__11_.mdx",
+"radius": 497,
+"anim": "Stand (1.1s)"
+},
+"Sengoku Effect Spell (4)": {
+"path": "PkFx\\Sengoku_Effect_Spell__4_.mdx",
+"radius": 552,
+"anim": "Birth (2.8s)"
+},
+"Sengoku Effect Spell (8)": {
+"path": "PkFx\\Sengoku_Effect_Spell__8_.mdx",
+"radius": 304,
+"anim": "Birth (1.1s)"
+},
+"Shiva's Wrath (ENG)": {
+"path": "PkFx\\Shiva_s_Wrath__ENG_.mdx",
+"radius": 248,
+"anim": "Birth (1.4s)"
+},
+"ShockWave Green": {
+"path": "PkFx\\ShockWave_Green.mdx",
+"radius": 773,
+"anim": "Birth (2.1s)"
+},
+"ShockwavePurple": {
+"path": "PkFx\\ShockwavePurple.mdx",
+"radius": 773,
+"anim": "Birth (2.1s)"
+},
+"Style Effect Kaido (1)": {
+"path": "PkFx\\Style_Effect_Kaido__1_.mdx",
+"radius": 718,
+"anim": "birth (1.0s), death (1.8s)"
+},
+"Style Effect Kaido (13)": {
+"path": "PkFx\\Style_Effect_Kaido__13_.mdx",
+"radius": 994,
+"anim": "birth (0.5s), stand (1.0s), death (2.0s)"
+},
+"Style Effect Kaido (14)": {
+"path": "PkFx\\Style_Effect_Kaido__14_.mdx",
+"radius": 2761,
+"anim": "Birth (0.5s), Stand (0.2s), Death (0.3s)"
+},
+"Style Effect Kaido (2)": {
+"path": "PkFx\\Style_Effect_Kaido__2_.mdx",
+"radius": 400,
+"anim": "birth (1.0s), death (1.8s)"
+},
+"Style Effect Kaido (20)": {
+"path": "PkFx\\Style_Effect_Kaido__20_.mdx",
+"radius": 276,
+"anim": "Birth (3.0s)"
+},
+"Style Effect Kaido (24)": {
+"path": "PkFx\\Style_Effect_Kaido__24_.mdx",
+"radius": 386,
+"anim": "Birth (0.6s), Death (0.2s)"
+},
+"Style Effect Kaido (27)": {
+"path": "PkFx\\Style_Effect_Kaido__27_.mdx",
+"radius": 373,
+"anim": "Birth (0.6s), Death (0.2s)"
+},
+"Style Effect Kaido (3)": {
+"path": "PkFx\\Style_Effect_Kaido__3_.mdx",
+"radius": 828,
+"anim": "death (2.6s)"
+},
+"Style Effect Kaido (4)": {
+"path": "PkFx\\Style_Effect_Kaido__4_.mdx",
+"radius": 1104,
+"anim": "Stand (7.0s)"
+},
+"Style Effect Kaido (5)": {
+"path": "PkFx\\Style_Effect_Kaido__5_.mdx",
+"radius": 235,
+"anim": "Stand (0.4s), Death (0.5s)"
+},
+"Style Effect Kaido (6)": {
+"path": "PkFx\\Style_Effect_Kaido__6_.mdx",
+"radius": 179,
+"anim": "Stand (3.3s)"
+},
+"Super Big Explosion Blue 2020": {
+"path": "PkFx\\Super_Big_Explosion_Blue_2020.mdx",
+"radius": 1270,
+"anim": "Birth (10.0s)"
+},
+"Super Big Explosion White 2020": {
+"path": "PkFx\\Super_Big_Explosion_White_2020.mdx",
+"radius": 884,
+"anim": "Birth (10.0s)"
+},
+"SuperBigBombExplosion Green": {
+"path": "PkFx\\SuperBigBombExplosion_Green.mdx",
+"radius": 1270,
+"anim": "Birth (10.0s)"
+},
+"SuperShinyThingy1": {
+"path": "PkFx\\SuperShinyThingy1.mdx",
+"radius": 442,
+"anim": "Stand (1.3s)"
+},
+"SuperShinyThingy7": {
+"path": "PkFx\\SuperShinyThingy7.mdx",
+"radius": 442,
+"anim": "Stand (1.3s)"
+},
+"UO Kamai Style 1": {
+"path": "PkFx\\UO_Kamai_Style_1.mdx",
+"radius": 469,
+"anim": "Stand (1.0s), Death (1.0s), Birth (1.0s)"
+},
+"UO Kamai Style 2": {
+"path": "PkFx\\UO_Kamai_Style_2.mdx",
+"radius": 331,
+"anim": "Stand (0.9s), Birth (0.8s), Death (0.9s)"
+},
+"Uitachi Style (16)": {
+"path": "PkFx\\Uitachi_Style__16_.mdx",
+"radius": 442,
+"anim": "Birth (0.5s)"
+},
+"Uitachi Style (21)": {
+"path": "PkFx\\Uitachi_Style__21_.mdx",
+"radius": 41,
+"anim": "Stand (1.6s), Death (1.6s)"
+},
+"Uitachi Style (22)": {
+"path": "PkFx\\Uitachi_Style__22_.mdx",
+"radius": 262,
+"anim": "Stand (1.2s), death (4.0s)"
+},
+"Uitachi Style (28)": {
+"path": "PkFx\\Uitachi_Style__28_.mdx",
+"radius": 884,
+"anim": "Death (0.3s)"
+},
+"Uitachi Style (7)": {
+"path": "PkFx\\Uitachi_Style__7_.mdx",
+"radius": 663,
+"anim": "death (2.0s)"
+},
+"X Sesshomaru (17)": {
+"path": "PkFx\\X_Sesshomaru__17_.mdx",
+"radius": 179,
+"anim": "Death (1.0s)"
+},
+"X Sesshomaru (3)": {
+"path": "PkFx\\X_Sesshomaru__3_.mdx",
+"radius": 1104,
+"anim": "Birth AZ (1.2s), °æÈ¨ËùÊôAZ ¹ºÂòÊ¹ÓÃ ×÷ÕßQQ 3358167564 (0.0s)"
+},
+"animeslashfinal": {
+"path": "PkFx\\animeslashfinal.mdx",
+"radius": 166,
+"anim": "Birth (0.5s)"
+},
+"BD_Goku (23)": {
+"path": "PkFx\\BD_Goku__23_.mdx",
+"radius": 718,
+"anim": "Stand Gold (2.0s), Spell Channel (0.5s), Spell Throw (0.5s), Stand Ready (0.7s), Spell (2.0s), Death (4.7s), Spell Three (1.0s), Spell Slam Two (0.5s)"
+}
+}

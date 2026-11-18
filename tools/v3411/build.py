@@ -20,8 +20,28 @@ import slk  # noqa: E402
 import league_area  # noqa: E402
 import apply  # noqa: E402
 import status_moves as SM  # noqa: E402
+import fx_more  # noqa: E402
+import starters  # noqa: E402
+import megas  # noqa: E402
 
 BASE_MAP = apply.BASE_MAP
+
+# v3.4.16: buff bar icons AF1A.. / BF1A.. (order = Fx_IconUp / Fx_IconDown / Fx_IconStatus / Conf / Acc in fx_globals.j)
+_STAT = ('Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed')
+_UP = ('BTNSteelMelee', 'BTNHumanArmorUpOne', 'BTNSorceressMaster', 'BTNSpellShieldAmulet', 'BTNBootsOfSpeed')
+_DOWN = ('BTNCripple', 'BTNFaerieFire', 'BTNCurse', 'BTNSilence', 'BTNSlow')
+STAGE_ICONS = ([('|cff66ff66%s raised|r' % n, '%s stage above 0 (type -stats for the stage and the time left).' % n, i)
+                for n, i in zip(_STAT, _UP)] +
+               [('|cffff6666%s lowered|r' % n, '%s stage below 0 (type -stats for the stage and the time left).' % n, i)
+                for n, i in zip(_STAT, _DOWN)] +
+               [('|cffffcc66Burn|r', 'Burned: loses HP over time, physical damage -25%.', 'BTNImmolationOn'),
+                ('|cffffcc66Poison|r', 'Poisoned: loses HP over time.', 'BTNEnvenomedSpear'),
+                ('|cffffcc66Bad poison|r', 'Badly poisoned: loses more HP every second.', 'BTNOrbOfVenom'),
+                ('|cffffcc66Paralysis|r', 'Paralyzed: slower, may be stopped for a moment.', 'BTNPurge'),
+                ('|cffffcc66Sleep|r', 'Asleep: cannot act.', 'BTNSleep'),
+                ('|cffffcc66Freeze|r', 'Frozen: cannot act.', 'BTNFrost'),
+                ('|cffcc88ffConfused|r', 'Confused: attacks may hit itself.', 'BTNPossession'),
+                ('|cffff6666Accuracy down|r', 'Attacks and moves miss 30% of the time.', 'BTNEnsnare')])
 
 
 def set_keys(text, sid, pairs):
@@ -77,6 +97,14 @@ def build(out, dry):
         row[items.name_to_x['abilList']] = '"%s"' % ','.join(al)
     row = items.find('ITFY')
     row[items.name_to_x['goldcost']] = str(ip['prices']['ITFY'])
+    # v3.4.16: stat vitamins (Carbos / Calcium / Protein x5, HP Up, Calcium, Protein, Carbos) without a shop limit
+    for iid in ('I000', 'I001', 'I002', 'I003', 'I004', 'I005', 'I006'):
+        row = items.find(iid)
+        if row is None:
+            raise SystemExit('item %s not found' % iid)
+        row[items.name_to_x['stockMax']] = '99'
+        row[items.name_to_x['stockStart']] = '99'
+        row[items.name_to_x['stockRegen']] = '1'
     files['Units\\ItemData.slk'] = items.to_text().encode('latin-1')
     func = base.read('Units\\ItemFunc.txt').decode('utf-8', 'replace')
     for t, (iid, word) in ip['type_items'].items():
@@ -117,8 +145,10 @@ def build(out, dry):
             if cd:
                 row[col['Cool1']] = '%g' % round(float(cd) * 0.7, 2)
     tmpl = abil.find('AB20')
-    for k in range(1, 6):
-        new = 'AB2%d' % k
+    dig36 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    info_id = lambda idx: 'AB' + dig36[(idx - 1) // 36] + dig36[(idx - 1) % 36]  # noqa: E731 (= Ab_InfoId)
+    for idx, _n, _i in apply.NEW_ABILITIES:
+        new = info_id(idx)
         if abil.find(new) is None:
             r = dict(tmpl)
             r[1] = '"%s"' % new
@@ -142,6 +172,52 @@ def build(out, dry):
                     r[col['targs1']] = '"air,ground,enemy,neutral"'
                 abil.rows.append(r)
             buttons.append((new, tmpl, name, ty, icon, desc))
+    # v3.4.16 (fx_more.py): the moves with new effects use the art-less buff copies of v3.4.9
+    fxm = p.get('fx_more') or {}
+    buff_cols = [c for c in col if re.match(r'(BuffID|EfctID)\d+$', c)]
+    for mv in fxm.get('moves', []):
+        row = abil.find(mv['aid'])
+        if row is None:
+            raise SystemExit('fx_more: ability %s not found' % mv['aid'])
+        for c in buff_cols:
+            v = abil.get(row, c)
+            if v:
+                nv = ','.join(fx_more.BUFF_COPY.get(b, b) for b in v.split(','))
+                if nv != v:
+                    row[col[c]] = '"%s"' % nv
+    # v3.4.16: hidden bonuses (stages as green / red numbers) and self-only auras (buff bar icons)
+    bonus_new, icon_new = [], []
+    for new, tmpl in (('AF0A', 'A08H'), ('AF0D', 'AId2'), ('AF0S', 'AMB3')):
+        if abil.find(new) is None:
+            r = dict(abil.find(tmpl))
+            r[1] = '"%s"' % new
+            r[col['levels']] = '2'
+            r[col['item']] = '1'
+            for c in ('DataA1', 'DataA2'):
+                r[col[c]] = '0'
+            abil.rows.append(r)
+            bonus_new.append((new, tmpl))
+    buffs = slk.Slk(base.read('Units\\AbilityBuffData.slk').decode('latin-1'))
+    for k, (_tip, _txt, _icon) in enumerate(STAGE_ICONS):
+        aid, bid = 'AF1' + chr(65 + k), 'BF1' + chr(65 + k)
+        if abil.find(aid) is None:
+            r = dict(abil.find('AOae'))
+            r[1] = '"%s"' % aid
+            r[col['levels']] = '1'
+            r[col['item']] = '1'
+            r[col['hero']] = '0'
+            r[col['DataA1']] = '0'
+            r[col['DataB1']] = '0'
+            r[col['Area1']] = '10'
+            r[col['targs1']] = '"self"'
+            r[col['BuffID1']] = '"%s"' % bid
+            abil.rows.append(r)
+        if buffs.find(bid) is None:
+            r = dict(buffs.find('BOae'))
+            r[1] = '"%s"' % bid
+            buffs.rows.append(r)
+        icon_new.append((aid, bid, k))
+    files['Units\\AbilityBuffData.slk'] = buffs.to_text().encode('latin-1')
     files['Units\\AbilityData.slk'] = abil.to_text().encode('latin-1')
     strings = base.read('Units\\CampaignAbilityStrings.txt').decode('utf-8', 'replace')
     for new, tmpl, name, ty, icon, desc in buttons:
@@ -151,12 +227,51 @@ def build(out, dry):
         strings = set_keys(strings, new, [('Name', name), ('Art', SM.ICON % icon),
                                           ('Tip', '|cffffcc00%s [%s]|r' % (name, hot)),
                                           ('Ubertip', '"%s|n|cffffcc00Status move:|r %s."' % (desc, ty.capitalize()))])
-    for k, (idx, name, info) in enumerate(apply.NEW_ABILITIES, 1):
-        new = 'AB2%d' % k
+    for idx, name, info in apply.NEW_ABILITIES:
+        new = info_id(idx)
         strings = copy_section(strings, 'AB20', new)
         strings = set_keys(strings, new, [('Name', 'Ability: %s' % name), ('Tip', 'Ability: |cffffcc00%s|r' % name),
                                           ('Ubertip', '"%s"' % info)])
+    # v3.4.16: texts of the hidden bonuses and of the buff icons
+    for new, tmpl in bonus_new:
+        strings = copy_section(strings, tmpl, new)
+        strings = set_keys(strings, new, [('Name', 'Stage bonus'), ('EditorSuffix', '(v3.4.16)')])
+    for aid, bid, k in icon_new:
+        tip, txt, icon = STAGE_ICONS[k]
+        strings = copy_section(strings, 'AOae', aid)
+        strings = set_keys(strings, aid, [('Name', tip), ('Targetart', ''), ('Casterart', ''), ('Areaeffectart', ''),
+                                          ('Specialart', '')])
+        strings = copy_section(strings, 'BOae', bid)
+        strings = set_keys(strings, bid, [('Bufftip', tip), ('Buffubertip', '"%s"' % txt),
+                                          ('Buffart', 'ReplaceableTextures\\CommandButtons\\%s.blp' % icon),
+                                          ('Targetart', ''), ('Effectart', ''), ('Specialart', '')])
+    # v3.4.16: old art off on the moves with new effects; melee missile moves travel at the dash speed
+    for mv in fxm.get('moves', []):
+        pairs = [(k, '') for k in fx_more.ART_KEYS]
+        if mv['melee'] and mv['base'] in fx_more.MISSILE_BASES:
+            pairs.append(('Missilespeed', '%d' % int(mv['dash'])))
+        strings = set_keys(strings, mv['aid'], pairs)
     files['Units\\CampaignAbilityStrings.txt'] = strings.encode('utf-8')
+    # v3.4.16: Pokemon World effect models (+ textures)
+    if fxm.get('pw_models'):
+        have = {n.lower() for n in base.listfile()}
+        for path, data in fx_more.pw_files(fxm['pw_models']).items():
+            if path.lower() in have and base.read(path) != data:
+                raise SystemExit('fx_more: %s already in the map with other content' % path)
+            if path.lower() not in have:
+                files[path] = data
+    # v3.4.16: starter models / icons and trainer models for the gym leaders / Elite Four
+    have = {n.lower() for n in base.listfile()}
+    for path, data in starters.files().items():
+        if path.lower() in have and base.read(path) != data:
+            raise SystemExit('starter: %s already in the map with other content' % path)
+        if path.lower() not in have and path not in files:
+            files[path] = data
+    for path, data in fx_more.trainer_files().items():
+        if path.lower() in have and base.read(path) != data:
+            raise SystemExit('trainer: %s already in the map with other content' % path)
+        if path.lower() not in have and path not in files:
+            files[path] = data
     # ---- units: Darkrai as a random legend (nL19), Pixie Plate in Super Mart 2
     w3u_data = base.read('war3map.w3u')
     w3u = objdata.ObjFile(w3u_data)
@@ -171,6 +286,69 @@ def build(out, dry):
             if md.field == 'unam':
                 md.value = 'Wild Darkrai'
         w3u.custom.append(o)
+    # v3.4.16: gym leaders / Elite Four NPCs (villager base: no attack, invulnerable, cannot move)
+    for k, (who, model, _hi, _win) in enumerate(fx_more.TRAINERS):
+        nid = fx_more.TRAINER_ID[k]
+        if nid in have:
+            raise SystemExit('unit id %s already used' % nid)
+        title = 'Gym Leader %s' % who if k < 8 else ('Champion %s' % who if k == 12 else 'Elite Four %s' % who)
+        w3u.custom.append(objdata.Obj('nvil', nid, [
+            objdata.Mod('unam', 3, title), objdata.Mod('umdl', 3, 'PkFx\\Trainer\\%s.mdx' % model),
+            objdata.Mod('uabi', 3, 'Avul'), objdata.Mod('umvs', 0, 0),
+            objdata.Mod('usca', 1, fx_more.TRAINER_SCALE.get(model, 1.4))]))
+    # v3.4.16: Team Rocket NPCs (Jessie, a grunt) of the raid event
+    for nid, who, model, scale in fx_more.ROCKET_NPC:
+        if nid in have:
+            raise SystemExit('unit id %s already used' % nid)
+        w3u.custom.append(objdata.Obj('nvil', nid, [
+            objdata.Mod('unam', 3, who), objdata.Mod('umdl', 3, 'PkFx\\Trainer\\%s.mdx' % model),
+            objdata.Mod('uabi', 3, 'Avul'), objdata.Mod('umvs', 0, 0), objdata.Mod('usca', 1, float(scale))]))
+    # v3.4.16: skins of the regional forms (only their model / scale are used, via BlzSetUnitSkin)
+    for nid, f, scale in fx_more.regional_skins():
+        if nid in have:
+            raise SystemExit('unit id %s already used' % nid)
+        w3u.custom.append(objdata.Obj('nvil', nid, [
+            objdata.Mod('unam', 3, 'Regional skin %s' % f), objdata.Mod('umdl', 3, 'PkFx\\Regional\\%s.mdx' % f),
+            objdata.Mod('uabi', 3, 'Avul'), objdata.Mod('usca', 1, float(scale))]))
+    n_start = starters.unit_objects(w3u, objdata)  # v3.4.16: 33 starter heroes
+    # v3.4.16: Megas of Swampert, Sableye, Garchomp, Abomasnow (items, abilities, skins, shops)
+    m_abil = slk.Slk(files['Units\\AbilityData.slk'].decode('latin-1'))
+    m_items = slk.Slk(files['Units\\ItemData.slk'].decode('latin-1'))
+    m_str, m_func = megas.objects(w3u, objdata, m_abil, m_items,
+                                  files['Units\\CampaignAbilityStrings.txt'].decode('utf-8'),
+                                  files['Units\\ItemFunc.txt'].decode('utf-8'), set_keys, copy_section)
+    files['Units\\AbilityData.slk'] = m_abil.to_text().encode('latin-1')
+    files['Units\\ItemData.slk'] = m_items.to_text().encode('latin-1')
+    files['Units\\CampaignAbilityStrings.txt'] = m_str.encode('utf-8')
+    # v3.4.16 Dynamax Band (item IDMX, its ability ADMX: copies of a Mega Stone / Mega Evolve with their own order)
+    if m_abil.find('ADMX') is not None or m_items.find('IDMX') is not None:
+        raise SystemExit('Dynamax ids already used')
+    row = dict(m_abil.find('AM0W'))
+    row[1] = '"ADMX"'
+    row[m_abil.name_to_x['DataF1']] = '"robogoblin"'
+    row[m_abil.name_to_x['Cool1']] = '150'
+    m_abil.rows.append(row)
+    row = dict(m_items.find('IM0W'))
+    row[1] = '"IDMX"'
+    row[m_items.name_to_x['abilList']] = '"ADMX"'
+    row[m_items.name_to_x['goldcost']] = '8000'
+    m_items.rows.append(row)
+    dyn_icon = 'ReplaceableTextures\\CommandButtons\\BTNBerserk.blp'
+    dyn_text = ('Dynamax for 20s: twice as big, +50% max HP, every move is a Max Move (+50% damage and a big blast'
+                ' of its type). Cooldown 150s. Pokemon of level 20 or more.')
+    m_str = copy_section(m_str, 'AM0W', 'ADMX')
+    m_str = set_keys(m_str, 'ADMX', [('Name', 'Dynamax'), ('Art', dyn_icon), ('Tip', '|cffff5080Dynamax|r'),
+                                     ('Ubertip', '"%s"' % dyn_text), ('Order', 'robogoblin')])
+    m_func = copy_section(m_func, 'IM0W', 'IDMX')
+    m_func = set_keys(m_func, 'IDMX', [('Name', 'Dynamax Band'), ('Tip', 'Purchase |cffff5080Dynamax Band|r'),
+                                       ('Ubertip', '"|cffffcc00Use (click in the inventory):|r %s"' % dyn_text),
+                                       ('Description', 'Lets a Pokemon Dynamax again and again.'), ('Art', dyn_icon)])
+    for md in next(o for o in w3u.custom if o.new == 'n00Q').mods:
+        if md.field == 'usei' and 'IDMX' not in md.value:
+            md.value = md.value + ',IDMX'
+    m_func = starters.wild_objects(w3u, objdata, m_items, m_func, set_keys, copy_section)  # v3.4.16
+    files['Units\\ItemData.slk'] = m_items.to_text().encode('latin-1')
+    files['Units\\ItemFunc.txt'] = m_func.encode('utf-8')
     shop = next(o for o in w3u.custom if o.new == 'n00Q')
     for md in shop.mods:
         if md.field == 'usei' and 'ITFY' not in md.value:
@@ -193,7 +371,18 @@ def build(out, dry):
     if os.path.exists(out):
         raise SystemExit('refusing to overwrite %s' % out)
     listfile = sorted(set(base.listfile()) | set(files))
-    base.save_with(out, files, extra_listfile=('\r\n'.join(listfile) + '\r\n').encode('latin-1'))
+    # v3.4.16: ~440 new files no longer fit the 4096-slot hash table of the 3.4.10 map
+    # the 3.4.10 map has a full listfile: re-lay the table by those names only (discover_names would read every file
+    # of the 150 MB map looking for more names, too slow); entries without a known name are still kept (mpq copies
+    # them to every candidate home slot)
+    v18 = [x.strip() for x in open(os.path.join(HERE, 'names_v3410.txt'), encoding='latin-1') if x.strip()]
+    mpq.discover_names = lambda archive, extra=(): set(archive.listfile()) | set(extra) | set(v18)
+    hsize = len(base.hash_table)
+    while len(base.hash_table) - sum(1 for e in base.hash_table if e[4] == 0xFFFFFFFF) + len(files) > hsize * 3 // 4:
+        hsize *= 2
+    base.save_with(out, files, extra_listfile=('\r\n'.join(listfile) + '\r\n').encode('latin-1'),
+                   hash_size=hsize if hsize != len(base.hash_table) else None, extra_names=listfile)
+    print('hash table: %d slots' % hsize)
     print('wrote %s (%.1f MB)' % (out, os.path.getsize(out) / 1048576.0))
 
 

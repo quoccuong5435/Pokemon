@@ -1,7 +1,7 @@
 """Download level-up learnsets, types, base stats and abilities of every Pokemon of the mod from PokeAPI.
 
-Species lists: analysis/arena_species.txt (heroes of the map) and analysis/pkl_not_in_arena.txt (PKLegends models that
-are not playable yet). Output: tools/learnsets.json (schema 2). Raw answers are cached in analysis/pokeapi_cache/.
+Species lists: analysis/arena_species.txt (heroes of the map), analysis/pkl_not_in_arena.txt (PKLegends models that
+are not playable yet) and analysis/starters_v3416.txt (v3.4.16 starter lines). Output: tools/learnsets.json (schema 2). Raw answers are cached in analysis/pokeapi_cache/.
 
 Usage (from _PokemonArena2.0_work):  python -I analysis/fetch_pokeapi.py
 """
@@ -85,7 +85,8 @@ def main():
     arena = [l.strip() for l in open(os.path.join('analysis', 'arena_species.txt'), encoding='utf-8') if l.strip()]
     pkl = [l.strip() for l in open(os.path.join('analysis', 'pkl_not_in_arena.txt'), encoding='utf-8') if l.strip()]
     species, moves, missing = {}, {}, []
-    for origin, names in (('arena', arena), ('pkl', pkl)):
+    starters = [l.strip() for l in open(os.path.join('analysis', 'starters_v3416.txt'), encoding='utf-8') if l.strip()]
+    for origin, names in (('arena', arena), ('pkl', pkl), ('starter', starters)):  # v3.4.16: Gen 2-7 starter lines
         for name in names:
             s = slug(name)
             if s in SKIP:

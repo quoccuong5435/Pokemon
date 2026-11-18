@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>v3.4.16 render check</title>
+<style>body{background:#222;color:#ddd;font:12px sans-serif} canvas{background:#000}</style></head>
+<body>
+<canvas id="c" width="256" height="256"></canvas>
+<pre id="log"></pre>
+<script src="/viewer.min.js"></script>
+<script>
+// Top view, orthographic, 2*HALF game units across the canvas. For each model: the animation the game plays
+// (Birth, else Stand, else the first), frames at 20 / 40 / 60 / 80 % of it; lit pixels = not background.
+// radius = distance from the centre that holds 95 % of the lit pixels (max over the frames), in game units at scale 1.
+const HALF = 1600, SIZE = 256;
+const log = (s) => { document.getElementById('log').textContent += s + '\n'; };
+window.results = {};
+window.done = false;
+
+async function main() {
+  const canvas = document.getElementById('c');
+  const MV = ModelViewer.default || ModelViewer;
+  const viewer = new MV.viewer.ModelViewer(canvas, { preserveDrawingBuffer: true, alpha: false });
+  viewer.addHandler(MV.viewer.handlers.mdx);
+  viewer.addHandler(MV.viewer.handlers.blp);
+  viewer.addHandler(MV.viewer.handlers.tga);
+  viewer.on('error', (e) => { window.errors = (window.errors || 0) + 1; });  // sub-resources that fail (sounds ...)
+  const gl = viewer.gl;
+  const list = await (await fetch('/assets/list.json')).json();
+  const solver = (src) => {
+    if (typeof src === 'string' && !src.startsWith('/assets/')) {
+      return '/tex/' + src.replace(/\\/g, '/');
+    }
+    return src;
+  };
+  const px = new Uint8Array(SIZE * SIZE * 4);
+  for (const item of list) {
+    const scene = viewer.addScene();
+    scene.camera.ortho(-HALF, HALF, -HALF, HALF, 1, 20000);
+    scene.camera.moveToAndFace([0, 0, 5000], [0, 0, 0], [0, 1, 0]);
+    scene.color = [0, 0, 0, 1];
+    let model;
+    try { model = await viewer.load('/assets/' + item.url, solver); } catch (e) { model = undefined; }
+    if (!model) { window.results[item.key] = { error: 'load' }; viewer.removeScene(scene); continue; }
+    await Promise.race([new Promise((r) => viewer.whenAllLoaded(() => r())), new Promise((r) => setTimeout(r, 3000))]);
+    const inst = model.addInstance();
+    inst.setScene(scene);
+    const names = (model.sequences || []).map((s) => (s.name || '').toLowerCase());
+    let seq = names.findIndex((n) => n.startsWith('birth'));
+    if (seq < 0) seq = names.findIndex((n) => n.startsWith('stand'));
+    if (seq < 0) seq = 0;
+    const s = model.sequences && model.sequences[seq];
+    const len = s ? (s.interval[1] - s.interval[0]) : 1000;
+    inst.setSequence(seq);
+    inst.setSequenceLoopMode(2);
+    let best = 0, lit = 0, t = 0;
+    for (const f of [0.2, 0.4, 0.6, 0.8]) {
+      const target = f * len;
+      while (t < target) { const dt = Math.min(33, target - t); viewer.updateAndRender(dt); t += dt; }
+      viewer.updateAndRender(0.001);
+      gl.readPixels(0, 0, SIZE, SIZE, gl.RGBA, gl.UNSIGNED_BYTE, px);
+      const d = [];
+      for (let y = 0; y < SIZE; y++) for (let x = 0; x < SIZE; x++) {
+        const i = (y * SIZE + x) * 4;
+        if (px[i] + px[i + 1] + px[i + 2] > 24) {
+          const dx = (x + 0.5 - SIZE / 2) * (2 * HALF / SIZE), dy = (y + 0.5 - SIZE / 2) * (2 * HALF / SIZE);
+          d.push(Math.sqrt(dx * dx + dy * dy));
+        }
+      }
+      if (d.length) {
+        d.sort((a, b) => a - b);
+        const r = d[Math.floor(d.length * 0.95)];
+        if (r > best) best = r;
+        lit = Math.max(lit, d.length);
+      }
+    }
+    window.results[item.key] = { radius: Math.round(best), lit: lit, seq: names[seq] || '', len: len };
+    log(item.key + ': r=' + Math.round(best) + ' lit=' + lit + ' (' + (names[seq] || '?') + ')');
+    viewer.removeScene(scene);
+    viewer.unload(model);
+  }
+  window.done = true;
+  log('DONE ' + list.length);
+}
+main().catch((e) => { log('ERROR ' + e); window.done = true; });
+</script>
+</body>
+</html>

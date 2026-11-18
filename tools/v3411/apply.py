@@ -21,6 +21,9 @@ import objdata  # noqa: E402
 import slk  # noqa: E402
 import league_area  # noqa: E402
 import status_moves as SM  # noqa: E402
+import fx_more  # noqa: E402
+import starters  # noqa: E402
+import megas  # noqa: E402
 
 BASE_MAP = os.path.join(MAPS, 'Pokemon Arena v3.4.10.w3x')
 OUT_DIR = os.path.join(WORK, 'v3411')
@@ -348,6 +351,11 @@ NEW_ABILITIES = [
     (77, 'Serene Grace', 'The extra effects of its moves (status, flinch, stat changes) are twice as likely. Moves'
      ' deal +10% damage.'),
     (78, 'Beast Boost', 'Each knock-out: +1 Attack for 30s (up to +4).'),
+    # v3.4.16
+    (79, 'Protean', 'Its type becomes the type of the move it just used (same-type bonus on every move, new'
+     ' weaknesses too).'),
+    (80, 'Snow Warning', 'While it is on the field the weather turns to hail (Ice types are spared, Snow Cloak dodges'
+     ' more). Once every 60s.'),
 ]
 # texts of reworked Abilities: ('set', text) replaces, ('add', text) appends to the 3.4.10 text
 AB_TEXTS = {
@@ -418,6 +426,13 @@ KEEP_CODES = {'ACac', 'AIab', 'AIml', 'AIde', 'AIas', 'AEev', 'AIsx', 'AIim', 'A
 def plan(m, script):
     """everything apply / build need, computed from the base map"""
     L = json.load(open(os.path.join(WORK, 'tools', 'learnsets.json'), encoding='utf-8'))
+    # v3.4.16: Ditto only knows Transform in the games, so it had no move here: it gets Transform (status move)
+    # plus Mew's level-up moves and TMs (it copies everything)
+    if 'ditto' in L['species'] and 'mew' in L['species']:
+        dt, mw = L['species']['ditto'], L['species']['mew']
+        dt['moves'] = [[1, 'transform']] + [mv for mv in mw['moves'] if mv[1] != 'transform']
+        dt['tm'] = list(mw['tm'])
+        dt['tm_group'] = mw['tm_group']
     moves_db = L['moves']
     stat_order = L.get('stat_order') or ['hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed']
     i_def, i_spd = stat_order.index('defense'), stat_order.index('special-defense')
@@ -608,6 +623,11 @@ def data_lines(p, ip, script, m):
                 lines.append("    call Fx_AddTm('%s', %d)" % (uid, mi))
                 n_tm += 1
     p['learn_counts'] = (n_lv, n_tm)
+    # v3.4.16: the Gen 2-7 starter lines (tools/v3411/starters.py)
+    st_lines, p['starter_learn'] = starters.data_lines(script, slugs)
+    lines += st_lines
+    lines += megas.data_lines()  # v3.4.16: 4 new Megas
+    lines += starters.wild_data_lines()  # v3.4.16: the starters as wild Pokemon / gym evolutions
     # Darkrai: a random legend now (its room is the League)
     lines += ["    set Leg_Type[Leg_N] = 'nL19'", "    set Leg_Soul[Leg_N] = 'I01F'", '    set Leg_Name[Leg_N] = "Darkrai"',
               '    set Leg_N = Leg_N + 1', "    call SaveInteger(Ab_HT, 'nL19', 0, AB_BADDREAMS)",
@@ -622,7 +642,7 @@ def jstr(s):
 
 def texts_function(script):
     old = {int(i): v for i, v in re.findall(r'set Ab_Info\[(\d+)\] = "(.*)"\s*$', script, re.M)}
-    out = ['function Fx_Texts takes nothing returns nothing', '    set Ab_N = 78']
+    out = ['function Fx_Texts takes nothing returns nothing', '    set Ab_N = %d' % max(a[0] for a in NEW_ABILITIES)]
     for idx, name, info in NEW_ABILITIES:
         out += ['    set Ab_Name[%d] = %s' % (idx, jstr(name)), '    set Ab_Info[%d] = %s' % (idx, jstr(info)),
                 '    call BlzSetAbilityTooltip(Ab_InfoId(%d), %s, 0)' % (idx, jstr('Ability: |cffffcc00%s|r' % name)),
@@ -896,6 +916,179 @@ def main():
     s = rep(s, 'function Hero_HPSync takes', core + '\nfunction Hero_HPSync takes')
     s = rep(s, 'function Ext_AfterHit takes', main_j + '\nfunction Ext_AfterHit takes')
     s = rep(s, 'function Mega_Init takes', data_j + 'function Mega_Init takes')
+    # v3.4.16: effects for the moves v3.4.9 left without one (fx_more.py)
+    fx_abil = slk.Slk(m.read('Units\\AbilityData.slk').decode('latin-1'))
+    fx_secs = fx_more.parse_strings(m.read('Units\\CampaignAbilityStrings.txt').decode('utf-8', 'replace'))
+    # v3.4.16: effectiveness text with the multiplier (x4 gets its own words and a bigger flash)
+    s = rep(s, '''            if eff > 1.01 then
+                call Ab_Say(t, "Super effective!", 255, 140, 0, sp, tp)
+                call Ab_Pop(t, "Abilities\\\\Spells\\\\Human\\\\Feedback\\\\SpellBreakerAttack.mdl", "chest")
+            else
+                call Ab_Say(t, "Not very effective...", 170, 170, 170, sp, tp)
+            endif''', '''            if eff > 3.9 then  // v3.4.16
+                call Ab_Say(t, "EXTREMELY effective! x4", 255, 60, 0, sp, tp)
+                call Ab_Pop(t, "Abilities\\\\Spells\\\\Other\\\\Incinerate\\\\FireLordDeathExplode.mdl", "origin")
+            elseif eff > 1.01 then
+                call Ab_Say(t, "Super effective! x" + R2SW(eff, 1, 0), 255, 140, 0, sp, tp)
+                call Ab_Pop(t, "Abilities\\\\Spells\\\\Human\\\\Feedback\\\\SpellBreakerAttack.mdl", "chest")
+            elseif eff < 0.3 then
+                call Ab_Say(t, "Barely effective... x" + R2SW(eff, 1, 2), 140, 140, 140, sp, tp)
+            else
+                call Ab_Say(t, "Not very effective... x" + R2SW(eff, 1, 1), 170, 170, 170, sp, tp)
+            endif''')
+    # v3.4.16: random legends much stronger (the user's numbers): HP x20, attack damage x5, armor x3
+    s = rep(s, '''    call Ai_GiveKit(lg)  // v3.4: and the 5 skills of their type, cast by Ai_Tick
+''', '''    call Ai_GiveKit(lg)  // v3.4: and the 5 skills of their type, cast by Ai_Tick
+    call BlzSetUnitMaxHP(lg, BlzGetUnitMaxHP(lg) * Leg_BuffHP)  // v3.4.16
+    call SetWidgetLife(lg, I2R(BlzGetUnitMaxHP(lg)))
+    call BlzSetUnitBaseDamage(lg, BlzGetUnitBaseDamage(lg, 0) * Leg_BuffDmg, 0)
+    call BlzSetUnitDiceSides(lg, BlzGetUnitDiceSides(lg, 0) * Leg_BuffDmg, 0)
+    call BlzSetUnitArmor(lg, BlzGetUnitArmor(lg) * I2R(Leg_BuffArmor))
+''')
+    s = rep(s, '''" (Lv 100) appeared! Only level 100 Pokemon can hurt it.|r")''',
+            '''" (Lv 100, HP x20, attack x5, armor x3) appeared! Only level 100 Pokemon can hurt it.|r")''')
+    # v3.4.16: Ditto ('P12A') had no damaging move at all: it gets Mew's ('E024') level-up moves and TMs
+    m8 = re.search(r'(?ms)^function Mv_Learn8 takes.*?^endfunction\n', s)
+    learn = s[s.index('function Mv_Learn1 takes'):m8.end()]
+    if "SaveInteger(Ab_HT, 'P12A', 99," in learn:
+        raise SystemExit('patch: Ditto already has learn data')
+    mew = re.findall(r"^    call SaveInteger\(Ab_HT, 'E024', (\d+), (-?\d+)\)$", learn, re.M)
+    if not mew:
+        raise SystemExit('patch: Mew learn data not found')
+    ditto = ''.join("    call SaveInteger(Ab_HT, 'P12A', %s, %s)  // v3.4.16 Ditto = Mew's moves\n" % kv for kv in mew)
+    body = m8.group(0)
+    s = s[:m8.start()] + body[:body.rindex('endfunction')] + ditto + 'endfunction\n' + s[m8.end():]
+    # v3.4.16: the gym leader / Elite Four member talks when a challenge starts (Fx_LeaderHiX)
+    s = rep(s, '''                        set Gym_Pid[g] = pid
+                        set Gym_Hero[g] = u
+''', '''                        set Gym_Pid[g] = pid
+                        set Gym_Hero[g] = u
+                        set Fx_ArgK = g  // v3.4.16
+                        call ExecuteFunc("Fx_LeaderHiX")
+''')
+    s = rep(s, '''    call League_BuildTeam()
+    if League_Stage == 4 then''', '''    call League_BuildTeam()
+    set Fx_ArgK = 8 + League_Stage  // v3.4.16
+    call ExecuteFunc("Fx_LeaderHiX")
+    if League_Stage == 4 then''')
+    # v3.4.16: regional forms of wild creeps (Fx_RegionalX) and per-unit types for them in Ty_Of
+    s = rep(s, '''        if LoadInteger(Mega_HT, GetUnitTypeId(u), 39) > 0 and LoadInteger(Mega_HT, h, 31) > 0 then
+            call Wild_PowStats(u)
+        endif
+    endif
+''', '''        if LoadInteger(Mega_HT, GetUnitTypeId(u), 39) > 0 and LoadInteger(Mega_HT, h, 31) > 0 then
+            call Wild_PowStats(u)
+        endif
+        set Fx_ArgU = u  // v3.4.16: maybe a regional form
+        call ExecuteFunc("Fx_RegionalX")
+    endif
+''')
+    s = rep(s, '''    local integer mi = LoadInteger(Mega_HT, h, 0) - 1
+    if k == 1 and LoadInteger(Ab_HT, h, 85) == 1 then''', '''    local integer mi = LoadInteger(Mega_HT, h, 0) - 1
+    if HaveSavedInteger(Ab_HT, h, 180) then  // v3.4.16: regional form
+        return LoadInteger(Ab_HT, h, 180 + k) - 1
+    endif
+    if k == 1 and LoadInteger(Ab_HT, h, 85) == 1 then''')
+    s = starters.patch_picker(s)  # v3.4.16: starter lines in the picker
+    s = starters.patch_wild(s)  # v3.4.16: ... as wild Pokemon with Souls
+    w3u_objs = {o.new: o for o in objdata.ObjFile(m.read('war3map.w3u')).custom}
+    st_scale = {sp['id']: float(starters.SCALE.get(sp['dex'], 1.2)) for sp in starters.species()}
+    s = megas.patch_script(s, megas.base_scales(w3u_objs, st_scale))  # v3.4.16: Megas of Swampert, Sableye ...
+    # v3.4.16 Protean: the user's type becomes the type of the move it casts (per-unit types, Ab_HT 180 / 181)
+    s = rep(s, '''    if ty >= 0 then
+        call SaveInteger(Ab_HT, h, 51, ty + 1)
+''', '''    if ty >= 0 then
+        if LoadInteger(Ab_HT, h, 0) == AB_PROTEAN and m >= 0 then  // v3.4.16
+            call SaveInteger(Ab_HT, h, 180, ty + 1)
+            call SaveInteger(Ab_HT, h, 181, 0)
+        endif
+        call SaveInteger(Ab_HT, h, 51, ty + 1)
+''')
+    # v3.4.16 Dynamax: a Max Move adds a big blast of the move's type at the target (Fx_MaxFx, fx_more data)
+    pk = re.search(r'(?ms)^function PkFx_OnCast takes.*?^endfunction\n', s)
+    if not pk:
+        raise SystemExit('patch: PkFx_OnCast not found')
+    body = pk.group(0)
+    tail = '    set fxCaster = null\n    set fxTarget = null\n    return false\nendfunction\n'
+    if not body.endswith(tail):
+        raise SystemExit('patch: PkFx_OnCast tail not found')
+    body = body[:-len(tail)] + '''    if Fx_IsDyna(fxCaster) then  // v3.4.16 Max Move
+        set fxStep = Ty_MoveOf(fxAbil)
+        if fxStep >= 0 and Mv_Type[fxStep] >= 0 and Fx_MaxFx[Mv_Type[fxStep]] != "" then
+            call PkFx_At(Fx_MaxFx[Mv_Type[fxStep]], fxDstX, fxDstY, fxAngle, Fx_MaxScale[Mv_Type[fxStep]], 2.0, 0.3)
+        endif
+    endif
+''' + tail
+    s = s[:pk.start()] + body + s[pk.end():]
+    # v3.4.16: legends as raid bosses (enrage below 50% HP, rewards by damage dealt): jass/leg_boss.j
+    boss = open(os.path.join(HERE, 'jass', 'leg_boss.j'), encoding='utf-8').read()
+    boss += open(os.path.join(HERE, 'jass', 'npc_moves.j'), encoding='utf-8').read()  # v3.4.16 moves NPC
+    for fname in ('Leg_OnDamage', 'Leg_OnDeath', 'Npc_Show', 'Npc_OnClick'):
+        mt = re.search(r'(?ms)^function %s takes.*?^endfunction\n' % fname, s)
+        if not mt:
+            raise SystemExit('patch: function %s not found' % fname)
+        mb = re.search(r'(?ms)^function %s takes.*?^endfunction\n' % fname, boss)
+        s = s[:mt.start()] + mb.group(0) + s[mt.end():]
+    # v3.4.16: weather you can see: a coloured fog over the map for each weather (clear = the map's own fog)
+    s = rep(s, '''    if Wth_Fx != null then
+        call EnableWeatherEffect(Wth_Fx, true)
+    endif
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, s)
+''', '''    if Wth_Fx != null then
+        call EnableWeatherEffect(Wth_Fx, true)
+    endif
+    if w == 1 then  // v3.4.16
+        call SetTerrainFogEx(0, 900.0, 5000.0, 0.5, 0.25, 0.35, 0.55)
+    elseif w == 2 then
+        call SetTerrainFogEx(0, 1200.0, 6000.0, 0.5, 1.0, 0.75, 0.35)
+    elseif w == 3 then
+        call SetTerrainFogEx(0, 500.0, 3500.0, 0.5, 0.75, 0.6, 0.35)
+    elseif w == 4 then
+        call SetTerrainFogEx(0, 700.0, 4000.0, 0.5, 0.85, 0.9, 1.0)
+    else
+        call ResetTerrainFog()
+    endif
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, s)
+''')
+    # v3.4.16: rain: thunder now and then next to a random hero (visual only)
+    s = rep(s, '''function Wth_Tick takes nothing returns nothing
+''', '''function Wth_Thunder takes nothing returns nothing  // v3.4.16
+    local unit u = null
+    local integer k = GetRandomInt(0, 11)
+    if Wth_Cur != 1 then
+        return
+    endif
+    call GroupEnumUnitsOfPlayer(Leg_Tmp, Player(k), null)
+    loop
+        set u = FirstOfGroup(Leg_Tmp)
+        exitwhen u == null
+        call GroupRemoveUnit(Leg_Tmp, u)
+        if IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 then
+            call DestroyEffect(AddSpecialEffect("Abilities\\\\Spells\\\\Other\\\\Monsoon\\\\MonsoonBoltTarget.mdl", GetUnitX(u) + GetRandomReal(-700.0, 700.0), GetUnitY(u) + GetRandomReal(-700.0, 700.0)))
+            call GroupClear(Leg_Tmp)
+        endif
+    endloop
+    set u = null
+endfunction
+
+function Wth_Tick takes nothing returns nothing
+''')
+    s = rep(s, '''    call TimerStart(CreateTimer(), 300.0, true, function Wth_Tick)
+''', '''    call TimerStart(CreateTimer(), 300.0, true, function Wth_Tick)
+    call TimerStart(CreateTimer(), 3.0, true, function Wth_Thunder)  // v3.4.16
+''')
+    # v3.4.16: the badge of a cleared gym floats over the winner (Fx_BadgeX)
+    s = rep(s, '''                set Badge_Has[pid * 8 + g] = true
+''', '''                set Badge_Has[pid * 8 + g] = true
+                set Fx_ArgU = Gym_Hero[g]  // v3.4.16
+                set Fx_ArgK = g
+                call ExecuteFunc("Fx_BadgeX")
+''')
+    fx_entries, fx_pw = fx_more.plan(script, fx_abil, fx_secs)
+    s = fx_more.patch_script(s, fx_entries)
+    fx_report = [(mv, aid, idx, rep_txt) for idx, aid, _hd, _ly, mv, rep_txt in fx_entries]
+    with open(os.path.join(OUT_DIR, 'fx_more_report.txt'), 'w', encoding='utf-8') as fr:
+        fr.write('\n'.join('%s (%s, data %d): %s' % r for r in fx_report) + '\n')
     os.makedirs(OUT_DIR, exist_ok=True)
     out = os.path.join(OUT_DIR, 'war3map.j')
     open(out, 'w', encoding='latin-1', newline='\n').write(s)
@@ -911,7 +1104,11 @@ def main():
         for k in ('status', 'flinch', 'recoil', 'drain', 'self', 'target'):
             if k in rec:
                 summary['groups'][k] = summary['groups'].get(k, 0) + 1
-    json.dump({'moves': {str(k): v for k, v in p['moves'].items()}, 'items': ip, 'version': VERSION},
+    json.dump({'moves': {str(k): v for k, v in p['moves'].items()}, 'items': ip, 'version': VERSION,
+               'fx_more': {'moves': [{'aid': e[1], 'melee': e[2]['melee'], 'dash': e[2]['dash'],
+                                      'base': fx_abil.get(fx_abil.find(e[1]), 'code')}
+                                     for e in fx_entries if not e[2].get('status')],
+                           'pw_models': sorted(fx_pw)}},
               open(os.path.join(OUT_DIR, 'plan.json'), 'w', encoding='utf-8'), indent=1, default=list)
     print(json.dumps(summary, indent=1))
     print('wrote', out, len(s), 'chars')

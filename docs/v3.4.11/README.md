@@ -1,3 +1,79 @@
+# Pokemon Arena v3.4.16
+**Đã build 2026-11-18** (`Pokemon Arena v3.4.16.w3x`, 164.5 MB, pjass 0 lỗi). **Chưa chơi thử.** Bảng hash của map nới lên 8192 ô
+(`mpq._grow_hash_table` giữ 8 file v1.8 không tên ở vị trí cũ; tên tìm thêm: `tools/v3411/names_v3410.txt`). Sửa theo góp ý sau
+khi chơi 3.4.15 + hiệu ứng chiêu mới.
+
+**Stage (Atk / Def / Spe ...) thấy được và mạnh hơn** (góp ý: chữ trên đầu vướng, Def -1 không trừ thẳng, buff
+không thấy khác biệt, tăng Spe ít tác dụng):
+- Bỏ dòng chữ thường trực trên đầu. Thay bằng **icon ở hàng buff** (18 icon: tăng / giảm từng chỉ số, Burn, Poison,
+  Bad poison, Paralysis, Sleep, Freeze, Confused, Accuracy down) + ánh sáng cũ trên đầu.
+- **Attack** = số công cộng / trừ thẳng (xanh / đỏ) trên bảng chỉ số; **Defense** = giáp ±3 mỗi bậc; **Speed** = tốc
+  chạy ±25% mỗi bậc (trước 15%) + tốc đánh (+2 = +30%, -2 = -20%). Sp. Atk / Sp. Def vẫn tính khi trúng chiêu.
+  (ability item ẩn AF0A / AF0D / AF0S chỉnh số theo từng unit, `Fx_StatSync`; đòn đánh thường không còn nhân hệ số
+  Atk / Def ngầm nữa để không tính hai lần.)
+- Mỗi bậc mạnh như game gốc: +1 x1.5, +2 x2, -1 x0.67, -2 x0.5 (trước ±25%). Kéo dài **20 giây** (trước 12).
+  Lúc dùng hiện "+2 Attack (x2.0)". `-stats` ghi bậc, hệ số, số giây còn lại, Confused / Protect / Shield.
+**Debuff nhiều hơn** (góp ý: giảm chính xác hồi quá lâu, debuff ít):
+- Giảm chính xác: trượt 30% (trước 20%), Sand Attack kéo dài 10 giây (trước 6), hồi 8 giây (trước 15).
+- 9 move debuff mới (67 move trạng thái): Feather Dance, Cotton Spore, Tickle, Eerie Impulse, Confide, Baby-Doll Eyes,
+  Smokescreen, Kinesis, Sweet Kiss (học theo learnset PokeAPI ở NPC dạy move).
+- Chiêu sát thương có hiệu ứng giảm chỉ số: tỉ lệ gây ra gấp đôi.
+**Khắc hệ rõ hơn:** "Super effective! x2", "EXTREMELY effective! x4" (nổ to), "Not very effective... x0.5",
+"Barely effective... x0.25".
+**Huyền thoại ngẫu nhiên = boss** (yêu cầu 2026-11-17): máu x20 (~600k–900k), công đánh thường x5, giáp x3, lúc sinh
+ra (`Leg_Spawn`, hằng `Leg_BuffHP / Leg_BuffDmg / Leg_BuffArmor`; sát thương chiêu kit không đổi). Dưới 50% máu thì
+**nổi giận**: công x1.5, đỏ người, gọi 2 Pokemon hoang mạnh nhất. Chết: **20 000 vàng chia theo % sát thương**, người
+gây nhiều nhất nhận **Soul vào túi** hero, bảng xếp hạng hiện cho mọi người (`jass/leg_boss.j` thay Leg_OnDamage /
+Leg_OnDeath).
+**Trưởng Gym / Elite Four**: 13 NPC model huấn luyện viên của Pokemon World (Brock, Misty, Lt. Surge, Erika, Janine,
+Sabrina, Blaine, Giovanni; Will, Koga, Bruno, Karen, Lance) đứng ở Gym (phía bắc sân) và trong phòng League; nói thoại
+khi bắt đầu thách đấu và khi bạn thắng Gym (unit nT00..nT0C, `fx_more.TRAINERS`).
+**Dạng vùng miền**: 10% quái hoang của 14 loài là dạng vùng miền thật (đổi ngoại hình, tên, **hệ**; vàng x1.5):
+Alolan Vulpix / Ninetales / Exeggutor / Marowak / Raichu / Sandshrew / Sandslash / Geodude / Graveler / Golem, Hisuian
+Typhlosion / Sneasel, Gyarados đỏ (`fx_more.REGIONAL`, skin nR00.., Ty_Of đọc hệ theo từng unit).
+**33 Pokemon chơi được mới: bộ khởi đầu Gen 2–7** (`tools/v3411/starters.py`, unit EP00..EP0W): Totodile, Mudkip,
+Turtwig, Chimchar, Piplup, Snivy, Tepig, Chespin, Fennekin, Froakie, Litten và 2 dạng tiến hoá của mỗi con. Model + icon
+của Pokemon World (texture shiny thiếu được trỏ về texture thường), chỉ số / hệ / Ability (Overgrow / Blaze / Torrent) /
+chiêu học theo cấp và TM lấy từ PokeAPI (`analysis/starters_v3416.txt`, `fetch_pokeapi.py` thêm nhóm 'starter'),
+tiến hoá đúng cấp game gốc, có trong menu chọn (nhóm Lửa / Nước / Cỏ), -random và đội hình Gym.
+Bộ khởi đầu cũng là **quái hoang** (nZ00..nZ0W, bậc 1–2 / 3–5 / 6–10) và rơi **Soul** (IZ00..IZ0W) như các loài cũ;
+dạng cuối có Ability riêng: Feraligatr Strong Jaw, Torterra Shell Armor, Infernape Iron Fist, Emboar Reckless,
+Incineroar Intimidate, Greninja **Protean** (Ability mới 79: hệ đổi theo chiêu vừa dùng).
+**4 Mega mới** (`tools/v3411/megas.py`): Mega Swampert, Sableye, Garchomp, Abomasnow (đá IM0X..IM10 ở shop Mega 1–3 và
+Super Mart 2, 6000 vàng; Mega Abomasnow có **Snow Warning**, Ability mới 80: gọi mưa đá, 60 giây/lần). Chưa có model Mega nên giống các Mega thiếu model khác: model gốc to hơn 40%, đổi màu, hào quang.
+**Team Rocket** (`fx_main.j` Fx_Rocket*, số trong `fx_globals.j`): phút 10 rồi mỗi 15 phút, Jessie + lính Rocket dẫn
+**8 Pokemon elite** (Arbok, Weezing, Meowth, Ekans, Koffing, Persian; bậc hiện tại **+6**, máu **x3**, công **x1.6**, giáp
+x1.5) đánh vào căn cứ của một phe, **120 giây**. Mỗi con +600 vàng; hạ hết: cả phe +3000 vàng. Thua: mỗi người phe đó
+mất **30% vàng** (ít nhất 1500) và Pokemon bị **giảm mọi chỉ số -1 trong 120 giây**.
+**Nhiệm vụ** (`-quest`): mỗi người luôn có 1 nhiệm vụ ngẫu nhiên (hạ 12 Pokemon hoang của 1 hệ / hạ 30 Pokemon hoang /
+thắng 1 Gym / góp sức hạ 1 huyền thoại / hạ 3 Pokemon của Team Rocket), thưởng 1500 vàng + Rare Candy x5.
+**Dynamax** (item **Dynamax Band** IDMX, 8000 vàng ở Super Mart 2; ability ADMX, order robogoblin): Pokemon cấp 20+
+bấm dùng: 20 giây to x2, máu tối đa x1.5, mọi chiêu là Max Move (+50% sát thương + vụ nổ lớn theo hệ, `fx_more.MAX_FX`).
+**Hồi chiêu 150 giây**, dùng nhiều lần trong trận (không phải 1 lần / trận).
+**NPC dạy move** (`jass/npc_moves.j` thay Npc_Show / Npc_OnClick; giá trong `fx_main.j` Fx_MovePrice):
+giá theo từng chiêu (tăng ~3 lần theo yêu cầu; hằng Fx_Price* trong fx_globals.j) — học theo cấp 500 + 40 x Power
+(move trạng thái 2000), TM 2000 + 80 x Power (move trạng thái 5000);
+điều kiện mua TM: Power 70+ cấp 15, 90+ cấp 30 + 1 huy hiệu, 120+ cấp 45 + 3 huy hiệu (move trạng thái cấp 10);
+bấm vào chiêu → màn xác nhận + **mô tả đầy đủ trong chat** (sát thương theo Pokemon của bạn, hiệu ứng, giá, điều kiện);
+sau khi mua tooltip của nút chiêu được cập nhật (Mv_Tips).
+**Thời tiết**: mỗi loại đổi màu sương toàn map; trời mưa có sét đánh quanh hero.
+**Vitamin** (Protein, Calcium, Carbos, HP Up, bản x5): shop 99 cái, hồi 1 giây (trước 10 / 1 cái).
+**Ditto** chơi được: Transform (move trạng thái mới: ngoại hình + bậc tăng của mục tiêu 30 giây) + bộ chiêu của Mew.
+**Huy hiệu Gym:** thắng Gym thì huy hiệu Kanto của Gym đó (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano,
+Earth; model Pokemon World) hiện trên đầu 6 giây.
+**Hiệu ứng chiêu** (`tools/v3411/fx_more.py`, báo cáo `v3411/fx_more_report.txt`):
+- 169 chiêu gây sát thương chưa có hiệu ứng riêng (103 cận chiến chỉ lướt chung, 66 tầm xa đạn WC3) nay có bộ riêng;
+  41 chiêu dùng model mà chính Pokemon World gán (Bubble Beam, Seed Bomb, Metal Claw, Crunch, Mega Punch, Tri Attack...).
+- 31 chiêu của v3.4.9 giữ bộ cũ và thêm một lớp model kiểu Pokemon (`V349_PW`): Razor Leaf (lá), Swift (sao băng),
+  Hyper Beam (Kamehameha), Shadow Ball, Hydro Pump, Fire / Ice / Thunder Punch (nắm đấm)...
+- 67 move trạng thái có hiệu ứng lớn (`STATUS_SPEC`) trên người dùng / mục tiêu.
+- Script Pokemon World đã giải mã (`analysis/pw_decrypt.py`, `pw_models_from_script.py`, `pw_spell_fx.py`,
+  `pw_fx_pool.py`). Model từ Pokemon World nhập vào `PkFx\PW_*.mdx`; tổng phần nhập thêm (cả trainer, dạng vùng miền, 33 Pokemon mới) ~25,9 MB. Map Pokemon Mew RPG 3.20B đã quét: không có model cho các Mega còn thiếu.
+  Bán kính **đo trên ảnh render** (mdx-m3-viewer 5.12.0 qua analysis/render/, 95% điểm sáng nhìn từ trên,
+  tools/v3411/fx_render_pw.json, scale tối đa x5); 6 model không thấy gì khi render vẫn dùng khung MDX (tối đa x3).
+
+---
+
 # Pokemon Arena v3.4.15: hiển thị buff / debuff, giảm chính xác có tác dụng thật
 **Đã build 2026-11-14** (`Pokemon Arena v3.4.15.w3x`, 156.6 MB, pjass 0 lỗi). **Chưa chơi thử.**
 

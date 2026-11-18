@@ -399,14 +399,31 @@ class MPQ:
             hi = self.find_hash(name)
             if hi is not None:
                 known[hi] = name
+        placed = set()
         for hi, name in known.items():
             if hash_table[hi][4] < HASH_DELETED:
                 insert(hash_string(name, HASH_OFFSET), hash_table[hi])
+                placed.add(hash_table[hi][4])
+        copies = {}
+        for p, e in enumerate(hash_table):
+            if e[4] < HASH_DELETED and p not in known:
+                copies[e[4]] = copies.get(e[4], 0) + 1
         for p, e in enumerate(hash_table):
             if e[4] >= HASH_DELETED or p in known:
                 continue
+            if e[4] in placed:
+                # an unnamed entry of a block that a named entry already holds: a leftover copy of an earlier
+                # re-lay (the copies below), the file stays reachable by its name (v3.4.16: 300 of them in 3.4.10)
+                continue
             if e[4] < len(self.block_table) and self.block_table[e[4]][2] == 0:
                 continue  # unknown zero-byte file: nothing to keep
+            if copies.get(e[4], 0) > 1:
+                # v3.4.16: one of many copies of an unnamed file (a previous re-lay already spread it over its
+                # candidate homes): keep each copy at its own old position in every new block of the table instead of
+                # walking the runs again (in a 90%-full table that walk fills the new table and never ends)
+                for k in range(new_size // n):
+                    insert(p + k * n, e)
+                continue
             q = p
             while self.hash_table[(q - 1) % n][4] != HASH_EMPTY and (q - 1) % n != p:
                 q -= 1

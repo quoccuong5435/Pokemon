@@ -1,0 +1,5494 @@
+{
+"Accelerator Gate Yellow": {
+"path": "Accelerator Gate Yellow.mdx",
+"radius": 244.8209991455078,
+"anim": "Birth (0.2s), Stand (1.2s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 25,
+"ver": 800
+},
+"AlloveOrangemeteor": {
+"path": "AlloveOrangemeteor.mdx",
+"radius": 556.02001953125,
+"anim": "Birth (3.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 25,
+"ver": 800
+},
+"Alloveblastbuff": {
+"path": "Alloveblastbuff.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Allovecolorfulsparks": {
+"path": "Allovecolorfulsparks.mdx",
+"radius": 0.0,
+"anim": "Stand (1.8s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"Alloveelunesholybolt": {
+"path": "Alloveelunesholybolt.mdx",
+"radius": 167.69400024414062,
+"anim": "Birth (2.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Alloveleafmanaburn": {
+"path": "Alloveleafmanaburn.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"AmplifyTarget": {
+"path": "AmplifyTarget.mdx",
+"radius": 72.85060119628906,
+"anim": "Stand (0.9s), Birth (0.0s), Death (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"AnMu": {
+"path": "AnMu.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s), Death (1.0s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 50,
+"ver": 800
+},
+"AnimateDeadDark-Andrea": {
+"path": "AnimateDeadDark-Andrea.mdx",
+"radius": 71.8375015258789,
+"anim": "Birth (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"AnimatedBash": {
+"path": "AnimatedBash.mdx",
+"radius": 68.79350280761719,
+"anim": "Birth (0.4s), Stand (2.4s), Death (3.3s)",
+"tex": [
+"Animatedbash.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"AntiMagicShell": {
+"path": "AntiMagicShell.mdx",
+"radius": 137.093994140625,
+"anim": "Stand (2.5s), Birth (0.3s), Death (0.5s), Stand Medium (2.5s), Birth Medium (0.3s), Death medium (0.5s), Stand Large (2.5s), Birth Large (0.3s), Death Large (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"AquaSpike": {
+"path": "AquaSpike.mdx",
+"radius": 71.8375015258789,
+"anim": "Birth (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"Aqua_Wave_Fix1": {
+"path": "Aqua_Wave_Fix1.mdx",
+"radius": 115.76531982421875,
+"anim": "Stand (1.0s), Death (1.0s)",
+"tex": [
+"Wave01.blp",
+"AZ_object_uv4.blp",
+"AZ_object_uv4.blp",
+"AZ_Shockwave3Q.blp"
+],
+"missing": [],
+"clash": [
+"Wave01.blp",
+"AZ_object_uv4.blp",
+"AZ_object_uv4.blp",
+"AZ_Shockwave3Q.blp"
+],
+"kb": 102,
+"ver": 800
+},
+"ArcaneCorpseExplosion": {
+"path": "ArcaneCorpseExplosion.mdx",
+"radius": 273.18499755859375,
+"anim": "Birth (4.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"ArcaneExplode": {
+"path": "ArcaneExplode.mdx",
+"radius": 284.98699951171875,
+"anim": "Birth (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"ArcaneTornado": {
+"path": "ArcaneTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"AreaHeal": {
+"path": "AreaHeal.mdx",
+"radius": 149.6840057373047,
+"anim": "Stand (3.3s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"AreaMana": {
+"path": "AreaMana.mdx",
+"radius": 149.6840057373047,
+"anim": "Stand (3.3s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"Astral Imprisonment": {
+"path": "Astral Imprisonment.mdx",
+"radius": 0.0,
+"anim": "Birth (0.1s), Stand (0.1s), Death (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Astral_Black_Bolt": {
+"path": "Astral_Black_Bolt.mdx",
+"radius": 100.0,
+"anim": "Stand (1.0s), Death (3.0s), Birth (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Astral_Runic_Shield": {
+"path": "Astral_Runic_Shield.mdx",
+"radius": 100.0,
+"anim": "Stand (1.0s), Death (0.3s), Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Aura Beast": {
+"path": "Aura Beast.mdx",
+"radius": 0.0,
+"anim": "Stand (10.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Aura Inner Fire": {
+"path": "Aura Inner Fire.mdx",
+"radius": 0.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"AuraOfStrengtht": {
+"path": "AuraOfStrengtht.mdx",
+"radius": 49.36240005493164,
+"anim": "Stand (1.7s), Death (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"AvatarCasterNoSound": {
+"path": "AvatarCasterNoSound.mdx",
+"radius": 116.70500183105469,
+"anim": "Spell (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 1200
+},
+"Banana": {
+"path": "Banana.mdx",
+"radius": 59.12990188598633,
+"anim": "Portrait (3.0s), Birth (1.0s), Death (3.6s), Stand - 1 (3.0s), Stand - 2 (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"BattleCryCaster": {
+"path": "BattleCryCaster.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"BeamCannon": {
+"path": "BeamCannon.mdx",
+"radius": 686.4299926757812,
+"anim": "Death (2.3s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Big_ICM_Purple": {
+"path": "Big_ICM_Purple.mdx",
+"radius": 26.25,
+"anim": "Stand (1.5s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"BlackBlink": {
+"path": "BlackBlink.mdx",
+"radius": 68.39769744873047,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"BlackChakraExplosion": {
+"path": "BlackChakraExplosion.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"BlackCloudKingSize": {
+"path": "BlackCloudKingSize.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"BlackDeath": {
+"path": "BlackDeath.mdx",
+"radius": 203.83900451660156,
+"anim": "Stand (1.2s), Death (1.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"BladeBarrier": {
+"path": "BladeBarrier.mdx",
+"radius": 208.4720001220703,
+"anim": "Stand (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Blaze Saw": {
+"path": "Blaze Saw.mdx",
+"radius": 86.89262390136719,
+"anim": "Birth (0.3s), Stand (0.9s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Blindpurplex": {
+"path": "Blindpurplex.mdx",
+"radius": 101.38800048828125,
+"anim": "Birth (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"BlinkBuff": {
+"path": "BlinkBuff.mdx",
+"radius": 0.0,
+"anim": "Stand (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"BlinkCaster": {
+"path": "BlinkCaster.mdx",
+"radius": 91.03644561767578,
+"anim": "Birth (3.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BlinkCasterYellow": {
+"path": "BlinkCasterYellow.mdx",
+"radius": 91.03644561767578,
+"anim": "Birth (3.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BlinkEffectRed2": {
+"path": "BlinkEffectRed2.mdx",
+"radius": 100.0,
+"anim": "Stand (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"BlinkNew": {
+"path": "BlinkNew.mdx",
+"radius": 145.66200256347656,
+"anim": "Birth (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BlinkNew_squished": {
+"path": "BlinkNew_squished.mdx",
+"radius": 145.66200256347656,
+"anim": "Birth (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Blizzard II": {
+"path": "Blizzard II.mdx",
+"radius": 200.0,
+"anim": "Stand (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"BloodEXmorceaux": {
+"path": "BloodEXmorceaux.mdx",
+"radius": 0.0,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"BloodInfected": {
+"path": "BloodInfected.mdx",
+"radius": 0.0,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"BloodTornado": {
+"path": "BloodTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"Blue Claw": {
+"path": "Blue Claw.mdx",
+"radius": 155.99899291992188,
+"anim": "Birth (0.2s), Stand (0.7s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Blue Laser Ray": {
+"path": "Blue Laser Ray.mdx",
+"radius": null,
+"anim": "Death (1.0s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"BlueAftershock": {
+"path": "BlueAftershock.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"BlueBlink2": {
+"path": "BlueBlink2.mdx",
+"radius": 145.66200256347656,
+"anim": "Birth (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BlueBoom": {
+"path": "BlueBoom.mdx",
+"radius": 322.96112060546875,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"BlueIncinerateBuff": {
+"path": "BlueIncinerateBuff.mdx",
+"radius": 0.0,
+"anim": "Stand (0.5s), Death (3.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"BlueIncinerateSpecial": {
+"path": "BlueIncinerateSpecial.mdx",
+"radius": 211.82899475097656,
+"anim": "Birth (4.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"BlueLaser": {
+"path": "BlueLaser.mdx",
+"radius": null,
+"anim": "Death (1.0s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"BlueNeutralBuildingExplosion": {
+"path": "BlueNeutralBuildingExplosion.mdx",
+"radius": 0.0,
+"anim": "Birth (7.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"BlueStrikeArray": {
+"path": "BlueStrikeArray.mdx",
+"radius": 58.74369812011719,
+"anim": "Stand (3.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"BlueWarStompCaster2": {
+"path": "BlueWarStompCaster2.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"BluefireBolt": {
+"path": "BluefireBolt.mdx",
+"radius": 44.02180099487305,
+"anim": "Birth (0.1s), Stand (1.2s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"BoatWave": {
+"path": "BoatWave.mdx",
+"radius": null,
+"anim": "stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BoltImpact": {
+"path": "BoltImpact.mdx",
+"radius": 117.01200103759766,
+"anim": "Stand (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"BoulderBadge": {
+"path": "BoulderBadge.mdx",
+"radius": 60.25,
+"anim": "",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"BreathofDecay": {
+"path": "BreathofDecay.mdx",
+"radius": 266.00799560546875,
+"anim": "Birth (0.5s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"BubbleMissile": {
+"path": "BubbleMissile.mdx",
+"radius": 0.0,
+"anim": "Stand (2.1s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"Call of Dread Purple": {
+"path": "Call of Dread Purple.mdx",
+"radius": 300.0,
+"anim": "Stand (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 98,
+"ver": 800
+},
+"CallOfAggression": {
+"path": "CallOfAggression.mdx",
+"radius": 460.739990234375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Cannonball C": {
+"path": "Cannonball C.mdx",
+"radius": 20.664199829101562,
+"anim": "Birth (0.0s), Stand (1.0s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"Cannonball": {
+"path": "Cannonball.mdx",
+"radius": 20.664199829101562,
+"anim": "Birth (0.0s), Stand (1.0s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"CartoonFire": {
+"path": "CartoonFire.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"CascadeBadge": {
+"path": "CascadeBadge.mdx",
+"radius": 55.523101806640625,
+"anim": "Stand (6.0s), Death Alternate (1.0s), Death (3.7s), Birth (0.5s)",
+"tex": [
+"EnergyWaves.blp",
+"EnergyShield.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 52,
+"ver": 800
+},
+"Castredillusory": {
+"path": "Castredillusory.mdx",
+"radius": 119.572998046875,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"CatapultMissileRockNoSmoke": {
+"path": "CatapultMissileRockNoSmoke.mdx",
+"radius": 23.76650047302246,
+"anim": "Stand (1.2s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 1000
+},
+"CelebrationdaySpiraldragon": {
+"path": "CelebrationdaySpiraldragon.mdx",
+"radius": 348.6490783691406,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"CenarionFuryRed": {
+"path": "CenarionFuryRed.mdx",
+"radius": 322.96112060546875,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"Chain Impale": {
+"path": "Chain Impale.mdx",
+"radius": 341.88800048828125,
+"anim": "Birth (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Chain Prison2": {
+"path": "Chain Prison2.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.1s), Stand (0.5s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"ChargerSiegeCasterArt": {
+"path": "ChargerSiegeCasterArt.mdx",
+"radius": 180.49964904785156,
+"anim": "Stand (1.0s), Death (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Cleave": {
+"path": "Cleave.mdx",
+"radius": 0.0,
+"anim": "Birth (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"Cleaver": {
+"path": "Cleaver.mdx",
+"radius": 229.12100219726562,
+"anim": "Birth (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"CloudOfFog": {
+"path": "CloudOfFog.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"CobraAura": {
+"path": "CobraAura.mdx",
+"radius": 167.29200744628906,
+"anim": "Stand (1.1s), Birth (0.0s), Death (0.3s)",
+"tex": [
+"fireringblack.blp"
+],
+"missing": [
+"fireringblack.blp"
+],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"ColoredBall": {
+"path": "ColoredBall.mdx",
+"radius": 74.2684555053711,
+"anim": "Stand (1.0s), Walk (1.0s), Stand Ready (1.0s), Attack (1.0s), Attack Fire (1.0s), Death (1.0s)",
+"tex": [
+"100&101&ball.blp"
+],
+"missing": [
+"100&101&ball.blp"
+],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"Comet": {
+"path": "Comet.mdx",
+"radius": 461.5238037109375,
+"anim": "Birth (7.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"CommonExplosion_B": {
+"path": "CommonExplosion_B.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"CommonExplosion_G": {
+"path": "CommonExplosion_G.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"CommonExplosion_R": {
+"path": "CommonExplosion_R.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"CommonExplosion_Y": {
+"path": "CommonExplosion_Y.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"Concecration": {
+"path": "Concecration.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Conflagrate": {
+"path": "Conflagrate.mdx",
+"radius": 200.0,
+"anim": "Stand (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 31,
+"ver": 800
+},
+"CorpseRain": {
+"path": "CorpseRain.mdx",
+"radius": 19.41790008544922,
+"anim": "Birth - 1 (2.0s), Birth - 2 (2.0s), Birth - 3 (2.0s), Birth - 4 (2.0s), Birth - 5 (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 24,
+"ver": 800
+},
+"CrossSlashMissileRed": {
+"path": "CrossSlashMissileRed.mdx",
+"radius": 27.797700881958008,
+"anim": "Birth (0.3s), Stand (0.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Crow Jutsu SFX": {
+"path": "Crow Jutsu SFX.mdx",
+"radius": 968.2160034179688,
+"anim": "Birth (0.6s), Stand (0.8s), Death (3.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 58,
+"ver": 800
+},
+"Crow jutsu feather sfx": {
+"path": "Crow jutsu feather sfx.mdx",
+"radius": 135.67599487304688,
+"anim": "Birth (2.0s), Spell One (0.6s), Spell Channel (0.5s), Death (0.8s), Spell Channel Two (0.6s), Death Alternate (1.0s), Spell Two (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 23,
+"ver": 800
+},
+"Culling Cleave Purple": {
+"path": "Culling Cleave Purple.mdx",
+"radius": 89.72869873046875,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Culling Cleave Red": {
+"path": "Culling Cleave Red.mdx",
+"radius": 89.72869873046875,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Culling Cleave Silver": {
+"path": "Culling Cleave Silver.mdx",
+"radius": 89.72869873046875,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Culling Slash Red": {
+"path": "Culling Slash Red.mdx",
+"radius": 119.98799896240234,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"DBOambulancecar": {
+"path": "DBOambulancecar.mdx",
+"radius": 246.06227111816406,
+"anim": "Stand (0.4s)",
+"tex": [
+"DBOambulancecar.blp",
+"DBOambulancecarred.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 153,
+"ver": 800
+},
+"DBOtractor": {
+"path": "DBOtractor.mdx",
+"radius": 267.2318420410156,
+"anim": "Stand (0.4s)",
+"tex": [
+"DBOtractor1.blp",
+"DBOtractor2.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 263,
+"ver": 800
+},
+"DG": {
+"path": "DG.mdx",
+"radius": 71.92790222167969,
+"anim": "Birth (1.4s), Death (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 31,
+"ver": 800
+},
+"DTBlueNoRingWhite": {
+"path": "DTBlueNoRingWhite.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"DTRingWhite": {
+"path": "DTRingWhite.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"DeathFumesBreath": {
+"path": "DeathFumesBreath.mdx",
+"radius": 266.00799560546875,
+"anim": "Birth (0.5s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"DeathFumesBreathDamage": {
+"path": "DeathFumesBreathDamage.mdx",
+"radius": 0.0,
+"anim": "Stand (2.1s), Birth (0.1s), Death (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Defence-Force-Field": {
+"path": "Defence-Force-Field.mdx",
+"radius": 73.26609802246094,
+"anim": "Stand (1.0s), Birth (0.7s), Death (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"DetroitSmash_Effect": {
+"path": "DetroitSmash_Effect.mdx",
+"radius": 441.5911865234375,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"DirtExplosion": {
+"path": "DirtExplosion.mdx",
+"radius": 438.76300048828125,
+"anim": "Birth (8.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Dojo_Floor_Corner": {
+"path": "Dojo_Floor_Corner.mdx",
+"radius": 68.22000122070312,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"Dojo_Floor_Straight": {
+"path": "Dojo_Floor_Straight.mdx",
+"radius": 68.27999877929688,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"Dojo_Pillar": {
+"path": "Dojo_Pillar.mdx",
+"radius": 7.05856990814209,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Dojo_Wall": {
+"path": "Dojo_Wall.mdx",
+"radius": 67.81320190429688,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Dojo_Wall_Window": {
+"path": "Dojo_Wall_Window.mdx",
+"radius": 67.81320190429688,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"DoomRed": {
+"path": "DoomRed.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"DuelFXFinal": {
+"path": "DuelFXFinal.mdx",
+"radius": 109.64600372314453,
+"anim": "Stand (1.3s), Birth (0.9s), Death (0.9s), Birth Medium (0.5s), Stand Medium (0.9s), Death Medium (0.3s), Birth Large (0.5s), Stand Large (0.8s), Death Large (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"DustAndRocks": {
+"path": "DustAndRocks.mdx",
+"radius": 169.97999572753906,
+"anim": "Birth (0.0s), Stand (0.0s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"DustSmash": {
+"path": "DustSmash.mdx",
+"radius": 121.9990005493164,
+"anim": "Birth (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"EarthAoE": {
+"path": "EarthAoE.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"EarthBadge": {
+"path": "EarthBadge.mdx",
+"radius": 20.78860092163086,
+"anim": "",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"EarthSlam": {
+"path": "EarthSlam.mdx",
+"radius": 0.0,
+"anim": "Birth (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Earthshock": {
+"path": "Earthshock.mdx",
+"radius": 65.96269989013672,
+"anim": "Birth (1.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"Echelle": {
+"path": "Echelle.mdx",
+"radius": 41.96659851074219,
+"anim": "Stand (3.0s), Birth (3.0s), Death (2.0s), Decay (60.0s), Stand Alternate (3.0s), Birth Alternate (3.0s), Death Alternate (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"Effect-01": {
+"path": "Effect-01.mdx",
+"radius": 127.92876434326172,
+"anim": "stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"EggSplosiveMissile": {
+"path": "EggSplosiveMissile.mdx",
+"radius": 0.0,
+"anim": "Stand (0.3s), Death (1.6s), Death - 2 (1.6s), Death - 3 (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 28,
+"ver": 800
+},
+"Electric Spark - Classic": {
+"path": "Electric Spark - Classic.mdx",
+"radius": 400.0,
+"anim": "Stand (2.0s)",
+"tex": [
+"flaresimple02_bw.blp",
+"flaresimple01_bw.blp",
+"flaresimple01_bw.blp",
+"elecsparks_bw_2x2.blp",
+"AzureGlow4.blp",
+"dust3.blp",
+"Zap2x4.blp",
+"smoke_bw.blp",
+"shockwave_bw.blp"
+],
+"missing": [],
+"clash": [
+"dust3.blp"
+],
+"kb": 1106,
+"ver": 800
+},
+"Elephant2": {
+"path": "Elephant2.mdx",
+"radius": 389.5984191894531,
+"anim": "Birth (0.8s), Death (0.8s)",
+"tex": [
+"Elephant.blp",
+"Ping.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 28,
+"ver": 800
+},
+"ElitePlagueCloud": {
+"path": "ElitePlagueCloud.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Encourage": {
+"path": "Encourage.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"EruptionVolcano": {
+"path": "EruptionVolcano.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"ExplosionInst": {
+"path": "ExplosionInst.mdx",
+"radius": 284.98699951171875,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"ExplosionRockFlyingPurple": {
+"path": "ExplosionRockFlyingPurple.mdx",
+"radius": 156.25,
+"anim": "death (5.0s)",
+"tex": [
+"ExplosionRockFlyingPurple_0.blp",
+"ExplosionRockFlyingPurple_1.blp",
+"ExplosionRockFlyingPurple_2.blp",
+"ExplosionRockFlyingPurple_3.blp",
+"ExplosionRockFlyingPurple_4.blp",
+"ExplosionRockFlyingPurple_5.blp",
+"ExplosionRockFlyingPurple_6.blp",
+"ExplosionRockFlyingPurple_7.blp",
+"ExplosionRockFlyingPurple_8.blp",
+"ExplosionRockFlyingPurple_9.blp",
+"ExplosionRockFlyingPurple_10.blp",
+"ExplosionRockFlyingPurple_11.blp",
+"ExplosionRockFlyingPurple_12.blp",
+"ExplosionRockFlyingPurple_13.blp",
+"ExplosionRockFlyingPurple_14.blp",
+"ExplosionRockFlyingPurple_15.blp",
+"ExplosionRockFlyingPurple_16.blp",
+"ExplosionRockFlyingPurple_17.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 2254,
+"ver": 800
+},
+"FelIncinerateSpecial": {
+"path": "FelIncinerateSpecial.mdx",
+"radius": 211.82899475097656,
+"anim": "Birth (4.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"FinalKamehamehaEffbyValkemiere": {
+"path": "FinalKamehamehaEffbyValkemiere.mdx",
+"radius": 338.89898681640625,
+"anim": "Stand (0.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"FinkExplodeSparks": {
+"path": "FinkExplodeSparks.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (9.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Firaga": {
+"path": "Firaga.mdx",
+"radius": 98.44139862060547,
+"anim": "Birth (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Fire Claw": {
+"path": "Fire Claw.mdx",
+"radius": 155.99899291992188,
+"anim": "Birth (0.2s), Stand (0.7s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Fire Ground Slam": {
+"path": "Fire Ground Slam.mdx",
+"radius": 100.0,
+"anim": "Birth (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Fire Spirit Dragon": {
+"path": "Fire Spirit Dragon.mdx",
+"radius": 94.29326629638672,
+"anim": "Birth (1.0s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"FireBlastSuper": {
+"path": "FireBlastSuper.mdx",
+"radius": 121.9990005493164,
+"anim": "Stand (1.3s), Birth (0.0s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"FireBolt (2)": {
+"path": "FireBolt (2).mdx",
+"radius": 203.41299438476562,
+"anim": "Death (2.0s), Stand (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"FireExplodeSmoke": {
+"path": "FireExplodeSmoke.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"FireExplosionLavaSmoke": {
+"path": "FireExplosionLavaSmoke.mdx",
+"radius": 700.0,
+"anim": "Birth (1.5s)",
+"tex": [
+"tx940_0.blp",
+"tx940_1.blp",
+"tx940_2.blp",
+"tx940_3.blp",
+"tx940_4.blp",
+"tx940_5.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 336,
+"ver": 800
+},
+"FireNova1": {
+"path": "FireNova1.mdx",
+"radius": 7.002950191497803,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"FireNova2": {
+"path": "FireNova2.mdx",
+"radius": 0.0,
+"anim": "Birth (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"FireSphere (2)": {
+"path": "FireSphere (2).mdx",
+"radius": 98.44139862060547,
+"anim": "Stand (1.3s), Death (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"FireStone": {
+"path": "FireStone.mdx",
+"radius": 556.02001953125,
+"anim": "Birth (3.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 25,
+"ver": 800
+},
+"FireTornado": {
+"path": "FireTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"FireVolcanuShield": {
+"path": "FireVolcanuShield.mdx",
+"radius": 100.0,
+"anim": "Stand (2.1s), Birth (5.1s), Death (3.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"FireVolcanusFury": {
+"path": "FireVolcanusFury.mdx",
+"radius": 7.002950191497803,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Fireball Medium": {
+"path": "Fireball Medium.mdx",
+"radius": 40.0,
+"anim": "Stand (0.8s), Birth (0.4s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Firebolt Medium": {
+"path": "Firebolt Medium.mdx",
+"radius": 40.0,
+"anim": "Stand (0.8s), Birth (0.4s), Death (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Firebolt": {
+"path": "Firebolt.mdx",
+"radius": 20.000200271606445,
+"anim": "Death (0.4s), Stand (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Firebomb": {
+"path": "Firebomb.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.5s), Death (2.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"FireworksDragonHead": {
+"path": "FireworksDragonHead.mdx",
+"radius": 0.0,
+"anim": "Birth (0.1s), Stand (0.4s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"Flame Aura": {
+"path": "Flame Aura.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Flamestrike I": {
+"path": "Flamestrike I.mdx",
+"radius": 147.697998046875,
+"anim": "Stand (2.0s)",
+"tex": [
+"EmberGlow6.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 59,
+"ver": 800
+},
+"FlashBlink": {
+"path": "FlashBlink.mdx",
+"radius": 145.66200256347656,
+"anim": "Birth (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Foly_Fire_Slam2": {
+"path": "Foly_Fire_Slam2.mdx",
+"radius": 55.10639953613281,
+"anim": "Birth (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Frost Presence": {
+"path": "Frost Presence.mdx",
+"radius": 72.85060119628906,
+"anim": "Stand (3.0s), Birth (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"FrostAuraNova": {
+"path": "FrostAuraNova.mdx",
+"radius": 172.75860595703125,
+"anim": "Stand (3.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"FrostBoltV1": {
+"path": "FrostBoltV1.mdx",
+"radius": 246.9852294921875,
+"anim": "Birth (1.0s), Stand (1.0s), Death (1.0s)",
+"tex": [
+"MidnightGlow.blp",
+"flaresimple_bw.blp",
+"dust3.blp",
+"ChillGlow.blp",
+"shockwavewarp01_bw.blp",
+"AzureTail4Faded.blp",
+"ChillStar.blp",
+"flarecross_bw.blp"
+],
+"missing": [],
+"clash": [
+"dust3.blp"
+],
+"kb": 317,
+"ver": 800
+},
+"Frostcraft Crystal SD": {
+"path": "Frostcraft Crystal SD.mdx",
+"radius": 55.0,
+"anim": "Birth (1.0s), Stand Portrait (3.0s), Death (1.0s)",
+"tex": [
+"_hd.w3mod:replaceabletextures\\commandbuttons\\btnmoonstone.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_lightning_blue_4x1.blp",
+"_hd.w3mod:textures\\fx\\flare\\lensflare.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\spells\\sphericalaura_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\rainbowlenseflare.blp",
+"_hd.w3mod:textures\\fx\\swirl\\energyswirl_bw.blp"
+],
+"missing": [
+"_hd.w3mod:replaceabletextures\\commandbuttons\\btnmoonstone.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_lightning_blue_4x1.blp",
+"_hd.w3mod:textures\\fx\\flare\\lensflare.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\spells\\sphericalaura_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\rainbowlenseflare.blp",
+"_hd.w3mod:textures\\fx\\swirl\\energyswirl_bw.blp"
+],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"GeneralHeroGlow": {
+"path": "GeneralHeroGlow.mdx",
+"radius": 82.4884033203125,
+"anim": "Stand (2.2s), Death (0.3s), Stand Medium (2.2s), Death Medium (0.3s), Stand Large (2.2s), Death Large (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"GetsugaBlueNew": {
+"path": "GetsugaBlueNew.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"GetsugaNewYellow": {
+"path": "GetsugaNewYellow.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [
+"GetsugaYellowFirering1A.blp",
+"GetsugaYellowStar2.blp",
+"GetsugaYellowMoon.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 45,
+"ver": 800
+},
+"GiantVortex2": {
+"path": "GiantVortex2.mdx",
+"radius": 271.3949890136719,
+"anim": "Birth (1.1s), Stand Walk (3.3s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 55,
+"ver": 800
+},
+"GlacierBadge": {
+"path": "GlacierBadge.mdx",
+"radius": 46.80500030517578,
+"anim": "",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"GoldCoinBuffLargeV.015": {
+"path": "GoldCoinBuffLargeV.015.mdx",
+"radius": 157.27099609375,
+"anim": "Birth (6.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 95,
+"ver": 800
+},
+"GoneWithTheWind": {
+"path": "GoneWithTheWind.mdx",
+"radius": 271.3949890136719,
+"anim": "Birth (1.1s), Stand Walk (3.3s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 37,
+"ver": 800
+},
+"Gravitone": {
+"path": "Gravitone.mdx",
+"radius": 80.67050170898438,
+"anim": "Birth (0.6s), Stand (1.0s), Death (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"GreatElderHydraAcidSpewV.153": {
+"path": "GreatElderHydraAcidSpewV.153.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.0s), Death (8.0s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"Green Light": {
+"path": "Green Light.mdx",
+"radius": 109.14800262451172,
+"anim": "Birth (2.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"Green": {
+"path": "Green.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"GreenExploadsion": {
+"path": "GreenExploadsion.mdx",
+"radius": 40.0,
+"anim": "Birth (10.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"GreenLeveling": {
+"path": "GreenLeveling.mdx",
+"radius": 145.072998046875,
+"anim": "Stand (1.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"GreenRing": {
+"path": "GreenRing.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"GreenRoar": {
+"path": "GreenRoar.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"GreenStomp": {
+"path": "GreenStomp.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"GreenSurgeFin": {
+"path": "GreenSurgeFin.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Grin Curse": {
+"path": "Grin Curse.mdx",
+"radius": 129.72421264648438,
+"anim": "Birth (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"GroundCave_Cliff0_v1.2": {
+"path": "GroundCave_Cliff0_v1.2.mdx",
+"radius": 151.81399536132812,
+"anim": "Stand (1.0s), Death (0.5s)",
+"tex": [
+"war3.w3mod\\_tilesets\\w.w3mod\\replaceabletextures\\cliff\\cliff1.dds"
+],
+"missing": [
+"war3.w3mod\\_tilesets\\w.w3mod\\replaceabletextures\\cliff\\cliff1.dds"
+],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"GrowingTreeImpaleEffect": {
+"path": "GrowingTreeImpaleEffect.mdx",
+"radius": 297.9289855957031,
+"anim": "Birth (0.7s), Stand (2.0s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"GymStatue": {
+"path": "GymStatue.mdx",
+"radius": 16.562885284423828,
+"anim": "Stand (0.4s)",
+"tex": [
+"gymnosekizou.blp",
+"shadow1.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"Heal": {
+"path": "Heal.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [
+"RadiantGlow.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 26,
+"ver": 800
+},
+"Healing Touch": {
+"path": "Healing Touch.mdx",
+"radius": 90.95580291748047,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"HealingWater": {
+"path": "HealingWater.mdx",
+"radius": 228.69500732421875,
+"anim": "Stand (61.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Heart of the Storm Missile5": {
+"path": "Heart of the Storm Missile5.mdx",
+"radius": 60.27314376831055,
+"anim": "Stand (0.7s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 33,
+"ver": 800
+},
+"HellHole": {
+"path": "HellHole.mdx",
+"radius": 0.0,
+"anim": "birth (0.7s), stand (8.0s), death (1.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"HellLightning": {
+"path": "HellLightning.mdx",
+"radius": 135.3489990234375,
+"anim": "Birth (4.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"HellSpike": {
+"path": "HellSpike.mdx",
+"radius": 131.50582885742188,
+"anim": "Stand (0.3s), Stand Alternate (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Hemorrhage": {
+"path": "Hemorrhage.mdx",
+"radius": 50.0,
+"anim": "Birth (1.0s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"HiveBadge": {
+"path": "HiveBadge.mdx",
+"radius": 45.81050109863281,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"HolyLightBlessing": {
+"path": "HolyLightBlessing.mdx",
+"radius": 359.53399658203125,
+"anim": "Birth (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"HolyStrike1": {
+"path": "HolyStrike1.mdx",
+"radius": 145.072998046875,
+"anim": "Stand (1.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"HolyTornado": {
+"path": "HolyTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"HungryChest": {
+"path": "HungryChest.mdx",
+"radius": 45.487701416015625,
+"anim": "Stand - 1 (2.0s), Stand - 2 (2.0s), Walk (0.5s), Attack (1.0s), Death (2.5s), Stand Alternate (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"Ice Shard": {
+"path": "Ice Shard.mdx",
+"radius": 45.0,
+"anim": "Birth (1.0s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 33,
+"ver": 800
+},
+"IceCliffs": {
+"path": "IceCliffs.mdx",
+"radius": 153.47900390625,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"IceExplode": {
+"path": "IceExplode.mdx",
+"radius": 93.17489624023438,
+"anim": "Birth (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"IceFlower2": {
+"path": "IceFlower2.mdx",
+"radius": 0.0,
+"anim": "Birth (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"IceNova": {
+"path": "IceNova.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (2.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"IceSlam": {
+"path": "IceSlam.mdx",
+"radius": 188.8178253173828,
+"anim": "by valkemiere (0.4s), Birth (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"IceSparks": {
+"path": "IceSparks.mdx",
+"radius": 55.0,
+"anim": "Birth (8.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"IceTornado": {
+"path": "IceTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"Iceblock": {
+"path": "Iceblock.mdx",
+"radius": 169.97999572753906,
+"anim": "Death (2.0s), Stand (1.2s), Birth (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"IcySkewerGround": {
+"path": "IcySkewerGround.mdx",
+"radius": 169.97999572753906,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"IgnitionExplode": {
+"path": "IgnitionExplode.mdx",
+"radius": 211.82899475097656,
+"anim": "Birth (4.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"ImpaleMissTarget": {
+"path": "ImpaleMissTarget.mdx",
+"radius": 71.92790222167969,
+"anim": "Birth (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"ImpaleTargetDust2": {
+"path": "ImpaleTargetDust2.mdx",
+"radius": 0.0,
+"anim": "Death (3.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Implosion040": {
+"path": "Implosion040.mdx",
+"radius": 0.0,
+"anim": "Birth (4.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"InfernalBadge": {
+"path": "InfernalBadge.mdx",
+"radius": 86.341064453125,
+"anim": "Stand (1.6s), Stand 2 (0.2s), Stand 3 (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"InfestationInsectBolt": {
+"path": "InfestationInsectBolt.mdx",
+"radius": 0.0,
+"anim": "Stand (1.3s), Walk (1.2s), Death (1.0s), Stand Ready (1.0s), Attack - 2 (1.2s), Spell (1.2s), Attack - 1 (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"IronSphere": {
+"path": "IronSphere.mdx",
+"radius": 64.32550048828125,
+"anim": "Stand (0.2s), Death (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Item_GoldCoins.1": {
+"path": "Item_GoldCoins.1.mdx",
+"radius": 106.06666564941406,
+"anim": "Birth (1.6s), Stand (0.4s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"JinadaFX": {
+"path": "JinadaFX.mdx",
+"radius": 89.74829864501953,
+"anim": "Death (2.3s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"LargeExplosion": {
+"path": "LargeExplosion.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"LaserMissile": {
+"path": "LaserMissile.mdx",
+"radius": 92.4448013305664,
+"anim": "Birth (0.5s), Stand (0.5s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"LaserYellow": {
+"path": "LaserYellow.mdx",
+"radius": 267.93798828125,
+"anim": "Birth (0.2s), Stand (0.5s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Lava Aura": {
+"path": "Lava Aura.mdx",
+"radius": 161.74600219726562,
+"anim": "Stand (3.3s), Death (3.4s), Birth (2.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Lavaball": {
+"path": "Lavaball.mdx",
+"radius": 136.04600524902344,
+"anim": "Stand (2.7s), Death (0.5s)",
+"tex": [
+"AZ_Textures1.blp",
+"Clouds6x6.blp",
+"AZ_TexturesA2.blp",
+"EarthSpirit_F3.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 230,
+"ver": 800
+},
+"LeafBolt": {
+"path": "LeafBolt.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Death (6.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"LeechSeed_Missle": {
+"path": "LeechSeed_Missle.mdx",
+"radius": 226.88900756835938,
+"anim": "Birth - 1 (1.0s), Birth - 2 (1.0s), Birth - 3 (1.0s), Birth - 4 (1.0s), Birth - 5 (1.0s), Birth - 6 (1.0s), Birth - 7 (1.0s), Birth - 8 (1.0s), Birth - 9 (1.0s), Birth - 10 (1.0s), Death (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Liberty Yellow": {
+"path": "Liberty Yellow.mdx",
+"radius": 95.08200073242188,
+"anim": "Birth (0.3s), Stand (2.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"LightningBolt": {
+"path": "LightningBolt.mdx",
+"radius": 361.1289978027344,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"LightningBoltMissileYellow": {
+"path": "LightningBoltMissileYellow.mdx",
+"radius": 478.3429870605469,
+"anim": "Stand (1.0s), Death (0.4s), Birth (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 23,
+"ver": 800
+},
+"LightningEmpowerTarget": {
+"path": "LightningEmpowerTarget.mdx",
+"radius": 87.34120178222656,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"LightningRocketMissile": {
+"path": "LightningRocketMissile.mdx",
+"radius": 226.88900756835938,
+"anim": "Birth - 1 (1.0s), Birth - 2 (1.0s), Death (1.6s), Death (1.6s), Death (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 33,
+"ver": 800
+},
+"LightningWrath": {
+"path": "LightningWrath.mdx",
+"radius": 303.6780090332031,
+"anim": "Birth (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Lightning_Shield": {
+"path": "Lightning_Shield.mdx",
+"radius": 118.59400177001953,
+"anim": "stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"Lightningempowercaster": {
+"path": "Lightningempowercaster.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Lightningnova": {
+"path": "Lightningnova.mdx",
+"radius": 277.50799560546875,
+"anim": "Birth (1.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Lightnings Long": {
+"path": "Lightnings Long.mdx",
+"radius": 1607.719970703125,
+"anim": "Stand 1 (0.5s), Stand 2 (0.5s), Stand 3 (0.5s), Stand 4 (0.5s), Stand 5 (0.5s), Death (0.5s), New (2.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"LightofElune": {
+"path": "LightofElune.mdx",
+"radius": 167.69400024414062,
+"anim": "Birth (2.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"LoadingScreen": {
+"path": "LoadingScreen.mdx",
+"radius": 0.800000011920929,
+"anim": "Birth (23.5s)",
+"tex": [
+"FullScreen.blp"
+],
+"missing": [
+"FullScreen.blp"
+],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Malevolence Aura Green": {
+"path": "Malevolence Aura Green.mdx",
+"radius": 169.21499633789062,
+"anim": "Birth (1.0s), Stand (3.0s), Death (1.0s)",
+"tex": [
+"_hd.w3mod:textures\\ghost2.blp",
+"VerdantGlow3.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\flash01_bw.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\wavering_bw.blp",
+"_hd.w3mod:textures\\skull1.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\shockwavewarp01_bw.blp"
+],
+"missing": [
+"_hd.w3mod:textures\\ghost2.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\flash01_bw.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\wavering_bw.blp",
+"_hd.w3mod:textures\\skull1.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\shockwavewarp01_bw.blp"
+],
+"clash": [],
+"kb": 149,
+"ver": 800
+},
+"ManaWave": {
+"path": "ManaWave.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Mandrake": {
+"path": "Mandrake.mdx",
+"radius": 123.13999938964844,
+"anim": "stand (1.0s), stand hit (0.3s), death (1.5s), Birth (60.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"MarkOfTheCrimsonKingAuraEffectV.060": {
+"path": "MarkOfTheCrimsonKingAuraEffectV.060.mdx",
+"radius": 34.875,
+"anim": "Stand (1.3s), Birth (1.0s), Death (1.3s)",
+"tex": [
+"MarkOfTheCrimsonKing.V.099.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 19,
+"ver": 800
+},
+"MarshBadge": {
+"path": "MarshBadge.mdx",
+"radius": 26.474300384521484,
+"anim": "Stand (0.5s), Death (1.5s)",
+"tex": [
+"MarshBadge.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"Miasma": {
+"path": "Miasma.mdx",
+"radius": 228.69500732421875,
+"anim": "Stand (61.1s)",
+"tex": [
+"RibbonBlurBlack.blp",
+"RibbonNE1_black.blp",
+"star5black.blp"
+],
+"missing": [
+"RibbonBlurBlack.blp",
+"RibbonNE1_black.blp",
+"star5black.blp"
+],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"MiltankMilk": {
+"path": "MiltankMilk.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Death (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"MindBadge": {
+"path": "MindBadge.mdx",
+"radius": 61.375,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"MineralBadge": {
+"path": "MineralBadge.mdx",
+"radius": 39.08219909667969,
+"anim": "Stand (0.0s), Death (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"MirrorImageCaster2": {
+"path": "MirrorImageCaster2.mdx",
+"radius": 68.39769744873047,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 23,
+"ver": 800
+},
+"Missile_DIM_Alpha_Upgrade": {
+"path": "Missile_DIM_Alpha_Upgrade.mdx",
+"radius": 65.63870239257812,
+"anim": "Death (2.0s), Stand (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Mokuton2": {
+"path": "Mokuton2.mdx",
+"radius": 94.0,
+"anim": "Death (2.0s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"MornBadge": {
+"path": "MornBadge.mdx",
+"radius": 119.94499969482422,
+"anim": "Stand (3.3s)",
+"tex": [
+"MornBadge.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"MoveDust": {
+"path": "MoveDust.mdx",
+"radius": 0.0,
+"anim": "Birth (0.0s), Stand (0.0s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"NatureExplosion": {
+"path": "NatureExplosion.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"NetherInferno": {
+"path": "NetherInferno.mdx",
+"radius": 0.0,
+"anim": "death (5.0s), stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"OnagerEarthSlamExplose": {
+"path": "OnagerEarthSlamExplose.mdx",
+"radius": 320.0,
+"anim": "Stand (2.0s)",
+"tex": [
+"grad2b_w.blp",
+"Crack10_d_w.blp",
+"Crack10_e_cyan.blp",
+"glowCyan.blp",
+"shockwavesoft03_bw.blp",
+"shockwave5_w.blp",
+"circle.blp",
+"BF_shockwaveFx2c.blp",
+"rocksmall2x2.blp",
+"Ember_1bFx_4x4.blp",
+"BF_star5b.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 703,
+"ver": 800
+},
+"Palmbooms": {
+"path": "Palmbooms.mdx",
+"radius": 36.76319885253906,
+"anim": "Birth (0.3s), Stand (1.0s), Death (2.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"PinkDoom": {
+"path": "PinkDoom.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"PoisonHit": {
+"path": "PoisonHit.mdx",
+"radius": 69.63030242919922,
+"anim": "Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"PoisonHit3": {
+"path": "PoisonHit3.mdx",
+"radius": 69.63030242919922,
+"anim": "Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"PoisonStream": {
+"path": "PoisonStream.mdx",
+"radius": 145.072998046875,
+"anim": "Stand (1.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"PokeBall": {
+"path": "PokeBall.mdx",
+"radius": 22.5,
+"anim": "Stand (1.2s), Stop (0.4s), Attack (0.4s), Cast (0.4s), Spell (0.4s), Death (0.4s)",
+"tex": [
+"pokeball.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"PokeCup": {
+"path": "PokeCup.mdx",
+"radius": 13.775187492370605,
+"anim": "Stand (0.4s)",
+"tex": [
+"PokeCup.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 43,
+"ver": 800
+},
+"Pokeball": {
+"path": "Pokeball.mdx",
+"radius": 22.5,
+"anim": "Stand (1.2s), Stop (0.4s), Attack (0.4s), Cast (0.4s), Spell (0.4s), Death (0.4s)",
+"tex": [
+"pokeball.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Powerwhip": {
+"path": "Powerwhip.mdx",
+"radius": 3396.428955078125,
+"anim": "Stand (3.3s), Death (1.0s)",
+"tex": [
+"Bisasam.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 1052,
+"ver": 800
+},
+"ProteicAura": {
+"path": "ProteicAura.mdx",
+"radius": 107.26270294189453,
+"anim": "Stand (8.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Punch": {
+"path": "Punch.mdx",
+"radius": 0.0,
+"anim": "Stand (0.3s)",
+"tex": [
+"Luffe.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"PurpleBansheeCryMissile": {
+"path": "PurpleBansheeCryMissile.mdx",
+"radius": 115.1719970703125,
+"anim": "Stand (1.3s), Birth (0.3s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 57,
+"ver": 800
+},
+"PurplePhoenixFire": {
+"path": "PurplePhoenixFire.mdx",
+"radius": 89.74829864501953,
+"anim": "Death (2.3s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"PurpleSkullAura2": {
+"path": "PurpleSkullAura2.mdx",
+"radius": 111.0270004272461,
+"anim": "Stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"PurpleSmoke": {
+"path": "PurpleSmoke.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"PurpleWave": {
+"path": "PurpleWave.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Ragingslam": {
+"path": "Ragingslam.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"RainbowBadge": {
+"path": "RainbowBadge.mdx",
+"radius": 44.832401275634766,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Rampage": {
+"path": "Rampage.mdx",
+"radius": 64.4636001586914,
+"anim": "Birth (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Red Slash Storm": {
+"path": "Red Slash Storm.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"RedAftershock": {
+"path": "RedAftershock.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"RedCharkaExplosion": {
+"path": "RedCharkaExplosion.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"RedCleave2": {
+"path": "RedCleave2.mdx",
+"radius": 286.6619873046875,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"RedEnergyGathering": {
+"path": "RedEnergyGathering.mdx",
+"radius": 0.0,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"RedLightBlast": {
+"path": "RedLightBlast.mdx",
+"radius": 98.44139862060547,
+"anim": "Death (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"RedOrb": {
+"path": "RedOrb.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"RedRing": {
+"path": "RedRing.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"RisingBadge": {
+"path": "RisingBadge.mdx",
+"radius": 10.5,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"RockCrushDirt": {
+"path": "RockCrushDirt.mdx",
+"radius": 0.0,
+"anim": "death (3.5s)",
+"tex": [
+"Dirt_Slam_Effect_Texture_Currency_Ring_1.blp",
+"Dirt_Slam_Effect_Texture_Currency_Smoke_3.blp",
+"Dirt_Slam_Effect_Texture_Frame_Ring_3.blp",
+"Dirt_Slam_Effect_Texture_Sequence_Earth_1_4x4.blp",
+"Dirt_Slam_Effect_Texture_Sequence_Earth_3_8x8.blp",
+"Dirt_Slam_Effect_Texture_Sequence_Fog_1_8x8.blp",
+"Dirt_Slam_Effect_Texture_Sequence_Sand_1_4x4.blp",
+"Dirt_Slam_Effect_Texture_Sequence_Sand_3_4x4.blp",
+"Dirt_Slam_Effect_Texture_Frame_Crack_1.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 1438,
+"ver": 800
+},
+"RunicAureaOrange": {
+"path": "RunicAureaOrange.mdx",
+"radius": 109.64600372314453,
+"anim": "Stand (1.3s)",
+"tex": [
+"CircleTornado.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 27,
+"ver": 800
+},
+"SandBreath": {
+"path": "SandBreath.mdx",
+"radius": 266.00799560546875,
+"anim": "Birth (0.5s), Death (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"SandStorm": {
+"path": "SandStorm.mdx",
+"radius": 7.107540130615234,
+"anim": "Stand (0.4s), Death (0.5s)",
+"tex": [
+"clc00_wind_02.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 29,
+"ver": 800
+},
+"SandTornado": {
+"path": "SandTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"SandWaveDamage": {
+"path": "SandWaveDamage.mdx",
+"radius": 0.0,
+"anim": "Birth (4.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Seed Inside": {
+"path": "Seed Inside.mdx",
+"radius": 250.0,
+"anim": "Birth (1.0s), Stand (1.0s), Death (2.0s), Medium Birth (1.0s), Medium Stand (1.0s), Medium Death (2.0s), Large Birth (1.0s), Large Stand (1.0s), Large Death (2.0s)",
+"tex": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple_bw.blp",
+"_hd.w3mod:textures\\fx\\ground\\groundcrack03_bw.blp",
+"VerdantGlow2.blp"
+],
+"missing": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple_bw.blp",
+"_hd.w3mod:textures\\fx\\ground\\groundcrack03_bw.blp"
+],
+"clash": [],
+"kb": 189,
+"ver": 800
+},
+"Seed Shot": {
+"path": "Seed Shot.mdx",
+"radius": 400.0,
+"anim": "Birth (1.0s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 31,
+"ver": 800
+},
+"Seed Squirt": {
+"path": "Seed Squirt.mdx",
+"radius": 400.0,
+"anim": "Stand (1.5s)",
+"tex": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple_bw.blp"
+],
+"missing": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple_bw.blp"
+],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"ShadeMissile": {
+"path": "ShadeMissile.mdx",
+"radius": 85.74130249023438,
+"anim": "Birth (0.4s), Stand (0.4s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"ShadowRazeTarget": {
+"path": "ShadowRazeTarget.mdx",
+"radius": 71.8375015258789,
+"anim": "Death (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"ShadowSkullMissile": {
+"path": "ShadowSkullMissile.mdx",
+"radius": 86.7020034790039,
+"anim": "Birth (0.1s), Stand (0.9s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Shiva's_Guard_FX": {
+"path": "Shiva's_Guard_FX.mdx",
+"radius": 0.0,
+"anim": "stand (3.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 34,
+"ver": 800
+},
+"ShockBadge": {
+"path": "ShockBadge.mdx",
+"radius": 160.70799255371094,
+"anim": "stand (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Shockwave White": {
+"path": "Shockwave White.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Shockwave23": {
+"path": "Shockwave23.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"ShockwavePurple": {
+"path": "ShockwavePurple.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"SiegeOnager_Missiles": {
+"path": "SiegeOnager_Missiles.mdx",
+"radius": 11.25,
+"anim": "Stand (1.5s), Birth - 1 (1.5s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Singularity I Purple": {
+"path": "Singularity I Purple.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Singularity I White": {
+"path": "Singularity I White.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"SingularityII_2": {
+"path": "SingularityII_2.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"SkyExplosion": {
+"path": "SkyExplosion.mdx",
+"radius": 0.0,
+"anim": "Birth (7.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"SkyRing": {
+"path": "SkyRing.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"SlideWater": {
+"path": "SlideWater.mdx",
+"radius": 0.0,
+"anim": "Birth (0.0s), Stand (0.0s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"SlidingDustWithRocks": {
+"path": "SlidingDustWithRocks.mdx",
+"radius": 169.97999572753906,
+"anim": "Birth (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Smite Purple": {
+"path": "Smite Purple.mdx",
+"radius": 300.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"SnowyBlizzardTarget": {
+"path": "SnowyBlizzardTarget.mdx",
+"radius": 429.6130065917969,
+"anim": "Birth (3.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"SolarBlast2": {
+"path": "SolarBlast2.mdx",
+"radius": 2461.3447265625,
+"anim": "Birth (0.5s), stand (0.5s), death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"SoulBadge": {
+"path": "SoulBadge.mdx",
+"radius": 52.713600158691406,
+"anim": "Stand (0.0s), Death (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"SoundWaveBlue": {
+"path": "SoundWaveBlue.mdx",
+"radius": 109.19003295898438,
+"anim": "Birth (1.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"SovietCar": {
+"path": "SovietCar.mdx",
+"radius": 108.51799774169922,
+"anim": "Stand (1.0s), Stand 2 (2.0s), Walk (1.0s), Walk 2 (2.0s), Sleep (1.0s), Death (3.8s)",
+"tex": [
+"SovietCar.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 106,
+"ver": 800
+},
+"SovietTruck": {
+"path": "SovietTruck.mdx",
+"radius": 185.2529296875,
+"anim": "Stand (1.0s), Stand 2 (2.0s), Walk (1.0s), Walk 2 (2.0s), Sleep (1.0s), Death (3.8s)",
+"tex": [
+"SovietTruck.blp",
+"SovietTruckLoad.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 295,
+"ver": 800
+},
+"SovietTruck1": {
+"path": "SovietTruck1.mdx",
+"radius": 185.2529296875,
+"anim": "Stand (1.0s), Stand 2 (2.0s), Walk (1.0s), Walk 2 (2.0s), Sleep (1.0s), Death (3.8s)",
+"tex": [
+"SovietTruck.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 238,
+"ver": 800
+},
+"SovietTruck2": {
+"path": "SovietTruck2.mdx",
+"radius": 185.2529296875,
+"anim": "Stand (1.0s), Stand 2 (2.0s), Walk (1.0s), Walk 2 (2.0s), Sleep (1.0s), Death (3.8s)",
+"tex": [
+"SovietTruck.blp",
+"SovietTruckCistern.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 330,
+"ver": 800
+},
+"SpiderExplosionPoison": {
+"path": "SpiderExplosionPoison.mdx",
+"radius": 0.0,
+"anim": "Birth (7.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"SpinFX2": {
+"path": "SpinFX2.mdx",
+"radius": 399.2030029296875,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 24,
+"ver": 800
+},
+"StarDoom": {
+"path": "StarDoom.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [
+"DoomBlack.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"StarfallTarget2": {
+"path": "StarfallTarget2.mdx",
+"radius": 98.96299743652344,
+"anim": "Stand (3.0s), Death (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"StoneWalk": {
+"path": "StoneWalk.mdx",
+"radius": 74.56089782714844,
+"anim": "Walk (0.7s), Stand (0.3s), Birth (0.0s), Death (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Storm Bolt": {
+"path": "Storm Bolt.mdx",
+"radius": 999.0,
+"anim": "Birth (0.2s), Stand (1.0s), Death (1.5s)",
+"tex": [
+"PsionicGlow.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 65,
+"ver": 800
+},
+"Stormfall": {
+"path": "Stormfall.mdx",
+"radius": 300.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 53,
+"ver": 800
+},
+"StunPoison": {
+"path": "StunPoison.mdx",
+"radius": 69.63030242919922,
+"anim": "Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"SuperBigExplosion": {
+"path": "SuperBigExplosion.mdx",
+"radius": 40.0,
+"anim": "Birth (10.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"SwirlingEarth": {
+"path": "SwirlingEarth.mdx",
+"radius": 624.1329956054688,
+"anim": "Stand (2.5s), Death (5.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"SwordOfOver9000Truths": {
+"path": "SwordOfOver9000Truths.mdx",
+"radius": 119.74600219726562,
+"anim": "Death (3.7s), Stand (5.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"TealSlam": {
+"path": "TealSlam.mdx",
+"radius": 0.0,
+"anim": "Birth (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"Teleport Blue Caster": {
+"path": "Teleport Blue Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Blue Target": {
+"path": "Teleport Blue Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Blue To": {
+"path": "Teleport Blue To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Green Caster": {
+"path": "Teleport Green Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Green Target": {
+"path": "Teleport Green Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Green To": {
+"path": "Teleport Green To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Orange Caster": {
+"path": "Teleport Orange Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Orange Target": {
+"path": "Teleport Orange Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Orange To": {
+"path": "Teleport Orange To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Pink Caster": {
+"path": "Teleport Pink Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Pink Target": {
+"path": "Teleport Pink Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Pink To": {
+"path": "Teleport Pink To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Red Caster": {
+"path": "Teleport Red Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Red Target": {
+"path": "Teleport Red Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Red To": {
+"path": "Teleport Red To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Silver Caster": {
+"path": "Teleport Silver Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Silver Target": {
+"path": "Teleport Silver Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Silver To": {
+"path": "Teleport Silver To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Teal Caster": {
+"path": "Teleport Teal Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Teal Target": {
+"path": "Teleport Teal Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Teal To": {
+"path": "Teleport Teal To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Violet Caster": {
+"path": "Teleport Violet Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Violet Target": {
+"path": "Teleport Violet Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Violet To": {
+"path": "Teleport Violet To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Teleport Yellow Caster": {
+"path": "Teleport Yellow Caster.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Yellow Target": {
+"path": "Teleport Yellow Target.mdx",
+"radius": 90.0,
+"anim": "Stand (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Teleport Yellow To": {
+"path": "Teleport Yellow To.mdx",
+"radius": 156.3699951171875,
+"anim": "Birth (0.9s), Stand (1.5s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"Thorn Missile": {
+"path": "Thorn Missile.mdx",
+"radius": 280.6060791015625,
+"anim": "Birth (0.3s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"ThornSlam": {
+"path": "ThornSlam.mdx",
+"radius": 94.5271987915039,
+"anim": "Birth (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"ThunderBadge": {
+"path": "ThunderBadge.mdx",
+"radius": 124.78600311279297,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"ThunderTempo": {
+"path": "ThunderTempo.mdx",
+"radius": 153.655517578125,
+"anim": "Birth (1.7s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 24,
+"ver": 800
+},
+"TicklesHandLeft": {
+"path": "TicklesHandLeft.mdx",
+"radius": 85.90352630615234,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"TicklesHandRight": {
+"path": "TicklesHandRight.mdx",
+"radius": 81.5999984741211,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"Tidal Burst": {
+"path": "Tidal Burst.mdx",
+"radius": 400.0,
+"anim": "Stand (3.0s)",
+"tex": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\n_shorelineparticlexy.blp",
+"_hd.w3mod:textures\\dust3.blp",
+"_hd.w3mod:textures\\raintail.blp",
+"_hd.w3mod:textures\\bubble.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_whisp_fireblue_8x8.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\shockwavewarp01_bw.blp"
+],
+"missing": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\n_shorelineparticlexy.blp",
+"_hd.w3mod:textures\\dust3.blp",
+"_hd.w3mod:textures\\raintail.blp",
+"_hd.w3mod:textures\\bubble.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_whisp_fireblue_8x8.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\shockwavewarp01_bw.blp"
+],
+"clash": [],
+"kb": 75,
+"ver": 800
+},
+"TidalErruption2": {
+"path": "TidalErruption2.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Todeskuss": {
+"path": "Todeskuss.mdx",
+"radius": 0.0,
+"anim": "birth (2.0s), death (1.0s)",
+"tex": [
+"Todeskuss.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 40,
+"ver": 800
+},
+"TotemWave": {
+"path": "TotemWave.mdx",
+"radius": 351.635986328125,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"ToxicField": {
+"path": "ToxicField.mdx",
+"radius": 36.50239944458008,
+"anim": "Birth (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Tree(NewVariation)": {
+"path": "Tree(NewVariation).mdx",
+"radius": 0.0,
+"anim": "stand (2.0s), death (1.0s), stand hit (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 92,
+"ver": 800
+},
+"Unknown11": {
+"path": "Units\\Unknown11.mdx",
+"radius": 19.975679397583008,
+"anim": "Stand (3.7s), Stand Alternate (1.2s), Attack 1 (1.5s), Death (1.0s), Walk (1.2s), Attack Walk Stand Spin (0.2s)",
+"tex": [
+"UnknownEye.blp",
+"UnknownBody.blp",
+"UnknownBody2.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 104,
+"ver": 800
+},
+"Unsummoning": {
+"path": "Unsummoning.mdx",
+"radius": 0.0,
+"anim": "Stand (60.0s), Death (1.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Valiant Charge Holy": {
+"path": "Valiant Charge Holy.mdx",
+"radius": 119.22899627685547,
+"anim": "Stand (1.0s), Death (1.0s), Birth (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 36,
+"ver": 800
+},
+"VenomousAura": {
+"path": "VenomousAura.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (1.0s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"VenomousGaleV2": {
+"path": "VenomousGaleV2.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s), Death (2.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Verriere": {
+"path": "Verriere.mdx",
+"radius": 198.57200622558594,
+"anim": "",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 31,
+"ver": 800
+},
+"Void Disc": {
+"path": "Void Disc.mdx",
+"radius": 200.0,
+"anim": "Birth (0.3s), Stand (0.9s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Void Drown": {
+"path": "Void Drown.mdx",
+"radius": 147.906005859375,
+"anim": "Birth (1.1s), Stand (1.0s), Death (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Void Rift II Purple": {
+"path": "Void Rift II Purple.mdx",
+"radius": 244.91900634765625,
+"anim": "Birth (0.2s), Stand (0.9s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"VoidBadge": {
+"path": "VoidBadge.mdx",
+"radius": 45.55070114135742,
+"anim": "Stand (1.5s), Stand Large (1.5s), Stand Large Left (1.5s), Stand Left (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"VolcanoBadge": {
+"path": "VolcanoBadge.mdx",
+"radius": 64.70539855957031,
+"anim": "Stand (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"WarStompCaster": {
+"path": "WarStompCaster.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"WarStompGreen": {
+"path": "WarStompGreen.mdx",
+"radius": 341.1730041503906,
+"anim": "stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"WarmthKlein": {
+"path": "WarmthKlein.mdx",
+"radius": 228.69500732421875,
+"anim": "Stand (61.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"Water Shot": {
+"path": "Water Shot.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s), Death (1.0s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"Water-Slam": {
+"path": "Water-Slam.mdx",
+"radius": 0.0,
+"anim": "Death (1.0s)",
+"tex": [
+"AZ_Shockwave_water1.blp",
+"AZ_Shockwave_water2.blp",
+"AZ_Smoke2x2A1.blp",
+"AZ_Shockwave1L.blp",
+"AZ_RibbonNK2.blp",
+"AZ_Shockwave13.blp",
+"AZ_Shockwave_water4.blp",
+"AZ_water6.blp"
+],
+"missing": [],
+"clash": [
+"AZ_Shockwave_water1.blp",
+"AZ_Shockwave_water2.blp",
+"AZ_Shockwave1L.blp",
+"AZ_RibbonNK2.blp"
+],
+"kb": 299,
+"ver": 800
+},
+"WaterBlow": {
+"path": "WaterBlow.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"WaterBurst": {
+"path": "WaterBurst.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"WaterElementalMissile": {
+"path": "WaterElementalMissile.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Death (2.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"WaterErupt": {
+"path": "WaterErupt.mdx",
+"radius": 100.0,
+"anim": "death (1.0s)",
+"tex": [
+"BY_Wood_Eff_Odr_Psy_Int_Imp_2.blp",
+"BY_Wood_Eff_Odr_Psy_Int_Imp_1.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 313,
+"ver": 800
+},
+"WaterNovaTarget": {
+"path": "WaterNovaTarget.mdx",
+"radius": null,
+"anim": "Birth (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"WaterSplashCool": {
+"path": "WaterSplashCool.mdx",
+"radius": 0.0,
+"anim": "Death (0.9s)",
+"tex": [
+"TX_Star2013.blp",
+"Water_N5_ef_04.blp",
+"Water_N5_ef_08.blp",
+"Water_N5_ef_07.blp",
+"Water_N5_ef_01.blp",
+"Water_N4_ef_10.blp",
+"Water_N5_ef_05.blp",
+"TX_Star20.blp",
+"Water_N4_ef_02.blp",
+"Water_N5_ef_10.blp",
+"TX_Star5.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 249,
+"ver": 800
+},
+"Water_Dragon": {
+"path": "Water_Dragon.mdx",
+"radius": 226.88900756835938,
+"anim": "stand - 1 (1.0s), Death (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"WaterfallFX": {
+"path": "WaterfallFX.mdx",
+"radius": 232.33700561523438,
+"anim": "Stand (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"WhiteBlinkZoro": {
+"path": "WhiteBlinkZoro.mdx",
+"radius": 85.74130249023438,
+"anim": "Birth (0.5s), Stand (0.5s), Death (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"WhiteChakraExplosion": {
+"path": "WhiteChakraExplosion.mdx",
+"radius": 589.7310180664062,
+"anim": "Birth (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"WhiteDiavoloBlink": {
+"path": "WhiteDiavoloBlink.mdx",
+"radius": 285.9909973144531,
+"anim": "Stand (0.4s), Stand - 2 (0.4s)",
+"tex": [
+"Shockwave10.blp",
+"GenericGlowX.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"WhiteDoomExplode": {
+"path": "WhiteDoomExplode.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"WhiteGetsuga": {
+"path": "WhiteGetsuga.mdx",
+"radius": 78.05770111083984,
+"anim": "Stand (0.5s), Birth (0.0s), Death (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"WhitePhoenix Fire": {
+"path": "WhitePhoenix Fire.mdx",
+"radius": 0.0,
+"anim": "Death (2.3s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Wild Growth": {
+"path": "Wild Growth.mdx",
+"radius": 0.0,
+"anim": "Birth (0.1s), Stand (0.5s), Death (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Wind Blast": {
+"path": "Wind Blast.mdx",
+"radius": 400.0,
+"anim": "Stand (2.0s)",
+"tex": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple01_bw.blp",
+"_hd.w3mod:textures\\dust3.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\wavering_bw.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_whisp_bw_8x8.blp",
+"_hd.w3mod:textures\\fx\\smoke\\smoke_bw.blp"
+],
+"missing": [
+"_hd.w3mod:textures\\fx\\flare\\flaresimple02_bw.blp",
+"_hd.w3mod:textures\\fx\\flare\\flaresimple01_bw.blp",
+"_hd.w3mod:textures\\dust3.blp",
+"_hd.w3mod:textures\\fx\\shockwave\\wavering_bw.blp",
+"_hd.w3mod:textures\\fx\\flipbooks\\fb_whisp_bw_8x8.blp",
+"_hd.w3mod:textures\\fx\\smoke\\smoke_bw.blp"
+],
+"clash": [],
+"kb": 84,
+"ver": 800
+},
+"WindBlow": {
+"path": "WindBlow.mdx",
+"radius": 544.156005859375,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"WindMissle": {
+"path": "WindMissle.mdx",
+"radius": 544.156005859375,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"Wind_Blink": {
+"path": "Wind_Blink.mdx",
+"radius": 29.499399185180664,
+"anim": "Birth (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"WindcutterLeafs": {
+"path": "WindcutterLeafs.mdx",
+"radius": 0.0,
+"anim": "Stand (1.7s), Birth (0.1s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"Windwalk Blood": {
+"path": "Windwalk Blood.mdx",
+"radius": 1200.0,
+"anim": "Birth (0.1s), Stand (1.0s), Stand 2 (1.0s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Windwalk Blue Soul": {
+"path": "Windwalk Blue Soul.mdx",
+"radius": 1200.0,
+"anim": "Birth (0.1s), Stand (1.0s), Stand 2 (1.0s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Windwalk Fire": {
+"path": "Windwalk Fire.mdx",
+"radius": 1200.0,
+"anim": "Birth (0.1s), Stand (1.0s), Stand 2 (1.0s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Yellow Ball": {
+"path": "Yellow Ball.mdx",
+"radius": 57.61520004272461,
+"anim": "Birth (0.3s), Stand (0.9s), Death (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"YellowBigExplosion": {
+"path": "YellowBigExplosion.mdx",
+"radius": 40.0,
+"anim": "Birth (10.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"YellowBolt": {
+"path": "YellowBolt.mdx",
+"radius": 117.01200103759766,
+"anim": "Stand (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"YellowFarseerMissile": {
+"path": "YellowFarseerMissile.mdx",
+"radius": 128.0709991455078,
+"anim": "Stand (1.0s), Birth (0.0s), Death (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 33,
+"ver": 800
+},
+"YellowNeutralBuildingExplosion": {
+"path": "YellowNeutralBuildingExplosion.mdx",
+"radius": 0.0,
+"anim": "Birth (7.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"YellowSaiyanAura": {
+"path": "YellowSaiyanAura.mdx",
+"radius": 123.9404296875,
+"anim": "Birth (0.7s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"Yellow_PurgeBuffTarget": {
+"path": "Yellow_PurgeBuffTarget.mdx",
+"radius": 176.64300537109375,
+"anim": "Birth (1.2s), Stand (0.7s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"ZHeart": {
+"path": "ZHeart.MDX",
+"radius": 106.06593322753906,
+"anim": "Stand (4.0s), Death (1.0s), Birth (1.0s)",
+"tex": [
+"ZeldaHeart03.blp",
+"star4_32.blp",
+"customglow nocolor 32.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 31,
+"ver": 800
+},
+"ZLightArrowImpact": {
+"path": "ZLightArrowImpact.mdx",
+"radius": 76.9999008178711,
+"anim": "Birth (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"ZapMissile": {
+"path": "ZapMissile.mdx",
+"radius": 0.0,
+"anim": "Stand - 1 (0.5s), Death (0.5s), Birth (0.0s), Stand - 2 (0.5s), Stand - 3 (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"ZapMissileRed": {
+"path": "ZapMissileRed.mdx",
+"radius": 0.0,
+"anim": "Stand - 1 (0.5s), Death (0.5s), Birth (0.0s), Stand - 2 (0.5s), Stand - 3 (0.4s)",
+"tex": [
+"LightningBallRed.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 23,
+"ver": 800
+},
+"ZapMissileYellow": {
+"path": "ZapMissileYellow.mdx",
+"radius": 0.0,
+"anim": "Stand - 1 (0.5s), Death (0.5s), Birth (0.0s), Stand - 2 (0.5s), Stand - 3 (0.4s)",
+"tex": [
+"zap1_yellow.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 30,
+"ver": 800
+},
+"ZephyrBadge": {
+"path": "ZephyrBadge.mdx",
+"radius": 40.257198333740234,
+"anim": "Stand (0.4s)",
+"tex": [
+"ZephyrBadge.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 19,
+"ver": 800
+},
+"arcane": {
+"path": "arcane.mdx",
+"radius": 0.0,
+"anim": "Stand (1.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"blink purple target": {
+"path": "blink purple target.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [
+"blink purple target_0.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"boomerrangbone": {
+"path": "boomerrangbone.mdx",
+"radius": 200.0,
+"anim": "stand (0.5s), birth (0.5s), Death (0.5s)",
+"tex": [
+"bonetex.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"chibakurock": {
+"path": "chibakurock.mdx",
+"radius": 0.0,
+"anim": "Death (2.0s), Stand (1.2s), Birth (0.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"crimsonwake": {
+"path": "crimsonwake.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"doomdeathpurpl2": {
+"path": "doomdeathpurpl2.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"doomdeathpurple": {
+"path": "doomdeathpurple.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"dummy": {
+"path": "dummy.mdx",
+"radius": 0.0,
+"anim": "Birth (0.7s), Stand - 1 (3.0s), Death (1.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"elephant2": {
+"path": "elephant2.mdx",
+"radius": 389.5984191894531,
+"anim": "Birth (0.8s), Death (0.8s)",
+"tex": [
+"Elephant.blp",
+"Ping.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 28,
+"ver": 800
+},
+"freezingsplinter": {
+"path": "freezingsplinter.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"getsugabluenew": {
+"path": "getsugabluenew.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"hyper_ball": {
+"path": "hyper_ball.mdx",
+"radius": 22.5,
+"anim": "walk (1.2s), Stand (0.4s), Attack (0.4s), spell (0.4s), Death (0.4s), Decay (0.4s)",
+"tex": [
+"hyper_ball.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 43,
+"ver": 800
+},
+"iceflower": {
+"path": "iceflower.mdx",
+"radius": 136.85000610351562,
+"anim": "Stand (1.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 30,
+"ver": 800
+},
+"iceslam": {
+"path": "iceslam.mdx",
+"radius": 188.8178253173828,
+"anim": "by valkemiere (0.4s), Birth (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"laser": {
+"path": "laser.mdx",
+"radius": 267.93798828125,
+"anim": "Birth (0.2s), Stand (0.5s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"laseryellow": {
+"path": "laseryellow.mdx",
+"radius": 267.93798828125,
+"anim": "Birth (0.2s), Stand (0.5s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"levelupcaster": {
+"path": "levelupcaster.mdx",
+"radius": 145.072998046875,
+"anim": "Stand (1.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"lightning boom2": {
+"path": "lightning boom2.mdx",
+"radius": 277.50799560546875,
+"anim": "Birth (1.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"musictarget": {
+"path": "musictarget.mdx",
+"radius": 0.0,
+"anim": "Birth (0.0s), Stand (1.0s)",
+"tex": [
+"musicnote.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"natureexplosion": {
+"path": "natureexplosion.mdx",
+"radius": 233.7050018310547,
+"anim": "Birth (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"peep": {
+"path": "peep.mdx",
+"radius": 42.95415496826172,
+"anim": "Stand (1.0s), Death (2.0s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 22,
+"ver": 800
+},
+"poke_ball": {
+"path": "poke_ball.mdx",
+"radius": 22.5,
+"anim": "walk (1.2s), Stand (0.4s), Attack (0.4s), spell (0.4s), Death (0.4s), Decay (0.4s)",
+"tex": [
+"poke_ball.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 48,
+"ver": 800
+},
+"qianbenying8": {
+"path": "qianbenying8.mdx",
+"radius": 0.0,
+"anim": "Stand (0.7s), Death (0.2s)",
+"tex": [
+"qianbenying.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"rain": {
+"path": "rain.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"snow-76016": {
+"path": "snow-76016.mdx",
+"radius": 103.90599822998047,
+"anim": "Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"super_ball": {
+"path": "super_ball.mdx",
+"radius": 22.5,
+"anim": "walk (1.2s), Stand (0.4s), Attack (0.4s), spell (0.4s), Death (0.4s), Decay (0.4s)",
+"tex": [
+"super_ball.blp"
+],
+"missing": [],
+"clash": [],
+"kb": 140,
+"ver": 800
+},
+"tsunadeslam": {
+"path": "tsunadeslam.mdx",
+"radius": 227.9420623779297,
+"anim": "by valkemiere (0.4s), Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 16,
+"ver": 800
+},
+"tx003": {
+"path": "tx003.mdx",
+"radius": 0.0,
+"anim": "Birth (2.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"vamppotioncasterblue": {
+"path": "vamppotioncasterblue.mdx",
+"radius": 0.0,
+"anim": "Stand (1.0s), Birth (0.1s), Death (0.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"void_Bomb": {
+"path": "void_Bomb.mdx",
+"radius": 65.63870239257812,
+"anim": "Death (2.0s), Stand (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"AncientExplode(Blue)": {
+"path": "war3mapImported\\AncientExplode(Blue).mdx",
+"radius": 701.792724609375,
+"anim": "Birth (15.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"AncientExplode": {
+"path": "war3mapImported\\AncientExplode.mdx",
+"radius": 701.792724609375,
+"anim": "Birth (15.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"ArcaneMissileComplete": {
+"path": "war3mapImported\\ArcaneMissileComplete.mdx",
+"radius": 124.34500122070312,
+"anim": "Stand (1.0s), Birth (0.1s), Death (0.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"BlackDragonMissile": {
+"path": "war3mapImported\\BlackDragonMissile.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.5s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"BlackLotsuWave": {
+"path": "war3mapImported\\BlackLotsuWave.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"BlazingWind": {
+"path": "war3mapImported\\BlazingWind.mdx",
+"radius": 278.4419860839844,
+"anim": "Birth (0.7s), Stand (0.7s), Death (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"BurnerEruption": {
+"path": "war3mapImported\\BurnerEruption.mdx",
+"radius": 58.74369812011719,
+"anim": "Stand (3.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"CenarionFury": {
+"path": "war3mapImported\\CenarionFury.mdx",
+"radius": 322.96112060546875,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"Chidori Nagashi": {
+"path": "war3mapImported\\Chidori Nagashi.mdx",
+"radius": 153.655517578125,
+"anim": "Birth (1.7s), Stand (1.0s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 69,
+"ver": 800
+},
+"EmpBomb": {
+"path": "war3mapImported\\EmpBomb.mdx",
+"radius": 0.0,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"EnergyBolt": {
+"path": "war3mapImported\\EnergyBolt.mdx",
+"radius": 74.56089782714844,
+"anim": "Stand (3.3s), Birth (0.0s), Death (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"ExplosiveTornado": {
+"path": "war3mapImported\\ExplosiveTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 21,
+"ver": 800
+},
+"FeatherMissile": {
+"path": "war3mapImported\\FeatherMissile.mdx",
+"radius": 50.19940185546875,
+"anim": "Birth (0.5s), Stand (1.0s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Firesphere": {
+"path": "war3mapImported\\Firesphere.mdx",
+"radius": 0.0,
+"anim": "Stand (3.2s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"FlameBomb": {
+"path": "war3mapImported\\FlameBomb.mdx",
+"radius": 0.0,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"FlameshotAura": {
+"path": "war3mapImported\\FlameshotAura.mdx",
+"radius": 160.89199829101562,
+"anim": "Stand (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"Flampion": {
+"path": "war3mapImported\\Flampion.mdx",
+"radius": 200.0,
+"anim": "Stand (1.0s), Walk (1.0s), attack 1 (0.8s), death (1.0s)",
+"tex": [
+"FlampionBody.blp",
+"FlampionEyes.blp"
+],
+"missing": [
+"FlampionBody.blp",
+"FlampionEyes.blp"
+],
+"clash": [],
+"kb": 55,
+"ver": 800
+},
+"Flampivian": {
+"path": "war3mapImported\\Flampivian.mdx",
+"radius": 200.0,
+"anim": "Stand (1.0s), Walk (1.0s), attack 1 (0.8s), death (1.0s)",
+"tex": [
+"FlampivianBody.blp",
+"FlampivianEye.blp"
+],
+"missing": [
+"FlampivianBody.blp",
+"FlampivianEye.blp"
+],
+"clash": [],
+"kb": 69,
+"ver": 800
+},
+"Foly_Fire_Slam": {
+"path": "war3mapImported\\Foly_Fire_Slam.mdx",
+"radius": 55.10639953613281,
+"anim": "Birth (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"ForkedLightningOrange": {
+"path": "war3mapImported\\ForkedLightningOrange.mdx",
+"radius": 117.01200103759766,
+"anim": "Stand (0.8s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"Frost Missile": {
+"path": "war3mapImported\\Frost Missile.mdx",
+"radius": 74.56089782714844,
+"anim": "Stand (3.3s), Birth (0.0s), Death (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"FrostAura": {
+"path": "war3mapImported\\FrostAura.mdx",
+"radius": 0.0,
+"anim": "Stand (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"GaiaWave": {
+"path": "war3mapImported\\GaiaWave.mdx",
+"radius": 544.156005859375,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"GoldDragonMissile": {
+"path": "war3mapImported\\GoldDragonMissile.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.5s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"GreatElderHydraMoltenBreathV.196": {
+"path": "war3mapImported\\GreatElderHydraMoltenBreathV.196.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.0s), Death (8.0s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 17,
+"ver": 800
+},
+"Green Claw": {
+"path": "war3mapImported\\Green Claw.mdx",
+"radius": 155.99899291992188,
+"anim": "Birth (0.2s), Stand (0.7s), Death (0.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"GrosPain": {
+"path": "war3mapImported\\GrosPain.mdx",
+"radius": 50.17121887207031,
+"anim": "Birth (1.0s), Stand (0.0s), Death (0.5s)",
+"tex": [
+"Hitmonchan.blp"
+],
+"missing": [],
+"clash": [
+"Hitmonchan.blp"
+],
+"kb": 23,
+"ver": 800
+},
+"Healing Surge": {
+"path": "war3mapImported\\Healing Surge.mdx",
+"radius": 367.03900146484375,
+"anim": "Stand (3.9s), Birth (3.9s), Death (3.9s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 15,
+"ver": 800
+},
+"KidKangama": {
+"path": "war3mapImported\\KidKangama.mdx",
+"radius": 200.0,
+"anim": "Stand (1.0s), Walk (1.0s), Attack 1 (0.8s), Death (1.0s)",
+"tex": [
+"KidKangama.blp"
+],
+"missing": [
+"KidKangama.blp"
+],
+"clash": [],
+"kb": 106,
+"ver": 800
+},
+"LavaBreathDamage": {
+"path": "war3mapImported\\LavaBreathDamage.mdx",
+"radius": 0.0,
+"anim": "Stand (2.1s), Birth (0.1s), Death (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"Life Magic": {
+"path": "war3mapImported\\Life Magic.mdx",
+"radius": 168.15692138671875,
+"anim": "Birth (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Mokuton": {
+"path": "war3mapImported\\Mokuton.mdx",
+"radius": 259.29840087890625,
+"anim": "Stand (2.9s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"OrbOfFire": {
+"path": "war3mapImported\\OrbOfFire.mdx",
+"radius": 64.4636001586914,
+"anim": "Birth (0.1s), Stand (1.5s), Death (3.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 11,
+"ver": 800
+},
+"OrbOfVenom": {
+"path": "war3mapImported\\OrbOfVenom.mdx",
+"radius": 71.9885025024414,
+"anim": "Birth (0.2s), Stand (1.0s), Death (2.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"PinkSurge": {
+"path": "war3mapImported\\PinkSurge.mdx",
+"radius": 0.0,
+"anim": "Birth (0.5s), Stand (3.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"RighteousGuard": {
+"path": "war3mapImported\\RighteousGuard.mdx",
+"radius": 250.0,
+"anim": "Stand (2.0s), Death (4.0s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"SandAura": {
+"path": "war3mapImported\\SandAura.mdx",
+"radius": 228.69500732421875,
+"anim": "Stand (61.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"ShadowCannon": {
+"path": "war3mapImported\\ShadowCannon.mdx",
+"radius": 65.63870239257812,
+"anim": "Death (2.0s), Stand (1.2s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"ShadowSlash": {
+"path": "war3mapImported\\ShadowSlash.mdx",
+"radius": 140.73643493652344,
+"anim": "Stand (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"ShadowTornado": {
+"path": "war3mapImported\\ShadowTornado.mdx",
+"radius": 238.2779998779297,
+"anim": "Death (1.0s), Birth (0.5s), Stand (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 20,
+"ver": 800
+},
+"ShockwaveMissile": {
+"path": "war3mapImported\\ShockwaveMissile.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"SkyNeutralBuildingExplosion": {
+"path": "war3mapImported\\SkyNeutralBuildingExplosion.mdx",
+"radius": 0.0,
+"anim": "Birth (7.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Sonic Missile": {
+"path": "war3mapImported\\Sonic Missile.mdx",
+"radius": null,
+"anim": "Death (1.0s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"Soul Discharge Purple": {
+"path": "war3mapImported\\Soul Discharge Purple.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"Soul Discharge": {
+"path": "war3mapImported\\Soul Discharge.mdx",
+"radius": 200.0,
+"anim": "Stand (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"SoulMissile": {
+"path": "war3mapImported\\SoulMissile.mdx",
+"radius": 29.906600952148438,
+"anim": "Stand (0.7s), Death (4.0s), Bith (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"StarfallCaster": {
+"path": "war3mapImported\\StarfallCaster.mdx",
+"radius": 376.45599365234375,
+"anim": "Stand (1.0s), Death (0.3s), Birth (2.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"TealCasterAura": {
+"path": "war3mapImported\\TealCasterAura.mdx",
+"radius": 75.95880126953125,
+"anim": "Stand (3.3s), Death (0.3s), Birth (0.1s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 2,
+"ver": 800
+},
+"TheHolyBomb": {
+"path": "war3mapImported\\TheHolyBomb.mdx",
+"radius": 284.98699951171875,
+"anim": "Birth (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"Tornado2": {
+"path": "war3mapImported\\Tornado2.mdx",
+"radius": 138.18499755859375,
+"anim": "Stand (3.3s), Death (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 77,
+"ver": 800
+},
+"UltiZoro": {
+"path": "war3mapImported\\UltiZoro.mdx",
+"radius": null,
+"anim": "Stand (1.3s), Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"VoidBuff": {
+"path": "war3mapImported\\VoidBuff.mdx",
+"radius": 35.852500915527344,
+"anim": "Birth (0.3s), Stand (1.1s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"Web": {
+"path": "war3mapImported\\Web.mdx",
+"radius": 142.82501220703125,
+"anim": "Stand (3.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"Wind": {
+"path": "war3mapImported\\Wind.mdx",
+"radius": 138.18499755859375,
+"anim": "Stand (3.3s), Death (5.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"XanXusMissile2": {
+"path": "war3mapImported\\XanXusMissile2.mdx",
+"radius": 125.05699920654297,
+"anim": "Birth (0.5s), Death (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"YellowBoom": {
+"path": "war3mapImported\\YellowBoom.mdx",
+"radius": 277.50799560546875,
+"anim": "Birth (1.1s)",
+"tex": [
+"LightningYellow.blp",
+"BallYellow.blp"
+],
+"missing": [
+"LightningYellow.blp",
+"BallYellow.blp"
+],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"ZoroWave": {
+"path": "war3mapImported\\ZoroWave.mdx",
+"radius": 280.15301513671875,
+"anim": "Birth (0.0s), stand (1.2s), Death (0.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"blazingwind1": {
+"path": "war3mapImported\\blazingwind1.mdx",
+"radius": 278.4419860839844,
+"anim": "Birth (0.7s), Stand (0.7s), Death (0.7s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 4,
+"ver": 800
+},
+"crossslashmissile": {
+"path": "war3mapImported\\crossslashmissile.mdx",
+"radius": 27.797700881958008,
+"anim": "Birth (0.3s), Stand (0.8s), Death (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"fireball": {
+"path": "war3mapImported\\fireball.mdx",
+"radius": null,
+"anim": "Death (4.8s), Stand (0.6s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 5,
+"ver": 800
+},
+"flames&smoke": {
+"path": "war3mapImported\\flames&smoke.MDX",
+"radius": 243.6580047607422,
+"anim": "Stand (3.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 3,
+"ver": 800
+},
+"frostnova": {
+"path": "war3mapImported\\frostnova.mdx",
+"radius": 0.0,
+"anim": "Birth (1.5s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 18,
+"ver": 800
+},
+"greengas": {
+"path": "war3mapImported\\greengas.mdx",
+"radius": 0.0,
+"anim": "Birth (0.3s), Stand (0.3s), Death (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 1,
+"ver": 800
+},
+"newdirtexnofire": {
+"path": "war3mapImported\\newdirtexnofire.mdx",
+"radius": 438.76300048828125,
+"anim": "Birth (8.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+},
+"newgroundex": {
+"path": "war3mapImported\\newgroundex.mdx",
+"radius": 0.0,
+"anim": "Birth (6.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 13,
+"ver": 800
+},
+"orbitalray": {
+"path": "war3mapImported\\orbitalray.mdx",
+"radius": 1607.719970703125,
+"anim": "Stand (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 10,
+"ver": 800
+},
+"s_Shockwave": {
+"path": "war3mapImported\\s_Shockwave.mdx",
+"radius": 0.0,
+"anim": "Birth (2.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 8,
+"ver": 800
+},
+"slash-b": {
+"path": "war3mapImported\\slash-b.mdx",
+"radius": 185.98300170898438,
+"anim": "fffStand (1.0s), fffBirth (0.0s), fffDeath (1.5s), Birth (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 7,
+"ver": 800
+},
+"slash-luc": {
+"path": "war3mapImported\\slash-luc.mdx",
+"radius": 185.98300170898438,
+"anim": "Death (1.0s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 6,
+"ver": 800
+},
+"void": {
+"path": "war3mapImported\\void.mdx",
+"radius": 98.44139862060547,
+"anim": "Stand (1.3s), Death (1.4s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 14,
+"ver": 800
+},
+"soundwave": {
+"path": "war3mapimported\\soundwave.mdx",
+"radius": 109.69499969482422,
+"anim": "Birth (0.0s), Stand (1.0s), Death (1.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 12,
+"ver": 800
+},
+"whitephoenixmissle": {
+"path": "whitephoenixmissle.mdx",
+"radius": null,
+"anim": "Death (1.0s), Stand (1.6s), Birth (0.3s)",
+"tex": [],
+"missing": [],
+"clash": [],
+"kb": 9,
+"ver": 800
+}
+}

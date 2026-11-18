@@ -56,8 +56,111 @@ function Fx_ShowLine takes unit u returns string
     return s
 endfunction
 
+// ---- v3.4.16: stages shown on the unit itself. Attack -> bonus damage (green / red number), Defense -> armor,
+// Speed -> attack speed (move speed: Ab_MoveBonus). Fx_HT keys 82 damage bonus set, 83 armor bonus set, 84 attack
+// speed bonus set (x1000). An icon in the buff bar per raised / lowered stat and per status.
+function Fx_BonusSet takes unit u, integer abil returns ability
+    if GetUnitAbilityLevel(u, abil) == 0 then
+        call UnitAddAbility(u, abil)
+        call UnitMakeAbilityPermanent(u, true, abil)
+    endif
+    return BlzGetUnitAbility(u, abil)
+endfunction
+
+function Fx_BonusRefresh takes unit u, integer abil returns nothing
+    call IncUnitAbilityLevel(u, abil)
+    call DecUnitAbilityLevel(u, abil)
+endfunction
+
+function Fx_Icon takes unit u, integer abil, boolean on returns nothing
+    if on and GetUnitAbilityLevel(u, abil) == 0 then
+        call UnitAddAbility(u, abil)
+        call UnitMakeAbilityPermanent(u, true, abil)
+        call BlzUnitHideAbility(u, abil, true)
+    elseif not on and GetUnitAbilityLevel(u, abil) > 0 then
+        call UnitRemoveAbility(u, abil)
+    endif
+endfunction
+
+function Fx_StageNow takes unit u, integer k returns integer
+    local integer hand = GetHandleId(u)
+    if Mega_Time >= LoadReal(Fx_HT, hand, 10 + k) then
+        return 0
+    endif
+    return LoadInteger(Fx_HT, hand, k)
+endfunction
+
+function Fx_StatSync takes unit u returns nothing
+    local integer hand = GetHandleId(u)
+    local integer want = 0
+    local integer k = 1
+    local integer stage = 0
+    local integer st = 0
+    local boolean alive = Ab_Alive(u)
+    local ability fxAbil = null
+    // attack damage
+    if alive then
+        set want = R2I(I2R(BlzGetUnitBaseDamage(u, 0)) * (Fx_StageMult(u, 1) - 1.0))
+    endif
+    if want != LoadInteger(Fx_HT, hand, 82) then
+        set fxAbil = Fx_BonusSet(u, Fx_AbAtk)
+        call BlzSetAbilityIntegerLevelField(fxAbil, ABILITY_ILF_ATTACK_BONUS, 0, want)
+        call Fx_BonusRefresh(u, Fx_AbAtk)
+        call SaveInteger(Fx_HT, hand, 82, want)
+    endif
+    // armor
+    set want = 0
+    if alive then
+        set want = R2I(Fx_ArmorStep * I2R(Fx_StageNow(u, 2)))
+    endif
+    if want != LoadInteger(Fx_HT, hand, 83) then
+        set fxAbil = Fx_BonusSet(u, Fx_AbDef)
+        call BlzSetAbilityIntegerLevelField(fxAbil, ABILITY_ILF_DEFENSE_BONUS_IDEF, 0, want)
+        call Fx_BonusRefresh(u, Fx_AbDef)
+        call SaveInteger(Fx_HT, hand, 83, want)
+    endif
+    // attack speed: 60% of the Speed multiplier (+2 Speed = +30% attack speed, -2 = -20%)
+    set want = 0
+    if alive then
+        set want = R2I(1000.0 * 0.6 * (Fx_StageMult(u, 5) - 1.0))
+    endif
+    if want != LoadInteger(Fx_HT, hand, 84) then
+        set fxAbil = Fx_BonusSet(u, Fx_AbSpd)
+        call BlzSetAbilityRealLevelField(fxAbil, ABILITY_RLF_ATTACK_SPEED_INCREASE_ISX1, 0, I2R(want) / 1000.0)
+        call Fx_BonusRefresh(u, Fx_AbSpd)
+        call SaveInteger(Fx_HT, hand, 84, want)
+    endif
+    // buff bar icons
+    loop
+        exitwhen k > 5
+        set stage = 0
+        if alive then
+            set stage = Fx_StageNow(u, k)
+        endif
+        call Fx_Icon(u, Fx_IconUp + k - 1, stage > 0)
+        call Fx_Icon(u, Fx_IconDown + k - 1, stage < 0)
+        set k = k + 1
+    endloop
+    set st = 0
+    if alive and Fx_HasStatus(u) then
+        set st = LoadInteger(Fx_HT, hand, 20)
+    endif
+    set k = 1
+    loop
+        exitwhen k > 6
+        call Fx_Icon(u, Fx_IconStatus + k - 1, st == k)
+        set k = k + 1
+    endloop
+    call Fx_Icon(u, Fx_IconConf, alive and Mega_Time < LoadReal(Fx_HT, hand, 24))
+    call Fx_Icon(u, Fx_IconAcc, alive and Mega_Time < LoadReal(Fx_HT, hand, 26))
+    set fxAbil = null
+endfunction
+
 function Fx_Unshow takes unit u returns nothing
     local integer hand = GetHandleId(u)
+    if u != null and GetUnitTypeId(u) != 0 then
+        call Fx_StatSync(u)  // v3.4.16: dead -> bonuses and icons off
+    endif
     if HaveSavedHandle(Fx_HT, hand, 74) then
         call DestroyTextTag(LoadTextTagHandle(Fx_HT, hand, 74))
         call RemoveSavedHandle(Fx_HT, hand, 74)
@@ -85,6 +188,7 @@ function Fx_Show takes unit u returns nothing
         set tt = null
         return
     endif
+    call Fx_StatSync(u)  // v3.4.16
     loop
         exitwhen k > 5
         set stage = LoadInteger(Fx_HT, hand, k)
@@ -109,26 +213,10 @@ function Fx_Show takes unit u returns nothing
         call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 76))
         call RemoveSavedHandle(Fx_HT, hand, 76)
     endif
-    if not IsUnitType(u, UNIT_TYPE_HERO) then  // text tags are few (WC3 limit): only over heroes
-        set tt = null
-        return
-    endif
-    if line == "" then
-        if HaveSavedHandle(Fx_HT, hand, 74) then
-            call DestroyTextTag(LoadTextTagHandle(Fx_HT, hand, 74))
-            call RemoveSavedHandle(Fx_HT, hand, 74)
-        endif
-    else
-        if HaveSavedHandle(Fx_HT, hand, 74) then
-            set tt = LoadTextTagHandle(Fx_HT, hand, 74)
-        else
-            set tt = CreateTextTag()
-            call SetTextTagPermanent(tt, true)
-            call SetTextTagVisibility(tt, true)
-            call SaveTextTagHandle(Fx_HT, hand, 74, tt)
-        endif
-        call SetTextTagText(tt, line, 0.019)
-        call SetTextTagPosUnit(tt, u, 30.0)
+    // v3.4.16: no line over the Pokemon any more (it got in the way): buff icons + green / red numbers instead
+    if HaveSavedHandle(Fx_HT, hand, 74) then
+        call DestroyTextTag(LoadTextTagHandle(Fx_HT, hand, 74))
+        call RemoveSavedHandle(Fx_HT, hand, 74)
     endif
     set tt = null
 endfunction
@@ -197,11 +285,13 @@ function Fx_StageAdd takes unit u, integer s, integer delta, real dur, unit src 
     call SaveInteger(Fx_HT, hand, s, stage)
     call SaveReal(Fx_HT, hand, 10 + s, Mega_Time + dur)
     call Fx_Track(u)
+    // v3.4.16: the stage and what it does now, e.g. "+2 Attack (x2.0)"
+    set word = " " + Fx_StatName[s] + " (x" + R2SW(Fx_StageMult(u, s), 1, 1) + ")"
     if delta > 0 then
-        set word = "+" + I2S(delta) + " " + Fx_StatName[s]
+        set word = "+" + I2S(delta) + word
         call Fx_Say(u, word, 120, 255, 120, src)
     else
-        set word = I2S(delta) + " " + Fx_StatName[s]
+        set word = I2S(delta) + word
         call Fx_Say(u, word, 255, 120, 120, src)
     endif
     call Fx_Show(u)  // v3.4.15
@@ -411,7 +501,7 @@ function Fx_OutMult takes unit src, unit t, boolean atk, boolean skill, integer 
         return 0.0
     endif
     // v3.4.15: lowered accuracy makes attacks AND moves miss (never-miss moves ignore it)
-    if (atk or skill) and Mega_Time < LoadReal(Fx_HT, hs, 26) and Ab_Num(src) != AB_KEENEYE and not (skill and Fx_MoveHas(src, 256)) and GetRandomReal(0.0, 1.0) < 0.2 then
+    if (atk or skill) and Mega_Time < LoadReal(Fx_HT, hs, 26) and Ab_Num(src) != AB_KEENEYE and not (skill and Fx_MoveHas(src, 256)) and GetRandomReal(0.0, 1.0) < 0.3 then  // v3.4.16: 30% (was 20%)
         call Fx_Say(t, "Miss", 210, 210, 210, src)
         return 0.0
     endif
@@ -441,12 +531,17 @@ function Fx_OutMult takes unit src, unit t, boolean atk, boolean skill, integer 
     endif
     // attacker
     if phys then
-        set mult = mult * Fx_StageMult(src, 1)
+        if skill then  // v3.4.16: a basic attack gets the Attack stage as bonus damage (Fx_StatSync), not here
+            set mult = mult * Fx_StageMult(src, 1)
+        endif
         if Fx_StatusOf(src) == 1 and Ab_Num(src) != AB_GUTS then
             set mult = mult * 0.75
         endif
     elseif skill then
         set mult = mult * Fx_StageMult(src, 3)
+    endif
+    if skill and Mega_Time < LoadReal(Fx_HT, hs, 87) then  // v3.4.16: Dynamax Max Move
+        set mult = mult * Fx_DynaDmg
     endif
     if mkey != 0 then
         set bits = LoadInteger(Fx_HT, mkey, 1)
@@ -514,7 +609,7 @@ function Fx_OutMult takes unit src, unit t, boolean atk, boolean skill, integer 
     endif
     // target: Defense / Sp. Defense
     if atk then
-        set mult = mult / Fx_StageMult(t, 2)
+        // v3.4.16: the Defense stage is armor now (Fx_StatSync), the game's armor formula does the rest
     elseif skill then
         if phys then
             set def = Fx_DefOf(t, 1) * Fx_StageMult(t, 2)
@@ -696,19 +791,19 @@ function Fx_AfterHit takes unit src, unit t, boolean atk, boolean skill, integer
             call Fx_HardCC(t, 0.5, src)
             call Fx_Say(t, "Flinched", 255, 220, 120, src)
         endif
-        set chance = LoadInteger(Fx_HT, mkey, 8) * grace
+        set chance = LoadInteger(Fx_HT, mkey, 8) * grace * 2  // v3.4.16: lowering moves twice as often
         if chance > 0 and GetRandomInt(1, 100) <= chance then
             set s = 1
             loop
                 exitwhen s > 5
                 set delta = LoadInteger(Fx_HT, mkey, 20 + s)
                 if delta != 0 then
-                    call Fx_StageAdd(t, s, delta, 12.0, src)
+                    call Fx_StageAdd(t, s, delta, Fx_StageDur, src)
                 endif
                 set s = s + 1
             endloop
             if LoadInteger(Fx_HT, mkey, 26) == 1 then
-                call Fx_AccDown(t, 4.0, src)
+                call Fx_AccDown(t, 6.0, src)
             endif
         endif
         set amount = I2R(LoadInteger(Fx_HT, mkey, 3))
@@ -745,7 +840,7 @@ function Fx_AfterHit takes unit src, unit t, boolean atk, boolean skill, integer
                     exitwhen s > 5
                     set delta = LoadInteger(Fx_HT, mkey, 10 + s)
                     if delta != 0 then
-                        call Fx_StageAdd(src, s, delta, 12.0, src)
+                        call Fx_StageAdd(src, s, delta, Fx_StageDur, src)
                     endif
                     set s = s + 1
                 endloop
@@ -1347,7 +1442,7 @@ function Fx_StageSet5 takes unit u, integer mkey, integer base, unit src returns
         exitwhen s > 5
         set delta = LoadInteger(Fx_HT, mkey, base + s)
         if delta != 0 then
-            call Fx_StageAdd(u, s, delta, 12.0, src)
+            call Fx_StageAdd(u, s, delta, Fx_StageDur, src)
         endif
         set s = s + 1
     endloop
@@ -1429,7 +1524,7 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
     elseif act == 4 then
         if GetWidgetLife(u) > 0.5 * mx + 1.0 then
             call SetWidgetLife(u, GetWidgetLife(u) - 0.5 * mx)
-            call Fx_StageAdd(u, 1, 4, 12.0, u)
+            call Fx_StageAdd(u, 1, 4, Fx_StageDur, u)
         else
             call Fx_Say(u, "But it failed!", 200, 200, 200, null)
         endif
@@ -1506,7 +1601,7 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
     elseif act == 21 then
         call Fx_StageSet5(tgt, mkey, 20, u)
     elseif act == 22 then
-        call Fx_AccDown(tgt, 6.0, u)
+        call Fx_AccDown(tgt, 10.0, u)  // v3.4.16: 10 s (was 6)
     elseif act == 23 then
         set kind = LoadInteger(Fx_HT, mkey, 42)
         set immune = LoadInteger(Fx_HT, mkey, 44)
@@ -1526,7 +1621,7 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
     elseif act == 25 or act == 26 then
         call Fx_Confuse(tgt, 4.0, u)
         if act == 26 then
-            call Fx_StageAdd(tgt, 1, 2, 12.0, null)
+            call Fx_StageAdd(tgt, 1, 2, Fx_StageDur, null)
         endif
     elseif act == 27 then
         if Fx_HasType(tgt, T_GRASS) then
@@ -1540,6 +1635,19 @@ function Fx_DoStatusMove takes unit u, integer mvi, unit tgt returns nothing
     elseif act == 28 then
         call SaveReal(Fx_HT, GetHandleId(tgt), 66, Mega_Time + 4.0)
         call Fx_Say(tgt, "Taunted!", 255, 120, 120, u)
+    elseif act == 29 then  // v3.4.16 Transform: the target's look for 30 s (Fx_HT key 85 end) + its raised stats
+        call BlzSetUnitSkin(u, GetUnitTypeId(tgt))
+        set kind = 1
+        loop
+            exitwhen kind > 5
+            if Fx_StageNow(tgt, kind) > 0 then
+                call Fx_StageAdd(u, kind, Fx_StageNow(tgt, kind), Fx_StageDur, u)
+            endif
+            set kind = kind + 1
+        endloop
+        call SaveReal(Fx_HT, hand, 85, Mega_Time + 30.0)
+        call Fx_Track(u)
+        call Fx_Say(u, "Transformed into " + GetUnitName(tgt) + "!", 255, 200, 255, tgt)
     endif
     set po = null
     set v = null
@@ -1771,6 +1879,158 @@ function Fx_AuraOf takes unit u returns nothing
     set v = null
 endfunction
 
+// ---- v3.4.16: moves NPC prices and requirements by move (Npc_Show / Npc_OnClick in jass/npc_moves.j).
+// Prices: Fx_Price* in fx_globals.j (level-up 500 + 40 x power, TM 2000 + 80 x power; status 2000 / 5000). TM requirements: power 70+ level 15,
+// 90+ level 30 and 1 badge, 120+ level 45 and 3 badges; status TMs level 10.
+function Fx_MovePrice takes integer m, boolean tm returns integer
+    local integer p = Mv_Pow[m]
+    if m >= Fx_StatBase or p <= 0 then
+        if tm then
+            return Fx_PriceTmStatus
+        endif
+        return Fx_PriceLvStatus
+    endif
+    if tm then
+        return ((Fx_PriceTmBase + Fx_PriceTmPow * p) / 100) * 100
+    endif
+    return ((Fx_PriceLvBase + Fx_PriceLvPow * p) / 100) * 100
+endfunction
+
+function Fx_MoveNeedLv takes integer m, boolean tm returns integer
+    local integer p = Mv_Pow[m]
+    if not tm then
+        return 0
+    endif
+    if m >= Fx_StatBase or p <= 0 then
+        return 10
+    elseif p >= 120 then
+        return 45
+    elseif p >= 90 then
+        return 30
+    elseif p >= 70 then
+        return 15
+    endif
+    return 0
+endfunction
+
+function Fx_MoveNeedBadges takes integer m, boolean tm returns integer
+    local integer p = Mv_Pow[m]
+    if not tm or m >= Fx_StatBase then
+        return 0
+    elseif p >= 120 then
+        return 3
+    elseif p >= 90 then
+        return 1
+    endif
+    return 0
+endfunction
+
+function Fx_MoveCanBuy takes integer pid, unit h, integer m, boolean tm returns boolean
+    return GetHeroLevel(h) >= Fx_MoveNeedLv(m, tm) and Badge_Count(pid) >= Fx_MoveNeedBadges(m, tm)
+endfunction
+
+function Fx_MoveNeedText takes integer m, boolean tm returns string
+    local string s = ""
+    if Fx_MoveNeedLv(m, tm) > 0 then
+        set s = "Lv " + I2S(Fx_MoveNeedLv(m, tm))
+    endif
+    if Fx_MoveNeedBadges(m, tm) > 0 then
+        set s = s + ", " + I2S(Fx_MoveNeedBadges(m, tm)) + " badge"
+        if Fx_MoveNeedBadges(m, tm) > 1 then
+            set s = s + "s"
+        endif
+    endif
+    return s
+endfunction
+
+// the details of a move before buying it (chat, 20 s): text with the damage of this Pokemon, price, requirements
+function Fx_MoveDetail takes integer pid, unit h, integer m, boolean tm returns nothing
+    local real mult = Ab_SkillMult(Ab_MainStat(h))
+    local string need = Fx_MoveNeedText(m, tm)
+    if GetHeroLevel(h) > 50 then
+        set mult = mult * (1.0 + Ab_LevelK * I2R(GetHeroLevel(h) - 50))
+    endif
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 20.0, " ")
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 20.0, "|cffffcc00" + Mv_Label[m] + "|r - |cffffcc00" + I2S(Fx_MovePrice(m, tm)) + " gold|r")
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 20.0, Mv_Tip(m, mult))
+    if need != "" then
+        if Fx_MoveCanBuy(pid, h, m, tm) then
+            call DisplayTimedTextToPlayer(Player(pid), 0, 0, 20.0, "|cff66ff66Needs " + need + " (you have it).|r")
+        else
+            call DisplayTimedTextToPlayer(Player(pid), 0, 0, 20.0, "|cffff4040Needs " + need + " (you have level " + I2S(GetHeroLevel(h)) + ", " + I2S(Badge_Count(pid)) + " badges).|r")
+        endif
+    endif
+endfunction
+
+// ---- v3.4.16 Dynamax (item Dynamax Band IDMX, its ability ADMX, cooldown 150 s, level 20+): Fx_DynaTime s twice
+// as big, max HP x1.5, every move is a Max Move (+50% damage, a big blast of its type, PkFx_OnCast).
+// Fx_HT handle: 87 end time, 88 scale before, 89 HP added, 91 aura effect.
+function Fx_IsDyna takes unit u returns boolean
+    return Mega_Time < LoadReal(Fx_HT, GetHandleId(u), 87)
+endfunction
+
+function Fx_DynaEnd takes unit u returns nothing
+    local integer hand = GetHandleId(u)
+    local integer add = LoadInteger(Fx_HT, hand, 89)
+    local real fxScale = LoadReal(Fx_HT, hand, 88)
+    call RemoveSavedReal(Fx_HT, hand, 87)
+    call SetUnitScale(u, fxScale, fxScale, fxScale)
+    if add > 0 and BlzGetUnitMaxHP(u) > add then
+        call BlzSetUnitMaxHP(u, BlzGetUnitMaxHP(u) - add)
+        if GetWidgetLife(u) > I2R(BlzGetUnitMaxHP(u)) then
+            call SetWidgetLife(u, I2R(BlzGetUnitMaxHP(u)))
+        endif
+    endif
+    call SaveInteger(Fx_HT, hand, 89, 0)
+    call SetUnitVertexColor(u, 255, 255, 255, 255)
+    if LoadInteger(Ab_HT, hand, 123) == 1 then
+        call Shiny_Tint(u)
+    endif
+    if HaveSavedHandle(Fx_HT, hand, 91) then
+        call DestroyEffect(LoadEffectHandle(Fx_HT, hand, 91))
+        call RemoveSavedHandle(Fx_HT, hand, 91)
+    endif
+    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Polymorph\\PolyMorphDoneGround.mdl", u, "origin"))
+endfunction
+
+function Fx_DynaCast takes nothing returns boolean
+    local unit u = GetTriggerUnit()
+    local integer hand = GetHandleId(u)
+    local integer add = 0
+    local real fxScale = 1.0
+    if GetSpellAbilityId() != Fx_DynaAbil then
+        set u = null
+        return false
+    endif
+    if not IsUnitType(u, UNIT_TYPE_HERO) or GetHeroLevel(u) < Fx_DynaLevel then
+        call DisplayTimedTextToPlayer(GetOwningPlayer(u), 0, 0, 5.0, "|cffff4040Dynamax needs a Pokemon of level " + I2S(Fx_DynaLevel) + " or more.|r")
+        call BlzEndUnitAbilityCooldown(u, Fx_DynaAbil)
+        set u = null
+        return false
+    endif
+    if Fx_IsDyna(u) then
+        set u = null
+        return false
+    endif
+    set fxScale = BlzGetUnitRealField(u, UNIT_RF_SCALING_VALUE)
+    call SaveReal(Fx_HT, hand, 88, fxScale)
+    call SetUnitScale(u, fxScale * Fx_DynaScale, fxScale * Fx_DynaScale, fxScale * Fx_DynaScale)
+    set add = BlzGetUnitMaxHP(u) / 2
+    call SaveInteger(Fx_HT, hand, 89, add)
+    call BlzSetUnitMaxHP(u, BlzGetUnitMaxHP(u) + add)
+    call SetWidgetLife(u, GetWidgetLife(u) + I2R(add))
+    call SaveReal(Fx_HT, hand, 87, Mega_Time + Fx_DynaTime)
+    call SetUnitVertexColor(u, 255, 110, 130, 255)
+    call SaveEffectHandle(Fx_HT, hand, 91, AddSpecialEffectTarget("Abilities\\Spells\\Orc\\Bloodlust\\BloodlustTarget.mdl", u, "overhead"))
+    call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl", GetUnitX(u), GetUnitY(u)))
+    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Other\\Doom\\DoomDeath.mdl", u, "origin"))
+    call Fx_Track(u)
+    call Fx_Say(u, "DYNAMAX!", 255, 80, 120, null)
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 6.0, "|cffff5080" + GetPlayerName(GetOwningPlayer(u)) + "'s " + GetHeroProperName(u) + " Dynamaxed! Max Moves for " + I2S(R2I(Fx_DynaTime)) + "s.|r")
+    set u = null
+    return false
+endfunction
+
 function Fx_Tick takes nothing returns nothing
     local unit u = null
     local integer hand = 0
@@ -1810,6 +2070,14 @@ function Fx_Tick takes nothing returns nothing
             if Mega_Time < LoadReal(Fx_HT, hand, 64) then  // Aqua Ring / Ingrain: 2% per second
                 call Ab_Heal(u, 0.01 * I2R(BlzGetUnitMaxHP(u)))
             endif
+            if HaveSavedReal(Fx_HT, hand, 87) and Mega_Time >= LoadReal(Fx_HT, hand, 87) then  // v3.4.16: Dynamax over
+                call Fx_DynaEnd(u)
+            endif
+            if HaveSavedReal(Fx_HT, hand, 85) and Mega_Time >= LoadReal(Fx_HT, hand, 85) then  // v3.4.16: Transform over
+                call RemoveSavedReal(Fx_HT, hand, 85)
+                call BlzSetUnitSkin(u, GetUnitTypeId(u))
+                call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Polymorph\\PolyMorphDoneGround.mdl", u, "origin"))
+            endif
             if Mega_Time < LoadReal(Fx_HT, hand, 67) then  // Leech Seed: 2% per second to the seeder
                 set mx = 0.01 * I2R(BlzGetUnitMaxHP(u))
                 if LoadUnitHandle(Fx_HT, hand, 68) != null and Ab_Alive(LoadUnitHandle(Fx_HT, hand, 68)) then
@@ -1844,6 +2112,456 @@ function Fx_Tick takes nothing returns nothing
     set u = null
 endfunction
 
+// ---- v3.4.16: a new wild creep of a species with a regional form may come as that form (ExecuteFunc from
+// Wild_Apply, Fx_ArgU = the creep): its look, name and types (Ab_HT handle 180 / 181 = type + 1, read by Ty_Of),
+// gold x1.5
+function Fx_RegionalX takes nothing returns nothing
+    local unit u = Fx_ArgU
+    local integer id = GetUnitTypeId(u)
+    local integer h = GetHandleId(u)
+    local integer i = 0
+    loop
+        exitwhen i >= Fx_RegN
+        if Fx_RegFrom[i] == id then
+            if GetRandomReal(0.0, 1.0) < Fx_RegChance then
+                call BlzSetUnitSkin(u, Fx_RegSkin[i])
+                call BlzSetUnitName(u, Fx_RegName[i])
+                call SaveInteger(Ab_HT, h, 180, Fx_RegT1[i] + 1)
+                call SaveInteger(Ab_HT, h, 181, Fx_RegT2[i] + 1)
+                call SaveInteger(Mega_HT, h, 23, R2I(I2R(LoadInteger(Mega_HT, h, 23)) * 1.5))
+                call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl", u, "origin"))
+            endif
+            set u = null
+            return
+        endif
+        set i = i + 1
+    endloop
+    set u = null
+endfunction
+
+// ---- v3.4.16: gym leaders (0..7) and Elite Four + Champion (8..12) stand at their arenas (Pokemon World trainer
+// models, unit types nT00..nT0C made by build.py) and talk when a challenge starts / ends.
+function Fx_LeaderSay takes integer g, string s returns nothing
+    local unit u = Fx_Leader[g]
+    local texttag tt = null
+    if u == null or s == "" then
+        set u = null
+        return
+    endif
+    call SetUnitAnimation(u, "spell")
+    call QueueUnitAnimation(u, "stand")
+    set tt = CreateTextTag()
+    call SetTextTagText(tt, Fx_LeaderName[g] + ": " + s, 0.022)
+    call SetTextTagPosUnit(tt, u, 80.0)
+    call SetTextTagColor(tt, 255, 230, 160, 255)
+    call SetTextTagVelocity(tt, 0.0, 0.015)
+    call SetTextTagPermanent(tt, false)
+    call SetTextTagLifespan(tt, 5.0)
+    call SetTextTagFadepoint(tt, 4.0)
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 6.0, "|cffffe6a0" + Fx_LeaderName[g] + ":|r " + s)
+    set u = null
+    set tt = null
+endfunction
+
+function Fx_LeaderHiX takes nothing returns nothing
+    call Fx_LeaderSay(Fx_ArgK, Fx_LeaderHi[Fx_ArgK])
+endfunction
+
+// ---- v3.4.16: quests. Kinds: 1 defeat Fx_QNeed wild Pokemon of type Fx_QType, 2 defeat wild Pokemon, 3 clear a gym,
+// 4 help defeat a legend, 5 defeat Team Rocket's Pokemon. Reward: gold + Rare Candy x5. -quest shows it.
+function Fx_HeroOf takes integer pid returns unit
+    local unit u = null
+    local unit best = null
+    call GroupEnumUnitsOfPlayer(Fx_QuestG, Player(pid), null)
+    loop
+        set u = FirstOfGroup(Fx_QuestG)
+        exitwhen u == null
+        call GroupRemoveUnit(Fx_QuestG, u)
+        if best == null and IsUnitType(u, UNIT_TYPE_HERO) and Ab_Alive(u) then
+            set best = u
+        endif
+    endloop
+    return best
+endfunction
+
+function Fx_QuestText takes integer pid returns string
+    local integer k = Fx_QKind[pid]
+    local string s = ""
+    if k == 1 then
+        set s = "Defeat " + I2S(Fx_QNeed[pid]) + " wild " + Ty_Name[Fx_QType[pid]] + " Pokemon"
+    elseif k == 2 then
+        set s = "Defeat " + I2S(Fx_QNeed[pid]) + " wild Pokemon"
+    elseif k == 3 then
+        set s = "Clear a gym"
+    elseif k == 4 then
+        set s = "Help defeat a wild legend"
+    elseif k == 5 then
+        set s = "Defeat " + I2S(Fx_QNeed[pid]) + " of Team Rocket's Pokemon"
+    else
+        return "no quest right now (a new one comes soon)"
+    endif
+    return s + " (" + I2S(Fx_QHave[pid]) + "/" + I2S(Fx_QNeed[pid]) + ") - reward " + I2S(Fx_QuestGold) + " gold + Rare Candy x5"
+endfunction
+
+function Fx_QuestNew takes integer pid returns nothing
+    local integer k = GetRandomInt(1, 5)
+    set Fx_QKind[pid] = k
+    set Fx_QHave[pid] = 0
+    set Fx_QType[pid] = GetRandomInt(0, 17)
+    if k == 1 then
+        set Fx_QNeed[pid] = 12
+    elseif k == 2 then
+        set Fx_QNeed[pid] = 30
+    elseif k == 5 then
+        set Fx_QNeed[pid] = 3
+    else
+        set Fx_QNeed[pid] = 1
+    endif
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 10.0, "|cff66ccffNew quest:|r " + Fx_QuestText(pid) + " |cff888888(-quest)|r")
+endfunction
+
+function Fx_QuestAdd takes integer pid, integer kind, integer ty0, integer ty1 returns nothing
+    local unit h = null
+    if pid < 0 or pid >= 12 or Fx_QKind[pid] != kind then
+        return
+    endif
+    if kind == 1 and ty0 != Fx_QType[pid] and ty1 != Fx_QType[pid] then
+        return
+    endif
+    set Fx_QHave[pid] = Fx_QHave[pid] + 1
+    if Fx_QHave[pid] < Fx_QNeed[pid] then
+        if Fx_QNeed[pid] <= 5 or ModuloInteger(Fx_QHave[pid], 5) == 0 then
+            call DisplayTimedTextToPlayer(Player(pid), 0, 0, 4.0, "|cff66ccffQuest:|r " + Fx_QuestText(pid))
+        endif
+        return
+    endif
+    set Fx_QKind[pid] = 0
+    set Fx_QNext[pid] = Mega_Time + 20.0
+    call AdjustPlayerStateBJ(Fx_QuestGold, Player(pid), PLAYER_STATE_RESOURCE_GOLD)
+    set h = Fx_HeroOf(pid)
+    if h != null then
+        call UnitAddItemById(h, 'I00B')
+        call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Other\\Levelup\\LevelupCaster.mdl", h, "origin"))
+    endif
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 8.0, "|cff66ff66Quest complete!|r +" + I2S(Fx_QuestGold) + " gold and Rare Candy x5.")
+    set h = null
+endfunction
+
+function Fx_QuestLegendX takes nothing returns nothing  // from Leg_OnDeath (leg_boss.j), Fx_ArgK = player
+    call Fx_QuestAdd(Fx_ArgK, 4, -1, -1)
+endfunction
+
+function Fx_QuestShow takes nothing returns boolean
+    local integer pid = GetPlayerId(GetTriggerPlayer())
+    call DisplayTimedTextToPlayer(Player(pid), 0, 0, 10.0, "|cff66ccffQuest:|r " + Fx_QuestText(pid))
+    return false
+endfunction
+
+function Fx_QuestTick takes nothing returns nothing
+    local integer pid = 0
+    loop
+        exitwhen pid >= 12
+        if Fx_QKind[pid] == 0 and Mega_Time >= Fx_QNext[pid] and GetPlayerSlotState(Player(pid)) == PLAYER_SLOT_STATE_PLAYING and Fx_HeroOf(pid) != null then
+            call Fx_QuestNew(pid)
+        endif
+        set pid = pid + 1
+    endloop
+endfunction
+
+// ---- v3.4.16: Team Rocket raids a base every Fx_RocketEvery s: Jessie and a grunt with elite Arbok, Weezing ...
+// Fx_RocketG their Pokemon; each knock-out +Fx_RocketKill gold; all down in time: the defending side gets
+// Fx_RocketWin gold each; else each loses up to Fx_RocketSteal gold.
+function Fx_RocketSay takes unit u, string s returns nothing
+    local texttag tt = null
+    if u == null then
+        return
+    endif
+    set tt = CreateTextTag()
+    call SetTextTagText(tt, s, 0.022)
+    call SetTextTagPosUnit(tt, u, 80.0)
+    call SetTextTagColor(tt, 255, 120, 200, 255)
+    call SetTextTagVelocity(tt, 0.0, 0.015)
+    call SetTextTagPermanent(tt, false)
+    call SetTextTagLifespan(tt, 5.0)
+    call SetTextTagFadepoint(tt, 4.0)
+    set tt = null
+endfunction
+
+function Fx_RocketSideOf takes integer pid returns integer
+    if GetStartLocationX(GetPlayerStartLocation(Player(pid))) < 0.0 then
+        return -1
+    endif
+    return 1
+endfunction
+
+function Fx_RocketClear takes nothing returns nothing
+    local unit u = null
+    loop
+        set u = FirstOfGroup(Fx_RocketG)
+        exitwhen u == null
+        call GroupRemoveUnit(Fx_RocketG, u)
+        call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTarget.mdl", GetUnitX(u), GetUnitY(u)))
+        call RemoveUnit(u)
+    endloop
+    if Fx_RocketNpc[0] != null then
+        call RemoveUnit(Fx_RocketNpc[0])
+        set Fx_RocketNpc[0] = null
+    endif
+    if Fx_RocketNpc[1] != null then
+        call RemoveUnit(Fx_RocketNpc[1])
+        set Fx_RocketNpc[1] = null
+    endif
+    set Fx_RocketOn = false
+endfunction
+
+function Fx_RocketStart takes nothing returns nothing
+    local integer pid = 0
+    local integer n = 0
+    local integer pick = -1
+    local integer k = 0
+    local integer pw = Wild_Tier + Fx_RocketPow
+    local real x = 0.0
+    local real y = -300.0
+    local unit u = null
+    if Fx_RocketOn then
+        return
+    endif
+    loop  // a random player that has a Pokemon
+        exitwhen pid >= 12
+        if Fx_HeroOf(pid) != null then
+            set n = n + 1
+            if GetRandomInt(1, n) == 1 then
+                set pick = pid
+            endif
+        endif
+        set pid = pid + 1
+    endloop
+    if pick < 0 then
+        return
+    endif
+    if pw > 10 then
+        set pw = 10
+    endif
+    set Fx_RocketOn = true
+    set Fx_RocketSide = Fx_RocketSideOf(pick)
+    set Fx_RocketEnd = Mega_Time + Fx_RocketTime
+    set Fx_RocketTX = GetStartLocationX(GetPlayerStartLocation(Player(pick)))
+    set Fx_RocketTY = GetStartLocationY(GetPlayerStartLocation(Player(pick)))
+    set x = I2R(Fx_RocketSide) * 3300.0
+    set Fx_RocketNpc[0] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), Fx_RocketJessie, x, y + 150.0, 0.0)
+    set Fx_RocketNpc[1] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), Fx_RocketGrunt, x, y - 150.0, 0.0)
+    call Fx_RocketSay(Fx_RocketNpc[0], "Jessie: Prepare for trouble!")
+    call Fx_RocketSay(Fx_RocketNpc[1], "Grunt: And make it double!")
+    loop
+        exitwhen k >= Fx_RocketCount
+        set u = CreateUnit(Player(PLAYER_NEUTRAL_AGGRESSIVE), Fx_RocketType[ModuloInteger(k, 6)], x + GetRandomReal(-250.0, 250.0), y + GetRandomReal(-250.0, 250.0), 0.0)
+        call SaveInteger(Mega_HT, GetHandleId(u), 31, pw)
+        call Wild_Apply(u)
+        call Wild_MakeElite(u)
+        // v3.4.16 harder: HP / damage multiplied, then kept (key 33 = 1: the wild level scaling leaves it alone)
+        call SaveInteger(Mega_HT, GetHandleId(u), 33, 1)
+        call BlzSetUnitMaxHP(u, R2I(I2R(BlzGetUnitMaxHP(u)) * Fx_RocketHP))
+        call SetWidgetLife(u, I2R(BlzGetUnitMaxHP(u)))
+        call BlzSetUnitBaseDamage(u, R2I(I2R(BlzGetUnitBaseDamage(u, 0)) * Fx_RocketDmg), 0)
+        call BlzSetUnitDiceSides(u, R2I(I2R(BlzGetUnitDiceSides(u, 0)) * Fx_RocketDmg), 0)
+        call BlzSetUnitArmor(u, BlzGetUnitArmor(u) * 1.5)
+        call BlzSetUnitName(u, "Team Rocket's " + GetUnitName(u))
+        call SetUnitVertexColor(u, 230, 150, 255, 255)
+        call RemoveGuardPosition(u)
+        call IssuePointOrder(u, "attack", Fx_RocketTX, Fx_RocketTY)
+        call GroupAddUnit(Fx_RocketG, u)
+        set k = k + 1
+    endloop
+    call PingMinimap(x, y, 6.0)
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 12.0, "|cffff66ccTeam Rocket attacks the base of " + GetPlayerName(Player(pick)) + "'s side! Defeat their " + I2S(Fx_RocketCount) + " Pokemon within " + I2S(R2I(Fx_RocketTime)) + "s (+" + I2S(Fx_RocketKill) + " gold each, +" + I2S(Fx_RocketWin) + " gold for the side) or lose " + I2S(Fx_RocketStealPct) + "% of your gold and get weakened!|r")
+    set u = null
+endfunction
+
+function Fx_RocketTick takes nothing returns nothing
+    local integer pid = 0
+    local integer lose = 0
+    local unit u = null
+    local unit h = null
+    if not Fx_RocketOn then
+        return
+    endif
+    if FirstOfGroup(Fx_RocketG) == null then
+        call Fx_RocketSay(Fx_RocketNpc[0], "Team Rocket's blasting off again!")
+        loop
+            exitwhen pid >= 12
+            if Fx_RocketSideOf(pid) == Fx_RocketSide and GetPlayerSlotState(Player(pid)) == PLAYER_SLOT_STATE_PLAYING then
+                call AdjustPlayerStateBJ(Fx_RocketWin, Player(pid), PLAYER_STATE_RESOURCE_GOLD)
+            endif
+            set pid = pid + 1
+        endloop
+        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, "|cff66ff66Team Rocket was driven off! The defending side gets " + I2S(Fx_RocketWin) + " gold each.|r")
+        call Fx_RocketClear()
+    elseif Mega_Time >= Fx_RocketEnd then
+        loop
+            exitwhen pid >= 12
+            if Fx_RocketSideOf(pid) == Fx_RocketSide and GetPlayerSlotState(Player(pid)) == PLAYER_SLOT_STATE_PLAYING then
+                // v3.4.16 penalty: Fx_RocketStealPct % of the gold (at least Fx_RocketSteal), and the Pokemon is
+                // weakened: -1 Attack, Defense, Sp. Atk, Sp. Def, Speed for Fx_RocketCurse s
+                set lose = R2I(I2R(GetPlayerState(Player(pid), PLAYER_STATE_RESOURCE_GOLD)) * I2R(Fx_RocketStealPct) / 100.0)
+                set lose = IMinBJ(IMaxBJ(lose, Fx_RocketSteal), GetPlayerState(Player(pid), PLAYER_STATE_RESOURCE_GOLD))
+                call AdjustPlayerStateBJ(-lose, Player(pid), PLAYER_STATE_RESOURCE_GOLD)
+                set h = Fx_HeroOf(pid)
+                if h != null then
+                    call Fx_StageAdd(h, 1, -1, Fx_RocketCurse, null)
+                    call Fx_StageAdd(h, 2, -1, Fx_RocketCurse, null)
+                    call Fx_StageAdd(h, 3, -1, Fx_RocketCurse, null)
+                    call Fx_StageAdd(h, 4, -1, Fx_RocketCurse, null)
+                    call Fx_StageAdd(h, 5, -1, Fx_RocketCurse, null)
+                    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Undead\\Curse\\CurseTarget.mdl", h, "overhead"))
+                endif
+                call DisplayTimedTextToPlayer(Player(pid), 0, 0, 10.0, "|cffff4040Team Rocket stole " + I2S(lose) + " gold from you! Your Pokemon is weakened (all stats -1) for " + I2S(R2I(Fx_RocketCurse)) + "s.|r")
+            endif
+            set pid = pid + 1
+        endloop
+        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, "|cffff4040Team Rocket got away! The side they raided lost " + I2S(Fx_RocketStealPct) + "% of its gold and is weakened.|r")
+        call Fx_RocketClear()
+    elseif ModuloInteger(R2I(Mega_Time), 10) < 2 then
+        call GroupAddGroup(Fx_RocketG, Fx_QuestG)
+        loop
+            set u = FirstOfGroup(Fx_QuestG)
+            exitwhen u == null
+            call GroupRemoveUnit(Fx_QuestG, u)
+            call IssuePointOrder(u, "attack", Fx_RocketTX, Fx_RocketTY)
+        endloop
+    endif
+    set u = null
+    set h = null
+endfunction
+
+// one death trigger for quests and Team Rocket
+function Fx_EvDeath takes nothing returns boolean
+    local unit d = GetTriggerUnit()
+    local unit k = GetKillingUnit()
+    local integer pid = -1
+    if k != null then
+        set pid = GetPlayerId(GetOwningPlayer(k))
+    endif
+    if IsUnitInGroup(d, Fx_RocketG) then
+        call GroupRemoveUnit(Fx_RocketG, d)
+        if pid >= 0 and pid < 12 then
+            call AdjustPlayerStateBJ(Fx_RocketKill, Player(pid), PLAYER_STATE_RESOURCE_GOLD)
+            call Fx_QuestAdd(pid, 5, -1, -1)
+        endif
+    endif
+    if pid >= 0 and pid < 12 and GetOwningPlayer(d) == Player(PLAYER_NEUTRAL_AGGRESSIVE) and Wild_IsWildType(GetUnitTypeId(d)) then
+        call Fx_QuestAdd(pid, 1, Ty_Of(d, 0), Ty_Of(d, 1))
+        call Fx_QuestAdd(pid, 2, -1, -1)
+    endif
+    set d = null
+    set k = null
+    return false
+endfunction
+
+function Fx_EventsInit takes nothing returns nothing
+    local trigger t = CreateTrigger()
+    local integer pid = 0
+    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)
+    call TriggerAddCondition(t, Condition(function Fx_EvDeath))
+    set t = CreateTrigger()
+    loop
+        exitwhen pid >= 12
+        call TriggerRegisterPlayerChatEvent(t, Player(pid), "-quest", true)
+        set Fx_QNext[pid] = 60.0
+        set pid = pid + 1
+    endloop
+    call TriggerAddCondition(t, Condition(function Fx_QuestShow))
+    call TimerStart(CreateTimer(), 5.0, true, function Fx_QuestTick)
+    call TimerStart(CreateTimer(), 2.0, true, function Fx_RocketTick)
+    set t = CreateTrigger()  // v3.4.16 Dynamax
+    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_EFFECT)
+    call TriggerAddCondition(t, Condition(function Fx_DynaCast))
+    call TimerStart(CreateTimer(), Fx_RocketFirst, false, function Fx_RocketStart)
+    call TimerStart(CreateTimer(), Fx_RocketEvery, true, function Fx_RocketStart)
+    set t = null
+endfunction
+
+// ---- v3.4.16 Snow Warning (Mega Abomasnow): every 2 s, a player Pokemon with it calls hail (once per 60 s each)
+function Fx_SnowWarning takes nothing returns nothing
+    local integer pid = 0
+    local unit u = null
+    loop
+        exitwhen pid >= 12
+        if Mega_Time >= Fx_SnowNext[pid] then
+            call GroupEnumUnitsOfPlayer(Fx_TmpG, Player(pid), null)
+            loop
+                set u = FirstOfGroup(Fx_TmpG)
+                exitwhen u == null
+                call GroupRemoveUnit(Fx_TmpG, u)
+                if Ab_Alive(u) and LoadInteger(Ab_HT, GetHandleId(u), 0) == AB_SNOWWARNING and Wth_Cur != 4 then
+                    set Fx_SnowNext[pid] = Mega_Time + 60.0
+                    call Wth_Set(4)
+                    call Fx_Say(u, "Snow Warning!", 200, 240, 255, null)
+                    call GroupClear(Fx_TmpG)
+                endif
+            endloop
+        endif
+        set pid = pid + 1
+    endloop
+    set u = null
+endfunction
+
+function Fx_LeadersInit takes nothing returns nothing
+    local integer g = 0
+    local real x = 0.0
+    local real y = 0.0
+    loop
+        exitwhen g > 12
+        if Fx_LeaderType[g] != 0 then
+            if g < 8 then
+                set x = Gym_X[g]
+                set y = Gym_Y[g] + Fx_LeaderOff
+            else
+                set x = Fx_LeaderX[g]
+                set y = Fx_LeaderY[g]
+            endif
+            set Fx_Leader[g] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), Fx_LeaderType[g], x, y, 270.0)
+            if g >= 8 then
+                call SetUnitFacing(Fx_Leader[g], bj_RADTODEG * Atan2(Fx_LAY - y, Fx_LAX - x))
+            endif
+        endif
+        set g = g + 1
+    endloop
+    call DestroyTimer(GetExpiredTimer())
+endfunction
+
+// ---- v3.4.16: gym cleared -> its badge floats over the winner for 6 s (ExecuteFunc from Gym_OnDeath:
+// Fx_ArgU winner, Fx_ArgK gym 0..7)
+function Fx_BadgeKill takes nothing returns nothing
+    local timer tm = GetExpiredTimer()
+    call DestroyEffect(LoadEffectHandle(Fx_HT, GetHandleId(tm), 0))
+    call FlushChildHashtable(Fx_HT, GetHandleId(tm))
+    call DestroyTimer(tm)
+    set tm = null
+endfunction
+
+function Fx_BadgeX takes nothing returns nothing
+    local unit u = Fx_ArgU
+    local integer g = Fx_ArgK
+    local effect fxe = null
+    local timer tm = null
+    if u == null or g < 0 or g > 7 or Fx_BadgeModel[g] == "" then
+        set u = null
+        return
+    endif
+    set fxe = AddSpecialEffectTarget(Fx_BadgeModel[g], u, "overhead")
+    call BlzSetSpecialEffectScale(fxe, 2.5)
+    set tm = CreateTimer()
+    call SaveEffectHandle(Fx_HT, GetHandleId(tm), 0, fxe)
+    call TimerStart(tm, 6.0, false, function Fx_BadgeKill)
+    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Other\\Levelup\\LevelupCaster.mdl", u, "origin"))
+    call Fx_Say(u, Fx_BadgeName[g] + " Badge!", 255, 215, 0, null)
+    call Fx_LeaderSay(g, Fx_LeaderWin[g])  // v3.4.16
+    call Fx_QuestAdd(GetPlayerId(GetOwningPlayer(u)), 3, -1, -1)
+    set u = null
+    set fxe = null
+    set tm = null
+endfunction
+
 // ---- -stats: the numbers of the new system
 function Fx_Stats takes player po, unit h returns nothing
     local integer hand = GetHandleId(h)
@@ -1852,7 +2570,7 @@ function Fx_Stats takes player po, unit h returns nothing
     loop
         exitwhen k > 5
         if LoadInteger(Fx_HT, hand, k) != 0 and Mega_Time < LoadReal(Fx_HT, hand, 10 + k) then
-            set s = s + " | " + Fx_StatName[k] + " " + I2S(LoadInteger(Fx_HT, hand, k))
+            set s = s + " | " + Fx_StatName[k] + " " + I2S(LoadInteger(Fx_HT, hand, k)) + " (x" + R2SW(Fx_StageMult(h, k), 1, 2) + ", " + I2S(R2I(LoadReal(Fx_HT, hand, 10 + k) - Mega_Time)) + "s)"  // v3.4.16
         endif
         set k = k + 1
     endloop
@@ -1860,7 +2578,16 @@ function Fx_Stats takes player po, unit h returns nothing
         set s = s + " | " + Fx_StName[LoadInteger(Fx_HT, hand, 20)]
     endif
     if Mega_Time < LoadReal(Fx_HT, hand, 26) then
-        set s = s + " | Accuracy down (20% miss)"
+        set s = s + " | Accuracy down (30% miss)"
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 24) then  // v3.4.16
+        set s = s + " | Confused"
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 61) then
+        set s = s + " | Protect"
+    endif
+    if Mega_Time < LoadReal(Fx_HT, hand, 43) and LoadReal(Fx_HT, hand, 42) > 0.0 then
+        set s = s + " | Shield " + I2S(R2I(LoadReal(Fx_HT, hand, 42)))
     endif
     call DisplayTimedTextToPlayer(po, 0, 0, 12.0, s + "|r")
 endfunction
@@ -1927,6 +2654,9 @@ function Fx_LeagueSetup takes nothing returns nothing
         call Fx_Label(Fx_StatueName[k], Fx_StatueX[k], Fx_StatueY[k], 220, 220, 230)
         set k = k + 1
     endloop
+    call TimerStart(CreateTimer(), 3.0, false, function Fx_LeadersInit)  // v3.4.16: after Gym_Init has run
+    call TimerStart(CreateTimer(), 2.0, true, function Fx_SnowWarning)  // v3.4.16
+    call Fx_EventsInit()  // v3.4.16: quests, Team Rocket
     set u = null
     set r = null
 endfunction
