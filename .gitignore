@@ -1,9 +1,11 @@
 __pycache__/
 .pytest_cache/
 .superpowers/
+scratch/
 out/
 extracted_v1.8/
 mega_models/
+imports/*_backup_*/
 *.w3x
 *.mpq
 # third-party game data and images (not ours to publish)

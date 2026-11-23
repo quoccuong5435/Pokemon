@@ -46,6 +46,14 @@ function Itm_Use takes unit u, integer id returns nothing
     endloop
 endfunction
 
+// v3.4.6 A3: one message line per player: the new message replaces the old one (ClearTextMessages is local)
+function Note_Say takes player p, string s, real t returns nothing
+    if GetLocalPlayer() == p then
+        call ClearTextMessages()
+    endif
+    call DisplayTimedTextToPlayer(p, 0, 0, t, s)
+endfunction
+
 // ---- Shiny: 1/100 when a Pokemon is picked, bought, randomed or made by a Soul (1/20 for a Champion);
 // evolutions and Mega keep it (Mega_SafeReplace copies keys 123 / 124)
 function Shiny_Tint takes unit u returns nothing
@@ -72,7 +80,7 @@ function Shiny_Decide takes unit u returns nothing
         call SaveInteger(Ab_HT, h, 123, 1)
         call Shiny_Tint(u)
         call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl", u, "origin"))
-        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, "|cffffff00* " + GetPlayerName(p) + " got a SHINY " + GetHeroProperName(u) + "! (+10% STR / AGI / INT) *|r")
+        call Note_Say(GetLocalPlayer(), "|cffffff00* " + GetPlayerName(p) + " got a SHINY " + GetHeroProperName(u) + "! (+10% STR / AGI / INT) *|r", 10.0)
     endif
     set p = null
 endfunction
@@ -101,7 +109,7 @@ function Wth_Set takes integer w returns nothing
     if Wth_Fx != null then
         call EnableWeatherEffect(Wth_Fx, true)
     endif
-    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 10.0, s)
+    call Note_Say(GetLocalPlayer(), s, 10.0)
 endfunction
 
 function Wth_Tick takes nothing returns nothing
@@ -110,6 +118,12 @@ function Wth_Tick takes nothing returns nothing
         set w = ModuloInteger(w + 1, 5)
     endif
     call Wth_Set(w)
+endfunction
+
+// v3.4.6 B4: the warning comes 30 s before the weather changes (the change is Wth_Tick, one-shot timer)
+function Wth_Pre takes nothing returns nothing
+    call Note_Say(GetLocalPlayer(), "|cffffe0a0The weather changes in 30 seconds.|r", 8.0)
+    call TimerStart(CreateTimer(), 30.0, false, function Wth_Tick)
 endfunction
 
 // ---- damage dealt / taken from weather, held items, Champion Aura and legend Mega (Ab_OnDamaging)
@@ -131,7 +145,10 @@ function Ext_DamageMult takes unit src, unit t, boolean atk, boolean skill, inte
         endif
     endif
     if IsUnitType(src, UNIT_TYPE_HERO) then
-        if (atk or skill) and Itm_Flag(src, 0) then
+        if (atk or skill) and Itm_Flag(src, 0) then  // v3.4.6 B1: Life Orb +30% -> +25%
+            set m = m * 1.25
+        endif
+        if Itm_Flag(src, 17) and Mega_Time < LoadReal(Ab_HT, hs, 131) then  // v3.4.6 B3 Weakness Policy: +30% for 10 s
             set m = m * 1.3
         endif
         if atk and Itm_Flag(src, 1) then
@@ -139,6 +156,9 @@ function Ext_DamageMult takes unit src, unit t, boolean atk, boolean skill, inte
         endif
         if skill and Itm_Flag(src, 2) then
             set m = m * 1.35
+        endif
+        if skill and Itm_Flag(src, 23) then  // v3.4.5 Wise Glasses
+            set m = m * 1.1
         endif
         if eff >= 1.99 and Itm_Flag(src, 6) then
             set m = m * 1.25
@@ -149,6 +169,9 @@ function Ext_DamageMult takes unit src, unit t, boolean atk, boolean skill, inte
         endif
     endif
     if IsUnitType(t, UNIT_TYPE_HERO) then
+        if eff >= 1.99 and Itm_Flag(t, 17) then  // v3.4.6 B3: hit by a super effective move -> +30% for 10 s
+            call SaveReal(Ab_HT, ht, 131, Mega_Time + 10.0)
+        endif
         if skill and Itm_Flag(t, 8) then
             set m = m * 0.75
         endif

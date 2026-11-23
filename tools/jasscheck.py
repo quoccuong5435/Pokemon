@@ -25,7 +25,7 @@ NATIVES = {
     'BlzSetUnitArmor': 2, 'BlzGetUnitIntegerField': 2, 'BlzSetUnitIntegerField': 3, 'GetUnitLifePercent': 1,
     'SetUnitLifePercentBJ': 2, 'GetRandomInt': 2, 'GetRandomReal': 2, 'SaveBoolean': 4, 'LoadBoolean': 3,
     'SetUnitInvulnerable': 2, 'SetUnitPathing': 2, 'IsUnitInGroup': 2, 'UnitApplyTimedLife': 3,
-    'SetUnitMoveSpeed': 2, 'SuspendHeroXP': 2, 'SetPlayerAlliance': 4, 'GetPlayerAlliance': 3, 'GetEventPlayerChatString': 0, 'StringCase': 2, 'ReviveHero': 4, 'BlzSetAbilityExtendedTooltip': 3,
+    'SetUnitMoveSpeed': 2, 'PingMinimapForPlayer': 4, 'SuspendHeroXP': 2, 'SetPlayerAlliance': 4, 'GetPlayerAlliance': 3, 'GetEventPlayerChatString': 0, 'StringCase': 2, 'ReviveHero': 4, 'BlzSetAbilityExtendedTooltip': 3,
     # Reforged natives
     'BlzSetUnitSkin': 2, 'BlzStartUnitAbilityCooldown': 3, 'BlzGetUnitAbilityCooldownRemaining': 2,
     'BlzSetHeroProperName': 2, 'BlzGetUnitBaseDamage': 2, 'BlzGetUnitWeaponIntegerField': 3,

@@ -1,0 +1,421 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Pokemon Arena - Patch Note</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#12151c;color:#e6e8ee;line-height:1.45}
+header{padding:24px 32px;background:linear-gradient(90deg,#b8860b,#8e44ad)}h1{margin:0}
+header p{margin:6px 0 0;opacity:.92}
+main{max-width:1200px;margin:auto;padding:16px 24px 40px}
+h2{margin:28px 0 10px;border-bottom:1px solid #2a3140;padding-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stats div{background:#1d222d;border-radius:10px;padding:10px 14px}
+.stats b{display:block;font-size:22px;color:#ffd166}.stats small{color:#8a93a6}
+.pn{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.pn>div{background:#1d222d;border-radius:10px;padding:12px 16px}.pn h3{margin:0 0 6px;color:#ffd166}
+.pn li{margin:5px 0;font-size:14px}.pn ul{padding-left:20px;margin:6px 0}
+.wide{grid-column:1/-1}
+.v{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;padding:0 6px;margin-right:4px;vertical-align:1px;white-space:nowrap}
+.v41{background:#2e5d8a}.v412{background:#2f7d4f}
+table{border-collapse:collapse;font-size:13px;margin:6px 0;width:100%}td,th{border:1px solid #333b4b;padding:4px 8px;text-align:left;vertical-align:top}
+th{background:#262c39}td.c,th.c{text-align:center}.old{color:#8a93a6}
+.note{background:#2a2333;border-left:4px solid #c0392b;padding:10px 14px;border-radius:6px;font-size:14px}
+.legend span{margin-right:10px}
+code{background:#262c39;border-radius:4px;padding:0 4px}
+.arrow{color:#8a93a6}
+.toc{background:#1d222d;border-radius:10px;padding:10px 18px;margin:14px 0;font-size:14px}.toc ul{margin:4px 0;padding-left:20px;columns:2;column-gap:28px}.toc>ul{columns:1}.toc li{margin:2px 0;break-inside:avoid}.toc a{color:#9ecbff;text-decoration:none}.toc a:hover{text-decoration:underline}
+
+
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#12151c;color:#e6e8ee;line-height:1.45}
+header{padding:24px 32px;background:linear-gradient(90deg,#b8860b,#8e44ad)}h1{margin:0}
+header p{margin:6px 0 0;opacity:.92}
+main{max-width:1200px;margin:auto;padding:16px 24px 40px}
+h2{margin:28px 0 10px;border-bottom:1px solid #2a3140;padding-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stats div{background:#1d222d;border-radius:10px;padding:10px 14px}
+.stats b{display:block;font-size:22px;color:#ffd166}.stats small{color:#8a93a6}
+.pn{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.pn>div{background:#1d222d;border-radius:10px;padding:12px 16px}.pn h3{margin:0 0 6px;color:#ffd166}
+.pn li{margin:5px 0;font-size:14px}.pn ul{padding-left:20px;margin:6px 0}
+.wide{grid-column:1/-1}
+.v{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;padding:0 6px;margin-right:4px;vertical-align:1px;white-space:nowrap}
+.v340{background:#7a3e9d}.v3411{background:#2e5d8a}.v3416{background:#9d6a1f}.v43{background:#2f7d4f}
+table{border-collapse:collapse;font-size:13px;margin:6px 0;width:100%}td,th{border:1px solid #333b4b;padding:4px 8px;text-align:left;vertical-align:top}
+th{background:#262c39}td.c,th.c{text-align:center}.old{color:#8a93a6}
+.note{background:#2a2333;border-left:4px solid #c0392b;padding:10px 14px;border-radius:6px;font-size:14px}
+.legend span{margin-right:10px}
+code{background:#262c39;border-radius:4px;padding:0 4px}
+.m{background:#444;color:#fff}.mA{background:#a86a12}.mB{background:#1f6f5c}
+</style>
+<header><h1>Pokemon Arena — Patch Note</h1><p>Hai map đang chơi: <span class="v m mA">v4.1.x</span> map PvP (v4.1.2 – v4.1.5: event, loot, thức tỉnh, Paradox) và <span class="v m mB">v4.3</span> map gym (v4.3 – v4.3.3: Team Rocket, hiệu ứng chiêu). Mỗi mục ghi map nào có. Số liệu đọc từ script, chưa chơi thử.</p></header>
+<main>
+<nav class="toc"><b>Mục lục</b><ul style="columns:2">
+<li><a href="#ver2">Bản gộp: v4.1.2-ver2</a></li>
+<li><a href="#t-cp-nht-gn-y">Cập nhật gần đây</a></li>
+<li><a href="#t-con-s">Con số</a></li>
+<li><a href="#t-event-trong-trn-v4-1-x">Event trong trận v4.1.x</a></li>
+<li style="margin-left:18px"><a href="#t-lch-event">Lịch event</a></li>
+<li><a href="#t-thay-i">Thay đổi</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-cn-bng">v4.1.x Cân bằng</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-danh-hiu-title-">v4.1.x Danh hiệu (-title)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-item-loot-hng-ch-s-v-t-">v4.1.x Item loot: hạng, chỉ số và tỉ lệ rơi</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-mythic-forge-forge-">v4.1.x Mythic Forge (-forge)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-luyn-tp-cui-game-up-tra">v4.1.x Luyện tập cuối game (-up / -train)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-th-cng-mini-pet-">v4.1.x Thú cưng mini (-pet)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-solo-cp-solo-">v4.1.x Solo cướp đồ (-solo)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-thc-tnh-huyn-thoi-passi">v4.1.x Thức tỉnh huyền thoại: passive Hidden Power (-quest)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-form-orb-v-dng-paradox">v4.1.x Form Orb và dạng Paradox</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-god-chu">v4.1.x God Chu</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-kt-thc-trn">v4.1.x Kết thúc trận</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-lnh-chat">v4.1.x Lệnh chat</a></li>
+<li style="margin-left:18px"><a href="#t-v4-1-x-khc">v4.1.x Khác</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-gym-v-league">v4.3 Gym và League</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-bc-ch-s-v-trng-thi">v4.3 Bậc chỉ số và trạng thái</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-move-v-hiu-ng-chiu">v4.3 Move và hiệu ứng chiêu</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-npc-dy-move-3-4-16-">v4.3 NPC dạy move (3.4.16)</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-boss-huyn-thoi">v4.3 Boss huyền thoại</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-team-rocket-nhim-v-dynama">v4.3 Team Rocket, nhiệm vụ, Dynamax</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-pokmon-mi">v4.3 Pokémon mới</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-item-ability-th-gii">v4.3 Item, Ability, thế giới</a></li>
+<li style="margin-left:18px"><a href="#t-v4-3-lnh-chat">v4.3 Lệnh chat</a></li>
+<li><a href="#t-cha-kim-tra-trong-game">Chưa kiểm tra trong game</a></li>
+</ul></nav>
+<h2 id="ver2">Bản gộp: Pokemon Arena v4.1.2-ver2</h2>
+<div class="pn"><div class="wide"><p>Một map duy nhất, nền v4.1.2, gom ý tưởng của cả hai dòng:</p><ul>
+<li><span class="v m mA">v4.1.x</span> Loot cân bằng theo bãi quái; cap mềm cho Max HP của loot (15.000 đầu tính đủ, phần vượt một nửa, có thông báo và <code>-me</code>); buff Storm Shock, Soul Burn, Mana Surge.</li>
+<li><span class="v m mB">v4.3</span> Gym theo thứ tự (cần huy hiệu gym trước) và level tối thiểu 10 / 20 / … / 80; <code>-gym</code>, thông báo gym bận, sửa gym kẹt, gym 1–4 dễ hơn; <code>-repick</code> cho 1 Pokémon random; Poke Center hồi mana nhanh bằng hồi máu.</li>
+<li><span class="v m mB">v4.3</span> <b>Dynamax:</b> item Dynamax Band (8000 vàng ở shop item), Pokémon cấp 20+ to x2, máu x1,5, mọi chiêu là Max Move (+50% sát thương, vụ nổ theo hệ) trong 20 giây, hồi 150 giây.</li>
+<li><span class="v m mB">v4.3</span> <b>Huyền thoại ngẫu nhiên thành boss:</b> máu x20, đánh thường x5, giáp x3 khi xuất hiện (thay cho +150.000 máu cố định); nổi giận, loot và điểm thức tỉnh giữ như v4.1.2.</li>
+<li><b>Đã có sẵn trong v4.1.2</b> (kiểm tra bằng code): bậc chỉ số, trạng thái, 58 move trạng thái. <b>Chưa ghép</b> (đang làm theo từng bước): 9 move debuff mới và Transform, bậc chỉ số nhìn thấy được, hiệu ứng 169 chiêu, 33 starter. <b>Không ghép</b>: Team Rocket, nhiệm vụ.</li>
+<li class="old">Chưa chơi thử. File: <code>Pokemon Arena v4.1.2-ver2.w3x</code>. Các bảng bên dưới có chỗ còn ghi số cũ (loot, mục gym theo cặp).</li>
+</ul></div></div>
+<h2 id="t-cp-nht-gn-y">Cập nhật gần đây</h2>
+<p><b>Map PvP (v4.1.2 → v4.1.5)</b></p><div class="pn"><div class="wide"><ul>
+<li><span class="v v412">4.1.3</span><b>Loot cân bằng theo bãi quái:</b> tỉ lệ rơi của quái trong bãi nhân với 32 / (15 + 5 x (số con - 1)), nên mọi bãi kỳ vọng 0,32 món mỗi lần dọn (trước: bãi 2 con 0,20, bãi 12 con 0,70). Bãi 2 con: elite 24%, thường 8%; bãi 12 con: 7% và 2,3%. Huyền thoại, boss cố định và quái ngoài bãi không đổi.</li>
+<li><span class="v v412">4.1.4</span><b>Max HP từ loot: cap mềm.</b> Trước đây tổng Max HP của mọi item loot bị cắt cứng ở +15.000 (hero 10k máu + đồ 23k chỉ ra 25k). Nay 15.000 đầu tính đủ, phần vượt tính một nửa (ví dụ trên ra 29k). Có thông báo "[LOOT] Max HP from loot..." khi vượt, <code>-me</code> ghi tổng gốc và trần Lifesteal 25% / Crit 60%.</li>
+<li><span class="v v412">4.1.5</span><b>Buff 3 Effect Charm yếu</b> (charm đã rơi giữ số cũ): Storm Shock 45% xác suất, hồi 1,2 giây, sát thương 50 / 80 / 120 / 170% chỉ số chính (trước 30%, 2 giây, 25 / 45 / 70 / 100%); Soul Burn thêm mỗi nhịp phần sát thương bằng chỉ số chính x 2% x pct; Mana Surge hồi mana gấp đôi (3 / 5 / 7 / 10% mana tối đa).</li>
+<li class="old">Chưa chơi thử. Bảng "Item loot" bên dưới còn ghi số của v4.1.2 cho các mục trên.</li>
+</ul></div></div>
+<p><b>Map gym / Team Rocket (v4.3 → v4.3.3)</b></p><div class="pn"><div class="wide"><ul>
+<li><span class="v v43">4.3.1</span><code>-repick</code> tự cho người gõ <b>1 Pokémon random</b> (luật cũ giữ nguyên: 2 phút đầu, tối đa 2 lần, cần Pokémon còn sống và không ở dạng Mega; XP và item mang sang). Con random không trùng con đang có ở ai và không trùng con vừa bỏ.</li>
+<li><span class="v v43">4.3.2</span><b>Poke Center</b> hồi mana nhanh bằng hồi máu (mana 5% → 15% mỗi giây).</li>
+<li><span class="v v43">4.3.2</span><b>Team Rocket:</b> đợt đầu phút 10 rồi mỗi 15 phút (trước đó đợt hai tới ở phút 15); không tạo được Pokémon nào thì hủy đợt và báo, không tặng 3000 vàng; lệnh <code>-rocket</code> (chỉ host) bắt đầu một đợt ngay để thử.</li>
+<li><span class="v v43">4.3.3</span><b>Gym theo thứ tự và mốc level:</b> gym N cần huy hiệu gym N-1 (thay cho mở theo cặp) và hero đạt level tối thiểu: gym 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 = 10 / 20 / 30 / 40 / 50 / 60 / 70 / 80. Mốc level cap theo cặp gym giữ nguyên. Chưa build bản này.</li>
+<li class="old">Chưa chơi thử. Các mục "Gym" và "Lệnh chat" bên dưới còn mô tả luật cũ về mở gym theo cặp.</li>
+</ul></div></div>
+<h2 id="t-con-s">Con số</h2>
+<p><b>v4.1.2</b></p><div class="stats">
+<div><b>7</b><small>event chạy theo giờ (Altar, Rune, Wanted, Treasure, Mystery Ball, Magikarp, Chaos)</small></div>
+<div><b>14</b><small>danh hiệu (6 thường, 8 bí mật)</small></div>
+<div><b>+1..+5</b><small>Mythic Forge, thành công 65% → 10%</small></div>
+<div><b>5</b><small>thú cưng mini</small></div>
+<div><b>+2.119</b><small>dòng script (93.853 → 95.972)</small></div>
+<div><b>109</b><small>chỗ khác nhau giữa script 4.1 và 4.1.2</small></div>
+</div><p><b>v4.3</b></p><div class="stats">
+<div><b>931</b><small>unit tùy chỉnh (3.4.2: 838, +93)</small></div>
+<div><b>388</b><small>move, mỗi move có nút riêng ở 4 ô Q / W / E / R</small></div>
+<div><b>68</b><small>move trạng thái (buff, phòng thủ, gây bất lợi)</small></div>
+<div><b>+33</b><small>starter Gen 2-7 chơi được</small></div>
+<div><b>37</b><small>Mega (3.4.2: 33)</small></div>
+<div><b>13</b><small>NPC trưởng Gym và Elite Four có thoại</small></div>
+<div><b>+219</b><small>hàm script (4.377 → 4.596)</small></div>
+</div>
+<h2 id="t-event-trong-trn-v4-1-x">Event trong trận <span class="v m mA">v4.1.x</span></h2>
+<div class="pn"><div class="wide"><h3 id="t-lch-event">Lịch event</h3>
+<table>
+<tr><th>Event</th><th>Bắt đầu</th><th>Diễn ra thế nào</th></tr>
+<tr><td><span class="v v41">4.1</span><b>Altar Event</b> (Center Awakening Altar)</td>
+<td>6:00, báo trước 60 giây (có ping minimap). Sau mỗi đợt là 7 phút.</td>
+<td>Altar giữa bản đồ mở <b>120 giây</b>. Phe nào đứng giữ altar (bán kính 220) đủ <b>20 giây</b> thì thắng; hai phe cùng đứng thì tính là tranh chấp. Thưởng: <b>1200 vàng mỗi người</b> ở đợt 1, mỗi đợt sau +400, cộng <b>2 Bonus Loot</b>; ai đứng trong vòng được hồi 25% máu và mana. Hết 120 giây không ai chiếm thì mất.
+<br/><span class="v v412">4.1.2</span>Bỏ phần <b>+3 điểm</b> của phe thắng. Loot đổi từ "2 Epic / Legendary" thành "2 Bonus Loot" ngẫu nhiên (10% / 35% / 55% theo hạng cao → thấp).</td></tr>
+<tr><td><span class="v v41">4.1</span><b>Rune</b></td>
+<td>2:30, rồi 150 giây sau khi rune biến mất.</td>
+<td>Rune xuất hiện ở một điểm trên map, thông báo cho mọi người. 4 loại: <b>Haste</b> (+35% tốc chạy / tốc đánh), <b>Fury</b> (+25% sát thương), <b>Regen</b> (hồi 8% máu và 12% mana mỗi giây trong 10 giây), <b>Bounty</b> (+600 vàng và +500 XP cho cả phe).
+<br/><span class="v v412">4.1.2</span>Haste và Fury kéo dài <b>60 giây</b> (trước 25 giây). Nhặt 4 rune được danh hiệu Rune Master.</td></tr>
+<tr><td><span class="v v41">4.1</span><b>Wanted</b></td>
+<td>4:00, lặp mỗi 4 phút (cần cả hai phe còn người sống).</td>
+<td>Người nổi nhất một phe bị truy nã <b>90 giây</b>. Hạ được: <b>+1200 vàng</b> cho người hạ. Sống sót hết 90 giây: <b>+1000 vàng</b> cho chính người đó (và danh hiệu Untouchable).
+<br/><span class="v v412">4.1.2</span>Bỏ <b>+1 điểm</b> khi hạ mục tiêu.</td></tr>
+<tr><td><span class="v v41">4.1</span><b>Golden Treasure</b></td>
+<td>5:00, lặp mỗi 5 phút.</td>
+<td>Con Pokémon vàng chạy gần Center (18.000 máu, tốc chạy 375). Hạ trong <b>60 giây</b> được <b>+1800 vàng</b> và Bonus Loot.
+<br/><span class="v v412">4.1.2</span>Loot đổi từ "Epic / Legendary" thành "Bonus Loot".</td></tr>
+<tr><td><span class="v v412">4.1.2</span><b>Mystery Pokeball</b></td>
+<td>3:00, tồn tại 90 giây, lặp 3 phút sau mỗi lần được chạm.</td>
+<td>Pokeball xuất hiện cách Center tối đa 520. Ai chạm vào nhận ngẫu nhiên 1 trong 4: <b>Voltorb Bomb</b> (tự nổ sau 2 giây, mất 20% máu), <b>Ditto Swap</b> (đổi chỗ với hero địch gần nhất trong 1500; không có địch thì thành Chansey), <b>Snorlax Nap</b> (choáng vùng 2,5 giây), <b>Chansey Blessing</b> (đầy máu và mana, +500 vàng, khiên 40%). Chạm 3 lần được danh hiệu Chaos Walker.</td></tr>
+<tr><td><span class="v v412">4.1.2</span><b>Giant Magikarp</b></td>
+<td>7:30, lặp mỗi 6 phút.</td>
+<td>Một Giant Magikarp nhảy gần Center, thông báo "free gold... or a trap?". Hạ nó: <b>+1500 vàng</b> và loot. Nếu là bẫy, nó tiến hóa thành <b>Raging Red Gyarados</b> (55.000 máu): hạ trong 60 giây được <b>+3000 vàng</b> và loot Epic / Legendary. Hạ 2 boss event (Treasure, Magikarp, Gyarados) được danh hiệu Treasure Hunter.</td></tr>
+<tr><td><span class="v v412">4.1.2</span><b>Chaos Mode</b></td>
+<td>10:00, lặp mỗi 10 phút.</td>
+<td>Chọn ngẫu nhiên 1 trong 3 chế độ, kéo dài <b>30 giây</b>, báo cho cả map: <b>Turbo Speed</b> (mọi Pokémon chạy tốc 522), <b>Kaiju Brawl</b> (mọi Pokémon to x1,8), <b>Gold Fever</b> (mỗi lần hạ hero địch +1000 vàng).</td></tr>
+<tr><td><span class="v v412">4.1.2</span><b>Underdog Supply</b></td>
+<td>Kiểm tra từ phút 5.</td>
+<td>Phe đang thua từ <b>10 điểm</b> trở lên: mỗi người trong phe <b>+1000 vàng</b> và 1 Supply Loot ở căn cứ.</td></tr>
+<tr><td><span class="v v412">4.1.2</span><b>Shiny Surge</b></td>
+<td>Khi hạ quái.</td>
+<td>Hạ huyền thoại: 35% Pokémon của bạn đổi thành <b>shiny</b>. Cứ mỗi 50 quái hoang hạ được: 25%. Shiny +10% STR / AGI / INT, mỗi Pokémon chỉ đổi một lần, cả map được thông báo.</td></tr>
+</table>
+<ul>
+<li><span class="v v41">4.1</span><b>Underdog Kill</b>: hạ hero địch khi bạn đang là underdog (thấp hơn hero cao nhất 10 level, hoặc vừa chết liên tiếp 3 lần) được +400 vàng.
+<span class="v v412">4.1.2</span>Bỏ phần +1 điểm, chỉ còn +400 vàng.</li>
+<li><span class="v v41">4.1</span>First Blood (+800 vàng), chuỗi kill, Shutdown, Match Point cũng hiện thông báo lớn như các event trên.</li>
+</ul>
+</div></div>
+<h2 id="t-thay-i">Thay đổi</h2>
+<div class="pn"><div><h3 id="t-v4-1-x-cn-bng"><span class="v m mA">v4.1.x</span> Cân bằng</h3>
+<table>
+<tr><th>Thứ</th><th class="c">4.1</th><th class="c">4.1.2</th></tr>
+<tr><td>Sát thương của quái hoang lên người chơi</td><td class="c">x1,0</td><td class="c"><b>x0,40</b></td></tr>
+<tr><td>Sát thương giữa hai Pokémon người chơi (PvP)</td><td class="c">x0,35</td><td class="c"><b>x0,25</b></td></tr>
+<tr><td>Tỉ lệ rơi loot: huyền thoại</td><td class="c">30%</td><td class="c"><b>45%</b></td></tr>
+<tr><td>Tỉ lệ rơi loot: elite</td><td class="c">8%</td><td class="c"><b>15%</b></td></tr>
+<tr><td>Tỉ lệ rơi loot: quái hoang</td><td class="c">2%</td><td class="c"><b>5%</b></td></tr>
+<tr><td>Hồi chiêu đánh thường tối thiểu</td><td class="c">100</td><td class="c"><b>200</b></td></tr>
+<tr><td>Rune Haste / Fury</td><td class="c">25 giây</td><td class="c"><b>60 giây</b></td></tr>
+</table>
+<ul>
+<li><span class="v v412">4.1.2</span>Altar, Wanted và Underdog Kill <b>không còn cộng điểm thắng</b> (trước đó +3, +1, +1), chỉ còn vàng và loot.</li>
+<li><span class="v v412">4.1.2</span><b>Boss huyền thoại nổi giận</b> khi dưới 50% máu: +35% công, +25% sát thương skill, +12 giáp, +38% tốc đánh, hiện chữ "BOSS ENRAGED".</li>
+</ul></div><div><h3 id="t-v4-1-x-danh-hiu-title-"><span class="v m mA">v4.1.x</span> Danh hiệu (<code>-title</code>)</h3>
+<ul>
+<li><span class="v v412">4.1.2</span>Trước đây chỉ có danh hiệu <b>[CHAMPION]</b> trên đầu. Nay có <b>14 danh hiệu</b>, gõ <code>-title</code> để đổi hoặc ẩn. Danh hiệu bí mật hiện thông báo khi mở khóa và cho thưởng.</li>
+</ul>
+<table>
+<tr><th>Danh hiệu</th><th>Điều kiện</th><th>Thưởng</th></tr>
+<tr><td>Champion</td><td>Thắng Champion ở League</td><td>—</td></tr>
+<tr><td>Slayer</td><td>5 kill hero địch</td><td>—</td></tr>
+<tr><td>Godslayer</td><td>Hạ một huyền thoại</td><td>—</td></tr>
+<tr><td>Jackpot King</td><td>Trúng jackpot <code>-gamble</code></td><td>—</td></tr>
+<tr><td>Rich Kid</td><td>Có từ 20.000 vàng</td><td>—</td></tr>
+<tr><td>Untouchable</td><td>Sống sót qua Wanted</td><td>—</td></tr>
+<tr><td>Mythic Smith</td><td>Rèn một món lên +5</td><td>+50 chỉ số, +15 giáp</td></tr>
+<tr><td>Bandit King</td><td>Thắng 2 trận <code>-solo</code></td><td>+45 chỉ số, +1000 vàng</td></tr>
+<tr><td>Thánh Nhọ</td><td>Thất bại liên tiếp 4 lần (gamble / forge)</td><td>+35 chỉ số, +2000 vàng</td></tr>
+<tr><td>Phoenix</td><td>Đang chết liên tiếp 3 lần mà hạ được huyền thoại hoặc kẻ có chuỗi 3 kill</td><td>+45 chỉ số</td></tr>
+<tr><td>Demon Lord</td><td>Chuỗi 7 kill</td><td>+60 chỉ số</td></tr>
+<tr><td>Rune Master</td><td>Nhặt 4 rune</td><td>+40 chỉ số, +1000 vàng</td></tr>
+<tr><td>Treasure Hunter</td><td>Hạ 2 boss event</td><td>+45 chỉ số, +1200 vàng</td></tr>
+<tr><td>Chaos Walker</td><td>Chạm 3 Mystery Pokeball</td><td>+35 chỉ số, +800 vàng</td></tr>
+</table></div><div class="wide"><h3 id="t-v4-1-x-item-loot-hng-ch-s-v-t-"><span class="v m mA">v4.1.x</span> Item loot: hạng, chỉ số và tỉ lệ rơi</h3>
+<ul>
+<li><span class="v v41">4.1</span>Quái bị <b>người chơi</b> hạ có thể rơi <b>item loot</b> (không có item hệ cũ nữa ở nhánh này). Có <b>4 hạng</b>: Common, Rare, Epic, Legendary, giá bán 1000 / 2500 / 6000 / 15000 vàng. Item rơi dưới đất tồn tại <b>90 giây</b> (Epic và Legendary: 180 giây) rồi biến mất. Mỗi item là một trong hai loại, 50% mỗi loại:
+<b>Stat Relic</b> (cộng chỉ số) hoặc <b>Effect Charm</b> (hiệu ứng). Gõ <code>-me</code> để xem tổng chỉ số ẩn.</li>
+<li><span class="v v412">4.1.2</span><b>Tỉ lệ rơi tăng</b> (xem bảng bên dưới). Thêm nhiều nguồn loot mới: Altar, Golden Treasure, Magikarp / Gyarados, Underdog Supply, Mystery Loot Box, <code>-gamble</code>.</li>
+</ul>
+<table>
+<tr><th>Nguồn</th><th>Tỉ lệ rơi (4.1 → 4.1.2)</th><th>Hạng khi rơi</th></tr>
+<tr><td>Huyền thoại</td><td>30% → <b>45%</b></td><td>Rare 35%, Epic 45%, Legendary 20%</td></tr>
+<tr><td>Elite hoang</td><td>8% → <b>15%</b></td><td>Common 45%, Rare 38%, Epic 14%, Legendary 3%</td></tr>
+<tr><td>Quái hoang thường</td><td>2% → <b>5%</b></td><td>Common 75%, Rare 20%, Epic 4,5%, Legendary 0,5%</td></tr>
+<tr><td>Altar (2 món), Golden Treasure, Magikarp</td><td>chắc chắn</td><td>Rare 55%, Epic 35%, Legendary 10%</td></tr>
+<tr><td>Raging Red Gyarados</td><td>chắc chắn</td><td>Epic 70%, Legendary 30%</td></tr>
+<tr><td>Mystery Loot Box (<code>-up</code>, 3500 vàng)</td><td>chắc chắn</td><td>Rare 50%, Epic 38%, Legendary 12%</td></tr>
+<tr><td>Underdog Supply</td><td>chắc chắn</td><td>Rare 60%, Epic 40%</td></tr>
+<tr><td><code>-gamble</code></td><td>15% jackpot +4000 vàng; 20% +2200 vàng; 15% loot; 10% hoàn 500 vàng và tăng tốc; 40% mất 1000 vàng</td><td>loot: Rare 65%, Epic 35%</td></tr>
+</table>
+<p class="old">Hạng của mỗi lần rơi là số trong code (<code>PAX_Loot_OnDeath</code> và các hàm sự kiện). Mỗi lượt <code>-gamble</code> tốn 1000 vàng, chờ 60 giây giữa hai lượt; tỉ lệ trong bảng tính trên 100 lượt quay.</p>
+<table>
+<tr><th>Stat Relic: số chỉ số</th><th>Common</th><th>Rare</th><th>Epic</th><th>Legendary</th></tr>
+<tr><td>Số dòng chỉ số (ngẫu nhiên, không trùng)</td><td class="c">1</td><td class="c">2</td><td class="c">2–3</td><td class="c">3</td></tr>
+<tr><td>STR / AGI / INT</td><td class="c">20–35</td><td class="c">45–70</td><td class="c">80–115</td><td class="c">120–150</td></tr>
+<tr><td>All Stats</td><td class="c">12–22</td><td class="c">28–45</td><td class="c">50–75</td><td class="c">80–100</td></tr>
+<tr><td>Armor</td><td class="c">15–25</td><td class="c">30–48</td><td class="c">55–78</td><td class="c">80–100</td></tr>
+<tr><td>Max HP</td><td class="c">1500–3000</td><td class="c">3500–6000</td><td class="c">7000–10500</td><td class="c">11500–15000</td></tr>
+<tr><td>Attack Speed (%)</td><td class="c">10–18</td><td class="c">20–30</td><td class="c">32–45</td><td class="c">48–65</td></tr>
+<tr><td>Move Speed</td><td class="c">15–25</td><td class="c">28–40</td><td class="c">42–58</td><td class="c">60–80</td></tr>
+</table>
+<table>
+<tr><th>Effect Charm (1 trong 7 hiệu ứng)</th><th>Common</th><th>Rare</th><th>Epic</th><th>Legendary</th></tr>
+<tr><td>Lifesteal (% sát thương)</td><td class="c">3%</td><td class="c">5%</td><td class="c">8%</td><td class="c">12%</td></tr>
+<tr><td>Storm Shock: 30% gây sát thương phép vùng 320 theo % Main Stat (hồi 2 giây)</td><td class="c">25%</td><td class="c">45%</td><td class="c">70%</td><td class="c">100%</td></tr>
+<tr><td>Soul Burn: đốt % máu hiện tại mỗi giây trong 3 giây (hồi 1,5 giây)</td><td class="c">1,0%</td><td class="c">1,5%</td><td class="c">2,2%</td><td class="c">3,0%</td></tr>
+<tr><td>Critical: x1,5 sát thương đánh / move</td><td class="c">8%</td><td class="c">14%</td><td class="c">20%</td><td class="c">28%</td></tr>
+<tr><td>Mana Surge: % mana tối đa mỗi đòn (hồi 1,5 giây) và mana khi hạ quái</td><td class="c">1,5% / 15</td><td class="c">2,5% / 25</td><td class="c">3,5% / 40</td><td class="c">5,0% / 60</td></tr>
+<tr><td>Thorns: phản % sát thương nhận (hồi 0,5 giây)</td><td class="c">10%</td><td class="c">18%</td><td class="c">26%</td><td class="c">35%</td></tr>
+<tr><td>Treasure Hunter: cộng % vàng khi hạ quái</td><td class="c">15%</td><td class="c">25%</td><td class="c">40%</td><td class="c">60%</td></tr>
+</table>
+</div><div><h3 id="t-v4-1-x-mythic-forge-forge-"><span class="v m mA">v4.1.x</span> Mythic Forge (<code>-forge</code>)</h3><ul>
+<li><span class="v v412">4.1.2</span>Bấm <code>-forge</code> hoặc bấm <b>Mythic Forge Statue</b> trong nhà để rèn loot từ <b>+1 đến +5 [MYTHIC]</b>:
+<table><tr><th>Lên mức</th><th>Giá</th><th>Thành công</th><th>Hệ số chỉ số / hiệu ứng</th></tr>
+<tr><td>+1</td><td>1000</td><td>65%</td><td>x1,20</td></tr>
+<tr><td>+2</td><td>2000</td><td>45%</td><td>x1,40</td></tr>
+<tr><td>+3</td><td>3500</td><td>30%</td><td>x1,60</td></tr>
+<tr><td>+4</td><td>5000</td><td>18%</td><td>x1,85</td></tr>
+<tr><td>+5</td><td>8000</td><td>10%</td><td>x2,20</td></tr></table>
+Thất bại thì món đồ tụt 1 mức (từ +0 lên +1 thất bại thì giữ nguyên).</li>
+<li><span class="v v412">4.1.2</span><b>Fuse:</b> gộp 2 món loot thấp nhất trong túi (Common / Rare / Epic) thành 1 món cao hơn <b>một hạng so với món tốt hơn trong hai món</b>, giá 1500 vàng, thành công 60% (ra Rare) / 40% (ra Epic) / 20% (ra Legendary); thất bại mất món thấp hạng nhất. Món mới có thể là Stat Relic hoặc Effect Charm, 50% mỗi loại.</li>
+</ul></div><div><h3 id="t-v4-1-x-luyn-tp-cui-game-up-tra"><span class="v m mA">v4.1.x</span> Luyện tập cuối game (<code>-up</code> / <code>-train</code>)</h3><ul>
+<li><span class="v v412">4.1.2</span><b>All Stats +10</b>: tối đa 15 lần, giá 2000 + 500 x số lần đã mua.</li>
+<li><span class="v v412">4.1.2</span><b>+500 máu và +3 giáp</b>: tối đa 10 lần, giá 2000 + 500 x số lần đã mua.</li>
+<li><span class="v v412">4.1.2</span><b>Battle Elixir</b> 3000 vàng: +15% sát thương, nhận ít hơn 10% sát thương, +15% tốc chạy trong 3 phút, mất khi chết.</li>
+<li><span class="v v412">4.1.2</span><b>Mystery Loot Box</b> 3500 vàng: loot Rare / Epic / Legendary rơi dưới chân.</li>
+</ul></div><div><h3 id="t-v4-1-x-th-cng-mini-pet-"><span class="v m mA">v4.1.x</span> Thú cưng mini (<code>-pet</code>)</h3><ul>
+<li><span class="v v412">4.1.2</span>Mini Pikachu, Mini Eevee, Mini Jigglypuff, Mini Meowth, Mini Snorlax. Đi theo bạn, +1% mana mỗi giây. Gõ <code>-pet</code> lần nữa để đổi con hoặc tắt.</li>
+</ul></div><div><h3 id="t-v4-1-x-solo-cp-solo-"><span class="v m mA">v4.1.x</span> Solo cướp đồ (<code>-solo</code>)</h3><ul>
+<li><span class="v v412">4.1.2</span><code>-solo [1..12]</code> thách một đối thủ (không số thì chọn địch đầu tiên). Đối thủ gõ <code>-yes</code> / <code>-no</code> trong <b>20 giây</b>. Hai bên cần còn Pokémon sống.</li>
+<li><span class="v v412">4.1.2</span>Đấu sinh tử ở Center, tối đa 90 giây (hết giờ là hòa). Người thua <b>rơi 1 món đồ ngẫu nhiên</b> cho người thắng; thua mà không có đồ thì người thắng nhận +500 vàng. Túi đầy thì đồ rơi ở căn cứ.</li>
+</ul></div><div class="wide"><h3 id="t-v4-1-x-thc-tnh-huyn-thoi-passi"><span class="v m mA">v4.1.x</span> Thức tỉnh huyền thoại: passive Hidden Power (<code>-quest</code>)</h3>
+<ul>
+<li><span class="v v41">4.1</span>25 huyền thoại chơi được (Articuno … Buzzwole) mỗi con có một passive <b>Hidden Power</b>. Passive này <b>khóa</b>: mọi hiệu ứng trong code chỉ chạy khi Pokémon đã <b>thức tỉnh</b>. Thức tỉnh xong được <b>+30% mọi chỉ số</b> và mở passive. Tên nút đổi từ "Hidden Power: Locked" sang "Awakened: &lt;tên passive&gt;".</li>
+<li><span class="v v41">4.1</span>Tiến độ tính riêng cho từng người và từng loài, xem bằng <code>-quest</code>. Phải qua <b>3 giai đoạn</b>:
+<table>
+<tr><th>Giai đoạn</th><th>Điều kiện</th></tr>
+<tr><td>1/3</td><td>Đạt <b>Lv 85</b> (Mewtwo, Rayquaza, Arceus: <b>Lv 95</b>) <b>và</b> một trong hai: <b>20 điểm Wild</b> (hạ quái hoang +1; hạ elite, huyền thoại hoặc hero địch +5) hoặc <b>150.000 sát thương</b> gây ra.</td></tr>
+<tr><td>2/3</td><td><b>6 Blood Point</b>: hạ elite hoang +2, hero địch +3, <b>boss huyền thoại +6</b>. Bị hero địch hạ trong PvP thì <b>mất một nửa</b> Blood Point.</td></tr>
+<tr><td>3/3</td><td><b>Nghi lễ 60 giây</b> ngay tại Awakening Altar giữa map (đứng trong bán kính 450). Lúc bắt đầu cả map được thông báo và minimap bị ping. Rời xa quá 550 thì tiến độ tụt 2 giây mỗi giây.</td></tr>
+</table>
+Bị hạ trong lúc làm nghi lễ thì <b>nghi lễ bị phá</b>: lùi về giai đoạn 2 với 3/6 Blood Point, người hạ nhận <b>+1500 vàng</b>. Xong thì cả map thấy <b>[AWAKENING COMPLETE]</b>.</li>
+<li><span class="v v412">4.1.2</span>Thức tỉnh nay ảnh hưởng PvP: hero <b>thức tỉnh</b> đánh vào người đang là underdog thì chỉ gây <b>x0,80</b> sát thương (hero thường: x0,85); còn hero thức tỉnh bị phe đang <b>thua từ 10 điểm</b> đánh thì nhận <b>x1,20</b> sát thương.</li>
+<li><span class="v v41">4.1</span>Ngoài 25 passive chính còn <b>25 passive cho các dạng đặc biệt</b> (tên bắt đầu bằng Primal, Mega, Form, Origin hoặc Paradox). Theo code, dạng số 13 trở lên được tính là <b>đã thức tỉnh sẵn</b> và cộng +15% chỉ số thay vì +30%. Chi tiết từng dạng ở mục "Form Orb và dạng Paradox".</li>
+</ul>
+<table>
+<tr><th>Huyền thoại</th><th>Passive sau khi thức tỉnh</th></tr>
+<tr><td>Articuno</td><td><b>Absolute Zero:</b> đánh và move làm chậm 35% chạy / đánh 2 giây, -1 Speed / Sp.Def. 35% (hồi 3,5 giây mỗi mục tiêu) đóng băng 2 giây và gây 75% INT vùng 350; hồi đồng minh vùng 450 12% máu, 20% mana, +2 Def / Sp.Def, khiên 20%.</td></tr>
+<tr><td>Zapdos</td><td><b>Thunderbird Awakening:</b> mỗi 3 giây khi đánh nhau, sét đánh 1 mục tiêu 85% INT hoặc tới 3 mục tiêu 60% INT (vùng 550), choáng 0,4 giây, -1 Sp.Def, +25% tốc đánh / chạy.</td></tr>
+<tr><td>Moltres</td><td><b>Phoenix Sovereign:</b> đánh / move 35% (hồi 3,5 giây) gọi Flame Phoenix 75% INT vùng 300, đốt 12% INT mỗi giây trong 3 giây. Sát thương chí mạng tạo Trứng lửa 1,5 giây ở 50% máu, nếu không bị phá thì nở 60% INT vùng 400.</td></tr>
+<tr><td>Mewtwo</td><td><b>Telekinetic Dominator:</b> move cho tới 3 Psychic Orb (đánh thường cứ 2 giây một cái); mỗi đòn thả hết orb, mỗi orb 50% INT vùng 300, chậm 35% chạy / 30% đánh, -1 Def / Sp.Def; từ 2 orb choáng 0,6 giây. Kẻ đánh cận chiến bị đẩy 450, nhận 55% INT, choáng 0,75 giây.</td></tr>
+<tr><td>Mew</td><td><b>Genetic Mirage:</b> move 50% / đánh thường 25% (hồi 6 giây): thanh tẩy, hồi 10% máu và mana, bật Mirage 6 giây (+25% tốc đánh); mỗi 0,75 giây bắn tia 35% Main Stat vùng 240, có thể Burn / Poison / Paralyze.</td></tr>
+<tr><td>Raikou</td><td><b>Thunderstep Flash:</b> đòn đánh trong tầm 500 (hồi 3 giây): 75% INT vùng 220, choáng 0,4 giây, +40% tốc đánh / chạy.</td></tr>
+<tr><td>Entei</td><td><b>Volcanic Eruption:</b> đánh thường 35% (hồi 3 giây): 70% STR vùng 280, choáng 0,5 giây, -1 Def, đốt 12% STR mỗi giây, hồi Entei 8% máu.</td></tr>
+<tr><td>Suicune</td><td><b>Aurora Mirror:</b> khi đánh nhau có gương 30% máu tối đa (tối đa 6 giây, hồi 5 giây sau khi vỡ), phản 50% sát thương skill hấp thụ. Vỡ: 70% INT vùng 380, chậm 45%, hồi Suicune 15% và đồng minh 12%, +2 Def / Sp.Def, khiên 30%.</td></tr>
+<tr><td>Lugia</td><td><b>Aeroblast:</b> đánh 35% (hồi 4 giây): 80% INT vùng 450, chậm 35%, -1 Atk / Sp.Atk; hồi đồng minh 12% máu và 15% mana, +25% tốc chạy, +2 Sp.Atk / Sp.Def, khiên 30%.</td></tr>
+<tr><td>Ho-Oh</td><td><b>Sacred Ash:</b> đánh 35% (hồi 2,5 giây): 65% STR vùng 280, đốt 12% STR mỗi giây, thanh tẩy bản thân, hồi 5% máu bản thân và 4% đồng minh.</td></tr>
+<tr><td>Celebi</td><td><b>Time Sanctuary:</b> move 50% / đánh 25% (hồi 6 giây) tạo vùng 4 giây: mỗi giây thanh tẩy và hồi đồng minh 8% máu, 15% mana, +35% tốc đánh / chạy, +2 Atk / Sp.Atk; địch trong vùng nhận 25% INT, chậm 35%, -1 Speed.</td></tr>
+<tr><td>Kyogre</td><td><b>Tidal Surge:</b> move trúng luôn kích hoạt, đánh thường 35% (hồi 3 giây): 85% INT vùng 340, <b>x1,25</b> khi trời mưa Drizzle hoặc mục tiêu đang bị chậm; chậm 35%, -1 Sp.Def.</td></tr>
+<tr><td>Groudon</td><td><b>Tectonic Fissure:</b> đánh 35% (hồi 4 giây): 75% STR vùng 300, choáng 0,4 giây, -1 Def, đốt 10% STR mỗi giây.</td></tr>
+<tr><td>Rayquaza</td><td><b>Skybound Ascent:</b> đánh 35% (hồi 3,5 giây): 65% Main Stat vùng 320, choáng 0,3 giây, +15% tốc đánh, +1 Atk và Speed.</td></tr>
+<tr><td>Latias &amp; Latios</td><td><b>Eon Resonance:</b> move trúng luôn kích hoạt, đánh thường 35% (hồi 3 giây): 70% INT vùng 300, -1 Sp.Atk / Sp.Def, chậm 30%; hồi đồng minh 12% máu và 15% mana, +25% tốc đánh / chạy, +2 Sp.Atk / Speed.</td></tr>
+<tr><td>Jirachi</td><td><b>Doom Desire:</b> move 35% hoặc mỗi 8 giây khi đánh nhau: thanh tẩy, đồng minh hồi 16% máu, 20% mana, +30% tốc đánh, +2 Atk / Sp.Atk, khiên 30%; rồi Doom Desire lên địch gần nhất trong 550: 70% Main Stat vùng 320, choáng 0,5 giây, -1 Def / Sp.Def.</td></tr>
+<tr><td>Regirock</td><td><b>Monolith Bastion:</b> nhận ít hơn 20% sát thương. Bị đánh (hồi 3 giây) thì phản đòn vùng 300: 45% STR + 6% máu tối đa, chậm 35%, hồi 10% máu.</td></tr>
+<tr><td>Dialga</td><td><b>Roar of Time:</b> move luôn kích hoạt, đánh 35% (hồi 4 giây): 95% INT vùng 340, choáng 0,6 giây, chậm 40%, -1 Speed; hồi 12% mana, +25% tốc đánh.</td></tr>
+<tr><td>Palkia</td><td><b>Spacial Rend:</b> move trúng luôn kích hoạt, đánh thường 35% (hồi 3 giây): 85% INT vùng 300, 25% chí mạng x1,5, chậm 35%, -1 Def / Sp.Def, +20% tốc chạy cho Palkia.</td></tr>
+<tr><td>Giratina</td><td><b>Shadow Force:</b> nhận ít hơn 15% sát thương. Đánh 35% (hồi 3 giây): 65% STR + 4% máu tối đa vùng 300, chậm 30%, -1 Atk / Def, hồi 10% máu.</td></tr>
+<tr><td>Darkrai</td><td><b>Dark Void:</b> đánh 35% (hồi 3,5 giây): 75% INT vùng 340 (+35% lên mục tiêu đang ngủ), mỗi địch 45% ngủ, chậm 35%, -1 Sp.Def / Speed, hồi 5% máu và 10% mana.</td></tr>
+<tr><td>Regigigas</td><td><b>Crush Grip:</b> 8 giây đầu sau khi xuất hiện hoặc hồi sinh nhận ít hơn 15% sát thương. Sau đó đánh 35% (hồi 3 giây): 95% STR vùng 300, choáng 0,6 giây, chậm 40%, -1 Def, hồi 5% máu.</td></tr>
+<tr><td>Deoxys</td><td><b>Psycho Boost:</b> move trúng luôn kích hoạt, đánh thường 35% (hồi 2,5 giây): 100% (STR hoặc INT cao hơn) vùng 300, chậm 30%, -1 Def / Sp.Def, +35% tốc đánh và +20% tốc chạy.</td></tr>
+<tr><td>Arceus</td><td><b>Judgment:</b> move trúng luôn kích hoạt, đánh thường 35% (hồi 3 giây): 95% (STR hoặc INT cao hơn) vùng 360, choáng 0,4 giây, chậm 30%, -1 Def / Sp.Def, thanh tẩy; đồng minh vùng 450 hồi 5% máu, 10% mana, +1 Atk / Sp.Atk, khiên 15%.</td></tr>
+<tr><td>Buzzwole</td><td><b>Beast Drain:</b> đánh 35% (hồi 2,5 giây): 80% STR vùng 260, choáng 0,4 giây, -1 Def, +1 Atk / Speed, +30% tốc đánh, hồi Buzzwole 8% máu.</td></tr>
+</table>
+<p class="old">"Hồi X giây" là thời gian chờ giữa hai lần kích hoạt. "Chậm" là giảm tốc chạy và tốc đánh (trừ khi ghi riêng). Các bậc -1 / +1 là bậc chỉ số của hệ stage. Số ở bảng là số của bản đã thức tỉnh.</p>
+</div><div class="wide"><h3 id="t-v4-1-x-form-orb-v-dng-paradox"><span class="v m mA">v4.1.x</span> Form Orb và dạng Paradox</h3>
+<ul>
+<li><span class="v v41">4.1</span><b>17 Form Orb</b> cho phép một loài đổi sang dạng đặc biệt (Galarian, Origin, Deoxys, <b>10 dạng Paradox</b>). Mỗi orb <b>10.000 vàng</b>, chỉ dùng được cho đúng loài ghi trên orb. Giữ orb trong túi cho <b>+60 mọi chỉ số</b>, mỗi Pokémon giữ tối đa 1 orb. Ở căn cứ có hai shop: <b>Primal &amp; Form Shop</b> và <b>Paradox Form Shop</b>.</li>
+<li><span class="v v41">4.1</span><b>Luật đổi dạng:</b> lần đổi đầu <b>miễn phí</b>, các lần sau <b>10.000 vàng</b>; sau mỗi lần đổi phải chờ <b>10 phút</b>; không đổi được khi đang Mega hoặc đang tiến hóa. Bấm lại orb để đổi về dạng thường.</li>
+<li><span class="v v41">4.1</span><b>Ability của Paradox:</b>
+<b>Protosynthesis</b> (dạng Ancient): +20% sát thương, +15% tốc đánh, +15% tốc chạy khi trời nắng, trong 12 giây sau khi đổi sang dạng Ancient, hoặc tối thiểu 6 giây sau khi move hệ Fire / Dragon trúng.
+<b>Quark Drive</b> (dạng Future): đổi sang dạng Future thì nạp 12 giây, move hệ Electric trúng nạp tối thiểu 6 giây; khi nạp có +20% sát thương, +15% tốc đánh, +15% tốc chạy và nhận ít hơn 10% sát thương.</li>
+<li><span class="v v41">4.1</span>Mỗi dạng Paradox có một <b>passive riêng</b> (bảng dưới). 3 dạng dựa trên huyền thoại (Walking Wake, Gouging Fire, Raging Bolt) cộng +30% chỉ số và cần huyền thoại gốc <b>đã thức tỉnh</b>; 7 dạng còn lại cộng +15% và tự mở sẵn (theo code, dạng số 13 trở lên).</li>
+</ul>
+<table>
+<tr><th>Từ → dạng Paradox</th><th>Hệ</th><th>Cộng thêm khi đổi dạng</th><th>Ability</th><th>Passive</th></tr>
+<tr><td>Suicune → <b>Walking Wake</b></td><td>Water / Dragon</td><td>+10% AGI, +20% INT</td><td>Protosynthesis</td><td><b>Hydro Steam</b> (+30%): đánh 35% (hồi 3 giây): 95% INT vùng 360 kể cả khi nắng gắt, chậm 30%, hồi bản thân và hero đồng minh vùng 400 5% máu.</td></tr>
+<tr><td>Entei → <b>Gouging Fire</b></td><td>Fire / Dragon</td><td>+25% STR, +5% AGI, +10% INT</td><td>Protosynthesis</td><td><b>Burning Bulwark</b> (+30%): đánh hoặc bị đánh 35% (hồi 3,5 giây): 75% STR vùng 300, đốt 12% STR mỗi giây 3 giây, khiên 20%.</td></tr>
+<tr><td>Raikou → <b>Raging Bolt</b></td><td>Electric / Dragon</td><td>+10% AGI, +25% INT</td><td>Protosynthesis</td><td><b>Thunderclap</b> (+30%): đánh 35% (hồi 3 giây): 100% INT vùng 320, choáng 0,45 giây, chậm tốc đánh 30%.</td></tr>
+<tr><td>Salamence → <b>Roaring Moon</b></td><td>Dragon / Dark</td><td>+25% STR, +20% AGI</td><td>Protosynthesis</td><td><b>Crescent Rampage</b> (+15%): đánh 35% (hồi 3 giây): 100% STR vùng 300, -1 Def, +30% tốc đánh và +20% tốc chạy.</td></tr>
+<tr><td>Magneton → <b>Sandy Shocks</b></td><td>Electric / Ground</td><td>+15% AGI, +20% INT</td><td>Protosynthesis</td><td><b>Magnetic Quake</b> (+15%): đánh 35% (hồi 3,5 giây): 80% INT vùng 360, chậm 35%, -1 Sp.Def.</td></tr>
+<tr><td>Misdreavus → <b>Flutter Mane</b></td><td>Ghost / Fairy</td><td>+20% AGI, +30% INT</td><td>Protosynthesis</td><td><b>Phantom Dazzle</b> (+15%): đánh 35% (hồi 3 giây): 100% INT vùng 320, -1 Sp.Atk / Sp.Def, +25% tốc chạy.</td></tr>
+<tr><td>Jigglypuff → <b>Scream Tail</b></td><td>Fairy / Psychic</td><td>+10% AGI, +15% INT, +1800 máu tối đa</td><td>Protosynthesis</td><td><b>Echoing Lullaby</b> (+15%): đánh và move 35% (hồi 4 giây): 60% INT + 3% máu tối đa vùng 330, hồi đồng minh vùng 400 14% máu và 15% mana, mục tiêu chính 45% ngủ.</td></tr>
+<tr><td>Tyranitar → <b>Iron Thorns</b></td><td>Rock / Electric</td><td>+20% STR, +10% INT, +1200 máu tối đa, +12 giáp</td><td>Quark Drive</td><td><b>Volt Carapace</b> (+15%): đánh hoặc bị đánh 35% (hồi 3,5 giây): 65% STR + 4% máu tối đa vùng 280, chậm 35%, hồi 6% máu, khiên 25%.</td></tr>
+<tr><td>Gardevoir / Gallade → <b>Iron Valiant</b></td><td>Fairy / Fighting</td><td>+20% STR, +15% AGI, +20% INT</td><td>Quark Drive</td><td><b>Spirit Glaive</b> (+15%): đánh 35% (hồi 3 giây): 95% (STR hoặc INT cao hơn) vùng 300, choáng 0,45 giây, -1 Def / Sp.Def, +30% tốc đánh.</td></tr>
+<tr><td>Hydreigon → <b>Iron Jugulis</b></td><td>Dark / Flying</td><td>+15% AGI, +25% INT</td><td>Quark Drive</td><td><b>Hyper Tempest</b> (+15%): đánh và move 35% (hồi 3,5 giây): 90% INT vùng 420, chậm 30%, -1 Sp.Def.</td></tr>
+</table>
+<table>
+<tr><th>7 orb còn lại (không phải Paradox)</th><th>Dạng</th><th>Cộng thêm khi đổi dạng</th><th>Passive (thức tỉnh)</th></tr>
+<tr><td>Articuno (Galarian Ice Feather)</td><td>Galarian, Psychic / Flying</td><td>+5% AGI, +25% INT, +400 máu tối đa, Competitive</td><td>Freezing Glare</td></tr>
+<tr><td>Zapdos (Galarian Thunder Crest)</td><td>Galarian, Fighting / Flying</td><td>Đánh thường dùng STR; +30% STR, +20% AGI, -10% INT, Defiant</td><td>Thunderous Kick</td></tr>
+<tr><td>Moltres (Galarian Flame Plume)</td><td>Galarian, Dark / Flying</td><td>+5% AGI, +25% INT, +400 máu tối đa, Berserk</td><td>Fiery Wrath</td></tr>
+<tr><td>Giratina (Griseous Core)</td><td>Origin</td><td>+25% STR, +10% AGI, +20% INT, -1200 máu tối đa, Distortion World</td><td>Shadow Rift</td></tr>
+<tr><td>Dialga (Adamant Crystal)</td><td>Origin</td><td>+5% AGI, +25% INT, +600 máu tối đa, Temporal Mastery</td><td>Time Collapse</td></tr>
+<tr><td>Palkia (Lustrous Globe)</td><td>Origin</td><td>+20% AGI, +25% INT, Spatial Mastery</td><td>Rift Sever</td></tr>
+<tr><td>Deoxys (Deoxys Meteorite)</td><td>Normal / Attack / Defense / Speed</td><td>Attack: +40% STR / INT, +15% AGI, -800 máu. Defense: +3500 máu, +15 giáp. Speed: +10% STR / INT, +45% AGI. Ability Cosmic Shift</td><td>Hyper Psycho Burst / Cosmic Bastion / Meteor Velocity</td></tr>
+</table>
+<p class="old">Bảng lấy từ mô tả từng orb trong map và các tooltip passive. Số "+30%" / "+15%" là cộng chỉ số của passive. Số trong passive là số của bản đã thức tỉnh.</p>
+</div><div><h3 id="t-v4-1-x-god-chu"><span class="v m mA">v4.1.x</span> God Chu</h3><ul>
+<li><span class="v v412">4.1.2</span>Pikachu (chưa tiến hóa Raichu) đội <b>Ash's Cap</b> (500 vàng) thành <b>God Chu - Legend Slayer</b>: <b>x3 sát thương lên huyền thoại địch</b>, chỉ số cơ bản tăng theo Stage (tối đa +500 mỗi chỉ số).</li>
+<li><span class="v v412">4.1.2</span>Mỗi trận chỉ có <b>một</b> God Chu. Không đủ điều kiện thì được hoàn 500 vàng.</li>
+</ul></div><div><h3 id="t-v4-1-x-kt-thc-trn"><span class="v m mA">v4.1.x</span> Kết thúc trận</h3><ul>
+<li><span class="v v412">4.1.2</span>Bảng tổng kết hiện giữa màn hình: phe thắng, <b>MVP</b> (K / D), <b>[CHIẾN THẦN ĐẾM SỐ]</b> (chết nhiều nhất), <b>[NÔNG DÂN CHĂM CHỈ]</b> (hạ nhiều quái hoang nhất). Sau 3,5 giây mới hiện màn thắng / thua.</li>
+<li><span class="v v41">4.1</span>Mặc định thắng khi một phe đạt <b>50 điểm</b> (host đổi bằng <code>-win &lt;N&gt;</code>).</li>
+</ul></div><div><h3 id="t-v4-1-x-lnh-chat"><span class="v m mA">v4.1.x</span> Lệnh chat</h3><ul>
+<li><span class="v v412">4.1.2</span><code>-help</code> (bảng lệnh), <code>-up</code> / <code>-train</code>, <code>-forge</code>, <code>-pet</code>, <code>-title</code>, <code>-solo</code>, <code>-yes</code>, <code>-no</code>.</li>
+<li class="old">Vẫn giữ: <code>-pick</code> / <code>-repick</code> (2 phút đầu, 2 lần), <code>-moves</code>, <code>-quest</code> (tiến độ thức tỉnh huyền thoại), <code>-me</code> (chỉ số ẩn), <code>-home</code> / <code>-stuck</code> (hồi chiêu 30 giây), <code>-duel</code> / <code>-accept</code> / <code>-rank</code>, <code>-league</code>, <code>-ez</code> / <code>-taunt</code>, <code>-gamble</code> (1000 vàng mỗi lượt; trúng jackpot +4000 vàng).</li>
+<li class="old">Chỉ host: <code>-random</code>, <code>-fog</code> (bật / tắt sương), <code>-win &lt;N&gt;</code>.</li>
+</ul></div><div><h3 id="t-v4-1-x-khc"><span class="v m mA">v4.1.x</span> Khác</h3><ul>
+<li><span class="v v412">4.1.2</span>Tên map, mô tả và tiêu đề bảng điểm đổi thành v4.1.2. Câu chat vui và thông báo thua đổi sang tiếng Việt <b>không dấu</b>.</li>
+<li class="old">Giữ nguyên từ 4.1: bảng điểm trực tiếp (multiboard), thức tỉnh huyền thoại qua <code>-quest</code> (chi tiết ở mục "Thức tỉnh huyền thoại" phía trên), PvP và cân bằng huyền thoại.</li>
+</ul></div><div><h3 id="t-v4-3-gym-v-league"><span class="v m mB">v4.3</span> Gym và League</h3><ul>
+<li><span class="v v43">4.3</span><b>Gym 1–4 dễ hơn</b> (lấy lại từ 3.4.2; 3.4.16 chỉ cho gym 1–4 "+20% sát thương"):
+<table><tr><th>Gym</th><th>Máu</th><th>Sát thương / giáp</th><th>Dùng skill</th><th>Đánh nhanh x1,7</th></tr>
+<tr><td>1</td><td>x0,35</td><td>x0,45</td><td>x0,25</td><td>không</td></tr>
+<tr><td>2</td><td>x0,45</td><td>x0,55</td><td>x0,25</td><td>không</td></tr>
+<tr><td>3</td><td>x0,70</td><td>x0,75</td><td>x0,45</td><td>không</td></tr>
+<tr><td>4</td><td>x0,85</td><td>x0,85</td><td>x0,45</td><td>không</td></tr>
+<tr><td>5–8, League</td><td>x1</td><td>x1</td><td>x0,6</td><td>có</td></tr></table></li>
+<li><span class="v v43">4.3</span>Lệnh <code>-gym</code>: xem gym bạn đang đánh (hoặc mọi gym đang bận) và đội 6 con của bạn.</li>
+<li><span class="v v43">4.3</span>Người khác đứng gần gym đang có người đánh được báo "Gym N is busy: ..." (5 giây một lần).</li>
+<li><span class="v v43">4.3</span><b>Gym không kẹt:</b> mỗi lượt ra quân chạy thread riêng; Pokémon gym chết mà gym chưa đi tiếp thì tự đi tiếp; Pokémon gym đi lạc thì bị kéo về.</li>
+<li><span class="v v340">3.4.10</span>Dùng Revive giữa trận gym: thua gym chỉ tính sau vài giây nằm xuống. Cổng về căn cứ trong phòng Darkrai / Celebi.</li>
+<li><span class="v v3411">3.4.11</span><b>League</b> đấu trong phòng Darkrai (nền mới, 5 tượng): cổng cạnh Item Shop ở mỗi căn cứ, cổng ra về căn cứ, item "Pokemon League". Xếp hàng khi arena bận, thua thì hồi sinh ở sảnh và chờ 30 giây (3.4.2: 60 giây). <b>Chặn PvP</b> vào trận League.</li>
+<li><span class="v v3411">3.4.11</span>Pokémon gym và Elite Four cầm item hệ (gắn ability, không rơi). Gym 1–4 chỉ được +20% sát thương từ phần này (giữ nguyên trong bản 4.3, cộng với bảng độ khó ở trên).</li>
+<li><span class="v v3416">3.4.16</span><b>13 NPC huấn luyện viên</b> (Brock, Misty, Lt. Surge, Erika, Janine, Sabrina, Blaine, Giovanni; Will, Koga, Bruno, Karen, Lance) đứng ở Gym và phòng League, nói thoại khi bắt đầu và khi bạn thắng.</li>
+<li><span class="v v3416">3.4.16</span>Thắng gym thì <b>huy hiệu Kanto</b> của gym đó hiện trên đầu 6 giây.</li>
+</ul></div><div><h3 id="t-v4-3-bc-ch-s-v-trng-thi"><span class="v m mB">v4.3</span> Bậc chỉ số và trạng thái</h3><ul>
+<li><span class="v v3411">3.4.11</span><b>Bậc chỉ số</b> Attack / Defense / Sp. Atk / Sp. Def / Speed, các <b>trạng thái</b> Burn, Poison, Bad poison, Paralysis, Sleep, Freeze, Confused, Silence. Miễn trạng thái theo hệ; chống khóa cứng (lần choáng thứ 2 trong 6 giây chỉ còn một nửa thời gian).</li>
+<li><span class="v v3416">3.4.16</span>Bậc <b>nhìn thấy được</b>: bỏ chữ trên đầu, thay bằng <b>18 icon ở hàng buff</b> cùng ánh sáng trên đầu. Mỗi bậc mạnh như game gốc: +1 x1,5, +2 x2, -1 x0,67, -2 x0,5, kéo dài <b>20 giây</b>. Attack = cộng / trừ thẳng vào chỉ số công; Defense = giáp ±3 mỗi bậc; Speed = tốc chạy ±25% mỗi bậc cộng tốc đánh. <code>-stats</code> ghi bậc, hệ số, số giây còn lại.</li>
+<li><span class="v v3416">3.4.16</span>Giảm chính xác: trượt 30%, Sand Attack kéo dài 10 giây, hồi 8 giây. Chiêu sát thương có hiệu ứng giảm chỉ số gây ra gấp đôi tỉ lệ cũ. Khắc hệ hiện rõ: "Super effective! x2", "EXTREMELY effective! x4", "Not very effective... x0.5", "Barely effective... x0.25".</li>
+<li><span class="v v3411">3.4.11</span><b>Công / thủ:</b> move Vật lý tính theo STR và giảm bởi Def; move Đặc biệt tính theo INT và giảm bởi Sp. Def (hệ số 2 / (1 + thủ / 80), giới hạn x0,5 – x1,5). Có Def / Sp. Def cho 667 loại unit.</li>
+</ul></div><div><h3 id="t-v4-3-move-v-hiu-ng-chiu"><span class="v m mB">v4.3</span> Move và hiệu ứng chiêu</h3><ul>
+<li><span class="v v3411">3.4.11</span><b>319 move</b> có hiệu ứng theo game gốc (dữ liệu PokeAPI): nghỉ sau chiêu, tụ lực, biến mất, phản sát thương, hút máu, tự giảm / tăng chỉ số, giảm chỉ số mục tiêu, gây trạng thái, chùn bước, trói, đánh rồi lùi, chí mạng cao, ưu tiên. Tooltip ghi đúng hiệu ứng.</li>
+<li><span class="v v3411">3.4.12</span><b>58 move trạng thái</b> (14 buff, 20 phòng thủ, 24 gây bất lợi) là nút Channel giống Double Team, có hồi chiêu và mana riêng: Protect / Detect, Reflect, Light Screen, Substitute, hồi máu theo giây, Wish, Focus Energy, Belly Drum, Rest, Yawn, Leech Seed, Taunt.</li>
+<li><span class="v v3411">3.4.12</span>Học move theo learnset game gốc ở NPC dạy move: 948 lượt học theo cấp, 1776 lượt học bằng TM. Lên cấp không tự học move trạng thái.</li>
+<li><span class="v v3411">3.4.12–13</span>Elite, Pokémon gym, Elite Four, huyền thoại <b>dùng move trạng thái</b> (mỗi hệ một move) với luật AI: hồi máu khi dưới 40%, buff khi trên 50%, Protect khi dưới 30% và có từ 2 kẻ đánh, màn chắn khi có từ 2 địch. Move trạng thái thay cho 1 trong 5 skill của bộ kit.</li>
+<li><span class="v v3416">3.4.16</span>9 move debuff mới (Feather Dance, Cotton Spore, Tickle, Eerie Impulse, Confide, Baby-Doll Eyes, Smokescreen, Kinesis, Sweet Kiss) và <b>Transform</b> (Ditto) — tổng 68 move trạng thái.</li>
+<li><span class="v v3416">3.4.16</span><b>Hiệu ứng riêng cho 169 chiêu sát thương</b> trước chỉ lướt chung, cộng 67 move trạng thái có hiệu ứng lớn, dùng model có sẵn trong map và model của Pokemon World (đã đo bán kính trên ảnh render). 31 chiêu cũ giữ bộ cũ và thêm một lớp model kiểu Pokémon (Razor Leaf, Swift, Hyper Beam, Shadow Ball, Hydro Pump...).</li>
+<li><span class="v v3411">3.4.14</span>Sửa lỗi Pokémon <b>đứng yên vĩnh viễn</b> sau move tụ lực (Solar Beam, Sky Attack...) và <b>chạy chậm vĩnh viễn</b> sau khi hết bị làm chậm.</li>
+<li><span class="v v340">3.4.10</span>Mỗi move một nút ở 4 ô Q / W / E / R: không còn lỗi phím Q ra chiêu của ô E (kiểm bằng dữ liệu: 4 order string, mỗi ô một cái).</li>
+</ul></div><div><h3 id="t-v4-3-npc-dy-move-3-4-16-"><span class="v m mB">v4.3</span> NPC dạy move (3.4.16)</h3><ul>
+<li><span class="v v3416">3.4.16</span>Giá theo từng chiêu: học theo cấp 500 + 40 x Power (move trạng thái 2000); TM 2000 + 80 x Power (move trạng thái 5000).</li>
+<li><span class="v v3416">3.4.16</span>Điều kiện mua TM: Power 70+ cần cấp 15; 90+ cần cấp 30 và 1 huy hiệu; 120+ cần cấp 45 và 3 huy hiệu; move trạng thái cần cấp 10.</li>
+<li><span class="v v3416">3.4.16</span>Bấm vào chiêu hiện màn xác nhận cùng <b>mô tả đầy đủ trong chat</b> (sát thương theo Pokémon của bạn, hiệu ứng, giá, điều kiện). Sau khi mua, tooltip nút chiêu được cập nhật.</li>
+</ul></div><div><h3 id="t-v4-3-boss-huyn-thoi"><span class="v m mB">v4.3</span> Boss huyền thoại</h3><ul>
+<li><span class="v v3416">3.4.16</span>Huyền thoại ngẫu nhiên thành <b>boss</b>: máu x20 (khoảng 600k – 900k), đánh thường x5, giáp x3.</li>
+<li><span class="v v3416">3.4.16</span>Dưới 50% máu thì <b>nổi giận</b>: công x1,5, đỏ người, gọi 2 Pokémon hoang mạnh nhất.</li>
+<li><span class="v v3416">3.4.16</span>Chết thì <b>20.000 vàng chia theo % sát thương</b>; người gây nhiều nhất nhận <b>Soul vào túi</b>; bảng xếp hạng hiện cho mọi người.</li>
+</ul></div><div><h3 id="t-v4-3-team-rocket-nhim-v-dynama"><span class="v m mB">v4.3</span> Team Rocket, nhiệm vụ, Dynamax</h3><ul>
+<li><span class="v v3416">3.4.16</span><b>Team Rocket:</b> phút 10 rồi mỗi 15 phút, Jessie và lính Rocket dẫn <b>8 Pokémon elite</b> (Arbok, Weezing, Meowth, Ekans, Koffing, Persian; bậc hiện tại +6, máu x3, công x1,6, giáp x1,5) đánh vào căn cứ của một phe trong <b>120 giây</b>. Mỗi con +600 vàng; hạ hết thì cả phe +3000 vàng. Thua: mỗi người phe đó mất <b>30% vàng</b> (ít nhất 1500) và Pokémon bị <b>giảm mọi chỉ số -1 trong 120 giây</b>.</li>
+<li><span class="v v3416">3.4.16</span><b>Nhiệm vụ</b> (<code>-quest</code>): mỗi người luôn có 1 nhiệm vụ ngẫu nhiên (hạ 12 Pokémon hoang của 1 hệ / hạ 30 Pokémon hoang / thắng 1 Gym / góp sức hạ 1 huyền thoại / hạ 3 Pokémon Team Rocket), thưởng 1500 vàng và Rare Candy x5.</li>
+<li><span class="v v3416">3.4.16</span><b>Dynamax</b> (item Dynamax Band, 8000 vàng ở Super Mart 2): Pokémon cấp 20+ to x2, máu tối đa x1,5 trong 20 giây, mọi chiêu là Max Move (+50% sát thương, vụ nổ lớn theo hệ). Hồi chiêu 150 giây, dùng nhiều lần trong trận.</li>
+</ul></div><div><h3 id="t-v4-3-pokmon-mi"><span class="v m mB">v4.3</span> Pokémon mới</h3><ul>
+<li><span class="v v3416">3.4.16</span><b>33 starter Gen 2–7</b> chơi được (Totodile, Mudkip, Turtwig, Chimchar, Piplup, Snivy, Tepig, Chespin, Fennekin, Froakie, Litten và 2 dạng tiến hóa mỗi con): có trong menu chọn (nhóm Lửa / Nước / Cỏ), <code>-random</code> và đội hình Gym. Cũng là quái hoang và rơi Soul. Dạng cuối có Ability riêng (Strong Jaw, Shell Armor, Iron Fist, Reckless, Intimidate, <b>Protean</b>).</li>
+<li><span class="v v3416">3.4.16</span><b>4 Mega mới:</b> Swampert, Sableye, Garchomp, Abomasnow (đá 6000 vàng ở Mega Shop 1–3 và Super Mart 2). Mega Abomasnow có <b>Snow Warning</b> (gọi mưa đá, 60 giây một lần). Chưa có model Mega riêng: model gốc to hơn 40%, đổi màu, có hào quang.</li>
+<li><span class="v v3416">3.4.16</span><b>Ditto</b> chơi được: Transform (ngoại hình và bậc tăng của mục tiêu trong 30 giây) và bộ chiêu của Mew.</li>
+<li><span class="v v3416">3.4.16</span><b>Dạng vùng miền:</b> 10% quái hoang của 14 loài là dạng thật (đổi ngoại hình, tên, hệ; vàng x1,5): Alolan Vulpix / Ninetales / Exeggutor / Marowak / Raichu / Sandshrew / Sandslash / Geodude / Graveler / Golem, Hisuian Typhlosion / Sneasel, Gyarados đỏ.</li>
+</ul></div><div><h3 id="t-v4-3-item-ability-th-gii"><span class="v m mB">v4.3</span> Item, Ability, thế giới</h3><ul>
+<li><span class="v v3411">3.4.11</span><b>Item hệ</b> viết lại bằng code (18 item, hiệu ứng tăng theo sức mạnh; move cùng hệ +20%). Sửa Black Glasses (câm thật), Soft Sand, item của gym. <b>Không cầm 2 item giống nhau</b> (mua trùng thì hoàn vàng).</li>
+<li><span class="v v3411">3.4.11</span><b>Ability:</b> 23 Ability làm lại; 5 Ability mới cho huyền thoại (Pressure huyền thoại, Drizzle, Regenerator, Serene Grace, Beast Boost); Pressure thường mạnh hơn.</li>
+<li><span class="v v3411">3.4.11</span>Lệnh <code>-tp</code>: niệm 3 giây rồi về căn cứ, hồi đầy máu và mana. Không dùng được trong gym hoặc League; hồi chiêu 60 giây.</li>
+<li><span class="v v3416">3.4.16</span><b>Thời tiết thấy được:</b> mỗi loại một màu sương phủ cả map; trời mưa có sét đánh quanh hero (chỉ để nhìn).</li>
+<li><span class="v v3416">3.4.16</span>Vitamin (Protein, Calcium, Carbos, HP Up, bản x5): shop 99 cái, hồi 1 giây.</li>
+</ul></div><div><h3 id="t-v4-3-lnh-chat"><span class="v m mB">v4.3</span> Lệnh chat</h3><ul>
+<li><span class="v v43">4.3</span><code>-gym</code></li>
+<li><span class="v v3411">3.4.11</span><code>-tp</code>, <code>-stats</code></li>
+<li><span class="v v3416">3.4.16</span><code>-quest</code> (nhiệm vụ Team Rocket / quái hoang, <b>không phải</b> thức tỉnh huyền thoại của v4.1.x)</li>
+<li class="old">Vẫn giữ: <code>-league</code>, <code>-badges</code>, <code>-moves</code>, <code>-random</code>, <code>-repick</code>.</li>
+</ul></div></div>
+<h2 id="t-cha-kim-tra-trong-game">Chưa kiểm tra trong game</h2>
+<p><b>v4.1.x</b></p><ul>
+<li>Mọi số liệu ở trên đọc từ script, chưa chơi: thời điểm event, thưởng, tỉ lệ.</li>
+<li>Giá trị "Hồi chiêu đánh thường tối thiểu" 100 → 200: đơn vị của hằng số này trong code chưa được xác định, chỉ biết là gấp đôi.</li>
+<li>Altar "tranh chấp" khi hai phe cùng đứng: chưa đọc kỹ luật chính xác.</li>
+<li>Thưởng của 6 danh hiệu thường (Champion … Untouchable): không thấy thưởng chỉ số trong code, ghi "—".</li>
+<li>Mystery Pokeball: chưa thử cả 4 kết quả (Voltorb, Ditto, Snorlax, Chansey).</li>
+<li><b>Tooltip Hidden Power:</b> lúc còn khóa, nút ghi "Unlocked: ..." với số liệu <b>khác</b> bản Awakened ở 14 huyền thoại (Articuno, Zapdos, Moltres, Mewtwo, Mew, Raikou, Entei, Suicune, Lugia, Celebi, Latias &amp; Latios, Jirachi, Regirock, Giratina). Ví dụ Articuno lúc khóa ghi 110% INT, hồi 5% máu; bản Awakened là 75% INT, hồi 12% máu. Bảng ở trên dùng số của bản Awakened (số đang chạy trong code).</li>
+<li><b>Mewtwo và Mew:</b> tooltip khóa không có câu "Complete Awakening Quest Chain", nhưng code vẫn chỉ chạy passive sau khi thức tỉnh (Mewtwo cần Lv 95).</li>
+<li>Trong code có hàm <b>mở khóa Hidden Power của mọi huyền thoại</b> (<code>PAX_Leg_UnlockCmd</code>) nhưng không thấy lệnh chat nào gọi nó, nên người chơi không dùng được.</li>
+<li>Lỗi hay cân bằng của bản này chưa ai báo, vì chưa chơi thử.</li>
+</ul><p><b>v4.3</b></p><ul>
+<li>Cả bản này chưa ai chơi. Phần 3.4.11 – 3.4.15 đã có góp ý sau khi chơi 3.4.15; 3.4.16 và 4.3 thì chưa.</li>
+<li>Gym 1–4 có thật sự dễ hơn 3.4.16 không; <code>-gym</code>; thông báo gym bận; gym không kẹt "3/6"; tiến hóa giữa trận gym.</li>
+<li>Hiệu ứng chiêu mới (169 chiêu) nhìn có đúng không, Team Rocket, boss huyền thoại, Dynamax.</li>
+<li>Phần nhãn 3.4.10 lấy từ ghi chú của nhánh đó và so sánh script, chưa đọc kỹ từng hàm.</li>
+</ul>
+</main></html>

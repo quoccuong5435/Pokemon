@@ -1,0 +1,9301 @@
+{
+ "moves": [
+  {
+   "idx": 0,
+   "name": "Absorb",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 1,
+   "name": "Acid",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 2,
+   "name": "Acid Spray",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 3,
+   "name": "Acrobatics",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 4,
+   "name": "Aerial Ace",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 5,
+   "name": "Aeroblast",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 6,
+   "name": "Air Cutter",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 7,
+   "name": "Air Slash",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 8,
+   "name": "Alluring Voice",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 9,
+   "name": "Ancient Power",
+   "class": "special",
+   "diffs": [
+    [
+     "stages self",
+     "{} @0%",
+     "{1: 1, 2: 1, 3: 1, 4: 1, 5: 1} @10%"
+    ]
+   ]
+  },
+  {
+   "idx": 10,
+   "name": "Aqua Cutter",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 11,
+   "name": "Aqua Jet",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 12,
+   "name": "Aqua Tail",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 13,
+   "name": "Assurance",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 14,
+   "name": "Astonish",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 15,
+   "name": "Aura Sphere",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 16,
+   "name": "Aurora Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 17,
+   "name": "Avalanche",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 18,
+   "name": "Axe Kick",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 19,
+   "name": "Belch",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 20,
+   "name": "Bite",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 21,
+   "name": "Blast Burn",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 22,
+   "name": "Blaze Kick",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 23,
+   "name": "Blizzard",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 24,
+   "name": "Body Press",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 25,
+   "name": "Body Slam",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 26,
+   "name": "Bone Rush",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 27,
+   "name": "Bonemerang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 28,
+   "name": "Boomburst",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 29,
+   "name": "Bounce",
+   "class": "physical",
+   "diffs": [
+    [
+     "status",
+     "-",
+     "paralysis 30%"
+    ]
+   ]
+  },
+  {
+   "idx": 30,
+   "name": "Brave Bird",
+   "class": "physical",
+   "diffs": [
+    [
+     "recoil",
+     33,
+     33
+    ]
+   ]
+  },
+  {
+   "idx": 31,
+   "name": "Breaking Swipe",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 32,
+   "name": "Brick Break",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 33,
+   "name": "Brine",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 34,
+   "name": "Brutal Swing",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 35,
+   "name": "Bubble Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 36,
+   "name": "Bug Bite",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 37,
+   "name": "Bug Buzz",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 38,
+   "name": "Bulldoze",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 39,
+   "name": "Bullet Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 40,
+   "name": "Bullet Seed",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 41,
+   "name": "Burning Jealousy",
+   "class": "special",
+   "diffs": [
+    [
+     "status",
+     "burn 10%",
+     "burn 100%"
+    ]
+   ]
+  },
+  {
+   "idx": 42,
+   "name": "Charge Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 43,
+   "name": "Chilling Water",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{1: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 44,
+   "name": "Clear Smog",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 45,
+   "name": "Close Combat",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{2: -1, 4: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 46,
+   "name": "Confusion",
+   "class": "special",
+   "diffs": [
+    [
+     "confusion",
+     "not stored",
+     "10%"
+    ]
+   ]
+  },
+  {
+   "idx": 47,
+   "name": "Covet",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 48,
+   "name": "Crabhammer",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 49,
+   "name": "Cross Chop",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 50,
+   "name": "Cross Poison",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 51,
+   "name": "Crunch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 52,
+   "name": "Crush Claw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 53,
+   "name": "Cut",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 54,
+   "name": "Dark Pulse",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 55,
+   "name": "Darkest Lariat",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 56,
+   "name": "Dazzling Gleam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 57,
+   "name": "Dig",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 58,
+   "name": "Disarming Voice",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 59,
+   "name": "Discharge",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 60,
+   "name": "Dive",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 61,
+   "name": "Doom Desire",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 62,
+   "name": "Double Edge",
+   "class": "physical",
+   "diffs": [
+    [
+     "recoil",
+     33,
+     33
+    ]
+   ]
+  },
+  {
+   "idx": 63,
+   "name": "Double Hit",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 64,
+   "name": "Double Kick",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 65,
+   "name": "Draco Meteor",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{3: -2} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 66,
+   "name": "Dragon Ascent",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{2: -1, 4: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 67,
+   "name": "Dragon Breath",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 68,
+   "name": "Dragon Claw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 69,
+   "name": "Dragon Pulse",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 70,
+   "name": "Dragon Rush",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 71,
+   "name": "Dragon Tail",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 72,
+   "name": "Drain Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 73,
+   "name": "Draining Kiss",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 74,
+   "name": "Dream Eater",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 75,
+   "name": "Drill Peck",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 76,
+   "name": "Drill Run",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 77,
+   "name": "Dual Wingbeat",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 78,
+   "name": "Dynamic Punch",
+   "class": "physical",
+   "diffs": [
+    [
+     "confusion",
+     "not stored",
+     "100%"
+    ]
+   ]
+  },
+  {
+   "idx": 79,
+   "name": "Earth Power",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 80,
+   "name": "Earthquake",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 81,
+   "name": "Echoed Voice",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 82,
+   "name": "Electroweb",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 83,
+   "name": "Ember",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 84,
+   "name": "Energy Ball",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 85,
+   "name": "Eruption",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 86,
+   "name": "Expanding Force",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 87,
+   "name": "Explosion",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 88,
+   "name": "Extrasensory",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 89,
+   "name": "Extreme Speed",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 90,
+   "name": "Facade",
+   "class": "physical",
+   "diffs": [
+    [
+     "status",
+     "burn 10%",
+     "-"
+    ]
+   ]
+  },
+  {
+   "idx": 91,
+   "name": "Fairy Wind",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 92,
+   "name": "Fake Out",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 93,
+   "name": "False Swipe",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 94,
+   "name": "Feint",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 95,
+   "name": "Fell Stinger",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 96,
+   "name": "Fire Blast",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 97,
+   "name": "Fire Fang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 98,
+   "name": "Fire Pledge",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 99,
+   "name": "Fire Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 100,
+   "name": "Fire Spin",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 101,
+   "name": "First Impression",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 102,
+   "name": "Flame Charge",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 103,
+   "name": "Flame Wheel",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 104,
+   "name": "Flamethrower",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 105,
+   "name": "Flare Blitz",
+   "class": "physical",
+   "diffs": [
+    [
+     "recoil",
+     33,
+     33
+    ]
+   ]
+  },
+  {
+   "idx": 106,
+   "name": "Flash Cannon",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 107,
+   "name": "Flip Turn",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 108,
+   "name": "Fly",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 109,
+   "name": "Focus Blast",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 110,
+   "name": "Focus Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 111,
+   "name": "Force Palm",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 112,
+   "name": "Foul Play",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 113,
+   "name": "Freeze Dry",
+   "class": "special",
+   "diffs": [
+    [
+     "status",
+     "-",
+     "freeze 10%"
+    ]
+   ]
+  },
+  {
+   "idx": 114,
+   "name": "Frenzy Plant",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 115,
+   "name": "Fury Attack",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 116,
+   "name": "Fury Cutter",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 117,
+   "name": "Fury Swipes",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 118,
+   "name": "Future Sight",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 119,
+   "name": "Giga Drain",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 120,
+   "name": "Giga Impact",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 121,
+   "name": "Grass Pledge",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 122,
+   "name": "Grassy Glide",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 123,
+   "name": "Gunk Shot",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 124,
+   "name": "Gust",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 125,
+   "name": "Hammer Arm",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{5: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 126,
+   "name": "Head Smash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 127,
+   "name": "Headbutt",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 128,
+   "name": "Heat Wave",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 129,
+   "name": "Hex",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 130,
+   "name": "Hidden Power",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 131,
+   "name": "High Horsepower",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 132,
+   "name": "High Jump Kick",
+   "class": "physical",
+   "diffs": [
+    [
+     "drain/recoil",
+     "0/25",
+     "0/0"
+    ]
+   ]
+  },
+  {
+   "idx": 133,
+   "name": "Horn Attack",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 134,
+   "name": "Hurricane",
+   "class": "special",
+   "diffs": [
+    [
+     "confusion",
+     "not stored",
+     "30%"
+    ]
+   ]
+  },
+  {
+   "idx": 135,
+   "name": "Hydro Cannon",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 136,
+   "name": "Hydro Pump",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 137,
+   "name": "Hyper Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 138,
+   "name": "Hyper Fang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 139,
+   "name": "Hyper Voice",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 140,
+   "name": "Ice Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 141,
+   "name": "Ice Fang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 142,
+   "name": "Ice Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 143,
+   "name": "Ice Shard",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 144,
+   "name": "Ice Spinner",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 145,
+   "name": "Icicle Crash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 146,
+   "name": "Icicle Spear",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 147,
+   "name": "Icy Wind",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 148,
+   "name": "Incinerate",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 149,
+   "name": "Inferno",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 150,
+   "name": "Infestation",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 151,
+   "name": "Iron Head",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 152,
+   "name": "Iron Tail",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 153,
+   "name": "Judgment",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 154,
+   "name": "Knock Off",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 155,
+   "name": "Kowtow Cleave",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 156,
+   "name": "Lash Out",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 157,
+   "name": "Last Resort",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 158,
+   "name": "Lava Plume",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 159,
+   "name": "Leaf Blade",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 160,
+   "name": "Leaf Storm",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{3: -2} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 161,
+   "name": "Leafage",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 162,
+   "name": "Leech Life",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 163,
+   "name": "Lick",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 164,
+   "name": "Liquidation",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 165,
+   "name": "Low Sweep",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 166,
+   "name": "Lunge",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 167,
+   "name": "Mach Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 168,
+   "name": "Magical Leaf",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 169,
+   "name": "Mega Drain",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 170,
+   "name": "Mega Kick",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 171,
+   "name": "Mega Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 172,
+   "name": "Megahorn",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 173,
+   "name": "Metal Claw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 174,
+   "name": "Meteor Assault",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 175,
+   "name": "Meteor Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 176,
+   "name": "Meteor Mash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 177,
+   "name": "Misty Explosion",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 178,
+   "name": "Moonblast",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 179,
+   "name": "Mud Shot",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 180,
+   "name": "Mud Slap",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 181,
+   "name": "Muddy Water",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 182,
+   "name": "Mystical Fire",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 183,
+   "name": "Night Slash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 184,
+   "name": "Origin Pulse",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 185,
+   "name": "Outrage",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 186,
+   "name": "Overheat",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{3: -2} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 187,
+   "name": "Pay Day",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 188,
+   "name": "Payback",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 189,
+   "name": "Peck",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 190,
+   "name": "Petal Blizzard",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 191,
+   "name": "Petal Dance",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 192,
+   "name": "Phantom Force",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 193,
+   "name": "Pin Missile",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 194,
+   "name": "Play Rough",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 195,
+   "name": "Pluck",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 196,
+   "name": "Poison Fang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 197,
+   "name": "Poison Jab",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 198,
+   "name": "Poison Sting",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 199,
+   "name": "Poison Tail",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 200,
+   "name": "Pollen Puff",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 201,
+   "name": "Poltergeist",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 202,
+   "name": "Pounce",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{5: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 203,
+   "name": "Pound",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 204,
+   "name": "Powder Snow",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 205,
+   "name": "Power Gem",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 206,
+   "name": "Power Whip",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 207,
+   "name": "Precipice Blades",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 208,
+   "name": "Psybeam",
+   "class": "special",
+   "diffs": [
+    [
+     "confusion",
+     "not stored",
+     "10%"
+    ]
+   ]
+  },
+  {
+   "idx": 209,
+   "name": "Psychic",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 210,
+   "name": "Psychic Fangs",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 211,
+   "name": "Psychic Noise",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 212,
+   "name": "Psycho Boost",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{3: -2} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 213,
+   "name": "Psycho Cut",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 214,
+   "name": "Psyshock",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 215,
+   "name": "Psystrike",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 216,
+   "name": "Pursuit",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 217,
+   "name": "Quick Attack",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 218,
+   "name": "Rage",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 219,
+   "name": "Rage Fist",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 220,
+   "name": "Raging Bull",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 221,
+   "name": "Rapid Spin",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages self",
+     "{} @0%",
+     "{5: 1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 222,
+   "name": "Razor Leaf",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 223,
+   "name": "Razor Shell",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 224,
+   "name": "Retaliate",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 225,
+   "name": "Revenge",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 226,
+   "name": "Roar Of Time",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 227,
+   "name": "Rock Blast",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 228,
+   "name": "Rock Slide",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 229,
+   "name": "Rock Throw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 230,
+   "name": "Rock Tomb",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 231,
+   "name": "Rock Wrecker",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 232,
+   "name": "Rollout",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 233,
+   "name": "Round",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 234,
+   "name": "Sacred Fire",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 235,
+   "name": "Sacred Sword",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 236,
+   "name": "Sand Tomb",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 237,
+   "name": "Scald",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 238,
+   "name": "Scale Shot",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 239,
+   "name": "Scorching Sands",
+   "class": "special",
+   "diffs": [
+    [
+     "status",
+     "burn 10%",
+     "burn 30%"
+    ]
+   ]
+  },
+  {
+   "idx": 240,
+   "name": "Scratch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 241,
+   "name": "Seed Bomb",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 242,
+   "name": "Self Destruct",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 243,
+   "name": "Shadow Ball",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 244,
+   "name": "Shadow Claw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 245,
+   "name": "Shadow Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 246,
+   "name": "Shadow Sneak",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 247,
+   "name": "Shock Wave",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 248,
+   "name": "Skitter Smack",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 249,
+   "name": "Sky Attack",
+   "class": "physical",
+   "diffs": [
+    [
+     "high crit",
+     "-",
+     "+1"
+    ]
+   ]
+  },
+  {
+   "idx": 250,
+   "name": "Slam",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 251,
+   "name": "Slash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 252,
+   "name": "Sludge Bomb",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 253,
+   "name": "Sludge Wave",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 254,
+   "name": "Smack Down",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 255,
+   "name": "Smart Strike",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 256,
+   "name": "Smog",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 257,
+   "name": "Snarl",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 258,
+   "name": "Snore",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 259,
+   "name": "Solar Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 260,
+   "name": "Solar Blade",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 261,
+   "name": "Spacial Rend",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 262,
+   "name": "Spark",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 263,
+   "name": "Steel Beam",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 264,
+   "name": "Steel Wing",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 265,
+   "name": "Stomp",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 266,
+   "name": "Stomping Tantrum",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 267,
+   "name": "Stone Edge",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 268,
+   "name": "Stored Power",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 269,
+   "name": "Storm Throw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 270,
+   "name": "Strength",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 271,
+   "name": "Struggle Bug",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 272,
+   "name": "Submission",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 273,
+   "name": "Sucker Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 274,
+   "name": "Supercell Slam",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 275,
+   "name": "Superpower",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{1: -1, 2: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 276,
+   "name": "Surf",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 277,
+   "name": "Swift",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 278,
+   "name": "Tackle",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 279,
+   "name": "Take Down",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 280,
+   "name": "Temper Flare",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 281,
+   "name": "Tera Blast",
+   "class": "special",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{1: -1, 3: -1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 282,
+   "name": "Thief",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 283,
+   "name": "Thrash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 284,
+   "name": "Throat Chop",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 285,
+   "name": "Thunder",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 286,
+   "name": "Thunder Fang",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 287,
+   "name": "Thunder Punch",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 288,
+   "name": "Thunder Shock",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 289,
+   "name": "Thunderbolt",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 290,
+   "name": "Trailblaze",
+   "class": "physical",
+   "diffs": [
+    [
+     "stages target",
+     "{} @0%",
+     "{5: 1} @100%"
+    ]
+   ]
+  },
+  {
+   "idx": 291,
+   "name": "Tri Attack",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 292,
+   "name": "Triple Axel",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 293,
+   "name": "Twineedle",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 294,
+   "name": "Twister",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 295,
+   "name": "U Turn",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 296,
+   "name": "Upper Hand",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 297,
+   "name": "Uproar",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 298,
+   "name": "Vacuum Wave",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 299,
+   "name": "Venoshock",
+   "class": "special",
+   "diffs": [
+    [
+     "status",
+     "poison 10%",
+     "-"
+    ]
+   ]
+  },
+  {
+   "idx": 300,
+   "name": "Vice Grip",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 301,
+   "name": "Vine Whip",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 302,
+   "name": "Vital Throw",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 303,
+   "name": "Volt Switch",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 304,
+   "name": "Water Gun",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 305,
+   "name": "Water Pledge",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 306,
+   "name": "Water Pulse",
+   "class": "special",
+   "diffs": [
+    [
+     "confusion",
+     "not stored",
+     "20%"
+    ]
+   ]
+  },
+  {
+   "idx": 307,
+   "name": "Water Spout",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 308,
+   "name": "Waterfall",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 309,
+   "name": "Wave Crash",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 310,
+   "name": "Weather Ball",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 311,
+   "name": "Whirlpool",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 312,
+   "name": "Wild Charge",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 313,
+   "name": "Wing Attack",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 314,
+   "name": "Wood Hammer",
+   "class": "physical",
+   "diffs": [
+    [
+     "recoil",
+     33,
+     33
+    ]
+   ]
+  },
+  {
+   "idx": 315,
+   "name": "Wrap",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 316,
+   "name": "X Scissor",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 317,
+   "name": "Zap Cannon",
+   "class": "special",
+   "diffs": []
+  },
+  {
+   "idx": 318,
+   "name": "Zen Headbutt",
+   "class": "physical",
+   "diffs": []
+  },
+  {
+   "idx": 319,
+   "name": "Double Team",
+   "class": "status",
+   "diffs": [
+    [
+     "type",
+     "bug",
+     "normal"
+    ]
+   ]
+  },
+  {
+   "idx": 320,
+   "name": "Swords Dance",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 321,
+   "name": "Nasty Plot",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 322,
+   "name": "Dragon Dance",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 323,
+   "name": "Calm Mind",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 324,
+   "name": "Bulk Up",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 325,
+   "name": "Quiver Dance",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 326,
+   "name": "Shell Smash",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 327,
+   "name": "Agility",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 328,
+   "name": "Rock Polish",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 329,
+   "name": "Work Up",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 330,
+   "name": "Growth",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 331,
+   "name": "Curse",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 332,
+   "name": "Focus Energy",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 333,
+   "name": "Belly Drum",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 334,
+   "name": "Protect",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 335,
+   "name": "Detect",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 336,
+   "name": "Recover",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 337,
+   "name": "Roost",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 338,
+   "name": "Slack Off",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 339,
+   "name": "Soft-Boiled",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 340,
+   "name": "Synthesis",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 341,
+   "name": "Moonlight",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 342,
+   "name": "Morning Sun",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 343,
+   "name": "Rest",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 344,
+   "name": "Iron Defense",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 345,
+   "name": "Acid Armor",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 346,
+   "name": "Amnesia",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 347,
+   "name": "Cosmic Power",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 348,
+   "name": "Reflect",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 349,
+   "name": "Light Screen",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 350,
+   "name": "Substitute",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 351,
+   "name": "Aqua Ring",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 352,
+   "name": "Ingrain",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 353,
+   "name": "Wish",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 354,
+   "name": "Growl",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 355,
+   "name": "Charm",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 356,
+   "name": "Leer",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 357,
+   "name": "Tail Whip",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 358,
+   "name": "Screech",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 359,
+   "name": "Fake Tears",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 360,
+   "name": "Metal Sound",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 361,
+   "name": "Scary Face",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 362,
+   "name": "String Shot",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 363,
+   "name": "Sand Attack",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 364,
+   "name": "Thunder Wave",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 365,
+   "name": "Will-O-Wisp",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 366,
+   "name": "Toxic",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 367,
+   "name": "Poison Powder",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 368,
+   "name": "Stun Spore",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 369,
+   "name": "Hypnosis",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 370,
+   "name": "Sleep Powder",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 371,
+   "name": "Spore",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 372,
+   "name": "Sing",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 373,
+   "name": "Yawn",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 374,
+   "name": "Confuse Ray",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 375,
+   "name": "Swagger",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 376,
+   "name": "Leech Seed",
+   "class": "status",
+   "diffs": []
+  },
+  {
+   "idx": 377,
+   "name": "Taunt",
+   "class": "status",
+   "diffs": []
+  }
+ ],
+ "abilities": [
+  {
+   "idx": 1,
+   "name": "Overgrow",
+   "heroes": 21,
+   "info": "Below 40% HP: +50% damage and regenerates 2% max HP per second.",
+   "pokeapi": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  {
+   "idx": 2,
+   "name": "Blaze",
+   "heroes": 19,
+   "info": "Below 40% HP: +50% damage; attacks burn the target for 2% of its max HP per second for 3s.",
+   "pokeapi": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  {
+   "idx": 3,
+   "name": "Torrent",
+   "heroes": 22,
+   "info": "Below 40% HP: +50% damage and +40% attack speed.",
+   "pokeapi": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  {
+   "idx": 4,
+   "name": "Swarm",
+   "heroes": 6,
+   "info": "Below 40% HP: +50% damage and heals 20% of the damage dealt.",
+   "pokeapi": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  {
+   "idx": 5,
+   "name": "Static",
+   "heroes": 13,
+   "info": "30% chance to paralyze a melee attacker. Its attacks: 20% chance for chain lightning.",
+   "pokeapi": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+  },
+  {
+   "idx": 6,
+   "name": "Flame Body",
+   "heroes": 7,
+   "info": "30% chance to burn a melee attacker. Burning aura around it.",
+   "pokeapi": "Has a 30% chance of burning attacking Pokémon on contact."
+  },
+  {
+   "idx": 7,
+   "name": "Poison Point",
+   "heroes": 6,
+   "info": "30% chance to poison a melee attacker, and 30% with its own attacks.",
+   "pokeapi": "Has a 30% chance of poisoning attacking Pokémon on contact."
+  },
+  {
+   "idx": 8,
+   "name": "Cute Charm",
+   "heroes": 8,
+   "info": "When attacked: 20% chance to charm the attacker for 1.5s (cannot attack, 50% slower).",
+   "pokeapi": "Has a 30% chance of infatuating attacking Pokémon on contact."
+  },
+  {
+   "idx": 9,
+   "name": "Synchronize",
+   "heroes": 8,
+   "info": "When hit by a move: 25% of its damage is sent back and the attacker is slowed by 30% for 3s. A status given to it is given back to the one who caused it.",
+   "pokeapi": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+  },
+  {
+   "idx": 10,
+   "name": "Levitate",
+   "heroes": 14,
+   "info": "Immune to Ground moves. 15% chance to dodge attacks. Latias & Latios: Dragon / Psychic moves +20%, 20% dodge.",
+   "pokeapi": "Evades Ground moves."
+  },
+  {
+   "idx": 11,
+   "name": "Water Absorb",
+   "heroes": 9,
+   "info": "Water moves deal no damage and heal 25% of it. Regenerates 1% max HP per second out of combat. Suicune: out of combat for 3s it cures its status.",
+   "pokeapi": "Absorbs Water moves, healing for 1/4 max HP."
+  },
+  {
+   "idx": 12,
+   "name": "Volt Absorb",
+   "heroes": 3,
+   "info": "Electric moves deal no damage and heal 25% of it; then +30% attack speed for 5s.",
+   "pokeapi": "Absorbs Electric moves, healing for 1/4 max HP."
+  },
+  {
+   "idx": 13,
+   "name": "Lightning Rod",
+   "heroes": 5,
+   "info": "Electric moves deal no damage and heal 25% of it; then +30% move damage for 6s.",
+   "pokeapi": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+  },
+  {
+   "idx": 14,
+   "name": "Flash Fire",
+   "heroes": 7,
+   "info": "Fire moves deal no damage; then +40% damage for 8s. Entei: its attacks have a 20% burn chance.",
+   "pokeapi": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+  },
+  {
+   "idx": 15,
+   "name": "Intimidate",
+   "heroes": 14,
+   "info": "When entering combat after 10s out of combat or when Mega Evolving into Intimidate, enemies within 500 lose 1 Attack stage for 8s. Entering combat has a 20s cooldown.",
+   "pokeapi": "Lowers opponents' Attack one stage upon entering battle."
+  },
+  {
+   "idx": 16,
+   "name": "Pressure",
+   "heroes": 6,
+   "info": "Enemies within 600 pay double mana for moves, their cooldowns run 20% slower and they attack 15% slower.",
+   "pokeapi": "Increases the PP cost of moves targetting the Pokémon by one."
+  },
+  {
+   "idx": 17,
+   "name": "Sturdy",
+   "heroes": 8,
+   "info": "A lethal hit leaves 15% HP and 1.5s of invulnerability. Once every 60s.",
+   "pokeapi": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+  },
+  {
+   "idx": 18,
+   "name": "Shell Armor",
+   "heroes": 3,
+   "info": "Cannot be critically hit. Takes 20% less damage from attacks.",
+   "pokeapi": "Protects against critical hits."
+  },
+  {
+   "idx": 19,
+   "name": "Battle Armor",
+   "heroes": 2,
+   "info": "Cannot be critically hit. Blocks 2 x level damage of every attack.",
+   "pokeapi": "Protects against critical hits."
+  },
+  {
+   "idx": 20,
+   "name": "Clear Body",
+   "heroes": 7,
+   "info": "Removes harmful effects every 6s. Takes 15% less damage from moves. Enemies cannot lower its stats.",
+   "pokeapi": "Prevents stats from being lowered by other Pokémon."
+  },
+  {
+   "idx": 21,
+   "name": "Rock Head",
+   "heroes": 6,
+   "info": "Takes no recoil damage from its moves. Takes 10% less damage.",
+   "pokeapi": "Protects against recoil damage."
+  },
+  {
+   "idx": 22,
+   "name": "Soundproof",
+   "heroes": 2,
+   "info": "Takes 30% less damage from moves.",
+   "pokeapi": "Protects against sound-based moves."
+  },
+  {
+   "idx": 23,
+   "name": "Multiscale",
+   "heroes": 1,
+   "info": "Above 80% HP: takes 40% less damage.",
+   "pokeapi": "Halves damage taken from full HP."
+  },
+  {
+   "idx": 24,
+   "name": "Shed Skin",
+   "heroes": 3,
+   "info": "Every 5s: 30% chance to remove harmful effects and heal 5% max HP. Every 3s: 30% chance to cure its status.",
+   "pokeapi": "Has a 33% chance of curing any major status ailment after each turn."
+  },
+  {
+   "idx": 25,
+   "name": "Early Bird",
+   "heroes": 3,
+   "info": "Out of combat for 3s: regenerates 2% max HP per second. Sleep lasts half as long.",
+   "pokeapi": "Makes sleep pass twice as quickly."
+  },
+  {
+   "idx": 26,
+   "name": "Natural Cure",
+   "heroes": 6,
+   "info": "Out of combat for 3s: regenerates 3% max HP per second and removes harmful effects. Out of combat for 3s: cures its status.",
+   "pokeapi": "Cures any major status ailment upon switching out."
+  },
+  {
+   "idx": 27,
+   "name": "Iron Fist",
+   "heroes": 2,
+   "info": "+35% attack damage; every 4th attack deals double damage. Punching moves deal +25% damage.",
+   "pokeapi": "Strengthens punch-based moves to 1.2× their power."
+  },
+  {
+   "idx": 28,
+   "name": "Adaptability",
+   "heroes": 2,
+   "info": "+40% damage with moves of its own type.",
+   "pokeapi": "Increases the same-type attack bonus from 1.5× to 2×."
+  },
+  {
+   "idx": 29,
+   "name": "Hyper Cutter",
+   "heroes": 4,
+   "info": "Attacks reduce the target's armor by 3 for 6s (stacks 5 times). Its Attack cannot be lowered.",
+   "pokeapi": "Prevents Attack from being lowered by other Pokémon."
+  },
+  {
+   "idx": 30,
+   "name": "Technician",
+   "heroes": 3,
+   "info": "Moves with power 60 or less deal x1.5 damage.",
+   "pokeapi": "Strengthens moves of 60 base power or less to 1.5× their power."
+  },
+  {
+   "idx": 31,
+   "name": "Reckless",
+   "heroes": 2,
+   "info": "Recoil moves and High Jump Kick deal +30% damage; attacks deal +15%.",
+   "pokeapi": "Strengthens recoil moves to 1.2× their power."
+  },
+  {
+   "idx": 32,
+   "name": "Guts",
+   "heroes": 5,
+   "info": "While burned, poisoned or paralyzed: physical damage +50% (burn does not weaken it). Low HP or a harmful effect: +20% attack speed.",
+   "pokeapi": "Increases Attack to 1.5× with a major status ailment."
+  },
+  {
+   "idx": 33,
+   "name": "Anger Point",
+   "heroes": 2,
+   "info": "Falling below 50% HP (every 30s): +60% damage and +40% attack speed for 6s.",
+   "pokeapi": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+  },
+  {
+   "idx": 34,
+   "name": "Chlorophyll",
+   "heroes": 11,
+   "info": "+40 move speed and +20% attack speed. In harsh sun: +30% attack speed.",
+   "pokeapi": "Doubles Speed during strong sunlight."
+  },
+  {
+   "idx": 35,
+   "name": "Swift Swim",
+   "heroes": 9,
+   "info": "+60 move speed. 10% chance to dodge attacks. In rain: +30% attack speed.",
+   "pokeapi": "Doubles Speed during rain."
+  },
+  {
+   "idx": 36,
+   "name": "Run Away",
+   "heroes": 3,
+   "info": "Falling below 30% HP (every 30s): invisible and +60% move speed for 2s.",
+   "pokeapi": "Ensures success fleeing from wild battles."
+  },
+  {
+   "idx": 37,
+   "name": "Keen Eye",
+   "heroes": 5,
+   "info": "15% chance to deal double damage with attacks. Its attacks cannot be dodged. Its accuracy cannot be lowered.",
+   "pokeapi": "Prevents accuracy from being lowered."
+  },
+  {
+   "idx": 38,
+   "name": "Compound Eyes",
+   "heroes": 6,
+   "info": "20% chance to deal x1.75 damage with attacks. +10% move damage.",
+   "pokeapi": "Increases moves' accuracy to 1.3×."
+  },
+  {
+   "idx": 39,
+   "name": "Sand Veil",
+   "heroes": 7,
+   "info": "10% chance to dodge attacks, 30% in a sandstorm; a dodge slows the attacker.",
+   "pokeapi": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+  },
+  {
+   "idx": 40,
+   "name": "Snow Cloak",
+   "heroes": 8,
+   "info": "10% chance to dodge attacks, 30% in hail; a dodge slows the attacker.",
+   "pokeapi": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+  },
+  {
+   "idx": 41,
+   "name": "Leaf Guard",
+   "heroes": 2,
+   "info": "20% chance to dodge attacks; each dodge heals 3% max HP.",
+   "pokeapi": "Protects against major status ailments during strong sunlight."
+  },
+  {
+   "idx": 42,
+   "name": "Inner Focus",
+   "heroes": 7,
+   "info": "15% chance to dodge attacks. Takes 20% less damage from moves. Cannot flinch; ignores Intimidate.",
+   "pokeapi": "Prevents flinching."
+  },
+  {
+   "idx": 43,
+   "name": "Air Lock",
+   "heroes": 1,
+   "info": "Enemies within 600 lose their Abilities. 15% chance to dodge attacks. Rayquaza: Dragon / Flying moves +20%.",
+   "pokeapi": "Negates all effects of weather, but does not prevent the weather itself."
+  },
+  {
+   "idx": 44,
+   "name": "Magnet Pull",
+   "heroes": 8,
+   "info": "Enemies within 500: 20% slower (Steel types 40%) and -5 armor.",
+   "pokeapi": "Prevents Steel opponents from fleeing or switching out."
+  },
+  {
+   "idx": 45,
+   "name": "Bad Dreams",
+   "heroes": 1,
+   "info": "Enemies within 500 lose 2% max HP per second. Darkrai: sleeping enemies within 500 lose 8% max HP per second; its moves have a 30% sleep chance.",
+   "pokeapi": "Damages sleeping opponents for 1/8 their max HP after each turn."
+  },
+  {
+   "idx": 46,
+   "name": "Multitype",
+   "heroes": 1,
+   "info": "+25% damage (+20% extra on same-type moves), 15% less damage taken, immune to stat drops, 50% shorter CC & statuses. Hits have 25% chance (2.5s ICD) for Creation Smite: 45% Max Stat 260 AoE, 0.4s stun, -1 Def/Sp.Def, 3% HP/Mana heal.",
+   "pokeapi": "Changes Arceus's type and form to match its held Plate."
+  },
+  {
+   "idx": 47,
+   "name": "Slow Start",
+   "heroes": 1,
+   "info": "For the first 8s after spawning or reviving, deal 30% less damage. Afterwards, deal 50% more damage and gain 20% attack speed. Regigigas also gains +2 Attack stages and 30% extra attack speed.",
+   "pokeapi": "Halves Attack and Speed for five turns upon entering battle."
+  },
+  {
+   "idx": 48,
+   "name": "Thick Fat",
+   "heroes": 3,
+   "info": "Takes 50% less damage from Fire and Ice moves. +10% max HP.",
+   "pokeapi": "Halves damage from Fire and Ice moves."
+  },
+  {
+   "idx": 49,
+   "name": "Tough Claws",
+   "heroes": 0,
+   "info": "Basic attacks and physical moves deal 30% more damage.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 50,
+   "name": "Mega Launcher",
+   "heroes": 0,
+   "info": "Pulse and aura moves deal 50% more damage. Other special moves deal 15% more damage.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 51,
+   "name": "Aerilate",
+   "heroes": 0,
+   "info": "Normal moves become Flying moves. +30% damage with Flying moves.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 52,
+   "name": "Pixilate",
+   "heroes": 0,
+   "info": "Normal moves become Fairy moves. +30% damage with Fairy moves.",
+   "pokeapi": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power."
+  },
+  {
+   "idx": 53,
+   "name": "Mold Breaker",
+   "heroes": 0,
+   "info": "Ignores the target's Ability. +20% damage.",
+   "pokeapi": "Bypasses targets' abilities if they could hinder or prevent a move."
+  },
+  {
+   "idx": 54,
+   "name": "Mega Adaptability",
+   "heroes": 0,
+   "info": "+60% damage with moves of its own type.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 55,
+   "name": "Mega Technician",
+   "heroes": 0,
+   "info": "Moves with power 60 or less deal x1.6 damage. +20% attack speed.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 56,
+   "name": "Drought",
+   "heroes": 2,
+   "info": "Harsh sun (700): allies deal +30% damage with Fire moves; enemies lose 1% max HP per second. Groudon: enemy Water moves in the sun deal -50%.",
+   "pokeapi": "Summons strong sunlight that lasts indefinitely upon entering battle."
+  },
+  {
+   "idx": 57,
+   "name": "Sand Stream",
+   "heroes": 1,
+   "info": "Sandstorm (600): enemies that are not Rock, Ground or Steel lose 1% max HP per second (Mega: 1.5%). Takes 20% less damage from moves.",
+   "pokeapi": "Summons a sandstorm that lasts indefinitely upon entering battle."
+  },
+  {
+   "idx": 58,
+   "name": "Shadow Tag",
+   "heroes": 2,
+   "info": "Enemies within 450: 35% slower and -15% attack speed.",
+   "pokeapi": "Prevents opponents from fleeing or switching out."
+  },
+  {
+   "idx": 59,
+   "name": "No Guard",
+   "heroes": 2,
+   "info": "+25% damage; 15% chance to deal double damage with attacks. Its attacks cannot be dodged.",
+   "pokeapi": "Ensures all moves used by and against the Pokémon hit."
+  },
+  {
+   "idx": 60,
+   "name": "Trace",
+   "heroes": 3,
+   "info": "Copies the Ability of the target it hits. Without a copy: 25% chance to dodge attacks.",
+   "pokeapi": "Copies an opponent's ability upon entering battle."
+  },
+  {
+   "idx": 61,
+   "name": "Delta Stream",
+   "heroes": 0,
+   "info": "Strong Winds (800): suppresses standard weather, +15% AS, 25% dodge, super effective hits deal 1x damage; Flying allies take 1x from Electric/Ice/Rock, allies gain +15% MS, and Flying moves +25%.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 62,
+   "name": "Insomnia",
+   "heroes": 4,
+   "info": "20% chance to dodge attacks. Immune to Bad Dreams. Cannot fall asleep.",
+   "pokeapi": "Prevents sleep."
+  },
+  {
+   "idx": 63,
+   "name": "Mega Inner Focus",
+   "heroes": 0,
+   "info": "25% chance to dodge attacks. Takes 30% less damage from moves.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 64,
+   "name": "Parental Bond",
+   "heroes": 0,
+   "info": "The Kid fights alongside (see Mega Evolution). Moves deal +25% damage.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 65,
+   "name": "Sand Force",
+   "heroes": 0,
+   "info": "A lethal hit leaves 15% HP and 1.5s of invulnerability (every 60s). +20% damage with Rock, Ground and Steel moves.",
+   "pokeapi": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage."
+  },
+  {
+   "idx": 66,
+   "name": "Steadfast",
+   "heroes": 2,
+   "info": "Each hit taken: +6% damage and +6% attack speed (up to 6 stacks, 5s).",
+   "pokeapi": "Raises Speed one stage upon flinching."
+  },
+  {
+   "idx": 67,
+   "name": "Speed Boost",
+   "heroes": 1,
+   "info": "Every 8s in combat: +1 Speed (up to +4).",
+   "pokeapi": "Raises Speed one stage after each turn."
+  },
+  {
+   "idx": 68,
+   "name": "Magic Bounce",
+   "heroes": 0,
+   "info": "Moves: 20% chance to block them; otherwise 35% of their damage is sent back. Stat drops and statuses from enemies bounce back to them.",
+   "pokeapi": "Reflects most non-damaging moves back at their user."
+  },
+  {
+   "idx": 69,
+   "name": "Super Luck",
+   "heroes": 1,
+   "info": "25% chance to deal x1.5 damage with attacks.",
+   "pokeapi": "Raises moves' critical hit rates one stage."
+  },
+  {
+   "idx": 70,
+   "name": "Strong Jaw",
+   "heroes": 1,
+   "info": "Basic attacks deal 30% more damage and have a 20% chance to bite again for 50% damage and bleed for 1% of the target's max HP per second for 3s. Biting moves deal 40% more damage.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 71,
+   "name": "Solar Power",
+   "heroes": 0,
+   "info": "Moves deal +40% damage. In combat it loses 1% max HP per second (not below 30% HP).",
+   "pokeapi": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+  },
+  {
+   "idx": 72,
+   "name": "Skill Link",
+   "heroes": 0,
+   "info": "Basic attacks have a 30% chance to strike twice more for 50% damage each. Multi-hit moves deal 50% more damage. Other moves deal 20% more damage.",
+   "pokeapi": "Extends two-to-five-hit moves and Triple Kick to their full length every time."
+  },
+  {
+   "idx": 73,
+   "name": "Zen Mode",
+   "heroes": 1,
+   "info": "Below 50% HP it turns into Zen Mode (Fire/Psychic): moves +50% damage, attacks -50% damage, +25 armor. Back to normal above 50% HP.",
+   "pokeapi": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise."
+  },
+  {
+   "idx": 74,
+   "name": "Pressure",
+   "heroes": 9,
+   "info": "Legend Pressure: enemies within 800 pay double mana for moves, their cooldowns run 30% slower, -25% attack speed and -1 Attack / Sp. Atk. The holder ignores stat drops and flinching. Mewtwo: Psychic +20%, a psychic shield (20% max HP, 8s) below 50% HP every 90s. Zapdos: 30% paralysis on melee attackers. Articuno / Moltres: +20% freeze / burn. Raikou: +1 Speed every 8s in combat. Giratina: 15% of hits pass through. Deoxys: Psychic +15%, cooldowns -15%. Dialga: own cooldowns -25%. Palkia: 20% critical, enemies slowed.",
+   "pokeapi": "Increases the PP cost of moves targetting the Pokémon by one."
+  },
+  {
+   "idx": 75,
+   "name": "Drizzle",
+   "heroes": 1,
+   "info": "Rain within 700: allies deal +30% with Water moves, enemies deal -50% with Fire moves. Heals 1% max HP per second.",
+   "pokeapi": "Summons rain that lasts indefinitely upon entering battle."
+  },
+  {
+   "idx": 76,
+   "name": "Regenerator",
+   "heroes": 1,
+   "info": "Out of combat for 3s: heals 3% max HP per second. Once every 120s a knock-out leaves it at 40% HP (Rebirth).",
+   "pokeapi": "Heals for 1/3 max HP upon switching out."
+  },
+  {
+   "idx": 77,
+   "name": "Serene Grace",
+   "heroes": 1,
+   "info": "The extra effects of its moves (status, flinch, stat changes) are twice as likely. Moves deal +10% damage.",
+   "pokeapi": "Doubles the chance of moves' extra effects occurring."
+  },
+  {
+   "idx": 78,
+   "name": "Beast Boost",
+   "heroes": 1,
+   "info": "Each knock-out: +1 Attack for 30s (up to +4).",
+   "pokeapi": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon."
+  },
+  {
+   "idx": 79,
+   "name": "Primordial Sea",
+   "heroes": 0,
+   "info": "Heavy rain (800): Water moves +45%, heals 2% max HP/s, and enemy Fire moves deal no damage to you or allies in aura.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 80,
+   "name": "Desolate Land",
+   "heroes": 0,
+   "info": "Intense sun (800): gains Fire type, Fire moves +25%, own Ground/Fire +15%, burns nearby enemies (1% max HP/s), and enemy Water moves deal no damage to you or allies in aura.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 81,
+   "name": "Eon Levitation",
+   "heroes": 0,
+   "info": "Immune to Ground, 25% dodge, Dragon/Psychic moves +25%, and Eon Aura (550): allies gain +15% MS and take 20% less damage.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 82,
+   "name": "Competitive",
+   "heroes": 0,
+   "info": "+15% skill damage. Enemy debuffs/stat drops trigger +1 Sp. Atk (6s), +15% MS (3s), and a 45% scaled INT wave in 300 AoE (-1 Sp.Def 4s, 3s ICD).",
+   "pokeapi": "Raises Special Attack by two stages upon having any stat lowered."
+  },
+  {
+   "idx": 83,
+   "name": "Defiant",
+   "heroes": 0,
+   "info": "+20% basic attack & physical move damage. Enemy debuffs/stat drops trigger +1 Attack & Speed (6s) and +25% AS (3s, 3s ICD).",
+   "pokeapi": "Raises Attack two stages upon having any stat lowered."
+  },
+  {
+   "idx": 84,
+   "name": "Berserk",
+   "heroes": 0,
+   "info": "While below 60% HP: +30% damage dealt, 15% damage lifesteal, and 15% less damage taken.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 85,
+   "name": "Distortion World",
+   "heroes": 0,
+   "info": "Immune to Ground moves, +25% damage dealt, and heals for 10% of damage dealt.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 86,
+   "name": "Temporal Mastery",
+   "heroes": 0,
+   "info": "+20% skill damage, 15% less damage taken, and every 6s in combat pulses a 380 AoE Time Warp (50% scaled INT, -40% AS/MS 2.5s, +5% HP & +8% Mana).",
+   "pokeapi": ""
+  },
+  {
+   "idx": 87,
+   "name": "Spatial Mastery",
+   "heroes": 0,
+   "info": "+20% skill damage, +30% Spell Crit chance (1.5x), +20% MS, and skill hits lower Defense and Sp. Def by 1 for 4s.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 88,
+   "name": "Cosmic Shift",
+   "heroes": 0,
+   "info": "Adapts to Deoxys Form: Attack (+30% damage dealt, +20% taken); Defense (-25% damage taken, reflects 10% dmg, +3% HP/s in combat); Speed (+30% AS, +25% MS, 20% attack dodge).",
+   "pokeapi": ""
+  },
+  {
+   "idx": 89,
+   "name": "Protosynthesis",
+   "heroes": 0,
+   "info": "During sun, for 12s after switching into an Ancient form, or for at least 6s after Fire/Dragon move hits, gain +20% damage, +15% attack speed, and +15% movement speed.",
+   "pokeapi": ""
+  },
+  {
+   "idx": 90,
+   "name": "Quark Drive",
+   "heroes": 0,
+   "info": "Switching into a Future form charges it for 12s. Electric move hits charge it for at least 6s. While charged, gain +20% damage, +15% attack speed, +15% movement speed, and take 10% less damage.",
+   "pokeapi": ""
+  }
+ ],
+ "heroes": [
+  {
+   "id": "E00I",
+   "name": "Alakazam",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "magic-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02G",
+   "name": "Gastly",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01G",
+   "name": "Gengar",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "cursed-body",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E02H",
+   "name": "Haunter",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00D",
+   "name": "Pidgeot",
+   "map_ability": "Keen Eye",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "tangled-feet",
+     false
+    ],
+    [
+     "big-pecks",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0B",
+   "name": "Gardevoir",
+   "map_ability": "Trace",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "trace",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01Q",
+   "name": "Butterfree",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "compound-eyes",
+     false
+    ],
+    [
+     "tinted-lens",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00H",
+   "name": "Kadabra",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "magic-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0A",
+   "name": "Kirlia",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "trace",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E020",
+   "name": "Articuno",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "snow-cloak",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E023",
+   "name": "Darkrai",
+   "map_ability": "Bad Dreams",
+   "real": [
+    [
+     "bad-dreams",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E027",
+   "name": "Deoxys",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E026",
+   "name": "Mewtwo",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E021",
+   "name": "Moltres",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "flame-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E029",
+   "name": "Rayquaza",
+   "map_ability": "Air Lock",
+   "real": [
+    [
+     "air-lock",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03J",
+   "name": "Zapdos",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "static",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E000",
+   "name": "Blastoise",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "rain-dish",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0E",
+   "name": "Empoleon",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "competitive",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP02",
+   "name": "Feraligatr",
+   "map_ability": "Strong Jaw",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EP0T",
+   "name": "Greninja",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "protean",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00C",
+   "name": "Pidgeotto",
+   "map_ability": "Keen Eye",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "tangled-feet",
+     false
+    ],
+    [
+     "big-pecks",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP05",
+   "name": "Swampert",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00G",
+   "name": "Abra",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "magic-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00E",
+   "name": "Charizard",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "solar-power",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E006",
+   "name": "Raichu",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "lightning-rod",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN09",
+   "name": "Ralts",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "trace",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02C",
+   "name": "Victreebel",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "gluttony",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E024",
+   "name": "Mew",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0G",
+   "name": "Beldum",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "light-metal",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01K",
+   "name": "Dragonite",
+   "map_ability": "Multiscale",
+   "real": [
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "multiscale",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E031",
+   "name": "Magnemite",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0H",
+   "name": "Metang",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "light-metal",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04M",
+   "name": "Starmie",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "illuminate",
+     false
+    ],
+    [
+     "natural-cure",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04N",
+   "name": "Staryu",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "illuminate",
+     false
+    ],
+    [
+     "natural-cure",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E032",
+   "name": "Magneton",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0F",
+   "name": "Salamence",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "moxie",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02K",
+   "name": "Beedrill",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "swarm",
+     false
+    ],
+    [
+     "sniper",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0N",
+   "name": "Chesnaught",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "bulletproof",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01F",
+   "name": "Cloyster",
+   "map_ability": "Shell Armor",
+   "real": [
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "skill-link",
+     false
+    ],
+    [
+     "overcoat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E049",
+   "name": "Crobat",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP01",
+   "name": "Croconaw",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01X",
+   "name": "Electrode",
+   "map_ability": "Static",
+   "real": [
+    [
+     "soundproof",
+     false
+    ],
+    [
+     "static",
+     false
+    ],
+    [
+     "aftermath",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0S",
+   "name": "Frogadier",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "protean",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E048",
+   "name": "Golbat",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP04",
+   "name": "Marshtomp",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00B",
+   "name": "Pidgey",
+   "map_ability": "Keen Eye",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "tangled-feet",
+     false
+    ],
+    [
+     "big-pecks",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0D",
+   "name": "Prinplup",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "competitive",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN05",
+   "name": "Sceptile",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "unburden",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0H",
+   "name": "Serperior",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "contrary",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01I",
+   "name": "Tentacruel",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "liquid-ooze",
+     false
+    ],
+    [
+     "rain-dish",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP08",
+   "name": "Torterra",
+   "map_ability": "Shell Armor",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "shell-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E002",
+   "name": "Venusaur",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "chlorophyll",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E009",
+   "name": "Wartortle",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "rain-dish",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01A",
+   "name": "Weepinbell",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "gluttony",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E019",
+   "name": "Weezing",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ],
+    [
+     "neutralizing-gas",
+     false
+    ],
+    [
+     "stench",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E046",
+   "name": "Zubat",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02B",
+   "name": "Bellsprout",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "gluttony",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0P",
+   "name": "Braixen",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "magician",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E007",
+   "name": "Charmeleon",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "solar-power",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN01",
+   "name": "Combusken",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "speed-boost",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01T",
+   "name": "Dragonair",
+   "map_ability": "Shed Skin",
+   "real": [
+    [
+     "shed-skin",
+     false
+    ],
+    [
+     "marvel-scale",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0R",
+   "name": "Froakie",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "protean",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00P",
+   "name": "Golem",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "sand-veil",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP07",
+   "name": "Grotle",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "shell-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN04",
+   "name": "Grovyle",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "unburden",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E001",
+   "name": "Ivysaur",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "chlorophyll",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01V",
+   "name": "Koffing",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ],
+    [
+     "neutralizing-gas",
+     false
+    ],
+    [
+     "stench",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0A",
+   "name": "Monferno",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "iron-fist",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP03",
+   "name": "Mudkip",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0J",
+   "name": "Pignite",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "thick-fat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E005",
+   "name": "Pikachu",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "lightning-rod",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0C",
+   "name": "Piplup",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "competitive",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E012",
+   "name": "Poliwag",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E013",
+   "name": "Poliwhirl",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E014",
+   "name": "Poliwrath",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0M",
+   "name": "Quilladin",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "bulletproof",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0G",
+   "name": "Servine",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "contrary",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0E",
+   "name": "Shelgon",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "overcoat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02E",
+   "name": "Shellder",
+   "map_ability": "Shell Armor",
+   "real": [
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "skill-link",
+     false
+    ],
+    [
+     "overcoat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E004",
+   "name": "Squirtle",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "rain-dish",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02D",
+   "name": "Tentacool",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "liquid-ooze",
+     false
+    ],
+    [
+     "rain-dish",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0V",
+   "name": "Torracat",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "intimidate",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP00",
+   "name": "Totodile",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "torrent",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01D",
+   "name": "Voltorb",
+   "map_ability": "Static",
+   "real": [
+    [
+     "soundproof",
+     false
+    ],
+    [
+     "static",
+     false
+    ],
+    [
+     "aftermath",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E028",
+   "name": "Giratina",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN08",
+   "name": "Tyranitar",
+   "map_ability": "Sand Stream",
+   "real": [
+    [
+     "sand-stream",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03A",
+   "name": "Eevee",
+   "map_ability": "Adaptability",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "adaptability",
+     false
+    ],
+    [
+     "anticipation",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01Z",
+   "name": "Hitmonchan",
+   "map_ability": "Iron Fist",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "iron-fist",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03Y",
+   "name": "Hitmonlee",
+   "map_ability": "Reckless",
+   "real": [
+    [
+     "limber",
+     false
+    ],
+    [
+     "reckless",
+     false
+    ],
+    [
+     "unburden",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03Z",
+   "name": "Hitmontop",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "technician",
+     false
+    ],
+    [
+     "steadfast",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02P",
+   "name": "Kangaskhan",
+   "map_ability": "Early Bird",
+   "real": [
+    [
+     "early-bird",
+     false
+    ],
+    [
+     "scrappy",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0J",
+   "name": "Lucario",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "steadfast",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "justified",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03W",
+   "name": "Pinsir",
+   "map_ability": "Hyper Cutter",
+   "real": [
+    [
+     "hyper-cutter",
+     false
+    ],
+    [
+     "mold-breaker",
+     false
+    ],
+    [
+     "moxie",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00U",
+   "name": "Raticate",
+   "map_ability": "Run Away",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "guts",
+     false
+    ],
+    [
+     "hustle",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00T",
+   "name": "Rattata",
+   "map_ability": "Run Away",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "guts",
+     false
+    ],
+    [
+     "hustle",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03M",
+   "name": "Scizor",
+   "map_ability": "Technician",
+   "real": [
+    [
+     "swarm",
+     false
+    ],
+    [
+     "technician",
+     false
+    ],
+    [
+     "light-metal",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03L",
+   "name": "Scyther",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "swarm",
+     false
+    ],
+    [
+     "technician",
+     false
+    ],
+    [
+     "steadfast",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03X",
+   "name": "Sylveon",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "cute-charm",
+     false
+    ],
+    [
+     "pixilate",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E018",
+   "name": "Tauros",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0K",
+   "name": "Absol",
+   "map_ability": "Super Luck",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "super-luck",
+     false
+    ],
+    [
+     "justified",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0D",
+   "name": "Bagon",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01N",
+   "name": "Caterpie",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "shield-dust",
+     false
+    ],
+    [
+     "run-away",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E01S",
+   "name": "Dratini",
+   "map_ability": "Shed Skin",
+   "real": [
+    [
+     "shed-skin",
+     false
+    ],
+    [
+     "marvel-scale",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03H",
+   "name": "Espeon",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "magic-bounce",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E038",
+   "name": "Flareon",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "guts",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00N",
+   "name": "Geodude",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "sand-veil",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03T",
+   "name": "Glaceon",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "ice-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01E",
+   "name": "Jolteon",
+   "map_ability": "Volt Absorb",
+   "real": [
+    [
+     "volt-absorb",
+     false
+    ],
+    [
+     "quick-feet",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03P",
+   "name": "Kabuto",
+   "map_ability": "Battle Armor",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "battle-armor",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E035",
+   "name": "Kabutops",
+   "map_ability": "Battle Armor",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "battle-armor",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02J",
+   "name": "Kakuna",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "shed-skin",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EN06",
+   "name": "Larvitar",
+   "map_ability": "Guts",
+   "real": [
+    [
+     "guts",
+     false
+    ],
+    [
+     "sand-veil",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E010",
+   "name": "Machamp",
+   "map_ability": "Guts",
+   "real": [
+    [
+     "guts",
+     false
+    ],
+    [
+     "no-guard",
+     false
+    ],
+    [
+     "steadfast",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00Z",
+   "name": "Machoke",
+   "map_ability": "Guts",
+   "real": [
+    [
+     "guts",
+     false
+    ],
+    [
+     "no-guard",
+     false
+    ],
+    [
+     "steadfast",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00Y",
+   "name": "Machop",
+   "map_ability": "Guts",
+   "real": [
+    [
+     "guts",
+     false
+    ],
+    [
+     "no-guard",
+     false
+    ],
+    [
+     "steadfast",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02S",
+   "name": "Mankey",
+   "map_ability": "Anger Point",
+   "real": [
+    [
+     "vital-spirit",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "defiant",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0I",
+   "name": "Metagross",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "light-metal",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01P",
+   "name": "Metapod",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "shed-skin",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E03Q",
+   "name": "Omanyte",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03R",
+   "name": "Omastar",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03U",
+   "name": "Onix",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02T",
+   "name": "Primeape",
+   "map_ability": "Anger Point",
+   "real": [
+    [
+     "vital-spirit",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "defiant",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02Z",
+   "name": "Rhydon",
+   "map_ability": "Lightning Rod",
+   "real": [
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02Y",
+   "name": "Rhyhorn",
+   "map_ability": "Lightning Rod",
+   "real": [
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00A",
+   "name": "Sandshrew",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "sand-rush",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00F",
+   "name": "Sandslash",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "sand-rush",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03V",
+   "name": "Steelix",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03I",
+   "name": "Umbreon",
+   "map_ability": "Synchronize",
+   "real": [
+    [
+     "synchronize",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E037",
+   "name": "Vaporeon",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "hydration",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02I",
+   "name": "Weedle",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "shield-dust",
+     false
+    ],
+    [
+     "run-away",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E03S",
+   "name": "Leafleon",
+   "map_ability": "Leaf Guard",
+   "real": [
+    [
+     "leaf-guard",
+     false
+    ],
+    [
+     "chlorophyll",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03E",
+   "name": "Magikarp",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "rattled",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E040",
+   "name": "Mr.mime",
+   "map_ability": "Soundproof",
+   "real": [
+    [
+     "soundproof",
+     false
+    ],
+    [
+     "filter",
+     false
+    ],
+    [
+     "technician",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN0C",
+   "name": "Gallade",
+   "map_ability": "Steadfast",
+   "real": [
+    [
+     "steadfast",
+     false
+    ],
+    [
+     "sharpness",
+     false
+    ],
+    [
+     "justified",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03F",
+   "name": "Gyarados",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "moxie",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02A",
+   "name": "Arceus",
+   "map_ability": "Multitype",
+   "real": [
+    [
+     "multitype",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04C",
+   "name": "Dialga",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04D",
+   "name": "Palkia",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL04",
+   "name": "Azelf",
+   "map_ability": null,
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0JA",
+   "name": "Buzzwole",
+   "map_ability": "Beast Boost",
+   "real": [
+    [
+     "beast-boost",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "PZZA",
+   "name": "Celebi",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "natural-cure",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL06",
+   "name": "Cresselia",
+   "map_ability": null,
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0F",
+   "name": "Diancie",
+   "map_ability": null,
+   "real": [
+    [
+     "clear-body",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P1DA",
+   "name": "Entei",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0O",
+   "name": "Eternatus",
+   "map_ability": null,
+   "real": [
+    [
+     "pressure",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0B",
+   "name": "Genesect",
+   "map_ability": null,
+   "real": [
+    [
+     "download",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4UA",
+   "name": "Groudon",
+   "map_ability": "Drought",
+   "real": [
+    [
+     "drought",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL05",
+   "name": "Heatran",
+   "map_ability": null,
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P1TA",
+   "name": "Ho-Oh",
+   "map_ability": "Regenerator",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0G",
+   "name": "Hoopa",
+   "map_ability": null,
+   "real": [
+    [
+     "magician",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P1YA",
+   "name": "Hydreigon",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P20A",
+   "name": "Jigglypuff",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "cute-charm",
+     false
+    ],
+    [
+     "competitive",
+     false
+    ],
+    [
+     "friend-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P21A",
+   "name": "Jirachi",
+   "map_ability": "Serene Grace",
+   "real": [
+    [
+     "serene-grace",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P26A",
+   "name": "Kyogre",
+   "map_ability": "Drizzle",
+   "real": [
+    [
+     "drizzle",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0A",
+   "name": "Kyurem",
+   "map_ability": null,
+   "real": [
+    [
+     "pressure",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "PV2A",
+   "name": "Latias & Latios",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0J",
+   "name": "Lunala",
+   "map_ability": null,
+   "real": [
+    [
+     "shadow-shield",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0L",
+   "name": "Magearna",
+   "map_ability": null,
+   "real": [
+    [
+     "soul-heart",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4XA",
+   "name": "Magneton",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2LA",
+   "name": "Magnezone",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0M",
+   "name": "Marshadow",
+   "map_ability": null,
+   "real": [
+    [
+     "technician",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL03",
+   "name": "Mesprit",
+   "map_ability": null,
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P2UA",
+   "name": "Misdreavus",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2VA",
+   "name": "Mismagius",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0K",
+   "name": "Necrozma",
+   "map_ability": null,
+   "real": [
+    [
+     "prism-armor",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P39A",
+   "name": "Raikou",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL00",
+   "name": "Regice",
+   "map_ability": null,
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "ice-body",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E025",
+   "name": "Regigigas",
+   "map_ability": "Slow Start",
+   "real": [
+    [
+     "slow-start",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3BA",
+   "name": "Regirock",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "sturdy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL01",
+   "name": "Registeel",
+   "map_ability": null,
+   "real": [
+    [
+     "clear-body",
+     false
+    ],
+    [
+     "light-metal",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL08",
+   "name": "Reshiram",
+   "map_ability": null,
+   "real": [
+    [
+     "turboblaze",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0I",
+   "name": "Solgaleo",
+   "map_ability": null,
+   "real": [
+    [
+     "full-metal-body",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3XA",
+   "name": "Suicune",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL02",
+   "name": "Uxie",
+   "map_ability": null,
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL07",
+   "name": "Victini",
+   "map_ability": null,
+   "real": [
+    [
+     "victory-star",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0H",
+   "name": "Volcanion",
+   "map_ability": null,
+   "real": [
+    [
+     "water-absorb",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4IA",
+   "name": "Wigglytuff",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "cute-charm",
+     false
+    ],
+    [
+     "competitive",
+     false
+    ],
+    [
+     "frisk",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EL0C",
+   "name": "Xerneas",
+   "map_ability": null,
+   "real": [
+    [
+     "fairy-aura",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0D",
+   "name": "Yveltal",
+   "map_ability": null,
+   "real": [
+    [
+     "dark-aura",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0N",
+   "name": "Zacian",
+   "map_ability": null,
+   "real": [
+    [
+     "intrepid-sword",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL09",
+   "name": "Zekrom",
+   "map_ability": null,
+   "real": [
+    [
+     "teravolt",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "EL0E",
+   "name": "Zygarde",
+   "map_ability": null,
+   "real": [
+    [
+     "aura-break",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E01C",
+   "name": "Arcanine",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "justified",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN02",
+   "name": "Blaziken",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "speed-boost",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E008",
+   "name": "Bulbasaur",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "chlorophyll",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E003",
+   "name": "Charmander",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "solar-power",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0L",
+   "name": "Chespin",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "bulletproof",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP09",
+   "name": "Chimchar",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "iron-fist",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0Q",
+   "name": "Delphox",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "magician",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0K",
+   "name": "Emboar",
+   "map_ability": "Reckless",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02U",
+   "name": "Exeggcute",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "harvest",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02W",
+   "name": "Exeggutor",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "harvest",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0O",
+   "name": "Fennekin",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "magician",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E00O",
+   "name": "Graveler",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "sand-veil",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E02F",
+   "name": "Growlithe",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "justified",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0W",
+   "name": "Incineroar",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "intimidate",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0B",
+   "name": "Infernape",
+   "map_ability": "Iron Fist",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "iron-fist",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03D",
+   "name": "Kingler",
+   "map_ability": "Hyper Cutter",
+   "real": [
+    [
+     "hyper-cutter",
+     false
+    ],
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E03C",
+   "name": "Krabby",
+   "map_ability": "Hyper Cutter",
+   "real": [
+    [
+     "hyper-cutter",
+     false
+    ],
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0U",
+   "name": "Litten",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "intimidate",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01J",
+   "name": "Nidoking",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "poison-point",
+     false
+    ],
+    [
+     "rivalry",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01L",
+   "name": "Nidorino",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "poison-point",
+     false
+    ],
+    [
+     "rivalry",
+     false
+    ],
+    [
+     "hustle",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04P",
+   "name": "Ninetales",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "drought",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01B",
+   "name": "Ponyta",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN07",
+   "name": "Pupitar",
+   "map_ability": "Shed Skin",
+   "real": [
+    [
+     "shed-skin",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E01H",
+   "name": "Rapidash",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0F",
+   "name": "Snivy",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "contrary",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP0I",
+   "name": "Tepig",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "thick-fat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN00",
+   "name": "Torchic",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "speed-boost",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EN03",
+   "name": "Treecko",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "unburden",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "EP06",
+   "name": "Turtwig",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "shell-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "E04O",
+   "name": "Vulpix",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "drought",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P00A",
+   "name": "Abomasnow",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "snow-warning",
+     false
+    ],
+    [
+     "soundproof",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4QA",
+   "name": "Aegislash",
+   "map_ability": "Clear Body",
+   "real": [
+    [
+     "stance-change",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P02A",
+   "name": "Aerodactyl",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "pressure",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P03A",
+   "name": "Alolan-Geodude",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "galvanize",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P04A",
+   "name": "Alolan-Golem",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "galvanize",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P05A",
+   "name": "Alolan-Graveler",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "galvanize",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P06A",
+   "name": "Alolan-Raichu",
+   "map_ability": "Static",
+   "real": [
+    [
+     "surge-surfer",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4MA",
+   "name": "Alolan-Sandshrew",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "slush-rush",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4NA",
+   "name": "Alolan-Sandslash",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "slush-rush",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P08A",
+   "name": "Ampharos",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "plus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P09A",
+   "name": "Arbok",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "shed-skin",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0BA",
+   "name": "Baltoy",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0CA",
+   "name": "Bayleef",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "leaf-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0EA",
+   "name": "Bellossom",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "healer",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4SA",
+   "name": "Bisharp",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "defiant",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "pressure",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0GA",
+   "name": "Blissey",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "natural-cure",
+     false
+    ],
+    [
+     "serene-grace",
+     false
+    ],
+    [
+     "healer",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0HA",
+   "name": "Bonsly",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "rattled",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0IA",
+   "name": "Breloom",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "effect-spore",
+     false
+    ],
+    [
+     "poison-heal",
+     false
+    ],
+    [
+     "technician",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0KA",
+   "name": "Carvanha",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "rough-skin",
+     false
+    ],
+    [
+     "speed-boost",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0LA",
+   "name": "Chandelure",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0MA",
+   "name": "Chansey",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "natural-cure",
+     false
+    ],
+    [
+     "serene-grace",
+     false
+    ],
+    [
+     "healer",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0NA",
+   "name": "Chikorita",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "leaf-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0OA",
+   "name": "Chinchou",
+   "map_ability": "Volt Absorb",
+   "real": [
+    [
+     "volt-absorb",
+     false
+    ],
+    [
+     "illuminate",
+     false
+    ],
+    [
+     "water-absorb",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0PA",
+   "name": "Claydol",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0QA",
+   "name": "Clefable",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "cute-charm",
+     false
+    ],
+    [
+     "magic-guard",
+     false
+    ],
+    [
+     "unaware",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0RA",
+   "name": "Clefairy",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "cute-charm",
+     false
+    ],
+    [
+     "magic-guard",
+     false
+    ],
+    [
+     "friend-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0TA",
+   "name": "Cradily",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "suction-cups",
+     false
+    ],
+    [
+     "storm-drain",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0UA",
+   "name": "Croagunk",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "anticipation",
+     false
+    ],
+    [
+     "dry-skin",
+     false
+    ],
+    [
+     "poison-touch",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0VA",
+   "name": "Cubone",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "battle-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0WA",
+   "name": "Cyndaquil",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "flash-fire",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0XA",
+   "name": "Darmanitan",
+   "map_ability": "Zen Mode",
+   "real": [
+    [
+     "sheer-force",
+     false
+    ],
+    [
+     "zen-mode",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P0YA",
+   "name": "Darumaka",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "hustle",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P0ZA",
+   "name": "Deino",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "hustle",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P10A",
+   "name": "Dewgong",
+   "map_ability": "Thick Fat",
+   "real": [
+    [
+     "thick-fat",
+     false
+    ],
+    [
+     "hydration",
+     false
+    ],
+    [
+     "ice-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P11A",
+   "name": "Diglett",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "arena-trap",
+     false
+    ],
+    [
+     "sand-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P12A",
+   "name": "Ditto",
+   "map_ability": "Run Away",
+   "real": [
+    [
+     "limber",
+     false
+    ],
+    [
+     "imposter",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4PA",
+   "name": "Doublade",
+   "map_ability": "No Guard",
+   "real": [
+    [
+     "no-guard",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P13A",
+   "name": "Drowzee",
+   "map_ability": "Insomnia",
+   "real": [
+    [
+     "insomnia",
+     false
+    ],
+    [
+     "forewarn",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P14A",
+   "name": "Dugtrio",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "arena-trap",
+     false
+    ],
+    [
+     "sand-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P15A",
+   "name": "Dusclops",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "frisk",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P16A",
+   "name": "Dusknoir",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "frisk",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P17A",
+   "name": "Duskull",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ],
+    [
+     "frisk",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4VA",
+   "name": "Eevee",
+   "map_ability": "Adaptability",
+   "real": [
+    [
+     "run-away",
+     false
+    ],
+    [
+     "adaptability",
+     false
+    ],
+    [
+     "anticipation",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P18A",
+   "name": "Ekans",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "shed-skin",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P19A",
+   "name": "Electabuzz",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1AA",
+   "name": "Electivire",
+   "map_ability": "Static",
+   "real": [
+    [
+     "motor-drive",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P1BA",
+   "name": "Electrike",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "minus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1CA",
+   "name": "Elekid",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1EA",
+   "name": "Farfetch'd",
+   "map_ability": "Keen Eye",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "defiant",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1FA",
+   "name": "Feebas",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "adaptability",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1GA",
+   "name": "Flaaffy",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "plus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1HA",
+   "name": "Flygon",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1IA",
+   "name": "Gabite",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "rough-skin",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1KA",
+   "name": "Galvantula",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "compound-eyes",
+     false
+    ],
+    [
+     "unnerve",
+     false
+    ],
+    [
+     "swarm",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1LA",
+   "name": "Garchomp",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "rough-skin",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1NA",
+   "name": "Gible",
+   "map_ability": "Sand Veil",
+   "real": [
+    [
+     "sand-veil",
+     false
+    ],
+    [
+     "rough-skin",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1OA",
+   "name": "Gloom",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "stench",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1PA",
+   "name": "Golduck",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "damp",
+     false
+    ],
+    [
+     "cloud-nine",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P1QA",
+   "name": "Granbull",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "quick-feet",
+     false
+    ],
+    [
+     "rattled",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1SA",
+   "name": "Heracross",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "swarm",
+     false
+    ],
+    [
+     "guts",
+     false
+    ],
+    [
+     "moxie",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4OA",
+   "name": "Honedge",
+   "map_ability": "No Guard",
+   "real": [
+    [
+     "no-guard",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1UA",
+   "name": "Hoothoot",
+   "map_ability": "Insomnia",
+   "real": [
+    [
+     "insomnia",
+     false
+    ],
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "tinted-lens",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1VA",
+   "name": "Horsea",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "sniper",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1WA",
+   "name": "Houndoom",
+   "map_ability": "Early Bird",
+   "real": [
+    [
+     "early-bird",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1XA",
+   "name": "Houndour",
+   "map_ability": "Early Bird",
+   "real": [
+    [
+     "early-bird",
+     false
+    ],
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P1ZA",
+   "name": "Hypno",
+   "map_ability": "Insomnia",
+   "real": [
+    [
+     "insomnia",
+     false
+    ],
+    [
+     "forewarn",
+     false
+    ],
+    [
+     "inner-focus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P22A",
+   "name": "Joltik",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "compound-eyes",
+     false
+    ],
+    [
+     "unnerve",
+     false
+    ],
+    [
+     "swarm",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P23A",
+   "name": "Jynx",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "forewarn",
+     false
+    ],
+    [
+     "dry-skin",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4TA",
+   "name": "Kingambit",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "defiant",
+     false
+    ],
+    [
+     "supreme-overlord",
+     false
+    ],
+    [
+     "pressure",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P24A",
+   "name": "Kingdra",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "sniper",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P27A",
+   "name": "Lampent",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P28A",
+   "name": "Lanturn",
+   "map_ability": "Volt Absorb",
+   "real": [
+    [
+     "volt-absorb",
+     false
+    ],
+    [
+     "illuminate",
+     false
+    ],
+    [
+     "water-absorb",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P29A",
+   "name": "Lapras",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "shell-armor",
+     false
+    ],
+    [
+     "hydration",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2BA",
+   "name": "Leafeon",
+   "map_ability": "Leaf Guard",
+   "real": [
+    [
+     "leaf-guard",
+     false
+    ],
+    [
+     "chlorophyll",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2CA",
+   "name": "Lileep",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "suction-cups",
+     false
+    ],
+    [
+     "storm-drain",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P2DA",
+   "name": "Litwick",
+   "map_ability": "Flash Fire",
+   "real": [
+    [
+     "flash-fire",
+     false
+    ],
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2EA",
+   "name": "Lombre",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "rain-dish",
+     false
+    ],
+    [
+     "own-tempo",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2FA",
+   "name": "Lotad",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "rain-dish",
+     false
+    ],
+    [
+     "own-tempo",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2GA",
+   "name": "Ludicolo",
+   "map_ability": "Swift Swim",
+   "real": [
+    [
+     "swift-swim",
+     false
+    ],
+    [
+     "rain-dish",
+     false
+    ],
+    [
+     "own-tempo",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2HA",
+   "name": "Magby",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2IA",
+   "name": "Magcargo",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "magma-armor",
+     false
+    ],
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2JA",
+   "name": "Magmar",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2KA",
+   "name": "Magmortar",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4WA",
+   "name": "Magnemite",
+   "map_ability": "Magnet Pull",
+   "real": [
+    [
+     "magnet-pull",
+     false
+    ],
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2MA",
+   "name": "Mamoswine",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "thick-fat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2NA",
+   "name": "Manectric",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "minus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2OA",
+   "name": "Mareep",
+   "map_ability": "Static",
+   "real": [
+    [
+     "static",
+     false
+    ],
+    [
+     "plus",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2PA",
+   "name": "Marowak",
+   "map_ability": "Rock Head",
+   "real": [
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "battle-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "PV0A",
+   "name": "Meganium",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "overgrow",
+     false
+    ],
+    [
+     "leaf-guard",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2QA",
+   "name": "Meowth",
+   "map_ability": "Technician",
+   "real": [
+    [
+     "pickup",
+     false
+    ],
+    [
+     "technician",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2TA",
+   "name": "Milotic",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "marvel-scale",
+     false
+    ],
+    [
+     "competitive",
+     false
+    ],
+    [
+     "cute-charm",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P2WA",
+   "name": "Mr. Mime",
+   "map_ability": "Soundproof",
+   "real": [
+    [
+     "soundproof",
+     false
+    ],
+    [
+     "filter",
+     false
+    ],
+    [
+     "technician",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2XA",
+   "name": "Nincada",
+   "map_ability": "Compound Eyes",
+   "real": [
+    [
+     "compound-eyes",
+     false
+    ],
+    [
+     "run-away",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2YA",
+   "name": "Ninjask",
+   "map_ability": "Speed Boost",
+   "real": [
+    [
+     "speed-boost",
+     false
+    ],
+    [
+     "infiltrator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P2ZA",
+   "name": "Noctowl",
+   "map_ability": "Insomnia",
+   "real": [
+    [
+     "insomnia",
+     false
+    ],
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "tinted-lens",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P30A",
+   "name": "Oddish",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "run-away",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4RA",
+   "name": "Pawniard",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "defiant",
+     false
+    ],
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "pressure",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P31A",
+   "name": "Persian",
+   "map_ability": "Technician",
+   "real": [
+    [
+     "limber",
+     false
+    ],
+    [
+     "technician",
+     false
+    ],
+    [
+     "unnerve",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P32A",
+   "name": "Piloswine",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "thick-fat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P34A",
+   "name": "Politoed",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "drizzle",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4YA",
+   "name": "Poliwag",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4ZA",
+   "name": "Poliwhirl",
+   "map_ability": "Water Absorb",
+   "real": [
+    [
+     "water-absorb",
+     false
+    ],
+    [
+     "damp",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P35A",
+   "name": "Porygon",
+   "map_ability": "Trace",
+   "real": [
+    [
+     "trace",
+     false
+    ],
+    [
+     "download",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "PV1A",
+   "name": "Porygon2",
+   "map_ability": "Trace",
+   "real": [
+    [
+     "trace",
+     false
+    ],
+    [
+     "download",
+     false
+    ],
+    [
+     "analytic",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P36A",
+   "name": "Psyduck",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "damp",
+     false
+    ],
+    [
+     "cloud-nine",
+     false
+    ],
+    [
+     "swift-swim",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P38A",
+   "name": "Quilava",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "flash-fire",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P51A",
+   "name": "Rhydon",
+   "map_ability": "Lightning Rod",
+   "real": [
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P50A",
+   "name": "Rhyhorn",
+   "map_ability": "Lightning Rod",
+   "real": [
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3CA",
+   "name": "Rhyperior",
+   "map_ability": "Lightning Rod",
+   "real": [
+    [
+     "lightning-rod",
+     false
+    ],
+    [
+     "solid-rock",
+     false
+    ],
+    [
+     "reckless",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3DA",
+   "name": "Sableye",
+   "map_ability": "Keen Eye",
+   "real": [
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "stall",
+     false
+    ],
+    [
+     "prankster",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3GA",
+   "name": "Seadra",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "poison-point",
+     false
+    ],
+    [
+     "sniper",
+     false
+    ],
+    [
+     "damp",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3HA",
+   "name": "Seel",
+   "map_ability": "Thick Fat",
+   "real": [
+    [
+     "thick-fat",
+     false
+    ],
+    [
+     "hydration",
+     false
+    ],
+    [
+     "ice-body",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3IA",
+   "name": "Sharpedo",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "rough-skin",
+     false
+    ],
+    [
+     "speed-boost",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3JA",
+   "name": "Shedinja",
+   "map_ability": "Swarm",
+   "real": [
+    [
+     "wonder-guard",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3LA",
+   "name": "Shroomish",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "effect-spore",
+     false
+    ],
+    [
+     "poison-heal",
+     false
+    ],
+    [
+     "quick-feet",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3MA",
+   "name": "Sirfetch'd",
+   "map_ability": "Steadfast",
+   "real": [
+    [
+     "steadfast",
+     false
+    ],
+    [
+     "scrappy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3NA",
+   "name": "Slowbro",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "own-tempo",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3OA",
+   "name": "Slowking",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "own-tempo",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3PA",
+   "name": "Slowpoke",
+   "map_ability": "Torrent",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "own-tempo",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3QA",
+   "name": "Slugma",
+   "map_ability": "Flame Body",
+   "real": [
+    [
+     "magma-armor",
+     false
+    ],
+    [
+     "flame-body",
+     false
+    ],
+    [
+     "weak-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3RA",
+   "name": "Smoochum",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "forewarn",
+     false
+    ],
+    [
+     "hydration",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3SA",
+   "name": "Sneasel",
+   "map_ability": "Inner Focus",
+   "real": [
+    [
+     "inner-focus",
+     false
+    ],
+    [
+     "keen-eye",
+     false
+    ],
+    [
+     "pickpocket",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3TA",
+   "name": "Snorlax",
+   "map_ability": "Thick Fat",
+   "real": [
+    [
+     "immunity",
+     false
+    ],
+    [
+     "thick-fat",
+     false
+    ],
+    [
+     "gluttony",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3UA",
+   "name": "Snover",
+   "map_ability": "Overgrow",
+   "real": [
+    [
+     "snow-warning",
+     false
+    ],
+    [
+     "soundproof",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P3VA",
+   "name": "Snubbull",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "run-away",
+     false
+    ],
+    [
+     "rattled",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3WA",
+   "name": "Sudowoodo",
+   "map_ability": "Sturdy",
+   "real": [
+    [
+     "sturdy",
+     false
+    ],
+    [
+     "rock-head",
+     false
+    ],
+    [
+     "rattled",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3YA",
+   "name": "Swablu",
+   "map_ability": "Natural Cure",
+   "real": [
+    [
+     "natural-cure",
+     false
+    ],
+    [
+     "cloud-nine",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P3ZA",
+   "name": "Swinub",
+   "map_ability": "Snow Cloak",
+   "real": [
+    [
+     "oblivious",
+     false
+    ],
+    [
+     "snow-cloak",
+     false
+    ],
+    [
+     "thick-fat",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P40A",
+   "name": "Tangela",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "leaf-guard",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P41A",
+   "name": "Tangrowth",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "leaf-guard",
+     false
+    ],
+    [
+     "regenerator",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P42A",
+   "name": "Tauros Aqua",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "cud-chew",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P43A",
+   "name": "Tauros Blaze",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "cud-chew",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P44A",
+   "name": "Tauros Combat",
+   "map_ability": "Intimidate",
+   "real": [
+    [
+     "intimidate",
+     false
+    ],
+    [
+     "anger-point",
+     false
+    ],
+    [
+     "cud-chew",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P45A",
+   "name": "Togekiss",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "hustle",
+     false
+    ],
+    [
+     "serene-grace",
+     false
+    ],
+    [
+     "super-luck",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P46A",
+   "name": "Togepi",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "hustle",
+     false
+    ],
+    [
+     "serene-grace",
+     false
+    ],
+    [
+     "super-luck",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P47A",
+   "name": "Togetic",
+   "map_ability": "Cute Charm",
+   "real": [
+    [
+     "hustle",
+     false
+    ],
+    [
+     "serene-grace",
+     false
+    ],
+    [
+     "super-luck",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P49A",
+   "name": "Torkoal",
+   "map_ability": "Drought",
+   "real": [
+    [
+     "white-smoke",
+     false
+    ],
+    [
+     "drought",
+     false
+    ],
+    [
+     "shell-armor",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4AA",
+   "name": "Toxicroak",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "anticipation",
+     false
+    ],
+    [
+     "dry-skin",
+     false
+    ],
+    [
+     "poison-touch",
+     true
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "P4BA",
+   "name": "Trapinch",
+   "map_ability": "Hyper Cutter",
+   "real": [
+    [
+     "hyper-cutter",
+     false
+    ],
+    [
+     "arena-trap",
+     false
+    ],
+    [
+     "sheer-force",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4DA",
+   "name": "Typhlosion",
+   "map_ability": "Blaze",
+   "real": [
+    [
+     "blaze",
+     false
+    ],
+    [
+     "flash-fire",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4EA",
+   "name": "Tyrogue",
+   "map_ability": "Guts",
+   "real": [
+    [
+     "guts",
+     false
+    ],
+    [
+     "steadfast",
+     false
+    ],
+    [
+     "vital-spirit",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4FA",
+   "name": "Vibrava",
+   "map_ability": "Levitate",
+   "real": [
+    [
+     "levitate",
+     false
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4GA",
+   "name": "Vileplume",
+   "map_ability": "Chlorophyll",
+   "real": [
+    [
+     "chlorophyll",
+     false
+    ],
+    [
+     "effect-spore",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4HA",
+   "name": "Weavile",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "pressure",
+     false
+    ],
+    [
+     "pickpocket",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4JA",
+   "name": "Wobbuffet",
+   "map_ability": "Shadow Tag",
+   "real": [
+    [
+     "shadow-tag",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4KA",
+   "name": "Wynaut",
+   "map_ability": "Shadow Tag",
+   "real": [
+    [
+     "shadow-tag",
+     false
+    ],
+    [
+     "telepathy",
+     true
+    ]
+   ],
+   "match": true
+  },
+  {
+   "id": "P4LA",
+   "name": "Zweilous",
+   "map_ability": "Pressure",
+   "real": [
+    [
+     "hustle",
+     false
+    ]
+   ],
+   "match": false
+  },
+  {
+   "id": "E01M",
+   "name": "Nidoran",
+   "map_ability": "Poison Point",
+   "real": [
+    [
+     "poison-point",
+     false
+    ],
+    [
+     "rivalry",
+     false
+    ],
+    [
+     "hustle",
+     true
+    ]
+   ],
+   "match": true
+  }
+ ],
+ "summary": {
+  "moves": 378,
+  "moves_with_diffs": 32,
+  "diff_kinds": {
+   "stages target": 12,
+   "status": 6,
+   "confusion": 5,
+   "recoil": 4,
+   "stages self": 2,
+   "drain/recoil": 1,
+   "high crit": 1,
+   "type": 1
+  },
+  "heroes": 360,
+  "heroes_without_ability": 25,
+  "heroes_real_ability": 298,
+  "map_abilities": 90,
+  "real_abilities_of_roster": 163
+ }
+}

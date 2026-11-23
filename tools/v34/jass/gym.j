@@ -190,6 +190,11 @@ function Gym_Spawn takes integer g, integer k returns nothing
         endif
         call SetItemDropOnDeath(UnitAddItemById(u, ti), false)
     endif
+    if Gym_Pid[g] < 0 then  // v3.4.3: the challenger left (reset) while this spawn was pending: no stray Pokemon
+        call RemoveUnit(u)
+        set u = null
+        return
+    endif
     set Gym_Cur[g] = u
     if g == 8 then
         call DisplayTimedTextToPlayer(Player(Gym_Pid[g]), 0, 0, 6.0, "|cffff8800" + League_Name[League_Stage] + ": " + nm + " (Pokemon " + I2S(k + 1) + " of 6, Lv " + I2S(lv) + ")|r")
@@ -337,6 +342,9 @@ function Gym_Advance takes integer g, unit d returns nothing
         call CreateItem(Gym_Item[g], GetUnitX(d), GetUnitY(d))
         set Badge_Has[pid * 8 + g] = true
         call DisplayTimedTextToPlayer(Player(pid), 0, 0, 8.0, "|cff66ff66Gym " + I2S(g + 1) + " cleared! The gym item dropped. Badges " + I2S(Badge_Count(pid)) + "/8, level cap " + I2S(Badge_Cap(pid)) + ".|r")
+        if Gym_Tag[g] != null then  // v3.4.6 A4: the label shows who cleared it
+            call SetTextTagText(Gym_Tag[g], "|cff66ff66Gym " + I2S(g + 1) + " cleared|r by " + GetPlayerName(Player(pid)), 0.024)
+        endif
         set Gym_PCool[pid * 8 + g] = Mega_Time + Gym_ClearCool
         call Gym_Reset(g)
     else
@@ -474,11 +482,9 @@ function League_BuildTeam takes nothing returns nothing
     endloop
 endfunction
 
-function League_NextStage takes nothing returns nothing
+// v3.4.6 B9: the next Elite Four is sent out (after the 30 s rest, see League_NextStage)
+function League_NextStageNow takes nothing returns nothing
     local unit u = League_Unit
-    call SetWidgetLife(u, I2R(BlzGetUnitMaxHP(u)))
-    call SetUnitState(u, UNIT_STATE_MANA, GetUnitState(u, UNIT_STATE_MAX_MANA))
-    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Heal\\HealTarget.mdl", u, "origin"))
     set Gym_Base[8] = GetHeroLevel(u) + League_Stage + 1
     set Gym_Stage[8] = 0
     call League_BuildTeam()
@@ -488,6 +494,31 @@ function League_NextStage takes nothing returns nothing
         call DisplayTimedTextToPlayer(Player(League_Pid), 0, 0, 8.0, "|cffffcc00Elite Four " + I2S(League_Stage + 1) + "/4: " + League_Name[League_Stage] + " (" + Ty_Name[League_Type[League_Stage]] + ")|r")
     endif
     call Gym_Spawn(8, 0)
+    set u = null
+endfunction
+
+function League_Resume takes nothing returns nothing
+    set League_Resting = false
+    if League_Pid >= 0 and League_Unit != null and League_Unit == League_RestU and GetWidgetLife(League_Unit) > 0.405 then
+        call League_NextStageNow()
+    endif
+    set League_RestU = null
+endfunction
+
+// v3.4.6 B9: the hero is healed at once, then waits 30 s before the next Elite Four (not before the first)
+function League_NextStage takes nothing returns nothing
+    local unit u = League_Unit
+    call SetWidgetLife(u, I2R(BlzGetUnitMaxHP(u)))
+    call SetUnitState(u, UNIT_STATE_MANA, GetUnitState(u, UNIT_STATE_MAX_MANA))
+    call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Human\\Heal\\HealTarget.mdl", u, "origin"))
+    if League_Stage > 0 then
+        set League_Resting = true
+        set League_RestU = u
+        call DisplayTimedTextToPlayer(Player(League_Pid), 0, 0, 8.0, "|cff66ff66Rest: the next Elite Four comes in 30 seconds. Healed.|r")
+        call TimerStart(CreateTimer(), 30.0, false, function League_Resume)
+    else
+        call League_NextStageNow()
+    endif
     set u = null
 endfunction
 
@@ -597,7 +628,7 @@ function League_Tick takes nothing returns nothing
             set dy = GetUnitY(League_Unit) - Gym_Y[8]
             if SquareRoot(dx * dx + dy * dy) > Gym_Leave then
                 call League_Lose("you left the arena.")
-            elseif Gym_Stage[8] < 6 and (Gym_Cur[8] == null or GetUnitTypeId(Gym_Cur[8]) == 0) then
+            elseif not League_Resting and Gym_Stage[8] < 6 and (Gym_Cur[8] == null or GetUnitTypeId(Gym_Cur[8]) == 0) then
                 call Gym_Spawn(8, Gym_Stage[8])
             endif
         endif
@@ -646,41 +677,46 @@ endfunction
 
 // v3.4.2: portals. A hero of a player that steps on one goes to the League lobby (base portals) or to its own base
 // (exit portal); Ab_HT key 130 = time before it can use a portal again
-function League_Portal takes real x, real y, boolean toBase returns nothing
-    local unit u = null
-    local player p = null
-    local real tx = League_LX
-    local real ty = League_LY
-    call GroupEnumUnitsInRange(Ext_G, x, y, 150.0, null)
-    loop
-        set u = FirstOfGroup(Ext_G)
-        exitwhen u == null
-        call GroupRemoveUnit(Ext_G, u)
-        set p = GetOwningPlayer(u)
-        if GetPlayerId(p) < 12 and IsUnitType(u, UNIT_TYPE_HERO) and GetWidgetLife(u) > 0.405 and Mega_Time >= LoadReal(Ab_HT, GetHandleId(u), 130) then
-            call SaveReal(Ab_HT, GetHandleId(u), 130, Mega_Time + 3.0)
-            if toBase then
-                set tx = GetStartLocationX(GetPlayerStartLocation(p))
-                set ty = GetStartLocationY(GetPlayerStartLocation(p))
-            else
-                set tx = League_LX
-                set ty = League_LY
-                call DisplayTimedTextToPlayer(p, 0, 0, 8.0, "|cffffcc00Pokemon League: walk into the arena circle with 8 badges to challenge the Elite Four. The portal behind you leads back to your base.|r")
-            endif
-            call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl", GetUnitX(u), GetUnitY(u)))
-            call SetUnitPosition(u, tx, ty)
-            call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTarget.mdl", tx, ty))
-            call PanCameraToTimedForPlayer(p, tx, ty, 0.3)
-        endif
-    endloop
-    set u = null
+// v3.4.6 C2: the portals are checked for each hero from Ext_Pulse (no timer of their own). Radius 70 (B fix): a hero
+// that only walks past the gate of its base is not pulled into the League.
+function League_Near takes unit u, real x, real y returns boolean
+    local real dx = GetUnitX(u) - x
+    local real dy = GetUnitY(u) - y
+    return dx * dx + dy * dy <= 4900.0
+endfunction
+
+function League_Jump takes unit u, real tx, real ty, boolean intoLeague returns nothing
+    local player p = GetOwningPlayer(u)
+    call SaveReal(Ab_HT, GetHandleId(u), 130, Mega_Time + 3.0)
+    if intoLeague then
+        call DisplayTimedTextToPlayer(p, 0, 0, 8.0, "|cffffcc00Pokemon League: walk into the arena circle with 8 badges to challenge the Elite Four. The portal behind you leads back to your base.|r")
+    endif
+    call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl", GetUnitX(u), GetUnitY(u)))
+    call SetUnitPosition(u, tx, ty)
+    call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTarget.mdl", tx, ty))
+    call PanCameraToTimedForPlayer(p, tx, ty, 0.3)
     set p = null
 endfunction
 
-function League_PortalTick takes nothing returns nothing
-    call League_Portal(League_GX, League_GY, false)
-    call League_Portal(-League_GX, League_GY, false)
-    call League_Portal(League_EX, League_EY, true)
+function League_PortalHero takes unit u returns nothing
+    local player p = null
+    if GetPlayerId(GetOwningPlayer(u)) >= 12 or not IsUnitType(u, UNIT_TYPE_HERO) or GetWidgetLife(u) <= 0.405 then
+        return
+    endif
+    // v3.4.6 B6: standing at a portal during its 3 s cool-down says how long is left
+    if Mega_Time < LoadReal(Ab_HT, GetHandleId(u), 130) then
+        if League_Near(u, League_GX, League_GY) or League_Near(u, -League_GX, League_GY) or League_Near(u, League_EX, League_EY) then
+            call Note_Say(GetOwningPlayer(u), "|cffffcc00Portal ready in " + I2S(R2I(LoadReal(Ab_HT, GetHandleId(u), 130) - Mega_Time + 0.99)) + "s.|r", 2.0)
+        endif
+        return
+    endif
+    if League_Near(u, League_GX, League_GY) or League_Near(u, -League_GX, League_GY) then
+        call League_Jump(u, League_LX, League_LY, true)  // base gate -> League lobby
+    elseif League_Near(u, League_EX, League_EY) then
+        set p = GetOwningPlayer(u)
+        call League_Jump(u, GetStartLocationX(GetPlayerStartLocation(p)), GetStartLocationY(GetPlayerStartLocation(p)), false)  // exit -> own base
+    endif
+    set p = null
 endfunction
 
 function League_Label takes string s, real x, real y, integer r, integer gg, integer b returns nothing
@@ -690,6 +726,44 @@ function League_Label takes string s, real x, real y, integer r, integer gg, int
     call SetTextTagColor(tt, r, gg, b, 255)
     call SetTextTagPermanent(tt, true)
     call SetTextTagVisibility(tt, true)
+    set tt = null
+endfunction
+
+// v3.4.6 B5: difficulty word of a gym, from its HP factor (gyms 1-4 easier)
+function Gym_DiffName takes integer g returns string
+    if Gym_DiffHP[g] < 0.5 then
+        return "(easy)"
+    elseif Gym_DiffHP[g] < 0.8 then
+        return "(medium)"
+    endif
+    return "(hard)"
+endfunction
+
+// v3.4.6 A1 / A4 / B5: gym labels (name, difficulty, who cleared it) and minimap icons of the gyms, the League
+// gates and the NPCs. Called after Base_Init and League_Setup.
+function Gym_Labels takes nothing returns nothing
+    local integer g = 0
+    local texttag tt = null
+    loop
+        exitwhen g >= 8
+        set tt = CreateTextTag()
+        call SetTextTagText(tt, "|cff99ddffGym " + I2S(g + 1) + "|r " + Gym_DiffName(g), 0.024)
+        call SetTextTagPos(tt, Gym_X[g] - 90.0, Gym_Y[g], 220.0)
+        call SetTextTagPermanent(tt, true)
+        call SetTextTagVisibility(tt, true)
+        set Gym_Tag[g] = tt
+        call CreateMinimapIcon(Gym_X[g], Gym_Y[g], 120, 200, 255, "UI\\Minimap\\MiniMap-QuestObjective.mdl", FOG_OF_WAR_VISIBLE)
+        set g = g + 1
+    endloop
+    call CreateMinimapIcon(League_GX, League_GY, 255, 204, 0, "UI\\Minimap\\MiniMap-QuestObjective.mdl", FOG_OF_WAR_VISIBLE)
+    call CreateMinimapIcon(-League_GX, League_GY, 255, 204, 0, "UI\\Minimap\\MiniMap-QuestObjective.mdl", FOG_OF_WAR_VISIBLE)
+    call CreateMinimapIcon(League_EX, League_EY, 255, 120, 80, "UI\\Minimap\\MiniMap-QuestObjective.mdl", FOG_OF_WAR_VISIBLE)
+    set g = 0
+    loop
+        exitwhen g >= Npc_N
+        call CreateMinimapIcon(Npc_X[g], Npc_Y[g], 255, 215, 0, "UI\\Minimap\\MiniMap-QuestObjective.mdl", FOG_OF_WAR_VISIBLE)
+        set g = g + 1
+    endloop
     set tt = null
 endfunction
 
@@ -708,14 +782,7 @@ function League_Setup takes nothing returns nothing
         endif
     endloop
     call RemoveRect(r)
-    set League_Gate[0] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', League_GX, League_GY, 270.0)
-    set League_Gate[1] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', -League_GX, League_GY, 270.0)
-    set League_Gate[2] = CreateUnit(Player(PLAYER_NEUTRAL_PASSIVE), 'nwgt', League_EX, League_EY, 180.0)
-    loop
-        exitwhen i > 2
-        call SetUnitInvulnerable(League_Gate[i], true)
-        set i = i + 1
-    endloop
+    // v3.4.3: no portal pillar (nwgt) in the League room; the portals work by position (League_PortalTick)
     call League_Label("Pokemon League", League_GX, League_GY, 255, 204, 0)
     call League_Label("Pokemon League", -League_GX, League_GY, 255, 204, 0)
     call League_Label("Exit", League_EX, League_EY, 255, 120, 80)

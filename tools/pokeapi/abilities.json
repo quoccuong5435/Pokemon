@@ -1,0 +1,1306 @@
+{
+ "adaptability": {
+  "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+  "flavor": "Powers up moves of the same type as the Pokémon.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Adaptability",
+  "short_effect": "Increases the same-type attack bonus from 1.5× to 2×."
+ },
+ "aftermath": {
+  "effect": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage.",
+  "flavor": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Aftermath",
+  "short_effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+ },
+ "air-lock": {
+  "effect": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.  This ability functions identically to Cloud Nine.",
+  "flavor": "Eliminates the effects of weather.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Air Lock",
+  "short_effect": "Negates all effects of weather, but does not prevent the weather itself."
+ },
+ "analytic": {
+  "effect": "This Pokémon's moves have 1.3× their power when it moves last in a turn.  Future Sight and Doom Desire are unaffected.",
+  "flavor": "Boosts the power of the Pokémon's move if it is the last to act that turn.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Analytic",
+  "short_effect": "Strengthens moves to 1.3× their power when moving last."
+ },
+ "anger-point": {
+  "effect": "Whenever this Pokémon receives a critical hit, its Attack rises to the maximum of 6 stages.  This ability will still take effect if the critical hit is received by a Substitute.",
+  "flavor": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Anger Point",
+  "short_effect": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+ },
+ "anticipation": {
+  "effect": "When this Pokémon enters battle, if one of its opponents has a move that is super effective against it, Self-Destruct, Explosion, or a one-hit knockout move, all participating trainers are notified.  The move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as Future Sight, and moves of variable type, such as Hidden Power, count as their listed types.  Counter, Metal Burst, Mirror Coat, and one-hit KO moves to which this Pokémon is immune do not trigger this ability.",
+  "flavor": "The Pokémon can sense an opposing Pokémon's dangerous moves.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Anticipation",
+  "short_effect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move."
+ },
+ "arena-trap": {
+  "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.  Flying-type Pokémon and Pokémon in the air, e.g. due to Levitate or Magnet Rise, are unaffected.  Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+  "flavor": "Prevents opposing Pokémon from fleeing from battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Arena Trap",
+  "short_effect": "Prevents opponents from fleeing or switching out.  Eluded by Flying-types and Pokémon in the air."
+ },
+ "aura-break": {
+  "effect": "While this Pokémon is on the field, Dark Aura and Fairy Aura weaken moves of their respective types to 2/3 their power, rather than strengthening them.",
+  "flavor": "The effects of “Aura” Abilities are reversed to lower the power of affected moves.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Aura Break",
+  "short_effect": "Makes Dark Aura and Fairy Aura weaken moves of their respective types."
+ },
+ "bad-dreams": {
+  "effect": "Opposing Pokémon take 1/8 of their maximum HP in damage after each turn while they are asleep.",
+  "flavor": "Damages opposing Pokémon that are asleep.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Bad Dreams",
+  "short_effect": "Damages sleeping opponents for 1/8 their max HP after each turn."
+ },
+ "battle-armor": {
+  "effect": "Moves cannot score critical hits against this Pokémon.  This ability functions identically to Shell Armor.",
+  "flavor": "Hard armor protects the Pokémon from critical hits.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Battle Armor",
+  "short_effect": "Protects against critical hits."
+ },
+ "beast-boost": {
+  "effect": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon.",
+  "flavor": "Boosts the Pokémon's most proficient stat every time it knocks out a target.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Beast Boost",
+  "short_effect": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon."
+ },
+ "big-pecks": {
+  "effect": "This Pokémon's Defense cannot be lowered by other Pokémon.  This Pokémon can still be passed negative Defense modifiers through Heart Swap or Guard Swap.",
+  "flavor": "Prevents the Pokémon from having its Defense stat lowered.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Big Pecks",
+  "short_effect": "Protects against Defense drops."
+ },
+ "blaze": {
+  "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Fire-type moves inflict 1.5× as much regular damage.",
+  "flavor": "Powers up Fire-type moves when the Pokémon's HP is low.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Blaze",
+  "short_effect": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less."
+ },
+ "bulletproof": {
+  "effect": "Protects against bullet, ball, and bomb-based moves.",
+  "flavor": "Protects the Pokémon from ball and bomb moves.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Bulletproof",
+  "short_effect": "Protects against bullet, ball, and bomb-based moves."
+ },
+ "chlorophyll": {
+  "effect": "This Pokémon's Speed is doubled during strong sunlight.  This bonus does not count as a stat modifier.",
+  "flavor": "Boosts the Pokémon's Speed stat in harsh sunlight.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Chlorophyll",
+  "short_effect": "Doubles Speed during strong sunlight."
+ },
+ "clear-body": {
+  "effect": "This Pokémon cannot have its stats lowered by other Pokémon.  This ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.  This ability functions identically to White Smoke in battle.",
+  "flavor": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Clear Body",
+  "short_effect": "Prevents stats from being lowered by other Pokémon."
+ },
+ "cloud-nine": {
+  "effect": "While this Pokémon is in battle, weather can still be in play, but will not have any of its effects.  This ability functions identically to Air Lock.",
+  "flavor": "Eliminates the effects of weather.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Cloud Nine",
+  "short_effect": "Negates all effects of weather, but does not prevent the weather itself."
+ },
+ "competitive": {
+  "effect": "Raises Special Attack by two stages upon having any stat lowered.",
+  "flavor": "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Competitive",
+  "short_effect": "Raises Special Attack by two stages upon having any stat lowered."
+ },
+ "compound-eyes": {
+  "effect": "This Pokémon's moves have 1.3× their accuracy.  This ability has no effect on the one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold).  Overworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively.",
+  "flavor": "The Pokémon's compound eyes boost its accuracy.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Compound Eyes",
+  "short_effect": "Increases moves' accuracy to 1.3×."
+ },
+ "contrary": {
+  "effect": "Whenever this Pokémon's stats would be raised, they are instead lowered by the same amount, and vice versa.",
+  "flavor": "Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them— and attempts to lower its stats will boost them.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Contrary",
+  "short_effect": "Inverts stat changes."
+ },
+ "cud-chew": {
+  "effect": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+  "flavor": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+  "generation": "generation-ix",
+  "main_series": true,
+  "name": "Cud Chew",
+  "short_effect": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn."
+ },
+ "cursed-body": {
+  "effect": "Moves that hit this Pokémon have a 30% chance of being Disabled afterward.",
+  "flavor": "May disable a move that has dealt damage to the Pokémon.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Cursed Body",
+  "short_effect": "Has a 30% chance of Disabling any move that hits the Pokémon."
+ },
+ "cute-charm": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being infatuated.  Overworld: If the first Pokémon in the party has this ability, any wild Pokémon whose species can be either gender has a 2/3 chance of being set to the opposite gender, and a 1/3 chance of having a random gender as usual.",
+  "flavor": "The Pokémon may infatuate attackers that make direct contact with it.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Cute Charm",
+  "short_effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+ },
+ "damp": {
+  "effect": "While this Pokémon is in battle, Self-Destruct and Explosion will fail and Aftermath will not take effect.",
+  "flavor": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Damp",
+  "short_effect": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle."
+ },
+ "dark-aura": {
+  "effect": "Strengthens Dark moves for all friendly and opposing Pokémon.",
+  "flavor": "Powers up the Dark-type moves of all Pokémon on the field.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Dark Aura",
+  "short_effect": "Strengthens Dark moves to 1.33× their power for all friendly and opposing Pokémon."
+ },
+ "defiant": {
+  "effect": "When any of this Pokémon's stats are lowered, its Attack rises by two stages.  If multiple stats are lowered at once, this ability takes effect with each stat lowered.",
+  "flavor": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Defiant",
+  "short_effect": "Raises Attack two stages upon having any stat lowered."
+ },
+ "download": {
+  "effect": "When this Pokémon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.  This ability also takes effect when acquired during a battle.",
+  "flavor": "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Download",
+  "short_effect": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle."
+ },
+ "drizzle": {
+  "effect": "The weather changes to rain when this Pokémon enters battle and does not end unless replaced by another weather condition.  If multiple Pokémon with this ability, Drought, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+  "flavor": "The Pokémon makes it rain when it enters a battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Drizzle",
+  "short_effect": "Summons rain that lasts indefinitely upon entering battle."
+ },
+ "drought": {
+  "effect": "The weather changes to strong sunlight when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, Drizzle, Sand Stream, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+  "flavor": "Turns the sunlight harsh when the Pokémon enters a battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Drought",
+  "short_effect": "Summons strong sunlight that lasts indefinitely upon entering battle."
+ },
+ "dry-skin": {
+  "effect": "This Pokémon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokémon takes 1.25× as much damage from Fire-type moves, but whenever a Water move hits it, it heals for 1/4 its maximum HP instead.",
+  "flavor": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Dry Skin",
+  "short_effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP."
+ },
+ "early-bird": {
+  "effect": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.  If this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.",
+  "flavor": "The Pokémon awakens from sleep twice as fast as other Pokémon.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Early Bird",
+  "short_effect": "Makes sleep pass twice as quickly."
+ },
+ "effect-spore": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.  Nothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
+  "flavor": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Effect Spore",
+  "short_effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+ },
+ "fairy-aura": {
+  "effect": "Strengthens Fairy moves for all friendly and opposing Pokémon.",
+  "flavor": "Powers up the Fairy-type moves of all Pokémon on the field.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Fairy Aura",
+  "short_effect": "Strengthens Fairy moves to 1.33× their power for all friendly and opposing Pokémon."
+ },
+ "filter": {
+  "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.  This ability functions identically to Solid Rock.",
+  "flavor": "Reduces the power of supereffective attacks that hit the Pokémon.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Filter",
+  "short_effect": "Decreases damage taken from super-effective moves by 1/4."
+ },
+ "flame-body": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.  Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
+  "flavor": "Contact with the Pokémon may burn the attacker.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Flame Body",
+  "short_effect": "Has a 30% chance of burning attacking Pokémon on contact."
+ },
+ "flash-fire": {
+  "effect": "This Pokémon is immune to Fire-type moves.  Once this Pokémon has been hit by a Fire move, its own Fire moves will inflict 1.5× as much damage until it leaves battle.  This ability has no effect while the Pokémon is frozen.  The Fire damage bonus is retained even if the Pokémon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokémon's Substitute.  This ability takes effect even on non-damaging moves, i.e. Will-O-Wisp.",
+  "flavor": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Flash Fire",
+  "short_effect": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+ },
+ "forewarn": {
+  "effect": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.  In the event of a tie, one is chosen at random.  Moves without a listed base power are assigned one as follows:  Power | Moves ----: | -----   160 | One-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold   120 | Counter moves: Counter, Metal Burst, and Mirror Coat    80 | Variable power or set damage: Crush Grip, Dragon Rage, Electro Ball, Endeavor, Final Gambit, Flail, Frustration, Grass Knot, Gyro Ball, Heat Crash, Heavy Slam, Hidden Power, Low Kick, Natural Gift, Night Shade, Psywave, Return, Reversal, Seismic Toss, Sonic Boom, Trump Card, and Wring Out     0 | Any such move not listed ",
+  "flavor": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Forewarn",
+  "short_effect": "Reveals the opponents' strongest move upon entering battle."
+ },
+ "friend-guard": {
+  "effect": "All friendly Pokémon take 0.75× as much direct damage from moves while this Pokémon is in battle.  This effect stacks if multiple allied Pokémon have it.",
+  "flavor": "Reduces damage dealt to allies.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Friend Guard",
+  "short_effect": "Decreases all direct damage taken by friendly Pokémon to 0.75×."
+ },
+ "frisk": {
+  "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.  In a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
+  "flavor": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Frisk",
+  "short_effect": "Reveals an opponent's held item upon entering battle."
+ },
+ "full-metal-body": {
+  "effect": "This Pokémon's stats cannot be lowered by other Pokémon's moves or abilities.  This effect only applies to normal stat modifications and not more exotic effects such as Topsy-Turvy or Power Swap.  This Ability is not bypassed by Mold Breaker, Teravolt, or Turboblaze.",
+  "flavor": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Full Metal Body",
+  "short_effect": "Other Pokémon cannot lower this Pokémon's stats."
+ },
+ "galvanize": {
+  "effect": "When this Pokémon uses a Normal moves, that move is Electric its power is 1.2×.",
+  "flavor": "Normal-type moves become Electric-type moves. The power of those moves is boosted a little.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Galvanize",
+  "short_effect": "This Pokémon's Normal moves are Electric and have their power increased to 1.2×."
+ },
+ "gluttony": {
+  "effect": "This Pokémon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold.",
+  "flavor": "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Gluttony",
+  "short_effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+ },
+ "guts": {
+  "effect": "Whenever this Pokémon is asleep, burned, paralyzed, or poisoned, it has 1.5× its Attack.  This Pokémon is not affected by the usual Attack cut from a burn.  This bonus does not count as a stat modifier.",
+  "flavor": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Guts",
+  "short_effect": "Increases Attack to 1.5× with a major status ailment."
+ },
+ "harvest": {
+  "effect": "After each turn, if the last item this Pokémon consumed was a Berry and it is not currently holding an item, it has a 50% chance of regaining that Berry, or a 100% chance during strong sunlight.",
+  "flavor": "May create another Berry after one is used.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Harvest",
+  "short_effect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime."
+ },
+ "healer": {
+  "effect": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn.",
+  "flavor": "Sometimes cures the status conditions of the Pokémon's allies.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Healer",
+  "short_effect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn."
+ },
+ "hustle": {
+  "effect": "This Pokémon's physical moves do 1.5× as much regular damage, but have 0.8× their usual accuracy.  Special moves are unaffected.  Moves that do set damage, such as Seismic Toss, have their accuracy affected, but not their damage.  Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+  "flavor": "Boosts the Pokémon's Attack stat but lowers its accuracy.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Hustle",
+  "short_effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+ },
+ "hydration": {
+  "effect": "This Pokémon is cured of any major status ailment after each turn during rain.",
+  "flavor": "Cures the Pokémon's status conditions in rain.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Hydration",
+  "short_effect": "Cures any major status ailment after each turn during rain."
+ },
+ "hyper-cutter": {
+  "effect": "This Pokémon's Attack cannot be lowered by other Pokémon.  This ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokémon can still be passed negative Attack modifiers through Heart Swap or Power Swap.",
+  "flavor": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Hyper Cutter",
+  "short_effect": "Prevents Attack from being lowered by other Pokémon."
+ },
+ "ice-body": {
+  "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type.",
+  "flavor": "The Pokémon gradually regains HP in snow.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Ice Body",
+  "short_effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+ },
+ "illuminate": {
+  "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.  This ability has no effect in battle.",
+  "flavor": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Illuminate",
+  "short_effect": "Doubles the wild encounter rate."
+ },
+ "immunity": {
+  "effect": "This Pokémon cannot be poisoned.  This includes bad poison.  If a Pokémon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle.",
+  "flavor": "The Pokémon's immune system prevents it from being poisoned.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Immunity",
+  "short_effect": "Prevents poison."
+ },
+ "imposter": {
+  "effect": "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move Transform.",
+  "flavor": "The Pokémon transforms itself into the Pokémon it's facing.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Imposter",
+  "short_effect": "Transforms upon entering battle."
+ },
+ "infiltrator": {
+  "effect": "This Pokémon's moves ignore Light Screen, Reflect, and Safeguard.",
+  "flavor": "The Pokémon's moves are unaffected by the target's barriers, substitutes, and the like.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Infiltrator",
+  "short_effect": "Bypasses Light Screen, Reflect, and Safeguard."
+ },
+ "inner-focus": {
+  "effect": "This Pokémon cannot flinch.",
+  "flavor": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Inner Focus",
+  "short_effect": "Prevents flinching."
+ },
+ "insomnia": {
+  "effect": "This Pokémon cannot be asleep.  This causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.  This ability functions identically to Vital Spirit in battle.",
+  "flavor": "The Pokémon's insomnia prevents it from falling asleep.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Insomnia",
+  "short_effect": "Prevents sleep."
+ },
+ "intimidate": {
+  "effect": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.  This ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.  This ability has no effect on an opponent that has a Substitute.  Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+  "flavor": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Intimidate",
+  "short_effect": "Lowers opponents' Attack one stage upon entering battle."
+ },
+ "intrepid-sword": {
+  "effect": "Boosts the Pokémon's Attack stat the first time the Pokémon enters a battle.",
+  "flavor": "Boosts the Pokémon's Attack stat the first time the Pokémon enters a battle.",
+  "generation": "generation-viii",
+  "main_series": true,
+  "name": "Intrepid Sword",
+  "short_effect": "Boosts Attack in battle."
+ },
+ "iron-fist": {
+  "effect": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.  Sucker Punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\".",
+  "flavor": "Powers up punching moves.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Iron Fist",
+  "short_effect": "Strengthens punch-based moves to 1.2× their power."
+ },
+ "justified": {
+  "effect": "Whenever a Dark-type move hits this Pokémon, its Attack rises one stage.  The move is not negated in any way.",
+  "flavor": "When the Pokémon is hit by a Dark-type attack, its Attack stat is boosted by its sense of justice.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Justified",
+  "short_effect": "Raises Attack one stage upon taking damage from a Dark move."
+ },
+ "keen-eye": {
+  "effect": "This Pokémon cannot have its accuracy lowered.  This ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokémon's evasion from making this Pokémon's moves less accurate.  This Pokémon can still be passed negative accuracy modifiers through Heart Swap.  Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+  "flavor": "The Pokémon's keen eyes prevent its accuracy from being lowered.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Keen Eye",
+  "short_effect": "Prevents accuracy from being lowered."
+ },
+ "leaf-guard": {
+  "effect": "This Pokémon cannot be given a major status ailment during strong sunlight.  This ability does not heal prior status ailments.  Rest will fail altogether with this ability in effect.  Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime.",
+  "flavor": "Prevents status conditions in harsh sunlight.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Leaf Guard",
+  "short_effect": "Protects against major status ailments during strong sunlight."
+ },
+ "levitate": {
+  "effect": "This Pokémon is immune to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap.  This ability is disabled during Gravity or Ingrain, or while holding an Iron Ball.  This ability is not disabled during Roost.",
+  "flavor": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Levitate",
+  "short_effect": "Evades Ground moves."
+ },
+ "light-metal": {
+  "effect": "This Pokémon has half the usual weight for its species.",
+  "flavor": "Halves the Pokémon's weight.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Light Metal",
+  "short_effect": "Halves the Pokémon's weight."
+ },
+ "lightning-rod": {
+  "effect": "All other Pokémon's single-target Electric-type moves are redirected to this Pokémon if it is an eligible target.  Other Pokémon's Electric moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.  If the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability.  If the Pokémon is a Ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.",
+  "flavor": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Lightning Rod",
+  "short_effect": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+ },
+ "limber": {
+  "effect": "This Pokémon cannot be paralyzed.  If a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
+  "flavor": "The Pokémon's limber body prevents it from being paralyzed.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Limber",
+  "short_effect": "Prevents paralysis."
+ },
+ "liquid-ooze": {
+  "effect": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like Absorb, it instead loses as many HP as it would usually gain.  Dream Eater is unaffected.",
+  "flavor": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Liquid Ooze",
+  "short_effect": "Damages opponents using leeching moves for as much as they would heal."
+ },
+ "magic-bounce": {
+  "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.  All reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.  A move reflected by this ability or Magic Coat cannot be reflected back.",
+  "flavor": "The Pokémon reflects status moves instead of getting hit by them.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Magic Bounce",
+  "short_effect": "Reflects most non-damaging moves back at their user."
+ },
+ "magic-guard": {
+  "effect": "This Pokémon is immune to damage not directly caused by a move.  For example, this Pokémon takes no damage from from weather, recoil, status ailments, or Spikes, but it still suffers from the Attack cut when burned, and a Life Orb will still power up this Pokémon's moves without damaging it.  Anything that directly depends on such damage will also not happen; for example, Leech Seed will neither hurt this Pokémon nor heal the opponent, and Pokémon with a Jaboca Berry or Rowap Berry will not consume the berry when hit by this Pokémon.  The following are unaffected: Struggle, Pain Split (whether used by or against this Pokémon), Belly Drum, Substitute, Curse, moves that knock the user out, and damage from confusion.  This Pokémon will neither lose nor regain HP if it drains HP from a Pokémon with Liquid Ooze.  If this Pokémon is badly poisoned, the poison counter is still increased each turn; if the Pokémon loses this ability, it will begin taking as much damage as it would be if it had been taking increasing damage each turn.",
+  "flavor": "The Pokémon only takes damage from attacks.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Magic Guard",
+  "short_effect": "Protects against damage not directly caused by a move."
+ },
+ "magician": {
+  "effect": "Steals the target's held item when the bearer uses a damaging move.",
+  "flavor": "The Pokémon steals the held item from any target it hits with a move.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Magician",
+  "short_effect": "Steals the target's held item when the bearer uses a damaging move."
+ },
+ "magma-armor": {
+  "effect": "This Pokémon cannot be frozen.  If a Pokémon is frozen and acquires this ability, it will immediately thaw out; this includes when regaining a lost ability upon leaving battle.  Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or Flame Body.",
+  "flavor": "The Pokémon's hot magma coating prevents it from being frozen.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Magma Armor",
+  "short_effect": "Prevents freezing."
+ },
+ "magnet-pull": {
+  "effect": "While this Pokémon is in battle, opposing Steel-type Pokémon cannot flee or switch out.  Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.  Overworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate.",
+  "flavor": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Magnet Pull",
+  "short_effect": "Prevents Steel opponents from fleeing or switching out."
+ },
+ "marvel-scale": {
+  "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Defense.  This bonus does not count as a stat modifier.",
+  "flavor": "The Pokémon's marvelous scales boost its Defense stat if it has a status condition.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Marvel Scale",
+  "short_effect": "Increases Defense to 1.5× with a major status ailment."
+ },
+ "minus": {
+  "effect": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.  This bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect.",
+  "flavor": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Minus",
+  "short_effect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus."
+ },
+ "mold-breaker": {
+  "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.  For example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.  Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.  An ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  This ability functions identically to Teravolt and Turboblaze.",
+  "flavor": "The Pokémon's moves are unimpeded by the Ability of the target.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Mold Breaker",
+  "short_effect": "Bypasses targets' abilities if they could hinder or prevent a move."
+ },
+ "motor-drive": {
+  "effect": "Whenever an Electric-type move hits this Pokémon, its Speed rises one stage, negating any other effect on it.  This ability will not take effect if this Pokémon is immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.  This effect includes non-damaging moves, i.e. Thunder Wave.",
+  "flavor": "The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Motor Drive",
+  "short_effect": "Absorbs Electric moves, raising Speed one stage."
+ },
+ "moxie": {
+  "effect": "This Pokémon's Attack rises one stage upon knocking out another Pokémon, even a friendly Pokémon.  This ability does not take effect when the Pokémon indirectly causes another Pokémon to faint, e.g. through poison or Spikes.  If this Pokémon knocks out a Pokémon with Mummy, the former's ability will change without taking effect.",
+  "flavor": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Moxie",
+  "short_effect": "Raises Attack one stage upon KOing a Pokémon."
+ },
+ "multiscale": {
+  "effect": "This Pokémon takes half as much damage when it is hit having full HP.",
+  "flavor": "Reduces the amount of damage the Pokémon takes while its HP is full.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Multiscale",
+  "short_effect": "Halves damage taken from full HP."
+ },
+ "multitype": {
+  "effect": "If this Pokémon is holding an elemental Plate, its type and form change to match the Plate.  This Pokémon's held item, whether or not it is a Plate, cannot be taken by Covet or Thief, nor removed by Knock Off, nor traded by Switcheroo or Trick.  Covet, Thief, and Knock Off still inflict damage against this Pokémon.  Unlike with Sticky Hold, this Pokémon cannot use Fling, Switcheroo, or Trick to lose its item itself, nor gain an item through Switcheroo or Trick if it does not have one.  This ability has no effect for any Pokémon other than Arceus.  This ability cannot be traded with Skill Swap, nor copied with Role Play or Trace, nor disabled with Gastro Acid, nor changed with Worry Seed.  This Pokémon cannot use Skill Swap or Role Play to lose its ability itself.  Mold Breaker cannot ignore this ability.  If a Pokémon Transforms into an Arceus with this ability, it will Transform into Arceus's default, Normal-type form.  If the Transforming Pokémon is holding a Plate, this ability will then activate and change the Pokémon into the corresponding form.",
+  "flavor": "Changes the Pokémon's type to match the plate it holds.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Multitype",
+  "short_effect": "Changes Arceus's type and form to match its held Plate."
+ },
+ "natural-cure": {
+  "effect": "This Pokémon is cured of any major status ailment when it is switched out for another Pokémon.  If this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability.",
+  "flavor": "The Pokémon's status conditions are cured when it switches out.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Natural Cure",
+  "short_effect": "Cures any major status ailment upon switching out."
+ },
+ "neutralizing-gas": {
+  "effect": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered.",
+  "flavor": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered.",
+  "generation": "generation-viii",
+  "main_series": true,
+  "name": "Neutralizing Gas",
+  "short_effect": "Neutralizes abilities of all Pokémon in battle."
+ },
+ "no-guard": {
+  "effect": "Moves used by or against this Pokémon never miss.  One-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+  "flavor": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "No Guard",
+  "short_effect": "Ensures all moves used by and against the Pokémon hit."
+ },
+ "oblivious": {
+  "effect": "This Pokémon cannot be infatuated and is immune to Captivate.  If a Pokémon is infatuated and acquires this ability, its infatuation is cleared.",
+  "flavor": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Oblivious",
+  "short_effect": "Prevents infatuation and protects against Captivate."
+ },
+ "overcoat": {
+  "effect": "This Pokémon does not take damage from weather.",
+  "flavor": "The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Overcoat",
+  "short_effect": "Protects against damage from weather."
+ },
+ "overgrow": {
+  "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Grass-type moves inflict 1.5× as much regular damage.",
+  "flavor": "Powers up Grass-type moves when the Pokémon's HP is low.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Overgrow",
+  "short_effect": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less."
+ },
+ "own-tempo": {
+  "effect": "This Pokémon cannot be confused.  If a Pokémon is confused and acquires this ability, its confusion will immediately be healed.",
+  "flavor": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Own Tempo",
+  "short_effect": "Prevents confusion."
+ },
+ "pickpocket": {
+  "effect": "Whenever a move makes contact with this Pokémon, if it does not have a held item, it steals the attacker's held item.  This Pokémon cannot steal upon being knocked out.  It can steal if the attacker has a Substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokémon is wild, it cannot steal from a trained Pokémon.",
+  "flavor": "The Pokémon steals the held item from attackers that make direct contact with it.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Pickpocket",
+  "short_effect": "Steals attacking Pokémon's held items on contact."
+ },
+ "pickup": {
+  "effect": "At the end of each turn, if another Pokémon consumed or Flung a held item that turn, this Pokémon picks up the item if it is not already holding one.  After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one.  The Air Balloon and Eject Button cannot be picked up.  The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+  "flavor": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Pickup",
+  "short_effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+ },
+ "pixilate": {
+  "effect": "Turns the bearer's Normal-type moves into Fairy moves.  Moves changed by this ability have 1.3× their power.",
+  "flavor": "Normal-type moves become Fairy-type moves. The power of those moves is boosted a little.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Pixilate",
+  "short_effect": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power."
+ },
+ "plus": {
+  "effect": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus or Minus.  This bonus does not count as a stat modifier.  If either ability is disabled by Gastro Acid, both lose their effect.",
+  "flavor": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Plus",
+  "short_effect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus."
+ },
+ "poison-heal": {
+  "effect": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison.",
+  "flavor": "If poisoned, the Pokémon has its HP restored instead of taking damage.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Poison Heal",
+  "short_effect": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
+ },
+ "poison-point": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being poisoned.",
+  "flavor": "Contact with the Pokémon may poison the attacker.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Poison Point",
+  "short_effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+ },
+ "poison-touch": {
+  "effect": "This Pokémon's contact moves have a 30% chance of poisoning the target with each hit.  This counts as an extra effect for the purposes of Shield Dust.  This ability takes effect before Mummy.",
+  "flavor": "May poison a target when the Pokémon makes contact.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Poison Touch",
+  "short_effect": "Has a 30% chance of poisoning target Pokémon upon contact."
+ },
+ "prankster": {
+  "effect": "This Pokémon's non-damaging moves have their priority increased by one stage.",
+  "flavor": "Gives priority to the Pokémon's status moves.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Prankster",
+  "short_effect": "Raises non-damaging moves' priority by one stage."
+ },
+ "pressure": {
+  "effect": "Moves targetting this Pokémon use one extra PP.  This ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+  "flavor": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Pressure",
+  "short_effect": "Increases the PP cost of moves targetting the Pokémon by one."
+ },
+ "prism-armor": {
+  "effect": "Super-effective damage this Pokémon takes is reduced to 0.75×.  This Ability is not bypassed by Mold Breaker, Teravolt, or Turboblaze.",
+  "flavor": "Reduces the power of supereffective attacks that hit the Pokémon.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Prism Armor",
+  "short_effect": "Reduces super-effective damage to 0.75×."
+ },
+ "protean": {
+  "effect": "Changes the bearer's type to match each move it uses.  The type change takes place just before the move is used.",
+  "flavor": "Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Protean",
+  "short_effect": "Changes the bearer's type to match each move it uses."
+ },
+ "quick-feet": {
+  "effect": "Whenever this Pokémon has a major status ailment, it has 1.5× its Speed.  This Pokémon is not affected by the usual Speed cut from paralysis.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+  "flavor": "Boosts the Speed stat if the Pokémon has a status condition.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Quick Feet",
+  "short_effect": "Increases Speed to 1.5× with a major status ailment."
+ },
+ "rain-dish": {
+  "effect": "This Pokémon heals for 1/16 of its maximum HP after each turn during rain.",
+  "flavor": "The Pokémon gradually regains HP in rain.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Rain Dish",
+  "short_effect": "Heals for 1/16 max HP after each turn during rain."
+ },
+ "rattled": {
+  "effect": "This Pokémon's Speed rises one stage with each hit from a damaging Dark-, Ghost-, or Bug-type move.",
+  "flavor": "The Pokémon gets scared when hit by a Dark-, Ghost-, or Bug-type attack or if intimidated, which boosts its Speed stat.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Rattled",
+  "short_effect": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move."
+ },
+ "reckless": {
+  "effect": "This Pokémon's recoil moves and crash moves have 1.2× their base power.  Struggle is unaffected.  The \"crash moves\" are the moves that damage the user upon missing: Jump Kick and High Jump Kick.",
+  "flavor": "Powers up moves that have recoil damage.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Reckless",
+  "short_effect": "Strengthens recoil moves to 1.2× their power."
+ },
+ "regenerator": {
+  "effect": "This Pokémon regains 1/3 of its maximum HP when it is switched out for another Pokémon under any circumstances other than having fainted.  This ability does not take effect when a battle ends.",
+  "flavor": "The Pokémon has a little of its HP restored when withdrawn from battle.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Regenerator",
+  "short_effect": "Heals for 1/3 max HP upon switching out."
+ },
+ "rivalry": {
+  "effect": "This Pokémon inflicts 1.25× as much regular damage against Pokémon of the same gender and 0.75× as much regular damage against Pokémon of the opposite gender.  If either Pokémon is genderless, damage is unaffected.",
+  "flavor": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Rivalry",
+  "short_effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+ },
+ "rock-head": {
+  "effect": "This Pokémon does not receive recoil damage from its recoil moves.  Struggle's recoil is unaffected.  This ability does not prevent crash damage from missing with Jump Kick or High Jump Kick.",
+  "flavor": "Protects the Pokémon from recoil damage.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Rock Head",
+  "short_effect": "Protects against recoil damage."
+ },
+ "rough-skin": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user takes 1/8 of its maximum HP in damage.  This ability functions identically to Iron Barbs.",
+  "flavor": "The Pokémon's rough skin damages attackers that make direct contact with it.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Rough Skin",
+  "short_effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+ },
+ "run-away": {
+  "effect": "This Pokémon is always successful fleeing from wild battles, even if trapped by a move or ability.",
+  "flavor": "Enables a sure getaway from wild Pokémon.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Run Away",
+  "short_effect": "Ensures success fleeing from wild battles."
+ },
+ "sand-force": {
+  "effect": "During a sandstorm, this Pokémon's Rock-, Ground-, and Steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type.",
+  "flavor": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Sand Force",
+  "short_effect": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage."
+ },
+ "sand-rush": {
+  "effect": "This Pokémon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type.",
+  "flavor": "Boosts the Pokémon's Speed stat in a sandstorm.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Sand Rush",
+  "short_effect": "Doubles Speed during a sandstorm.  Protects against sandstorm damage."
+ },
+ "sand-stream": {
+  "effect": "The weather changes to a sandstorm when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, Drizzle, Drought, or Snow Warning are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+  "flavor": "The Pokémon summons a sandstorm when it enters a battle.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Sand Stream",
+  "short_effect": "Summons a sandstorm that lasts indefinitely upon entering battle."
+ },
+ "sand-veil": {
+  "effect": "During a sandstorm, this Pokémon has 1.25× its evasion, and it does not take sandstorm damage regardless of type.  The evasion bonus does not count as a stat modifier.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+  "flavor": "Boosts the Pokémon's evasiveness in a sandstorm.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Sand Veil",
+  "short_effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+ },
+ "scrappy": {
+  "effect": "This Pokémon ignores Ghost-type Pokémon's immunity to Normal- and Fighting-type moves.  Ghost Pokémon's other types affect damage as usual.",
+  "flavor": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Scrappy",
+  "short_effect": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon."
+ },
+ "serene-grace": {
+  "effect": "This Pokémon's moves have twice their usual effect chance.  An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Flamethrower's chance of burning the target is doubled, but Protect's chance of success and Air Cutter's increased critical hit rate are unaffected.  Secret Power is unaffected.",
+  "flavor": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Serene Grace",
+  "short_effect": "Doubles the chance of moves' extra effects occurring."
+ },
+ "shadow-shield": {
+  "effect": "When this Pokémon has full HP, regular damage (not fixed damage!) from moves is halved.  This ability cannot be nullified.",
+  "flavor": "Reduces the amount of damage the Pokémon takes while its HP is full.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Shadow Shield",
+  "short_effect": "When this Pokémon has full HP, regular damage from moves is halved."
+ },
+ "shadow-tag": {
+  "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.  Other Pokémon with this ability are unaffected.  Pokémon with Run Away can still flee.  Pokémon can still switch out with the use of a move or item.",
+  "flavor": "The Pokémon steps on the opposing Pokémon's shadows to prevent them from fleeing or switching out.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Shadow Tag",
+  "short_effect": "Prevents opponents from fleeing or switching out."
+ },
+ "sharpness": {
+  "effect": "Increases the power of all 'slicing' moves by 50%.",
+  "flavor": "Powers up slicing moves.",
+  "generation": "generation-ix",
+  "main_series": true,
+  "name": "Sharpness",
+  "short_effect": "Powers up slicing moves."
+ },
+ "shed-skin": {
+  "effect": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+  "flavor": "The Pokémon may cure its own status conditions by shedding its skin.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Shed Skin",
+  "short_effect": "Has a 33% chance of curing any major status ailment after each turn."
+ },
+ "sheer-force": {
+  "effect": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.  An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.  Moves that lower the user's stats are unaffected.",
+  "flavor": "Removes any additional effects from the Pokémon's moves, but increases the moves' power.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Sheer Force",
+  "short_effect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects."
+ },
+ "shell-armor": {
+  "effect": "Moves cannot score critical hits against this Pokémon.  This ability functions identically to Battle Armor.",
+  "flavor": "A hard shell protects the Pokémon from critical hits.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Shell Armor",
+  "short_effect": "Protects against critical hits."
+ },
+ "shield-dust": {
+  "effect": "This Pokémon is immune to the extra effects of moves used against it.  An extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, Thunder Shock's paralysis is an extra effect, but Thunder Wave's is not, nor are Knock Off's item removal and Air Cutter's increased critical hit rate.",
+  "flavor": "Protective dust shields the Pokémon from the additional effects of moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Shield Dust",
+  "short_effect": "Protects against incoming moves' extra effects."
+ },
+ "skill-link": {
+  "effect": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.  It also bypasses the accuracy checks on Triple Kick's second and third hits.",
+  "flavor": "Maximizes the number of times multistrike moves hit.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Skill Link",
+  "short_effect": "Extends two-to-five-hit moves and Triple Kick to their full length every time."
+ },
+ "slow-start": {
+  "effect": "This Pokémon's Attack and Speed are halved for five turns upon entering battle.  This ability also takes effect when acquired during battle.  If this Pokémon loses its ability before the five turns are up, its Attack and Speed return to normal; if it then regains this ability without leaving battle, its Attack and Speed are halved again, but the counter keeps counting from where it was.",
+  "flavor": "For five turns, the Pokémon's Attack and Speed stats are halved.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Slow Start",
+  "short_effect": "Halves Attack and Speed for five turns upon entering battle."
+ },
+ "slush-rush": {
+  "effect": "During Hail, this Pokémon has double Speed.",
+  "flavor": "Boosts the Pokémon's Speed stat in snow.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Slush Rush",
+  "short_effect": "During Hail, this Pokémon has double Speed."
+ },
+ "sniper": {
+  "effect": "This Pokémon inflicts triple damage with critical hits, rather than the usual double damage.",
+  "flavor": "If the Pokémon's attack lands a critical hit, the attack is powered up even further.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Sniper",
+  "short_effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+ },
+ "snow-cloak": {
+  "effect": "During hail, this Pokémon has 1.25× its evasion, and it does not take hail damage regardless of type.  The evasion bonus does not count as a stat modifier.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in snow.",
+  "flavor": "Boosts the Pokémon's evasiveness in snow.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Snow Cloak",
+  "short_effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+ },
+ "snow-warning": {
+  "effect": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, Drizzle, Drought, or Sand Stream are sent out at the same time, the abilities will activate in order of Speed, respecting Trick Room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+  "flavor": "The Pokémon makes it snow when it enters a battle.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Snow Warning",
+  "short_effect": "Summons hail that lasts indefinitely upon entering battle."
+ },
+ "solar-power": {
+  "effect": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn.",
+  "flavor": "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Solar Power",
+  "short_effect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+ },
+ "solid-rock": {
+  "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.  This ability functions identically to Filter.",
+  "flavor": "Reduces the power of supereffective attacks that hit the Pokémon.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Solid Rock",
+  "short_effect": "Decreases damage taken from super-effective moves by 1/4."
+ },
+ "soul-heart": {
+  "effect": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints.",
+  "flavor": "Boosts the Pokémon's Sp. Atk stat every time another Pokémon faints.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Soul-Heart",
+  "short_effect": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints."
+ },
+ "soundproof": {
+  "effect": "This Pokémon is immune to moves flagged as being sound-based.  Heal Bell is unaffected.  Uproar still prevents this Pokémon from sleeping.  This Pokémon can still receive a Perish Song counter through Baton Pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.  Howl, Roar of Time, Sonic Boom, and Yawn are not flagged as sound-based.",
+  "flavor": "Soundproofing gives the Pokémon full immunity to all sound-based moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Soundproof",
+  "short_effect": "Protects against sound-based moves."
+ },
+ "speed-boost": {
+  "effect": "This Pokémon's Speed rises one stage after each turn.",
+  "flavor": "The Pokémon's Speed stat is boosted every turn.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Speed Boost",
+  "short_effect": "Raises Speed one stage after each turn."
+ },
+ "stall": {
+  "effect": "This Pokémon moves last within its priority bracket.  Multiple Pokémon with this ability move in order of Speed amongst themselves.  The Full Incense and Lagging Tail take precedence over this ability; that is, Pokémon with these items move after Pokémon with this ability.  Pokémon with both this ability and one of these items are delayed as much as if they had only the item.  This ability works as usual during Trick Room: Pokémon with this ability will move in reverse order of Speed after Pokémon without it.",
+  "flavor": "The Pokémon is always the last to use its moves.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Stall",
+  "short_effect": "Makes the Pokémon move last within its move's priority bracket."
+ },
+ "stance-change": {
+  "effect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King's Shield.",
+  "flavor": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King's Shield.",
+  "generation": "generation-vi",
+  "main_series": true,
+  "name": "Stance Change",
+  "short_effect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King's Shield."
+ },
+ "static": {
+  "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being paralyzed.  Pokémon that are immune to Electric-type moves can still be paralyzed by this ability.  Overworld: If the lead Pokémon has this ability, there is a 50% chance that encounters will be with an Electric Pokémon, if applicable.",
+  "flavor": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Static",
+  "short_effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+ },
+ "steadfast": {
+  "effect": "Whenever this Pokémon flinches, its Speed rises one stage.",
+  "flavor": "The Pokémon's determination boosts its Speed stat every time it flinches.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Steadfast",
+  "short_effect": "Raises Speed one stage upon flinching."
+ },
+ "stench": {
+  "effect": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.  This ability does not stack with a held item.  Overworld: The wild encounter rate is halved while this Pokémon is first in the party.",
+  "flavor": "By releasing a stench when attacking, the Pokémon may cause the target to flinch.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Stench",
+  "short_effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+ },
+ "storm-drain": {
+  "effect": "All other Pokémon's single-target Water-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's Special Attack one stage, negating any other effect on it, and cannot miss it.  If the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokémon.  Follow Me takes precedence over this ability.",
+  "flavor": "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Storm Drain",
+  "short_effect": "Redirects single-target Water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage."
+ },
+ "sturdy": {
+  "effect": "When this Pokémon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: Fissure, Guillotine, Horn Drill, and Sheer Cold.  If this Pokémon is holding a Focus Sash, this ability takes precedence and the item will not be consumed.",
+  "flavor": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Sturdy",
+  "short_effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+ },
+ "suction-cups": {
+  "effect": "This Pokémon cannot be forced out of battle by moves such as Whirlwind.  Dragon Tail and Circle Throw still inflict damage against this Pokémon.  Overworld: If the lead Pokémon has this ability, the success rate while fishing is increased.",
+  "flavor": "The Pokémon uses suction cups to stay in one spot. This protects it from moves and items that would force it to switch out.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Suction Cups",
+  "short_effect": "Prevents being forced out of battle by other Pokémon's moves."
+ },
+ "super-luck": {
+  "effect": "This Pokémon's moves have critical hit rates one stage higher than normal.",
+  "flavor": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Super Luck",
+  "short_effect": "Raises moves' critical hit rates one stage."
+ },
+ "supreme-overlord": {
+  "effect": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+  "flavor": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+  "generation": "generation-ix",
+  "main_series": true,
+  "name": "Supreme Overlord",
+  "short_effect": "Attack and Special Attack are boosted for each party Pokémon that has been defeated."
+ },
+ "surge-surfer": {
+  "effect": "Doubles this Pokémon's Speed on Electric Terrain.",
+  "flavor": "Doubles the Pokémon's Speed stat on Electric Terrain.",
+  "generation": "generation-vii",
+  "main_series": true,
+  "name": "Surge Surfer",
+  "short_effect": "Doubles this Pokémon's Speed on Electric Terrain."
+ },
+ "swarm": {
+  "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is increased.",
+  "flavor": "Powers up Bug-type moves when the Pokémon's HP is low.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Swarm",
+  "short_effect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less."
+ },
+ "swift-swim": {
+  "effect": "This Pokémon's Speed is doubled during rain.  This bonus does not count as a stat modifier.",
+  "flavor": "Boosts the Pokémon's Speed stat in rain.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Swift Swim",
+  "short_effect": "Doubles Speed during rain."
+ },
+ "synchronize": {
+  "effect": "Whenever this Pokémon is burned, paralyzed, or poisoned, the Pokémon who gave this Pokémon that ailment is also given the ailment.  This ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from Toxic Spikes or the burn from a Flame Orb.  Overworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries.",
+  "flavor": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Synchronize",
+  "short_effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+ },
+ "tangled-feet": {
+  "effect": "When this Pokémon is confused, it has twice its evasion.",
+  "flavor": "Boosts the Pokémon's evasiveness if it is confused.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Tangled Feet",
+  "short_effect": "Doubles evasion when confused."
+ },
+ "technician": {
+  "effect": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.  This includes moves of variable power, such as Hidden Power and Magnitude, when their power is 60 or less.  Helping Hand's power boost is taken into account for any move, as is Defense Curl's power boost for Rollout.",
+  "flavor": "Powers up weak moves so the Pokémon can deal more damage with them.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Technician",
+  "short_effect": "Strengthens moves of 60 base power or less to 1.5× their power."
+ },
+ "telepathy": {
+  "effect": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it.",
+  "flavor": "The Pokémon anticipates and dodges the attacks of its allies.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Telepathy",
+  "short_effect": "Protects against friendly Pokémon's damaging moves."
+ },
+ "teravolt": {
+  "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.  For example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.  Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.  An ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  This ability functions identically to Mold Breaker and Turboblaze.",
+  "flavor": "The Pokémon's moves are unimpeded by the Ability of the target.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Teravolt",
+  "short_effect": "Bypasses targets' abilities if they could hinder or prevent moves."
+ },
+ "thick-fat": {
+  "effect": "This Pokémon takes half as much damage from Fire- and Ice-type moves.",
+  "flavor": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Thick Fat",
+  "short_effect": "Halves damage from Fire and Ice moves."
+ },
+ "tinted-lens": {
+  "effect": "This Pokémon deals twice as much damage with moves that are not very effective against the target.",
+  "flavor": "The Pokémon can use “not very effective” moves to deal regular damage.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Tinted Lens",
+  "short_effect": "Doubles damage inflicted with not-very-effective moves."
+ },
+ "torrent": {
+  "effect": "When this Pokémon has 1/3 or less of its HP remaining, its Water-type moves inflict 1.5× as much regular damage.",
+  "flavor": "Powers up Water-type moves when the Pokémon's HP is low.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Torrent",
+  "short_effect": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less."
+ },
+ "trace": {
+  "effect": "When this Pokémon enters battle, it copies a random opponent's ability.  This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, or Zen Mode.",
+  "flavor": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Trace",
+  "short_effect": "Copies an opponent's ability upon entering battle."
+ },
+ "turboblaze": {
+  "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.  For example, this Pokémon's moves ignore abilities that would fully negate them, such as Water Absorb; abilities that would prevent any of their effects, such as Clear Body, Shell Armor, or Sticky Hold; and abilities that grant any general protective benefit, such as Simple, Snow Cloak, or Thick Fat.  If an ability could either hinder or help this Pokémon's moves, e.g. Dry Skin or Unaware, the ability is ignored either way.  Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, Cursed Body only affects potential future uses of the move, while Liquid Ooze and Shadow Tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example Color Change or Forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from Drizzle.  This ability cannot ignore Multitype at all.  An ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with Limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's Spikes are not affected by this ability after they have been placed.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  This ability functions identically to Mold Breaker and Teravolt.",
+  "flavor": "The Pokémon's moves are unimpeded by the Ability of the target.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Turboblaze",
+  "short_effect": "Bypasses targets' abilities if they could hinder or prevent moves."
+ },
+ "unaware": {
+  "effect": "This Pokémon ignores other Pokémon's stat modifiers for the purposes of damage and accuracy calculation.  Effectively, this affects modifiers of every stat except Speed.  The power of Punishment and Stored Power is calculated as usual.  When this Pokémon hurts itself in confusion, its stat modifiers affect damage as usual.",
+  "flavor": "When attacking, the Pokémon ignores the target's stat changes.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Unaware",
+  "short_effect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation."
+ },
+ "unburden": {
+  "effect": "When this Pokémon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.  This includes when the Pokémon drops its item because of Knock Off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect.",
+  "flavor": "Boosts the Speed stat if the Pokémon's held item is used or lost.",
+  "generation": "generation-iv",
+  "main_series": true,
+  "name": "Unburden",
+  "short_effect": "Doubles Speed upon using or losing a held item."
+ },
+ "unnerve": {
+  "effect": "Opposing Pokémon cannot eat held Berries while this Pokémon is in battle.  Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry.",
+  "flavor": "Unnerves opposing Pokémon and makes them unable to eat Berries.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Unnerve",
+  "short_effect": "Prevents opposing Pokémon from eating held Berries."
+ },
+ "victory-star": {
+  "effect": "All friendly Pokémon's moves, including this Pokémon's own moves, have 1.1× their usual accuracy while this Pokémon is in battle.",
+  "flavor": "Boosts the accuracy of the Pokémon and its allies.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Victory Star",
+  "short_effect": "Increases moves' accuracy to 1.1× for friendly Pokémon."
+ },
+ "vital-spirit": {
+  "effect": "This Pokémon cannot be asleep.  This causes Rest to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.  This ability functions identically to Insomnia in battle.  Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.",
+  "flavor": "The Pokémon is full of vitality, and that prevents it from falling asleep.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Vital Spirit",
+  "short_effect": "Prevents sleep."
+ },
+ "volt-absorb": {
+  "effect": "Whenever an Electric-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.  This ability will not take effect if this Pokémon is Ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's Substitute.  This effect includes non-damaging moves, i.e. Thunder Wave.",
+  "flavor": "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Volt Absorb",
+  "short_effect": "Absorbs Electric moves, healing for 1/4 max HP."
+ },
+ "water-absorb": {
+  "effect": "Whenever a Water-type move hits this Pokémon, it heals for 1/4 of its maximum HP, negating any other effect on it.  Water moves will ignore this Pokémon's Substitute.",
+  "flavor": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Water Absorb",
+  "short_effect": "Absorbs Water moves, healing for 1/4 max HP."
+ },
+ "weak-armor": {
+  "effect": "Whenever a physical move hits this Pokémon, its Speed rises one stage and its Defense falls one stage.  This ability triggers on every hit of a multiple-hit move.",
+  "flavor": "The Pokémon's Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Weak Armor",
+  "short_effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+ },
+ "white-smoke": {
+  "effect": "This Pokémon cannot have its stats lowered by other Pokémon.  This ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from Overheat; nor opponent-triggered stat boosts, such as the Attack boost from Swagger.  This Pokémon can still be passed negative stat modifiers through Guard Swap, Heart Swap, or Power Swap.  This ability functions identically to Clear Body in battle.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+  "flavor": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "White Smoke",
+  "short_effect": "Prevents stats from being lowered by other Pokémon."
+ },
+ "wonder-guard": {
+  "effect": "This Pokémon is immune to damaging moves that are not super effective against it.  Moves that inflict fixed damage, such as Night Shade or Seismic Toss, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from weather, a status ailment, or Spikes, is not prevented.  This ability cannot be copied with Role Play or traded away with Skill Swap, but it can be copied with Trace, disabled with Gastro Acid, or changed with Worry Seed.  This Pokémon can still use Role Play itself to lose this ability, but not Skill Swap.  If this Pokémon has a Substitute, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual.",
+  "flavor": "Its mysterious power only lets supereffective moves hit the Pokémon.",
+  "generation": "generation-iii",
+  "main_series": true,
+  "name": "Wonder Guard",
+  "short_effect": "Protects against damaging moves that are not super effective."
+ },
+ "zen-mode": {
+  "effect": "This Pokémon switches between Standard Mode and Zen Mode after each turn depending on its HP.  Below 50% of its maximum HP, it switches to Zen Mode, and at 50% or above, it switches to Standard Mode.  This Pokémon returns to Standard Mode upon leaving battle or losing this ability.  This ability has no effect if this Pokémon is not a Darmanitan.",
+  "flavor": "Changes the Pokémon's shape when its HP drops to half or less.",
+  "generation": "generation-v",
+  "main_series": true,
+  "name": "Zen Mode",
+  "short_effect": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise."
+ }
+}

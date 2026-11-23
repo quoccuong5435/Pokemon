@@ -1,0 +1,4540 @@
+{
+  "Alolan-Golem": {
+    "species": "Alolan-Golem",
+    "api_name": "golem-alola",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Galvanize"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  "Alolan-Graveler": {
+    "species": "Alolan-Graveler",
+    "api_name": "graveler-alola",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Galvanize"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  "Alolan-Sandslash": {
+    "species": "Alolan-Sandslash",
+    "api_name": "sandslash-alola",
+    "normal": [
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Slush Rush"
+    ],
+    "types": [
+      "Ice",
+      "Steel"
+    ]
+  },
+  "Abra": {
+    "species": "Abra",
+    "api_name": "abra",
+    "normal": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Magic Guard"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Arcanine": {
+    "species": "Arcanine",
+    "api_name": "arcanine",
+    "normal": [
+      "Intimidate",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Justified"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Bagon": {
+    "species": "Bagon",
+    "api_name": "bagon",
+    "normal": [
+      "Rock Head"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Dragon"
+    ]
+  },
+  "Alolan-Sandshrew": {
+    "species": "Alolan-Sandshrew",
+    "api_name": "sandshrew-alola",
+    "normal": [
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Slush Rush"
+    ],
+    "types": [
+      "Ice",
+      "Steel"
+    ]
+  },
+  "Aerodactyl": {
+    "species": "Aerodactyl",
+    "api_name": "aerodactyl",
+    "normal": [
+      "Rock Head",
+      "Pressure"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Rock",
+      "Flying"
+    ]
+  },
+  "Arceus": {
+    "species": "Arceus",
+    "api_name": "arceus",
+    "normal": [
+      "Multitype"
+    ],
+    "hidden": [],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Absol": {
+    "species": "Absol",
+    "api_name": "absol",
+    "normal": [
+      "Pressure",
+      "Super Luck"
+    ],
+    "hidden": [
+      "Justified"
+    ],
+    "types": [
+      "Dark"
+    ]
+  },
+  "Aegislash": {
+    "species": "Aegislash",
+    "api_name": "aegislash-shield",
+    "normal": [
+      "Stance Change"
+    ],
+    "hidden": [],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Beldum": {
+    "species": "Beldum",
+    "api_name": "beldum",
+    "normal": [
+      "Clear Body"
+    ],
+    "hidden": [
+      "Light Metal"
+    ],
+    "types": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  "Bayleef": {
+    "species": "Bayleef",
+    "api_name": "bayleef",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Leaf Guard"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Alolan-Geodude": {
+    "species": "Alolan-Geodude",
+    "api_name": "geodude-alola",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Galvanize"
+    ],
+    "types": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  "Ampharos": {
+    "species": "Ampharos",
+    "api_name": "ampharos",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Plus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Alakazam": {
+    "species": "Alakazam",
+    "api_name": "alakazam",
+    "normal": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Magic Guard"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Bellossom": {
+    "species": "Bellossom",
+    "api_name": "bellossom",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Healer"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Arbok": {
+    "species": "Arbok",
+    "api_name": "arbok",
+    "normal": [
+      "Intimidate",
+      "Shed Skin"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  "Abomasnow": {
+    "species": "Abomasnow",
+    "api_name": "abomasnow",
+    "normal": [
+      "Snow Warning"
+    ],
+    "hidden": [
+      "Soundproof"
+    ],
+    "types": [
+      "Grass",
+      "Ice"
+    ]
+  },
+  "Articuno": {
+    "species": "Articuno",
+    "api_name": "articuno",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Snow Cloak"
+    ],
+    "types": [
+      "Ice",
+      "Flying"
+    ]
+  },
+  "Beedrill": {
+    "species": "Beedrill",
+    "api_name": "beedrill",
+    "normal": [
+      "Swarm"
+    ],
+    "hidden": [
+      "Sniper"
+    ],
+    "types": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  "Blissey": {
+    "species": "Blissey",
+    "api_name": "blissey",
+    "normal": [
+      "Natural Cure",
+      "Serene Grace"
+    ],
+    "hidden": [
+      "Healer"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Blaziken": {
+    "species": "Blaziken",
+    "api_name": "blaziken",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Braixen": {
+    "species": "Braixen",
+    "api_name": "braixen",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Magician"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Bonsly": {
+    "species": "Bonsly",
+    "api_name": "bonsly",
+    "normal": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hidden": [
+      "Rattled"
+    ],
+    "types": [
+      "Rock"
+    ]
+  },
+  "Buzzwole": {
+    "species": "Buzzwole",
+    "api_name": "buzzwole",
+    "normal": [
+      "Beast Boost"
+    ],
+    "hidden": [],
+    "types": [
+      "Bug",
+      "Fighting"
+    ]
+  },
+  "Blastoise": {
+    "species": "Blastoise",
+    "api_name": "blastoise",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Rain Dish"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Baltoy": {
+    "species": "Baltoy",
+    "api_name": "baltoy",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ground",
+      "Psychic"
+    ]
+  },
+  "Breloom": {
+    "species": "Breloom",
+    "api_name": "breloom",
+    "normal": [
+      "Effect Spore",
+      "Poison Heal"
+    ],
+    "hidden": [
+      "Technician"
+    ],
+    "types": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  "Butterfree": {
+    "species": "Butterfree",
+    "api_name": "butterfree",
+    "normal": [
+      "Compound Eyes"
+    ],
+    "hidden": [
+      "Tinted Lens"
+    ],
+    "types": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  "Carvanha": {
+    "species": "Carvanha",
+    "api_name": "carvanha",
+    "normal": [
+      "Rough Skin"
+    ],
+    "hidden": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Water",
+      "Dark"
+    ]
+  },
+  "Chandelure": {
+    "species": "Chandelure",
+    "api_name": "chandelure",
+    "normal": [
+      "Flash Fire",
+      "Flame Body"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  "Alolan-Raichu": {
+    "species": "Alolan-Raichu",
+    "api_name": "raichu-alola",
+    "normal": [
+      "Surge Surfer"
+    ],
+    "hidden": [],
+    "types": [
+      "Electric",
+      "Psychic"
+    ]
+  },
+  "Bulbasaur": {
+    "species": "Bulbasaur",
+    "api_name": "bulbasaur",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Chlorophyll"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Bellsprout": {
+    "species": "Bellsprout",
+    "api_name": "bellsprout",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Gluttony"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Celebi": {
+    "species": "Celebi",
+    "api_name": "celebi",
+    "normal": [
+      "Natural Cure"
+    ],
+    "hidden": [],
+    "types": [
+      "Psychic",
+      "Grass"
+    ]
+  },
+  "Charmander": {
+    "species": "Charmander",
+    "api_name": "charmander",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Solar Power"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Chansey": {
+    "species": "Chansey",
+    "api_name": "chansey",
+    "normal": [
+      "Natural Cure",
+      "Serene Grace"
+    ],
+    "hidden": [
+      "Healer"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Charizard": {
+    "species": "Charizard",
+    "api_name": "charizard",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Solar Power"
+    ],
+    "types": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  "Caterpie": {
+    "species": "Caterpie",
+    "api_name": "caterpie",
+    "normal": [
+      "Shield Dust"
+    ],
+    "hidden": [
+      "Run Away"
+    ],
+    "types": [
+      "Bug"
+    ]
+  },
+  "Chimchar": {
+    "species": "Chimchar",
+    "api_name": "chimchar",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Iron Fist"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Clefable": {
+    "species": "Clefable",
+    "api_name": "clefable",
+    "normal": [
+      "Cute Charm",
+      "Magic Guard"
+    ],
+    "hidden": [
+      "Unaware"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Cloyster": {
+    "species": "Cloyster",
+    "api_name": "cloyster",
+    "normal": [
+      "Shell Armor",
+      "Skill Link"
+    ],
+    "hidden": [
+      "Overcoat"
+    ],
+    "types": [
+      "Water",
+      "Ice"
+    ]
+  },
+  "Croagunk": {
+    "species": "Croagunk",
+    "api_name": "croagunk",
+    "normal": [
+      "Anticipation",
+      "Dry Skin"
+    ],
+    "hidden": [
+      "Poison Touch"
+    ],
+    "types": [
+      "Poison",
+      "Fighting"
+    ]
+  },
+  "Croconaw": {
+    "species": "Croconaw",
+    "api_name": "croconaw",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Combusken": {
+    "species": "Combusken",
+    "api_name": "combusken",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Chikorita": {
+    "species": "Chikorita",
+    "api_name": "chikorita",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Leaf Guard"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Altaria": {
+    "species": "Altaria",
+    "api_name": "altaria",
+    "normal": [
+      "Natural Cure"
+    ],
+    "hidden": [
+      "Cloud Nine"
+    ],
+    "types": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  "Deoxys": {
+    "species": "Deoxys",
+    "api_name": "deoxys-normal",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Bisharp": {
+    "species": "Bisharp",
+    "api_name": "bisharp",
+    "normal": [
+      "Defiant",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Pressure"
+    ],
+    "types": [
+      "Dark",
+      "Steel"
+    ]
+  },
+  "Cradily": {
+    "species": "Cradily",
+    "api_name": "cradily",
+    "normal": [
+      "Suction Cups"
+    ],
+    "hidden": [
+      "Storm Drain"
+    ],
+    "types": [
+      "Rock",
+      "Grass"
+    ]
+  },
+  "Delphox": {
+    "species": "Delphox",
+    "api_name": "delphox",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Magician"
+    ],
+    "types": [
+      "Fire",
+      "Psychic"
+    ]
+  },
+  "Dewgong": {
+    "species": "Dewgong",
+    "api_name": "dewgong",
+    "normal": [
+      "Thick Fat",
+      "Hydration"
+    ],
+    "hidden": [
+      "Ice Body"
+    ],
+    "types": [
+      "Water",
+      "Ice"
+    ]
+  },
+  "Cyndaquil": {
+    "species": "Cyndaquil",
+    "api_name": "cyndaquil",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Flash Fire"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Clefairy": {
+    "species": "Clefairy",
+    "api_name": "clefairy",
+    "normal": [
+      "Cute Charm",
+      "Magic Guard"
+    ],
+    "hidden": [
+      "Friend Guard"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Cubone": {
+    "species": "Cubone",
+    "api_name": "cubone",
+    "normal": [
+      "Rock Head",
+      "Lightning Rod"
+    ],
+    "hidden": [
+      "Battle Armor"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Chinchou": {
+    "species": "Chinchou",
+    "api_name": "chinchou",
+    "normal": [
+      "Volt Absorb",
+      "Illuminate"
+    ],
+    "hidden": [
+      "Water Absorb"
+    ],
+    "types": [
+      "Water",
+      "Electric"
+    ]
+  },
+  "Darkrai": {
+    "species": "Darkrai",
+    "api_name": "darkrai",
+    "normal": [
+      "Bad Dreams"
+    ],
+    "hidden": [],
+    "types": [
+      "Dark"
+    ]
+  },
+  "Deino": {
+    "species": "Deino",
+    "api_name": "deino",
+    "normal": [
+      "Hustle"
+    ],
+    "hidden": [],
+    "types": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  "Darumaka": {
+    "species": "Darumaka",
+    "api_name": "darumaka",
+    "normal": [
+      "Hustle"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Doublade": {
+    "species": "Doublade",
+    "api_name": "doublade",
+    "normal": [
+      "No Guard"
+    ],
+    "hidden": [],
+    "types": [
+      "Steel",
+      "Ghost"
+    ]
+  },
+  "Diglett": {
+    "species": "Diglett",
+    "api_name": "diglett",
+    "normal": [
+      "Sand Veil",
+      "Arena Trap"
+    ],
+    "hidden": [
+      "Sand Force"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Chespin": {
+    "species": "Chespin",
+    "api_name": "chespin",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Bulletproof"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Dragonair": {
+    "species": "Dragonair",
+    "api_name": "dragonair",
+    "normal": [
+      "Shed Skin"
+    ],
+    "hidden": [
+      "Marvel Scale"
+    ],
+    "types": [
+      "Dragon"
+    ]
+  },
+  "Chesnaught": {
+    "species": "Chesnaught",
+    "api_name": "chesnaught",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Bulletproof"
+    ],
+    "types": [
+      "Grass",
+      "Fighting"
+    ]
+  },
+  "Dragonite": {
+    "species": "Dragonite",
+    "api_name": "dragonite",
+    "normal": [
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Multiscale"
+    ],
+    "types": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  "Dialga": {
+    "species": "Dialga",
+    "api_name": "dialga",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Steel",
+      "Dragon"
+    ]
+  },
+  "Dugtrio": {
+    "species": "Dugtrio",
+    "api_name": "dugtrio",
+    "normal": [
+      "Sand Veil",
+      "Arena Trap"
+    ],
+    "hidden": [
+      "Sand Force"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Drowzee": {
+    "species": "Drowzee",
+    "api_name": "drowzee",
+    "normal": [
+      "Insomnia",
+      "Forewarn"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Duskull": {
+    "species": "Duskull",
+    "api_name": "duskull",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [
+      "Frisk"
+    ],
+    "types": [
+      "Ghost"
+    ]
+  },
+  "Claydol": {
+    "species": "Claydol",
+    "api_name": "claydol",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ground",
+      "Psychic"
+    ]
+  },
+  "Eevee": {
+    "species": "Eevee",
+    "api_name": "eevee",
+    "normal": [
+      "Run Away",
+      "Adaptability"
+    ],
+    "hidden": [
+      "Anticipation"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Dusknoir": {
+    "species": "Dusknoir",
+    "api_name": "dusknoir",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Frisk"
+    ],
+    "types": [
+      "Ghost"
+    ]
+  },
+  "Electabuzz": {
+    "species": "Electabuzz",
+    "api_name": "electabuzz",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Elekid": {
+    "species": "Elekid",
+    "api_name": "elekid",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Dratini": {
+    "species": "Dratini",
+    "api_name": "dratini",
+    "normal": [
+      "Shed Skin"
+    ],
+    "hidden": [
+      "Marvel Scale"
+    ],
+    "types": [
+      "Dragon"
+    ]
+  },
+  "Electrode": {
+    "species": "Electrode",
+    "api_name": "electrode",
+    "normal": [
+      "Soundproof",
+      "Static"
+    ],
+    "hidden": [
+      "Aftermath"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Empoleon": {
+    "species": "Empoleon",
+    "api_name": "empoleon",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Competitive"
+    ],
+    "types": [
+      "Water",
+      "Steel"
+    ]
+  },
+  "Entei": {
+    "species": "Entei",
+    "api_name": "entei",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Electrike": {
+    "species": "Electrike",
+    "api_name": "electrike",
+    "normal": [
+      "Static",
+      "Lightning Rod"
+    ],
+    "hidden": [
+      "Minus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Espeon": {
+    "species": "Espeon",
+    "api_name": "espeon",
+    "normal": [
+      "Synchronize"
+    ],
+    "hidden": [
+      "Magic Bounce"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Fennekin": {
+    "species": "Fennekin",
+    "api_name": "fennekin",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Magician"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Darmanitan": {
+    "species": "Darmanitan",
+    "api_name": "darmanitan-standard",
+    "normal": [
+      "Sheer Force"
+    ],
+    "hidden": [
+      "Zen Mode"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Exeggcute": {
+    "species": "Exeggcute",
+    "api_name": "exeggcute",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Harvest"
+    ],
+    "types": [
+      "Grass",
+      "Psychic"
+    ]
+  },
+  "Charmeleon": {
+    "species": "Charmeleon",
+    "api_name": "charmeleon",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Solar Power"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Froakie": {
+    "species": "Froakie",
+    "api_name": "froakie",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Protean"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Ditto": {
+    "species": "Ditto",
+    "api_name": "ditto",
+    "normal": [
+      "Limber"
+    ],
+    "hidden": [
+      "Imposter"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Emboar": {
+    "species": "Emboar",
+    "api_name": "emboar",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Reckless"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Gabite": {
+    "species": "Gabite",
+    "api_name": "gabite",
+    "normal": [
+      "Sand Veil"
+    ],
+    "hidden": [
+      "Rough Skin"
+    ],
+    "types": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  "Flareon": {
+    "species": "Flareon",
+    "api_name": "flareon",
+    "normal": [
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Guts"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Feebas": {
+    "species": "Feebas",
+    "api_name": "feebas",
+    "normal": [
+      "Swift Swim",
+      "Oblivious"
+    ],
+    "hidden": [
+      "Adaptability"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Frogadier": {
+    "species": "Frogadier",
+    "api_name": "frogadier",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Protean"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Flygon": {
+    "species": "Flygon",
+    "api_name": "flygon",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ground",
+      "Dragon"
+    ]
+  },
+  "Galvantula": {
+    "species": "Galvantula",
+    "api_name": "galvantula",
+    "normal": [
+      "Compound Eyes",
+      "Unnerve"
+    ],
+    "hidden": [
+      "Swarm"
+    ],
+    "types": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  "Garchomp": {
+    "species": "Garchomp",
+    "api_name": "garchomp",
+    "normal": [
+      "Sand Veil"
+    ],
+    "hidden": [
+      "Rough Skin"
+    ],
+    "types": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  "Farfetch'd": {
+    "species": "Farfetch'd",
+    "api_name": "farfetchd",
+    "normal": [
+      "Keen Eye",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Defiant"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Flaaffy": {
+    "species": "Flaaffy",
+    "api_name": "flaaffy",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Plus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Gastly": {
+    "species": "Gastly",
+    "api_name": "gastly",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  "Gardevoir": {
+    "species": "Gardevoir",
+    "api_name": "gardevoir",
+    "normal": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  "Dusclops": {
+    "species": "Dusclops",
+    "api_name": "dusclops",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Frisk"
+    ],
+    "types": [
+      "Ghost"
+    ]
+  },
+  "Gible": {
+    "species": "Gible",
+    "api_name": "gible",
+    "normal": [
+      "Sand Veil"
+    ],
+    "hidden": [
+      "Rough Skin"
+    ],
+    "types": [
+      "Dragon",
+      "Ground"
+    ]
+  },
+  "Geodude": {
+    "species": "Geodude",
+    "api_name": "geodude",
+    "normal": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Sand Veil"
+    ],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Ekans": {
+    "species": "Ekans",
+    "api_name": "ekans",
+    "normal": [
+      "Intimidate",
+      "Shed Skin"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  "Electivire": {
+    "species": "Electivire",
+    "api_name": "electivire",
+    "normal": [
+      "Motor Drive"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Graveler": {
+    "species": "Graveler",
+    "api_name": "graveler",
+    "normal": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Sand Veil"
+    ],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Gengar": {
+    "species": "Gengar",
+    "api_name": "gengar",
+    "normal": [
+      "Cursed Body"
+    ],
+    "hidden": [],
+    "types": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  "Grotle": {
+    "species": "Grotle",
+    "api_name": "grotle",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Shell Armor"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Greninja": {
+    "species": "Greninja",
+    "api_name": "greninja",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Protean"
+    ],
+    "types": [
+      "Water",
+      "Dark"
+    ]
+  },
+  "Giratina": {
+    "species": "Giratina",
+    "api_name": "giratina-altered",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Granbull": {
+    "species": "Granbull",
+    "api_name": "granbull",
+    "normal": [
+      "Intimidate",
+      "Quick Feet"
+    ],
+    "hidden": [
+      "Rattled"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Groudon": {
+    "species": "Groudon",
+    "api_name": "groudon",
+    "normal": [
+      "Drought"
+    ],
+    "hidden": [],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Growlithe": {
+    "species": "Growlithe",
+    "api_name": "growlithe",
+    "normal": [
+      "Intimidate",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Justified"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Gyarados": {
+    "species": "Gyarados",
+    "api_name": "gyarados",
+    "normal": [
+      "Intimidate"
+    ],
+    "hidden": [
+      "Moxie"
+    ],
+    "types": [
+      "Water",
+      "Flying"
+    ]
+  },
+  "Hitmonchan": {
+    "species": "Hitmonchan",
+    "api_name": "hitmonchan",
+    "normal": [
+      "Keen Eye",
+      "Iron Fist"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Honedge": {
+    "species": "Honedge",
+    "api_name": "honedge",
+    "normal": [
+      "No Guard"
+    ],
+    "hidden": [],
+    "types": [
+      "Steel",
+      "Ghost"
+    ]
+  },
+  "Ho-Oh": {
+    "species": "Ho-Oh",
+    "api_name": "ho-oh",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  "Feraligatr": {
+    "species": "Feraligatr",
+    "api_name": "feraligatr",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Golduck": {
+    "species": "Golduck",
+    "api_name": "golduck",
+    "normal": [
+      "Damp",
+      "Cloud Nine"
+    ],
+    "hidden": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Exeggutor": {
+    "species": "Exeggutor",
+    "api_name": "exeggutor",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Harvest"
+    ],
+    "types": [
+      "Grass",
+      "Psychic"
+    ]
+  },
+  "Horsea": {
+    "species": "Horsea",
+    "api_name": "horsea",
+    "normal": [
+      "Swift Swim",
+      "Sniper"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Grovyle": {
+    "species": "Grovyle",
+    "api_name": "grovyle",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Unburden"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Gallade": {
+    "species": "Gallade",
+    "api_name": "gallade",
+    "normal": [
+      "Steadfast",
+      "Sharpness"
+    ],
+    "hidden": [
+      "Justified"
+    ],
+    "types": [
+      "Psychic",
+      "Fighting"
+    ]
+  },
+  "Haunter": {
+    "species": "Haunter",
+    "api_name": "haunter",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ghost",
+      "Poison"
+    ]
+  },
+  "Golbat": {
+    "species": "Golbat",
+    "api_name": "golbat",
+    "normal": [
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  "Incineroar": {
+    "species": "Incineroar",
+    "api_name": "incineroar",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Intimidate"
+    ],
+    "types": [
+      "Fire",
+      "Dark"
+    ]
+  },
+  "Infernape": {
+    "species": "Infernape",
+    "api_name": "infernape",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Iron Fist"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Joltik": {
+    "species": "Joltik",
+    "api_name": "joltik",
+    "normal": [
+      "Compound Eyes",
+      "Unnerve"
+    ],
+    "hidden": [
+      "Swarm"
+    ],
+    "types": [
+      "Bug",
+      "Electric"
+    ]
+  },
+  "Gloom": {
+    "species": "Gloom",
+    "api_name": "gloom",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Stench"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Ivysaur": {
+    "species": "Ivysaur",
+    "api_name": "ivysaur",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Chlorophyll"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Jolteon": {
+    "species": "Jolteon",
+    "api_name": "jolteon",
+    "normal": [
+      "Volt Absorb"
+    ],
+    "hidden": [
+      "Quick Feet"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Jirachi": {
+    "species": "Jirachi",
+    "api_name": "jirachi",
+    "normal": [
+      "Serene Grace"
+    ],
+    "hidden": [],
+    "types": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  "Jigglypuff": {
+    "species": "Jigglypuff",
+    "api_name": "jigglypuff",
+    "normal": [
+      "Cute Charm",
+      "Competitive"
+    ],
+    "hidden": [
+      "Friend Guard"
+    ],
+    "types": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  "Crobat": {
+    "species": "Crobat",
+    "api_name": "crobat",
+    "normal": [
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  "Jynx": {
+    "species": "Jynx",
+    "api_name": "jynx",
+    "normal": [
+      "Oblivious",
+      "Forewarn"
+    ],
+    "hidden": [
+      "Dry Skin"
+    ],
+    "types": [
+      "Ice",
+      "Psychic"
+    ]
+  },
+  "Kakuna": {
+    "species": "Kakuna",
+    "api_name": "kakuna",
+    "normal": [
+      "Shed Skin"
+    ],
+    "hidden": [],
+    "types": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  "Glaceon": {
+    "species": "Glaceon",
+    "api_name": "glaceon",
+    "normal": [
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Ice Body"
+    ],
+    "types": [
+      "Ice"
+    ]
+  },
+  "Kingambit": {
+    "species": "Kingambit",
+    "api_name": "kingambit",
+    "normal": [
+      "Defiant",
+      "Supreme Overlord"
+    ],
+    "hidden": [
+      "Pressure"
+    ],
+    "types": [
+      "Dark",
+      "Steel"
+    ]
+  },
+  "Houndour": {
+    "species": "Houndour",
+    "api_name": "houndour",
+    "normal": [
+      "Early Bird",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Dark",
+      "Fire"
+    ]
+  },
+  "Kabuto": {
+    "species": "Kabuto",
+    "api_name": "kabuto",
+    "normal": [
+      "Swift Swim",
+      "Battle Armor"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Rock",
+      "Water"
+    ]
+  },
+  "Kangaskhan": {
+    "species": "Kangaskhan",
+    "api_name": "kangaskhan",
+    "normal": [
+      "Early Bird",
+      "Scrappy"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Kabutops": {
+    "species": "Kabutops",
+    "api_name": "kabutops",
+    "normal": [
+      "Swift Swim",
+      "Battle Armor"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Rock",
+      "Water"
+    ]
+  },
+  "Kingler": {
+    "species": "Kingler",
+    "api_name": "kingler",
+    "normal": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Golem": {
+    "species": "Golem",
+    "api_name": "golem",
+    "normal": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Sand Veil"
+    ],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Heracross": {
+    "species": "Heracross",
+    "api_name": "heracross",
+    "normal": [
+      "Swarm",
+      "Guts"
+    ],
+    "hidden": [
+      "Moxie"
+    ],
+    "types": [
+      "Bug",
+      "Fighting"
+    ]
+  },
+  "Hitmontop": {
+    "species": "Hitmontop",
+    "api_name": "hitmontop",
+    "normal": [
+      "Intimidate",
+      "Technician"
+    ],
+    "hidden": [
+      "Steadfast"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Kingdra": {
+    "species": "Kingdra",
+    "api_name": "kingdra",
+    "normal": [
+      "Swift Swim",
+      "Sniper"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water",
+      "Dragon"
+    ]
+  },
+  "Lampent": {
+    "species": "Lampent",
+    "api_name": "lampent",
+    "normal": [
+      "Flash Fire",
+      "Flame Body"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  "Kirlia": {
+    "species": "Kirlia",
+    "api_name": "kirlia",
+    "normal": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  "Kyogre": {
+    "species": "Kyogre",
+    "api_name": "kyogre",
+    "normal": [
+      "Drizzle"
+    ],
+    "hidden": [],
+    "types": [
+      "Water"
+    ]
+  },
+  "Kadabra": {
+    "species": "Kadabra",
+    "api_name": "kadabra",
+    "normal": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Magic Guard"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Larvitar": {
+    "species": "Larvitar",
+    "api_name": "larvitar",
+    "normal": [
+      "Guts"
+    ],
+    "hidden": [
+      "Sand Veil"
+    ],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Lapras": {
+    "species": "Lapras",
+    "api_name": "lapras",
+    "normal": [
+      "Water Absorb",
+      "Shell Armor"
+    ],
+    "hidden": [
+      "Hydration"
+    ],
+    "types": [
+      "Water",
+      "Ice"
+    ]
+  },
+  "Koffing": {
+    "species": "Koffing",
+    "api_name": "koffing",
+    "normal": [
+      "Levitate",
+      "Neutralizing Gas"
+    ],
+    "hidden": [
+      "Stench"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  "Hypno": {
+    "species": "Hypno",
+    "api_name": "hypno",
+    "normal": [
+      "Insomnia",
+      "Forewarn"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Krabby": {
+    "species": "Krabby",
+    "api_name": "krabby",
+    "normal": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Lombre": {
+    "species": "Lombre",
+    "api_name": "lombre",
+    "normal": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hidden": [
+      "Own Tempo"
+    ],
+    "types": [
+      "Water",
+      "Grass"
+    ]
+  },
+  "Latias & Latios": {
+    "species": "Latias & Latios",
+    "api_name": "latias",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Lotad": {
+    "species": "Lotad",
+    "api_name": "lotad",
+    "normal": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hidden": [
+      "Own Tempo"
+    ],
+    "types": [
+      "Water",
+      "Grass"
+    ]
+  },
+  "Lanturn": {
+    "species": "Lanturn",
+    "api_name": "lanturn",
+    "normal": [
+      "Volt Absorb",
+      "Illuminate"
+    ],
+    "hidden": [
+      "Water Absorb"
+    ],
+    "types": [
+      "Water",
+      "Electric"
+    ]
+  },
+  "Hydreigon": {
+    "species": "Hydreigon",
+    "api_name": "hydreigon",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  "Lucario": {
+    "species": "Lucario",
+    "api_name": "lucario",
+    "normal": [
+      "Steadfast",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Justified"
+    ],
+    "types": [
+      "Fighting",
+      "Steel"
+    ]
+  },
+  "Lileep": {
+    "species": "Lileep",
+    "api_name": "lileep",
+    "normal": [
+      "Suction Cups"
+    ],
+    "hidden": [
+      "Storm Drain"
+    ],
+    "types": [
+      "Rock",
+      "Grass"
+    ]
+  },
+  "Magikarp": {
+    "species": "Magikarp",
+    "api_name": "magikarp",
+    "normal": [
+      "Swift Swim"
+    ],
+    "hidden": [
+      "Rattled"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Machoke": {
+    "species": "Machoke",
+    "api_name": "machoke",
+    "normal": [
+      "Guts",
+      "No Guard"
+    ],
+    "hidden": [
+      "Steadfast"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Machop": {
+    "species": "Machop",
+    "api_name": "machop",
+    "normal": [
+      "Guts",
+      "No Guard"
+    ],
+    "hidden": [
+      "Steadfast"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Hitmonlee": {
+    "species": "Hitmonlee",
+    "api_name": "hitmonlee",
+    "normal": [
+      "Limber",
+      "Reckless"
+    ],
+    "hidden": [
+      "Unburden"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Magneton": {
+    "species": "Magneton",
+    "api_name": "magneton",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  "Houndoom": {
+    "species": "Houndoom",
+    "api_name": "houndoom",
+    "normal": [
+      "Early Bird",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Dark",
+      "Fire"
+    ]
+  },
+  "Magnezone": {
+    "species": "Magnezone",
+    "api_name": "magnezone",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  "Litten": {
+    "species": "Litten",
+    "api_name": "litten",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Intimidate"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Mamoswine": {
+    "species": "Mamoswine",
+    "api_name": "mamoswine",
+    "normal": [
+      "Oblivious",
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Thick Fat"
+    ],
+    "types": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  "Magby": {
+    "species": "Magby",
+    "api_name": "magby",
+    "normal": [
+      "Flame Body"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Ludicolo": {
+    "species": "Ludicolo",
+    "api_name": "ludicolo",
+    "normal": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hidden": [
+      "Own Tempo"
+    ],
+    "types": [
+      "Water",
+      "Grass"
+    ]
+  },
+  "Mareep": {
+    "species": "Mareep",
+    "api_name": "mareep",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Plus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Meganium": {
+    "species": "Meganium",
+    "api_name": "meganium",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Leaf Guard"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Leafeon": {
+    "species": "Leafeon",
+    "api_name": "leafeon",
+    "normal": [
+      "Leaf Guard"
+    ],
+    "hidden": [
+      "Chlorophyll"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Metapod": {
+    "species": "Metapod",
+    "api_name": "metapod",
+    "normal": [
+      "Shed Skin"
+    ],
+    "hidden": [],
+    "types": [
+      "Bug"
+    ]
+  },
+  "Meowth": {
+    "species": "Meowth",
+    "api_name": "meowth",
+    "normal": [
+      "Pickup",
+      "Technician"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Metagross": {
+    "species": "Metagross",
+    "api_name": "metagross",
+    "normal": [
+      "Clear Body"
+    ],
+    "hidden": [
+      "Light Metal"
+    ],
+    "types": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  "Mewtwo": {
+    "species": "Mewtwo",
+    "api_name": "mewtwo",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Marowak": {
+    "species": "Marowak",
+    "api_name": "marowak",
+    "normal": [
+      "Rock Head",
+      "Lightning Rod"
+    ],
+    "hidden": [
+      "Battle Armor"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Lugia": {
+    "species": "Lugia",
+    "api_name": "lugia",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Multiscale"
+    ],
+    "types": [
+      "Psychic",
+      "Flying"
+    ]
+  },
+  "Machamp": {
+    "species": "Machamp",
+    "api_name": "machamp",
+    "normal": [
+      "Guts",
+      "No Guard"
+    ],
+    "hidden": [
+      "Steadfast"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Moltres": {
+    "species": "Moltres",
+    "api_name": "moltres",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Flame Body"
+    ],
+    "types": [
+      "Fire",
+      "Flying"
+    ]
+  },
+  "Magcargo": {
+    "species": "Magcargo",
+    "api_name": "magcargo",
+    "normal": [
+      "Magma Armor",
+      "Flame Body"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  "Magmortar": {
+    "species": "Magmortar",
+    "api_name": "magmortar",
+    "normal": [
+      "Flame Body"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Mr. Mime": {
+    "species": "Mr. Mime",
+    "api_name": "mr-mime",
+    "normal": [
+      "Soundproof",
+      "Filter"
+    ],
+    "hidden": [
+      "Technician"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  "Mismagius": {
+    "species": "Mismagius",
+    "api_name": "mismagius",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ghost"
+    ]
+  },
+  "Leafleon": {
+    "species": "Leafleon",
+    "api_name": "leafeon",
+    "normal": [
+      "Leaf Guard"
+    ],
+    "hidden": [
+      "Chlorophyll"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Metang": {
+    "species": "Metang",
+    "api_name": "metang",
+    "normal": [
+      "Clear Body"
+    ],
+    "hidden": [
+      "Light Metal"
+    ],
+    "types": [
+      "Steel",
+      "Psychic"
+    ]
+  },
+  "Misdreavus": {
+    "species": "Misdreavus",
+    "api_name": "misdreavus",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ghost"
+    ]
+  },
+  "Mew": {
+    "species": "Mew",
+    "api_name": "mew",
+    "normal": [
+      "Synchronize"
+    ],
+    "hidden": [],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Mr.mime": {
+    "species": "Mr.mime",
+    "api_name": "mr-mime",
+    "normal": [
+      "Soundproof",
+      "Filter"
+    ],
+    "hidden": [
+      "Technician"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Nidorino": {
+    "species": "Nidorino",
+    "api_name": "nidorino",
+    "normal": [
+      "Poison Point",
+      "Rivalry"
+    ],
+    "hidden": [
+      "Hustle"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  "Nidoran": {
+    "species": "Nidoran",
+    "api_name": "nidoran-m",
+    "normal": [
+      "Poison Point",
+      "Rivalry"
+    ],
+    "hidden": [
+      "Hustle"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Mudkip": {
+    "species": "Mudkip",
+    "api_name": "mudkip",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Ninjask": {
+    "species": "Ninjask",
+    "api_name": "ninjask",
+    "normal": [
+      "Speed Boost"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  "Ninetales": {
+    "species": "Ninetales",
+    "api_name": "ninetales",
+    "normal": [
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Drought"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Omanyte": {
+    "species": "Omanyte",
+    "api_name": "omanyte",
+    "normal": [
+      "Swift Swim",
+      "Shell Armor"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Rock",
+      "Water"
+    ]
+  },
+  "Hoothoot": {
+    "species": "Hoothoot",
+    "api_name": "hoothoot",
+    "normal": [
+      "Insomnia",
+      "Keen Eye"
+    ],
+    "hidden": [
+      "Tinted Lens"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Onix": {
+    "species": "Onix",
+    "api_name": "onix",
+    "normal": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Nidoking": {
+    "species": "Nidoking",
+    "api_name": "nidoking",
+    "normal": [
+      "Poison Point",
+      "Rivalry"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Poison",
+      "Ground"
+    ]
+  },
+  "Omastar": {
+    "species": "Omastar",
+    "api_name": "omastar",
+    "normal": [
+      "Swift Swim",
+      "Shell Armor"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Rock",
+      "Water"
+    ]
+  },
+  "Palkia": {
+    "species": "Palkia",
+    "api_name": "palkia",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Water",
+      "Dragon"
+    ]
+  },
+  "Monferno": {
+    "species": "Monferno",
+    "api_name": "monferno",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Iron Fist"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Pawniard": {
+    "species": "Pawniard",
+    "api_name": "pawniard",
+    "normal": [
+      "Defiant",
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Pressure"
+    ],
+    "types": [
+      "Dark",
+      "Steel"
+    ]
+  },
+  "Nincada": {
+    "species": "Nincada",
+    "api_name": "nincada",
+    "normal": [
+      "Compound Eyes"
+    ],
+    "hidden": [
+      "Run Away"
+    ],
+    "types": [
+      "Bug",
+      "Ground"
+    ]
+  },
+  "Magnemite": {
+    "species": "Magnemite",
+    "api_name": "magnemite",
+    "normal": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Electric",
+      "Steel"
+    ]
+  },
+  "Milotic": {
+    "species": "Milotic",
+    "api_name": "milotic",
+    "normal": [
+      "Marvel Scale",
+      "Competitive"
+    ],
+    "hidden": [
+      "Cute Charm"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Pidgeot": {
+    "species": "Pidgeot",
+    "api_name": "pidgeot",
+    "normal": [
+      "Keen Eye",
+      "Tangled Feet"
+    ],
+    "hidden": [
+      "Big Pecks"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Pidgeotto": {
+    "species": "Pidgeotto",
+    "api_name": "pidgeotto",
+    "normal": [
+      "Keen Eye",
+      "Tangled Feet"
+    ],
+    "hidden": [
+      "Big Pecks"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Pidgey": {
+    "species": "Pidgey",
+    "api_name": "pidgey",
+    "normal": [
+      "Keen Eye",
+      "Tangled Feet"
+    ],
+    "hidden": [
+      "Big Pecks"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Noctowl": {
+    "species": "Noctowl",
+    "api_name": "noctowl",
+    "normal": [
+      "Insomnia",
+      "Keen Eye"
+    ],
+    "hidden": [
+      "Tinted Lens"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Piloswine": {
+    "species": "Piloswine",
+    "api_name": "piloswine",
+    "normal": [
+      "Oblivious",
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Thick Fat"
+    ],
+    "types": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  "Pinsir": {
+    "species": "Pinsir",
+    "api_name": "pinsir",
+    "normal": [
+      "Hyper Cutter",
+      "Mold Breaker"
+    ],
+    "hidden": [
+      "Moxie"
+    ],
+    "types": [
+      "Bug"
+    ]
+  },
+  "Oddish": {
+    "species": "Oddish",
+    "api_name": "oddish",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Run Away"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Pikachu": {
+    "species": "Pikachu",
+    "api_name": "pikachu",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Lightning Rod"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Ponyta": {
+    "species": "Ponyta",
+    "api_name": "ponyta",
+    "normal": [
+      "Run Away",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Flame Body"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Prinplup": {
+    "species": "Prinplup",
+    "api_name": "prinplup",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Competitive"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Politoed": {
+    "species": "Politoed",
+    "api_name": "politoed",
+    "normal": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hidden": [
+      "Drizzle"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Poliwhirl": {
+    "species": "Poliwhirl",
+    "api_name": "poliwhirl",
+    "normal": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hidden": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Quilava": {
+    "species": "Quilava",
+    "api_name": "quilava",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Flash Fire"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Porygon2": {
+    "species": "Porygon2",
+    "api_name": "porygon2",
+    "normal": [
+      "Trace",
+      "Download"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Raichu": {
+    "species": "Raichu",
+    "api_name": "raichu",
+    "normal": [
+      "Static"
+    ],
+    "hidden": [
+      "Lightning Rod"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Primeape": {
+    "species": "Primeape",
+    "api_name": "primeape",
+    "normal": [
+      "Vital Spirit",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Defiant"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Raikou": {
+    "species": "Raikou",
+    "api_name": "raikou",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Pupitar": {
+    "species": "Pupitar",
+    "api_name": "pupitar",
+    "normal": [
+      "Shed Skin"
+    ],
+    "hidden": [],
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  "Ralts": {
+    "species": "Ralts",
+    "api_name": "ralts",
+    "normal": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Psychic",
+      "Fairy"
+    ]
+  },
+  "Rapidash": {
+    "species": "Rapidash",
+    "api_name": "rapidash",
+    "normal": [
+      "Run Away",
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Flame Body"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Magmar": {
+    "species": "Magmar",
+    "api_name": "magmar",
+    "normal": [
+      "Flame Body"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Piplup": {
+    "species": "Piplup",
+    "api_name": "piplup",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Competitive"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Rattata": {
+    "species": "Rattata",
+    "api_name": "rattata",
+    "normal": [
+      "Run Away",
+      "Guts"
+    ],
+    "hidden": [
+      "Hustle"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Regigigas": {
+    "species": "Regigigas",
+    "api_name": "regigigas",
+    "normal": [
+      "Slow Start"
+    ],
+    "hidden": [],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Persian": {
+    "species": "Persian",
+    "api_name": "persian",
+    "normal": [
+      "Limber",
+      "Technician"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Manectric": {
+    "species": "Manectric",
+    "api_name": "manectric",
+    "normal": [
+      "Static",
+      "Lightning Rod"
+    ],
+    "hidden": [
+      "Minus"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Raticate": {
+    "species": "Raticate",
+    "api_name": "raticate",
+    "normal": [
+      "Run Away",
+      "Guts"
+    ],
+    "hidden": [
+      "Hustle"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Poliwag": {
+    "species": "Poliwag",
+    "api_name": "poliwag",
+    "normal": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hidden": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Pignite": {
+    "species": "Pignite",
+    "api_name": "pignite",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Thick Fat"
+    ],
+    "types": [
+      "Fire",
+      "Fighting"
+    ]
+  },
+  "Rhydon": {
+    "species": "Rhydon",
+    "api_name": "rhydon",
+    "normal": [
+      "Lightning Rod",
+      "Rock Head"
+    ],
+    "hidden": [
+      "Reckless"
+    ],
+    "types": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  "Sableye": {
+    "species": "Sableye",
+    "api_name": "sableye",
+    "normal": [
+      "Keen Eye",
+      "Stall"
+    ],
+    "hidden": [
+      "Prankster"
+    ],
+    "types": [
+      "Dark",
+      "Ghost"
+    ]
+  },
+  "Rhyperior": {
+    "species": "Rhyperior",
+    "api_name": "rhyperior",
+    "normal": [
+      "Lightning Rod",
+      "Solid Rock"
+    ],
+    "hidden": [
+      "Reckless"
+    ],
+    "types": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  "Rhyhorn": {
+    "species": "Rhyhorn",
+    "api_name": "rhyhorn",
+    "normal": [
+      "Lightning Rod",
+      "Rock Head"
+    ],
+    "hidden": [
+      "Reckless"
+    ],
+    "types": [
+      "Ground",
+      "Rock"
+    ]
+  },
+  "Marshtomp": {
+    "species": "Marshtomp",
+    "api_name": "marshtomp",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water",
+      "Ground"
+    ]
+  },
+  "Mankey": {
+    "species": "Mankey",
+    "api_name": "mankey",
+    "normal": [
+      "Vital Spirit",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Defiant"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Regirock": {
+    "species": "Regirock",
+    "api_name": "regirock",
+    "normal": [
+      "Clear Body"
+    ],
+    "hidden": [
+      "Sturdy"
+    ],
+    "types": [
+      "Rock"
+    ]
+  },
+  "Sandshrew": {
+    "species": "Sandshrew",
+    "api_name": "sandshrew",
+    "normal": [
+      "Sand Veil"
+    ],
+    "hidden": [
+      "Sand Rush"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Sceptile": {
+    "species": "Sceptile",
+    "api_name": "sceptile",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Unburden"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Quilladin": {
+    "species": "Quilladin",
+    "api_name": "quilladin",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Bulletproof"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Scizor": {
+    "species": "Scizor",
+    "api_name": "scizor",
+    "normal": [
+      "Swarm",
+      "Technician"
+    ],
+    "hidden": [
+      "Light Metal"
+    ],
+    "types": [
+      "Bug",
+      "Steel"
+    ]
+  },
+  "Serperior": {
+    "species": "Serperior",
+    "api_name": "serperior",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Contrary"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Porygon": {
+    "species": "Porygon",
+    "api_name": "porygon",
+    "normal": [
+      "Trace",
+      "Download"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Servine": {
+    "species": "Servine",
+    "api_name": "servine",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Contrary"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Rayquaza": {
+    "species": "Rayquaza",
+    "api_name": "rayquaza",
+    "normal": [
+      "Air Lock"
+    ],
+    "hidden": [],
+    "types": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  "Seadra": {
+    "species": "Seadra",
+    "api_name": "seadra",
+    "normal": [
+      "Poison Point",
+      "Sniper"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Sirfetch'd": {
+    "species": "Sirfetch'd",
+    "api_name": "sirfetchd",
+    "normal": [
+      "Steadfast"
+    ],
+    "hidden": [
+      "Scrappy"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Shedinja": {
+    "species": "Shedinja",
+    "api_name": "shedinja",
+    "normal": [
+      "Wonder Guard"
+    ],
+    "hidden": [],
+    "types": [
+      "Bug",
+      "Ghost"
+    ]
+  },
+  "Shelgon": {
+    "species": "Shelgon",
+    "api_name": "shelgon",
+    "normal": [
+      "Rock Head"
+    ],
+    "hidden": [
+      "Overcoat"
+    ],
+    "types": [
+      "Dragon"
+    ]
+  },
+  "Sharpedo": {
+    "species": "Sharpedo",
+    "api_name": "sharpedo",
+    "normal": [
+      "Rough Skin"
+    ],
+    "hidden": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Water",
+      "Dark"
+    ]
+  },
+  "Shroomish": {
+    "species": "Shroomish",
+    "api_name": "shroomish",
+    "normal": [
+      "Effect Spore",
+      "Poison Heal"
+    ],
+    "hidden": [
+      "Quick Feet"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Shellder": {
+    "species": "Shellder",
+    "api_name": "shellder",
+    "normal": [
+      "Shell Armor",
+      "Skill Link"
+    ],
+    "hidden": [
+      "Overcoat"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Slowbro": {
+    "species": "Slowbro",
+    "api_name": "slowbro",
+    "normal": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  "Slowking": {
+    "species": "Slowking",
+    "api_name": "slowking",
+    "normal": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  "Slowpoke": {
+    "species": "Slowpoke",
+    "api_name": "slowpoke",
+    "normal": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  "Slugma": {
+    "species": "Slugma",
+    "api_name": "slugma",
+    "normal": [
+      "Magma Armor",
+      "Flame Body"
+    ],
+    "hidden": [
+      "Weak Armor"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Snover": {
+    "species": "Snover",
+    "api_name": "snover",
+    "normal": [
+      "Snow Warning"
+    ],
+    "hidden": [
+      "Soundproof"
+    ],
+    "types": [
+      "Grass",
+      "Ice"
+    ]
+  },
+  "Squirtle": {
+    "species": "Squirtle",
+    "api_name": "squirtle",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Rain Dish"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Psyduck": {
+    "species": "Psyduck",
+    "api_name": "psyduck",
+    "normal": [
+      "Damp",
+      "Cloud Nine"
+    ],
+    "hidden": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Snubbull": {
+    "species": "Snubbull",
+    "api_name": "snubbull",
+    "normal": [
+      "Intimidate",
+      "Run Away"
+    ],
+    "hidden": [
+      "Rattled"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Starmie": {
+    "species": "Starmie",
+    "api_name": "starmie",
+    "normal": [
+      "Illuminate",
+      "Natural Cure"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Water",
+      "Psychic"
+    ]
+  },
+  "Staryu": {
+    "species": "Staryu",
+    "api_name": "staryu",
+    "normal": [
+      "Illuminate",
+      "Natural Cure"
+    ],
+    "hidden": [
+      "Analytic"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Sylveon": {
+    "species": "Sylveon",
+    "api_name": "sylveon",
+    "normal": [
+      "Cute Charm"
+    ],
+    "hidden": [
+      "Pixilate"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Snorlax": {
+    "species": "Snorlax",
+    "api_name": "snorlax",
+    "normal": [
+      "Immunity",
+      "Thick Fat"
+    ],
+    "hidden": [
+      "Gluttony"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Swampert": {
+    "species": "Swampert",
+    "api_name": "swampert",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Damp"
+    ],
+    "types": [
+      "Water",
+      "Ground"
+    ]
+  },
+  "Scyther": {
+    "species": "Scyther",
+    "api_name": "scyther",
+    "normal": [
+      "Swarm",
+      "Technician"
+    ],
+    "hidden": [
+      "Steadfast"
+    ],
+    "types": [
+      "Bug",
+      "Flying"
+    ]
+  },
+  "Sandslash": {
+    "species": "Sandslash",
+    "api_name": "sandslash",
+    "normal": [
+      "Sand Veil"
+    ],
+    "hidden": [
+      "Sand Rush"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Smoochum": {
+    "species": "Smoochum",
+    "api_name": "smoochum",
+    "normal": [
+      "Oblivious",
+      "Forewarn"
+    ],
+    "hidden": [
+      "Hydration"
+    ],
+    "types": [
+      "Ice",
+      "Psychic"
+    ]
+  },
+  "Salamence": {
+    "species": "Salamence",
+    "api_name": "salamence",
+    "normal": [
+      "Intimidate"
+    ],
+    "hidden": [
+      "Moxie"
+    ],
+    "types": [
+      "Dragon",
+      "Flying"
+    ]
+  },
+  "Sudowoodo": {
+    "species": "Sudowoodo",
+    "api_name": "sudowoodo",
+    "normal": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hidden": [
+      "Rattled"
+    ],
+    "types": [
+      "Rock"
+    ]
+  },
+  "Swablu": {
+    "species": "Swablu",
+    "api_name": "swablu",
+    "normal": [
+      "Natural Cure"
+    ],
+    "hidden": [
+      "Cloud Nine"
+    ],
+    "types": [
+      "Normal",
+      "Flying"
+    ]
+  },
+  "Tauros": {
+    "species": "Tauros",
+    "api_name": "tauros",
+    "normal": [
+      "Intimidate",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Tauros Aqua": {
+    "species": "Tauros Aqua",
+    "api_name": "tauros-paldea-aqua-breed",
+    "normal": [
+      "Intimidate",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Cud Chew"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Seel": {
+    "species": "Seel",
+    "api_name": "seel",
+    "normal": [
+      "Thick Fat",
+      "Hydration"
+    ],
+    "hidden": [
+      "Ice Body"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Tauros Blaze": {
+    "species": "Tauros Blaze",
+    "api_name": "tauros-paldea-blaze-breed",
+    "normal": [
+      "Intimidate",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Cud Chew"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Togekiss": {
+    "species": "Togekiss",
+    "api_name": "togekiss",
+    "normal": [
+      "Hustle",
+      "Serene Grace"
+    ],
+    "hidden": [
+      "Super Luck"
+    ],
+    "types": [
+      "Fairy",
+      "Flying"
+    ]
+  },
+  "Tentacruel": {
+    "species": "Tentacruel",
+    "api_name": "tentacruel",
+    "normal": [
+      "Clear Body",
+      "Liquid Ooze"
+    ],
+    "hidden": [
+      "Rain Dish"
+    ],
+    "types": [
+      "Water",
+      "Poison"
+    ]
+  },
+  "Tauros Combat": {
+    "species": "Tauros Combat",
+    "api_name": "tauros-paldea-combat-breed",
+    "normal": [
+      "Intimidate",
+      "Anger Point"
+    ],
+    "hidden": [
+      "Cud Chew"
+    ],
+    "types": [
+      "Normal"
+    ]
+  },
+  "Togetic": {
+    "species": "Togetic",
+    "api_name": "togetic",
+    "normal": [
+      "Hustle",
+      "Serene Grace"
+    ],
+    "hidden": [
+      "Super Luck"
+    ],
+    "types": [
+      "Fairy",
+      "Flying"
+    ]
+  },
+  "Torchic": {
+    "species": "Torchic",
+    "api_name": "torchic",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Speed Boost"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Suicune": {
+    "species": "Suicune",
+    "api_name": "suicune",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Tepig": {
+    "species": "Tepig",
+    "api_name": "tepig",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Thick Fat"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Tangrowth": {
+    "species": "Tangrowth",
+    "api_name": "tangrowth",
+    "normal": [
+      "Chlorophyll",
+      "Leaf Guard"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Totodile": {
+    "species": "Totodile",
+    "api_name": "totodile",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Steelix": {
+    "species": "Steelix",
+    "api_name": "steelix",
+    "normal": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Steel",
+      "Ground"
+    ]
+  },
+  "Snivy": {
+    "species": "Snivy",
+    "api_name": "snivy",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Contrary"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Typhlosion": {
+    "species": "Typhlosion",
+    "api_name": "typhlosion",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Flash Fire"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Torracat": {
+    "species": "Torracat",
+    "api_name": "torracat",
+    "normal": [
+      "Blaze"
+    ],
+    "hidden": [
+      "Intimidate"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Tangela": {
+    "species": "Tangela",
+    "api_name": "tangela",
+    "normal": [
+      "Chlorophyll",
+      "Leaf Guard"
+    ],
+    "hidden": [
+      "Regenerator"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Swinub": {
+    "species": "Swinub",
+    "api_name": "swinub",
+    "normal": [
+      "Oblivious",
+      "Snow Cloak"
+    ],
+    "hidden": [
+      "Thick Fat"
+    ],
+    "types": [
+      "Ice",
+      "Ground"
+    ]
+  },
+  "Tyrogue": {
+    "species": "Tyrogue",
+    "api_name": "tyrogue",
+    "normal": [
+      "Guts",
+      "Steadfast"
+    ],
+    "hidden": [
+      "Vital Spirit"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Toxicroak": {
+    "species": "Toxicroak",
+    "api_name": "toxicroak",
+    "normal": [
+      "Anticipation",
+      "Dry Skin"
+    ],
+    "hidden": [
+      "Poison Touch"
+    ],
+    "types": [
+      "Poison",
+      "Fighting"
+    ]
+  },
+  "Vaporeon": {
+    "species": "Vaporeon",
+    "api_name": "vaporeon",
+    "normal": [
+      "Water Absorb"
+    ],
+    "hidden": [
+      "Hydration"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Voltorb": {
+    "species": "Voltorb",
+    "api_name": "voltorb",
+    "normal": [
+      "Soundproof",
+      "Static"
+    ],
+    "hidden": [
+      "Aftermath"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  "Vileplume": {
+    "species": "Vileplume",
+    "api_name": "vileplume",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Effect Spore"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Vibrava": {
+    "species": "Vibrava",
+    "api_name": "vibrava",
+    "normal": [
+      "Levitate"
+    ],
+    "hidden": [],
+    "types": [
+      "Ground",
+      "Dragon"
+    ]
+  },
+  "Victreebel": {
+    "species": "Victreebel",
+    "api_name": "victreebel",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Gluttony"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Tentacool": {
+    "species": "Tentacool",
+    "api_name": "tentacool",
+    "normal": [
+      "Clear Body",
+      "Liquid Ooze"
+    ],
+    "hidden": [
+      "Rain Dish"
+    ],
+    "types": [
+      "Water",
+      "Poison"
+    ]
+  },
+  "Tyranitar": {
+    "species": "Tyranitar",
+    "api_name": "tyranitar",
+    "normal": [
+      "Sand Stream"
+    ],
+    "hidden": [
+      "Unnerve"
+    ],
+    "types": [
+      "Rock",
+      "Dark"
+    ]
+  },
+  "Venusaur": {
+    "species": "Venusaur",
+    "api_name": "venusaur",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Chlorophyll"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Vulpix": {
+    "species": "Vulpix",
+    "api_name": "vulpix",
+    "normal": [
+      "Flash Fire"
+    ],
+    "hidden": [
+      "Drought"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Treecko": {
+    "species": "Treecko",
+    "api_name": "treecko",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Unburden"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  "Torterra": {
+    "species": "Torterra",
+    "api_name": "torterra",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Shell Armor"
+    ],
+    "types": [
+      "Grass",
+      "Ground"
+    ]
+  },
+  "Torkoal": {
+    "species": "Torkoal",
+    "api_name": "torkoal",
+    "normal": [
+      "White Smoke",
+      "Drought"
+    ],
+    "hidden": [
+      "Shell Armor"
+    ],
+    "types": [
+      "Fire"
+    ]
+  },
+  "Weepinbell": {
+    "species": "Weepinbell",
+    "api_name": "weepinbell",
+    "normal": [
+      "Chlorophyll"
+    ],
+    "hidden": [
+      "Gluttony"
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ]
+  },
+  "Wynaut": {
+    "species": "Wynaut",
+    "api_name": "wynaut",
+    "normal": [
+      "Shadow Tag"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Wigglytuff": {
+    "species": "Wigglytuff",
+    "api_name": "wigglytuff",
+    "normal": [
+      "Cute Charm",
+      "Competitive"
+    ],
+    "hidden": [
+      "Frisk"
+    ],
+    "types": [
+      "Normal",
+      "Fairy"
+    ]
+  },
+  "Trapinch": {
+    "species": "Trapinch",
+    "api_name": "trapinch",
+    "normal": [
+      "Hyper Cutter",
+      "Arena Trap"
+    ],
+    "hidden": [
+      "Sheer Force"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  "Zubat": {
+    "species": "Zubat",
+    "api_name": "zubat",
+    "normal": [
+      "Inner Focus"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Poison",
+      "Flying"
+    ]
+  },
+  "Wartortle": {
+    "species": "Wartortle",
+    "api_name": "wartortle",
+    "normal": [
+      "Torrent"
+    ],
+    "hidden": [
+      "Rain Dish"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  "Litwick": {
+    "species": "Litwick",
+    "api_name": "litwick",
+    "normal": [
+      "Flash Fire",
+      "Flame Body"
+    ],
+    "hidden": [
+      "Infiltrator"
+    ],
+    "types": [
+      "Ghost",
+      "Fire"
+    ]
+  },
+  "Togepi": {
+    "species": "Togepi",
+    "api_name": "togepi",
+    "normal": [
+      "Hustle",
+      "Serene Grace"
+    ],
+    "hidden": [
+      "Super Luck"
+    ],
+    "types": [
+      "Fairy"
+    ]
+  },
+  "Zapdos": {
+    "species": "Zapdos",
+    "api_name": "zapdos",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Static"
+    ],
+    "types": [
+      "Electric",
+      "Flying"
+    ]
+  },
+  "Poliwrath": {
+    "species": "Poliwrath",
+    "api_name": "poliwrath",
+    "normal": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hidden": [
+      "Swift Swim"
+    ],
+    "types": [
+      "Water",
+      "Fighting"
+    ]
+  },
+  "Zweilous": {
+    "species": "Zweilous",
+    "api_name": "zweilous",
+    "normal": [
+      "Hustle"
+    ],
+    "hidden": [],
+    "types": [
+      "Dark",
+      "Dragon"
+    ]
+  },
+  "Weezing": {
+    "species": "Weezing",
+    "api_name": "weezing",
+    "normal": [
+      "Levitate",
+      "Neutralizing Gas"
+    ],
+    "hidden": [
+      "Stench"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  "Umbreon": {
+    "species": "Umbreon",
+    "api_name": "umbreon",
+    "normal": [
+      "Synchronize"
+    ],
+    "hidden": [
+      "Inner Focus"
+    ],
+    "types": [
+      "Dark"
+    ]
+  },
+  "Weedle": {
+    "species": "Weedle",
+    "api_name": "weedle",
+    "normal": [
+      "Shield Dust"
+    ],
+    "hidden": [
+      "Run Away"
+    ],
+    "types": [
+      "Bug",
+      "Poison"
+    ]
+  },
+  "Sneasel": {
+    "species": "Sneasel",
+    "api_name": "sneasel",
+    "normal": [
+      "Inner Focus",
+      "Keen Eye"
+    ],
+    "hidden": [
+      "Pickpocket"
+    ],
+    "types": [
+      "Dark",
+      "Ice"
+    ]
+  },
+  "Weavile": {
+    "species": "Weavile",
+    "api_name": "weavile",
+    "normal": [
+      "Pressure"
+    ],
+    "hidden": [
+      "Pickpocket"
+    ],
+    "types": [
+      "Dark",
+      "Ice"
+    ]
+  },
+  "Wobbuffet": {
+    "species": "Wobbuffet",
+    "api_name": "wobbuffet",
+    "normal": [
+      "Shadow Tag"
+    ],
+    "hidden": [
+      "Telepathy"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  "Turtwig": {
+    "species": "Turtwig",
+    "api_name": "turtwig",
+    "normal": [
+      "Overgrow"
+    ],
+    "hidden": [
+      "Shell Armor"
+    ],
+    "types": [
+      "Grass"
+    ]
+  }
+}

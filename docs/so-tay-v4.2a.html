@@ -1,0 +1,995 @@
+<title>Sổ tay Pokemon Arena 4.2a</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Chakra+Petch:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a field manual for the map. Sticky section bar; findings first as severity-labelled cards;
+   drop rates as tables; mechanics as a spec grid; the 360-hero roster as a filterable table. */
+:root {
+  --bg: #F2F4F7; --surface: #FFFFFF; --sunken: #E9EDF2; --ink: #17202B; --muted: #5A6576; --line: #D8DEE6;
+  --accent: #1D5BCC; --accent-soft: #E3ECFB; --code-bg: #EEF1F6;
+  --crit: #C3303A; --crit-soft: #FBE7E8; --high: #B85A06; --high-soft: #FCEEDF;
+  --med: #8C6A00; --med-soft: #F7EFD3; --low: #5A6576; --low-soft: #E6EAF0;
+  --ok: #1B7F4F; --ok-soft: #DFF2E7;
+  --t-common: #6F7A8A; --t-rare: #2C6BE0; --t-epic: #8A3FDB; --t-leg: #C9650A;
+  --font-display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E131A; --surface: #151C26; --sunken: #1B2431; --ink: #E5EAF1; --muted: #95A2B5; --line: #263142;
+    --accent: #79A9FF; --accent-soft: #1A2A45; --code-bg: #10161F;
+    --crit: #FF7076; --crit-soft: #3B1C21; --high: #FFA04A; --high-soft: #3A2615;
+    --med: #EFC74F; --med-soft: #342B12; --low: #95A2B5; --low-soft: #1F2835;
+    --ok: #52D68F; --ok-soft: #133021;
+    --t-common: #AFB9C7; --t-rare: #66A3FF; --t-epic: #BC8FFF; --t-leg: #FFA650;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E131A; --surface: #151C26; --sunken: #1B2431; --ink: #E5EAF1; --muted: #95A2B5; --line: #263142;
+  --accent: #79A9FF; --accent-soft: #1A2A45; --code-bg: #10161F;
+  --crit: #FF7076; --crit-soft: #3B1C21; --high: #FFA04A; --high-soft: #3A2615;
+  --med: #EFC74F; --med-soft: #342B12; --low: #95A2B5; --low-soft: #1F2835;
+  --ok: #52D68F; --ok-soft: #133021;
+  --t-common: #AFB9C7; --t-rare: #66A3FF; --t-epic: #BC8FFF; --t-leg: #FFA650;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--surface);
+}
+.wrap {
+  max-width: 1120px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(28px, 4.4vw, 42px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 26px; font-weight: 700; }
+h3 { font-size: 18px; font-weight: 600; }
+p { margin: 0; }
+code, .mono { font-family: var(--font-mono); font-size: 0.86em; }
+:not(pre) > code {
+  background: var(--code-bg); border: 1px solid var(--line); border-radius: 5px;
+  padding: 0.05em 0.35em; white-space: nowrap;
+}
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.eyebrow {
+  font-family: var(--font-display); font-size: 12.5px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--muted);
+}
+.muted { color: var(--muted); }
+
+/* ---------- top bar ---------- */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 6;
+  background: var(--surface); border-bottom: 1px solid var(--line);
+}
+.topbar .wrap { display: flex; align-items: center; gap: 18px; min-height: 52px; }
+.brand { font-family: var(--font-display); font-weight: 700; font-size: 15px; white-space: nowrap; }
+.brand span { color: var(--accent); }
+.nav { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.nav::-webkit-scrollbar { display: none; }
+.nav a {
+  text-decoration: none; color: var(--muted); font-weight: 500; font-size: 14px; white-space: nowrap;
+  padding: 6px 11px; border-radius: 7px;
+}
+.nav a:hover, .nav a.on { color: var(--ink); background: var(--sunken); }
+
+/* ---------- header ---------- */
+header.hero { padding-block: 44px 28px; display: grid; gap: 16px; }
+header.hero .lead { max-width: 68ch; font-size: 16.5px; color: var(--ink); }
+.sources { display: flex; flex-wrap: wrap; gap: 8px; }
+.src {
+  display: inline-flex; gap: 8px; align-items: baseline; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 11px;
+  font-size: 13px; max-width: 100%;
+}
+.src b { font-family: var(--font-mono); font-weight: 600; font-size: 12.5px; word-break: break-all; }
+.src span { color: var(--muted); }
+
+section { padding-block: 34px; border-top: 1px solid var(--line); scroll-margin-top: 64px; }
+.sec-head { display: grid; gap: 6px; margin-bottom: 20px; max-width: 72ch; }
+
+/* ---------- summary ---------- */
+.summary { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 820px) { .summary { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+.causes { display: grid; gap: 14px; margin: 14px 0 0; padding: 0; list-style: none; counter-reset: c; }
+.causes li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 12px; counter-increment: c; }
+.causes li::before {
+  content: counter(c); font-family: var(--font-display); font-weight: 700; font-size: 15px;
+  width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center;
+  background: var(--crit-soft); color: var(--crit);
+}
+.causes li:nth-child(2)::before { background: var(--high-soft); color: var(--high); }
+.causes li:nth-child(3)::before { background: var(--high-soft); color: var(--high); }
+.causes b { font-weight: 600; }
+.tally { display: grid; gap: 10px; }
+.tally-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-block: 6px; border-bottom: 1px dashed var(--line); }
+.tally-row:last-child { border-bottom: 0; }
+.tally-row .n { font-family: var(--font-display); font-weight: 700; font-size: 20px; font-variant-numeric: tabular-nums; }
+
+/* ---------- chips ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600;
+  padding: 3px 9px; border-radius: 999px; white-space: nowrap; letter-spacing: 0.01em;
+}
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.chip.plain::before { display: none; }
+.sev-crit { background: var(--crit-soft); color: var(--crit); }
+.sev-high { background: var(--high-soft); color: var(--high); }
+.sev-med { background: var(--med-soft); color: var(--med); }
+.sev-low { background: var(--low-soft); color: var(--low); }
+.st-fixed { background: var(--ok-soft); color: var(--ok); }
+.st-open { background: var(--crit-soft); color: var(--crit); }
+.st-part { background: var(--med-soft); color: var(--med); }
+.st-design { background: var(--accent-soft); color: var(--accent); }
+.tag {
+  font-family: var(--font-mono); font-size: 11.5px; font-weight: 600; padding: 2px 7px; border-radius: 5px;
+  background: var(--accent-soft); color: var(--accent); white-space: nowrap;
+}
+
+/* ---------- findings ---------- */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.fbtn {
+  font: inherit; font-size: 13.5px; font-weight: 500; color: var(--ink); cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px;
+}
+.fbtn[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.findings { display: grid; gap: 16px; }
+.finding { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; display: grid; gap: 14px; min-width: 0; }
+.f-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.f-id { font-family: var(--font-display); font-weight: 700; font-size: 14px; color: var(--muted); }
+.finding h3 { font-size: 19px; }
+.where { font-size: 13.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.f-body { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 22px; }
+@media (max-width: 860px) { .f-body { grid-template-columns: minmax(0, 1fr); } }
+.f-body > div { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.label {
+  font-family: var(--font-display); font-size: 12px; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+}
+.finding ul, .finding ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.note {
+  border: 1px solid var(--line); background: var(--sunken); border-radius: 8px; padding: 11px 13px; font-size: 14px;
+}
+.note.ok { background: var(--ok-soft); border-color: transparent; }
+.note.warn { background: var(--crit-soft); border-color: transparent; }
+.codebox { position: relative; min-width: 0; }
+pre {
+  margin: 0; background: var(--code-bg); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px 14px; overflow-x: auto; font-family: var(--font-mono); font-size: 12.5px; line-height: 1.55;
+}
+pre .c { color: var(--muted); }
+pre .k { color: var(--accent); font-weight: 600; }
+pre .add { color: var(--ok); }
+.copy {
+  position: absolute; top: 7px; right: 7px; font: inherit; font-size: 11.5px; font-weight: 600; cursor: pointer;
+  background: var(--surface); color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px;
+}
+.copy:hover { color: var(--ink); }
+
+/* ---------- flows ---------- */
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 760px) { .two { grid-template-columns: minmax(0, 1fr); } }
+.flow { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; counter-reset: s; }
+.flow li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; counter-increment: s; font-size: 14.5px; }
+.flow li::before {
+  content: counter(s); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-family: var(--font-display); font-weight: 700; font-size: 13px; border: 1.5px solid var(--line); color: var(--muted);
+}
+.flow li.bad::before { border-color: var(--crit); color: var(--crit); }
+
+/* ---------- tables ---------- */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--font-display); font-weight: 600; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); background: var(--sunken); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; }
+.yes { color: var(--ok); font-weight: 600; }
+.no { color: var(--crit); font-weight: 600; }
+.t-common { color: var(--t-common); font-weight: 600; }
+.t-rare { color: var(--t-rare); font-weight: 600; }
+.t-epic { color: var(--t-epic); font-weight: 600; }
+.t-leg { color: var(--t-leg); font-weight: 600; }
+.bar { display: flex; height: 10px; border-radius: 4px; overflow: hidden; min-width: 160px; background: var(--sunken); }
+.bar i { display: block; height: 100%; }
+.bar .b1 { background: var(--t-common); } .bar .b2 { background: var(--t-rare); }
+.bar .b3 { background: var(--t-epic); } .bar .b4 { background: var(--t-leg); }
+.hi { background: var(--high-soft); }
+
+/* ---------- mechanics ---------- */
+.mech { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px; align-items: start; }
+.mcard { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; display: grid; gap: 12px; min-width: 0; }
+.mcard header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.mcard header .no-sec { font-family: var(--font-display); font-weight: 700; color: var(--muted); font-size: 13px; }
+.mcard ul { margin: 0; padding-left: 18px; display: grid; gap: 7px; font-size: 14.5px; }
+.diff { display: block; margin-top: 3px; font-size: 13px; color: var(--crit); }
+.diff::before { content: "4.2a: "; font-weight: 700; }
+.diff.code::before { content: "Code thật: "; }
+.mini { width: 100%; font-size: 13px; }
+.mini th, .mini td { padding: 5px 8px; }
+
+/* ---------- roster ---------- */
+.bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; margin-bottom: 16px; }
+.band {
+  font: inherit; text-align: left; cursor: pointer; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: grid; gap: 2px;
+}
+.band[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.band .n { font-family: var(--font-display); font-weight: 700; font-size: 26px; font-variant-numeric: tabular-nums; }
+.band .r { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+.tools input, .tools select {
+  font: inherit; font-size: 14px; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-width: 0;
+}
+.tools input { flex: 1 1 220px; }
+.count { font-size: 13.5px; color: var(--muted); margin-left: auto; }
+.ty { display: inline-block; font-size: 11.5px; font-weight: 600; padding: 1px 7px; border-radius: 4px; margin: 1px 3px 1px 0; white-space: nowrap; }
+#roster th { cursor: pointer; user-select: none; }
+#roster th[aria-sort="ascending"]::after { content: " ▲"; }
+#roster th[aria-sort="descending"]::after { content: " ▼"; }
+#roster td:first-child { font-family: var(--font-mono); font-size: 12.5px; }
+#roster .nm { font-weight: 600; }
+.rng { font-family: var(--font-mono); font-weight: 600; }
+.mega { color: var(--muted); font-size: 13px; }
+.empty { padding: 24px; text-align: center; color: var(--muted); }
+.pc { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px; white-space: nowrap; }
+.p-M { background: var(--high-soft); color: var(--high); }
+.p-H { background: var(--ok-soft); color: var(--ok); }
+.p-R { background: var(--accent-soft); color: var(--accent); }
+.chg { font-family: var(--font-mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
+.chg b { color: var(--ink); }
+.score { font-family: var(--font-mono); font-weight: 600; white-space: nowrap; }
+.steps { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; counter-reset: st; }
+.steps li { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; counter-increment: st; }
+.steps li::before {
+  content: counter(st); width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+  font-family: var(--font-display); font-weight: 700; background: var(--accent-soft); color: var(--accent);
+}
+.steps b { font-weight: 600; }
+.matrix td, .matrix th { text-align: center; }
+.matrix td:first-child, .matrix th:first-child { text-align: left; }
+.matrix .same { background: var(--sunken); font-weight: 700; }
+
+footer { padding-block: 30px 46px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13.5px; display: grid; gap: 6px; }
+
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@media (max-width: 520px) {
+  body { font-size: 14.5px; }
+  .brand { display: none; }
+  .finding, .panel, .mcard { padding: 16px; }
+  h2 { font-size: 22px; }
+}
+</style>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="brand">Pokemon Arena <span>4.2a</span></div>
+    <nav class="nav" aria-label="Mục lục">
+      <a href="#tom-tat">Tóm tắt</a>
+      <a href="#loi">Lỗi rơi đồ</a>
+      <a href="#luong">Luồng rơi đồ</a>
+      <a href="#ti-le">Tỉ lệ rơi</a>
+      <a href="#co-che">Cơ chế game</a>
+      <a href="#lenh">Lệnh chat</a>
+      <a href="#tam-danh">Melee / Ranged</a>
+      <a href="#hero">360 Hero</a>
+    </nav>
+  </div>
+</div>
+
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Pokemon Arena · bản 4.2a · Warcraft III Reforged 1.36</div>
+    <h1>Sổ tay 4.2a: cơ chế &amp; lỗi rơi đồ</h1>
+    <p class="lead">Mình đọc toàn bộ script của map 4.2a (113.490 dòng JASS) và dữ liệu item, lần theo mọi chỗ làm đồ rơi: rơi từ quái, rơi khỏi túi khi chết, và bị đẩy ra khỏi túi ngay lúc nhặt. Phần cơ chế game và bảng 360 hero lấy từ tài liệu v4.2b, có đánh dấu chỗ tài liệu nói khác code.</p>
+    <div class="sources">
+      <div class="src"><b>Pokemon Arena v4.2a.w3x</b><span>map đã build 21/11, 23:45</span></div>
+      <div class="src"><b>GAME_LOGIC_AND_HERO_ROSTER_v42b.md</b><span>tài liệu logic + 360 hero</span></div>
+      <div class="src"><b>_tmp_v42b_war3map.j</b><span>script 4.2b đang làm, chưa có file map</span></div>
+    </div>
+  </header>
+
+  <!-- ================= SUMMARY ================= -->
+  <section id="tom-tat">
+    <div class="summary">
+      <div class="panel">
+        <div class="eyebrow">Vì sao đồ dễ rơi</div>
+        <ol class="causes">
+          <li><div><b>Soul luôn rơi khi chết, kể cả Soul Legend đã hiện [SAFE].</b> Một trigger cũ từ v3.3 (<code>Soul_DropOnDeath</code>) vẫn chạy song song và không xem cờ an toàn. Hệ thống 60 giây vẫn báo "secured", nên người chơi tưởng đã giữ được. <a href="#L1">Xem L1</a></div></li>
+          <li><div><b>Loot rơi từ quái quá nhiều ở bãi 2 con.</b> Tỉ lệ được nhân ×1,6 và bãi hồi lại sau 10 giây, nên đứng farm bãi nhỏ ra đồ và Soul nhanh gấp mấy lần bãi lớn. <a href="#L2">Xem L2</a></div></li>
+          <li><div><b>Arena Duel bắt buộc mỗi 6 phút</b> làm cả hai team chết hàng loạt trong đấu trường. Soul và đồ Epic/Legendary chưa đủ 60 giây rơi lại trong đó. <a href="#L3">Xem L3</a></div></li>
+        </ol>
+      </div>
+      <div class="panel tally">
+        <div class="eyebrow">8 phát hiện</div>
+        <div class="tally-row"><span class="chip sev-crit">Nghiêm trọng</span><span class="n">1</span></div>
+        <div class="tally-row"><span class="chip sev-high">Cao</span><span class="n">2</span></div>
+        <div class="tally-row"><span class="chip sev-med">Trung bình</span><span class="n">3</span></div>
+        <div class="tally-row"><span class="chip sev-low">Thấp</span><span class="n">2</span></div>
+        <div class="note">Bản 4.2b đang làm đã sửa <b>L2</b> (tỉ lệ loot, hồi bãi 25s). <b>L1</b> và <b>L3</b> vẫn còn nguyên trong script 4.2b.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FINDINGS ================= -->
+  <section id="loi">
+    <div class="sec-head">
+      <div class="eyebrow">Phát hiện trong script 4.2a</div>
+      <h2>Lỗi rơi đồ</h2>
+      <p class="muted">Số dòng theo <code>scripts\war3map.j</code> của map 4.2a (trùng với <code>analysis/jass_ref/_tmp_v42a_war3map.j</code>). Đây là phân tích đọc code, chưa test trong game.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Lọc phát hiện">
+      <button class="fbtn" data-f="all" aria-pressed="true">Tất cả</button>
+      <button class="fbtn" data-f="open" aria-pressed="false">4.2b chưa sửa</button>
+      <button class="fbtn" data-f="death" aria-pressed="false">Rơi khi chết</button>
+      <button class="fbtn" data-f="loot" aria-pressed="false">Rơi từ quái</button>
+      <button class="fbtn" data-f="pickup" aria-pressed="false">Văng khi nhặt</button>
+    </div>
+
+    <div class="findings" id="findings">
+
+      <article class="finding" id="L1" data-tags="open death">
+        <div class="f-top"><span class="f-id">L1</span><span class="chip sev-crit">Nghiêm trọng</span><span class="chip st-open">4.2b: chưa sửa</span></div>
+        <h3>Soul luôn rơi khi chết, kể cả khi đã [SAFE]</h3>
+        <div class="where"><span><code>Soul_DropOnDeath</code> dòng 80694</span><span>gắn vào sự kiện chết ở dòng 113176</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Mỗi khi một hero chết, hàm này duyệt 6 ô đồ và đẩy ra đất mọi item có tên kết thúc bằng "Soul". Nó không đọc cờ SAFE (key 210 trong <code>PAX_Leg_HT</code>).</p>
+            <p>Map có <b>352 loại item</b> như vậy: 50 Soul Legend (Articuno Soul, Raikou Soul, Regice Soul…) và 302 Soul quái rừng / starter (mã <code>IS..</code>, <code>IU..</code>, <code>IZ..</code>).</p>
+            <p>Hệ thống 60 giây (<code>PAX_SoulboundTick</code>) vẫn chạy và vẫn báo <code>[SAFE] … is now secured</code>, nên người chơi tưởng đã an toàn. Tài liệu v4.2b cũng ghi Legend Soul cầm đủ 60s sẽ không rơi: điều này sai với code.</p>
+            <div class="label">Cách tái hiện</div>
+            <ol>
+              <li>Giết một Legend, nhặt Soul của nó.</li>
+              <li>Đứng sống 60 giây, chờ dòng <code>[SAFE]</code>.</li>
+              <li>Chết: Soul vẫn rơi, chat hiện <code>[SOUL DROP] … dropped …</code>.</li>
+            </ol>
+          </div>
+          <div>
+            <div class="label">Sửa đề xuất</div>
+            <div class="codebox"><button class="copy" type="button">Chép</button><pre><span class="c">// Soul_DropOnDeath: bỏ qua Soul đã SAFE</span>
+<span class="k">if</span> len &gt;= 4 <span class="k">and</span> SubString(n, len - 4, len) == "Soul" <span class="add">and LoadInteger(PAX_Leg_HT, GetHandleId(it), 210) != 1</span> <span class="k">then</span>
+    <span class="k">call</span> UnitRemoveItem(u, it)
+    ...</pre></div>
+            <p class="muted">Muốn Soul quái thường không bao giờ rơi: thêm các mã <code>IS..</code> <code>IU..</code> <code>IZ..</code> vào <code>PAX_IsInstantSoulboundItem</code>. Muốn chúng theo luật 60 giây: thêm vào <code>PAX_IsSoulboundProtectedItem</code>.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L2" data-tags="loot">
+        <div class="f-top"><span class="f-id">L2</span><span class="chip sev-high">Cao</span><span class="chip st-part">4.2b: đã sửa phần lớn</span></div>
+        <h3>Loot rơi quá dễ ở bãi nhỏ, bãi hồi sau 10 giây</h3>
+        <div class="where"><span><code>PAX_Loot_OnDeath</code> dòng 45335</span><span><code>PAX_Loot_CampFactor</code> dòng 45322</span><span><code>Wild_Respawn = 10.0</code> dòng 1392</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Tỉ lệ = gốc (quái thường 5%, Elite 15%) × <span class="mono">32 / (15 + 5 × (số con của bãi − 1))</span>. Bãi 2 con được ×1,6 nên ra <b>8% / 24%</b>. Bãi nào cũng có đúng 1 Elite.</p>
+            <p>Tính theo một lượt dọn thì mọi bãi đều ra khoảng 0,32 món, nhưng bãi 2 con dọn nhanh gấp ba rồi 10 giây sau đã có lại. Soul cũng vậy: 20% từ con Elite duy nhất, bất kể bãi to hay nhỏ. Map 4.2a có 14 bãi 2 con.</p>
+            <p>Hai bãi to nhất (8 và 12 con) bị thiệt: game chỉ cho tối đa 6 con sống nhưng hệ số vẫn tính theo 8 và 12.</p>
+            <p>Mega Elite dùng chung 15% của Elite (tài liệu ghi 18%) và chỉ rơi Soul nếu đồng thời có cờ Elite thường.</p>
+          </div>
+          <div>
+            <div class="label">Ở 4.2b</div>
+            <div class="note ok">Tỉ lệ cố định 4% / 12% / 18% / 45%, hồi bãi 25 giây, Soul 20% cho cả Mega Elite.</div>
+            <div class="label">Còn sót</div>
+            <p>Soul vẫn chỉ đến từ 1 Elite mỗi bãi, nên tính theo thời gian, bãi nhỏ vẫn ra Soul nhanh nhất. Gợi ý: cho bãi nhỏ hồi lâu hơn bãi lớn, ví dụ <span class="mono">Wild_Respawn = 15 + 5 × số con</span>.</p>
+            <p><a href="#ti-le">Bảng tỉ lệ theo từng cỡ bãi</a></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L3" data-tags="open death">
+        <div class="f-top"><span class="f-id">L3</span><span class="chip sev-high">Cao</span><span class="chip st-open">4.2b: chưa sửa</span></div>
+        <h3>Arena Duel mỗi 6 phút làm rơi Soul và đồ chưa SAFE</h3>
+        <div class="where"><span><code>Fy4</code> dòng 37181 (trigger cũ v1.8, timer 360s)</span><span>đấu trường là rect <code>Ui</code></span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Mỗi 6 phút, mọi hero bị hồi sinh và kéo vào đấu trường đánh nhau 40 giây. Chết trong đấu trường chạy y như chết ngoài map: Soul rơi (L1), Epic / Legendary / Mega Stone / Paradox chưa đủ 60 giây cũng rơi.</p>
+            <p>Hết 40 giây, cả hai team bị kéo về nhà và đồ nằm lại trong đấu trường. Loot đã từng có người cầm thì không tự xóa, nên ai vào trận Duel sau sẽ nhặt được.</p>
+            <p>Duel là bắt buộc và lặp lại, nên đây là nơi người chơi mất đồ nhiều nhất dù không chủ động đánh nhau.</p>
+          </div>
+          <div>
+            <div class="label">Sửa đề xuất</div>
+            <div class="codebox"><button class="copy" type="button">Chép</button><pre><span class="c">// PAX_Leg_OnHeroDeath: bọc vòng rơi đồ</span>
+<span class="k">if not</span> RectContainsUnit(Ui, dead) <span class="k">then</span>
+    <span class="c">// ... vòng slotIdx 0..5 như cũ ...</span>
+<span class="k">endif</span>
+
+<span class="c">// Soul_DropOnDeath: thêm vào điều kiện đầu</span>
+<span class="k">if</span> IsUnitType(u, UNIT_TYPE_HERO) <span class="add">and not RectContainsUnit(Ui, u)</span> <span class="k">then</span></pre></div>
+            <p class="muted">Chỉ bọc phần rơi đồ, không <code>return</code> sớm, để thưởng kill streak trong <code>PAX_Leg_OnHeroDeath</code> vẫn chạy.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L4" data-tags="open death">
+        <div class="f-top"><span class="f-id">L4</span><span class="chip sev-med">Trung bình</span><span class="chip st-open">4.2b: chưa sửa</span></div>
+        <h3>Mega Stone, Paradox Booster mua bằng vàng cũng rơi nếu chết trong 60 giây đầu</h3>
+        <div class="where"><span><code>PAX_IsSoulboundProtectedItem</code> dòng 40429</span><span>shop đánh dấu đồ đã mua ở <code>Fx_OnSell</code> (key 1 trong <code>Fx_HT</code>)</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Danh sách bảo vệ (IM00–IM17 Mega Stone, IM18–IM1H Paradox) không phân biệt nguồn. Đồ mua ở shop vào túi là bị coi như đồ nhặt được: hiện <code>[UNSECURED]</code>, phải cầm đủ 60 giây. Chết sớm thì món đồ vừa trả tiền rơi cho địch.</p>
+            <p>Trong khi đó đồ từ <code>-up</code>, <code>-gamble</code>, <code>-forge</code> lại an toàn ngay.</p>
+          </div>
+          <div>
+            <div class="label">Sửa đề xuất</div>
+            <div class="codebox"><button class="copy" type="button">Chép</button><pre><span class="c">// Item_OnPickup, nhánh LoadInteger(..., 210) == 0</span>
+<span class="add">if LoadInteger(Fx_HT, itH, 1) == 1 then</span>
+<span class="add">    call PAX_Soulbound_BindNow(it, ownerPid)  // đồ mua shop</span>
+<span class="add">else</span><span class="k">if</span> PAX_IsInstantSoulboundItem(pickupItemId) <span class="k">then</span>
+    ...</pre></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L5" data-tags="pickup">
+        <div class="f-top"><span class="f-id">L5</span><span class="chip sev-med">Trung bình</span><span class="chip st-design">Do thiết kế, tài liệu chưa ghi</span></div>
+        <h3>Các luật ẩn đẩy đồ ra khỏi túi ngay khi nhặt</h3>
+        <div class="where"><span><code>Item_OnPickup</code> dòng 67128</span><span><code>Fx_PickupGo</code> dòng 74779</span><span><code>PAX_Loot_Cleanup</code> dòng 45111</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Bốn luật người chơi dễ tưởng là lỗi</div>
+            <ul>
+              <li><b>Tối đa 2 món Loot</b> (Relic hoặc Charm). Món thứ 3 bị đẩy ra đất kèm <code>At most 2 dropped items can be equipped.</code></li>
+              <li><b>Mega Stone cần 4 huy hiệu, Paradox Booster cần 6.</b> Chưa đủ thì nhặt vào là văng ra. Mega Stone rơi 5% từ Mega Elite nên người mới hay gặp.</li>
+              <li><b>101 loại đồ shop chỉ cầm được 1 cái</b>, Form Orb cũng chỉ 1. Cái thứ hai bị đẩy ra (mua thì được hoàn vàng).</li>
+              <li><b>Loot nằm đất chưa ai từng cầm sẽ tự xóa</b> sau 90s (Common, Rare) hoặc 180s (Epic, Legendary). Loot từ <code>-up</code> và <code>-gamble</code> cũng rơi ra đất như vậy: túi đã đủ 2 Loot thì không nhặt được, và món đồ mua bằng vàng biến mất.</li>
+            </ul>
+          </div>
+          <div>
+            <div class="label">Gợi ý</div>
+            <p>Ghi bốn luật này vào <code>-help</code> và tài liệu. Với <code>-up</code> / <code>-gamble</code>: không cho mở hộp (hoặc hoàn vàng) khi người chơi đang cầm 2 Loot, dùng sẵn <code>PAX_CountLootExcept(u, null) &gt;= 2</code>.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L6" data-tags="death">
+        <div class="f-top"><span class="f-id">L6</span><span class="chip sev-med">Trung bình</span><span class="chip st-design">Do thiết kế, nên xem lại</span></div>
+        <h3><code>-solo</code> cướp ngẫu nhiên cả đồ đã SAFE và huy hiệu Gym</h3>
+        <div class="where"><span><code>PAX_Solo_StealItem</code> dòng 47925</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Người thua mất 1 món ngẫu nhiên trong 6 ô, không lọc loại: có thể mất huy hiệu Gym hay đồ đã SAFE. Nếu người thắng đã đủ 2 Loot, món cướp về lại bị <code>Item_OnPickup</code> đẩy ra đất giữa map. Túi đầy thì món đồ bị thả ở base.</p>
+          </div>
+          <div>
+            <div class="label">Gợi ý</div>
+            <p>Chỉ cho cướp Loot và đồ shop. Bỏ qua huy hiệu (<code>LoadInteger(Mega_HT, GetItemTypeId(it), 90) == 1</code>) và Soul khi chọn ngẫu nhiên.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L7" data-tags="open pickup">
+        <div class="f-top"><span class="f-id">L7</span><span class="chip sev-low">Thấp</span><span class="chip st-open">4.2b: chưa sửa</span></div>
+        <h3>Giới hạn túi theo loại đã ngừng hoạt động</h3>
+        <div class="where"><span><code>Item_OnPickup</code>, khối Vitamin dòng 67169</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Lỗi theo chiều ngược lại: đồ không bị đẩy ra khi lẽ ra phải bị. Khối Vitamin thêm sau này dùng lại biến <code>s</code>, <code>n</code>, <code>lim</code>, <code>k</code>. Nó gán <code>s</code> = mã item (một số rất lớn) và <code>lim = 0</code>, nên vòng đếm phía dưới (<code>exitwhen s &gt;= 6</code>) thoát ngay.</p>
+            <p>Kết quả: giới hạn 2 đồ chỉ số / Mega Stone, 4 huy hiệu, 3 battle item không còn chặn được gì. Khi ăn gói Vitamin x5 lúc vừa ăn đúng 1 hoặc 3 viên, game có thể báo nhầm <code>At most 4 gym badges…</code>.</p>
+          </div>
+          <div>
+            <div class="label">Sửa đề xuất</div>
+            <p>Dùng biến riêng cho khối Vitamin (<code>vitId</code>, <code>vitN</code>, <code>vitCost</code>, <code>vitCount</code>) để <code>s = 0</code>, <code>n = 0</code>, <code>lim = Item_MaxStat</code> và <code>k</code> giữ đúng giá trị cho vòng đếm.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="finding" id="L8" data-tags="open">
+        <div class="f-top"><span class="f-id">L8</span><span class="chip sev-low">Thấp</span><span class="chip st-open">4.2b: chưa sửa</span><span class="chip plain sev-low">cần test</span></div>
+        <h3>Cờ SAFE và chỉ số Loot không được xóa khi đồ bị bán hay dùng</h3>
+        <div class="where"><span><code>PAX_Leg_HT</code> key 210–213</span><span><code>PAX_Item_HT</code> chỉ số Relic / Charm</span></div>
+        <div class="f-body">
+          <div>
+            <div class="label">Chuyện gì xảy ra</div>
+            <p>Hai bảng này lưu theo số handle của item. Chỉ <code>-forge</code> và việc dọn loot dưới đất mới xóa dữ liệu. Bán Loot cho shop hoặc dùng Soul thì dữ liệu còn lại. WC3 có thể cấp lại số handle đó cho item mới, và item mới mang luôn cờ SAFE cũ hoặc dòng chỉ số ẩn không hiện trong tooltip.</p>
+          </div>
+          <div>
+            <div class="label">Sửa đề xuất</div>
+            <p>Thêm trigger <code>EVENT_PLAYER_UNIT_PAWN_ITEM</code> (bán đồ) và chỗ Soul bị dùng: gọi <code>PAX_Soulbound_ClearKeys(it)</code> và <code>FlushChildHashtable(PAX_Item_HT, GetHandleId(it))</code>.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <div class="eyebrow">Đã kiểm tra, không phải lỗi</div>
+      <ul style="margin:10px 0 0; padding-left:20px; display:grid; gap:6px">
+        <li>Cờ "Dropped When Carrier Dies" trong <code>ItemData.slk</code> tắt cho mọi item: mọi chuyện rơi đồ đều do script.</li>
+        <li>Tiến hóa, Mega, đổi Form, dùng Soul đổi Pokemon: <code>ReplaceUnitBJ</code> chuyển nguyên 6 ô đồ sang con mới, giữ cả cờ SAFE.</li>
+        <li><code>-repick</code>: đồ được cất tạm rồi trả lại cho Pokemon mới.</li>
+        <li>Common / Rare Loot và đồ từ <code>-up</code>, <code>-gamble</code>, <code>-forge</code>: SAFE ngay khi nhặt hoặc tạo.</li>
+        <li>Lệnh <code>-droptest</code> (rơi 100%) và lệnh rải loot thử có trong code nhưng không gắn vào chat, người chơi không gọi được.</li>
+        <li>Bỏ khóa theo Player ID ở 4.2a chạy đúng. Chuyền đồ cho đồng đội thì bộ đếm 60 giây tính lại từ đầu.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FLOWS ================= -->
+  <section id="luong">
+    <div class="sec-head">
+      <div class="eyebrow">Thứ tự chạy trong code</div>
+      <h2>Luồng rơi đồ</h2>
+    </div>
+    <div class="two">
+      <div class="panel">
+        <h3>Khi hero chết</h3>
+        <ol class="flow">
+          <li><div><code>Mega_OnDeath</code> gọi <code>PAX_Leg_OnHeroDeath</code>: đồ trong danh sách bảo vệ mà chưa SAFE (Epic, Legendary, Soul Legend, Mega Stone, Paradox) rơi tại chỗ, bộ đếm 60 giây về 0.</div></li>
+          <li class="bad"><div><code>Soul_DropOnDeath</code> (trigger riêng): mọi item tên "…Soul" rơi, không xem SAFE.</div></li>
+        </ol>
+        <p class="muted" style="margin-top:12px; font-size:13.5px">Hai trigger cùng nghe sự kiện chết; thứ tự giữa chúng không đổi kết quả.</p>
+      </div>
+      <div class="panel">
+        <h3>Khi quái rừng chết</h3>
+        <ol class="flow">
+          <li class="bad"><div><code>PAX_Loot_OnDeath</code>: tung loot, 5% / 15% × hệ số bãi; Legend 45%.</div></li>
+          <li><div><code>Wild_OnDeath</code>: Elite 20% rơi Soul đúng loài, Mega Elite 5% rơi Mega Stone; bãi hết quái thì hẹn hồi sau 10 giây.</div></li>
+          <li><div><code>Leg_OnDeath</code>: Legend rơi Soul 100% (<code>Leg_SoulChance = 100</code>).</div></li>
+        </ol>
+      </div>
+    </div>
+
+    <h3 style="margin:26px 0 12px">Luật rơi khi chết: code 4.2a so với tài liệu</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Loại đồ</th><th>Code 4.2a</th><th>Tài liệu ghi</th><th>Khớp</th></tr></thead>
+        <tbody>
+          <tr><td><span class="t-common">Common</span>, <span class="t-rare">Rare</span> Loot</td><td>Không bao giờ rơi</td><td>Không rơi</td><td class="yes">Đúng</td></tr>
+          <tr><td>Đồ từ <code>-up</code>, <code>-gamble</code>, <code>-forge</code></td><td>Không bao giờ rơi</td><td>Không rơi</td><td class="yes">Đúng</td></tr>
+          <tr><td><span class="t-epic">Epic</span>, <span class="t-leg">Legendary</span> Loot</td><td>Rơi nếu cầm dưới 60s</td><td>Rơi nếu dưới 60s</td><td class="yes">Đúng</td></tr>
+          <tr class="hi"><td>Soul Legend (50 loại)</td><td><b>Luôn rơi</b></td><td>SAFE sau 60s</td><td class="no">Sai, xem L1</td></tr>
+          <tr class="hi"><td>Soul quái / starter (302 loại)</td><td><b>Luôn rơi</b></td><td>Không nhắc</td><td class="no">Thiếu</td></tr>
+          <tr><td>Mega Stone, Paradox (kể cả mua shop)</td><td>Rơi nếu cầm dưới 60s</td><td>Rơi nếu dưới 60s</td><td class="yes">Đúng, xem L4</td></tr>
+          <tr><td>Huy hiệu, đồ shop khác</td><td>Không rơi khi chết</td><td>Không nhắc</td><td class="yes">Đúng, nhưng <code>-solo</code> cướp được</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= RATES ================= -->
+  <section id="ti-le">
+    <div class="sec-head">
+      <div class="eyebrow">Tính từ code</div>
+      <h2>Tỉ lệ rơi loot theo cỡ bãi</h2>
+      <p class="muted">"Món / lượt dọn" là số món kỳ vọng khi giết hết bãi một lần (bãi luôn có 1 Elite, tối đa 6 con sống). Cột số bãi là của map 4.2a (55 bãi); 4.2b bỏ 3 bãi bên phải còn 52.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr><th>Cỡ bãi</th><th class="num">Số bãi 4.2a</th><th class="num">Hệ số</th><th class="num">Thường 4.2a</th><th class="num">Elite 4.2a</th><th class="num">Món / lượt 4.2a</th><th class="num">Món / lượt 4.2b</th></tr>
+        </thead>
+        <tbody>
+          <tr class="hi"><td>2 con</td><td class="num">14</td><td class="num">×1,60</td><td class="num">8,0%</td><td class="num">24,0%</td><td class="num">0,32</td><td class="num">0,16</td></tr>
+          <tr><td>4 con</td><td class="num">20</td><td class="num">×1,07</td><td class="num">5,3%</td><td class="num">16,0%</td><td class="num">0,32</td><td class="num">0,24</td></tr>
+          <tr><td>6 con</td><td class="num">19</td><td class="num">×0,80</td><td class="num">4,0%</td><td class="num">12,0%</td><td class="num">0,32</td><td class="num">0,32</td></tr>
+          <tr><td>8 con (chỉ 6 sống)</td><td class="num">1</td><td class="num">×0,64</td><td class="num">3,2%</td><td class="num">9,6%</td><td class="num">0,26</td><td class="num">0,32</td></tr>
+          <tr><td>12 con (chỉ 6 sống)</td><td class="num">1</td><td class="num">×0,46</td><td class="num">2,3%</td><td class="num">6,9%</td><td class="num">0,18</td><td class="num">0,32</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:10px; font-size:13.5px">4.2a: hồi bãi 10s, Soul 20% / lượt dọn (chỉ Elite thường). 4.2b: tỉ lệ cố định 4% / 12% / 18% Mega Elite, hồi bãi 25s, Soul 20% / lượt dọn.</p>
+
+    <h3 style="margin:26px 0 12px">Phẩm chất khi đã rơi (giống nhau ở 4.2a và 4.2b)</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Nguồn</th><th class="num">Common</th><th class="num">Rare</th><th class="num">Epic</th><th class="num">Legendary</th><th>Tỉ trọng</th></tr></thead>
+        <tbody>
+          <tr><td>Quái thường</td><td class="num t-common">75%</td><td class="num t-rare">20%</td><td class="num t-epic">4,5%</td><td class="num t-leg">0,5%</td><td><div class="bar"><i class="b1" style="width:75%"></i><i class="b2" style="width:20%"></i><i class="b3" style="width:4.5%"></i><i class="b4" style="width:0.5%"></i></div></td></tr>
+          <tr><td>Elite</td><td class="num t-common">45%</td><td class="num t-rare">38%</td><td class="num t-epic">14%</td><td class="num t-leg">3%</td><td><div class="bar"><i class="b1" style="width:45%"></i><i class="b2" style="width:38%"></i><i class="b3" style="width:14%"></i><i class="b4" style="width:3%"></i></div></td></tr>
+          <tr><td>Boss Legend</td><td class="num t-common">0%</td><td class="num t-rare">35%</td><td class="num t-epic">45%</td><td class="num t-leg">20%</td><td><div class="bar"><i class="b2" style="width:35%"></i><i class="b3" style="width:45%"></i><i class="b4" style="width:20%"></i></div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= MECHANICS ================= -->
+  <section id="co-che">
+    <div class="sec-head">
+      <div class="eyebrow">Theo tài liệu v4.2b</div>
+      <h2>Toàn bộ cơ chế game</h2>
+      <p class="muted">Nội dung từ <code>GAME_LOGIC_AND_HERO_ROSTER_v42b.md</code>. Nhãn <span class="tag">4.2b</span> là phần mới của 4.2b. Dòng đỏ ghi chỗ map 4.2a hiện tại khác, hoặc chỗ code thật khác tài liệu.</p>
+    </div>
+    <div class="mech">
+      <article class="mcard">
+        <header><h3>Thắng / thua &amp; bảng điểm</h3><span class="no-sec">1</span></header>
+        <ul>
+          <li>Điểm thắng <code>PAX_Win_Target</code> tự theo số người: 30 / 40 / 50 / 60. Host đổi bằng <code>-win &lt;10..200&gt;</code>.</li>
+          <li>Báo Match Point khi một team còn cách chiến thắng 5 điểm trở xuống.</li>
+          <li>Kết thúc (<code>PAX_Win_Finish</code>): bảng MVP, [CHIEN THAN DEM SO], [NONG DAN CHAM CHI], rồi Victory / Defeat sau 3,5s.</li>
+          <li>Multiboard <code>PAX_MB_Update</code> cập nhật mỗi 1s: điểm 2 team, K/D, level, Pokemon đang cầm, thời gian trận.</li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>Chọn Pokemon, cấp &amp; Gym</h3><span class="no-sec">2</span></header>
+        <ul>
+          <li>Chọn ở nhà hoặc <code>-pick</code>, <code>-random</code>, <code>-repick</code>; chế độ troll <code>-noob</code> / <code>-chicken</code>. Đổi Pokemon bằng Soul nhặt từ rừng hoặc Boss.</li>
+          <li>Cấp tối đa tăng theo số huy hiệu (8 Gym, tối đa Lv 100). Xem bằng <code>-gym</code>.</li>
+          <li>Mỗi Gym 6 Pokemon; con thứ 6 có bộ skill khắc hệ người thách đấu. Quái Gym / League không rơi Loot.</li>
+          <li>Badge Gym 8 (<code>V413_ArmorCut</code>): xuyên 20% giáp mục tiêu.</li>
+          <li>League (<code>-league</code>): cần 8 huy hiệu; Elite Four + Champion trong phòng Darkrai. Thắng nhận danh hiệu và Champion Aura (<code>PAX_Champ</code>).</li>
+          <li>God Chu: Pikachu nhặt Ash's Cap thành God Chu – Legend Slayer (×3 sát thương lên Legend địch).</li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>Chiến đấu, hệ &amp; trạng thái</h3><span class="no-sec">3</span></header>
+        <ul>
+          <li>4 chiêu Q / W / E / R (<code>Mv_*</code>) theo hệ, Physical / Special scale theo STR / AGI / INT. Chiêu tụ lực 1,2s, tự gỡ kẹt sau 1,5s.</li>
+          <li>Bảng khắc hệ (<code>Ty_*</code>, <code>Dmg_*</code>): Super Effective / Not Very Effective / Immune chuẩn Pokemon.</li>
+          <li>Nội tại (<code>Ab_*</code>), trạng thái (<code>Fx_*</code>): Burn, Freeze, Paralysis, Poison, Sleep, Confusion, stage −6..+6.</li>
+          <li>Thời tiết <code>Wth_Tick</code> đổi mỗi 4 phút: Clear / Rain / Harsh Sun / Sandstorm / Hail.</li>
+          <li>Giáp WC3 (<code>war3mapMisc.txt</code>): giảm sát thương = 0,06 × Armor / (1 + 0,06 × Armor).</li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>Mega Evolution &amp; đổi Form</h3><span class="tag">4.2b</span></header>
+        <ul>
+          <li>Mở khóa ở nút + vàng (<code>A800..A851</code>): Lv 50, 5.000g, +40 mọi chỉ số vĩnh viễn (Pokemon thường); Lv 70, 8.000g, +60 (Legend).</li>
+          <li>Học xong: xóa skill giả <code>A8xx</code>, gắn vĩnh viễn skill <code>AMxx</code> (unit <code>ANcl</code>) và tự hồi mỗi 1s (<code>PAX_HeroMega_KeepAlive</code>), nên không mất nút.</li>
+          <li>Chống tràn 12 ô lệnh: gỡ nút <code>PAXT</code> khi đổi Form, ẩn icon nội tại phụ trên Legend có 2 Mega (Mewtwo X/Y, Black/White Kyurem).</li>
+          <li>CD đổi Form 60 giây (Deoxys và các Legend đổi Form).<span class="diff">600 giây.</span></li>
+        </ul>
+      </article>
+
+      <article class="mcard" style="grid-row: span 2">
+        <header><h3>Quái rừng &amp; Loot</h3><span class="tag">4.2b</span></header>
+        <ul>
+          <li>52 bãi (26 trái / 26 phải). Xóa 121 quái cũ v1.8 lúc vào game, spawn bãi mới trong 0:02–0:06. Chống trùng loài (<code>Wild_PickUniqueType</code>).<span class="diff">55 bãi (lệch 3 bãi bên phải), chưa chống trùng loài.</span></li>
+          <li>Tối đa 6 quái / bãi, 260 quái rừng sống toàn map (đã có từ 4.2a).</li>
+          <li>Hồi bãi <code>Wild_Respawn</code> 25 giây.<span class="diff">10 giây.</span></li>
+          <li>10 phút đầu không gọi viện. Sau đó bãi chưa dọn gọi viện tối đa 1 lần sau 90s (+1 thường, +1 Elite, không quá 6 con).</li>
+          <li>Loot cố định: thường 4%, Elite 12%, Mega Elite 18%, Boss Legend 45%.<span class="diff">5% / 15% nhân hệ số bãi (L2).</span></li>
+          <li>Soul 20% từ Elite, cả Mega Elite (<code>Wild_SoulChance = 20.0</code>). Mega Stone từ Mega Elite 5%.<span class="diff">chỉ Elite thường rơi Soul.</span></li>
+          <li>Loot gồm 50% Stat Relic / 50% Effect Charm.
+            <table class="mini" style="margin-top:6px">
+              <thead><tr><th>Tier</th><th class="num">Bán</th><th class="num">Tự xóa</th></tr></thead>
+              <tbody>
+                <tr><td class="t-common">Common</td><td class="num">1.000g</td><td class="num">90s</td></tr>
+                <tr><td class="t-rare">Rare</td><td class="num">2.500g</td><td class="num">90s</td></tr>
+                <tr><td class="t-epic">Epic</td><td class="num">6.000g</td><td class="num">180s</td></tr>
+                <tr><td class="t-leg">Legendary</td><td class="num">15.000g</td><td class="num">180s</td></tr>
+              </tbody>
+            </table>
+          </li>
+          <li>Stat Relic: Common 1 dòng, Rare 2, Epic 2–3, Legendary 3 (STR / AGI / INT, All Stats, Armor, Max HP, AS%, MS).</li>
+          <li>Effect Charm (7 nội tại): Lifesteal 3–12%, Storm Shock 50–170% main stat AoE, Soul Burn 1–3% HP/s, Critical 8–28% ×1,5, Mana Surge 3–10% mana / đòn, Thorns 10–35% phản dmg, Treasure Hunter +15–60% vàng.</li>
+          <li><code>-up</code> Mystery Box 3.500g: 75% Common / 10% Rare / 3% Epic / 0,5% Leg / 11,5% rỗng. <code>-gamble</code> 1.000g, CD 60s: 15% ra Rare/Epic, 15% jackpot +4k, 20% +2k2, 10% +500g + Haste, 40% mất. <code>-forge</code>: cường hóa +1..+5 (tới ×2,20) hoặc ghép 2 món cùng tier (60% / 40% / 20%).</li>
+          <li>Rơi khi chết: không khóa Player ID. Common, Rare, đồ <code>-up</code> / <code>-gamble</code> / <code>-forge</code> an toàn ngay. Epic, Legendary, Legend Soul, Mega Stone, Paradox rơi nếu cầm dưới 60s.<span class="diff code">mọi Soul luôn rơi (L1); thiếu luật tối đa 2 Loot (L5).</span></li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>Boss Legend</h3><span class="no-sec">6</span></header>
+        <ul>
+          <li>54 Boss: 15 Boss phòng cố định + 39 Roaming Legend spawn ngẫu nhiên ở các bãi, 50/50 hai bên.</li>
+          <li>Chỉ Pokemon Lv 100 mới gây sát thương lên Roaming Legend. Legend rơi Soul 100% và Loot 45%.</li>
+          <li><code>PAX_Boss_Register</code>: HP 1.000.000–1.500.000; ATK 1.500–2.500 (CD đánh −50%, mana 10.000); giáp 150–200 (giảm 90–92,3% sát thương vật lý).<span class="diff">giáp 450–700.</span></li>
+          <li>Enrage dưới 50% HP: +35% ATK, +25% skill, +12 giáp, +38% AS.</li>
+          <li>Leash: đi quá xa hoặc hết giao tranh thì chạy về, hồi 2% max HP/s.</li>
+          <li>World Boss phút 55: Mega Rayquaza giữa map trong 5 phút. Giết được +2.000g và buff Dragon Ascent vĩnh viễn cho cả team.</li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>PvP &amp; sự kiện</h3><span class="no-sec">7</span></header>
+        <ul>
+          <li>Arena Duel (<code>Fy4</code>) mỗi 6 phút: hồi sinh và kéo 2 team vào đấu trường 40s; team thắng +1 level cả team.<span class="diff code">chết trong Duel vẫn rơi đồ (L3).</span></li>
+          <li><code>-duel</code> (<code>-accept</code> / <code>-decline</code>) và <code>-solo</code> (<code>-yes</code> / <code>-no</code>, deathmatch 90s giữa map; người thua bị cướp 1 món, L6).</li>
+          <li>Center Altar mỗi 7 phút: chiếm 20s nhận 1.200–2.400g / người + 2 Loot (1 Relic + 1 Charm: 55% Rare / 35% Epic / 10% Leg).</li>
+          <li>Golden Treasure Goblin mỗi 5 phút: chắc chắn 1 Loot + 1.800g.</li>
+          <li>Giant Magikarp mỗi 6 phút: 70% cá thật (+1.500g + chắc chắn Rare/Epic/Leg), 30% bẫy Red Gyarados (+3.000g + chắc chắn Epic/Leg).</li>
+          <li>Rush Hour 12–14 phút, Smuggler's Cart 15 phút, Weather Storm 10 phút, WANTED Bounty 4 phút, Chaos Mode 30s mỗi 10 phút.</li>
+          <li>Đỡ team thua: Comeback (thua từ 6 điểm: +10% dmg, −10% dmg nhận trong 2 phút); Underdog Supply (thua từ 10 điểm: +1.000g / người + 1 Loot tại nhà).</li>
+        </ul>
+      </article>
+
+      <article class="mcard">
+        <header><h3>Tối ưu &amp; chống bug</h3><span class="tag">4.2b</span></header>
+        <ul>
+          <li>Revive Watchdog 14s trong <code>PAX_Leg_Tick1s</code>: hero chết quá 14s (kẹt <code>CX4</code> phút 48 hoặc Duel) được gỡ pause và hồi sinh tại nhà.</li>
+          <li>Tắt trigger lỗi <code>ts</code> và 18 trigger spawn quái cũ v1.8; dọn leak location / group / force ở bẫy phòng và Arena Duel.</li>
+          <li>Chuẩn hóa cỡ 3D 15 Legend mới (<code>Leg25</code>); nén MPQ, xóa 1.092 file mồ côi, nén 254 texture BLP quá cỡ.</li>
+          <li>Đã có từ 4.2a: AI quái chỉ quét mục tiêu máu thấp khi đang giao tranh (chống lag), không còn rò group.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= COMMANDS ================= -->
+  <section id="lenh">
+    <div class="sec-head">
+      <div class="eyebrow">Gõ trong chat</div>
+      <h2>Lệnh chat hiện có</h2>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Nhóm</th><th>Lệnh</th><th>Tác dụng</th></tr></thead>
+        <tbody>
+          <tr><td>Cơ bản</td><td><code>-help</code> <code>-cmd</code> <code>-stat</code> <code>-type</code> <code>-moves</code> <code>-ms</code> <code>-ma</code> <code>-me</code> <code>-quest</code></td><td>Hướng dẫn, chỉ số, hệ, bộ skill, tốc chạy</td></tr>
+          <tr><td>Hỗ trợ / tầm nhìn</td><td><code>-tp</code> <code>-mid</code> <code>-home</code> <code>-stuck</code> <code>-unstuck</code> <code>-fog</code> / <code>-vision</code> (host) <code>-win &lt;n&gt;</code> (host)</td><td>Về nhà (hồi đầy, xóa debuff), ra giữa map (CD 30s), thoát kẹt, bật/tắt sương mù, đổi điểm thắng</td></tr>
+          <tr><td>Chọn tướng</td><td><code>-pick</code> <code>-random</code> <code>-repick</code> <code>-noob</code> <code>-chicken</code></td><td>Chọn hoặc đổi Pokemon đầu trận</td></tr>
+          <tr><td>Kinh tế &amp; đồ</td><td><code>-up</code> / <code>-train</code> <code>-forge</code> <code>-gamble</code> <code>-pet</code></td><td>Nâng chỉ số / mở hộp đồ, cường hóa / ghép đồ, quay số, pet</td></tr>
+          <tr><td>Đấu trường &amp; Gym</td><td><code>-gym</code> <code>-league</code> <code>-duel</code> <code>-accept</code> <code>-decline</code> <code>-solo</code> <code>-yes</code> <code>-no</code> <code>-rank</code> <code>-badges</code></td><td>Thách đấu Gym, League, PvP 1v1, xem hạng</td></tr>
+          <tr><td>Vui vẻ</td><td><code>-taunt</code> <code>-ez</code> <code>-title</code></td><td>Khiêu khích, đổi danh hiệu</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= MELEE / RANGED RULES ================= -->
+  <section id="tam-danh">
+    <div class="sec-head">
+      <div class="eyebrow">Đề xuất</div>
+      <h2>Luật xếp Melee / Ranged</h2>
+      <p>Trong map, cận chiến hay đánh xa chỉ khác nhau ở tầm đánh, và tầm đánh hiện đặt không theo quy tắc nào (222 con chung tầm 200). Luật dưới đây lấy phong cách đánh từ chính game Pokemon. Con thiên <b>Attack</b> đánh bằng cắn, đấm, chém, húc (chiêu physical, phần lớn phải chạm người). Con thiên <b>Sp. Atk</b> đánh bằng tia, cầu năng lượng, phép (chiêu special).</p>
+      <p class="muted">Stat chính STR / INT của map đã chia đúng theo trục này: cả 144 con ra Melee đều là STR, không con INT nào bị xếp Melee. Chỉ tầm đánh là đặt lệch.</p>
+    </div>
+
+    <div class="two">
+      <div class="panel">
+        <h3>Bốn bước</h3>
+        <ol class="steps" style="margin-top:14px">
+          <li><div><b>Chênh lệch chỉ số.</b> Lấy Attack và Sp. Atk gốc của loài (PokeAPI, có sẵn trong <code>tools/learnsets.json</code>; 28 Legend mới nhập tay). <span class="mono">Chênh = Sp.Atk − Attack</span>.</div></li>
+          <li><div><b>Chỉnh theo bộ chiêu.</b> Đếm chiêu gây sát thương loài đó học theo cấp. <span class="mono">Chỉnh = 40 × (tỉ lệ chiêu special − 0,5)</span>, tức từ −20 đến +20. Bỏ qua nếu dưới 4 chiêu.</div></li>
+          <li><div><b>Xếp lớp.</b> <span class="mono">Điểm = Chênh + Chỉnh</span>. Từ +20 trở lên: Ranged. Từ −20 trở xuống: Melee. Ở giữa: Tầm trung.</div></li>
+          <li><div><b>Khớp stat chính.</b> Nếu ra Ranged mà map để STR, hoặc ra Melee mà map để INT, hạ về Tầm trung, vì sát thương skill tính theo stat chính. Hiện chỉ có Celebi rơi vào trường hợp này.</div></li>
+        </ol>
+      </div>
+      <div class="panel" style="display:grid; gap:12px; align-content:start">
+        <h3>Tầm đánh theo lớp</h3>
+        <div class="tbl-wrap">
+          <table class="mini">
+            <thead><tr><th>Lớp</th><th>Điều kiện</th><th class="num">ua1r</th><th>weapTp1</th></tr></thead>
+            <tbody>
+              <tr><td><span class="pc p-M">Melee</span></td><td>Điểm ≤ −20</td><td class="num">150</td><td class="mono">normal</td></tr>
+              <tr><td><span class="pc p-H">Tầm trung</span></td><td>−20 &lt; Điểm &lt; +20</td><td class="num">300</td><td class="mono">missile</td></tr>
+              <tr><td><span class="pc p-R">Ranged</span></td><td>Điểm ≥ +20</td><td class="num">500</td><td class="mono">missile</td></tr>
+              <tr><td><span class="pc p-R">Ranged trâu</span></td><td>+ thủ TB ≥ 105</td><td class="num">450</td><td class="mono">missile</td></tr>
+              <tr><td><span class="pc p-R">Ranged pháo giấy</span></td><td>+ Sp.Atk ≥ 120, thủ TB &lt; 85</td><td class="num">600</td><td class="mono">missile</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="muted" style="font-size:13.5px">Thủ TB = (Defense + Sp. Def) / 2. Melee đổi sang <code>weapTp1 = normal</code> để đòn đánh trúng ngay, không bay đạn 150 đơn vị trông như bắn.</p>
+        <div class="note"><b>Vì sao không xếp theo hệ:</b> cùng hệ Lửa, Flareon (Atk 130 / Sp.Atk 95) đánh cận còn Charizard (84 / 109) bắn xa. Cùng nhà Eevee, Vaporeon và Jolteon ra Ranged còn Flareon ra Melee.</div>
+      </div>
+    </div>
+
+    <h3 style="margin:26px 0 12px">Ví dụ</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Pokemon</th><th class="num">Atk</th><th class="num">Sp.Atk</th><th class="num">Chiêu P / S</th><th class="num">Chênh</th><th class="num">Chỉnh</th><th class="num">Điểm</th><th>Đề xuất</th><th class="num">Tầm hiện tại</th></tr></thead>
+        <tbody>
+          <tr><td>Alakazam</td><td class="num">50</td><td class="num">135</td><td class="num">1 / 5</td><td class="num">+85</td><td class="num">+13</td><td class="num score">+98</td><td><span class="pc p-R">Ranged 600</span></td><td class="num">600</td></tr>
+          <tr><td>Kyogre</td><td class="num">100</td><td class="num">150</td><td class="num">3 / 8</td><td class="num">+50</td><td class="num">+9</td><td class="num score">+59</td><td><span class="pc p-R">Ranged 450</span></td><td class="num">200</td></tr>
+          <tr><td>Blissey</td><td class="num">10</td><td class="num">75</td><td class="num">6 / 2</td><td class="num">+65</td><td class="num">−10</td><td class="num score">+55</td><td><span class="pc p-R">Ranged 500</span></td><td class="num">200</td></tr>
+          <tr><td>Charizard</td><td class="num">84</td><td class="num">109</td><td class="num">5 / 7</td><td class="num">+25</td><td class="num">+3</td><td class="num score">+28</td><td><span class="pc p-R">Ranged 500</span></td><td class="num">400</td></tr>
+          <tr><td>Rayquaza</td><td class="num">150</td><td class="num">150</td><td class="num">5 / 7</td><td class="num">0</td><td class="num">+3</td><td class="num score">+3</td><td><span class="pc p-H">Tầm trung 300</span></td><td class="num">500</td></tr>
+          <tr><td>Lucario</td><td class="num">110</td><td class="num">115</td><td class="num">11 / 4</td><td class="num">+5</td><td class="num">−9</td><td class="num score">−4</td><td><span class="pc p-H">Tầm trung 300</span></td><td class="num">128</td></tr>
+          <tr><td>Dragonite</td><td class="num">134</td><td class="num">100</td><td class="num">10 / 3</td><td class="num">−34</td><td class="num">−11</td><td class="num score">−45</td><td><span class="pc p-M">Melee 150</span></td><td class="num">350</td></tr>
+          <tr><td>Garchomp</td><td class="num">130</td><td class="num">80</td><td class="num">10 / 1</td><td class="num">−50</td><td class="num">−16</td><td class="num score">−66</td><td><span class="pc p-M">Melee 150</span></td><td class="num">200</td></tr>
+          <tr><td>Machamp</td><td class="num">130</td><td class="num">65</td><td class="num">11 / 0</td><td class="num">−65</td><td class="num">−20</td><td class="num score">−85</td><td><span class="pc p-M">Melee 150</span></td><td class="num">150</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin:26px 0 12px">Kết quả cho cả 360 con</h3>
+    <div class="two">
+      <div class="tbl-wrap">
+        <table class="matrix" id="matrix"></table>
+      </div>
+      <div class="panel" style="display:grid; gap:10px; align-content:start">
+        <p id="matrixNote"></p>
+        <p class="muted" style="font-size:13.5px">Đổi tầm hàng loạt sẽ làm Melee thiệt khi gặp Ranged. Nên bù cho lớp Melee (máu, giáp hoặc tốc chạy) rồi test trong game; trang này chưa đề xuất con số bù.</p>
+        <p><a href="#hero">Xem đề xuất từng con trong bảng 360 hero</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ROSTER ================= -->
+  <section id="hero">
+    <div class="sec-head">
+      <div class="eyebrow">Melee hay Archer</div>
+      <h2>360 Pokemon hero</h2>
+      <p class="muted">Cả 360 hero đều clone từ Priestess of the Moon (<code>Emoo</code>), nên đều bắn đạn (358 <code>missile</code>, 2 <code>mbounce</code>). Cận chiến hay đánh xa chỉ khác ở tầm đánh <code>ua1r</code>. 25 Legend mới <code>EL00..EL0O</code> và mọi hero Gen 2–9 (<code>P*</code>) đang để chung tầm 200, kể cả con phép như Lunala, Reshiram, Kyogre, Hoopa.</p>
+    </div>
+    <div class="bands" id="bands"></div>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Tìm tên, mã hoặc Mega…" aria-label="Tìm hero" autocomplete="off">
+      <select id="fGroup" aria-label="Nhóm"><option value="">Mọi nhóm</option></select>
+      <select id="fType" aria-label="Hệ"><option value="">Mọi hệ</option></select>
+      <select id="fStat" aria-label="Stat chính"><option value="">Mọi stat</option><option>STR</option><option>AGI</option><option>INT</option></select>
+      <select id="fProp" aria-label="Đề xuất"><option value="">Mọi đề xuất</option><option value="M">Đề xuất Melee</option><option value="H">Đề xuất Tầm trung</option><option value="R">Đề xuất Ranged</option><option value="chg">Chỉ con phải đổi lớp</option></select>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="tbl-wrap">
+      <table id="roster">
+        <thead><tr>
+          <th data-k="id">Mã</th><th data-k="name">Tên</th><th data-k="types">Hệ</th><th data-k="group">Nhóm</th>
+          <th data-k="stat">Stat</th><th data-k="atk" class="num">Atk / SpA</th><th data-k="score" class="num">Điểm</th>
+          <th data-k="range">Tầm hiện tại → đề xuất</th><th data-k="mega">Mega / Form</th>
+        </tr></thead>
+        <tbody id="rbody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div>Phân tích tĩnh script <code>war3map.j</code> và <code>ItemData.slk</code> / <code>ItemFunc.txt</code> của map 4.2a, đối chiếu script 4.2b đang làm. Chưa test trong game.</div>
+  <div>Tạo ngày 22/11/2026 từ thư mục <code>_PokemonArena2.0_work</code>.</div>
+</footer>
+
+<script>
+const ROSTER = [{"id":"E00I","name":"Alakazam","types":["Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":600,"weap":"missile","mega":"Mega Alakazam","band":"A","atk":50,"spa":135,"gap":85,"mshift":13,"phys":1,"spec":5,"score":98,"clash":false,"cls":"R","rng":600},{"id":"E02G","name":"Gastly","types":["Ghost","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":600,"weap":"missile","mega":"","band":"A","atk":35,"spa":100,"gap":65,"mshift":5,"phys":3,"spec":5,"score":70,"clash":false,"cls":"R","rng":500},{"id":"E01G","name":"Gengar","types":["Ghost","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":600,"weap":"missile","mega":"Mega Gengar","band":"A","atk":65,"spa":130,"gap":65,"mshift":2,"phys":4,"spec":5,"score":67,"clash":false,"cls":"R","rng":600},{"id":"E02H","name":"Haunter","types":["Ghost","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":600,"weap":"missile","mega":"","band":"A","atk":50,"spa":115,"gap":65,"mshift":2,"phys":4,"spec":5,"score":67,"clash":false,"cls":"R","rng":500},{"id":"E00D","name":"Pidgeot","types":["Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":600,"weap":"missile","mega":"Mega Pidgeot","band":"A","atk":80,"spa":70,"gap":-10,"mshift":4,"phys":4,"spec":6,"score":-6,"clash":false,"cls":"H","rng":300},{"id":"EN0B","name":"Gardevoir","types":["Psychic","Fairy"],"group":"Legend","stat":"INT","range":600,"weap":"missile","mega":"Mega Gardevoir","band":"A","atk":65,"spa":125,"gap":60,"mshift":20,"phys":0,"spec":10,"score":80,"clash":false,"cls":"R","rng":500},{"id":"E01Q","name":"Butterfree","types":["Bug","Flying"],"group":"Classic (Starter/Evo)","stat":"INT","range":500,"weap":"missile","mega":"","band":"A","atk":45,"spa":90,"gap":45,"mshift":10,"phys":2,"spec":6,"score":55,"clash":false,"cls":"R","rng":500},{"id":"E00H","name":"Kadabra","types":["Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":500,"weap":"missile","mega":"","band":"A","atk":35,"spa":120,"gap":85,"mshift":14,"phys":1,"spec":6,"score":99,"clash":false,"cls":"R","rng":600},{"id":"EN0A","name":"Kirlia","types":["Psychic","Fairy"],"group":"Classic (Starter/Evo)","stat":"INT","range":500,"weap":"missile","mega":"","band":"A","atk":35,"spa":65,"gap":30,"mshift":20,"phys":0,"spec":7,"score":50,"clash":false,"cls":"R","rng":500},{"id":"E020","name":"Articuno","types":["Ice","Flying"],"group":"Legend","stat":"INT","range":500,"weap":"missile","mega":"Form/Mega","band":"A","atk":85,"spa":95,"gap":10,"mshift":16,"phys":1,"spec":8,"score":26,"clash":false,"cls":"R","rng":450},{"id":"E023","name":"Darkrai","types":["Dark"],"group":"Legend","stat":"INT","range":500,"weap":"missile","mega":"","band":"A","atk":90,"spa":135,"gap":45,"mshift":4,"phys":2,"spec":3,"score":49,"clash":false,"cls":"R","rng":500},{"id":"E027","name":"Deoxys","types":["Psychic"],"group":"Legend","stat":"STR","range":500,"weap":"missile","mega":"Form/Mega","band":"A","atk":150,"spa":150,"gap":0,"mshift":5,"phys":3,"spec":5,"score":5,"clash":false,"cls":"H","rng":300},{"id":"E026","name":"Mewtwo","types":["Psychic"],"group":"Legend","stat":"INT","range":500,"weap":"missile","mega":"Mega Mewtwo X, Mega Mewtwo Y","band":"A","atk":110,"spa":154,"gap":44,"mshift":15,"phys":1,"spec":7,"score":59,"clash":false,"cls":"R","rng":500},{"id":"E021","name":"Moltres","types":["Fire","Flying"],"group":"Legend","stat":"INT","range":500,"weap":"missile","mega":"Form/Mega","band":"A","atk":100,"spa":125,"gap":25,"mshift":12,"phys":2,"spec":8,"score":37,"clash":false,"cls":"R","rng":500},{"id":"E029","name":"Rayquaza","types":["Dragon","Flying"],"group":"Legend","stat":"STR","range":500,"weap":"missile","mega":"Mega Rayquaza","band":"A","atk":150,"spa":150,"gap":0,"mshift":3,"phys":5,"spec":7,"score":3,"clash":false,"cls":"H","rng":300},{"id":"E03J","name":"Zapdos","types":["Electric","Flying"],"group":"Legend","stat":"INT","range":500,"weap":"missile","mega":"Form/Mega","band":"A","atk":90,"spa":125,"gap":35,"mshift":5,"phys":3,"spec":5,"score":40,"clash":false,"cls":"R","rng":500},{"id":"E000","name":"Blastoise","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":450,"weap":"missile","mega":"Mega Blastoise","band":"A","atk":83,"spa":85,"gap":2,"mshift":-2,"phys":5,"spec":4,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EP0E","name":"Empoleon","types":["Water","Steel"],"group":"Classic (Starter/Evo)","stat":"INT","range":450,"weap":"missile","mega":"","band":"A","atk":86,"spa":111,"gap":25,"mshift":-3,"phys":7,"spec":5,"score":22,"clash":false,"cls":"R","rng":500},{"id":"EP02","name":"Feraligatr","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":450,"weap":"missile","mega":"","band":"A","atk":105,"spa":79,"gap":-26,"mshift":-13,"phys":9,"spec":2,"score":-39,"clash":false,"cls":"M","rng":150},{"id":"EP0T","name":"Greninja","types":["Water","Dark"],"group":"Classic (Starter/Evo)","stat":"INT","range":450,"weap":"missile","mega":"","band":"A","atk":95,"spa":103,"gap":8,"mshift":-2,"phys":6,"spec":5,"score":6,"clash":false,"cls":"H","rng":300},{"id":"E00C","name":"Pidgeotto","types":["Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":450,"weap":"missile","mega":"","band":"A","atk":60,"spa":50,"gap":-10,"mshift":5,"phys":3,"spec":5,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"EP05","name":"Swampert","types":["Water","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":450,"weap":"missile","mega":"Mega Swampert","band":"A","atk":110,"spa":85,"gap":-25,"mshift":0,"phys":5,"spec":5,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"E00G","name":"Abra","types":["Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":400,"weap":"missile","mega":"","band":"A","atk":20,"spa":105,"gap":85,"mshift":0,"phys":0,"spec":0,"score":85,"clash":false,"cls":"R","rng":500},{"id":"E00E","name":"Charizard","types":["Fire","Flying"],"group":"Classic (Starter/Evo)","stat":"INT","range":400,"weap":"missile","mega":"Mega Charizard X, Mega Charizard Y","band":"A","atk":84,"spa":109,"gap":25,"mshift":3,"phys":5,"spec":7,"score":28,"clash":false,"cls":"R","rng":500},{"id":"E006","name":"Raichu","types":["Electric"],"group":"Classic (Starter/Evo)","stat":"STR","range":400,"weap":"missile","mega":"","band":"A","atk":90,"spa":90,"gap":0,"mshift":-2,"phys":6,"spec":5,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"EN09","name":"Ralts","types":["Psychic","Fairy"],"group":"Classic (Starter/Evo)","stat":"INT","range":400,"weap":"missile","mega":"","band":"A","atk":25,"spa":45,"gap":20,"mshift":20,"phys":0,"spec":7,"score":40,"clash":false,"cls":"R","rng":500},{"id":"E02C","name":"Victreebel","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":400,"weap":"missile","mega":"","band":"A","atk":105,"spa":100,"gap":-5,"mshift":-10,"phys":3,"spec":1,"score":-15,"clash":false,"cls":"H","rng":300},{"id":"E024","name":"Mew","types":["Psychic"],"group":"Legend","stat":"STR","range":400,"weap":"missile","mega":"","band":"A","atk":100,"spa":100,"gap":0,"mshift":10,"phys":1,"spec":3,"score":10,"clash":false,"cls":"H","rng":300},{"id":"EN0G","name":"Beldum","types":["Steel","Psychic"],"group":"Classic (Starter/Evo)","stat":"STR","range":350,"weap":"missile","mega":"","band":"M","atk":55,"spa":35,"gap":-20,"mshift":0,"phys":1,"spec":0,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"E01K","name":"Dragonite","types":["Dragon","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":350,"weap":"missile","mega":"","band":"M","atk":134,"spa":100,"gap":-34,"mshift":-11,"phys":10,"spec":3,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"E031","name":"Magnemite","types":["Electric","Steel"],"group":"Classic (Starter/Evo)","stat":"INT","range":350,"weap":"missile","mega":"","band":"M","atk":35,"spa":95,"gap":60,"mshift":5,"phys":3,"spec":5,"score":65,"clash":false,"cls":"R","rng":500},{"id":"EN0H","name":"Metang","types":["Steel","Psychic"],"group":"Classic (Starter/Evo)","stat":"STR","range":350,"weap":"missile","mega":"","band":"M","atk":75,"spa":55,"gap":-20,"mshift":-4,"phys":6,"spec":4,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"E04M","name":"Starmie","types":["Water","Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":350,"weap":"mbounce","mega":"","band":"M","atk":75,"spa":100,"gap":25,"mshift":12,"phys":2,"spec":8,"score":37,"clash":false,"cls":"R","rng":500},{"id":"E04N","name":"Staryu","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":350,"weap":"mbounce","mega":"","band":"M","atk":45,"spa":70,"gap":25,"mshift":12,"phys":2,"spec":8,"score":37,"clash":false,"cls":"R","rng":500},{"id":"E032","name":"Magneton","types":["Electric","Steel"],"group":"Legend","stat":"INT","range":350,"weap":"missile","mega":"","band":"M","atk":60,"spa":120,"gap":60,"mshift":7,"phys":3,"spec":6,"score":67,"clash":false,"cls":"R","rng":600},{"id":"EN0F","name":"Salamence","types":["Dragon","Flying"],"group":"Legend","stat":"STR","range":350,"weap":"missile","mega":"Mega Salamence","band":"M","atk":135,"spa":110,"gap":-25,"mshift":-10,"phys":9,"spec":3,"score":-35,"clash":false,"cls":"M","rng":150},{"id":"E02K","name":"Beedrill","types":["Bug","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"Mega Beedrill","band":"M","atk":90,"spa":45,"gap":-45,"mshift":-17,"phys":11,"spec":1,"score":-62,"clash":false,"cls":"M","rng":150},{"id":"EP0N","name":"Chesnaught","types":["Grass","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":107,"spa":74,"gap":-33,"mshift":-17,"phys":12,"spec":1,"score":-50,"clash":false,"cls":"M","rng":150},{"id":"E01F","name":"Cloyster","types":["Water","Ice"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":95,"spa":85,"gap":-10,"mshift":0,"phys":5,"spec":5,"score":-10,"clash":false,"cls":"H","rng":300},{"id":"E049","name":"Crobat","types":["Poison","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":90,"spa":70,"gap":-20,"mshift":-4,"phys":6,"spec":4,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"EP01","name":"Croconaw","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":80,"spa":59,"gap":-21,"mshift":-13,"phys":9,"spec":2,"score":-34,"clash":false,"cls":"M","rng":150},{"id":"E01X","name":"Electrode","types":["Electric"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"","band":"M","atk":50,"spa":80,"gap":30,"mshift":0,"phys":6,"spec":6,"score":30,"clash":false,"cls":"R","rng":500},{"id":"EP0S","name":"Frogadier","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"","band":"M","atk":63,"spa":83,"gap":20,"mshift":-4,"phys":6,"spec":4,"score":16,"clash":false,"cls":"H","rng":300},{"id":"E048","name":"Golbat","types":["Poison","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":80,"spa":65,"gap":-15,"mshift":0,"phys":4,"spec":4,"score":-15,"clash":false,"cls":"H","rng":300},{"id":"EP04","name":"Marshtomp","types":["Water","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":85,"spa":60,"gap":-25,"mshift":0,"phys":5,"spec":5,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"E00B","name":"Pidgey","types":["Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":45,"spa":35,"gap":-10,"mshift":3,"phys":3,"spec":4,"score":-7,"clash":false,"cls":"H","rng":300},{"id":"EP0D","name":"Prinplup","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"","band":"M","atk":66,"spa":81,"gap":15,"mshift":0,"phys":5,"spec":5,"score":15,"clash":false,"cls":"H","rng":300},{"id":"EN05","name":"Sceptile","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"Mega Sceptile","band":"M","atk":85,"spa":105,"gap":20,"mshift":-8,"phys":7,"spec":3,"score":12,"clash":false,"cls":"H","rng":300},{"id":"EP0H","name":"Serperior","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":75,"spa":75,"gap":0,"mshift":-2,"phys":5,"spec":4,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"E01I","name":"Tentacruel","types":["Water","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"","band":"M","atk":70,"spa":80,"gap":10,"mshift":9,"phys":3,"spec":8,"score":19,"clash":false,"cls":"H","rng":300},{"id":"EP08","name":"Torterra","types":["Grass","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":109,"spa":75,"gap":-34,"mshift":-5,"phys":7,"spec":4,"score":-39,"clash":false,"cls":"M","rng":150},{"id":"E002","name":"Venusaur","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"Mega Venusaur","band":"M","atk":82,"spa":100,"gap":18,"mshift":-11,"phys":7,"spec":2,"score":7,"clash":false,"cls":"H","rng":300},{"id":"E009","name":"Wartortle","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":300,"weap":"missile","mega":"","band":"M","atk":63,"spa":65,"gap":2,"mshift":-5,"phys":5,"spec":3,"score":-3,"clash":false,"cls":"H","rng":300},{"id":"E01A","name":"Weepinbell","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":90,"spa":85,"gap":-5,"mshift":-15,"phys":7,"spec":1,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"E019","name":"Weezing","types":["Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":90,"spa":85,"gap":-5,"mshift":2,"phys":5,"spec":6,"score":-3,"clash":false,"cls":"H","rng":300},{"id":"E046","name":"Zubat","types":["Poison","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":300,"weap":"missile","mega":"","band":"M","atk":45,"spa":30,"gap":-15,"mshift":0,"phys":4,"spec":4,"score":-15,"clash":false,"cls":"H","rng":300},{"id":"E02B","name":"Bellsprout","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":75,"spa":70,"gap":-5,"mshift":-15,"phys":7,"spec":1,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"EP0P","name":"Braixen","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":59,"spa":90,"gap":31,"mshift":11,"phys":2,"spec":7,"score":42,"clash":false,"cls":"R","rng":500},{"id":"E007","name":"Charmeleon","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":64,"spa":80,"gap":16,"mshift":0,"phys":4,"spec":4,"score":16,"clash":false,"cls":"H","rng":300},{"id":"EN01","name":"Combusken","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":85,"spa":85,"gap":0,"mshift":-16,"phys":10,"spec":1,"score":-16,"clash":false,"cls":"H","rng":300},{"id":"E01T","name":"Dragonair","types":["Dragon"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":84,"spa":70,"gap":-14,"mshift":-10,"phys":6,"spec":2,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"EP0R","name":"Froakie","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":56,"spa":62,"gap":6,"mshift":-4,"phys":6,"spec":4,"score":2,"clash":false,"cls":"H","rng":300},{"id":"E00P","name":"Golem","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":120,"spa":55,"gap":-65,"mshift":-20,"phys":11,"spec":0,"score":-85,"clash":false,"cls":"M","rng":150},{"id":"EP07","name":"Grotle","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":89,"spa":55,"gap":-34,"mshift":0,"phys":4,"spec":4,"score":-34,"clash":false,"cls":"M","rng":150},{"id":"EN04","name":"Grovyle","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":65,"spa":85,"gap":20,"mshift":-8,"phys":7,"spec":3,"score":12,"clash":false,"cls":"H","rng":300},{"id":"E001","name":"Ivysaur","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":62,"spa":80,"gap":18,"mshift":-14,"phys":6,"spec":1,"score":4,"clash":false,"cls":"H","rng":300},{"id":"E01V","name":"Koffing","types":["Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":65,"spa":60,"gap":-5,"mshift":2,"phys":4,"spec":5,"score":-3,"clash":false,"cls":"H","rng":300},{"id":"EP0A","name":"Monferno","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":78,"spa":78,"gap":0,"mshift":-12,"phys":8,"spec":2,"score":-12,"clash":false,"cls":"H","rng":300},{"id":"EP03","name":"Mudkip","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":70,"spa":50,"gap":-20,"mshift":-4,"phys":6,"spec":4,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"EP0J","name":"Pignite","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":93,"spa":70,"gap":-23,"mshift":-10,"phys":9,"spec":3,"score":-33,"clash":false,"cls":"M","rng":150},{"id":"E005","name":"Pikachu","types":["Electric"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":55,"spa":50,"gap":-5,"mshift":0,"phys":5,"spec":5,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"EP0C","name":"Piplup","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":51,"spa":61,"gap":10,"mshift":2,"phys":4,"spec":5,"score":12,"clash":false,"cls":"H","rng":300},{"id":"E012","name":"Poliwag","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":50,"spa":40,"gap":-10,"mshift":5,"phys":3,"spec":5,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"E013","name":"Poliwhirl","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":65,"spa":50,"gap":-15,"mshift":5,"phys":3,"spec":5,"score":-10,"clash":false,"cls":"H","rng":300},{"id":"E014","name":"Poliwrath","types":["Water","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":95,"spa":70,"gap":-25,"mshift":0,"phys":2,"spec":1,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"EP0M","name":"Quilladin","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":78,"spa":56,"gap":-22,"mshift":-16,"phys":8,"spec":1,"score":-38,"clash":false,"cls":"M","rng":150},{"id":"EP0G","name":"Servine","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":60,"spa":60,"gap":0,"mshift":-2,"phys":5,"spec":4,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"EN0E","name":"Shelgon","types":["Dragon","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":95,"spa":60,"gap":-35,"mshift":-8,"phys":7,"spec":3,"score":-43,"clash":false,"cls":"M","rng":150},{"id":"E02E","name":"Shellder","types":["Water","Ice"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":65,"spa":45,"gap":-20,"mshift":5,"phys":3,"spec":5,"score":-15,"clash":false,"cls":"H","rng":300},{"id":"E004","name":"Squirtle","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":48,"spa":50,"gap":2,"mshift":-5,"phys":5,"spec":3,"score":-3,"clash":false,"cls":"H","rng":300},{"id":"E02D","name":"Tentacool","types":["Water","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":40,"spa":50,"gap":10,"mshift":9,"phys":3,"spec":8,"score":19,"clash":false,"cls":"H","rng":300},{"id":"EP0V","name":"Torracat","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":85,"spa":80,"gap":-5,"mshift":-12,"phys":8,"spec":2,"score":-17,"clash":false,"cls":"H","rng":300},{"id":"EP00","name":"Totodile","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":250,"weap":"missile","mega":"","band":"M","atk":65,"spa":44,"gap":-21,"mshift":-13,"phys":9,"spec":2,"score":-34,"clash":false,"cls":"M","rng":150},{"id":"E01D","name":"Voltorb","types":["Electric"],"group":"Classic (Starter/Evo)","stat":"INT","range":250,"weap":"missile","mega":"","band":"M","atk":30,"spa":55,"gap":25,"mshift":0,"phys":6,"spec":6,"score":25,"clash":false,"cls":"R","rng":500},{"id":"E028","name":"Giratina","types":["Ghost","Dragon"],"group":"Legend","stat":"STR","range":250,"weap":"missile","mega":"Form/Mega","band":"M","atk":100,"spa":100,"gap":0,"mshift":0,"phys":5,"spec":5,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EN08","name":"Tyranitar","types":["Rock","Dark"],"group":"Legend","stat":"STR","range":250,"weap":"missile","mega":"Mega Tyranitar","band":"M","atk":134,"spa":95,"gap":-39,"mshift":-15,"phys":15,"spec":2,"score":-54,"clash":false,"cls":"M","rng":150},{"id":"E03A","name":"Eevee","types":["Normal"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":55,"spa":45,"gap":-10,"mshift":-15,"phys":7,"spec":1,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"E01Z","name":"Hitmonchan","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":105,"spa":35,"gap":-70,"mshift":-17,"phys":13,"spec":1,"score":-87,"clash":false,"cls":"M","rng":150},{"id":"E03Y","name":"Hitmonlee","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":120,"spa":35,"gap":-85,"mshift":-20,"phys":14,"spec":0,"score":-105,"clash":false,"cls":"M","rng":150},{"id":"E03Z","name":"Hitmontop","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":95,"spa":35,"gap":-60,"mshift":-20,"phys":12,"spec":0,"score":-80,"clash":false,"cls":"M","rng":150},{"id":"E02P","name":"Kangaskhan","types":["Normal"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"Mega Kangaskhan","band":"C","atk":95,"spa":40,"gap":-55,"mshift":-20,"phys":11,"spec":0,"score":-75,"clash":false,"cls":"M","rng":150},{"id":"EN0J","name":"Lucario","types":["Fighting","Steel"],"group":"Classic (Starter/Evo)","stat":"INT","range":128,"weap":"missile","mega":"Mega Lucario","band":"C","atk":110,"spa":115,"gap":5,"mshift":-9,"phys":11,"spec":4,"score":-4,"clash":false,"cls":"H","rng":300},{"id":"E03W","name":"Pinsir","types":["Bug"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"Mega Pinsir","band":"C","atk":125,"spa":55,"gap":-70,"mshift":-20,"phys":12,"spec":0,"score":-90,"clash":false,"cls":"M","rng":150},{"id":"E00U","name":"Raticate","types":["Normal"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":81,"spa":50,"gap":-31,"mshift":-20,"phys":12,"spec":0,"score":-51,"clash":false,"cls":"M","rng":150},{"id":"E00T","name":"Rattata","types":["Normal"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":56,"spa":25,"gap":-31,"mshift":-20,"phys":11,"spec":0,"score":-51,"clash":false,"cls":"M","rng":150},{"id":"E03M","name":"Scizor","types":["Bug","Steel"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"Mega Scizor","band":"C","atk":130,"spa":55,"gap":-75,"mshift":-16,"phys":10,"spec":1,"score":-91,"clash":false,"cls":"M","rng":150},{"id":"E03L","name":"Scyther","types":["Bug","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":110,"spa":55,"gap":-55,"mshift":-15,"phys":7,"spec":1,"score":-70,"clash":false,"cls":"M","rng":150},{"id":"E03X","name":"Sylveon","types":["Fairy"],"group":"Classic (Starter/Evo)","stat":"INT","range":128,"weap":"missile","mega":"","band":"C","atk":65,"spa":110,"gap":45,"mshift":-5,"phys":7,"spec":4,"score":40,"clash":false,"cls":"R","rng":500},{"id":"E018","name":"Tauros","types":["Normal"],"group":"Classic (Starter/Evo)","stat":"STR","range":128,"weap":"missile","mega":"","band":"C","atk":100,"spa":40,"gap":-60,"mshift":-20,"phys":9,"spec":0,"score":-80,"clash":false,"cls":"M","rng":150},{"id":"EN0K","name":"Absol","types":["Dark"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"Mega Absol","band":"C","atk":130,"spa":75,"gap":-55,"mshift":-13,"phys":5,"spec":1,"score":-68,"clash":false,"cls":"M","rng":150},{"id":"EN0D","name":"Bagon","types":["Dragon","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":75,"spa":40,"gap":-35,"mshift":-8,"phys":7,"spec":3,"score":-43,"clash":false,"cls":"M","rng":150},{"id":"E01N","name":"Caterpie","types":["Bug"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":30,"spa":20,"gap":-10,"mshift":0,"phys":2,"spec":0,"score":-10,"clash":false,"cls":"H","rng":300},{"id":"E01S","name":"Dratini","types":["Dragon"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":64,"spa":50,"gap":-14,"mshift":-10,"phys":6,"spec":2,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"E03H","name":"Espeon","types":["Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":65,"spa":130,"gap":65,"mshift":-3,"phys":7,"spec":5,"score":62,"clash":false,"cls":"R","rng":600},{"id":"E038","name":"Flareon","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":130,"spa":95,"gap":-35,"mshift":-6,"phys":9,"spec":5,"score":-41,"clash":false,"cls":"M","rng":150},{"id":"E00N","name":"Geodude","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":80,"spa":30,"gap":-50,"mshift":-20,"phys":11,"spec":0,"score":-70,"clash":false,"cls":"M","rng":150},{"id":"E03T","name":"Glaceon","types":["Ice"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":60,"spa":130,"gap":70,"mshift":-6,"phys":9,"spec":5,"score":64,"clash":false,"cls":"R","rng":500},{"id":"E01E","name":"Jolteon","types":["Electric"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":65,"spa":110,"gap":45,"mshift":-9,"phys":10,"spec":4,"score":36,"clash":false,"cls":"R","rng":500},{"id":"E03P","name":"Kabuto","types":["Rock","Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":80,"spa":55,"gap":-25,"mshift":-2,"phys":5,"spec":4,"score":-27,"clash":false,"cls":"M","rng":150},{"id":"E035","name":"Kabutops","types":["Rock","Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":115,"spa":65,"gap":-50,"mshift":-8,"phys":9,"spec":4,"score":-58,"clash":false,"cls":"M","rng":150},{"id":"E02J","name":"Kakuna","types":["Bug","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":25,"spa":25,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EN06","name":"Larvitar","types":["Rock","Dark"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":64,"spa":45,"gap":-19,"mshift":-17,"phys":11,"spec":1,"score":-36,"clash":false,"cls":"M","rng":150},{"id":"E010","name":"Machamp","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":130,"spa":65,"gap":-65,"mshift":-20,"phys":11,"spec":0,"score":-85,"clash":false,"cls":"M","rng":150},{"id":"E00Z","name":"Machoke","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":100,"spa":50,"gap":-50,"mshift":-20,"phys":11,"spec":0,"score":-70,"clash":false,"cls":"M","rng":150},{"id":"E00Y","name":"Machop","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":80,"spa":35,"gap":-45,"mshift":-20,"phys":11,"spec":0,"score":-65,"clash":false,"cls":"M","rng":150},{"id":"E02S","name":"Mankey","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":80,"spa":35,"gap":-45,"mshift":-17,"phys":11,"spec":1,"score":-62,"clash":false,"cls":"M","rng":150},{"id":"EN0I","name":"Metagross","types":["Steel","Psychic"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"Mega Metagross","band":"C","atk":135,"spa":95,"gap":-40,"mshift":-5,"phys":7,"spec":4,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"E01P","name":"Metapod","types":["Bug"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":20,"spa":25,"gap":5,"mshift":0,"phys":0,"spec":0,"score":5,"clash":false,"cls":"H","rng":300},{"id":"E03Q","name":"Omanyte","types":["Rock","Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":40,"spa":90,"gap":50,"mshift":7,"phys":3,"spec":6,"score":57,"clash":false,"cls":"R","rng":500},{"id":"E03R","name":"Omastar","types":["Rock","Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":60,"spa":115,"gap":55,"mshift":2,"phys":5,"spec":6,"score":57,"clash":false,"cls":"R","rng":500},{"id":"E03U","name":"Onix","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":45,"spa":30,"gap":-15,"mshift":-17,"phys":11,"spec":1,"score":-32,"clash":false,"cls":"M","rng":150},{"id":"E02T","name":"Primeape","types":["Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":105,"spa":60,"gap":-45,"mshift":-17,"phys":12,"spec":1,"score":-62,"clash":false,"cls":"M","rng":150},{"id":"E02Z","name":"Rhydon","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":130,"spa":45,"gap":-85,"mshift":-20,"phys":13,"spec":0,"score":-105,"clash":false,"cls":"M","rng":150},{"id":"E02Y","name":"Rhyhorn","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":85,"spa":30,"gap":-55,"mshift":-20,"phys":12,"spec":0,"score":-75,"clash":false,"cls":"M","rng":150},{"id":"E00A","name":"Sandshrew","types":["Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":75,"spa":20,"gap":-55,"mshift":-17,"phys":11,"spec":1,"score":-72,"clash":false,"cls":"M","rng":150},{"id":"E00F","name":"Sandslash","types":["Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":100,"spa":45,"gap":-55,"mshift":-17,"phys":13,"spec":1,"score":-72,"clash":false,"cls":"M","rng":150},{"id":"E03V","name":"Steelix","types":["Steel","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"Mega Steelix","band":"C","atk":85,"spa":55,"gap":-30,"mshift":-18,"phys":15,"spec":1,"score":-48,"clash":false,"cls":"M","rng":150},{"id":"E03I","name":"Umbreon","types":["Dark"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":65,"spa":60,"gap":-5,"mshift":-9,"phys":8,"spec":3,"score":-14,"clash":false,"cls":"H","rng":300},{"id":"E037","name":"Vaporeon","types":["Water"],"group":"Classic (Starter/Evo)","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":65,"spa":110,"gap":45,"mshift":-2,"phys":7,"spec":6,"score":43,"clash":false,"cls":"R","rng":500},{"id":"E02I","name":"Weedle","types":["Bug","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":35,"spa":20,"gap":-15,"mshift":0,"phys":2,"spec":0,"score":-15,"clash":false,"cls":"H","rng":300},{"id":"E03S","name":"Leafleon","types":["Grass"],"group":"Khác","stat":"STR","range":150,"weap":"missile","mega":"","band":"C","atk":110,"spa":60,"gap":-50,"mshift":-10,"phys":9,"spec":3,"score":-60,"clash":false,"cls":"M","rng":150},{"id":"E03E","name":"Magikarp","types":["Water"],"group":"Khác","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":10,"spa":15,"gap":5,"mshift":0,"phys":2,"spec":0,"score":5,"clash":false,"cls":"H","rng":300},{"id":"E040","name":"Mr.mime","types":["Psychic"],"group":"Khác","stat":"INT","range":150,"weap":"missile","mega":"","band":"C","atk":45,"spa":100,"gap":55,"mshift":7,"phys":2,"spec":4,"score":62,"clash":false,"cls":"R","rng":500},{"id":"EN0C","name":"Gallade","types":["Psychic","Fighting"],"group":"Legend","stat":"STR","range":150,"weap":"missile","mega":"Mega Gallade","band":"C","atk":125,"spa":65,"gap":-60,"mshift":-4,"phys":11,"spec":7,"score":-64,"clash":false,"cls":"M","rng":150},{"id":"E03F","name":"Gyarados","types":["Water","Flying"],"group":"Classic (Starter/Evo)","stat":"STR","range":180,"weap":"missile","mega":"Mega Gyarados","band":"C","atk":125,"spa":60,"gap":-65,"mshift":-3,"phys":8,"spec":6,"score":-68,"clash":false,"cls":"M","rng":150},{"id":"E02A","name":"Arceus","types":["God"],"group":"Legend","stat":"STR","range":180,"weap":"missile","mega":"Form/Mega","band":"C","atk":120,"spa":120,"gap":0,"mshift":9,"phys":2,"spec":5,"score":9,"clash":false,"cls":"H","rng":300},{"id":"E04C","name":"Dialga","types":["Time"],"group":"Legend","stat":"INT","range":180,"weap":"missile","mega":"Form/Mega","band":"C","atk":120,"spa":150,"gap":30,"mshift":3,"phys":5,"spec":7,"score":33,"clash":false,"cls":"R","rng":450},{"id":"E04D","name":"Palkia","types":["Space"],"group":"Legend","stat":"INT","range":180,"weap":"missile","mega":"Form/Mega","band":"C","atk":120,"spa":150,"gap":30,"mshift":12,"phys":2,"spec":8,"score":42,"clash":false,"cls":"R","rng":450},{"id":"EL04","name":"Azelf","types":["Psychic"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":125,"spa":125,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P0JA","name":"Buzzwole","types":["Bug","Fighting"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":139,"spa":53,"gap":-86,"mshift":-20,"phys":11,"spec":0,"score":-106,"clash":false,"cls":"M","rng":150},{"id":"PZZA","name":"Celebi","types":["Psychic","Grass"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":100,"spa":100,"gap":0,"mshift":20,"phys":0,"spec":5,"score":20,"clash":true,"cls":"H","rng":300},{"id":"EL06","name":"Cresselia","types":["Psychic"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":70,"spa":75,"gap":5,"mshift":0,"phys":0,"spec":0,"score":5,"clash":false,"cls":"H","rng":300},{"id":"EL0F","name":"Diancie","types":["Rock","Fairy"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"Mega Diancie","band":"L","atk":100,"spa":100,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P1DA","name":"Entei","types":["Fire"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":115,"spa":90,"gap":-25,"mshift":0,"phys":5,"spec":5,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"EL0O","name":"Eternatus","types":["Poison","Dragon"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":85,"spa":145,"gap":60,"mshift":0,"phys":0,"spec":0,"score":60,"clash":false,"cls":"R","rng":500},{"id":"EL0B","name":"Genesect","types":["Bug","Steel"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":120,"spa":120,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P4UA","name":"Groudon","types":["Ground"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"Primal Groudon","band":"L","atk":150,"spa":100,"gap":-50,"mshift":5,"phys":4,"spec":7,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"EL05","name":"Heatran","types":["Fire","Steel"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":90,"spa":130,"gap":40,"mshift":0,"phys":0,"spec":0,"score":40,"clash":false,"cls":"R","rng":450},{"id":"P1TA","name":"Ho-Oh","types":["Fire","Flying"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":130,"spa":110,"gap":-20,"mshift":11,"phys":2,"spec":7,"score":-9,"clash":false,"cls":"H","rng":300},{"id":"EL0G","name":"Hoopa","types":["Psychic","Ghost"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"Hoopa Unbound","band":"L","atk":110,"spa":150,"gap":40,"mshift":0,"phys":0,"spec":0,"score":40,"clash":false,"cls":"R","rng":500},{"id":"P1YA","name":"Hydreigon","types":["Dark","Dragon"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":105,"spa":125,"gap":20,"mshift":-7,"phys":10,"spec":5,"score":13,"clash":false,"cls":"H","rng":300},{"id":"P20A","name":"Jigglypuff","types":["Normal","Fairy"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":45,"spa":45,"gap":0,"mshift":0,"phys":5,"spec":5,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P21A","name":"Jirachi","types":["Steel","Psychic"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":100,"spa":100,"gap":0,"mshift":2,"phys":4,"spec":5,"score":2,"clash":false,"cls":"H","rng":300},{"id":"P26A","name":"Kyogre","types":["Water"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"Primal Kyogre","band":"L","atk":100,"spa":150,"gap":50,"mshift":9,"phys":3,"spec":8,"score":59,"clash":false,"cls":"R","rng":450},{"id":"EL0A","name":"Kyurem","types":["Dragon","Ice"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"Black Kyurem, White Kyurem","band":"L","atk":130,"spa":130,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"PV2A","name":"Latias & Latios","types":["Dragon","Psychic"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"Mega Latias & Latios","band":"L","atk":85,"spa":120,"gap":35,"mshift":0,"phys":0,"spec":0,"score":35,"clash":false,"cls":"R","rng":500},{"id":"EL0J","name":"Lunala","types":["Psychic","Ghost"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":113,"spa":137,"gap":24,"mshift":0,"phys":0,"spec":0,"score":24,"clash":false,"cls":"R","rng":500},{"id":"EL0L","name":"Magearna","types":["Steel","Fairy"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":95,"spa":130,"gap":35,"mshift":0,"phys":0,"spec":0,"score":35,"clash":false,"cls":"R","rng":450},{"id":"P4XA","name":"Magneton","types":["Electric","Steel"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":60,"spa":120,"gap":60,"mshift":7,"phys":3,"spec":6,"score":67,"clash":false,"cls":"R","rng":600},{"id":"P2LA","name":"Magnezone","types":["Electric","Steel"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":70,"spa":130,"gap":60,"mshift":8,"phys":3,"spec":7,"score":68,"clash":false,"cls":"R","rng":500},{"id":"EL0M","name":"Marshadow","types":["Fighting","Ghost"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":125,"spa":90,"gap":-35,"mshift":0,"phys":0,"spec":0,"score":-35,"clash":false,"cls":"M","rng":150},{"id":"EL03","name":"Mesprit","types":["Psychic"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":105,"spa":105,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P2UA","name":"Misdreavus","types":["Ghost"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":60,"spa":85,"gap":25,"mshift":9,"phys":2,"spec":5,"score":34,"clash":false,"cls":"R","rng":500},{"id":"P2VA","name":"Mismagius","types":["Ghost"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":60,"spa":105,"gap":45,"mshift":4,"phys":2,"spec":3,"score":49,"clash":false,"cls":"R","rng":500},{"id":"EL0K","name":"Necrozma","types":["Psychic"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"Ultra Necrozma","band":"L","atk":107,"spa":127,"gap":20,"mshift":0,"phys":0,"spec":0,"score":20,"clash":false,"cls":"R","rng":500},{"id":"P39A","name":"Raikou","types":["Electric"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":85,"spa":115,"gap":30,"mshift":-2,"phys":6,"spec":5,"score":28,"clash":false,"cls":"R","rng":500},{"id":"EL00","name":"Regice","types":["Ice"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":50,"spa":100,"gap":50,"mshift":0,"phys":0,"spec":0,"score":50,"clash":false,"cls":"R","rng":450},{"id":"E025","name":"Regigigas","types":["Normal"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":160,"spa":80,"gap":-80,"mshift":-20,"phys":12,"spec":0,"score":-100,"clash":false,"cls":"M","rng":150},{"id":"P3BA","name":"Regirock","types":["Rock"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":100,"spa":50,"gap":-50,"mshift":-7,"phys":8,"spec":4,"score":-57,"clash":false,"cls":"M","rng":150},{"id":"EL01","name":"Registeel","types":["Steel"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":75,"spa":75,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EL08","name":"Reshiram","types":["Dragon","Fire"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":120,"spa":150,"gap":30,"mshift":0,"phys":0,"spec":0,"score":30,"clash":false,"cls":"R","rng":450},{"id":"EL0I","name":"Solgaleo","types":["Psychic","Steel"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":137,"spa":113,"gap":-24,"mshift":0,"phys":0,"spec":0,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"P3XA","name":"Suicune","types":["Water"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":75,"spa":90,"gap":15,"mshift":9,"phys":3,"spec":8,"score":24,"clash":false,"cls":"R","rng":450},{"id":"EL02","name":"Uxie","types":["Psychic"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":75,"spa":75,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EL07","name":"Victini","types":["Psychic","Fire"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":100,"spa":100,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EL0H","name":"Volcanion","types":["Fire","Water"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":110,"spa":130,"gap":20,"mshift":0,"phys":0,"spec":0,"score":20,"clash":false,"cls":"R","rng":450},{"id":"P4IA","name":"Wigglytuff","types":["Normal","Fairy"],"group":"Legend","stat":"INT","range":200,"weap":"missile","mega":"","band":"L","atk":70,"spa":85,"gap":15,"mshift":-2,"phys":6,"spec":5,"score":13,"clash":false,"cls":"H","rng":300},{"id":"EL0C","name":"Xerneas","types":["Fairy"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":131,"spa":131,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EL0D","name":"Yveltal","types":["Dark","Flying"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":131,"spa":131,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"EL0N","name":"Zacian","types":["Fairy","Steel"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":120,"spa":80,"gap":-40,"mshift":0,"phys":0,"spec":0,"score":-40,"clash":false,"cls":"M","rng":150},{"id":"EL09","name":"Zekrom","types":["Dragon","Electric"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":150,"spa":120,"gap":-30,"mshift":0,"phys":0,"spec":0,"score":-30,"clash":false,"cls":"M","rng":150},{"id":"EL0E","name":"Zygarde","types":["Dragon","Ground"],"group":"Legend","stat":"STR","range":200,"weap":"missile","mega":"","band":"L","atk":100,"spa":81,"gap":-19,"mshift":0,"phys":0,"spec":0,"score":-19,"clash":false,"cls":"H","rng":300},{"id":"E01C","name":"Arcanine","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":100,"gap":-10,"mshift":-13,"phys":10,"spec":2,"score":-23,"clash":false,"cls":"M","rng":150},{"id":"EN02","name":"Blaziken","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"Mega Blaziken","band":"N","atk":120,"spa":110,"gap":-10,"mshift":-20,"phys":11,"spec":0,"score":-30,"clash":false,"cls":"M","rng":150},{"id":"E008","name":"Bulbasaur","types":["Grass","Poison"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":49,"spa":65,"gap":16,"mshift":-14,"phys":6,"spec":1,"score":2,"clash":false,"cls":"H","rng":300},{"id":"E003","name":"Charmander","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":52,"spa":60,"gap":8,"mshift":2,"phys":4,"spec":5,"score":10,"clash":false,"cls":"H","rng":300},{"id":"EP0L","name":"Chespin","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":61,"spa":48,"gap":-13,"mshift":-16,"phys":8,"spec":1,"score":-29,"clash":false,"cls":"M","rng":150},{"id":"EP09","name":"Chimchar","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":58,"spa":58,"gap":0,"mshift":-5,"phys":5,"spec":3,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"EP0Q","name":"Delphox","types":["Fire","Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":69,"spa":114,"gap":45,"mshift":13,"phys":2,"spec":10,"score":58,"clash":false,"cls":"R","rng":500},{"id":"EP0K","name":"Emboar","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":123,"spa":100,"gap":-23,"mshift":-10,"phys":9,"spec":3,"score":-33,"clash":false,"cls":"M","rng":150},{"id":"E02U","name":"Exeggcute","types":["Grass","Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":60,"gap":20,"mshift":15,"phys":1,"spec":7,"score":35,"clash":false,"cls":"R","rng":500},{"id":"E02W","name":"Exeggutor","types":["Grass","Psychic"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":125,"gap":30,"mshift":8,"phys":4,"spec":9,"score":38,"clash":false,"cls":"R","rng":600},{"id":"EP0O","name":"Fennekin","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":62,"gap":17,"mshift":11,"phys":2,"spec":7,"score":28,"clash":false,"cls":"R","rng":500},{"id":"E00O","name":"Graveler","types":["Rock","Ground"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":45,"gap":-50,"mshift":-20,"phys":11,"spec":0,"score":-70,"clash":false,"cls":"M","rng":150},{"id":"E02F","name":"Growlithe","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":70,"gap":0,"mshift":-13,"phys":9,"spec":2,"score":-13,"clash":false,"cls":"H","rng":300},{"id":"EP0W","name":"Incineroar","types":["Fire","Dark"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":115,"spa":80,"gap":-35,"mshift":-13,"phys":9,"spec":2,"score":-48,"clash":false,"cls":"M","rng":150},{"id":"EP0B","name":"Infernape","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":104,"spa":104,"gap":0,"mshift":-13,"phys":9,"spec":2,"score":-13,"clash":false,"cls":"H","rng":300},{"id":"E03D","name":"Kingler","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":130,"spa":50,"gap":-80,"mshift":-9,"phys":8,"spec":3,"score":-89,"clash":false,"cls":"M","rng":150},{"id":"E03C","name":"Krabby","types":["Water"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":105,"spa":25,"gap":-80,"mshift":-8,"phys":7,"spec":3,"score":-88,"clash":false,"cls":"M","rng":150},{"id":"EP0U","name":"Litten","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":60,"gap":-5,"mshift":-12,"phys":8,"spec":2,"score":-17,"clash":false,"cls":"H","rng":300},{"id":"E01J","name":"Nidoking","types":["Ground","Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":102,"spa":85,"gap":-17,"mshift":-16,"phys":8,"spec":1,"score":-33,"clash":false,"cls":"M","rng":150},{"id":"E01L","name":"Nidorino","types":["Poison"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":72,"spa":55,"gap":-17,"mshift":-14,"phys":6,"spec":1,"score":-31,"clash":false,"cls":"M","rng":150},{"id":"E04P","name":"Ninetales","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":76,"spa":81,"gap":5,"mshift":0,"phys":1,"spec":1,"score":5,"clash":false,"cls":"H","rng":300},{"id":"E01B","name":"Ponyta","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":65,"gap":-20,"mshift":-4,"phys":6,"spec":4,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"EN07","name":"Pupitar","types":["Rock","Dark"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":84,"spa":65,"gap":-19,"mshift":-17,"phys":11,"spec":1,"score":-36,"clash":false,"cls":"M","rng":150},{"id":"E01H","name":"Rapidash","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":80,"gap":-20,"mshift":-9,"phys":11,"spec":4,"score":-29,"clash":false,"cls":"M","rng":150},{"id":"EP0F","name":"Snivy","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":45,"gap":0,"mshift":-2,"phys":5,"spec":4,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"EP0I","name":"Tepig","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":63,"spa":45,"gap":-18,"mshift":-9,"phys":8,"spec":3,"score":-27,"clash":false,"cls":"M","rng":150},{"id":"EN00","name":"Torchic","types":["Fire","Fighting"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":60,"spa":70,"gap":10,"mshift":-12,"phys":8,"spec":2,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"EN03","name":"Treecko","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":65,"gap":20,"mshift":-4,"phys":6,"spec":4,"score":16,"clash":false,"cls":"H","rng":300},{"id":"EP06","name":"Turtwig","types":["Grass"],"group":"Classic (Starter/Evo)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":68,"spa":45,"gap":-23,"mshift":0,"phys":4,"spec":4,"score":-23,"clash":false,"cls":"M","rng":150},{"id":"E04O","name":"Vulpix","types":["Fire"],"group":"Classic (Starter/Evo)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":41,"spa":50,"gap":9,"mshift":15,"phys":1,"spec":7,"score":24,"clash":false,"cls":"R","rng":500},{"id":"P00A","name":"Abomasnow","types":["Grass","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":92,"spa":92,"gap":0,"mshift":-2,"phys":5,"spec":4,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"P4QA","name":"Aegislash","types":["Steel","Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":50,"gap":0,"mshift":-20,"phys":10,"spec":0,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"P02A","name":"Aerodactyl","types":["Rock","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"Mega Aerodactyl","band":"N","atk":105,"spa":60,"gap":-45,"mshift":-12,"phys":8,"spec":2,"score":-57,"clash":false,"cls":"M","rng":150},{"id":"P03A","name":"Alolan-Geodude","types":["Rock","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":30,"gap":-50,"mshift":-17,"phys":11,"spec":1,"score":-67,"clash":false,"cls":"M","rng":150},{"id":"P04A","name":"Alolan-Golem","types":["Rock","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":120,"spa":55,"gap":-65,"mshift":-17,"phys":11,"spec":1,"score":-82,"clash":false,"cls":"M","rng":150},{"id":"P05A","name":"Alolan-Graveler","types":["Rock","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":45,"gap":-50,"mshift":-17,"phys":11,"spec":1,"score":-67,"clash":false,"cls":"M","rng":150},{"id":"P06A","name":"Alolan-Raichu","types":["Electric","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":95,"gap":10,"mshift":2,"phys":5,"spec":6,"score":12,"clash":false,"cls":"H","rng":300},{"id":"P4MA","name":"Alolan-Sandshrew","types":["Ice","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":75,"spa":10,"gap":-65,"mshift":-10,"phys":9,"spec":3,"score":-75,"clash":false,"cls":"M","rng":150},{"id":"P4NA","name":"Alolan-Sandslash","types":["Ice","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":25,"gap":-75,"mshift":-20,"phys":4,"spec":0,"score":-95,"clash":false,"cls":"M","rng":150},{"id":"P08A","name":"Ampharos","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"Mega Ampharos","band":"N","atk":75,"spa":115,"gap":40,"mshift":7,"phys":4,"spec":8,"score":47,"clash":false,"cls":"R","rng":500},{"id":"P09A","name":"Arbok","types":["Poison"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":65,"gap":-30,"mshift":-5,"phys":8,"spec":5,"score":-35,"clash":false,"cls":"M","rng":150},{"id":"P0BA","name":"Baltoy","types":["Ground","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":40,"gap":0,"mshift":4,"phys":4,"spec":6,"score":4,"clash":false,"cls":"H","rng":300},{"id":"P0CA","name":"Bayleef","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":62,"spa":63,"gap":1,"mshift":0,"phys":3,"spec":3,"score":1,"clash":false,"cls":"H","rng":300},{"id":"P0EA","name":"Bellossom","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":90,"gap":10,"mshift":14,"phys":1,"spec":6,"score":24,"clash":false,"cls":"R","rng":500},{"id":"P4SA","name":"Bisharp","types":["Dark","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":125,"spa":60,"gap":-65,"mshift":-20,"phys":10,"spec":0,"score":-85,"clash":false,"cls":"M","rng":150},{"id":"P0GA","name":"Blissey","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":10,"spa":75,"gap":65,"mshift":-10,"phys":6,"spec":2,"score":55,"clash":false,"cls":"R","rng":500},{"id":"P0HA","name":"Bonsly","types":["Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":10,"gap":-70,"mshift":-20,"phys":8,"spec":0,"score":-90,"clash":false,"cls":"M","rng":150},{"id":"P0IA","name":"Breloom","types":["Grass","Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":130,"spa":60,"gap":-70,"mshift":-13,"phys":10,"spec":2,"score":-83,"clash":false,"cls":"M","rng":150},{"id":"P0KA","name":"Carvanha","types":["Water","Dark"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":65,"gap":-25,"mshift":-20,"phys":7,"spec":0,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"P0LA","name":"Chandelure","types":["Ghost","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":55,"spa":145,"gap":90,"mshift":16,"phys":1,"spec":8,"score":106,"clash":false,"cls":"R","rng":500},{"id":"P0MA","name":"Chansey","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":5,"spa":35,"gap":30,"mshift":-10,"phys":6,"spec":2,"score":20,"clash":false,"cls":"R","rng":500},{"id":"P0NA","name":"Chikorita","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":49,"spa":49,"gap":0,"mshift":0,"phys":3,"spec":3,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P0OA","name":"Chinchou","types":["Water","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":38,"spa":56,"gap":18,"mshift":5,"phys":3,"spec":5,"score":23,"clash":false,"cls":"R","rng":500},{"id":"P0PA","name":"Claydol","types":["Ground","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":70,"gap":0,"mshift":7,"phys":4,"spec":8,"score":7,"clash":false,"cls":"H","rng":300},{"id":"P0QA","name":"Clefable","types":["Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":95,"gap":25,"mshift":0,"phys":1,"spec":1,"score":25,"clash":false,"cls":"R","rng":500},{"id":"P0RA","name":"Clefairy","types":["Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":60,"gap":15,"mshift":4,"phys":2,"spec":3,"score":19,"clash":false,"cls":"H","rng":300},{"id":"P0TA","name":"Cradily","types":["Rock","Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":81,"spa":81,"gap":0,"mshift":11,"phys":2,"spec":7,"score":11,"clash":false,"cls":"H","rng":300},{"id":"P0UA","name":"Croagunk","types":["Poison","Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":61,"spa":61,"gap":0,"mshift":-2,"phys":5,"spec":4,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"P0VA","name":"Cubone","types":["Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":40,"gap":-10,"mshift":-16,"phys":10,"spec":1,"score":-26,"clash":false,"cls":"M","rng":150},{"id":"P0WA","name":"Cyndaquil","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":52,"spa":60,"gap":8,"mshift":2,"phys":6,"spec":7,"score":10,"clash":false,"cls":"H","rng":300},{"id":"P0XA","name":"Darmanitan","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":140,"spa":30,"gap":-110,"mshift":-11,"phys":10,"spec":3,"score":-121,"clash":false,"cls":"M","rng":150},{"id":"P0YA","name":"Darumaka","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":15,"gap":-75,"mshift":-9,"phys":8,"spec":3,"score":-84,"clash":false,"cls":"M","rng":150},{"id":"P0ZA","name":"Deino","types":["Dark","Dragon"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":45,"gap":-20,"mshift":-10,"phys":9,"spec":3,"score":-30,"clash":false,"cls":"M","rng":150},{"id":"P10A","name":"Dewgong","types":["Water","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":70,"gap":0,"mshift":-2,"phys":6,"spec":5,"score":-2,"clash":false,"cls":"H","rng":300},{"id":"P11A","name":"Diglett","types":["Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":55,"spa":35,"gap":-20,"mshift":-12,"phys":8,"spec":2,"score":-32,"clash":false,"cls":"M","rng":150},{"id":"P12A","name":"Ditto","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":48,"spa":48,"gap":0,"mshift":0,"phys":0,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P4PA","name":"Doublade","types":["Steel","Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":45,"gap":-65,"mshift":-20,"phys":9,"spec":0,"score":-85,"clash":false,"cls":"M","rng":150},{"id":"P13A","name":"Drowzee","types":["Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":48,"spa":43,"gap":-5,"mshift":5,"phys":3,"spec":5,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P14A","name":"Dugtrio","types":["Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":50,"gap":-50,"mshift":-11,"phys":10,"spec":3,"score":-61,"clash":false,"cls":"M","rng":150},{"id":"P15A","name":"Dusclops","types":["Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":60,"gap":-10,"mshift":-7,"phys":8,"spec":4,"score":-17,"clash":false,"cls":"H","rng":300},{"id":"P16A","name":"Dusknoir","types":["Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":65,"gap":-35,"mshift":-7,"phys":8,"spec":4,"score":-42,"clash":false,"cls":"M","rng":150},{"id":"P17A","name":"Duskull","types":["Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":30,"gap":-10,"mshift":3,"phys":3,"spec":4,"score":-7,"clash":false,"cls":"H","rng":300},{"id":"P4VA","name":"Eevee","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":55,"spa":45,"gap":-10,"mshift":-15,"phys":7,"spec":1,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"P18A","name":"Ekans","types":["Poison"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":60,"spa":40,"gap":-20,"mshift":2,"phys":4,"spec":5,"score":-18,"clash":false,"cls":"H","rng":300},{"id":"P19A","name":"Electabuzz","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":83,"spa":95,"gap":12,"mshift":4,"phys":4,"spec":6,"score":16,"clash":false,"cls":"H","rng":300},{"id":"P1AA","name":"Electivire","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":123,"spa":95,"gap":-28,"mshift":4,"phys":4,"spec":6,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"P1BA","name":"Electrike","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":65,"gap":20,"mshift":-5,"phys":5,"spec":3,"score":15,"clash":false,"cls":"H","rng":300},{"id":"P1CA","name":"Elekid","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":63,"spa":65,"gap":2,"mshift":7,"phys":3,"spec":6,"score":9,"clash":false,"cls":"H","rng":300},{"id":"P1EA","name":"Farfetch'd","types":["Normal","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":58,"gap":-32,"mshift":-13,"phys":9,"spec":2,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"P1FA","name":"Feebas","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":15,"spa":10,"gap":-5,"mshift":0,"phys":2,"spec":0,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"P1GA","name":"Flaaffy","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":55,"spa":80,"gap":25,"mshift":10,"phys":2,"spec":6,"score":35,"clash":false,"cls":"R","rng":500},{"id":"P1HA","name":"Flygon","types":["Ground","Dragon"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":80,"gap":-20,"mshift":0,"phys":6,"spec":6,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"P1IA","name":"Gabite","types":["Dragon","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":50,"gap":-40,"mshift":-16,"phys":9,"spec":1,"score":-56,"clash":false,"cls":"M","rng":150},{"id":"P1KA","name":"Galvantula","types":["Bug","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":77,"spa":97,"gap":20,"mshift":2,"phys":4,"spec":5,"score":22,"clash":false,"cls":"R","rng":500},{"id":"P1LA","name":"Garchomp","types":["Dragon","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"Mega Garchomp","band":"N","atk":130,"spa":80,"gap":-50,"mshift":-16,"phys":10,"spec":1,"score":-66,"clash":false,"cls":"M","rng":150},{"id":"P1NA","name":"Gible","types":["Dragon","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":40,"gap":-30,"mshift":-16,"phys":9,"spec":1,"score":-46,"clash":false,"cls":"M","rng":150},{"id":"P1OA","name":"Gloom","types":["Grass","Poison"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":85,"gap":20,"mshift":20,"phys":0,"spec":6,"score":40,"clash":false,"cls":"R","rng":500},{"id":"P1PA","name":"Golduck","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":82,"spa":95,"gap":13,"mshift":-2,"phys":5,"spec":4,"score":11,"clash":false,"cls":"H","rng":300},{"id":"P1QA","name":"Granbull","types":["Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":120,"spa":60,"gap":-60,"mshift":-20,"phys":12,"spec":0,"score":-80,"clash":false,"cls":"M","rng":150},{"id":"P1SA","name":"Heracross","types":["Bug","Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"Mega Heracross","band":"N","atk":125,"spa":40,"gap":-85,"mshift":-20,"phys":12,"spec":0,"score":-105,"clash":false,"cls":"M","rng":150},{"id":"P4OA","name":"Honedge","types":["Steel","Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":35,"gap":-45,"mshift":-20,"phys":9,"spec":0,"score":-65,"clash":false,"cls":"M","rng":150},{"id":"P1UA","name":"Hoothoot","types":["Normal","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":30,"spa":36,"gap":6,"mshift":8,"phys":3,"spec":7,"score":14,"clash":false,"cls":"H","rng":300},{"id":"P1VA","name":"Horsea","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":70,"gap":30,"mshift":20,"phys":0,"spec":7,"score":50,"clash":false,"cls":"R","rng":500},{"id":"P1WA","name":"Houndoom","types":["Dark","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"Mega Houndoom","band":"N","atk":90,"spa":110,"gap":20,"mshift":-3,"phys":7,"spec":5,"score":17,"clash":false,"cls":"H","rng":300},{"id":"P1XA","name":"Houndour","types":["Dark","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":60,"spa":80,"gap":20,"mshift":-2,"phys":6,"spec":5,"score":18,"clash":false,"cls":"H","rng":300},{"id":"P1ZA","name":"Hypno","types":["Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":73,"spa":73,"gap":0,"mshift":5,"phys":3,"spec":5,"score":5,"clash":false,"cls":"H","rng":300},{"id":"P22A","name":"Joltik","types":["Bug","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":47,"spa":57,"gap":10,"mshift":2,"phys":4,"spec":5,"score":12,"clash":false,"cls":"H","rng":300},{"id":"P23A","name":"Jynx","types":["Ice","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":115,"gap":65,"mshift":0,"phys":4,"spec":4,"score":65,"clash":false,"cls":"R","rng":500},{"id":"P4TA","name":"Kingambit","types":["Dark","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":135,"spa":60,"gap":-75,"mshift":-20,"phys":11,"spec":0,"score":-95,"clash":false,"cls":"M","rng":150},{"id":"P24A","name":"Kingdra","types":["Water","Dragon"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":95,"gap":0,"mshift":16,"phys":1,"spec":8,"score":16,"clash":false,"cls":"H","rng":300},{"id":"P27A","name":"Lampent","types":["Ghost","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":95,"gap":55,"mshift":16,"phys":1,"spec":8,"score":71,"clash":false,"cls":"R","rng":500},{"id":"P28A","name":"Lanturn","types":["Water","Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":58,"spa":76,"gap":18,"mshift":7,"phys":3,"spec":6,"score":25,"clash":false,"cls":"R","rng":500},{"id":"P29A","name":"Lapras","types":["Water","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":85,"gap":0,"mshift":10,"phys":2,"spec":6,"score":10,"clash":false,"cls":"H","rng":300},{"id":"P2BA","name":"Leafeon","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":60,"gap":-50,"mshift":-10,"phys":9,"spec":3,"score":-60,"clash":false,"cls":"M","rng":150},{"id":"P2CA","name":"Lileep","types":["Rock","Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":41,"spa":61,"gap":20,"mshift":11,"phys":2,"spec":7,"score":31,"clash":false,"cls":"R","rng":500},{"id":"P2DA","name":"Litwick","types":["Ghost","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":30,"spa":65,"gap":35,"mshift":16,"phys":1,"spec":8,"score":51,"clash":false,"cls":"R","rng":500},{"id":"P2EA","name":"Lombre","types":["Water","Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":60,"gap":10,"mshift":2,"phys":6,"spec":7,"score":12,"clash":false,"cls":"H","rng":300},{"id":"P2FA","name":"Lotad","types":["Water","Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":30,"spa":40,"gap":10,"mshift":7,"phys":3,"spec":6,"score":17,"clash":false,"cls":"H","rng":300},{"id":"P2GA","name":"Ludicolo","types":["Water","Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":90,"gap":20,"mshift":0,"phys":1,"spec":1,"score":20,"clash":false,"cls":"R","rng":500},{"id":"P2HA","name":"Magby","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":75,"spa":70,"gap":-5,"mshift":7,"phys":3,"spec":6,"score":2,"clash":false,"cls":"H","rng":300},{"id":"P2IA","name":"Magcargo","types":["Fire","Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":90,"gap":40,"mshift":9,"phys":3,"spec":8,"score":49,"clash":false,"cls":"R","rng":500},{"id":"P2JA","name":"Magmar","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":100,"gap":5,"mshift":8,"phys":3,"spec":7,"score":13,"clash":false,"cls":"H","rng":300},{"id":"P2KA","name":"Magmortar","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":125,"gap":30,"mshift":8,"phys":3,"spec":7,"score":38,"clash":false,"cls":"R","rng":600},{"id":"P4WA","name":"Magnemite","types":["Electric","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":35,"spa":95,"gap":60,"mshift":5,"phys":3,"spec":5,"score":65,"clash":false,"cls":"R","rng":500},{"id":"P2MA","name":"Mamoswine","types":["Ice","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":130,"spa":70,"gap":-60,"mshift":-5,"phys":8,"spec":5,"score":-65,"clash":false,"cls":"M","rng":150},{"id":"P2NA","name":"Manectric","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"Mega Manectric","band":"N","atk":75,"spa":105,"gap":30,"mshift":-7,"phys":6,"spec":3,"score":23,"clash":false,"cls":"R","rng":500},{"id":"P2OA","name":"Mareep","types":["Electric"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":65,"gap":25,"mshift":10,"phys":2,"spec":6,"score":35,"clash":false,"cls":"R","rng":500},{"id":"P2PA","name":"Marowak","types":["Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":50,"gap":-30,"mshift":-16,"phys":10,"spec":1,"score":-46,"clash":false,"cls":"M","rng":150},{"id":"PV0A","name":"Meganium","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":82,"spa":83,"gap":1,"mshift":0,"phys":0,"spec":0,"score":1,"clash":false,"cls":"H","rng":300},{"id":"P2QA","name":"Meowth","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":40,"gap":-5,"mshift":-20,"phys":9,"spec":0,"score":-25,"clash":false,"cls":"M","rng":150},{"id":"P2TA","name":"Milotic","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":60,"spa":100,"gap":40,"mshift":2,"phys":5,"spec":6,"score":42,"clash":false,"cls":"R","rng":500},{"id":"P2WA","name":"Mr. Mime","types":["Psychic","Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":100,"gap":55,"mshift":7,"phys":2,"spec":4,"score":62,"clash":false,"cls":"R","rng":500},{"id":"P2XA","name":"Nincada","types":["Bug","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":30,"gap":-15,"mshift":-9,"phys":5,"spec":2,"score":-24,"clash":false,"cls":"M","rng":150},{"id":"P2YA","name":"Ninjask","types":["Bug","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":50,"gap":-40,"mshift":-14,"phys":11,"spec":2,"score":-54,"clash":false,"cls":"M","rng":150},{"id":"P2ZA","name":"Noctowl","types":["Normal","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":86,"gap":36,"mshift":5,"phys":4,"spec":7,"score":41,"clash":false,"cls":"R","rng":500},{"id":"P30A","name":"Oddish","types":["Grass","Poison"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":75,"gap":25,"mshift":20,"phys":0,"spec":6,"score":45,"clash":false,"cls":"R","rng":500},{"id":"P4RA","name":"Pawniard","types":["Dark","Steel"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":40,"gap":-45,"mshift":-20,"phys":9,"spec":0,"score":-65,"clash":false,"cls":"M","rng":150},{"id":"P31A","name":"Persian","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":65,"gap":-5,"mshift":-16,"phys":9,"spec":1,"score":-21,"clash":false,"cls":"M","rng":150},{"id":"P32A","name":"Piloswine","types":["Ice","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":60,"gap":-40,"mshift":-3,"phys":7,"spec":5,"score":-43,"clash":false,"cls":"M","rng":150},{"id":"P34A","name":"Politoed","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":75,"spa":90,"gap":15,"mshift":0,"phys":2,"spec":1,"score":15,"clash":false,"cls":"H","rng":300},{"id":"P4YA","name":"Poliwag","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":40,"gap":-10,"mshift":5,"phys":3,"spec":5,"score":-5,"clash":false,"cls":"H","rng":300},{"id":"P4ZA","name":"Poliwhirl","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":50,"gap":-15,"mshift":5,"phys":3,"spec":5,"score":-10,"clash":false,"cls":"H","rng":300},{"id":"P35A","name":"Porygon","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":60,"spa":85,"gap":25,"mshift":9,"phys":2,"spec":5,"score":34,"clash":false,"cls":"R","rng":500},{"id":"PV1A","name":"Porygon2","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":105,"gap":25,"mshift":0,"phys":0,"spec":0,"score":25,"clash":false,"cls":"R","rng":500},{"id":"P36A","name":"Psyduck","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":52,"spa":65,"gap":13,"mshift":-3,"phys":4,"spec":3,"score":10,"clash":false,"cls":"H","rng":300},{"id":"P38A","name":"Quilava","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":64,"spa":80,"gap":16,"mshift":2,"phys":6,"spec":7,"score":18,"clash":false,"cls":"H","rng":300},{"id":"P51A","name":"Rhydon","types":["Ground","Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":130,"spa":45,"gap":-85,"mshift":-20,"phys":13,"spec":0,"score":-105,"clash":false,"cls":"M","rng":150},{"id":"P50A","name":"Rhyhorn","types":["Ground","Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":30,"gap":-55,"mshift":-20,"phys":12,"spec":0,"score":-75,"clash":false,"cls":"M","rng":150},{"id":"P3CA","name":"Rhyperior","types":["Ground","Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":140,"spa":55,"gap":-85,"mshift":-20,"phys":14,"spec":0,"score":-105,"clash":false,"cls":"M","rng":150},{"id":"P3DA","name":"Sableye","types":["Dark","Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":75,"spa":65,"gap":-10,"mshift":-10,"phys":9,"spec":3,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"P3GA","name":"Seadra","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":95,"gap":30,"mshift":20,"phys":0,"spec":7,"score":50,"clash":false,"cls":"R","rng":500},{"id":"P3HA","name":"Seel","types":["Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":45,"spa":45,"gap":0,"mshift":-4,"phys":6,"spec":4,"score":-4,"clash":false,"cls":"H","rng":300},{"id":"P3IA","name":"Sharpedo","types":["Water","Dark"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"Mega Sharpedo","band":"N","atk":120,"spa":95,"gap":-25,"mshift":-20,"phys":10,"spec":0,"score":-45,"clash":false,"cls":"M","rng":150},{"id":"P3JA","name":"Shedinja","types":["Bug","Ghost"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":90,"spa":30,"gap":-60,"mshift":-9,"phys":8,"spec":3,"score":-69,"clash":false,"cls":"M","rng":150},{"id":"P3LA","name":"Shroomish","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":40,"gap":0,"mshift":0,"phys":3,"spec":3,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P3MA","name":"Sirfetch'd","types":["Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":135,"spa":68,"gap":-67,"mshift":-17,"phys":11,"spec":1,"score":-84,"clash":false,"cls":"M","rng":150},{"id":"P3NA","name":"Slowbro","types":["Water","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"Mega Slowbro","band":"N","atk":75,"spa":100,"gap":25,"mshift":5,"phys":3,"spec":5,"score":30,"clash":false,"cls":"R","rng":500},{"id":"P3OA","name":"Slowking","types":["Water","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":75,"spa":100,"gap":25,"mshift":10,"phys":2,"spec":6,"score":35,"clash":false,"cls":"R","rng":500},{"id":"P3PA","name":"Slowpoke","types":["Water","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":65,"spa":40,"gap":-25,"mshift":5,"phys":3,"spec":5,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"P3QA","name":"Slugma","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":70,"gap":30,"mshift":9,"phys":3,"spec":8,"score":39,"clash":false,"cls":"R","rng":500},{"id":"P3RA","name":"Smoochum","types":["Ice","Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":30,"spa":85,"gap":55,"mshift":0,"phys":4,"spec":4,"score":55,"clash":false,"cls":"R","rng":500},{"id":"P3SA","name":"Sneasel","types":["Dark","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":95,"spa":35,"gap":-60,"mshift":-14,"phys":6,"spec":1,"score":-74,"clash":false,"cls":"M","rng":150},{"id":"P3TA","name":"Snorlax","types":["Normal"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":65,"gap":-45,"mshift":-15,"phys":13,"spec":2,"score":-60,"clash":false,"cls":"M","rng":150},{"id":"P3UA","name":"Snover","types":["Grass","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":62,"spa":62,"gap":0,"mshift":0,"phys":4,"spec":4,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P3VA","name":"Snubbull","types":["Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":40,"gap":-40,"mshift":-20,"phys":11,"spec":0,"score":-60,"clash":false,"cls":"M","rng":150},{"id":"P3WA","name":"Sudowoodo","types":["Rock"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":30,"gap":-70,"mshift":-20,"phys":13,"spec":0,"score":-90,"clash":false,"cls":"M","rng":150},{"id":"P3YA","name":"Swablu","types":["Normal","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":40,"gap":0,"mshift":3,"phys":3,"spec":4,"score":3,"clash":false,"cls":"H","rng":300},{"id":"P3ZA","name":"Swinub","types":["Ice","Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":30,"gap":-20,"mshift":-2,"phys":5,"spec":4,"score":-22,"clash":false,"cls":"M","rng":150},{"id":"P40A","name":"Tangela","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":55,"spa":100,"gap":45,"mshift":-2,"phys":5,"spec":4,"score":43,"clash":false,"cls":"R","rng":500},{"id":"P41A","name":"Tangrowth","types":["Grass"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":110,"gap":10,"mshift":-2,"phys":5,"spec":4,"score":8,"clash":false,"cls":"H","rng":300},{"id":"P42A","name":"Tauros Aqua","types":["Fighting","Water"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":30,"gap":-80,"mshift":-20,"phys":9,"spec":0,"score":-100,"clash":false,"cls":"M","rng":150},{"id":"P43A","name":"Tauros Blaze","types":["Fighting","Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":30,"gap":-80,"mshift":-20,"phys":9,"spec":0,"score":-100,"clash":false,"cls":"M","rng":150},{"id":"P44A","name":"Tauros Combat","types":["Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":110,"spa":30,"gap":-80,"mshift":-20,"phys":9,"spec":0,"score":-100,"clash":false,"cls":"M","rng":150},{"id":"P45A","name":"Togekiss","types":["Fairy","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":50,"spa":120,"gap":70,"mshift":2,"phys":5,"spec":6,"score":72,"clash":false,"cls":"R","rng":450},{"id":"P46A","name":"Togepi","types":["Fairy"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":20,"spa":40,"gap":20,"mshift":-10,"phys":3,"spec":1,"score":10,"clash":false,"cls":"H","rng":300},{"id":"P47A","name":"Togetic","types":["Fairy","Flying"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":40,"spa":80,"gap":40,"mshift":0,"phys":3,"spec":3,"score":40,"clash":false,"cls":"R","rng":500},{"id":"P49A","name":"Torkoal","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":85,"gap":0,"mshift":9,"phys":3,"spec":8,"score":9,"clash":false,"cls":"H","rng":300},{"id":"P4AA","name":"Toxicroak","types":["Poison","Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":106,"spa":86,"gap":-20,"mshift":-2,"phys":5,"spec":4,"score":-22,"clash":false,"cls":"M","rng":150},{"id":"P4BA","name":"Trapinch","types":["Ground"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":100,"spa":45,"gap":-55,"mshift":-13,"phys":9,"spec":2,"score":-68,"clash":false,"cls":"M","rng":150},{"id":"P4DA","name":"Typhlosion","types":["Fire"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":84,"spa":109,"gap":25,"mshift":0,"phys":7,"spec":7,"score":25,"clash":false,"cls":"R","rng":500},{"id":"P4EA","name":"Tyrogue","types":["Fighting"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":35,"spa":35,"gap":0,"mshift":0,"phys":2,"spec":0,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P4FA","name":"Vibrava","types":["Ground","Dragon"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":70,"spa":50,"gap":-20,"mshift":0,"phys":6,"spec":6,"score":-20,"clash":false,"cls":"M","rng":150},{"id":"P4GA","name":"Vileplume","types":["Grass","Poison"],"group":"Gen 2-9 (Wild/Soul)","stat":"INT","range":200,"weap":"missile","mega":"","band":"N","atk":80,"spa":110,"gap":30,"mshift":14,"phys":1,"spec":6,"score":44,"clash":false,"cls":"R","rng":500},{"id":"P4HA","name":"Weavile","types":["Dark","Ice"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":120,"spa":45,"gap":-75,"mshift":-13,"phys":10,"spec":2,"score":-88,"clash":false,"cls":"M","rng":150},{"id":"P4JA","name":"Wobbuffet","types":["Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":33,"spa":33,"gap":0,"mshift":0,"phys":2,"spec":2,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P4KA","name":"Wynaut","types":["Psychic"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":23,"spa":23,"gap":0,"mshift":0,"phys":1,"spec":1,"score":0,"clash":false,"cls":"H","rng":300},{"id":"P4LA","name":"Zweilous","types":["Dark","Dragon"],"group":"Gen 2-9 (Wild/Soul)","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":85,"spa":65,"gap":-20,"mshift":-11,"phys":10,"spec":3,"score":-31,"clash":false,"cls":"M","rng":150},{"id":"E01M","name":"Nidoran","types":["Poison"],"group":"Khác","stat":"STR","range":200,"weap":"missile","mega":"","band":"N","atk":57,"spa":40,"gap":-17,"mshift":-14,"phys":6,"spec":1,"score":-31,"clash":false,"cls":"M","rng":150}];
+const BANDS = [
+  { key: "A", name: "Archer", range: "400 – 600" },
+  { key: "M", name: "Tầm trung", range: "250 – 350" },
+  { key: "C", name: "Cận chiến", range: "128 – 180" },
+  { key: "L", name: "Tầm 200 · Legend", range: "200" },
+  { key: "N", name: "Tầm 200 · thường", range: "200" }
+];
+const TYPE_COLORS = {
+  Normal: ["#A8A77A", "#1b1b14"], Fire: ["#EE8130", "#1f1006"], Water: ["#6390F0", "#0b1630"],
+  Electric: ["#F7D02C", "#2a2205"], Grass: ["#7AC74C", "#122108"], Ice: ["#96D9D6", "#0f2423"],
+  Fighting: ["#C22E28", "#ffffff"], Poison: ["#A33EA1", "#ffffff"], Ground: ["#E2BF65", "#2a210b"],
+  Flying: ["#A98FF3", "#1a1236"], Psychic: ["#F95587", "#2b0815"], Bug: ["#A6B91A", "#1c2004"],
+  Rock: ["#B6A136", "#221e07"], Ghost: ["#735797", "#ffffff"], Dragon: ["#6F35FC", "#ffffff"],
+  Dark: ["#705746", "#ffffff"], Steel: ["#B7B7CE", "#1c1c2b"], Fairy: ["#D685AD", "#2a0f1d"],
+  God: ["#E8D9A0", "#2a240e"], Time: ["#4C6EA8", "#ffffff"], Space: ["#B07BC4", "#1f0f26"]
+};
+
+const $ = (s) => document.querySelector(s);
+const state = { band: "", q: "", group: "", type: "", stat: "", prop: "", sortK: "", sortDir: 1 };
+const CLS_NAME = { M: "Melee", H: "Tầm trung", R: "Ranged" };
+const curCls = (r) => (r.range >= 400 ? "R" : r.range >= 250 ? "H" : "M");
+const sgn = (n) => (n > 0 ? "+" + n : n < 0 ? "−" + Math.abs(n) : "0");
+
+function buildMatrix() {
+  const order = ["M", "H", "R"];
+  const curLabel = { M: "Hiện cận chiến (128–200)", H: "Hiện tầm trung (250–350)", R: "Hiện đánh xa (400–600)" };
+  let html = `<thead><tr><th>Hiện tại ↓ / đề xuất →</th>${order.map((c) => `<th><span class="pc p-${c}">${CLS_NAME[c]}</span></th>`).join("")}<th>Tổng</th></tr></thead><tbody>`;
+  for (const a of order) {
+    const rowsA = ROSTER.filter((r) => curCls(r) === a);
+    html += `<tr><td>${curLabel[a]}</td>${order.map((b) => `<td class="${a === b ? "same" : ""}">${rowsA.filter((r) => r.cls === b).length}</td>`).join("")}<td>${rowsA.length}</td></tr>`;
+  }
+  html += `<tr><td><b>Tổng đề xuất</b></td>${order.map((b) => `<td><b>${ROSTER.filter((r) => r.cls === b).length}</b></td>`).join("")}<td><b>${ROSTER.length}</b></td></tr></tbody>`;
+  $("#matrix").innerHTML = html;
+  const changed = ROSTER.filter((r) => curCls(r) !== r.cls).length;
+  const leg = ROSTER.filter((r) => r.band === "L");
+  $("#matrixNote").innerHTML = `<b>${changed}</b> / ${ROSTER.length} con đổi lớp so với hiện tại (ô xám là giữ nguyên lớp). Trong 44 Legend đang để chung tầm 200: ${leg.filter((r) => r.cls === "R").length} ra Ranged, ${leg.filter((r) => r.cls === "H").length} ra Tầm trung, ${leg.filter((r) => r.cls === "M").length} ra Melee.`;
+}
+
+function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function typeChip(t) {
+  const c = TYPE_COLORS[t] || ["#8a8f98", "#ffffff"];
+  return `<span class="ty" style="background:${c[0]};color:${c[1]}">${esc(t)}</span>`;
+}
+
+function buildBands() {
+  const box = $("#bands");
+  box.innerHTML = BANDS.map((b) => {
+    const n = ROSTER.filter((r) => r.band === b.key).length;
+    return `<button class="band" type="button" data-band="${b.key}" aria-pressed="false"><span class="eyebrow">${esc(b.name)}</span><span class="n">${n}</span><span class="r">ua1r ${b.range}</span></button>`;
+  }).join("");
+  box.addEventListener("click", (e) => {
+    const btn = e.target.closest(".band");
+    if (!btn) return;
+    state.band = state.band === btn.dataset.band ? "" : btn.dataset.band;
+    box.querySelectorAll(".band").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.band === state.band)));
+    render();
+  });
+}
+
+function buildSelects() {
+  const groups = [...new Set(ROSTER.map((r) => r.group))].sort();
+  $("#fGroup").insertAdjacentHTML("beforeend", groups.map((g) => `<option>${esc(g)}</option>`).join(""));
+  const types = [...new Set(ROSTER.flatMap((r) => r.types))].sort();
+  $("#fType").insertAdjacentHTML("beforeend", types.map((t) => `<option>${esc(t)}</option>`).join(""));
+  $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+  $("#fGroup").addEventListener("change", (e) => { state.group = e.target.value; render(); });
+  $("#fType").addEventListener("change", (e) => { state.type = e.target.value; render(); });
+  $("#fStat").addEventListener("change", (e) => { state.stat = e.target.value; render(); });
+  $("#fProp").addEventListener("change", (e) => { state.prop = e.target.value; render(); });
+  document.querySelectorAll("#roster th").forEach((th) => th.addEventListener("click", () => {
+    const k = th.dataset.k;
+    if (state.sortK === k) state.sortDir = -state.sortDir; else { state.sortK = k; state.sortDir = k === "range" ? -1 : 1; }
+    document.querySelectorAll("#roster th").forEach((x) => x.removeAttribute("aria-sort"));
+    th.setAttribute("aria-sort", state.sortDir === 1 ? "ascending" : "descending");
+    render();
+  }));
+}
+
+function render() {
+  let rows = ROSTER.filter((r) =>
+    (!state.band || r.band === state.band) &&
+    (!state.group || r.group === state.group) &&
+    (!state.type || r.types.includes(state.type)) &&
+    (!state.stat || r.stat === state.stat) &&
+    (!state.prop || (state.prop === "chg" ? curCls(r) !== r.cls : r.cls === state.prop)) &&
+    (!state.q || (r.id + " " + r.name + " " + r.mega).toLowerCase().includes(state.q))
+  );
+  if (state.sortK) {
+    const k = state.sortK, d = state.sortDir;
+    rows = rows.slice().sort((a, b) => {
+      const va = k === "types" ? a.types.join("/") : a[k], vb = k === "types" ? b.types.join("/") : b[k];
+      return (typeof va === "number" ? va - vb : String(va).localeCompare(String(vb))) * d;
+    });
+  }
+  $("#count").textContent = `${rows.length} / ${ROSTER.length} hero`;
+  $("#rbody").innerHTML = rows.length ? rows.map((r) => `<tr>
+    <td>${esc(r.id)}</td><td class="nm">${esc(r.name)}</td><td>${r.types.map(typeChip).join("")}</td>
+    <td>${esc(r.group)}</td><td>${esc(r.stat)}</td>
+    <td class="num mono">${r.atk} / ${r.spa}</td>
+    <td class="num score" title="Chênh ${sgn(r.gap)}, chỉnh theo chiêu ${sgn(r.mshift)} (P${r.phys} / S${r.spec})${r.clash ? ", hạ về Tầm trung vì lệch stat chính" : ""}">${sgn(r.score)}</td>
+    <td><span class="chg">${curCls(r) === r.cls ? "" : `<b>${r.range}</b> → `}</span><span class="pc p-${r.cls}">${CLS_NAME[r.cls]} ${r.rng}</span></td>
+    <td class="mega">${esc(r.mega)}</td></tr>`).join("")
+    : `<tr><td colspan="9" class="empty">Không có hero nào khớp bộ lọc. Bỏ bớt điều kiện để xem lại.</td></tr>`;
+}
+
+/* findings filter */
+document.querySelectorAll(".fbtn").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll(".fbtn").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  const f = b.dataset.f;
+  document.querySelectorAll("#findings .finding").forEach((card) => {
+    card.hidden = !(f === "all" || card.dataset.tags.split(" ").includes(f));
+  });
+}));
+
+/* copy buttons */
+document.querySelectorAll(".copy").forEach((btn) => btn.addEventListener("click", () => {
+  const pre = btn.parentElement.querySelector("pre");
+  const text = pre.innerText;
+  const done = () => { btn.textContent = "Đã chép"; setTimeout(() => (btn.textContent = "Chép"), 1400); };
+  const fallback = () => {
+    const r = document.createRange(); r.selectNodeContents(pre);
+    const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    btn.textContent = "Đã chọn, bấm Ctrl+C";
+  };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fallback);
+    else fallback();
+  } catch (e) { fallback(); }
+}));
+
+/* nav highlight */
+const links = [...document.querySelectorAll(".nav a")];
+const secs = links.map((a) => document.querySelector(a.getAttribute("href")));
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver((ents) => {
+    ents.forEach((en) => {
+      if (en.isIntersecting) {
+        links.forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + en.target.id));
+      }
+    });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  secs.forEach((s) => s && io.observe(s));
+}
+
+buildBands();
+buildSelects();
+buildMatrix();
+render();
+</script>

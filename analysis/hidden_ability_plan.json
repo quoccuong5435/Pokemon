@@ -1,0 +1,864 @@
+[
+ {
+  "name": "Unnerve",
+  "count": 9,
+  "mega_forms": 5,
+  "pokemon": [
+   "Aerodactyl",
+   "Arbok",
+   "Ekans",
+   "Houndoom",
+   "Houndour",
+   "Meowth",
+   "Mewtwo",
+   "Persian",
+   "Tyranitar"
+  ],
+  "map_text": "Phát ra khí tức căng thẳng khiến tất cả kẻ địch trong phạm vi 800 không thể cắn Berries hay dùng bình máu/mana. (Normal/Hidden)",
+  "effect": "Hero địch trong 700 nhận hồi máu ít hơn 30% (mọi nguồn hồi).",
+  "difficulty": 3,
+  "differs": true,
+  "hook": "hàm hồi máu chung"
+ },
+ {
+  "name": "Sheer Force",
+  "count": 10,
+  "mega_forms": 1,
+  "pokemon": [
+   "Bagon",
+   "Croconaw",
+   "Feraligatr",
+   "Kingler",
+   "Krabby",
+   "Nidoking",
+   "Steelix",
+   "Tauros",
+   "Totodile",
+   "Trapinch"
+  ],
+  "map_text": "Loại bỏ hoàn toàn các hiệu ứng phụ (slow/stun/burn) của kỹ năng để tăng thẳng +30% Sát thương gốc cho kỹ năng đó. (Normal/Hidden)",
+  "effect": "Chiêu có hiệu ứng phụ (trạng thái, giảm chỉ số, khựng, rối) mất hiệu ứng đó nhưng +30% sát thương.",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "Ab_OutMult + Fx_AfterHit"
+ },
+ {
+  "name": "Analytic",
+  "count": 9,
+  "mega_forms": 0,
+  "pokemon": [
+   "Magnemite",
+   "Magneton",
+   "Magnezone",
+   "Porygon",
+   "Porygon2",
+   "Starmie",
+   "Staryu"
+  ],
+  "map_text": "Nếu hành động/ra chiêu sau mục tiêu, kỹ năng gây thêm +30% sát thương. (Hidden Ability)",
+  "effect": "+30% sát thương chiêu lên mục tiêu vừa ra chiêu trong 3 giây trước.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_OutMult (giờ ra chiêu của mục tiêu)"
+ },
+ {
+  "name": "Telepathy",
+  "count": 8,
+  "mega_forms": 1,
+  "pokemon": [
+   "Dialga",
+   "Gardevoir",
+   "Giratina",
+   "Kirlia",
+   "Palkia",
+   "Ralts",
+   "Wobbuffet",
+   "Wynaut"
+  ],
+  "map_text": "Miễn nhiễm hoàn toàn với mọi sát thương diện rộng và kỹ năng do đồng đội gây ra (chống Friendly Fire). (Hidden Ability)",
+  "effect": "Nhận ít hơn 20% sát thương từ chiêu khi có hero đồng minh trong 600. Map không có sát thương đồng đội nên bỏ phần đó.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_InMult"
+ },
+ {
+  "name": "Justified",
+  "count": 5,
+  "mega_forms": 3,
+  "pokemon": [
+   "Absol",
+   "Arcanine",
+   "Gallade",
+   "Growlithe",
+   "Lucario"
+  ],
+  "map_text": "Mỗi khi nhận sát thương từ kỹ năng hệ Dark (Bóng tối), Sát thương Tấn công được tăng thêm +25% trong 8 giây. (Hidden Ability)",
+  "effect": "Trúng chiêu hệ Dark: +1 Attack (12 giây).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_AfterHit + Fx_StageAdd"
+ },
+ {
+  "name": "Moxie",
+  "count": 4,
+  "mega_forms": 4,
+  "pokemon": [
+   "Gyarados",
+   "Heracross",
+   "Pinsir",
+   "Salamence"
+  ],
+  "map_text": "Mỗi khi hạ gục một tướng địch hoặc quái lớn, nhận vĩnh viễn +10% Sát thương Vật lý (cộng dồn tối đa 5 tầng, kéo dài 60s). (Hidden Ability)",
+  "effect": "Hạ gục hero, quái tinh anh hoặc boss: +1 Attack (30 giây, cộng dồn tới +6).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_OnDeath"
+ },
+ {
+  "name": "Infiltrator",
+  "count": 7,
+  "mega_forms": 0,
+  "pokemon": [
+   "Chandelure",
+   "Crobat",
+   "Golbat",
+   "Lampent",
+   "Litwick",
+   "Ninjask",
+   "Zubat"
+  ],
+  "map_text": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon.",
+  "effect": "Chiêu và đòn đánh bỏ qua các bậc tăng Defense / Sp. Def của mục tiêu.",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Fx_StageMult"
+ },
+ {
+  "name": "Regenerator",
+  "count": 6,
+  "mega_forms": 1,
+  "pokemon": [
+   "Ho-Oh",
+   "Slowbro",
+   "Slowking",
+   "Slowpoke",
+   "Tangela",
+   "Tangrowth"
+  ],
+  "map_text": "Đặc tính ẩn Regenerator gia tăng năng lực chiến đấu.",
+  "effect": "Không đánh và không bị đánh 4 giây: hồi 2% máu tối đa mỗi giây. Bản dùng chung, khác bản Legend của Ho-Oh.",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Vital Spirit",
+  "count": 7,
+  "mega_forms": 0,
+  "pokemon": [
+   "Electabuzz",
+   "Electivire",
+   "Elekid",
+   "Magby",
+   "Magmar",
+   "Magmortar",
+   "Tyrogue"
+  ],
+  "map_text": "Tinh thần hưng phấn, miễn nhiễm hoàn toàn với trạng thái Buồn ngủ / Ngủ say (Sleep). (Normal/Hidden)",
+  "effect": "Miễn ngủ.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_Status"
+ },
+ {
+  "name": "Weak Armor",
+  "count": 7,
+  "mega_forms": 0,
+  "pokemon": [
+   "Kabuto",
+   "Kabutops",
+   "Magcargo",
+   "Omanyte",
+   "Omastar",
+   "Onix",
+   "Slugma"
+  ],
+  "map_text": "Khi nhận đòn đánh vật lý, giảm 2 Giáp nhưng nhận ngay +25% Tốc độ di chuyển trong 4s (cộng dồn). (Hidden Ability)",
+  "effect": "Bị đánh thường: −1 Defense, +2 Speed (12 giây, hồi 5 giây).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_AfterHit + Fx_StageAdd"
+ },
+ {
+  "name": "Damp",
+  "count": 6,
+  "mega_forms": 0,
+  "pokemon": [
+   "Horsea",
+   "Kingdra",
+   "Marshtomp",
+   "Mudkip",
+   "Seadra",
+   "Swampert"
+  ],
+  "map_text": "Tỏa ra độ ẩm ức chế: khóa hoàn toàn các kỹ năng Tự sát (Self-Destruct, Explosion) và giảm 40% sát thương nổ diện rộng trong phạm vi 800. (Normal/Hidden)",
+  "effect": "Chiêu nổ (Explosion, Self-Destruct, Misty Explosion) của địch trong 800 giảm 50% sát thương.",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "Ab_OutMult"
+ },
+ {
+  "name": "Light Metal",
+  "count": 4,
+  "mega_forms": 2,
+  "pokemon": [
+   "Beldum",
+   "Metagross",
+   "Metang",
+   "Scizor"
+  ],
+  "map_text": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon.",
+  "effect": "+30 tốc chạy và không bị đẩy lùi (Dragon Tail, Circle Throw).",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Ab_Tick + đẩy lùi"
+ },
+ {
+  "name": "Rain Dish",
+  "count": 5,
+  "mega_forms": 1,
+  "pokemon": [
+   "Blastoise",
+   "Squirtle",
+   "Tentacool",
+   "Tentacruel",
+   "Wartortle"
+  ],
+  "map_text": "Hồi phục 3% Máu tối đa mỗi giây liên tục khi Thời tiết là Mưa Rào (Rain). (Normal/Hidden)",
+  "effect": "Trời mưa: hồi 2% máu tối đa mỗi giây.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick + Wth_Cur"
+ },
+ {
+  "name": "Rattled",
+  "count": 5,
+  "mega_forms": 0,
+  "pokemon": [
+   "Bonsly",
+   "Granbull",
+   "Magikarp",
+   "Snubbull",
+   "Sudowoodo"
+  ],
+  "map_text": "Khi bị trúng đòn đánh từ hệ Bug, Ghost hoặc Dark, tốc độ di chuyển tăng thêm +25% trong 5 giây. (Hidden Ability)",
+  "effect": "Trúng chiêu hệ Bug, Ghost hoặc Dark: +1 Speed (12 giây).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_AfterHit + Fx_StageAdd"
+ },
+ {
+  "name": "Unburden",
+  "count": 4,
+  "mega_forms": 1,
+  "pokemon": [
+   "Grovyle",
+   "Hitmonlee",
+   "Sceptile",
+   "Treecko"
+  ],
+  "map_text": "Khi sử dụng hết một vật phẩm tiêu hao (Potion, Berry, Scroll), Tốc độ di chuyển tăng vọt +100% trong 8 giây. (Hidden Ability)",
+  "effect": "Dùng một món đồ tiêu hao: +100% tốc chạy 6 giây (hồi 20 giây).",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "sự kiện dùng đồ"
+ },
+ {
+  "name": "Big Pecks",
+  "count": 3,
+  "mega_forms": 1,
+  "pokemon": [
+   "Pidgeot",
+   "Pidgeotto",
+   "Pidgey"
+  ],
+  "map_text": "Giáp không thể bị bào mòn hoặc giảm bởi bất kỳ chiêu thức phá giáp nào. (Hidden Ability)",
+  "effect": "Không bị giảm Defense và không bị trừ giáp.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_StageAdd + Ab_FxAdd"
+ },
+ {
+  "name": "Frisk",
+  "count": 4,
+  "mega_forms": 0,
+  "pokemon": [
+   "Dusclops",
+   "Dusknoir",
+   "Duskull",
+   "Wigglytuff"
+  ],
+  "map_text": "Phát hiện trang bị và lượng vàng mà tướng địch đang mang trên người ngay khi vừa chạm mặt. (Hidden Ability)",
+  "effect": "Hero địch trong 700 bị lộ, kể cả khi đang núp bụi cỏ.",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Ab_Tick + bụi cỏ"
+ },
+ {
+  "name": "Gluttony",
+  "count": 4,
+  "mega_forms": 0,
+  "pokemon": [
+   "Bellsprout",
+   "Snorlax",
+   "Victreebel",
+   "Weepinbell"
+  ],
+  "map_text": "Tự động sử dụng Berries sớm hơn bình thường (ngay khi Máu xuống dưới 50% thay vì chờ đến 25%). (Hidden Ability)",
+  "effect": "Máu xuống dưới 50%: hồi ngay 10% máu tối đa (hồi 60 giây). Map không có Berry.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Hustle",
+  "count": 4,
+  "mega_forms": 0,
+  "pokemon": [
+   "Nidoran",
+   "Nidorino",
+   "Raticate",
+   "Rattata"
+  ],
+  "map_text": "Tăng +50% Sát thương Tấn công cơ bản nhưng giảm 15% độ chính xác (15% tỉ lệ đánh trượt). (Normal/Hidden)",
+  "effect": "+30% sát thương đòn đánh thường; 10% đòn đánh thường bị trượt.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_OutMult"
+ },
+ {
+  "name": "Magic Guard",
+  "count": 3,
+  "mega_forms": 1,
+  "pokemon": [
+   "Abra",
+   "Alakazam",
+   "Kadabra"
+  ],
+  "map_text": "Miễn nhiễm hoàn toàn với mọi dạng sát thương gián tiếp: không bị mất máu bởi Độc, Bỏng, Bão cát, Mưa đá hay Phản đòn. (Normal/Hidden)",
+  "effect": "Không mất máu vì bỏng, độc, thời tiết, phản dame, sát thương theo thời gian.",
+  "difficulty": 3,
+  "differs": false,
+  "hook": "nhiều chỗ gây sát thương gián tiếp"
+ },
+ {
+  "name": "Plus",
+  "count": 3,
+  "mega_forms": 1,
+  "pokemon": [
+   "Ampharos",
+   "Flaaffy",
+   "Mareep"
+  ],
+  "map_text": "Khi đứng gần đồng minh có Đặc tính Plus hoặc Minus, cả hai cùng nhận thêm +20% Sát thương Phép. (Hidden Ability)",
+  "effect": "Có hero đồng minh mang Plus hoặc Minus trong 600: +20% sát thương chiêu.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_OutMult"
+ },
+ {
+  "name": "Bulletproof",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Chesnaught",
+   "Chespin",
+   "Quilladin"
+  ],
+  "map_text": "Miễn nhiễm 100% sát thương và hiệu ứng từ các kỹ năng dạng đạn pháo, cầu năng lượng, bom (Shadow Ball, Sludge Bomb, Gyro Ball, Focus Blast...). (Hidden Ability)",
+  "effect": "Miễn chiêu dạng cầu / bom (Shadow Ball, Sludge Bomb, Focus Blast, Energy Ball, Aura Sphere...).",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "danh sách move"
+ },
+ {
+  "name": "Cloud Nine",
+  "count": 2,
+  "mega_forms": 1,
+  "pokemon": [
+   "P07A",
+   "Swablu"
+  ],
+  "map_text": "Hào quang xóa sổ thời tiết: khi có mặt trên sân, toàn bộ hiệu ứng môi trường (Nắng, Mưa, Cát, Tuyết) đều bị vô hiệu hóa. (Normal/Hidden)",
+  "effect": "Bản thân không chịu hiệu ứng thời tiết; hero địch trong 900 không nhận buff thời tiết (Swift Swim, Chlorophyll...).",
+  "difficulty": 3,
+  "differs": true,
+  "hook": "mọi chỗ đọc Wth_Cur"
+ },
+ {
+  "name": "Contrary",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Serperior",
+   "Servine",
+   "Snivy"
+  ],
+  "map_text": "Đảo ngược mọi hiệu ứng buff/debuff chỉ số: các chiêu thức tự giảm chỉ số (như Leaf Storm, Overheat) sẽ biến thành TĂNG chỉ số tương ứng. (Hidden Ability)",
+  "effect": "Mọi thay đổi chỉ số bị đảo ngược (Leaf Storm, Overheat thành tăng Sp. Atk).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_StageAdd"
+ },
+ {
+  "name": "Cud Chew",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Tauros Aqua",
+   "Tauros Blaze",
+   "Tauros Combat"
+  ],
+  "map_text": "Nhai lại: sau khi ăn quả Berry, vào lượt tiếp theo sẽ tự động nhận thêm một lần hiệu ứng của quả Berry đó miễn phí. (Hidden Ability)",
+  "effect": "Nhận hồi máu: 3 giây sau hồi thêm 50% lượng đó.",
+  "difficulty": 3,
+  "differs": true,
+  "hook": "hàm hồi máu chung"
+ },
+ {
+  "name": "Galvanize",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Alolan-Geodude",
+   "Alolan-Golem",
+   "Alolan-Graveler"
+  ],
+  "map_text": "Chuyển toàn bộ kỹ năng và đòn đánh hệ Normal (Thường) sang hệ Electric (Điện) và tăng thêm +20% sát thương. (Hidden Ability)",
+  "effect": "Chiêu hệ Normal thành hệ Electric và +20% sát thương (giống Aerilate / Pixilate đang có).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_OutMult (chép Pixilate)"
+ },
+ {
+  "name": "Healer",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Bellossom",
+   "Blissey",
+   "Chansey"
+  ],
+  "map_text": "Mỗi 5 giây, có 30% tỉ lệ tự động hóa giải một hiệu ứng bất lợi trên người đồng minh đứng cạnh. (Hidden Ability)",
+  "effect": "Mỗi 5 giây: 30% chữa trạng thái xấu cho 1 hero đồng minh trong 600.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Hydration",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Lapras",
+   "Smoochum",
+   "Vaporeon"
+  ],
+  "map_text": "Tự động hóa giải và thanh lọc mọi trạng thái bất lợi (Stun/Slow/Burn/Poison) vào cuối mỗi giây nếu trời mưa. (Normal/Hidden)",
+  "effect": "Trời mưa: mỗi giây hết trạng thái xấu.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Ice Body",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Dewgong",
+   "Glaceon",
+   "Seel"
+  ],
+  "map_text": "Hồi phục 3% Máu tối đa mỗi giây và miễn nhiễm sát thương đóng băng khi Thời tiết là Mưa Đá (Hail). (Hidden Ability)",
+  "effect": "Mưa đá: hồi 2% máu tối đa mỗi giây, không mất máu vì mưa đá.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Magician",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Braixen",
+   "Delphox",
+   "Fennekin"
+  ],
+  "map_text": "Tung chiêu trúng kẻ địch sẽ đánh cắp 1 điểm tích lũy buff hoặc tạm thời phong ấn trang bị kích hoạt của địch trong 3s. (Hidden Ability)",
+  "effect": "Chiêu trúng hero địch: 20% cướp 1 bậc chỉ số đang tăng của mục tiêu (hồi 8 giây).",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Fx_AfterHit + Fx_StageAdd"
+ },
+ {
+  "name": "Minus",
+  "count": 2,
+  "mega_forms": 1,
+  "pokemon": [
+   "Electrike",
+   "Manectric"
+  ],
+  "map_text": "Khi đứng gần đồng minh có Đặc tính Plus hoặc Minus, cả hai cùng nhận thêm +20% Sát thương Phép. (Hidden Ability)",
+  "effect": "Có hero đồng minh mang Plus hoặc Minus trong 600: +20% sát thương chiêu.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_OutMult"
+ },
+ {
+  "name": "Overcoat",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Cloyster",
+   "Shelgon",
+   "Shellder"
+  ],
+  "map_text": "Miễn nhiễm hoàn toàn sát thương bão cát/mưa đá và các chiêu thức dạng bột phấn (Spore, Sleep Powder). (Hidden Ability)",
+  "effect": "Không mất máu vì bão cát / mưa đá; miễn chiêu dạng bột (Spore, Sleep Powder, Stun Spore, Poison Powder).",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "thời tiết + move trạng thái"
+ },
+ {
+  "name": "Own Tempo",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Lombre",
+   "Lotad",
+   "Ludicolo"
+  ],
+  "map_text": "Nhịp điệu tự nhiên giúp miễn nhiễm hoàn toàn với trạng thái Rối loạn (Confusion) và Khiêu khích (Taunt). (Normal/Hidden)",
+  "effect": "Miễn rối và miễn Taunt.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_Confuse + Taunt"
+ },
+ {
+  "name": "Protean",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Froakie",
+   "Frogadier",
+   "Greninja"
+  ],
+  "map_text": "Đổi hệ của Pokémon sang hệ của chiêu thức vừa sử dụng ngay trước khi tung chiêu, nhận 1.5x STAB cho mọi kỹ năng. (Hidden Ability)",
+  "effect": "Mọi chiêu được tính như cùng hệ với Pokemon (thưởng cùng hệ cho mọi chiêu).",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "chỗ tính thưởng cùng hệ"
+ },
+ {
+  "name": "Rough Skin",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Gabite",
+   "Garchomp",
+   "Gible"
+  ],
+  "map_text": "Kẻ địch khi tung đòn đánh vật lý tiếp xúc cận chiến sẽ bị phản lại 12% Máu tối đa dưới dạng sát thương chuẩn. (Normal/Hidden)",
+  "effect": "Kẻ đánh cận chiến mất 4% máu tối đa của nó (Rocky Helmet là 3%).",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_InContact"
+ },
+ {
+  "name": "Stench",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Gloom",
+   "Koffing",
+   "Weezing"
+  ],
+  "map_text": "Mỗi đòn đánh hoặc kỹ năng gây sát thương có 10% cơ hội làm choáng (micro-stun 0.5s) đối thủ. (Hidden Ability)",
+  "effect": "Đòn đánh và chiêu: 10% làm khựng 0,5 giây.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_AfterHit"
+ },
+ {
+  "name": "Tinted Lens",
+  "count": 3,
+  "mega_forms": 0,
+  "pokemon": [
+   "Butterfree",
+   "Hoothoot",
+   "Noctowl"
+  ],
+  "map_text": "Các kỹ năng bị khắc chế (Not very effective / Kháng đòn) được nhân đôi sát thương (trở về 100% sát thương bình thường). (Hidden Ability)",
+  "effect": "Chiêu bị kháng hệ gây sát thương như bình thường (x2 so với hiện tại).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "bảng khắc hệ"
+ },
+ {
+  "name": "Aftermath",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Electrode",
+   "Voltorb"
+  ],
+  "map_text": "Khi tử trận, phát nổ gây sát thương diện rộng bằng 25% Máu tối đa của bản thân lên tất cả kẻ địch xung quanh. (Hidden Ability)",
+  "effect": "Bị hạ gục: kẻ hạ gục mất 20% máu tối đa của Pokemon này.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Fx_OnDeath"
+ },
+ {
+  "name": "Anticipation",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Eevee"
+  ],
+  "map_text": "Cảm nhận được đòn hiểm: nếu đối thủ sở hữu chiêu thức Siêu Hiệu Quả hoặc One-hit KO, lập tức phát ra cảnh báo và nhận giáp ảo 200 HP. (Normal/Hidden)",
+  "effect": "Trúng chiêu siêu hiệu quả lần đầu mỗi 30 giây: đòn đó giảm 50% sát thương.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_InMult"
+ },
+ {
+  "name": "Friend Guard",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Clefairy",
+   "Jigglypuff"
+  ],
+  "map_text": "Giảm 25% toàn bộ sát thương mà đồng đội xung quanh nhận phải trong bán kính 600. (Hidden Ability)",
+  "effect": "Hero đồng minh trong 600 nhận ít hơn 15% sát thương (không tính bản thân).",
+  "difficulty": 2,
+  "differs": true,
+  "hook": "Ab_InMult"
+ },
+ {
+  "name": "Harvest",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Exeggcute",
+   "Exeggutor"
+  ],
+  "map_text": "Sau khi ăn quả Berries, có 50% cơ hội mỗi 10 giây (100% nếu trời Nắng) tự động mọc lại quả Berry đó trong hòm đồ. (Hidden Ability)",
+  "effect": "Mỗi 10 giây (nắng: 5 giây): 50% hồi 3% máu tối đa. Map không có Berry.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Marvel Scale",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Dragonair",
+   "Dratini"
+  ],
+  "map_text": "Khi đang bị dính bất kỳ hiệu ứng bất lợi nào (Stun, Slow, Burn, Poison, Freeze), Giáp và Kháng phép được tăng vọt +50%. (Normal/Hidden)",
+  "effect": "Đang có trạng thái xấu: +50% giáp.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Pickpocket",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Sneasel",
+   "Weavile"
+  ],
+  "map_text": "Khi bị đối phương đánh cận chiến, đánh cắp ngay lập tức 50-100 vàng từ người đánh (hồi chiêu 15s). (Hidden Ability)",
+  "effect": "Bị hero địch đánh cận chiến: lấy 50 vàng của người chơi đó (hồi 15 giây).",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_InContact"
+ },
+ {
+  "name": "Poison Touch",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Croagunk",
+   "Toxicroak"
+  ],
+  "map_text": "Tất cả các đòn đánh cận chiến có 30% tỉ lệ đầu độc đối thủ (gây sát thương DPS và giảm 25% tốc độ hồi máu). (Hidden Ability)",
+  "effect": "Đòn đánh cận chiến: 30% gây độc.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_OnHit"
+ },
+ {
+  "name": "Quick Feet",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Jolteon",
+   "Shroomish"
+  ],
+  "map_text": "Khi bị dính hiệu ứng bất lợi, Tốc độ chạy tăng thêm +50% và bỏ qua giới hạn tốc độ chạy tối đa. (Normal/Hidden)",
+  "effect": "Đang có trạng thái xấu: +50% tốc chạy.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Sand Rush",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Sandshrew",
+   "Sandslash"
+  ],
+  "map_text": "Tăng gấp đôi (+100%) Tốc độ di chuyển và Tốc độ đánh khi Thời tiết là Bão Cát (Sandstorm). (Hidden Ability)",
+  "effect": "Bão cát: +60 tốc chạy, +30% tốc đánh (giống Swift Swim trong mưa).",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Slush Rush",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Alolan-Sandshrew",
+   "Alolan-Sandslash"
+  ],
+  "map_text": "Tăng gấp đôi (+100%) Tốc độ di chuyển và Tốc độ đánh khi Thời tiết là Mưa Đá (Hail / Snow). (Hidden Ability)",
+  "effect": "Mưa đá: +60 tốc chạy, +30% tốc đánh.",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "Ab_Tick"
+ },
+ {
+  "name": "Sniper",
+  "count": 1,
+  "mega_forms": 1,
+  "pokemon": [
+   "Beedrill"
+  ],
+  "map_text": "Sát thương từ các đòn đánh Chí mạng (Critical Strike) tăng từ 150% lên 225%. (Normal/Hidden)",
+  "effect": "Chí mạng gây x2,25 thay vì x1,5.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "chỗ tính chí mạng"
+ },
+ {
+  "name": "Storm Drain",
+  "count": 2,
+  "mega_forms": 0,
+  "pokemon": [
+   "Cradily",
+   "Lileep"
+  ],
+  "map_text": "Hút mọi kỹ năng hệ Nước về phía bản thân, miễn nhiễm sát thương nước và nhận ngay +25% Sát thương Phép. (Hidden Ability)",
+  "effect": "Miễn chiêu hệ Water; trúng chiêu Water: +1 Sp. Atk (12 giây).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_InMult (giống Water Absorb)"
+ },
+ {
+  "name": "Drizzle",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Politoed"
+  ],
+  "map_text": "Đặc tính ẩn Drizzle gia tăng năng lực chiến đấu.",
+  "effect": "Gọi mưa như Drought gọi nắng (dùng lại code Drought).",
+  "difficulty": 1,
+  "differs": true,
+  "hook": "chép Drought"
+ },
+ {
+  "name": "Dry Skin",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Jynx"
+  ],
+  "map_text": "Hồi 2% Máu/s trong Mưa và hồi máu khi trúng đòn Nước; nhưng nhận thêm +25% sát thương trong Nắng và từ hệ Lửa. (Normal/Hidden)",
+  "effect": "Mưa: hồi 2% máu mỗi giây; miễn chiêu Water (hồi 25% máu thay vì mất); nhận thêm 25% sát thương hệ Fire.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_Tick + Ab_InMult"
+ },
+ {
+  "name": "Effect Spore",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Vileplume"
+  ],
+  "map_text": "Khi nhận đòn đánh vật lý, có 30% cơ hội khiến kẻ tấn công ngẫu nhiên dính phải: Trúng Độc, Tê Liệt (Stun 1.5s), hoặc Ngủ say (Sleep 2s). (Normal/Hidden)",
+  "effect": "Bị đánh cận chiến: 30% kẻ đánh bị độc, tê liệt hoặc ngủ (ngẫu nhiên).",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Ab_InContact"
+ },
+ {
+  "name": "Imposter",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Ditto"
+  ],
+  "map_text": "Tự động sao chép hoàn toàn ngoại hình, kỹ năng và chỉ số cơ bản của tướng địch đối diện ngay khi vào giao tranh. (Hidden Ability)",
+  "effect": "Lần đầu đánh hero địch mỗi 60 giây: chép Attack / Sp. Atk / Defense / Sp. Def của nó trong 15 giây.",
+  "difficulty": 3,
+  "differs": true,
+  "hook": "hệ chỉ số"
+ },
+ {
+  "name": "Prankster",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Sableye"
+  ],
+  "map_text": "Tất cả các chiêu thức trạng thái, khống chế, buff/debuff và hồi phục được giảm 50% thời gian hồi chiêu và thi triển tức thì. (Hidden Ability)",
+  "effect": "Move trạng thái hồi chiêu nhanh hơn 50%.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "Fx_CdScale"
+ },
+ {
+  "name": "Scrappy",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Sirfetch'd"
+  ],
+  "map_text": "Đòn đánh và kỹ năng hệ Normal/Fighting có thể đánh trúng và gây sát thương đầy đủ lên hệ Ghost (Bóng ma), miễn nhiễm hiệu ứng Intimidate. (Normal/Hidden)",
+  "effect": "Chiêu Normal / Fighting đánh trúng hệ Ghost bình thường; miễn Intimidate.",
+  "difficulty": 1,
+  "differs": false,
+  "hook": "bảng khắc hệ + Intimidate"
+ },
+ {
+  "name": "Unaware",
+  "count": 1,
+  "mega_forms": 0,
+  "pokemon": [
+   "Clefable"
+  ],
+  "map_text": "Bỏ qua hoàn toàn các chỉ số cộng thêm (Attack boost, Defense buff) của mục tiêu khi tính toán sát thương gây ra và nhận vào. (Hidden Ability)",
+  "effect": "Bỏ qua các bậc chỉ số của đối thủ khi đánh và khi bị đánh.",
+  "difficulty": 2,
+  "differs": false,
+  "hook": "Fx_StageMult"
+ }
+]

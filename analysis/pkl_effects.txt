@@ -1,0 +1,99 @@
+PKLegends v3.2: 434 imported models, 97 not unit models (effects)
+
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock0.mdx                20326  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock1.mdx                 7747  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock2.mdx                 7942  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock3.mdx                21388  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock4.mdx                10516  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock5.mdx                10966  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock6.mdx                20326  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock7.mdx                 7747  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock8.mdx                 7942  
+Doodads\Ashenvale\Rocks\AshenRock\AshenRock9.mdx                21388  
+groudon.mdx                                                    268602  
+MeowthGalarian4.mdx                                            659257  
+Perrserker4.mdx                                                602148  
+ufpskyver1.mdx                                                  31108  
+war3mapImported\[AKE]war3AKE.com - 4722423848384000438156764.mdx     6421  
+war3mapImported\AnimatedBash.mdx                                 2652  
+war3mapImported\AquaRingFx.mdx                                  88102  
+war3mapImported\Arcade Bolt Psyche.mdx                           6251  
+war3mapImported\az_snowflake01.mdx                               2561  
+war3mapImported\Blitzangriff.mdx                                 6095  
+war3mapImported\blue energy arrow.mdx                            6043  
+war3mapImported\boomerrangbone.mdx                              12831  
+war3mapImported\BRN.mdx                                          1420  
+war3mapImported\BRN2.mdx                                         1420  
+war3mapImported\Buff_Mana.mdx                                    5564  
+war3mapImported\CelebiAuraSfx.mdx                                3032  
+war3mapImported\ChaneiraHeal.mdx                                 5437  
+war3mapImported\Coup de Grace Purple.mdx                         7763  
+war3mapImported\DevourAura.mdx                                   2840  
+war3mapImported\Digital Ray.mdx                                  7274  
+war3mapImported\DrizzleAura.mdx                                  1592  
+war3mapImported\DroughtAura.mdx                                  1584  
+war3mapImported\Effect-237.mdx                                   3203  
+war3mapImported\ElectricAura.mdx                                 1464  
+war3mapImported\Ember.mdx                                        6458  
+war3mapImported\Faerie Missile.mdx                               9272  
+war3mapImported\FeatherMissile.mdx                               6853  
+war3mapImported\FireArrow.mdx                                   10667  
+war3mapImported\FireAura.mdx                                     1464  
+war3mapImported\Firebolt Major.mdx                              11121  
+war3mapImported\Firebolt Medium.mdx                             10729  
+war3mapImported\Firebolt Minor.mdx                               8057  
+war3mapImported\galvanattack.mdx                                 5416  
+war3mapImported\GolemAlolanProjectile4.mdx                      14946  
+war3mapImported\GrassAura.mdx                                    1464  
+war3mapImported\GrassyTerrainSfx.mdx                             2213  
+war3mapImported\GreenBoom.mdx                                   10969  
+war3mapImported\GreenHeal.mdx                                    4789  
+war3mapImported\GreenShot.mdx                                    7160  
+war3mapImported\HailAura.mdx                                     2496  
+war3mapImported\hitvfx1.mdx                                      6267  
+war3mapImported\holy bolt.mdx                                    6924  
+war3mapImported\Holy Missile.mdx                                 8736  
+war3mapImported\Icebeam.mdx                                     74984  
+war3mapImported\IncreaseBuff.mdx                                 5197  
+war3mapImported\Line.mdx                                         1400  
+war3mapImported\LoadingScreen.mdx                                1156  
+war3mapImported\Metronom.mdx                                     1656  
+war3mapImported\MewtwoSaiyan.mdx                                 9563  
+war3mapImported\MiddlePoint.mdx                                  1400  
+war3mapImported\MiloticPassive.mdx                               4474  
+war3mapImported\NormalAura.mdx                                   1464  
+war3mapImported\PAR.mdx                                          1420  
+war3mapImported\PkmnDrough.mdx                                   1692  
+war3mapImported\Powerwhip.mdx                                  560460  
+war3mapImported\Psionic Shot Silver.mdx                         10058  
+war3mapImported\Psionic Shot Teal.mdx                           10058  
+war3mapImported\PSN.mdx                                          1420  
+war3mapImported\PsyAura.mdx                                      1464  
+war3mapImported\PsychicAlakazam.mdx                             10023  
+war3mapImported\purple claw.mdx                                 17237  
+war3mapImported\RazorLeafSelf.mdx                                5664  
+war3mapImported\RizerosAvatar.mdx                              206141  
+war3mapImported\RockAura.mdx                                     1464  
+war3mapImported\SandstormAura.mdx                                2496  
+war3mapImported\SandTornado.mdx                                 20852  
+war3mapImported\SFXPoisonEffect.mdx                              9884  
+war3mapImported\SFXTraumfresser.mdx                              8416  
+war3mapImported\slash-luc.mdx                                    6829  
+war3mapImported\Sonic Missile.mdx                                8736  
+war3mapImported\Spectral Missile.mdx                             9808  
+war3mapImported\SS2 Lightning.mdx                                3552  
+war3mapImported\Stormfall.mdx                                   55080  
+war3mapImported\Tangroots.mdx                                   55171  
+war3mapImported\Todeskuss.mdx                                    2364  
+war3mapImported\VioletPulse.mdx                                  5604  
+war3mapImported\Void Spear.mdx                                  11816  
+war3mapImported\Voidball Minor.mdx                              12085  
+war3mapImported\Voidbolt Major.mdx                              24721  
+war3mapImported\Voidbolt Medium.mdx                             24721  
+war3mapImported\WarStompCaster.mdx                              10604  
+war3mapImported\Water Shot.mdx                                  17234  
+war3mapImported\WaterAura.mdx                                    1464  
+war3mapImported\WaterSlow.mdx                                    1567  
+war3mapImported\Windwalk Blue Soul.mdx                           8463  
+war3mapImported\Wizardry Missile.mdx                             9004  
+war3mapImported\Zornklinge.mdx                                   2940  

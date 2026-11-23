@@ -1,3 +1,44 @@
+# Pokemon Arena v4.3.2
+**Đã build 2026-11-21** (`Pokemon Arena v4.3.2.w3x`, pjass 0 lỗi). **Chưa chơi thử.** Gồm toàn bộ v4.3.1, thêm:
+- **Poke Center hồi mana nhanh bằng hồi máu:** aura mana `ANre` 0,05 → 0,15 (aura máu `ACnr` đã là 0,15), sửa trong `tools/v3411/build.py`.
+- **Team Rocket** (`tools/v3411/jass/fx_main.j`, test `tests/test_rocket.py`): (1) lịch đúng như ghi chú: đợt đầu phút 10, rồi mỗi 15 phút
+  (trước đó timer lặp bắt đầu từ phút 0 nên đợt 2 tới ở phút 15, rồi 30, 45); (2) nếu không tạo được Pokémon nào thì **hủy đợt** và báo
+  "Team Rocket raid cancelled: its Pokemon could not be created" (trước đó vòng kiểm tra sau 2 giây thấy nhóm rỗng và thưởng 3000 vàng cho phe bị đánh); thông báo ghi số Pokémon thật sự xuất hiện;
+  (3) lệnh **`-rocket`** (chỉ host) bắt đầu một đợt ngay để thử.
+  Đã kiểm tra bằng đọc code và dữ liệu map: 6 loại Pokémon có trong map, model có, điểm xuất hiện (±3300, -300) đi được và nối với hai căn cứ.
+  Nguyên nhân khiến chưa thấy Pokémon trong game thì chưa xác định được (không chạy được game).
+
+---
+
+# Pokemon Arena v4.3.1
+**Đã build 2026-11-21** (`Pokemon Arena v4.3.1.w3x`, pjass 0 lỗi, 202 test pass). **Chưa chơi thử.** Gồm toàn bộ v4.3, thêm một thay đổi (`tools/v3411/repick_random.py`, test `tests/test_repick_random.py`):
+**`-repick` tự pick 1 Pokémon random cho người gõ.** Vẫn giữ luật cũ (2 phút đầu, tối đa 2 lần, cần Pokémon còn sống và không ở dạng Mega; XP và item mang sang con mới).
+Sau khi bỏ Pokémon cũ, con random lấy từ cùng danh sách với `-random`, không trùng con đang có ở bất kỳ ai và không trùng chính con vừa bỏ. Hết lượt thì báo "no repicks left" như trước.
+
+---
+
+# Pokemon Arena v4.3
+**Đã build 2026-11-21** (`Pokemon Arena v4.3.w3x`, 164,5 MB, pjass 0 lỗi, 196 test pass). **Chưa chơi thử.**
+Nền là 3.4.16 (mọi thứ bên dưới còn nguyên) cộng các tính năng của 3.4.2 mà 3.4.16 chưa có. Thiết kế:
+`docs/superpowers/specs/2026-11-21-merge-3.4.2-into-3.4.16-design.md`, kế hoạch: `docs/superpowers/plans/2026-11-21-merge-3.4.2-into-3.4.16.md`.
+Code: `tools/v3411/gym342.py` (`patch_script`, gọi cuối `apply.py`), JASS `tools/v3411/jass/gym342.j`, test `tests/test_gym342.py`.
+Số bản `4.3` đặt theo ý người dùng (dòng PvP `v4.1` / `v4.1.2` là dòng khác, không có trong bản này).
+
+| Từ 3.4.2 | Nội dung |
+|---|---|
+| Gym 1–4 dễ hơn | Máu x0,35 / 0,45 / 0,70 / 0,85; sát thương và giáp x0,45 / 0,55 / 0,75 / 0,85; dùng skill 0,25 / 0,25 / 0,45 / 0,45; gym 1–4 không đánh nhanh x1,7. Gym 5–8 và League như 3.4.16 (skill 0,6). Hàm `Gym_DiffHP / DiffDmg / DiffAI / Fast`, `Ai_Chance` (Ab_HT khóa 88) |
+| `-gym` | Trạng thái gym đang đánh (hoặc mọi gym bận), đội 6 con của bạn |
+| Báo gym bận | Người khác đứng gần gym đang có người đánh được báo "Gym N is busy: ..." (5 giây một lần) |
+| Gym không kẹt | Mỗi lượt ra quân chạy thread riêng (`Gym_StartIt`, `Gym_SpawnIt`, `Gym_AdvanceIt`); Pokémon gym chết mà trigger không đi tiếp thì `Gym_Tick` đi tiếp; Pokémon gym đi lạc thì kéo về; `Gym_OnDeath` giờ gọi `Gym_Advance(g, d)`. Giữ cơ chế 3.4.16 (`Gym_Down`, `Gym_Root`, `Fx_*`) |
+
+**Không cần làm:** "mỗi nút một loại move" (3.4.1, `Mv_KindSlot`). `AbilityData.slk` của 3.4.16: 1552 ability move đều là Channel (`ANcl`)
+và chỉ có **4 order string** (mỗi ô Q / W / E / R một cái), nên hai move ở hai ô khác nhau không bao giờ dùng chung order, lỗi phím Q ra chiêu ô E không xảy ra.
+**Chưa có:** Item Shop NPC của 3.4.3 – 3.4.5 (dòng cũ), event / PvP của v4.1.2.
+**Cần chơi thử:** gym 1–4 có dễ hơn 3.4.16 không; `-gym`; thông báo gym bận khi hai người đứng gần một gym; gym không kẹt "3/6"; tiến hóa giữa trận gym.
+Build lại: `python -I tools/v3411/apply.py` → `python -I tools/v34/check.py v3411/war3map.j` → `python -I tools/v3411/build.py`.
+
+---
+
 # Pokemon Arena v3.4.16
 **Đã build 2026-11-18** (`Pokemon Arena v3.4.16.w3x`, 164.5 MB, pjass 0 lỗi). **Chưa chơi thử.** Bảng hash của map nới lên 8192 ô
 (`mpq._grow_hash_table` giữ 8 file v1.8 không tên ở vị trí cũ; tên tìm thêm: `tools/v3411/names_v3410.txt`). Sửa theo góp ý sau

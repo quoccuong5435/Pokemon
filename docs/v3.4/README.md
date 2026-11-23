@@ -89,6 +89,7 @@ Tất cả build từ `Pokemon Arena v3.3.3.w3x`, vì mã nguồn của 3.3.x kh
 | `4-icon-chieu.md` | icon của 319 move | `apply.py` tự tạo |
 | `5-sat-thuong-chieu.md` | sát thương của 319 move, move của từng Pokémon | `analysis/move_damage_doc.py` |
 | `6-de-xuat-hieu-ung-chieu.md` | đề xuất hiệu ứng move mới | `analysis/effects_plan.py`, chờ duyệt |
+| `7-ke-hoach-cong-thu.md` | kế hoạch công / thủ Vật lý – Phép (bản 3.4.3) | viết tay, chờ duyệt |
 
 ## Cách build (cho lần sau)
 Chạy trong `_PokemonArena2.0_work`:

@@ -1,0 +1,8112 @@
+{
+ "abilities": [
+  {
+   "name": "Sheer Force",
+   "default": [
+    "Darmanitan"
+   ],
+   "hidden": [
+    "Bagon",
+    "Croconaw",
+    "Feraligatr",
+    "Kingler",
+    "Krabby",
+    "Nidoking",
+    "Steelix",
+    "Tauros",
+    "Totodile",
+    "Trapinch"
+   ],
+   "pokeapi": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+   "status": "new",
+   "effect": "Chiêu có hiệu ứng phụ (trạng thái, giảm chỉ số, khựng, rối) mất hiệu ứng đó nhưng +30% sát thương.",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "Ab_OutMult + Fx_AfterHit",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Đổi hiệu ứng phụ lấy +30% sát thương.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Damp",
+   "default": [
+    "Golduck",
+    "Psyduck"
+   ],
+   "hidden": [
+    "Horsea",
+    "Kingdra",
+    "Marshtomp",
+    "Mudkip",
+    "Seadra",
+    "Swampert"
+   ],
+   "pokeapi": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle.",
+   "status": "new",
+   "effect": "Chiêu nổ (Explosion, Self-Destruct, Misty Explosion) của địch trong 800 giảm 50% sát thương.",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "Ab_OutMult",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Ít Pokemon dùng chiêu nổ.",
+   "r1": "edit",
+   "v2": "Hào quang 600: chiêu nổ (Explosion, Self-Destruct, Misty Explosion) của địch bị khóa và chiêu Fire của địch −15%; bản thân nhận ít hơn 15% sát thương Fire.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Hào quang 500: hero địch −20% tốc đánh và nhận ít hơn 30% hồi máu.",
+   "answer": ""
+  },
+  {
+   "name": "Unnerve",
+   "default": [],
+   "hidden": [
+    "Aerodactyl",
+    "Arbok",
+    "Ekans",
+    "Houndoom",
+    "Houndour",
+    "Meowth",
+    "Persian",
+    "Tyranitar"
+   ],
+   "pokeapi": "Prevents opposing Pokémon from eating held Berries.",
+   "status": "new",
+   "effect": "Hero địch trong 700 nhận hồi máu ít hơn 30% (mọi nguồn hồi).",
+   "difficulty": 3,
+   "differs": true,
+   "hook": "hàm hồi máu chung",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Giảm hồi máu của địch quanh nó.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Analytic",
+   "default": [],
+   "hidden": [
+    "Magnemite",
+    "Magneton",
+    "Magnezone",
+    "Porygon",
+    "Porygon2",
+    "Starmie",
+    "Staryu"
+   ],
+   "pokeapi": "Strengthens moves to 1.3× their power when moving last.",
+   "status": "new",
+   "effect": "+30% sát thương chiêu lên mục tiêu vừa ra chiêu trong 3 giây trước.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_OutMult (giờ ra chiêu của mục tiêu)",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+30% có điều kiện.",
+   "r1": "edit",
+   "v2": "Đòn thứ hai liên tiếp lên cùng một mục tiêu trong 2 giây: +25% sát thương (đòn đánh và chiêu).",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Hustle",
+   "default": [
+    "Darumaka",
+    "Deino",
+    "Zweilous"
+   ],
+   "hidden": [
+    "Nidoran",
+    "Nidorino",
+    "Raticate",
+    "Rattata"
+   ],
+   "pokeapi": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+   "status": "new",
+   "effect": "+30% sát thương đòn đánh thường; 10% đòn đánh thường bị trượt.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_OutMult",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+30% đánh thường, 10% trượt.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Infiltrator",
+   "default": [],
+   "hidden": [
+    "Chandelure",
+    "Crobat",
+    "Golbat",
+    "Lampent",
+    "Litwick",
+    "Ninjask",
+    "Zubat"
+   ],
+   "pokeapi": "Bypasses Light Screen, Reflect, and Safeguard.",
+   "status": "new",
+   "effect": "Chiêu và đòn đánh bỏ qua các bậc tăng Defense / Sp. Def của mục tiêu.",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Fx_StageMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Bỏ qua buff thủ của mục tiêu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Vital Spirit",
+   "default": [],
+   "hidden": [
+    "Electabuzz",
+    "Electivire",
+    "Elekid",
+    "Magby",
+    "Magmar",
+    "Magmortar",
+    "Tyrogue"
+   ],
+   "pokeapi": "Prevents sleep.",
+   "status": "new",
+   "effect": "Miễn ngủ.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_Status",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ miễn ngủ.",
+   "r1": "edit",
+   "v2": "Miễn ngủ; +15% tốc đánh; máu dưới 50%: +20% tốc chạy.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Weak Armor",
+   "default": [],
+   "hidden": [
+    "Kabuto",
+    "Kabutops",
+    "Magcargo",
+    "Omanyte",
+    "Omastar",
+    "Onix",
+    "Slugma"
+   ],
+   "pokeapi": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+   "status": "new",
+   "effect": "Bị đánh thường: −1 Defense, +2 Speed (12 giây, hồi 5 giây).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_AfterHit + Fx_StageAdd",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Đổi giáp lấy tốc.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Justified",
+   "default": [],
+   "hidden": [
+    "Absol",
+    "Arcanine",
+    "Gallade",
+    "Growlithe",
+    "Lucario"
+   ],
+   "pokeapi": "Raises Attack one stage upon taking damage from a Dark move.",
+   "status": "new",
+   "effect": "Trúng chiêu hệ Dark: +1 Attack (12 giây).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_AfterHit + Fx_StageAdd",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi gặp chiêu Dark.",
+   "r1": "edit",
+   "v2": "Luôn +15% sát thương lên hệ Dark; trúng chiêu Dark: +1 Attack 12 giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Oblivious",
+   "default": [
+    "Jynx",
+    "Slowbro",
+    "Slowking",
+    "Slowpoke",
+    "Smoochum"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents infatuation and protects against Captivate.",
+   "status": "new",
+   "effect": "Miễn Taunt và Intimidate.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Taunt + Fx_IntimidateX",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ miễn Taunt và Intimidate.",
+   "r1": "edit",
+   "v2": "Miễn Taunt, Intimidate và mê hoặc (Cute Charm); nhận ít hơn 15% sát thương chiêu Psychic.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Chặn 1 khống chế cứng (choáng, ngủ, mê hoặc, đóng băng) mỗi 12 giây; chặn được thì hồi 5% máu tối đa.",
+   "answer": ""
+  },
+  {
+   "name": "Rain Dish",
+   "default": [],
+   "hidden": [
+    "Blastoise",
+    "Squirtle",
+    "Tentacool",
+    "Tentacruel",
+    "Wartortle"
+   ],
+   "pokeapi": "Heals for 1/16 max HP after each turn during rain.",
+   "status": "new",
+   "effect": "Trời mưa: hồi 2% máu tối đa mỗi giây.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick + Wth_Cur",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi mưa.",
+   "r1": "edit",
+   "v2": "Luôn hồi 0,5% máu mỗi giây; trời mưa: 3% mỗi giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Luôn hồi 1% máu mỗi giây; mỗi chiêu Water trúng mục tiêu hồi thêm 5% máu tối đa.",
+   "answer": ""
+  },
+  {
+   "name": "Rattled",
+   "default": [],
+   "hidden": [
+    "Bonsly",
+    "Granbull",
+    "Magikarp",
+    "Snubbull",
+    "Sudowoodo"
+   ],
+   "pokeapi": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move.",
+   "status": "new",
+   "effect": "Trúng chiêu hệ Bug, Ghost hoặc Dark: +1 Speed (12 giây).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_AfterHit + Fx_StageAdd",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ khi gặp chiêu Bug / Ghost / Dark.",
+   "r1": "edit",
+   "v2": "Trúng chiêu Bug / Ghost / Dark hoặc bị Intimidate: +1 Speed 12 giây; bị khống chế xong: +30% tốc chạy 3 giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Bị trúng đòn khi máu dưới 50%: +40% tốc chạy và +20% tốc đánh trong 4 giây (hồi 10 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Regenerator",
+   "default": [],
+   "hidden": [
+    "Slowbro",
+    "Slowking",
+    "Slowpoke",
+    "Tangela",
+    "Tangrowth"
+   ],
+   "pokeapi": "Heals for 1/3 max HP upon switching out.",
+   "status": "new",
+   "effect": "Không đánh và không bị đánh 4 giây: hồi 2% máu tối đa mỗi giây. Bản dùng chung, khác bản Legend của Ho-Oh.",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Hồi 2% máu mỗi giây khi rút khỏi giao tranh.",
+   "r1": "edit",
+   "v2": "Không đánh và không bị đánh 3 giây: hồi 3% máu tối đa mỗi giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi lần dùng chiêu: hồi 4% máu tối đa; không đánh và không bị đánh 3 giây: hồi 4% mỗi giây.",
+   "answer": ""
+  },
+  {
+   "name": "Rough Skin",
+   "default": [
+    "Carvanha",
+    "Sharpedo"
+   ],
+   "hidden": [
+    "Gabite",
+    "Garchomp",
+    "Gible"
+   ],
+   "pokeapi": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+   "status": "new",
+   "effect": "Kẻ đánh cận chiến mất 4% máu tối đa của nó (Rocky Helmet là 3%).",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_InContact",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Phản 4% máu kẻ đánh cận chiến.",
+   "r1": "edit",
+   "v2": "Kẻ đánh cận chiến mất máu bằng 5% máu tối đa của Pokemon mang Rough Skin.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Telepathy",
+   "default": [],
+   "hidden": [
+    "Gardevoir",
+    "Kirlia",
+    "Ralts",
+    "Wobbuffet",
+    "Wynaut"
+   ],
+   "pokeapi": "Protects against friendly Pokémon's damaging moves.",
+   "status": "new",
+   "effect": "Nhận ít hơn 20% sát thương từ chiêu khi có hero đồng minh trong 600. Map không có sát thương đồng đội nên bỏ phần đó.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_InMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Giảm sát thương khi đi cùng đồng minh.",
+   "r1": "edit",
+   "v2": "Né 20% chiêu (move) của địch.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Frisk",
+   "default": [],
+   "hidden": [
+    "Dusclops",
+    "Dusknoir",
+    "Duskull",
+    "Wigglytuff"
+   ],
+   "pokeapi": "Reveals an opponent's held item upon entering battle.",
+   "status": "new",
+   "effect": "Hero địch trong 700 bị lộ, kể cả khi đang núp bụi cỏ.",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Ab_Tick + bụi cỏ",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Lộ địch trong bụi cỏ.",
+   "r1": "edit",
+   "v2": "Hero địch trong 700 bị lộ kể cả trong bụi cỏ và bị trừ 5 giáp.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Đòn đầu tiên lên một hero địch đánh dấu nó 8 giây (hồi 12 giây): lộ vị trí, −10 giáp, đồng minh gây thêm 10% sát thương lên nó.",
+   "answer": ""
+  },
+  {
+   "name": "Gluttony",
+   "default": [],
+   "hidden": [
+    "Bellsprout",
+    "Snorlax",
+    "Victreebel",
+    "Weepinbell"
+   ],
+   "pokeapi": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+   "status": "new",
+   "effect": "Máu xuống dưới 50%: hồi ngay 10% máu tối đa (hồi 60 giây). Map không có Berry.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Hồi 10% máu mỗi 60 giây.",
+   "r1": "edit",
+   "v2": "Máu xuống dưới 50%: hồi ngay 15% máu và 15% mana (hồi 45 giây).",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Hạ quái hoặc hero: hồi 8% máu và 8% mana. Máu dưới 30%: đòn đánh hút 30% sát thương.",
+   "answer": ""
+  },
+  {
+   "name": "Light Metal",
+   "default": [],
+   "hidden": [
+    "Beldum",
+    "Metagross",
+    "Metang",
+    "Scizor"
+   ],
+   "pokeapi": "Halves the Pokémon's weight.",
+   "status": "new",
+   "effect": "+30 tốc chạy và không bị đẩy lùi (Dragon Tail, Circle Throw).",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Ab_Tick + đẩy lùi",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Tốc chạy và chống đẩy.",
+   "r1": "edit",
+   "v2": "+40 tốc chạy, +10% tốc đánh; không bị đẩy lùi.",
+   "r2": "edit",
+   "r2note": "tăng",
+   "v3": "+60 tốc chạy, +20% tốc đánh, né 10% đòn đánh; không bị đẩy lùi.",
+   "answer": ""
+  },
+  {
+   "name": "Moxie",
+   "default": [],
+   "hidden": [
+    "Gyarados",
+    "Heracross",
+    "Pinsir",
+    "Salamence"
+   ],
+   "pokeapi": "Raises Attack one stage upon KOing a Pokémon.",
+   "status": "new",
+   "effect": "Hạ gục hero, quái tinh anh hoặc boss: +1 Attack (30 giây, cộng dồn tới +6).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_OnDeath",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Lăn cầu tuyết khi hạ gục.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Unburden",
+   "default": [],
+   "hidden": [
+    "Grovyle",
+    "Hitmonlee",
+    "Sceptile",
+    "Treecko"
+   ],
+   "pokeapi": "Doubles Speed upon using or losing a held item.",
+   "status": "new",
+   "effect": "Dùng một món đồ tiêu hao: +100% tốc chạy 6 giây (hồi 20 giây).",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "sự kiện dùng đồ",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Phụ thuộc đồ tiêu hao.",
+   "r1": "edit",
+   "v2": "Máu xuống dưới 50% lần đầu mỗi 30 giây: +60% tốc chạy, +30% tốc đánh trong 5 giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Anticipation",
+   "default": [
+    "Croagunk",
+    "Toxicroak"
+   ],
+   "hidden": [
+    "Eevee"
+   ],
+   "pokeapi": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move.",
+   "status": "new",
+   "effect": "Trúng chiêu siêu hiệu quả lần đầu mỗi 30 giây: đòn đó giảm 50% sát thương.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_InMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Giảm 1 đòn siêu hiệu quả mỗi 30 giây.",
+   "r1": "edit",
+   "v2": "Mọi đòn siêu hiệu quả trúng nó −20%; đòn siêu hiệu quả đầu tiên mỗi 20 giây −50%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Big Pecks",
+   "default": [],
+   "hidden": [
+    "Pidgeot",
+    "Pidgeotto",
+    "Pidgey"
+   ],
+   "pokeapi": "Protects against Defense drops.",
+   "status": "new",
+   "effect": "Không bị giảm Defense và không bị trừ giáp.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_StageAdd + Ab_FxAdd",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ chống giảm giáp.",
+   "r1": "edit",
+   "v2": "Không bị giảm Defense hay trừ giáp; +5 giáp; đòn đánh +20% lên mục tiêu đang bị trừ giáp.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Bulletproof",
+   "default": [],
+   "hidden": [
+    "Chesnaught",
+    "Chespin",
+    "Quilladin"
+   ],
+   "pokeapi": "Protects against bullet, ball, and bomb-based moves.",
+   "status": "new",
+   "effect": "Miễn chiêu dạng cầu / bom (Shadow Ball, Sludge Bomb, Focus Blast, Energy Ball, Aura Sphere...).",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "danh sách move",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Miễn một nhóm chiêu.",
+   "r1": "edit",
+   "v2": "Miễn chiêu dạng cầu / bom (Shadow Ball, Sludge Bomb, Focus Blast, Energy Ball, Aura Sphere...); nhận ít hơn 10% sát thương các chiêu khác.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Chặn hẳn 1 chiêu mỗi 10 giây; chặn được thì phản 50% sát thương đó về kẻ ra chiêu.",
+   "answer": ""
+  },
+  {
+   "name": "Contrary",
+   "default": [],
+   "hidden": [
+    "Serperior",
+    "Servine",
+    "Snivy"
+   ],
+   "pokeapi": "Inverts stat changes.",
+   "status": "new",
+   "effect": "Mọi thay đổi chỉ số bị đảo ngược (Leaf Storm, Overheat thành tăng Sp. Atk).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_StageAdd",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Biến chiêu tự giảm chỉ số thành tăng.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Cud Chew",
+   "default": [],
+   "hidden": [
+    "Tauros Aqua",
+    "Tauros Blaze",
+    "Tauros Combat"
+   ],
+   "pokeapi": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn.",
+   "status": "new",
+   "effect": "Nhận hồi máu: 3 giây sau hồi thêm 50% lượng đó.",
+   "difficulty": 3,
+   "differs": true,
+   "hook": "hàm hồi máu chung",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Hồi máu lặp lại 50%.",
+   "r1": "edit",
+   "v2": "Mỗi lần được hồi từ 5% máu trở lên: 3 giây sau hồi thêm 50% lượng đó.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 10 giây: hồi 40% lượng máu đã mất trong 10 giây vừa qua.",
+   "answer": ""
+  },
+  {
+   "name": "Effect Spore",
+   "default": [
+    "Breloom",
+    "Shroomish"
+   ],
+   "hidden": [
+    "Vileplume"
+   ],
+   "pokeapi": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact.",
+   "status": "new",
+   "effect": "Bị đánh cận chiến: 30% kẻ đánh bị độc, tê liệt hoặc ngủ (ngẫu nhiên).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_InContact",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "30% gây trạng thái ngẫu nhiên.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Galvanize",
+   "default": [],
+   "hidden": [
+    "Alolan-Geodude",
+    "Alolan-Golem",
+    "Alolan-Graveler"
+   ],
+   "pokeapi": "This Pokémon's Normal moves are Electric and have their power increased to 1.2×.",
+   "status": "new",
+   "effect": "Chiêu hệ Normal thành hệ Electric và +20% sát thương (giống Aerilate / Pixilate đang có).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_OutMult (chép Pixilate)",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+20% chiêu Normal đổi sang Electric.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Healer",
+   "default": [],
+   "hidden": [
+    "Bellossom",
+    "Blissey",
+    "Chansey"
+   ],
+   "pokeapi": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+   "status": "new",
+   "effect": "Mỗi 5 giây: 30% chữa trạng thái xấu cho 1 hero đồng minh trong 600.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Giải trạng thái cho đồng minh.",
+   "r1": "edit",
+   "v2": "Mỗi 5 giây: 40% tự giải trạng thái xấu và hồi 3% máu tối đa.",
+   "r2": "edit",
+   "r2note": "100%",
+   "v3": "Mỗi 5 giây: chắc chắn (100%) tự giải trạng thái xấu và hồi 3% máu tối đa.",
+   "answer": ""
+  },
+  {
+   "name": "Hydration",
+   "default": [],
+   "hidden": [
+    "Lapras",
+    "Smoochum",
+    "Vaporeon"
+   ],
+   "pokeapi": "Cures any major status ailment after each turn during rain.",
+   "status": "new",
+   "effect": "Trời mưa: mỗi giây hết trạng thái xấu.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi mưa.",
+   "r1": "edit",
+   "v2": "Mỗi 4 giây giải 1 trạng thái xấu; trời mưa: mỗi giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 6 giây: giải mọi trạng thái xấu và nhận khiên bằng 8% máu tối đa trong 3 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Ice Body",
+   "default": [],
+   "hidden": [
+    "Dewgong",
+    "Glaceon",
+    "Seel"
+   ],
+   "pokeapi": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage.",
+   "status": "new",
+   "effect": "Mưa đá: hồi 2% máu tối đa mỗi giây, không mất máu vì mưa đá.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi mưa đá.",
+   "r1": "edit",
+   "v2": "Luôn hồi 0,5% máu mỗi giây; mưa đá: 3% mỗi giây và không mất máu vì mưa đá; miễn đóng băng.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "+15 giáp; kẻ đánh cận chiến bị chậm 30% trong 2 giây; mỗi 15 giây chặn hẳn 1 đòn đánh và đóng băng kẻ đánh 1 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Magic Guard",
+   "default": [],
+   "hidden": [
+    "Abra",
+    "Alakazam",
+    "Kadabra"
+   ],
+   "pokeapi": "Protects against damage not directly caused by a move.",
+   "status": "new",
+   "effect": "Không mất máu vì bỏng, độc, thời tiết, phản dame, sát thương theo thời gian.",
+   "difficulty": 3,
+   "differs": false,
+   "hook": "nhiều chỗ gây sát thương gián tiếp",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Miễn mọi sát thương gián tiếp.",
+   "r1": "up",
+   "v2": "Không mất máu vì bỏng, độc, thời tiết, phản dame, sát thương theo thời gian; đang bị độc / bỏng: hồi 1% máu mỗi giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Chỉ nhận sát thương từ đòn đánh và chiêu trúng trực tiếp (miễn độc, bỏng, hào quang, phản dame, sát thương theo thời gian); chiêu +15% sát thương.",
+   "answer": ""
+  },
+  {
+   "name": "Magician",
+   "default": [],
+   "hidden": [
+    "Braixen",
+    "Delphox",
+    "Fennekin"
+   ],
+   "pokeapi": "Steals the target's held item when the bearer uses a damaging move.",
+   "status": "new",
+   "effect": "Chiêu trúng hero địch: 20% cướp 1 bậc chỉ số đang tăng của mục tiêu (hồi 8 giây).",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Fx_AfterHit + Fx_StageAdd",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Cướp buff 20%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Overcoat",
+   "default": [],
+   "hidden": [
+    "Cloyster",
+    "Shelgon",
+    "Shellder"
+   ],
+   "pokeapi": "Protects against damage from weather.",
+   "status": "new",
+   "effect": "Không mất máu vì bão cát / mưa đá; miễn chiêu dạng bột (Spore, Sleep Powder, Stun Spore, Poison Powder).",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "thời tiết + move trạng thái",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chống thời tiết và chiêu bột.",
+   "r1": "edit",
+   "v2": "Không mất máu vì bão cát / mưa đá; miễn chiêu dạng bột; nhận ít hơn 15% sát thương chiêu đặc biệt.",
+   "r2": "",
+   "r2note": "",
+   "v3": "Không mất máu vì bão cát / mưa đá; miễn chiêu dạng bột; nhận ít hơn 15% sát thương chiêu đặc biệt.",
+   "answer": "Vòng 2 bạn chưa chọn ability này: đây vẫn là bản mới của vòng 2."
+  },
+  {
+   "name": "Own Tempo",
+   "default": [],
+   "hidden": [
+    "Lombre",
+    "Lotad",
+    "Ludicolo"
+   ],
+   "pokeapi": "Prevents confusion.",
+   "status": "new",
+   "effect": "Miễn rối và miễn Taunt.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_Confuse + Taunt",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ miễn rối và Taunt.",
+   "r1": "up",
+   "v2": "Miễn rối, Taunt và Intimidate; chiêu +10% sát thương lên mục tiêu đang rối.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Đòn đánh thứ 3 liên tiếp lên cùng mục tiêu gây thêm 60% sát thương và giảm 1 giây hồi chiêu mọi chiêu; miễn rối.",
+   "answer": ""
+  },
+  {
+   "name": "Plus",
+   "default": [],
+   "hidden": [
+    "Ampharos",
+    "Flaaffy",
+    "Mareep"
+   ],
+   "pokeapi": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+   "status": "new",
+   "effect": "Có hero đồng minh mang Plus hoặc Minus trong 600: +20% sát thương chiêu.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_OutMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Cần đồng minh Plus / Minus.",
+   "r1": "edit",
+   "v2": "Luôn +10% sát thương chiêu; có hero đồng minh mang Plus / Minus trong 700: +25%.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Đòn đánh tích 1 điện tích (tối đa 5); chiêu kế tiếp dùng hết điện tích, mỗi điện tích +12% sát thương.",
+   "answer": ""
+  },
+  {
+   "name": "Protean",
+   "default": [],
+   "hidden": [
+    "Froakie",
+    "Frogadier",
+    "Greninja"
+   ],
+   "pokeapi": "Changes the bearer's type to match each move it uses.",
+   "status": "new",
+   "effect": "Mọi chiêu được tính như cùng hệ với Pokemon (thưởng cùng hệ cho mọi chiêu).",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "chỗ tính thưởng cùng hệ",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Mọi chiêu được thưởng cùng hệ.",
+   "r1": "edit",
+   "v2": "Mọi chiêu được tính như cùng hệ (+20%); sau mỗi chiêu nhận ít hơn 20% sát thương từ hệ của chiêu đó trong 5 giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Sau mỗi chiêu, Pokemon mang hệ của chiêu đó 6 giây: chiêu hệ đó +30%; mỗi lần đổi sang hệ khác: +10% tốc chạy 2 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Stench",
+   "default": [],
+   "hidden": [
+    "Gloom",
+    "Koffing",
+    "Weezing"
+   ],
+   "pokeapi": "Has a 10% chance of making target Pokémon flinch with each hit.",
+   "status": "new",
+   "effect": "Đòn đánh và chiêu: 10% làm khựng 0,5 giây.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_AfterHit",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Khựng 10%.",
+   "r1": "up",
+   "v2": "Đòn đánh và chiêu: 15% khựng 0,5 giây; hào quang 300: địch −10% tốc đánh.",
+   "r2": "edit",
+   "r2note": "tăng thêm",
+   "v3": "Đòn đánh và chiêu: 25% khựng 0,7 giây; hào quang 400: địch −15% tốc đánh và gây ít hơn 10% sát thương.",
+   "answer": ""
+  },
+  {
+   "name": "Tinted Lens",
+   "default": [],
+   "hidden": [
+    "Butterfree",
+    "Hoothoot",
+    "Noctowl"
+   ],
+   "pokeapi": "Doubles damage inflicted with not-very-effective moves.",
+   "status": "new",
+   "effect": "Chiêu bị kháng hệ gây sát thương như bình thường (x2 so với hiện tại).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "bảng khắc hệ",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Xóa điểm yếu bị kháng hệ.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Aftermath",
+   "default": [],
+   "hidden": [
+    "Electrode",
+    "Voltorb"
+   ],
+   "pokeapi": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+   "status": "new",
+   "effect": "Bị hạ gục: kẻ hạ gục mất 20% máu tối đa của Pokemon này.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Fx_OnDeath",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Phạt kẻ hạ gục.",
+   "r1": "edit",
+   "v2": "Bị hạ gục: nổ vùng 300, mọi địch mất 25% máu tối đa của Pokemon này; kẻ hạ gục bị choáng 1 giây.",
+   "r2": "edit",
+   "r2note": "nổ 1000% thuộc tính  choáng 3s",
+   "v3": "Bị hạ gục: nổ vùng 400, gây sát thương bằng 1000% chỉ số chính (STR hoặc INT) và choáng 3 giây mọi địch trong vùng.",
+   "answer": "Làm đúng con số bạn ghi. Lưu ý: với chỉ số chính 100, vụ nổ gây khoảng 1.000 sát thương trước giáp, có thể hạ cả đội máu thấp."
+  },
+  {
+   "name": "Friend Guard",
+   "default": [],
+   "hidden": [
+    "Clefairy",
+    "Jigglypuff"
+   ],
+   "pokeapi": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+   "status": "new",
+   "effect": "Hero đồng minh trong 600 nhận ít hơn 15% sát thương (không tính bản thân).",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Ab_InMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ giúp đồng minh.",
+   "r1": "up",
+   "v2": "Hero đồng minh trong 700 nhận ít hơn 20% sát thương; bản thân nhận ít hơn 10%.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 12 giây: khiên bằng 15% máu tối đa của Pokemon này cho chính nó và mọi hero đồng minh trong 600 (4 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Harvest",
+   "default": [],
+   "hidden": [
+    "Exeggcute",
+    "Exeggutor"
+   ],
+   "pokeapi": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.",
+   "status": "new",
+   "effect": "Mỗi 10 giây (nắng: 5 giây): 50% hồi 3% máu tối đa. Map không có Berry.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Hồi máu ngẫu nhiên.",
+   "r1": "edit",
+   "v2": "Mỗi 8 giây hồi 4% máu tối đa (nắng: mỗi 4 giây).",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 12 giây mọc 1 quả (giữ tối đa 2); máu xuống dưới 50% thì tự ăn 1 quả, hồi 15% máu tối đa.",
+   "answer": ""
+  },
+  {
+   "name": "Marvel Scale",
+   "default": [],
+   "hidden": [
+    "Dragonair",
+    "Dratini"
+   ],
+   "pokeapi": "Increases Defense to 1.5× with a major status ailment.",
+   "status": "new",
+   "effect": "Đang có trạng thái xấu: +50% giáp.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+50% giáp khi dính trạng thái.",
+   "r1": "edit",
+   "v2": "Đang có trạng thái xấu hoặc bị khống chế: +50% giáp và nhận ít hơn 15% sát thương chiêu.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi lần trúng chiêu nhận 1 vảy (tối đa 5, giữ 6 giây): mỗi vảy +6 giáp và nhận ít hơn 4% sát thương chiêu.",
+   "answer": ""
+  },
+  {
+   "name": "Minus",
+   "default": [],
+   "hidden": [
+    "Electrike",
+    "Manectric"
+   ],
+   "pokeapi": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",
+   "status": "new",
+   "effect": "Có hero đồng minh mang Plus hoặc Minus trong 600: +20% sát thương chiêu.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_OutMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Cần đồng minh Plus / Minus.",
+   "r1": "edit",
+   "v2": "Luôn +10% sát thương chiêu; có hero đồng minh mang Plus / Minus trong 700: +25%.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi chiêu trúng mục tiêu: hồi 3% mana và giảm 1 giây hồi chiêu các chiêu khác.",
+   "answer": ""
+  },
+  {
+   "name": "Pickpocket",
+   "default": [],
+   "hidden": [
+    "Sneasel",
+    "Weavile"
+   ],
+   "pokeapi": "Steals attacking Pokémon's held items on contact.",
+   "status": "new",
+   "effect": "Bị hero địch đánh cận chiến: lấy 50 vàng của người chơi đó (hồi 15 giây).",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_InContact",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ lấy 50 vàng.",
+   "r1": "edit",
+   "v2": "Bị hero địch đánh cận chiến: lấy 100 vàng của người chơi đó (hồi 10 giây) và +20% tốc chạy 2 giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Đòn đánh trúng hero địch: 25% cướp 1 bậc chỉ số đang tăng của nó và 30 vàng (hồi 6 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Poison Touch",
+   "default": [],
+   "hidden": [
+    "Croagunk",
+    "Toxicroak"
+   ],
+   "pokeapi": "Has a 30% chance of poisoning target Pokémon upon contact.",
+   "status": "new",
+   "effect": "Đòn đánh cận chiến: 30% gây độc.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_OnHit",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Độc 30% khi đánh cận chiến.",
+   "r1": "up",
+   "v2": "Đòn đánh cận chiến 40% gây độc; chiêu vật lý 20% gây độc.",
+   "r2": "edit",
+   "r2note": "độc gây ra như nào",
+   "v3": "Đòn đánh 40% gây độc; mục tiêu đang độc thì chuyển sang Toxic. Chiêu vật lý 25% gây độc.",
+   "answer": "Độc trong map: mất 1,5% máu tối đa mỗi giây trong 6 giây. Toxic: bắt đầu 1% mỗi giây, tăng dần tới 4% mỗi giây, kéo dài 8 giây. Pokemon hệ Poison và Steel miễn độc."
+  },
+  {
+   "name": "Quick Feet",
+   "default": [],
+   "hidden": [
+    "Jolteon",
+    "Shroomish"
+   ],
+   "pokeapi": "Increases Speed to 1.5× with a major status ailment.",
+   "status": "new",
+   "effect": "Đang có trạng thái xấu: +50% tốc chạy.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Tốc chạy khi dính trạng thái.",
+   "r1": "edit",
+   "v2": "Đang có trạng thái xấu: +50% tốc chạy, +20% tốc đánh và không bị chậm vì trạng thái.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi lần bị khống chế hoặc dính trạng thái xấu: +80% tốc chạy 2 giây và hết làm chậm (hồi 8 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Sand Rush",
+   "default": [],
+   "hidden": [
+    "Sandshrew",
+    "Sandslash"
+   ],
+   "pokeapi": "Doubles Speed during a sandstorm.  Protects against sandstorm damage.",
+   "status": "new",
+   "effect": "Bão cát: +60 tốc chạy, +30% tốc đánh (giống Swift Swim trong mưa).",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi bão cát.",
+   "r1": "edit",
+   "v2": "Luôn +20 tốc chạy; bão cát: +60 tốc chạy, +30% tốc đánh và không mất máu vì bão cát.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Chạy liên tục 2 giây: đòn đánh kế tiếp +40% sát thương và làm chậm mục tiêu 30% trong 2 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Shield Dust",
+   "default": [
+    "Caterpie",
+    "Weedle"
+   ],
+   "hidden": [],
+   "pokeapi": "Protects against incoming moves' extra effects.",
+   "status": "new",
+   "effect": "Miễn hiệu ứng phụ của chiêu gây sát thương (trạng thái, giảm chỉ số, khựng, rối).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_AfterHit",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Miễn hiệu ứng phụ.",
+   "r1": "up",
+   "v2": "Miễn hiệu ứng phụ của chiêu và miễn khựng; nhận ít hơn 10% sát thương chiêu.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 10 giây tự tạo khiên bằng 10% máu tối đa; khi còn khiên thì miễn hiệu ứng phụ của chiêu.",
+   "answer": ""
+  },
+  {
+   "name": "Slush Rush",
+   "default": [],
+   "hidden": [
+    "Alolan-Sandshrew",
+    "Alolan-Sandslash"
+   ],
+   "pokeapi": "During Hail, this Pokémon has double Speed.",
+   "status": "new",
+   "effect": "Mưa đá: +60 tốc chạy, +30% tốc đánh.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi mưa đá.",
+   "r1": "edit",
+   "v2": "Luôn +20 tốc chạy; mưa đá: +60 tốc chạy, +30% tốc đánh và không mất máu vì mưa đá.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Đòn đánh làm mục tiêu cóng: −8% tốc chạy mỗi lần (cộng 5 lần); đủ 5 lần thì đóng băng 1 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Snow Warning",
+   "default": [
+    "Abomasnow",
+    "Snover"
+   ],
+   "hidden": [],
+   "pokeapi": "Summons hail that lasts indefinitely upon entering battle.",
+   "status": "new",
+   "effect": "Gọi mưa đá như Drought gọi nắng (dùng lại code Drought).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "chép Drought",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Gọi mưa đá cho cả đội.",
+   "r1": "edit",
+   "v2": "Gọi mưa đá vùng 700: đồng minh +30% sát thương chiêu Ice; địch không phải hệ Ice mất 1% máu mỗi giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 8 giây: bão tuyết vùng 400 quanh nó gây sát thương bằng 100% INT và làm chậm 30% trong 2 giây (không gọi thời tiết).",
+   "answer": ""
+  },
+  {
+   "name": "Storm Drain",
+   "default": [],
+   "hidden": [
+    "Cradily",
+    "Lileep"
+   ],
+   "pokeapi": "Redirects single-target Water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage.",
+   "status": "new",
+   "effect": "Miễn chiêu hệ Water; trúng chiêu Water: +1 Sp. Atk (12 giây).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_InMult (giống Water Absorb)",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng với chiêu Water.",
+   "r1": "up",
+   "v2": "Miễn chiêu Water; trúng chiêu Water: +1 Sp. Atk 12 giây và hồi 10% máu tối đa.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi chiêu trúng nó: hồi 3% mana và tích 1 tầng (tối đa 5, 8 giây), mỗi tầng +8% sát thương chiêu.",
+   "answer": ""
+  },
+  {
+   "name": "Suction Cups",
+   "default": [
+    "Cradily",
+    "Lileep"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents being forced out of battle by other Pokémon's moves.",
+   "status": "new",
+   "effect": "Không bị đẩy lùi.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "chỗ đẩy lùi",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ chống đẩy lùi.",
+   "r1": "edit",
+   "v2": "Không bị đẩy lùi hay kéo; đứng yên 1 giây: +10 giáp.",
+   "r2": "edit",
+   "r2note": "tăng mạnh",
+   "v3": "Không bị đẩy hay kéo; choáng ngắn hơn 50%; đứng yên 1 giây: +25 giáp và nhận ít hơn 20% sát thương.",
+   "answer": ""
+  },
+  {
+   "name": "Cloud Nine",
+   "default": [],
+   "hidden": [
+    "Swablu"
+   ],
+   "pokeapi": "Negates all effects of weather, but does not prevent the weather itself.",
+   "status": "new",
+   "effect": "Bản thân không chịu hiệu ứng thời tiết; hero địch trong 900 không nhận buff thời tiết (Swift Swim, Chlorophyll...).",
+   "difficulty": 3,
+   "differs": true,
+   "hook": "mọi chỗ đọc Wth_Cur",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Xóa thời tiết quanh nó.",
+   "r1": "edit",
+   "v2": "Bản thân và đồng minh trong 700 không mất máu vì thời tiết; địch trong 700 mất buff thời tiết (Swift Swim, Chlorophyll...).",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi 15 giây: chiêu kế tiếp không tốn mana và được hoàn 50% thời gian hồi chiêu.",
+   "answer": ""
+  },
+  {
+   "name": "Cursed Body",
+   "default": [
+    "Gengar"
+   ],
+   "hidden": [],
+   "pokeapi": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+   "status": "new",
+   "effect": "Trúng chiêu: 30% kẻ đánh bị khóa chiêu 3 giây.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Fx_AfterHit + silence",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Khóa chiêu 30%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Drizzle",
+   "default": [],
+   "hidden": [
+    "Politoed"
+   ],
+   "pokeapi": "Summons rain that lasts indefinitely upon entering battle.",
+   "status": "new",
+   "effect": "Gọi mưa như Drought gọi nắng (dùng lại code Drought).",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "chép Drought",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Gọi mưa cho cả đội.",
+   "r1": "edit",
+   "v2": "Gọi mưa vùng 700: đồng minh +30% sát thương chiêu Water; chiêu Fire của địch trong mưa −30%.",
+   "r2": "edit",
+   "r2note": "những cái gọi thời tiết bỏ hết sửa thành cái khác",
+   "v3": "Đòn đánh và chiêu làm mục tiêu Ướt 5 giây: nhận thêm 25% sát thương chiêu Water / Electric và chậm 15% (không gọi thời tiết).",
+   "answer": ""
+  },
+  {
+   "name": "Dry Skin",
+   "default": [],
+   "hidden": [
+    "Jynx"
+   ],
+   "pokeapi": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP.",
+   "status": "new",
+   "effect": "Mưa: hồi 2% máu mỗi giây; miễn chiêu Water (hồi 25% máu thay vì mất); nhận thêm 25% sát thương hệ Fire.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Tick + Ab_InMult",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Có cả lợi lẫn hại.",
+   "r1": "edit",
+   "v2": "Mưa: hồi 3% máu mỗi giây; miễn chiêu Water (hồi 25% máu); nắng: mất 1% máu mỗi giây; nhận thêm 25% sát thương Fire.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Chiêu Water / Ice trúng nó hồi máu bằng 20% sát thương đó thay vì mất máu; mỗi 1% máu đã mất: +0,3% sát thương (tối đa +25%).",
+   "answer": ""
+  },
+  {
+   "name": "Imposter",
+   "default": [],
+   "hidden": [
+    "Ditto"
+   ],
+   "pokeapi": "Transforms upon entering battle.",
+   "status": "new",
+   "effect": "Lần đầu đánh hero địch mỗi 60 giây: chép Attack / Sp. Atk / Defense / Sp. Def của nó trong 15 giây.",
+   "difficulty": 3,
+   "differs": true,
+   "hook": "hệ chỉ số",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Chép chỉ số đối thủ.",
+   "r1": "up",
+   "v2": "Lần đầu đánh hero địch mỗi 45 giây: chép Attack / Sp. Atk / Defense / Sp. Def và hệ của nó trong 20 giây.",
+   "r2": "edit",
+   "r2note": "luôn luôn copy thuộc tính của ng target , nếu target người khác thì cũng đổi luôn",
+   "v3": "Luôn chép Attack / Sp. Atk / Defense / Sp. Def và hệ của mục tiêu đang đánh; đổi mục tiêu thì chép theo mục tiêu mới (cách nhau ít nhất 3 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Limber",
+   "default": [
+    "Ditto"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents paralysis.",
+   "status": "new",
+   "effect": "Miễn tê liệt.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_Status",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ miễn tê liệt.",
+   "r1": "edit",
+   "v2": "Miễn tê liệt và làm chậm; né 15% đòn đánh.",
+   "r2": "edit",
+   "r2note": "tăng",
+   "v3": "Miễn tê liệt, làm chậm và trói; né 20% đòn đánh; +20 tốc chạy.",
+   "answer": ""
+  },
+  {
+   "name": "Motor Drive",
+   "default": [
+    "Electivire"
+   ],
+   "hidden": [],
+   "pokeapi": "Absorbs Electric moves, raising Speed one stage.",
+   "status": "new",
+   "effect": "Miễn chiêu Electric; trúng chiêu Electric: +1 Speed (12 giây).",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Ab_Absorbs",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng với chiêu Electric.",
+   "r1": "up",
+   "v2": "Miễn chiêu Electric; trúng chiêu Electric: +2 Speed 12 giây và +20% tốc đánh 5 giây.",
+   "r2": "edit",
+   "r2note": "tăng",
+   "v3": "Miễn chiêu Electric; luôn +15% tốc đánh; trúng chiêu Electric hoặc dùng chiêu: +1 Speed (tối đa +4, 8 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Prankster",
+   "default": [],
+   "hidden": [
+    "Sableye"
+   ],
+   "pokeapi": "Raises non-damaging moves' priority by one stage.",
+   "status": "new",
+   "effect": "Move trạng thái hồi chiêu nhanh hơn 50%.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "Fx_CdScale",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Move trạng thái hồi nhanh gấp đôi.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Scrappy",
+   "default": [],
+   "hidden": [
+    "Sirfetch'd"
+   ],
+   "pokeapi": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon.",
+   "status": "new",
+   "effect": "Chiêu Normal / Fighting đánh trúng hệ Ghost bình thường; miễn Intimidate.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "bảng khắc hệ + Intimidate",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ có tác dụng khi gặp hệ Ghost.",
+   "r1": "up",
+   "v2": "Chiêu Normal / Fighting đánh trúng hệ Ghost bình thường và +15% sát thương; miễn Intimidate.",
+   "r2": "edit",
+   "r2note": "tăng",
+   "v3": "Chiêu Normal / Fighting đánh trúng hệ Ghost bình thường và +25% sát thương; miễn Intimidate và mọi giảm Attack.",
+   "answer": ""
+  },
+  {
+   "name": "Sniper",
+   "default": [],
+   "hidden": [
+    "Beedrill"
+   ],
+   "pokeapi": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+   "status": "new",
+   "effect": "Chí mạng gây x2,25 thay vì x1,5.",
+   "difficulty": 1,
+   "differs": false,
+   "hook": "chỗ tính chí mạng",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Cần có chí mạng mới có tác dụng.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Stance Change",
+   "default": [
+    "Aegislash"
+   ],
+   "hidden": [],
+   "pokeapi": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King's Shield.",
+   "status": "new",
+   "effect": "Vừa ra chiêu: +30% sát thương chiêu, nhận thêm 15% sát thương trong 4 giây; lúc khác nhận ít hơn 20% sát thương.",
+   "difficulty": 2,
+   "differs": true,
+   "hook": "Ab_OutMult + Ab_InMult",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Đổi thế công / thủ.",
+   "r1": "edit",
+   "v2": "Ra chiêu gây sát thương: thế Kiếm 5 giây (+35% sát thương, −15% giáp). Không ra chiêu 3 giây: thế Khiên (nhận ít hơn 30% sát thương, chặn hẳn 1 chiêu mỗi 15 giây).",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Surge Surfer",
+   "default": [
+    "Alolan-Raichu"
+   ],
+   "hidden": [],
+   "pokeapi": "Doubles this Pokémon's Speed on Electric Terrain.",
+   "status": "new",
+   "effect": "Trời mưa: +60 tốc chạy.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_Tick",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ khi mưa.",
+   "r1": "edit",
+   "v2": "Luôn +20 tốc chạy; trời mưa: +60 tốc chạy và chiêu Electric +20% sát thương.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi lần dùng chiêu: +40% tốc chạy 2 giây; chiêu Electric giảm 1 giây hồi chiêu các chiêu khác.",
+   "answer": ""
+  },
+  {
+   "name": "Unaware",
+   "default": [],
+   "hidden": [
+    "Clefable"
+   ],
+   "pokeapi": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+   "status": "new",
+   "effect": "Bỏ qua các bậc chỉ số của đối thủ khi đánh và khi bị đánh.",
+   "difficulty": 2,
+   "differs": false,
+   "hook": "Fx_StageMult",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Bỏ qua mọi bậc chỉ số.",
+   "r1": "edit",
+   "v2": "Bỏ qua mọi bậc chỉ số của đối thủ khi đánh và khi bị đánh; miễn Intimidate.",
+   "r2": "edit",
+   "r2note": "bỏ qua thủ có work không",
+   "v3": "Bỏ qua mọi bậc chỉ số của đối thủ khi đánh và khi bị đánh; miễn Intimidate.",
+   "answer": "Có tác dụng: map đang tính bậc Defense / Sp. Def vào sát thương nhận (giáp nhân theo bậc), và bậc Attack / Sp. Atk vào sát thương gây ra, nên bỏ qua các bậc này là đổi được sát thương thật."
+  },
+  {
+   "name": "Wonder Guard",
+   "default": [
+    "Shedinja"
+   ],
+   "hidden": [],
+   "pokeapi": "Protects against damaging moves that are not super effective.",
+   "status": "new",
+   "effect": "Chiêu không siêu hiệu quả và đòn đánh thường chỉ gây 50% sát thương lên nó.",
+   "difficulty": 1,
+   "differs": true,
+   "hook": "Ab_InMult",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Nửa sát thương từ hầu hết đòn.",
+   "r1": "edit",
+   "v2": "Chiêu không siêu hiệu quả −60% và đòn đánh thường −40% lên nó; chiêu siêu hiệu quả +50%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Blaze",
+   "default": [
+    "Blaziken",
+    "Braixen",
+    "Charizard",
+    "Charmander",
+    "Charmeleon",
+    "Chimchar",
+    "Combusken",
+    "Cyndaquil",
+    "Delphox",
+    "Emboar",
+    "Fennekin",
+    "Incineroar",
+    "Infernape",
+    "Litten",
+    "Monferno",
+    "Pignite",
+    "Quilava",
+    "Tepig",
+    "Torchic",
+    "Torracat",
+    "Typhlosion"
+   ],
+   "hidden": [],
+   "pokeapi": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less.",
+   "status": "code",
+   "effect": "Below 40% HP: +50% damage; attacks burn the target for 2% of its max HP per second for 3s.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Mạnh khi máu thấp, bình thường khi đầy máu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Overgrow",
+   "default": [
+    "Bayleef",
+    "Bulbasaur",
+    "Chesnaught",
+    "Chespin",
+    "Chikorita",
+    "Grotle",
+    "Grovyle",
+    "Ivysaur",
+    "Meganium",
+    "Quilladin",
+    "Sceptile",
+    "Serperior",
+    "Servine",
+    "Snivy",
+    "Torterra",
+    "Treecko",
+    "Turtwig",
+    "Venusaur"
+   ],
+   "hidden": [],
+   "pokeapi": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less.",
+   "status": "code",
+   "effect": "Below 40% HP: +50% damage and regenerates 2% max HP per second.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Như Blaze, đổi đốt thành hồi máu.",
+   "r1": "edit",
+   "v2": "Máu dưới 50%: +50% sát thương và hồi 2% máu mỗi giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Chlorophyll",
+   "default": [
+    "Bellossom",
+    "Bellsprout",
+    "Exeggcute",
+    "Exeggutor",
+    "Gloom",
+    "Oddish",
+    "Tangela",
+    "Tangrowth",
+    "Victreebel",
+    "Vileplume",
+    "Weepinbell"
+   ],
+   "hidden": [
+    "Bulbasaur",
+    "Ivysaur",
+    "Leafeon",
+    "Leafleon",
+    "Venusaur"
+   ],
+   "pokeapi": "Doubles Speed during strong sunlight.",
+   "status": "code",
+   "effect": "+40 move speed and +20% attack speed. In harsh sun: +30% attack speed.",
+   "tier": 3,
+   "suggest": "down",
+   "why": "Luôn có +40 tốc chạy, +20% tốc đánh dù không nắng; bản gốc chỉ mạnh khi nắng.",
+   "r1": "up",
+   "v2": "+50 tốc chạy, +25% tốc đánh. Nắng: +40% tốc đánh và chiêu Grass +20% sát thương.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Inner Focus",
+   "default": [
+    "Bisharp",
+    "Crobat",
+    "Dragonite",
+    "Golbat",
+    "Lucario",
+    "Pawniard",
+    "Sneasel",
+    "Zubat"
+   ],
+   "hidden": [
+    "Darumaka",
+    "Drowzee",
+    "Entei",
+    "Hitmonchan",
+    "Hypno",
+    "Kangaskhan",
+    "Suicune",
+    "Umbreon"
+   ],
+   "pokeapi": "Prevents flinching.",
+   "status": "code",
+   "effect": "15% chance to dodge attacks. Takes 20% less damage from moves. Cannot flinch; ignores Intimidate.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "Vừa né 15% vừa giảm 20% sát thương chiêu vừa miễn khựng: nhiều lớp phòng thủ.",
+   "r1": "edit",
+   "v2": "Miễn khựng và Intimidate; nhận ít hơn 15% sát thương chiêu (bỏ né 15%).",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Intimidate",
+   "default": [
+    "Arbok",
+    "Arcanine",
+    "Ekans",
+    "Granbull",
+    "Growlithe",
+    "Gyarados",
+    "Hitmontop",
+    "Salamence",
+    "Snubbull",
+    "Tauros",
+    "Tauros Aqua",
+    "Tauros Blaze",
+    "Tauros Combat"
+   ],
+   "hidden": [
+    "Incineroar",
+    "Litten",
+    "Torracat"
+   ],
+   "pokeapi": "Lowers opponents' Attack one stage upon entering battle.",
+   "status": "code",
+   "effect": "When entering combat after 10s out of combat or when Mega Evolving into Intimidate, enemies within 500 lose 1 Attack stage for 8s. Entering combat has a 20s cooldown.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Mạnh đầu giao tranh, hồi 20 giây.",
+   "r1": "edit",
+   "v2": "Vào giao tranh (hồi 20 giây): địch trong 600 −1 Attack và −1 Sp. Atk trong 8 giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Hero địch trong 500 gây ít hơn 15% sát thương lên nó; mỗi 15 giây gầm: địch trong 600 −1 Attack, −1 Sp. Atk 6 giây và choáng 0,5 giây.",
+   "answer": ""
+  },
+  {
+   "name": "Torrent",
+   "default": [
+    "Blastoise",
+    "Croconaw",
+    "Empoleon",
+    "Feraligatr",
+    "Froakie",
+    "Frogadier",
+    "Greninja",
+    "Marshtomp",
+    "Mudkip",
+    "Piplup",
+    "Prinplup",
+    "Squirtle",
+    "Swampert",
+    "Totodile",
+    "Wartortle"
+   ],
+   "hidden": [],
+   "pokeapi": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less.",
+   "status": "code",
+   "effect": "Below 40% HP: +50% damage and +40% attack speed.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Như Blaze, đổi đốt thành tốc đánh.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Swift Swim",
+   "default": [
+    "Feebas",
+    "Horsea",
+    "Kingdra",
+    "Lombre",
+    "Lotad",
+    "Ludicolo",
+    "Magikarp",
+    "Omanyte",
+    "Omastar"
+   ],
+   "hidden": [
+    "Golduck",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Psyduck"
+   ],
+   "pokeapi": "Doubles Speed during rain.",
+   "status": "code",
+   "effect": "+60 move speed. 10% chance to dodge attacks. In rain: +30% attack speed.",
+   "tier": 3,
+   "suggest": "down",
+   "why": "Luôn có +60 tốc chạy và né 10%; bản gốc chỉ mạnh khi mưa.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Levitate",
+   "default": [
+    "Baltoy",
+    "Claydol",
+    "Duskull",
+    "Flygon",
+    "Gastly",
+    "Haunter",
+    "Hydreigon",
+    "Koffing",
+    "Latias & Latios",
+    "Misdreavus",
+    "Mismagius",
+    "Vibrava",
+    "Weezing"
+   ],
+   "hidden": [],
+   "pokeapi": "Evades Ground moves.",
+   "status": "code",
+   "effect": "Immune to Ground moves. 15% chance to dodge attacks. Latias & Latios: Dragon / Psychic moves +20%, 20% dodge.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Miễn chiêu Ground và né 15%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Sand Veil",
+   "default": [
+    "Diglett",
+    "Dugtrio",
+    "Gabite",
+    "Garchomp",
+    "Gible",
+    "Sandshrew",
+    "Sandslash"
+   ],
+   "hidden": [
+    "Geodude",
+    "Golem",
+    "Graveler",
+    "Larvitar"
+   ],
+   "pokeapi": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage.",
+   "status": "code",
+   "effect": "10% chance to dodge attacks, 30% in a sandstorm; a dodge slows the attacker.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Né 10%, 30% trong bão cát.",
+   "r1": "edit",
+   "v2": "Né 15% đòn đánh (bão cát 35%), né thì làm chậm kẻ đánh.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Static",
+   "default": [
+    "Ampharos",
+    "Electabuzz",
+    "Electrike",
+    "Electrode",
+    "Elekid",
+    "Flaaffy",
+    "Manectric",
+    "Mareep",
+    "Pikachu",
+    "Raichu",
+    "Voltorb"
+   ],
+   "hidden": [],
+   "pokeapi": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+   "status": "code",
+   "effect": "30% chance to paralyze a melee attacker. Its attacks: 20% chance for chain lightning.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Tê liệt kẻ đánh cận chiến và có sét lan.",
+   "r1": "down",
+   "v2": "20% tê liệt kẻ đánh cận chiến; đòn đánh 10% phóng sét lan.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Flash Fire",
+   "default": [
+    "Chandelure",
+    "Flareon",
+    "Lampent",
+    "Litwick",
+    "Ninetales",
+    "Vulpix"
+   ],
+   "hidden": [
+    "Cyndaquil",
+    "Quilava",
+    "Typhlosion"
+   ],
+   "pokeapi": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+   "status": "code",
+   "effect": "Fire moves deal no damage; then +40% damage for 8s. Entei: its attacks have a 20% burn chance.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng khi gặp chiêu Fire.",
+   "r1": "edit",
+   "v2": "Miễn chiêu Fire; luôn +10% sát thương chiêu Fire; trúng chiêu Fire: +40% sát thương 8 giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Pressure",
+   "default": [
+    "Dusclops",
+    "Dusknoir",
+    "Entei",
+    "Suicune",
+    "Weavile"
+   ],
+   "hidden": [
+    "Bisharp",
+    "Kingambit",
+    "Pawniard"
+   ],
+   "pokeapi": "Increases the PP cost of moves targetting the Pokémon by one.",
+   "status": "code",
+   "effect": "Enemies within 600 pay double mana for moves, their cooldowns run 20% slower and they attack 15% slower.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "Hào quang 600: gấp đôi mana, hồi chiêu chậm 20%, tốc đánh −15% cho mọi địch: rất mạnh trong giao tranh.",
+   "r1": "edit",
+   "v2": "Hào quang 600: địch tốn thêm 50% mana và hồi chiêu chậm 15% (bỏ phần giảm tốc đánh).",
+   "r2": "edit",
+   "r2note": "tăng chứ yếu",
+   "v3": "Hào quang 700: địch tốn gấp đôi mana, hồi chiêu chậm 25%, tốc đánh −15%.",
+   "answer": ""
+  },
+  {
+   "name": "Run Away",
+   "default": [
+    "Ponyta",
+    "Rapidash",
+    "Raticate",
+    "Rattata"
+   ],
+   "hidden": [
+    "Caterpie",
+    "Nincada",
+    "Oddish",
+    "Weedle"
+   ],
+   "pokeapi": "Ensures success fleeing from wild battles.",
+   "status": "code",
+   "effect": "Falling below 30% HP (every 30s): invisible and +60% move speed for 2s.",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ tàng hình 2 giây mỗi 30 giây khi máu thấp.",
+   "r1": "edit",
+   "v2": "Luôn +30 tốc chạy; máu dưới 30% (mỗi 25 giây): tàng hình 3 giây và +80% tốc chạy.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Luôn +30 tốc chạy; bị đánh khi máu dưới 50%: +50% tốc chạy 2 giây và đi xuyên unit (hồi 8 giây).",
+   "answer": ""
+  },
+  {
+   "name": "Synchronize",
+   "default": [
+    "Abra",
+    "Alakazam",
+    "Espeon",
+    "Kadabra",
+    "Kirlia",
+    "Mew",
+    "Ralts",
+    "Umbreon"
+   ],
+   "hidden": [],
+   "pokeapi": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+   "status": "code",
+   "effect": "When hit by a move: 25% of its damage is sent back and the attacker is slowed by 30% for 3s. A status given to it is given back to the one who caused it.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Phản 25% sát thương chiêu và làm chậm.",
+   "r1": "edit",
+   "v2": "Phản 25% sát thương chiêu; trạng thái và giảm chỉ số luôn bị trả lại kẻ gây (bỏ phần làm chậm).",
+   "r2": "edit",
+   "r2note": "tăng lên",
+   "v3": "Phản 40% sát thương chiêu và làm chậm kẻ ra chiêu 40% trong 3 giây; trạng thái và giảm chỉ số bị trả lại kẻ gây.",
+   "answer": ""
+  },
+  {
+   "name": "Thick Fat",
+   "default": [
+    "Dewgong",
+    "Seel",
+    "Snorlax"
+   ],
+   "hidden": [
+    "Mamoswine",
+    "Pignite",
+    "Piloswine",
+    "Swinub",
+    "Tepig"
+   ],
+   "pokeapi": "Halves damage from Fire and Ice moves.",
+   "status": "code",
+   "effect": "Takes 50% less damage from Fire and Ice moves. +10% max HP.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ chống Fire / Ice, +10% máu.",
+   "r1": "edit",
+   "v2": "Nhận ít hơn 50% sát thương Fire / Ice; +15% máu tối đa; không bị chậm vì chiêu Ice.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Water Absorb",
+   "default": [
+    "Lapras",
+    "Politoed",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Vaporeon"
+   ],
+   "hidden": [
+    "Chinchou",
+    "Lanturn"
+   ],
+   "pokeapi": "Absorbs Water moves, healing for 1/4 max HP.",
+   "status": "code",
+   "effect": "Water moves deal no damage and heal 25% of it. Regenerates 1% max HP per second out of combat. Suicune: out of combat for 3s it cures its status.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng với chiêu Water.",
+   "r1": "edit",
+   "v2": "Miễn chiêu Water (hồi 25%); +10% sát thương chiêu Water; ngoài giao tranh hồi 1% mỗi giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Flame Body",
+   "default": [
+    "Magby",
+    "Magcargo",
+    "Magmar",
+    "Magmortar",
+    "Slugma"
+   ],
+   "hidden": [
+    "Ponyta",
+    "Rapidash"
+   ],
+   "pokeapi": "Has a 30% chance of burning attacking Pokémon on contact.",
+   "status": "code",
+   "effect": "30% chance to burn a melee attacker. Burning aura around it.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Đốt kẻ đánh cận chiến 30%.",
+   "r1": "up",
+   "v2": "40% đốt kẻ đánh cận chiến; hào quang 250 đốt địch 1% máu tối đa mỗi giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Steadfast",
+   "default": [
+    "Gallade",
+    "Sirfetch'd"
+   ],
+   "hidden": [
+    "Hitmontop",
+    "Machamp",
+    "Machoke",
+    "Machop",
+    "Scyther"
+   ],
+   "pokeapi": "Raises Speed one stage upon flinching.",
+   "status": "code",
+   "effect": "Each hit taken: +6% damage and +6% attack speed (up to 6 stacks, 5s).",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Cộng dồn sát thương khi bị đánh.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Sturdy",
+   "default": [
+    "Bonsly",
+    "Geodude",
+    "Golem",
+    "Graveler",
+    "Steelix",
+    "Sudowoodo"
+   ],
+   "hidden": [
+    "Regirock"
+   ],
+   "pokeapi": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP.",
+   "status": "code",
+   "effect": "A lethal hit leaves 15% HP and 1.5s of invulnerability. Once every 60s.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Thoát chết mỗi 60 giây.",
+   "r1": "edit",
+   "v2": "Đòn chí tử để lại 20% máu và bất tử 2 giây (mỗi 45 giây); máu trên 90%: nhận ít hơn 20% sát thương.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Clear Body",
+   "default": [
+    "Beldum",
+    "Metagross",
+    "Metang",
+    "Regirock",
+    "Tentacool",
+    "Tentacruel"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents stats from being lowered by other Pokémon.",
+   "status": "code",
+   "effect": "Removes harmful effects every 6s. Takes 15% less damage from moves. Enemies cannot lower its stats.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "Giải trạng thái xấu mỗi 6 giây, giảm 15% sát thương chiêu và miễn giảm chỉ số: quá nhiều thứ.",
+   "r1": "up",
+   "v2": "Giải trạng thái xấu mỗi 4 giây; nhận ít hơn 20% sát thương chiêu; không bị giảm chỉ số.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Cute Charm",
+   "default": [
+    "Clefable",
+    "Clefairy",
+    "Jigglypuff",
+    "Sylveon",
+    "Wigglytuff"
+   ],
+   "hidden": [
+    "Milotic"
+   ],
+   "pokeapi": "Has a 30% chance of infatuating attacking Pokémon on contact.",
+   "status": "code",
+   "effect": "When attacked: 20% chance to charm the attacker for 1.5s (cannot attack, 50% slower).",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Mê hoặc 20% khi bị đánh.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Guts",
+   "default": [
+    "Larvitar",
+    "Machamp",
+    "Machoke",
+    "Machop",
+    "Tyrogue"
+   ],
+   "hidden": [
+    "Flareon"
+   ],
+   "pokeapi": "Increases Attack to 1.5× with a major status ailment.",
+   "status": "code",
+   "effect": "While burned, poisoned or paralyzed: physical damage +50% (burn does not weaken it). Low HP or a harmful effect: +20% attack speed.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Mạnh khi dính trạng thái.",
+   "r1": "edit",
+   "v2": "Có trạng thái xấu hoặc máu dưới 40%: +50% sát thương vật lý, +20% tốc đánh, không bị chậm vì trạng thái.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Magnet Pull",
+   "default": [
+    "Alolan-Geodude",
+    "Alolan-Golem",
+    "Alolan-Graveler",
+    "Magnemite",
+    "Magneton",
+    "Magnezone"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents Steel opponents from fleeing or switching out.",
+   "status": "code",
+   "effect": "Enemies within 500: 20% slower (Steel types 40%) and -5 armor.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Hào quang làm chậm và trừ giáp.",
+   "r1": "edit",
+   "v2": "Hào quang 500: địch chậm 15% (hệ Steel 40%) và −5 giáp.",
+   "r2": "edit",
+   "r2note": "tăng lên",
+   "v3": "Hào quang 600: địch chậm 25% (hệ Steel 50%) và −8 giáp; mỗi 10 giây kéo hero địch gần nhất trong 600 lại gần 200.",
+   "answer": ""
+  },
+  {
+   "name": "Natural Cure",
+   "default": [
+    "Blissey",
+    "Celebi",
+    "Chansey",
+    "Starmie",
+    "Staryu",
+    "Swablu"
+   ],
+   "hidden": [],
+   "pokeapi": "Cures any major status ailment upon switching out.",
+   "status": "code",
+   "effect": "Out of combat for 3s: regenerates 3% max HP per second and removes harmful effects. Out of combat for 3s: cures its status.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Hồi 3% máu mỗi giây khi ra khỏi giao tranh.",
+   "r1": "edit",
+   "v2": "Ra khỏi giao tranh 3 giây: giải trạng thái và hồi 3% máu mỗi giây; trong giao tranh mỗi 8 giây giải 1 trạng thái.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Rock Head",
+   "default": [
+    "Aerodactyl",
+    "Bagon",
+    "Cubone",
+    "Marowak",
+    "Onix",
+    "Shelgon"
+   ],
+   "hidden": [],
+   "pokeapi": "Protects against recoil damage.",
+   "status": "code",
+   "effect": "Takes no recoil damage from its moves. Takes 10% less damage.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Không mất máu vì phản dame, −10% sát thương.",
+   "r1": "up",
+   "v2": "Không mất máu vì phản dame; nhận ít hơn 15% sát thương; chiêu có phản dame +15% sát thương.",
+   "r2": "edit",
+   "r2note": "kể cả đánh thường bị phản ",
+   "v3": "Không mất máu vì phản dame của chiêu lẫn sát thương phản lại khi đánh thường (Rough Skin, Rocky Helmet, Static, Iron Barbs...); nhận ít hơn 15% sát thương; chiêu có phản dame +15%.",
+   "answer": ""
+  },
+  {
+   "name": "Shell Armor",
+   "default": [
+    "Cloyster",
+    "Shellder"
+   ],
+   "hidden": [
+    "Grotle",
+    "Torkoal",
+    "Torterra",
+    "Turtwig"
+   ],
+   "pokeapi": "Protects against critical hits.",
+   "status": "code",
+   "effect": "Cannot be critically hit. Takes 20% less damage from attacks.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Miễn chí mạng, −20% sát thương đòn đánh.",
+   "r1": "up",
+   "v2": "Miễn chí mạng; nhận ít hơn 30% sát thương đòn đánh thường; +5 giáp.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Snow Cloak",
+   "default": [
+    "Alolan-Sandshrew",
+    "Alolan-Sandslash",
+    "Glaceon",
+    "Mamoswine",
+    "Piloswine",
+    "Swinub"
+   ],
+   "hidden": [],
+   "pokeapi": "Increases evasion to 1.25× during hail.  Protects against hail damage.",
+   "status": "code",
+   "effect": "10% chance to dodge attacks, 30% in hail; a dodge slows the attacker.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Né 10%, 30% trong mưa đá.",
+   "r1": "up",
+   "v2": "Né 15% đòn đánh (mưa đá 35%), né thì làm chậm kẻ đánh 40% trong 2 giây; mưa đá: hồi 1% máu mỗi giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Speed Boost",
+   "default": [
+    "Ninjask"
+   ],
+   "hidden": [
+    "Blaziken",
+    "Carvanha",
+    "Combusken",
+    "Sharpedo",
+    "Torchic"
+   ],
+   "pokeapi": "Raises Speed one stage after each turn.",
+   "status": "code",
+   "effect": "Every 8s in combat: +1 Speed (up to +4).",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chậm lên, mạnh khi giao tranh dài.",
+   "r1": "up",
+   "v2": "Mỗi 6 giây trong giao tranh: +1 Speed (tối đa +6); ra khỏi giao tranh vẫn giữ 5 giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Technician",
+   "default": [
+    "Meowth",
+    "Persian",
+    "Scizor"
+   ],
+   "hidden": [
+    "Breloom",
+    "Mr. Mime",
+    "Mr.mime"
+   ],
+   "pokeapi": "Strengthens moves of 60 base power or less to 1.5× their power.",
+   "status": "code",
+   "effect": "Moves with power 60 or less deal x1.5 damage.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "x1,5 cho chiêu yếu.",
+   "r1": "edit",
+   "v2": "Chiêu power ≤ 60: x1,5 sát thương; power ≤ 80: x1,2.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Keen Eye",
+   "default": [
+    "Farfetch'd",
+    "Pidgeot",
+    "Pidgeotto",
+    "Pidgey",
+    "Sableye"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents accuracy from being lowered.",
+   "status": "code",
+   "effect": "15% chance to deal double damage with attacks. Its attacks cannot be dodged. Its accuracy cannot be lowered.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chí mạng 15%.",
+   "r1": "up",
+   "v2": "20% chí mạng x2 cho đòn đánh; đòn đánh bỏ qua 15% giáp; không bị giảm chính xác, không bị né.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Leaf Guard",
+   "default": [
+    "Leafeon",
+    "Leafleon"
+   ],
+   "hidden": [
+    "Bayleef",
+    "Chikorita",
+    "Meganium"
+   ],
+   "pokeapi": "Protects against major status ailments during strong sunlight.",
+   "status": "code",
+   "effect": "20% chance to dodge attacks; each dodge heals 3% max HP.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Né 20%, né thì hồi máu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Lightning Rod",
+   "default": [
+    "Rhydon",
+    "Rhyhorn",
+    "Rhyperior"
+   ],
+   "hidden": [
+    "Pikachu",
+    "Raichu"
+   ],
+   "pokeapi": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage.",
+   "status": "code",
+   "effect": "Electric moves deal no damage and heal 25% of it; then +30% move damage for 6s.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng với chiêu Electric.",
+   "r1": "edit",
+   "v2": "Miễn chiêu Electric (hồi 25%); trúng chiêu Electric: +1 Sp. Atk 12 giây; +10% sát thương chiêu Electric.",
+   "r2": "edit",
+   "r2note": "tăng với thêm hiệu ứng",
+   "v3": "Miễn chiêu Electric (hồi 25%), trúng chiêu Electric +1 Sp. Atk 12 giây; chiêu Electric +15%; đòn đánh 20% phóng sét lan 3 mục tiêu (50% INT).",
+   "answer": ""
+  },
+  {
+   "name": "Reckless",
+   "default": [
+    "Hitmonlee"
+   ],
+   "hidden": [
+    "Emboar",
+    "Rhydon",
+    "Rhyhorn",
+    "Rhyperior"
+   ],
+   "pokeapi": "Strengthens recoil moves to 1.2× their power.",
+   "status": "code",
+   "effect": "Recoil moves and High Jump Kick deal +30% damage; attacks deal +15%.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ mạnh với chiêu phản dame.",
+   "r1": "edit",
+   "v2": "Chiêu có phản dame +35%; đòn đánh +15%; phản dame bản thân giảm 30%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Shed Skin",
+   "default": [
+    "Dragonair",
+    "Dratini",
+    "Kakuna",
+    "Metapod",
+    "Pupitar"
+   ],
+   "hidden": [],
+   "pokeapi": "Has a 33% chance of curing any major status ailment after each turn.",
+   "status": "code",
+   "effect": "Every 5s: 30% chance to remove harmful effects and heal 5% max HP. Every 3s: 30% chance to cure its status.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Thỉnh thoảng giải trạng thái.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Swarm",
+   "default": [
+    "Beedrill",
+    "Heracross",
+    "Scyther"
+   ],
+   "hidden": [
+    "Galvantula",
+    "Joltik"
+   ],
+   "pokeapi": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",
+   "status": "code",
+   "effect": "Below 40% HP: +50% damage and heals 20% of the damage dealt.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Máu thấp còn hút 20% sát thương.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Battle Armor",
+   "default": [
+    "Kabuto",
+    "Kabutops"
+   ],
+   "hidden": [
+    "Cubone",
+    "Marowak"
+   ],
+   "pokeapi": "Protects against critical hits.",
+   "status": "code",
+   "effect": "Cannot be critically hit. Blocks 2 x level damage of every attack.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Miễn chí mạng, chặn sát thương theo level.",
+   "r1": "edit",
+   "v2": "Miễn chí mạng; mỗi đòn đánh trúng nó bị chặn 3 x level sát thương; +5 giáp.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Competitive",
+   "default": [
+    "Milotic"
+   ],
+   "hidden": [
+    "Empoleon",
+    "Piplup",
+    "Prinplup"
+   ],
+   "pokeapi": "Raises Special Attack by two stages upon having any stat lowered.",
+   "status": "code",
+   "effect": "+15% skill damage. Enemy debuffs/stat drops trigger +1 Sp. Atk (6s), +15% MS (3s), and a 45% scaled INT wave in 300 AoE (-1 Sp.Def 4s, 3s ICD).",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Mạnh nhưng chủ yếu ở dạng Form.",
+   "r1": "edit",
+   "v2": "+15% sát thương chiêu; bị giảm chỉ số: +2 Sp. Atk trong 8 giây.",
+   "r2": "edit",
+   "r2note": "đổi mới luôn không theo mô tả",
+   "v3": "Mỗi hero địch trong 800: +6% sát thương chiêu (tối đa +30%).",
+   "answer": ""
+  },
+  {
+   "name": "Compound Eyes",
+   "default": [
+    "Butterfree",
+    "Galvantula",
+    "Joltik",
+    "Nincada"
+   ],
+   "hidden": [],
+   "pokeapi": "Increases moves' accuracy to 1.3×.",
+   "status": "code",
+   "effect": "20% chance to deal x1.75 damage with attacks. +10% move damage.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chí mạng 20%, +10% chiêu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Defiant",
+   "default": [
+    "Kingambit"
+   ],
+   "hidden": [
+    "Farfetch'd",
+    "Mankey",
+    "Primeape"
+   ],
+   "pokeapi": "Raises Attack two stages upon having any stat lowered.",
+   "status": "code",
+   "effect": "+20% basic attack & physical move damage. Enemy debuffs/stat drops trigger +1 Attack & Speed (6s) and +25% AS (3s, 3s ICD).",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+20% sát thương vật lý, mạnh hơn khi bị giảm chỉ số.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Drought",
+   "default": [
+    "Groudon",
+    "Torkoal"
+   ],
+   "hidden": [
+    "Ninetales",
+    "Vulpix"
+   ],
+   "pokeapi": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+   "status": "code",
+   "effect": "Harsh sun (700): allies deal +30% damage with Fire moves; enemies lose 1% max HP per second. Groudon: enemy Water moves in the sun deal -50%.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Gọi nắng có lợi cho cả đội.",
+   "r1": "edit",
+   "v2": "Gọi nắng vùng 700: đồng minh +30% sát thương chiêu Fire; địch mất 1% máu mỗi giây; chiêu Water của địch trong nắng −30%.",
+   "r2": "edit",
+   "r2note": "ko gọi thời tiết đổi mới luôn không theo mô tả",
+   "v3": "Đòn đánh và chiêu thiêu đốt mục tiêu: mất 1,5% máu tối đa mỗi giây trong 3 giây và nhận ít hơn 30% hồi máu (không gọi thời tiết).",
+   "answer": ""
+  },
+  {
+   "name": "Hyper Cutter",
+   "default": [
+    "Kingler",
+    "Krabby",
+    "Pinsir",
+    "Trapinch"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents Attack from being lowered by other Pokémon.",
+   "status": "code",
+   "effect": "Attacks reduce the target's armor by 3 for 6s (stacks 5 times). Its Attack cannot be lowered.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Trừ giáp cộng dồn.",
+   "r1": "up",
+   "v2": "Đòn đánh trừ 4 giáp trong 6 giây (cộng 5 tầng); mục tiêu đủ 5 tầng nhận thêm 15% sát thương; không bị giảm Attack.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Insomnia",
+   "default": [
+    "Drowzee",
+    "Hoothoot",
+    "Hypno",
+    "Noctowl"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents sleep.",
+   "status": "code",
+   "effect": "20% chance to dodge attacks. Immune to Bad Dreams. Cannot fall asleep.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Né 20%, miễn ngủ.",
+   "r1": "up",
+   "v2": "Né 20% đòn đánh; miễn ngủ và rối; hồi 1% máu mỗi giây.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Iron Fist",
+   "default": [
+    "Hitmonchan"
+   ],
+   "hidden": [
+    "Chimchar",
+    "Infernape",
+    "Monferno"
+   ],
+   "pokeapi": "Strengthens punch-based moves to 1.2× their power.",
+   "status": "code",
+   "effect": "+35% attack damage; every 4th attack deals double damage. Punching moves deal +25% damage.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "+35% sát thương đòn đánh và cú thứ 4 gấp đôi: quá mạnh cho đánh thường.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Poison Point",
+   "default": [
+    "Nidoking",
+    "Nidoran",
+    "Nidorino",
+    "Seadra"
+   ],
+   "hidden": [],
+   "pokeapi": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+   "status": "code",
+   "effect": "30% chance to poison a melee attacker, and 30% with its own attacks.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Độc 30%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Serene Grace",
+   "default": [
+    "Jirachi",
+    "Togekiss",
+    "Togepi",
+    "Togetic"
+   ],
+   "hidden": [],
+   "pokeapi": "Doubles the chance of moves' extra effects occurring.",
+   "status": "code",
+   "effect": "The extra effects of its moves (status, flinch, stat changes) are twice as likely. Moves deal +10% damage.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Gấp đôi tỉ lệ hiệu ứng phụ.",
+   "r1": "edit",
+   "v2": "Hiệu ứng phụ của chiêu x2 tỉ lệ và kéo dài thêm 50%; chiêu +10% sát thương.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Soundproof",
+   "default": [
+    "Mr. Mime",
+    "Mr.mime"
+   ],
+   "hidden": [
+    "Abomasnow",
+    "Snover"
+   ],
+   "pokeapi": "Protects against sound-based moves.",
+   "status": "code",
+   "effect": "Takes 30% less damage from moves.",
+   "tier": 3,
+   "suggest": "down",
+   "why": "Luôn giảm 30% sát thương chiêu; bản gốc chỉ chặn chiêu âm thanh.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Super Luck",
+   "default": [
+    "Absol"
+   ],
+   "hidden": [
+    "Togekiss",
+    "Togepi",
+    "Togetic"
+   ],
+   "pokeapi": "Raises moves' critical hit rates one stage.",
+   "status": "code",
+   "effect": "25% chance to deal x1.5 damage with attacks.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chí mạng 25%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Early Bird",
+   "default": [
+    "Houndoom",
+    "Houndour",
+    "Kangaskhan"
+   ],
+   "hidden": [],
+   "pokeapi": "Makes sleep pass twice as quickly.",
+   "status": "code",
+   "effect": "Out of combat for 3s: regenerates 2% max HP per second. Sleep lasts half as long.",
+   "tier": 1,
+   "suggest": "up",
+   "why": "Chỉ hồi máu ngoài giao tranh và ngủ ngắn hơn.",
+   "r1": "edit",
+   "v2": "Ra khỏi giao tranh 2 giây: hồi 3% máu mỗi giây; ngủ và choáng ngắn hơn 50%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Solar Power",
+   "default": [],
+   "hidden": [
+    "Charizard",
+    "Charmander",
+    "Charmeleon"
+   ],
+   "pokeapi": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+   "status": "code",
+   "effect": "Moves deal +40% damage. In combat it loses 1% max HP per second (not below 30% HP).",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "+40% chiêu, đổi lại mất máu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Trace",
+   "default": [
+    "Gardevoir",
+    "Porygon",
+    "Porygon2"
+   ],
+   "hidden": [],
+   "pokeapi": "Copies an opponent's ability upon entering battle.",
+   "status": "code",
+   "effect": "Copies the Ability of the target it hits. Without a copy: 25% chance to dodge attacks.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Chép ability mục tiêu.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Volt Absorb",
+   "default": [
+    "Chinchou",
+    "Jolteon",
+    "Lanturn"
+   ],
+   "hidden": [],
+   "pokeapi": "Absorbs Electric moves, healing for 1/4 max HP.",
+   "status": "code",
+   "effect": "Electric moves deal no damage and heal 25% of it; then +30% attack speed for 5s.",
+   "tier": 2,
+   "suggest": "keep",
+   "why": "Chỉ có tác dụng với chiêu Electric.",
+   "r1": "edit",
+   "v2": "Miễn chiêu Electric (hồi 25%), sau đó +30% tốc đánh 5 giây; +10% sát thương chiêu Electric.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Adaptability",
+   "default": [
+    "Eevee"
+   ],
+   "hidden": [
+    "Feebas"
+   ],
+   "pokeapi": "Increases the same-type attack bonus from 1.5× to 2×.",
+   "status": "code",
+   "effect": "+40% damage with moves of its own type.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "+40% chiêu cùng hệ.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Anger Point",
+   "default": [
+    "Mankey",
+    "Primeape"
+   ],
+   "hidden": [],
+   "pokeapi": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+   "status": "code",
+   "effect": "Falling below 50% HP (every 30s): +60% damage and +40% attack speed for 6s.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Bùng nổ khi máu dưới 50%.",
+   "r1": "up",
+   "v2": "Máu xuống dưới 50% hoặc bị chí mạng: +60% sát thương, +40% tốc đánh trong 8 giây (hồi 20 giây).",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "No Guard",
+   "default": [
+    "Doublade",
+    "Honedge"
+   ],
+   "hidden": [],
+   "pokeapi": "Ensures all moves used by and against the Pokémon hit.",
+   "status": "code",
+   "effect": "+25% damage; 15% chance to deal double damage with attacks. Its attacks cannot be dodged.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "+25% mọi sát thương và chí mạng 15%: mạnh hơn hẳn các ability chí mạng khác.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Sand Force",
+   "default": [],
+   "hidden": [
+    "Diglett",
+    "Dugtrio"
+   ],
+   "pokeapi": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage.",
+   "status": "code",
+   "effect": "A lethal hit leaves 15% HP and 1.5s of invulnerability (every 60s). +20% damage with Rock, Ground and Steel moves.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Thoát chết và +20% chiêu Rock / Ground / Steel.",
+   "r1": "up",
+   "v2": "Thoát chết mỗi 60 giây; chiêu Rock / Ground / Steel +30%; trong bão cát mọi sát thương +15%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Shadow Tag",
+   "default": [
+    "Wobbuffet",
+    "Wynaut"
+   ],
+   "hidden": [],
+   "pokeapi": "Prevents opponents from fleeing or switching out.",
+   "status": "code",
+   "effect": "Enemies within 450: 35% slower and -15% attack speed.",
+   "tier": 4,
+   "suggest": "down",
+   "why": "Hào quang làm chậm 35%: địch gần như không chạy được.",
+   "r1": "up",
+   "v2": "Hào quang 500: địch chậm 35%, tốc đánh −20%; địch dưới 30% máu trong hào quang chậm 50%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Air Lock",
+   "default": [
+    "Rayquaza"
+   ],
+   "hidden": [],
+   "pokeapi": "Negates all effects of weather, but does not prevent the weather itself.",
+   "status": "code",
+   "effect": "Enemies within 600 lose their Abilities. 15% chance to dodge attacks. Rayquaza: Dragon / Flying moves +20%.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Của Rayquaza.",
+   "r1": "up",
+   "v2": "Hào quang 700: địch mất ability; né 20% đòn đánh. Rayquaza: chiêu Dragon / Flying +20%.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Bad Dreams",
+   "default": [
+    "Darkrai"
+   ],
+   "hidden": [],
+   "pokeapi": "Damages sleeping opponents for 1/8 their max HP after each turn.",
+   "status": "code",
+   "effect": "Enemies within 500 lose 2% max HP per second. Darkrai: sleeping enemies within 500 lose 8% max HP per second; its moves have a 30% sleep chance.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Của Darkrai.",
+   "r1": "up",
+   "v2": "Hào quang 500: địch mất 3% máu tối đa mỗi giây. Darkrai: địch đang ngủ mất 8% mỗi giây; chiêu 30% gây ngủ.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Magic Bounce",
+   "default": [],
+   "hidden": [
+    "Espeon"
+   ],
+   "pokeapi": "Reflects most non-damaging moves back at their user.",
+   "status": "code",
+   "effect": "Moves: 20% chance to block them; otherwise 35% of their damage is sent back. Stat drops and statuses from enemies bounce back to them.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Phản chiêu và phản trạng thái.",
+   "r1": "up",
+   "v2": "Chiêu: 25% chặn hẳn, còn lại phản 40% sát thương; trạng thái và giảm chỉ số bị phản lại.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Multiscale",
+   "default": [],
+   "hidden": [
+    "Dragonite"
+   ],
+   "pokeapi": "Halves damage taken from full HP.",
+   "status": "code",
+   "effect": "Above 80% HP: takes 40% less damage.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Giảm 40% khi máu trên 80%.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Multitype",
+   "default": [
+    "Arceus"
+   ],
+   "hidden": [],
+   "pokeapi": "Changes Arceus's type and form to match its held Plate.",
+   "status": "code",
+   "effect": "+25% damage (+20% extra on same-type moves), 15% less damage taken, immune to stat drops, 50% shorter CC & statuses. Hits have 25% chance (2.5s ICD) for Creation Smite: 45% Max Stat 260 AoE, 0.4s stun, -1 Def/Sp.Def, 3% HP/Mana heal.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Của Arceus.",
+   "r1": "keep",
+   "r2": "",
+   "r2note": ""
+  },
+  {
+   "name": "Pixilate",
+   "default": [],
+   "hidden": [
+    "Sylveon"
+   ],
+   "pokeapi": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power.",
+   "status": "code",
+   "effect": "Normal moves become Fairy moves. +30% damage with Fairy moves.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "+30% chiêu Fairy.",
+   "r1": "edit",
+   "v2": "Chiêu Normal thành Fairy và +30%; mọi chiêu +10% lên hệ Dragon / Dark.",
+   "r2": "ok",
+   "r2note": ""
+  },
+  {
+   "name": "Sand Stream",
+   "default": [
+    "Tyranitar"
+   ],
+   "hidden": [],
+   "pokeapi": "Summons a sandstorm that lasts indefinitely upon entering battle.",
+   "status": "code",
+   "effect": "Sandstorm (600): enemies that are not Rock, Ground or Steel lose 1% max HP per second (Mega: 1.5%). Takes 20% less damage from moves.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Gọi bão cát.",
+   "r1": "edit",
+   "v2": "Gọi bão cát vùng 700: địch không phải Rock / Ground / Steel mất 1,5% máu mỗi giây; bản thân nhận ít hơn 20% sát thương chiêu.",
+   "r2": "edit",
+   "r2note": "như những cái trên",
+   "v3": "Hào quang cát 400: địch mất 1% máu tối đa mỗi giây và trượt 20% đòn đánh (không gọi thời tiết).",
+   "answer": ""
+  },
+  {
+   "name": "Slow Start",
+   "default": [
+    "Regigigas"
+   ],
+   "hidden": [],
+   "pokeapi": "Halves Attack and Speed for five turns upon entering battle.",
+   "status": "code",
+   "effect": "For the first 8s after spawning or reviving, deal 30% less damage. Afterwards, deal 50% more damage and gain 20% attack speed. Regigigas also gains +2 Attack stages and 30% extra attack speed.",
+   "tier": 4,
+   "suggest": "keep",
+   "why": "Của Regigigas.",
+   "r1": "up",
+   "v2": "5 giây đầu sau khi ra trận / hồi sinh: −30% sát thương; sau đó +60% sát thương, +25% tốc đánh. Regigigas: +2 Attack.",
+   "r2": "ok",
+   "r2note": "tăng thời gian",
+   "v3": "5 giây đầu sau khi ra trận / hồi sinh: −30% sát thương; sau đó +60% sát thương, +25% tốc đánh. Regigigas: +2 Attack.",
+   "answer": "Bạn duyệt kèm ghi chú \"tăng thời gian\". Mình hiểu là kéo dài phần yếu ban đầu như bản gốc (5 giây → 8 giây) để đổi lấy buff mạnh; nếu ý bạn khác (vd buff có thời hạn), ghi lại nhé."
+  },
+  {
+   "name": "Zen Mode",
+   "default": [],
+   "hidden": [
+    "Darmanitan"
+   ],
+   "pokeapi": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
+   "status": "code",
+   "effect": "Below 50% HP it turns into Zen Mode (Fire/Psychic): moves +50% damage, attacks -50% damage, +25 armor. Back to normal above 50% HP.",
+   "tier": 3,
+   "suggest": "keep",
+   "why": "Đổi dạng khi máu thấp.",
+   "r1": "edit",
+   "v2": "Máu dưới 50% vào Zen: chiêu +50%, +25 giáp, hồi 2% máu mỗi giây; đòn đánh −30%. Trên 50% thì trở lại.",
+   "r2": "ok",
+   "r2note": ""
+  }
+ ],
+ "heroes": [
+  {
+   "id": "E00I",
+   "name": "Alakazam",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Magic Guard"
+   ]
+  },
+  {
+   "id": "E02G",
+   "name": "Gastly",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E01G",
+   "name": "Gengar",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Cursed Body",
+   "changed": true,
+   "normal": [
+    "Cursed Body"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E02H",
+   "name": "Haunter",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E00D",
+   "name": "Pidgeot",
+   "legend": false,
+   "now": "Keen Eye",
+   "new": "Keen Eye",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": [
+    "Big Pecks"
+   ]
+  },
+  {
+   "id": "EN0B",
+   "name": "Gardevoir",
+   "legend": false,
+   "now": "Trace",
+   "new": "Trace",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "E01Q",
+   "name": "Butterfree",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Compound Eyes",
+   "changed": false,
+   "normal": [
+    "Compound Eyes"
+   ],
+   "hidden": [
+    "Tinted Lens"
+   ]
+  },
+  {
+   "id": "E00H",
+   "name": "Kadabra",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Magic Guard"
+   ]
+  },
+  {
+   "id": "EN0A",
+   "name": "Kirlia",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "E020",
+   "name": "Articuno",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Snow Cloak"
+   ]
+  },
+  {
+   "id": "E023",
+   "name": "Darkrai",
+   "legend": false,
+   "now": "Bad Dreams",
+   "new": "Bad Dreams",
+   "changed": false,
+   "normal": [
+    "Bad Dreams"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E027",
+   "name": "Deoxys",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E026",
+   "name": "Mewtwo",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "E021",
+   "name": "Moltres",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Flame Body"
+   ]
+  },
+  {
+   "id": "E029",
+   "name": "Rayquaza",
+   "legend": false,
+   "now": "Air Lock",
+   "new": "Air Lock",
+   "changed": false,
+   "normal": [
+    "Air Lock"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E03J",
+   "name": "Zapdos",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Static"
+   ]
+  },
+  {
+   "id": "E000",
+   "name": "Blastoise",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Rain Dish"
+   ]
+  },
+  {
+   "id": "EP0E",
+   "name": "Empoleon",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Competitive"
+   ]
+  },
+  {
+   "id": "EP02",
+   "name": "Feraligatr",
+   "legend": false,
+   "now": "Strong Jaw",
+   "new": "Torrent",
+   "changed": true,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "EP0T",
+   "name": "Greninja",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Protean"
+   ]
+  },
+  {
+   "id": "E00C",
+   "name": "Pidgeotto",
+   "legend": false,
+   "now": "Keen Eye",
+   "new": "Keen Eye",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": [
+    "Big Pecks"
+   ]
+  },
+  {
+   "id": "EP05",
+   "name": "Swampert",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "E00G",
+   "name": "Abra",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Magic Guard"
+   ]
+  },
+  {
+   "id": "E00E",
+   "name": "Charizard",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Solar Power"
+   ]
+  },
+  {
+   "id": "E006",
+   "name": "Raichu",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Lightning Rod"
+   ]
+  },
+  {
+   "id": "EN09",
+   "name": "Ralts",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "E02C",
+   "name": "Victreebel",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Gluttony"
+   ]
+  },
+  {
+   "id": "E024",
+   "name": "Mew",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EN0G",
+   "name": "Beldum",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Light Metal"
+   ]
+  },
+  {
+   "id": "E01K",
+   "name": "Dragonite",
+   "legend": false,
+   "now": "Multiscale",
+   "new": "Inner Focus",
+   "changed": true,
+   "normal": [
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Multiscale"
+   ]
+  },
+  {
+   "id": "E031",
+   "name": "Magnemite",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "EN0H",
+   "name": "Metang",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Light Metal"
+   ]
+  },
+  {
+   "id": "E04M",
+   "name": "Starmie",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "E04N",
+   "name": "Staryu",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "E032",
+   "name": "Magneton",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "EN0F",
+   "name": "Salamence",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate"
+   ],
+   "hidden": [
+    "Moxie"
+   ]
+  },
+  {
+   "id": "E02K",
+   "name": "Beedrill",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Swarm",
+   "changed": false,
+   "normal": [
+    "Swarm"
+   ],
+   "hidden": [
+    "Sniper"
+   ]
+  },
+  {
+   "id": "EP0N",
+   "name": "Chesnaught",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Bulletproof"
+   ]
+  },
+  {
+   "id": "E01F",
+   "name": "Cloyster",
+   "legend": false,
+   "now": "Shell Armor",
+   "new": "Shell Armor",
+   "changed": false,
+   "normal": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden": [
+    "Overcoat"
+   ]
+  },
+  {
+   "id": "E049",
+   "name": "Crobat",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "EP01",
+   "name": "Croconaw",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E01X",
+   "name": "Electrode",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": [
+    "Aftermath"
+   ]
+  },
+  {
+   "id": "EP0S",
+   "name": "Frogadier",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Protean"
+   ]
+  },
+  {
+   "id": "E048",
+   "name": "Golbat",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "EP04",
+   "name": "Marshtomp",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "E00B",
+   "name": "Pidgey",
+   "legend": false,
+   "now": "Keen Eye",
+   "new": "Keen Eye",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": [
+    "Big Pecks"
+   ]
+  },
+  {
+   "id": "EP0D",
+   "name": "Prinplup",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Competitive"
+   ]
+  },
+  {
+   "id": "EN05",
+   "name": "Sceptile",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Unburden"
+   ]
+  },
+  {
+   "id": "EP0H",
+   "name": "Serperior",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Contrary"
+   ]
+  },
+  {
+   "id": "E01I",
+   "name": "Tentacruel",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden": [
+    "Rain Dish"
+   ]
+  },
+  {
+   "id": "EP08",
+   "name": "Torterra",
+   "legend": false,
+   "now": "Shell Armor",
+   "new": "Overgrow",
+   "changed": true,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Shell Armor"
+   ]
+  },
+  {
+   "id": "E002",
+   "name": "Venusaur",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "E009",
+   "name": "Wartortle",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Rain Dish"
+   ]
+  },
+  {
+   "id": "E01A",
+   "name": "Weepinbell",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Gluttony"
+   ]
+  },
+  {
+   "id": "E019",
+   "name": "Weezing",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden": [
+    "Stench"
+   ]
+  },
+  {
+   "id": "E046",
+   "name": "Zubat",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "E02B",
+   "name": "Bellsprout",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Gluttony"
+   ]
+  },
+  {
+   "id": "EP0P",
+   "name": "Braixen",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Magician"
+   ]
+  },
+  {
+   "id": "E007",
+   "name": "Charmeleon",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Solar Power"
+   ]
+  },
+  {
+   "id": "EN01",
+   "name": "Combusken",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Speed Boost"
+   ]
+  },
+  {
+   "id": "E01T",
+   "name": "Dragonair",
+   "legend": false,
+   "now": "Shed Skin",
+   "new": "Shed Skin",
+   "changed": false,
+   "normal": [
+    "Shed Skin"
+   ],
+   "hidden": [
+    "Marvel Scale"
+   ]
+  },
+  {
+   "id": "EP0R",
+   "name": "Froakie",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Protean"
+   ]
+  },
+  {
+   "id": "E00P",
+   "name": "Golem",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Sand Veil"
+   ]
+  },
+  {
+   "id": "EP07",
+   "name": "Grotle",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Shell Armor"
+   ]
+  },
+  {
+   "id": "EN04",
+   "name": "Grovyle",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Unburden"
+   ]
+  },
+  {
+   "id": "E001",
+   "name": "Ivysaur",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "E01V",
+   "name": "Koffing",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden": [
+    "Stench"
+   ]
+  },
+  {
+   "id": "EP0A",
+   "name": "Monferno",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Iron Fist"
+   ]
+  },
+  {
+   "id": "EP03",
+   "name": "Mudkip",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "EP0J",
+   "name": "Pignite",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Thick Fat"
+   ]
+  },
+  {
+   "id": "E005",
+   "name": "Pikachu",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Lightning Rod"
+   ]
+  },
+  {
+   "id": "EP0C",
+   "name": "Piplup",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Competitive"
+   ]
+  },
+  {
+   "id": "E012",
+   "name": "Poliwag",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "E013",
+   "name": "Poliwhirl",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "E014",
+   "name": "Poliwrath",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "EP0M",
+   "name": "Quilladin",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Bulletproof"
+   ]
+  },
+  {
+   "id": "EP0G",
+   "name": "Servine",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Contrary"
+   ]
+  },
+  {
+   "id": "EN0E",
+   "name": "Shelgon",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head"
+   ],
+   "hidden": [
+    "Overcoat"
+   ]
+  },
+  {
+   "id": "E02E",
+   "name": "Shellder",
+   "legend": false,
+   "now": "Shell Armor",
+   "new": "Shell Armor",
+   "changed": false,
+   "normal": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden": [
+    "Overcoat"
+   ]
+  },
+  {
+   "id": "E004",
+   "name": "Squirtle",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Rain Dish"
+   ]
+  },
+  {
+   "id": "E02D",
+   "name": "Tentacool",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden": [
+    "Rain Dish"
+   ]
+  },
+  {
+   "id": "EP0V",
+   "name": "Torracat",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Intimidate"
+   ]
+  },
+  {
+   "id": "EP00",
+   "name": "Totodile",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Torrent",
+   "changed": false,
+   "normal": [
+    "Torrent"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E01D",
+   "name": "Voltorb",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": [
+    "Aftermath"
+   ]
+  },
+  {
+   "id": "E028",
+   "name": "Giratina",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "EN08",
+   "name": "Tyranitar",
+   "legend": false,
+   "now": "Sand Stream",
+   "new": "Sand Stream",
+   "changed": false,
+   "normal": [
+    "Sand Stream"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "E03A",
+   "name": "Eevee",
+   "legend": false,
+   "now": "Adaptability",
+   "new": "Adaptability",
+   "changed": false,
+   "normal": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden": [
+    "Anticipation"
+   ]
+  },
+  {
+   "id": "E01Z",
+   "name": "Hitmonchan",
+   "legend": false,
+   "now": "Iron Fist",
+   "new": "Iron Fist",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Iron Fist"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "E03Y",
+   "name": "Hitmonlee",
+   "legend": false,
+   "now": "Reckless",
+   "new": "Reckless",
+   "changed": false,
+   "normal": [
+    "Limber",
+    "Reckless"
+   ],
+   "hidden": [
+    "Unburden"
+   ]
+  },
+  {
+   "id": "E03Z",
+   "name": "Hitmontop",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Technician"
+   ],
+   "hidden": [
+    "Steadfast"
+   ]
+  },
+  {
+   "id": "E02P",
+   "name": "Kangaskhan",
+   "legend": false,
+   "now": "Early Bird",
+   "new": "Early Bird",
+   "changed": false,
+   "normal": [
+    "Early Bird",
+    "Scrappy"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "EN0J",
+   "name": "Lucario",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Steadfast",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Justified"
+   ]
+  },
+  {
+   "id": "E03W",
+   "name": "Pinsir",
+   "legend": false,
+   "now": "Hyper Cutter",
+   "new": "Hyper Cutter",
+   "changed": false,
+   "normal": [
+    "Hyper Cutter",
+    "Mold Breaker"
+   ],
+   "hidden": [
+    "Moxie"
+   ]
+  },
+  {
+   "id": "E00U",
+   "name": "Raticate",
+   "legend": false,
+   "now": "Run Away",
+   "new": "Run Away",
+   "changed": false,
+   "normal": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden": [
+    "Hustle"
+   ]
+  },
+  {
+   "id": "E00T",
+   "name": "Rattata",
+   "legend": false,
+   "now": "Run Away",
+   "new": "Run Away",
+   "changed": false,
+   "normal": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden": [
+    "Hustle"
+   ]
+  },
+  {
+   "id": "E03M",
+   "name": "Scizor",
+   "legend": false,
+   "now": "Technician",
+   "new": "Technician",
+   "changed": false,
+   "normal": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden": [
+    "Light Metal"
+   ]
+  },
+  {
+   "id": "E03L",
+   "name": "Scyther",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Swarm",
+   "changed": false,
+   "normal": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden": [
+    "Steadfast"
+   ]
+  },
+  {
+   "id": "E03X",
+   "name": "Sylveon",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Cute Charm",
+   "changed": false,
+   "normal": [
+    "Cute Charm"
+   ],
+   "hidden": [
+    "Pixilate"
+   ]
+  },
+  {
+   "id": "E018",
+   "name": "Tauros",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "EN0K",
+   "name": "Absol",
+   "legend": false,
+   "now": "Super Luck",
+   "new": "Super Luck",
+   "changed": false,
+   "normal": [
+    "Pressure",
+    "Super Luck"
+   ],
+   "hidden": [
+    "Justified"
+   ]
+  },
+  {
+   "id": "EN0D",
+   "name": "Bagon",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E01N",
+   "name": "Caterpie",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Shield Dust",
+   "changed": true,
+   "normal": [
+    "Shield Dust"
+   ],
+   "hidden": [
+    "Run Away"
+   ]
+  },
+  {
+   "id": "E01S",
+   "name": "Dratini",
+   "legend": false,
+   "now": "Shed Skin",
+   "new": "Shed Skin",
+   "changed": false,
+   "normal": [
+    "Shed Skin"
+   ],
+   "hidden": [
+    "Marvel Scale"
+   ]
+  },
+  {
+   "id": "E03H",
+   "name": "Espeon",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize"
+   ],
+   "hidden": [
+    "Magic Bounce"
+   ]
+  },
+  {
+   "id": "E038",
+   "name": "Flareon",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Guts"
+   ]
+  },
+  {
+   "id": "E00N",
+   "name": "Geodude",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Sand Veil"
+   ]
+  },
+  {
+   "id": "E03T",
+   "name": "Glaceon",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Ice Body"
+   ]
+  },
+  {
+   "id": "E01E",
+   "name": "Jolteon",
+   "legend": false,
+   "now": "Volt Absorb",
+   "new": "Volt Absorb",
+   "changed": false,
+   "normal": [
+    "Volt Absorb"
+   ],
+   "hidden": [
+    "Quick Feet"
+   ]
+  },
+  {
+   "id": "E03P",
+   "name": "Kabuto",
+   "legend": false,
+   "now": "Battle Armor",
+   "new": "Battle Armor",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "E035",
+   "name": "Kabutops",
+   "legend": false,
+   "now": "Battle Armor",
+   "new": "Battle Armor",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "E02J",
+   "name": "Kakuna",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Shed Skin",
+   "changed": true,
+   "normal": [
+    "Shed Skin"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EN06",
+   "name": "Larvitar",
+   "legend": false,
+   "now": "Guts",
+   "new": "Guts",
+   "changed": false,
+   "normal": [
+    "Guts"
+   ],
+   "hidden": [
+    "Sand Veil"
+   ]
+  },
+  {
+   "id": "E010",
+   "name": "Machamp",
+   "legend": false,
+   "now": "Guts",
+   "new": "Guts",
+   "changed": false,
+   "normal": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": [
+    "Steadfast"
+   ]
+  },
+  {
+   "id": "E00Z",
+   "name": "Machoke",
+   "legend": false,
+   "now": "Guts",
+   "new": "Guts",
+   "changed": false,
+   "normal": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": [
+    "Steadfast"
+   ]
+  },
+  {
+   "id": "E00Y",
+   "name": "Machop",
+   "legend": false,
+   "now": "Guts",
+   "new": "Guts",
+   "changed": false,
+   "normal": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": [
+    "Steadfast"
+   ]
+  },
+  {
+   "id": "E02S",
+   "name": "Mankey",
+   "legend": false,
+   "now": "Anger Point",
+   "new": "Anger Point",
+   "changed": false,
+   "normal": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Defiant"
+   ]
+  },
+  {
+   "id": "EN0I",
+   "name": "Metagross",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Light Metal"
+   ]
+  },
+  {
+   "id": "E01P",
+   "name": "Metapod",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Shed Skin",
+   "changed": true,
+   "normal": [
+    "Shed Skin"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E03Q",
+   "name": "Omanyte",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "E03R",
+   "name": "Omastar",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "E03U",
+   "name": "Onix",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "E02T",
+   "name": "Primeape",
+   "legend": false,
+   "now": "Anger Point",
+   "new": "Anger Point",
+   "changed": false,
+   "normal": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Defiant"
+   ]
+  },
+  {
+   "id": "E02Z",
+   "name": "Rhydon",
+   "legend": false,
+   "now": "Lightning Rod",
+   "new": "Lightning Rod",
+   "changed": false,
+   "normal": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "E02Y",
+   "name": "Rhyhorn",
+   "legend": false,
+   "now": "Lightning Rod",
+   "new": "Lightning Rod",
+   "changed": false,
+   "normal": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "E00A",
+   "name": "Sandshrew",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil"
+   ],
+   "hidden": [
+    "Sand Rush"
+   ]
+  },
+  {
+   "id": "E00F",
+   "name": "Sandslash",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil"
+   ],
+   "hidden": [
+    "Sand Rush"
+   ]
+  },
+  {
+   "id": "E03V",
+   "name": "Steelix",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E03I",
+   "name": "Umbreon",
+   "legend": false,
+   "now": "Synchronize",
+   "new": "Synchronize",
+   "changed": false,
+   "normal": [
+    "Synchronize"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "E037",
+   "name": "Vaporeon",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb"
+   ],
+   "hidden": [
+    "Hydration"
+   ]
+  },
+  {
+   "id": "E02I",
+   "name": "Weedle",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Shield Dust",
+   "changed": true,
+   "normal": [
+    "Shield Dust"
+   ],
+   "hidden": [
+    "Run Away"
+   ]
+  },
+  {
+   "id": "E03S",
+   "name": "Leafleon",
+   "legend": false,
+   "now": "Leaf Guard",
+   "new": "Leaf Guard",
+   "changed": false,
+   "normal": [
+    "Leaf Guard"
+   ],
+   "hidden": [
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "E03E",
+   "name": "Magikarp",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim"
+   ],
+   "hidden": [
+    "Rattled"
+   ]
+  },
+  {
+   "id": "E040",
+   "name": "Mr.mime",
+   "legend": false,
+   "now": "Soundproof",
+   "new": "Soundproof",
+   "changed": false,
+   "normal": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden": [
+    "Technician"
+   ]
+  },
+  {
+   "id": "EN0C",
+   "name": "Gallade",
+   "legend": false,
+   "now": "Steadfast",
+   "new": "Steadfast",
+   "changed": false,
+   "normal": [
+    "Steadfast",
+    "Sharpness"
+   ],
+   "hidden": [
+    "Justified"
+   ]
+  },
+  {
+   "id": "E03F",
+   "name": "Gyarados",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate"
+   ],
+   "hidden": [
+    "Moxie"
+   ]
+  },
+  {
+   "id": "E02A",
+   "name": "Arceus",
+   "legend": false,
+   "now": "Multitype",
+   "new": "Multitype",
+   "changed": false,
+   "normal": [
+    "Multitype"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E04C",
+   "name": "Dialga",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "E04D",
+   "name": "Palkia",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "EL04",
+   "name": "Azelf",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P0JA",
+   "name": "Buzzwole",
+   "legend": true,
+   "now": "Beast Boost",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Beast Boost"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "PZZA",
+   "name": "Celebi",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Natural Cure"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL06",
+   "name": "Cresselia",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0F",
+   "name": "Diancie",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P1DA",
+   "name": "Entei",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Pressure",
+   "changed": true,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "EL0O",
+   "name": "Eternatus",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0B",
+   "name": "Genesect",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Download"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P4UA",
+   "name": "Groudon",
+   "legend": false,
+   "now": "Drought",
+   "new": "Drought",
+   "changed": false,
+   "normal": [
+    "Drought"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL05",
+   "name": "Heatran",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Flame Body"
+   ]
+  },
+  {
+   "id": "P1TA",
+   "name": "Ho-Oh",
+   "legend": true,
+   "now": "Regenerator",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "EL0G",
+   "name": "Hoopa",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Magician"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P1YA",
+   "name": "Hydreigon",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P20A",
+   "name": "Jigglypuff",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Cute Charm",
+   "changed": false,
+   "normal": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden": [
+    "Friend Guard"
+   ]
+  },
+  {
+   "id": "P21A",
+   "name": "Jirachi",
+   "legend": false,
+   "now": "Serene Grace",
+   "new": "Serene Grace",
+   "changed": false,
+   "normal": [
+    "Serene Grace"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P26A",
+   "name": "Kyogre",
+   "legend": true,
+   "now": "Drizzle",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Drizzle"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0A",
+   "name": "Kyurem",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "PV2A",
+   "name": "Latias & Latios",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0J",
+   "name": "Lunala",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Shadow Shield"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0L",
+   "name": "Magearna",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Soul-Heart"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P4XA",
+   "name": "Magneton",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "P2LA",
+   "name": "Magnezone",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "EL0M",
+   "name": "Marshadow",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Technician"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL03",
+   "name": "Mesprit",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P2UA",
+   "name": "Misdreavus",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P2VA",
+   "name": "Mismagius",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0K",
+   "name": "Necrozma",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Prism Armor"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P39A",
+   "name": "Raikou",
+   "legend": true,
+   "now": "Pressure",
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "EL00",
+   "name": "Regice",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Ice Body"
+   ]
+  },
+  {
+   "id": "E025",
+   "name": "Regigigas",
+   "legend": false,
+   "now": "Slow Start",
+   "new": "Slow Start",
+   "changed": false,
+   "normal": [
+    "Slow Start"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P3BA",
+   "name": "Regirock",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Clear Body",
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Sturdy"
+   ]
+  },
+  {
+   "id": "EL01",
+   "name": "Registeel",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Clear Body"
+   ],
+   "hidden": [
+    "Light Metal"
+   ]
+  },
+  {
+   "id": "EL08",
+   "name": "Reshiram",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Turboblaze"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0I",
+   "name": "Solgaleo",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Full Metal Body"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P3XA",
+   "name": "Suicune",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Pressure",
+   "changed": true,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "EL02",
+   "name": "Uxie",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL07",
+   "name": "Victini",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Victory Star"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0H",
+   "name": "Volcanion",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Water Absorb"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P4IA",
+   "name": "Wigglytuff",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Cute Charm",
+   "changed": false,
+   "normal": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden": [
+    "Frisk"
+   ]
+  },
+  {
+   "id": "EL0C",
+   "name": "Xerneas",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Fairy Aura"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0D",
+   "name": "Yveltal",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Dark Aura"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0N",
+   "name": "Zacian",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Intrepid Sword"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL09",
+   "name": "Zekrom",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Teravolt"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "EL0E",
+   "name": "Zygarde",
+   "legend": true,
+   "now": null,
+   "new": null,
+   "changed": false,
+   "normal": [
+    "Aura Break"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E01C",
+   "name": "Arcanine",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Justified"
+   ]
+  },
+  {
+   "id": "EN02",
+   "name": "Blaziken",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Speed Boost"
+   ]
+  },
+  {
+   "id": "E008",
+   "name": "Bulbasaur",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "E003",
+   "name": "Charmander",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Solar Power"
+   ]
+  },
+  {
+   "id": "EP0L",
+   "name": "Chespin",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Bulletproof"
+   ]
+  },
+  {
+   "id": "EP09",
+   "name": "Chimchar",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Iron Fist"
+   ]
+  },
+  {
+   "id": "EP0Q",
+   "name": "Delphox",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Magician"
+   ]
+  },
+  {
+   "id": "EP0K",
+   "name": "Emboar",
+   "legend": false,
+   "now": "Reckless",
+   "new": "Blaze",
+   "changed": true,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "E02U",
+   "name": "Exeggcute",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Harvest"
+   ]
+  },
+  {
+   "id": "E02W",
+   "name": "Exeggutor",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Harvest"
+   ]
+  },
+  {
+   "id": "EP0O",
+   "name": "Fennekin",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Magician"
+   ]
+  },
+  {
+   "id": "E00O",
+   "name": "Graveler",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Sand Veil"
+   ]
+  },
+  {
+   "id": "E02F",
+   "name": "Growlithe",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Justified"
+   ]
+  },
+  {
+   "id": "EP0W",
+   "name": "Incineroar",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Blaze",
+   "changed": true,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Intimidate"
+   ]
+  },
+  {
+   "id": "EP0B",
+   "name": "Infernape",
+   "legend": false,
+   "now": "Iron Fist",
+   "new": "Blaze",
+   "changed": true,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Iron Fist"
+   ]
+  },
+  {
+   "id": "E03D",
+   "name": "Kingler",
+   "legend": false,
+   "now": "Hyper Cutter",
+   "new": "Hyper Cutter",
+   "changed": false,
+   "normal": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E03C",
+   "name": "Krabby",
+   "legend": false,
+   "now": "Hyper Cutter",
+   "new": "Hyper Cutter",
+   "changed": false,
+   "normal": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "EP0U",
+   "name": "Litten",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Intimidate"
+   ]
+  },
+  {
+   "id": "E01J",
+   "name": "Nidoking",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Poison Point",
+   "changed": false,
+   "normal": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "E01L",
+   "name": "Nidorino",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Poison Point",
+   "changed": false,
+   "normal": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": [
+    "Hustle"
+   ]
+  },
+  {
+   "id": "E04P",
+   "name": "Ninetales",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Drought"
+   ]
+  },
+  {
+   "id": "E01B",
+   "name": "Ponyta",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Run Away",
+   "changed": true,
+   "normal": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Flame Body"
+   ]
+  },
+  {
+   "id": "EN07",
+   "name": "Pupitar",
+   "legend": false,
+   "now": "Shed Skin",
+   "new": "Shed Skin",
+   "changed": false,
+   "normal": [
+    "Shed Skin"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E01H",
+   "name": "Rapidash",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Run Away",
+   "changed": true,
+   "normal": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Flame Body"
+   ]
+  },
+  {
+   "id": "EP0F",
+   "name": "Snivy",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Contrary"
+   ]
+  },
+  {
+   "id": "EP0I",
+   "name": "Tepig",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Thick Fat"
+   ]
+  },
+  {
+   "id": "EN00",
+   "name": "Torchic",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Speed Boost"
+   ]
+  },
+  {
+   "id": "EN03",
+   "name": "Treecko",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Unburden"
+   ]
+  },
+  {
+   "id": "EP06",
+   "name": "Turtwig",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Shell Armor"
+   ]
+  },
+  {
+   "id": "E04O",
+   "name": "Vulpix",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Drought"
+   ]
+  },
+  {
+   "id": "P00A",
+   "name": "Abomasnow",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Snow Warning",
+   "changed": true,
+   "normal": [
+    "Snow Warning"
+   ],
+   "hidden": [
+    "Soundproof"
+   ]
+  },
+  {
+   "id": "P4QA",
+   "name": "Aegislash",
+   "legend": false,
+   "now": "Clear Body",
+   "new": "Stance Change",
+   "changed": true,
+   "normal": [
+    "Stance Change"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P02A",
+   "name": "Aerodactyl",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Pressure"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P03A",
+   "name": "Alolan-Geodude",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Galvanize"
+   ]
+  },
+  {
+   "id": "P04A",
+   "name": "Alolan-Golem",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Galvanize"
+   ]
+  },
+  {
+   "id": "P05A",
+   "name": "Alolan-Graveler",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Galvanize"
+   ]
+  },
+  {
+   "id": "P06A",
+   "name": "Alolan-Raichu",
+   "legend": false,
+   "now": "Static",
+   "new": "Surge Surfer",
+   "changed": true,
+   "normal": [
+    "Surge Surfer"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P4MA",
+   "name": "Alolan-Sandshrew",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Slush Rush"
+   ]
+  },
+  {
+   "id": "P4NA",
+   "name": "Alolan-Sandslash",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Slush Rush"
+   ]
+  },
+  {
+   "id": "P08A",
+   "name": "Ampharos",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Plus"
+   ]
+  },
+  {
+   "id": "P09A",
+   "name": "Arbok",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P0BA",
+   "name": "Baltoy",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P0CA",
+   "name": "Bayleef",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Leaf Guard"
+   ]
+  },
+  {
+   "id": "P0EA",
+   "name": "Bellossom",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Healer"
+   ]
+  },
+  {
+   "id": "P4SA",
+   "name": "Bisharp",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Defiant",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Pressure"
+   ]
+  },
+  {
+   "id": "P0GA",
+   "name": "Blissey",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden": [
+    "Healer"
+   ]
+  },
+  {
+   "id": "P0HA",
+   "name": "Bonsly",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Rattled"
+   ]
+  },
+  {
+   "id": "P0IA",
+   "name": "Breloom",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Effect Spore",
+   "changed": true,
+   "normal": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden": [
+    "Technician"
+   ]
+  },
+  {
+   "id": "P0KA",
+   "name": "Carvanha",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Rough Skin",
+   "changed": true,
+   "normal": [
+    "Rough Skin"
+   ],
+   "hidden": [
+    "Speed Boost"
+   ]
+  },
+  {
+   "id": "P0LA",
+   "name": "Chandelure",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "P0MA",
+   "name": "Chansey",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden": [
+    "Healer"
+   ]
+  },
+  {
+   "id": "P0NA",
+   "name": "Chikorita",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Leaf Guard"
+   ]
+  },
+  {
+   "id": "P0OA",
+   "name": "Chinchou",
+   "legend": false,
+   "now": "Volt Absorb",
+   "new": "Volt Absorb",
+   "changed": false,
+   "normal": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden": [
+    "Water Absorb"
+   ]
+  },
+  {
+   "id": "P0PA",
+   "name": "Claydol",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P0QA",
+   "name": "Clefable",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Cute Charm",
+   "changed": false,
+   "normal": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden": [
+    "Unaware"
+   ]
+  },
+  {
+   "id": "P0RA",
+   "name": "Clefairy",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Cute Charm",
+   "changed": false,
+   "normal": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden": [
+    "Friend Guard"
+   ]
+  },
+  {
+   "id": "P0TA",
+   "name": "Cradily",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Suction Cups",
+   "changed": true,
+   "normal": [
+    "Suction Cups"
+   ],
+   "hidden": [
+    "Storm Drain"
+   ]
+  },
+  {
+   "id": "P0UA",
+   "name": "Croagunk",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Anticipation",
+   "changed": true,
+   "normal": [
+    "Anticipation",
+    "Dry Skin"
+   ],
+   "hidden": [
+    "Poison Touch"
+   ]
+  },
+  {
+   "id": "P0VA",
+   "name": "Cubone",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden": [
+    "Battle Armor"
+   ]
+  },
+  {
+   "id": "P0WA",
+   "name": "Cyndaquil",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Flash Fire"
+   ]
+  },
+  {
+   "id": "P0XA",
+   "name": "Darmanitan",
+   "legend": false,
+   "now": "Zen Mode",
+   "new": "Sheer Force",
+   "changed": true,
+   "normal": [
+    "Sheer Force"
+   ],
+   "hidden": [
+    "Zen Mode"
+   ]
+  },
+  {
+   "id": "P0YA",
+   "name": "Darumaka",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Hustle",
+   "changed": true,
+   "normal": [
+    "Hustle"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "P0ZA",
+   "name": "Deino",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Hustle",
+   "changed": true,
+   "normal": [
+    "Hustle"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P10A",
+   "name": "Dewgong",
+   "legend": false,
+   "now": "Thick Fat",
+   "new": "Thick Fat",
+   "changed": false,
+   "normal": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden": [
+    "Ice Body"
+   ]
+  },
+  {
+   "id": "P11A",
+   "name": "Diglett",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden": [
+    "Sand Force"
+   ]
+  },
+  {
+   "id": "P12A",
+   "name": "Ditto",
+   "legend": false,
+   "now": "Run Away",
+   "new": "Limber",
+   "changed": true,
+   "normal": [
+    "Limber"
+   ],
+   "hidden": [
+    "Imposter"
+   ]
+  },
+  {
+   "id": "P4PA",
+   "name": "Doublade",
+   "legend": false,
+   "now": "No Guard",
+   "new": "No Guard",
+   "changed": false,
+   "normal": [
+    "No Guard"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P13A",
+   "name": "Drowzee",
+   "legend": false,
+   "now": "Insomnia",
+   "new": "Insomnia",
+   "changed": false,
+   "normal": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "P14A",
+   "name": "Dugtrio",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden": [
+    "Sand Force"
+   ]
+  },
+  {
+   "id": "P15A",
+   "name": "Dusclops",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Pressure",
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Frisk"
+   ]
+  },
+  {
+   "id": "P16A",
+   "name": "Dusknoir",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Pressure",
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Frisk"
+   ]
+  },
+  {
+   "id": "P17A",
+   "name": "Duskull",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": [
+    "Frisk"
+   ]
+  },
+  {
+   "id": "P4VA",
+   "name": "Eevee",
+   "legend": false,
+   "now": "Adaptability",
+   "new": "Adaptability",
+   "changed": false,
+   "normal": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden": [
+    "Anticipation"
+   ]
+  },
+  {
+   "id": "P18A",
+   "name": "Ekans",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P19A",
+   "name": "Electabuzz",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P1AA",
+   "name": "Electivire",
+   "legend": false,
+   "now": "Static",
+   "new": "Motor Drive",
+   "changed": true,
+   "normal": [
+    "Motor Drive"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P1BA",
+   "name": "Electrike",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden": [
+    "Minus"
+   ]
+  },
+  {
+   "id": "P1CA",
+   "name": "Elekid",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P1EA",
+   "name": "Farfetch'd",
+   "legend": false,
+   "now": "Keen Eye",
+   "new": "Keen Eye",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Defiant"
+   ]
+  },
+  {
+   "id": "P1FA",
+   "name": "Feebas",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Oblivious"
+   ],
+   "hidden": [
+    "Adaptability"
+   ]
+  },
+  {
+   "id": "P1GA",
+   "name": "Flaaffy",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Plus"
+   ]
+  },
+  {
+   "id": "P1HA",
+   "name": "Flygon",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P1IA",
+   "name": "Gabite",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil"
+   ],
+   "hidden": [
+    "Rough Skin"
+   ]
+  },
+  {
+   "id": "P1KA",
+   "name": "Galvantula",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Compound Eyes",
+   "changed": false,
+   "normal": [
+    "Compound Eyes",
+    "Unnerve"
+   ],
+   "hidden": [
+    "Swarm"
+   ]
+  },
+  {
+   "id": "P1LA",
+   "name": "Garchomp",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil"
+   ],
+   "hidden": [
+    "Rough Skin"
+   ]
+  },
+  {
+   "id": "P1NA",
+   "name": "Gible",
+   "legend": false,
+   "now": "Sand Veil",
+   "new": "Sand Veil",
+   "changed": false,
+   "normal": [
+    "Sand Veil"
+   ],
+   "hidden": [
+    "Rough Skin"
+   ]
+  },
+  {
+   "id": "P1OA",
+   "name": "Gloom",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Stench"
+   ]
+  },
+  {
+   "id": "P1PA",
+   "name": "Golduck",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Damp",
+   "changed": true,
+   "normal": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "P1QA",
+   "name": "Granbull",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Quick Feet"
+   ],
+   "hidden": [
+    "Rattled"
+   ]
+  },
+  {
+   "id": "P1SA",
+   "name": "Heracross",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Swarm",
+   "changed": false,
+   "normal": [
+    "Swarm",
+    "Guts"
+   ],
+   "hidden": [
+    "Moxie"
+   ]
+  },
+  {
+   "id": "P4OA",
+   "name": "Honedge",
+   "legend": false,
+   "now": "No Guard",
+   "new": "No Guard",
+   "changed": false,
+   "normal": [
+    "No Guard"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P1UA",
+   "name": "Hoothoot",
+   "legend": false,
+   "now": "Insomnia",
+   "new": "Insomnia",
+   "changed": false,
+   "normal": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden": [
+    "Tinted Lens"
+   ]
+  },
+  {
+   "id": "P1VA",
+   "name": "Horsea",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "P1WA",
+   "name": "Houndoom",
+   "legend": false,
+   "now": "Early Bird",
+   "new": "Early Bird",
+   "changed": false,
+   "normal": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P1XA",
+   "name": "Houndour",
+   "legend": false,
+   "now": "Early Bird",
+   "new": "Early Bird",
+   "changed": false,
+   "normal": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P1ZA",
+   "name": "Hypno",
+   "legend": false,
+   "now": "Insomnia",
+   "new": "Insomnia",
+   "changed": false,
+   "normal": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden": [
+    "Inner Focus"
+   ]
+  },
+  {
+   "id": "P22A",
+   "name": "Joltik",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Compound Eyes",
+   "changed": false,
+   "normal": [
+    "Compound Eyes",
+    "Unnerve"
+   ],
+   "hidden": [
+    "Swarm"
+   ]
+  },
+  {
+   "id": "P23A",
+   "name": "Jynx",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Oblivious",
+   "changed": true,
+   "normal": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden": [
+    "Dry Skin"
+   ]
+  },
+  {
+   "id": "P4TA",
+   "name": "Kingambit",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Defiant",
+   "changed": true,
+   "normal": [
+    "Defiant",
+    "Supreme Overlord"
+   ],
+   "hidden": [
+    "Pressure"
+   ]
+  },
+  {
+   "id": "P24A",
+   "name": "Kingdra",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "P27A",
+   "name": "Lampent",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "P28A",
+   "name": "Lanturn",
+   "legend": false,
+   "now": "Volt Absorb",
+   "new": "Volt Absorb",
+   "changed": false,
+   "normal": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden": [
+    "Water Absorb"
+   ]
+  },
+  {
+   "id": "P29A",
+   "name": "Lapras",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Shell Armor"
+   ],
+   "hidden": [
+    "Hydration"
+   ]
+  },
+  {
+   "id": "P2BA",
+   "name": "Leafeon",
+   "legend": false,
+   "now": "Leaf Guard",
+   "new": "Leaf Guard",
+   "changed": false,
+   "normal": [
+    "Leaf Guard"
+   ],
+   "hidden": [
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "P2CA",
+   "name": "Lileep",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Suction Cups",
+   "changed": true,
+   "normal": [
+    "Suction Cups"
+   ],
+   "hidden": [
+    "Storm Drain"
+   ]
+  },
+  {
+   "id": "P2DA",
+   "name": "Litwick",
+   "legend": false,
+   "now": "Flash Fire",
+   "new": "Flash Fire",
+   "changed": false,
+   "normal": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "P2EA",
+   "name": "Lombre",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": [
+    "Own Tempo"
+   ]
+  },
+  {
+   "id": "P2FA",
+   "name": "Lotad",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": [
+    "Own Tempo"
+   ]
+  },
+  {
+   "id": "P2GA",
+   "name": "Ludicolo",
+   "legend": false,
+   "now": "Swift Swim",
+   "new": "Swift Swim",
+   "changed": false,
+   "normal": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": [
+    "Own Tempo"
+   ]
+  },
+  {
+   "id": "P2HA",
+   "name": "Magby",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Flame Body",
+   "changed": false,
+   "normal": [
+    "Flame Body"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P2IA",
+   "name": "Magcargo",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Flame Body",
+   "changed": false,
+   "normal": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "P2JA",
+   "name": "Magmar",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Flame Body",
+   "changed": false,
+   "normal": [
+    "Flame Body"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P2KA",
+   "name": "Magmortar",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Flame Body",
+   "changed": false,
+   "normal": [
+    "Flame Body"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P4WA",
+   "name": "Magnemite",
+   "legend": false,
+   "now": "Magnet Pull",
+   "new": "Magnet Pull",
+   "changed": false,
+   "normal": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "P2MA",
+   "name": "Mamoswine",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Thick Fat"
+   ]
+  },
+  {
+   "id": "P2NA",
+   "name": "Manectric",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden": [
+    "Minus"
+   ]
+  },
+  {
+   "id": "P2OA",
+   "name": "Mareep",
+   "legend": false,
+   "now": "Static",
+   "new": "Static",
+   "changed": false,
+   "normal": [
+    "Static"
+   ],
+   "hidden": [
+    "Plus"
+   ]
+  },
+  {
+   "id": "P2PA",
+   "name": "Marowak",
+   "legend": false,
+   "now": "Rock Head",
+   "new": "Rock Head",
+   "changed": false,
+   "normal": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden": [
+    "Battle Armor"
+   ]
+  },
+  {
+   "id": "PV0A",
+   "name": "Meganium",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Overgrow",
+   "changed": false,
+   "normal": [
+    "Overgrow"
+   ],
+   "hidden": [
+    "Leaf Guard"
+   ]
+  },
+  {
+   "id": "P2QA",
+   "name": "Meowth",
+   "legend": false,
+   "now": "Technician",
+   "new": "Technician",
+   "changed": false,
+   "normal": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P2TA",
+   "name": "Milotic",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Competitive",
+   "changed": true,
+   "normal": [
+    "Marvel Scale",
+    "Competitive"
+   ],
+   "hidden": [
+    "Cute Charm"
+   ]
+  },
+  {
+   "id": "P2WA",
+   "name": "Mr. Mime",
+   "legend": false,
+   "now": "Soundproof",
+   "new": "Soundproof",
+   "changed": false,
+   "normal": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden": [
+    "Technician"
+   ]
+  },
+  {
+   "id": "P2XA",
+   "name": "Nincada",
+   "legend": false,
+   "now": "Compound Eyes",
+   "new": "Compound Eyes",
+   "changed": false,
+   "normal": [
+    "Compound Eyes"
+   ],
+   "hidden": [
+    "Run Away"
+   ]
+  },
+  {
+   "id": "P2YA",
+   "name": "Ninjask",
+   "legend": false,
+   "now": "Speed Boost",
+   "new": "Speed Boost",
+   "changed": false,
+   "normal": [
+    "Speed Boost"
+   ],
+   "hidden": [
+    "Infiltrator"
+   ]
+  },
+  {
+   "id": "P2ZA",
+   "name": "Noctowl",
+   "legend": false,
+   "now": "Insomnia",
+   "new": "Insomnia",
+   "changed": false,
+   "normal": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden": [
+    "Tinted Lens"
+   ]
+  },
+  {
+   "id": "P30A",
+   "name": "Oddish",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Run Away"
+   ]
+  },
+  {
+   "id": "P4RA",
+   "name": "Pawniard",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Defiant",
+    "Inner Focus"
+   ],
+   "hidden": [
+    "Pressure"
+   ]
+  },
+  {
+   "id": "P31A",
+   "name": "Persian",
+   "legend": false,
+   "now": "Technician",
+   "new": "Technician",
+   "changed": false,
+   "normal": [
+    "Limber",
+    "Technician"
+   ],
+   "hidden": [
+    "Unnerve"
+   ]
+  },
+  {
+   "id": "P32A",
+   "name": "Piloswine",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Thick Fat"
+   ]
+  },
+  {
+   "id": "P34A",
+   "name": "Politoed",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Drizzle"
+   ]
+  },
+  {
+   "id": "P4YA",
+   "name": "Poliwag",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "P4ZA",
+   "name": "Poliwhirl",
+   "legend": false,
+   "now": "Water Absorb",
+   "new": "Water Absorb",
+   "changed": false,
+   "normal": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "P35A",
+   "name": "Porygon",
+   "legend": false,
+   "now": "Trace",
+   "new": "Trace",
+   "changed": false,
+   "normal": [
+    "Trace",
+    "Download"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "PV1A",
+   "name": "Porygon2",
+   "legend": false,
+   "now": "Trace",
+   "new": "Trace",
+   "changed": false,
+   "normal": [
+    "Trace",
+    "Download"
+   ],
+   "hidden": [
+    "Analytic"
+   ]
+  },
+  {
+   "id": "P36A",
+   "name": "Psyduck",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Damp",
+   "changed": true,
+   "normal": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden": [
+    "Swift Swim"
+   ]
+  },
+  {
+   "id": "P38A",
+   "name": "Quilava",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Flash Fire"
+   ]
+  },
+  {
+   "id": "P51A",
+   "name": "Rhydon",
+   "legend": false,
+   "now": "Lightning Rod",
+   "new": "Lightning Rod",
+   "changed": false,
+   "normal": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "P50A",
+   "name": "Rhyhorn",
+   "legend": false,
+   "now": "Lightning Rod",
+   "new": "Lightning Rod",
+   "changed": false,
+   "normal": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "P3CA",
+   "name": "Rhyperior",
+   "legend": false,
+   "now": "Lightning Rod",
+   "new": "Lightning Rod",
+   "changed": false,
+   "normal": [
+    "Lightning Rod",
+    "Solid Rock"
+   ],
+   "hidden": [
+    "Reckless"
+   ]
+  },
+  {
+   "id": "P3DA",
+   "name": "Sableye",
+   "legend": false,
+   "now": "Keen Eye",
+   "new": "Keen Eye",
+   "changed": false,
+   "normal": [
+    "Keen Eye",
+    "Stall"
+   ],
+   "hidden": [
+    "Prankster"
+   ]
+  },
+  {
+   "id": "P3GA",
+   "name": "Seadra",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Poison Point",
+   "changed": false,
+   "normal": [
+    "Poison Point",
+    "Sniper"
+   ],
+   "hidden": [
+    "Damp"
+   ]
+  },
+  {
+   "id": "P3HA",
+   "name": "Seel",
+   "legend": false,
+   "now": "Thick Fat",
+   "new": "Thick Fat",
+   "changed": false,
+   "normal": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden": [
+    "Ice Body"
+   ]
+  },
+  {
+   "id": "P3IA",
+   "name": "Sharpedo",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Rough Skin",
+   "changed": true,
+   "normal": [
+    "Rough Skin"
+   ],
+   "hidden": [
+    "Speed Boost"
+   ]
+  },
+  {
+   "id": "P3JA",
+   "name": "Shedinja",
+   "legend": false,
+   "now": "Swarm",
+   "new": "Wonder Guard",
+   "changed": true,
+   "normal": [
+    "Wonder Guard"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P3LA",
+   "name": "Shroomish",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Effect Spore",
+   "changed": true,
+   "normal": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden": [
+    "Quick Feet"
+   ]
+  },
+  {
+   "id": "P3MA",
+   "name": "Sirfetch'd",
+   "legend": false,
+   "now": "Steadfast",
+   "new": "Steadfast",
+   "changed": false,
+   "normal": [
+    "Steadfast"
+   ],
+   "hidden": [
+    "Scrappy"
+   ]
+  },
+  {
+   "id": "P3NA",
+   "name": "Slowbro",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Oblivious",
+   "changed": true,
+   "normal": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "P3OA",
+   "name": "Slowking",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Oblivious",
+   "changed": true,
+   "normal": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "P3PA",
+   "name": "Slowpoke",
+   "legend": false,
+   "now": "Torrent",
+   "new": "Oblivious",
+   "changed": true,
+   "normal": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "P3QA",
+   "name": "Slugma",
+   "legend": false,
+   "now": "Flame Body",
+   "new": "Flame Body",
+   "changed": false,
+   "normal": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden": [
+    "Weak Armor"
+   ]
+  },
+  {
+   "id": "P3RA",
+   "name": "Smoochum",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Oblivious",
+   "changed": true,
+   "normal": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden": [
+    "Hydration"
+   ]
+  },
+  {
+   "id": "P3SA",
+   "name": "Sneasel",
+   "legend": false,
+   "now": "Inner Focus",
+   "new": "Inner Focus",
+   "changed": false,
+   "normal": [
+    "Inner Focus",
+    "Keen Eye"
+   ],
+   "hidden": [
+    "Pickpocket"
+   ]
+  },
+  {
+   "id": "P3TA",
+   "name": "Snorlax",
+   "legend": false,
+   "now": "Thick Fat",
+   "new": "Thick Fat",
+   "changed": false,
+   "normal": [
+    "Immunity",
+    "Thick Fat"
+   ],
+   "hidden": [
+    "Gluttony"
+   ]
+  },
+  {
+   "id": "P3UA",
+   "name": "Snover",
+   "legend": false,
+   "now": "Overgrow",
+   "new": "Snow Warning",
+   "changed": true,
+   "normal": [
+    "Snow Warning"
+   ],
+   "hidden": [
+    "Soundproof"
+   ]
+  },
+  {
+   "id": "P3VA",
+   "name": "Snubbull",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Run Away"
+   ],
+   "hidden": [
+    "Rattled"
+   ]
+  },
+  {
+   "id": "P3WA",
+   "name": "Sudowoodo",
+   "legend": false,
+   "now": "Sturdy",
+   "new": "Sturdy",
+   "changed": false,
+   "normal": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": [
+    "Rattled"
+   ]
+  },
+  {
+   "id": "P3YA",
+   "name": "Swablu",
+   "legend": false,
+   "now": "Natural Cure",
+   "new": "Natural Cure",
+   "changed": false,
+   "normal": [
+    "Natural Cure"
+   ],
+   "hidden": [
+    "Cloud Nine"
+   ]
+  },
+  {
+   "id": "P3ZA",
+   "name": "Swinub",
+   "legend": false,
+   "now": "Snow Cloak",
+   "new": "Snow Cloak",
+   "changed": false,
+   "normal": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": [
+    "Thick Fat"
+   ]
+  },
+  {
+   "id": "P40A",
+   "name": "Tangela",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "P41A",
+   "name": "Tangrowth",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": [
+    "Regenerator"
+   ]
+  },
+  {
+   "id": "P42A",
+   "name": "Tauros Aqua",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Cud Chew"
+   ]
+  },
+  {
+   "id": "P43A",
+   "name": "Tauros Blaze",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Cud Chew"
+   ]
+  },
+  {
+   "id": "P44A",
+   "name": "Tauros Combat",
+   "legend": false,
+   "now": "Intimidate",
+   "new": "Intimidate",
+   "changed": false,
+   "normal": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": [
+    "Cud Chew"
+   ]
+  },
+  {
+   "id": "P45A",
+   "name": "Togekiss",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Serene Grace",
+   "changed": true,
+   "normal": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": [
+    "Super Luck"
+   ]
+  },
+  {
+   "id": "P46A",
+   "name": "Togepi",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Serene Grace",
+   "changed": true,
+   "normal": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": [
+    "Super Luck"
+   ]
+  },
+  {
+   "id": "P47A",
+   "name": "Togetic",
+   "legend": false,
+   "now": "Cute Charm",
+   "new": "Serene Grace",
+   "changed": true,
+   "normal": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": [
+    "Super Luck"
+   ]
+  },
+  {
+   "id": "P49A",
+   "name": "Torkoal",
+   "legend": false,
+   "now": "Drought",
+   "new": "Drought",
+   "changed": false,
+   "normal": [
+    "White Smoke",
+    "Drought"
+   ],
+   "hidden": [
+    "Shell Armor"
+   ]
+  },
+  {
+   "id": "P4AA",
+   "name": "Toxicroak",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Anticipation",
+   "changed": true,
+   "normal": [
+    "Anticipation",
+    "Dry Skin"
+   ],
+   "hidden": [
+    "Poison Touch"
+   ]
+  },
+  {
+   "id": "P4BA",
+   "name": "Trapinch",
+   "legend": false,
+   "now": "Hyper Cutter",
+   "new": "Hyper Cutter",
+   "changed": false,
+   "normal": [
+    "Hyper Cutter",
+    "Arena Trap"
+   ],
+   "hidden": [
+    "Sheer Force"
+   ]
+  },
+  {
+   "id": "P4DA",
+   "name": "Typhlosion",
+   "legend": false,
+   "now": "Blaze",
+   "new": "Blaze",
+   "changed": false,
+   "normal": [
+    "Blaze"
+   ],
+   "hidden": [
+    "Flash Fire"
+   ]
+  },
+  {
+   "id": "P4EA",
+   "name": "Tyrogue",
+   "legend": false,
+   "now": "Guts",
+   "new": "Guts",
+   "changed": false,
+   "normal": [
+    "Guts",
+    "Steadfast"
+   ],
+   "hidden": [
+    "Vital Spirit"
+   ]
+  },
+  {
+   "id": "P4FA",
+   "name": "Vibrava",
+   "legend": false,
+   "now": "Levitate",
+   "new": "Levitate",
+   "changed": false,
+   "normal": [
+    "Levitate"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "P4GA",
+   "name": "Vileplume",
+   "legend": false,
+   "now": "Chlorophyll",
+   "new": "Chlorophyll",
+   "changed": false,
+   "normal": [
+    "Chlorophyll"
+   ],
+   "hidden": [
+    "Effect Spore"
+   ]
+  },
+  {
+   "id": "P4HA",
+   "name": "Weavile",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Pressure",
+   "changed": false,
+   "normal": [
+    "Pressure"
+   ],
+   "hidden": [
+    "Pickpocket"
+   ]
+  },
+  {
+   "id": "P4JA",
+   "name": "Wobbuffet",
+   "legend": false,
+   "now": "Shadow Tag",
+   "new": "Shadow Tag",
+   "changed": false,
+   "normal": [
+    "Shadow Tag"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "P4KA",
+   "name": "Wynaut",
+   "legend": false,
+   "now": "Shadow Tag",
+   "new": "Shadow Tag",
+   "changed": false,
+   "normal": [
+    "Shadow Tag"
+   ],
+   "hidden": [
+    "Telepathy"
+   ]
+  },
+  {
+   "id": "P4LA",
+   "name": "Zweilous",
+   "legend": false,
+   "now": "Pressure",
+   "new": "Hustle",
+   "changed": true,
+   "normal": [
+    "Hustle"
+   ],
+   "hidden": []
+  },
+  {
+   "id": "E01M",
+   "name": "Nidoran",
+   "legend": false,
+   "now": "Poison Point",
+   "new": "Poison Point",
+   "changed": false,
+   "normal": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": [
+    "Hustle"
+   ]
+  }
+ ],
+ "summary": {
+  "abilities": 131,
+  "with_code": 65,
+  "new": 66,
+  "heroes": 360,
+  "legend_system": 37,
+  "default_changed": 46,
+  "rework": 96,
+  "round3": 53
+ }
+}

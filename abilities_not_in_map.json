@@ -1,0 +1,920 @@
+[
+  {
+    "name": "Aftermath",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Electrode",
+      "Voltorb"
+    ]
+  },
+  {
+    "name": "Analytic",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Magneton",
+      "Magnezone",
+      "Magnemite",
+      "Porygon2"
+    ]
+  },
+  {
+    "name": "Anticipation",
+    "normal_count": 2,
+    "normal_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Eevee"
+    ]
+  },
+  {
+    "name": "Arena Trap",
+    "normal_count": 3,
+    "normal_examples": [
+      "Diglett",
+      "Dugtrio",
+      "Trapinch"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Big Pecks",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Pidgeot",
+      "Pidgeotto",
+      "Pidgey"
+    ]
+  },
+  {
+    "name": "Bulletproof",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Chespin",
+      "Chesnaught",
+      "Quilladin"
+    ]
+  },
+  {
+    "name": "Cloud Nine",
+    "normal_count": 2,
+    "normal_examples": [
+      "Golduck",
+      "Psyduck"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Altaria",
+      "Swablu"
+    ]
+  },
+  {
+    "name": "Contrary",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Serperior",
+      "Servine",
+      "Snivy"
+    ]
+  },
+  {
+    "name": "Cud Chew",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Tauros Aqua",
+      "Tauros Blaze",
+      "Tauros Combat"
+    ]
+  },
+  {
+    "name": "Cursed Body",
+    "normal_count": 1,
+    "normal_examples": [
+      "Gengar"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Damp",
+    "normal_count": 6,
+    "normal_examples": [
+      "Golduck",
+      "Politoed",
+      "Poliwhirl",
+      "Poliwag"
+    ],
+    "hidden_count": 6,
+    "hidden_examples": [
+      "Horsea",
+      "Kingdra",
+      "Mudkip",
+      "Marshtomp"
+    ]
+  },
+  {
+    "name": "Download",
+    "normal_count": 2,
+    "normal_examples": [
+      "Porygon2",
+      "Porygon"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Dry Skin",
+    "normal_count": 2,
+    "normal_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Jynx"
+    ]
+  },
+  {
+    "name": "Effect Spore",
+    "normal_count": 2,
+    "normal_examples": [
+      "Breloom",
+      "Shroomish"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Vileplume"
+    ]
+  },
+  {
+    "name": "Filter",
+    "normal_count": 2,
+    "normal_examples": [
+      "Mr. Mime",
+      "Mr.mime"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Forewarn",
+    "normal_count": 4,
+    "normal_examples": [
+      "Drowzee",
+      "Jynx",
+      "Hypno",
+      "Smoochum"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Friend Guard",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Clefairy",
+      "Jigglypuff"
+    ]
+  },
+  {
+    "name": "Frisk",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Duskull",
+      "Dusknoir",
+      "Dusclops",
+      "Wigglytuff"
+    ]
+  },
+  {
+    "name": "Galvanize",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Alolan-Golem",
+      "Alolan-Graveler",
+      "Alolan-Geodude"
+    ]
+  },
+  {
+    "name": "Gluttony",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Bellsprout",
+      "Snorlax",
+      "Victreebel",
+      "Weepinbell"
+    ]
+  },
+  {
+    "name": "Harvest",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Exeggcute",
+      "Exeggutor"
+    ]
+  },
+  {
+    "name": "Healer",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Bellossom",
+      "Blissey",
+      "Chansey"
+    ]
+  },
+  {
+    "name": "Hustle",
+    "normal_count": 6,
+    "normal_examples": [
+      "Deino",
+      "Darumaka",
+      "Togekiss",
+      "Togetic"
+    ],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Nidorino",
+      "Nidoran",
+      "Rattata",
+      "Raticate"
+    ]
+  },
+  {
+    "name": "Hydration",
+    "normal_count": 2,
+    "normal_examples": [
+      "Dewgong",
+      "Seel"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Lapras",
+      "Smoochum",
+      "Vaporeon"
+    ]
+  },
+  {
+    "name": "Ice Body",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Dewgong",
+      "Glaceon",
+      "Seel"
+    ]
+  },
+  {
+    "name": "Illuminate",
+    "normal_count": 4,
+    "normal_examples": [
+      "Chinchou",
+      "Lanturn",
+      "Starmie",
+      "Staryu"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Immunity",
+    "normal_count": 1,
+    "normal_examples": [
+      "Snorlax"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Imposter",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Ditto"
+    ]
+  },
+  {
+    "name": "Infiltrator",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Chandelure",
+      "Golbat",
+      "Crobat",
+      "Lampent"
+    ]
+  },
+  {
+    "name": "Justified",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Arcanine",
+      "Absol",
+      "Growlithe",
+      "Gallade"
+    ]
+  },
+  {
+    "name": "Light Metal",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Beldum",
+      "Metagross",
+      "Metang",
+      "Scizor"
+    ]
+  },
+  {
+    "name": "Limber",
+    "normal_count": 3,
+    "normal_examples": [
+      "Ditto",
+      "Hitmonlee",
+      "Persian"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Liquid Ooze",
+    "normal_count": 2,
+    "normal_examples": [
+      "Tentacruel",
+      "Tentacool"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Magic Guard",
+    "normal_count": 2,
+    "normal_examples": [
+      "Clefable",
+      "Clefairy"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Abra",
+      "Alakazam",
+      "Kadabra"
+    ]
+  },
+  {
+    "name": "Magician",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Braixen",
+      "Delphox",
+      "Fennekin"
+    ]
+  },
+  {
+    "name": "Magma Armor",
+    "normal_count": 2,
+    "normal_examples": [
+      "Magcargo",
+      "Slugma"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Marvel Scale",
+    "normal_count": 1,
+    "normal_examples": [
+      "Milotic"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Dragonair",
+      "Dratini"
+    ]
+  },
+  {
+    "name": "Minus",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Electrike",
+      "Manectric"
+    ]
+  },
+  {
+    "name": "Motor Drive",
+    "normal_count": 1,
+    "normal_examples": [
+      "Electivire"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Moxie",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Gyarados",
+      "Heracross",
+      "Pinsir",
+      "Salamence"
+    ]
+  },
+  {
+    "name": "Neutralizing Gas",
+    "normal_count": 2,
+    "normal_examples": [
+      "Koffing",
+      "Weezing"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Oblivious",
+    "normal_count": 9,
+    "normal_examples": [
+      "Feebas",
+      "Jynx",
+      "Mamoswine",
+      "Piloswine"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Overcoat",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Cloyster",
+      "Shelgon",
+      "Shellder"
+    ]
+  },
+  {
+    "name": "Own Tempo",
+    "normal_count": 3,
+    "normal_examples": [
+      "Slowbro",
+      "Slowking",
+      "Slowpoke"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Lombre",
+      "Lotad",
+      "Ludicolo"
+    ]
+  },
+  {
+    "name": "Pickpocket",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Sneasel",
+      "Weavile"
+    ]
+  },
+  {
+    "name": "Pickup",
+    "normal_count": 1,
+    "normal_examples": [
+      "Meowth"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Plus",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Ampharos",
+      "Flaaffy",
+      "Mareep"
+    ]
+  },
+  {
+    "name": "Poison Heal",
+    "normal_count": 2,
+    "normal_examples": [
+      "Breloom",
+      "Shroomish"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Poison Touch",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ]
+  },
+  {
+    "name": "Prankster",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Sableye"
+    ]
+  },
+  {
+    "name": "Protean",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Froakie",
+      "Frogadier",
+      "Greninja"
+    ]
+  },
+  {
+    "name": "Quick Feet",
+    "normal_count": 1,
+    "normal_examples": [
+      "Granbull"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Jolteon",
+      "Shroomish"
+    ]
+  },
+  {
+    "name": "Rain Dish",
+    "normal_count": 3,
+    "normal_examples": [
+      "Lombre",
+      "Lotad",
+      "Ludicolo"
+    ],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Blastoise",
+      "Squirtle",
+      "Tentacruel",
+      "Tentacool"
+    ]
+  },
+  {
+    "name": "Rattled",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Bonsly",
+      "Granbull",
+      "Magikarp",
+      "Snubbull"
+    ]
+  },
+  {
+    "name": "Rivalry",
+    "normal_count": 3,
+    "normal_examples": [
+      "Nidorino",
+      "Nidoran",
+      "Nidoking"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Rough Skin",
+    "normal_count": 2,
+    "normal_examples": [
+      "Carvanha",
+      "Sharpedo"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Gabite",
+      "Garchomp",
+      "Gible"
+    ]
+  },
+  {
+    "name": "Sand Rush",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Sandshrew",
+      "Sandslash"
+    ]
+  },
+  {
+    "name": "Scrappy",
+    "normal_count": 1,
+    "normal_examples": [
+      "Kangaskhan"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Sirfetch'd"
+    ]
+  },
+  {
+    "name": "Sharpness",
+    "normal_count": 1,
+    "normal_examples": [
+      "Gallade"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Sheer Force",
+    "normal_count": 1,
+    "normal_examples": [
+      "Darmanitan"
+    ],
+    "hidden_count": 10,
+    "hidden_examples": [
+      "Bagon",
+      "Croconaw",
+      "Feraligatr",
+      "Kingler"
+    ]
+  },
+  {
+    "name": "Shield Dust",
+    "normal_count": 2,
+    "normal_examples": [
+      "Caterpie",
+      "Weedle"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Slush Rush",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Alolan-Sandslash",
+      "Alolan-Sandshrew"
+    ]
+  },
+  {
+    "name": "Sniper",
+    "normal_count": 3,
+    "normal_examples": [
+      "Horsea",
+      "Kingdra",
+      "Seadra"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Beedrill"
+    ]
+  },
+  {
+    "name": "Snow Warning",
+    "normal_count": 2,
+    "normal_examples": [
+      "Abomasnow",
+      "Snover"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Solid Rock",
+    "normal_count": 1,
+    "normal_examples": [
+      "Rhyperior"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Stall",
+    "normal_count": 1,
+    "normal_examples": [
+      "Sableye"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Stance Change",
+    "normal_count": 1,
+    "normal_examples": [
+      "Aegislash"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Stench",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Gloom",
+      "Koffing",
+      "Weezing"
+    ]
+  },
+  {
+    "name": "Storm Drain",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Cradily",
+      "Lileep"
+    ]
+  },
+  {
+    "name": "Suction Cups",
+    "normal_count": 2,
+    "normal_examples": [
+      "Cradily",
+      "Lileep"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Supreme Overlord",
+    "normal_count": 1,
+    "normal_examples": [
+      "Kingambit"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Surge Surfer",
+    "normal_count": 1,
+    "normal_examples": [
+      "Alolan-Raichu"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Tangled Feet",
+    "normal_count": 3,
+    "normal_examples": [
+      "Pidgeot",
+      "Pidgeotto",
+      "Pidgey"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Telepathy",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 8,
+    "hidden_examples": [
+      "Dialga",
+      "Gardevoir",
+      "Giratina",
+      "Kirlia"
+    ]
+  },
+  {
+    "name": "Tinted Lens",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Butterfree",
+      "Hoothoot",
+      "Noctowl"
+    ]
+  },
+  {
+    "name": "Unaware",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Clefable"
+    ]
+  },
+  {
+    "name": "Unburden",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Grovyle",
+      "Hitmonlee",
+      "Sceptile",
+      "Treecko"
+    ]
+  },
+  {
+    "name": "Unnerve",
+    "normal_count": 2,
+    "normal_examples": [
+      "Galvantula",
+      "Joltik"
+    ],
+    "hidden_count": 9,
+    "hidden_examples": [
+      "Aerodactyl",
+      "Arbok",
+      "Ekans",
+      "Houndour"
+    ]
+  },
+  {
+    "name": "Vital Spirit",
+    "normal_count": 2,
+    "normal_examples": [
+      "Primeape",
+      "Mankey"
+    ],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Electabuzz",
+      "Elekid",
+      "Electivire",
+      "Magby"
+    ]
+  },
+  {
+    "name": "Weak Armor",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Kabuto",
+      "Kabutops",
+      "Magcargo",
+      "Omanyte"
+    ]
+  },
+  {
+    "name": "White Smoke",
+    "normal_count": 1,
+    "normal_examples": [
+      "Torkoal"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  },
+  {
+    "name": "Wonder Guard",
+    "normal_count": 1,
+    "normal_examples": [
+      "Shedinja"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": []
+  }
+]

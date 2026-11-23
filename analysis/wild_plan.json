@@ -1,0 +1,2863 @@
+[
+ {
+  "species": "Abomasnow",
+  "ids": [
+   "P00A"
+  ],
+  "types": [
+   "Grass",
+   "Ice"
+  ],
+  "level": 40,
+  "bst": 494,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Aegislash",
+  "ids": [
+   "P4QA"
+  ],
+  "types": [
+   "Steel",
+   "Ghost"
+  ],
+  "level": 45,
+  "bst": null,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Aerodactyl",
+  "ids": [
+   "P02A"
+  ],
+  "types": [
+   "Rock",
+   "Flying"
+  ],
+  "level": null,
+  "bst": 515,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Alolan-Geodude",
+  "ids": [
+   "P03A"
+  ],
+  "types": [
+   "Rock",
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Alolan-Golem",
+  "ids": [
+   "P04A"
+  ],
+  "types": [
+   "Rock",
+   "Electric"
+  ],
+  "level": 40,
+  "bst": 495,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Alolan-Graveler",
+  "ids": [
+   "P05A"
+  ],
+  "types": [
+   "Rock",
+   "Electric"
+  ],
+  "level": 25,
+  "bst": 390,
+  "pmin": 5,
+  "pmax": 6
+ },
+ {
+  "species": "Alolan-Raichu",
+  "ids": [
+   "P06A"
+  ],
+  "types": [
+   "Electric",
+   "Psychic"
+  ],
+  "level": null,
+  "bst": 485,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Alolan-Sandshrew",
+  "ids": [
+   "P4MA"
+  ],
+  "types": [
+   "Ice",
+   "Steel"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Alolan-Sandslash",
+  "ids": [
+   "P4NA"
+  ],
+  "types": [
+   "Ice",
+   "Steel"
+  ],
+  "level": 36,
+  "bst": 450,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Arbok",
+  "ids": [
+   "P09A"
+  ],
+  "types": [
+   "Poison"
+  ],
+  "level": 22,
+  "bst": 448,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Arcanine",
+  "ids": [
+   "E01C"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 36,
+  "bst": 555,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Bagon",
+  "ids": [
+   "EN0D"
+  ],
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Baltoy",
+  "ids": [
+   "P0BA"
+  ],
+  "types": [
+   "Ground",
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Bayleef",
+  "ids": [
+   "P0CA"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Beedrill",
+  "ids": [
+   "E02K"
+  ],
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "level": 10,
+  "bst": 395,
+  "pmin": 2,
+  "pmax": 10
+ },
+ {
+  "species": "Beldum",
+  "ids": [
+   "EN0G"
+  ],
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Bellossom",
+  "ids": [
+   "P0EA"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 45,
+  "bst": 490,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Bellsprout",
+  "ids": [
+   "E02B"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Bisharp",
+  "ids": [
+   "P4SA"
+  ],
+  "types": [
+   "Dark",
+   "Steel"
+  ],
+  "level": 52,
+  "bst": null,
+  "pmin": 8,
+  "pmax": 8
+ },
+ {
+  "species": "Blastoise",
+  "ids": [
+   "E000"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 36,
+  "bst": 530,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Blaziken",
+  "ids": [
+   "EN02"
+  ],
+  "types": [
+   "Fire",
+   "Fighting"
+  ],
+  "level": 36,
+  "bst": 530,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Blissey",
+  "ids": [
+   "P0GA"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 55,
+  "bst": 540,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Bonsly",
+  "ids": [
+   "P0HA"
+  ],
+  "types": [
+   "Rock"
+  ],
+  "level": 1,
+  "bst": 290,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Bulbasaur",
+  "ids": [
+   "E008"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 318,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Carvanha",
+  "ids": [
+   "P0KA"
+  ],
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "level": 1,
+  "bst": 305,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Chandelure",
+  "ids": [
+   "P0LA"
+  ],
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "level": 55,
+  "bst": 520,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Chansey",
+  "ids": [
+   "P0MA"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 1,
+  "bst": 450,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Charizard",
+  "ids": [
+   "E00E"
+  ],
+  "types": [
+   "Fire",
+   "Flying"
+  ],
+  "level": 36,
+  "bst": 534,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Charmander",
+  "ids": [
+   "E003"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 309,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Charmeleon",
+  "ids": [
+   "E007"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Chikorita",
+  "ids": [
+   "P0NA"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 1,
+  "bst": 318,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Claydol",
+  "ids": [
+   "P0PA"
+  ],
+  "types": [
+   "Ground",
+   "Psychic"
+  ],
+  "level": 36,
+  "bst": 500,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Clefable",
+  "ids": [
+   "P0QA"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 55,
+  "bst": 483,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Clefairy",
+  "ids": [
+   "P0RA"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 1,
+  "bst": 323,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Combusken",
+  "ids": [
+   "EN01"
+  ],
+  "types": [
+   "Fire",
+   "Fighting"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Cradily",
+  "ids": [
+   "P0TA"
+  ],
+  "types": [
+   "Rock",
+   "Grass"
+  ],
+  "level": 40,
+  "bst": 495,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Croagunk",
+  "ids": [
+   "P0UA"
+  ],
+  "types": [
+   "Poison",
+   "Fighting"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Crobat",
+  "ids": [
+   "E049"
+  ],
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "level": 40,
+  "bst": 535,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Cubone",
+  "ids": [
+   "P0VA"
+  ],
+  "types": [
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 320,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Cyndaquil",
+  "ids": [
+   "P0WA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 309,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Darmanitan",
+  "ids": [
+   "P0XA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 35,
+  "bst": null,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Darumaka",
+  "ids": [
+   "P0YA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 315,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Deino",
+  "ids": [
+   "P0ZA"
+  ],
+  "types": [
+   "Dark",
+   "Dragon"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Dewgong",
+  "ids": [
+   "P10A"
+  ],
+  "types": [
+   "Water",
+   "Ice"
+  ],
+  "level": 34,
+  "bst": 475,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Ditto",
+  "ids": [
+   "P12A"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": null,
+  "bst": 288,
+  "pmin": 1,
+  "pmax": 10
+ },
+ {
+  "species": "Doublade",
+  "ids": [
+   "P4PA"
+  ],
+  "types": [
+   "Steel",
+   "Ghost"
+  ],
+  "level": 35,
+  "bst": null,
+  "pmin": 6,
+  "pmax": 6
+ },
+ {
+  "species": "Dragonair",
+  "ids": [
+   "E01T"
+  ],
+  "types": [
+   "Dragon"
+  ],
+  "level": 40,
+  "bst": 420,
+  "pmin": 7,
+  "pmax": 7
+ },
+ {
+  "species": "Dragonite",
+  "ids": [
+   "E01K"
+  ],
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "level": 55,
+  "bst": 600,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Dratini",
+  "ids": [
+   "E01S"
+  ],
+  "types": [
+   "Dragon"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Drowzee",
+  "ids": [
+   "P13A"
+  ],
+  "types": [
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 328,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Dugtrio",
+  "ids": [
+   "P14A"
+  ],
+  "types": [
+   "Ground"
+  ],
+  "level": 26,
+  "bst": 425,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Dusclops",
+  "ids": [
+   "P15A"
+  ],
+  "types": [
+   "Ghost"
+  ],
+  "level": 37,
+  "bst": 455,
+  "pmin": 6,
+  "pmax": 7
+ },
+ {
+  "species": "Duskull",
+  "ids": [
+   "P17A"
+  ],
+  "types": [
+   "Ghost"
+  ],
+  "level": 1,
+  "bst": 295,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Eevee",
+  "ids": [
+   "E03A",
+   "P4VA"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 1,
+  "bst": 325,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Ekans",
+  "ids": [
+   "P18A"
+  ],
+  "types": [
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 288,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Electabuzz",
+  "ids": [
+   "P19A"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 30,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 7
+ },
+ {
+  "species": "Electrike",
+  "ids": [
+   "P1BA"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 295,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Electrode",
+  "ids": [
+   "E01X"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 30,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Elekid",
+  "ids": [
+   "P1CA"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 360,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Espeon",
+  "ids": [
+   "E03H"
+  ],
+  "types": [
+   "Psychic"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Exeggcute",
+  "ids": [
+   "E02U"
+  ],
+  "types": [
+   "Grass",
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 325,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Farfetch'd",
+  "ids": [
+   "P1EA"
+  ],
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 377,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Feebas",
+  "ids": [
+   "P1FA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 200,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Flareon",
+  "ids": [
+   "E038"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Gabite",
+  "ids": [
+   "P1IA"
+  ],
+  "types": [
+   "Dragon",
+   "Ground"
+  ],
+  "level": 24,
+  "bst": 410,
+  "pmin": 5,
+  "pmax": 6
+ },
+ {
+  "species": "Gallade",
+  "ids": [
+   "EN0C"
+  ],
+  "types": [
+   "Psychic",
+   "Fighting"
+  ],
+  "level": 45,
+  "bst": 518,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Galvantula",
+  "ids": [
+   "P1KA"
+  ],
+  "types": [
+   "Bug",
+   "Electric"
+  ],
+  "level": 36,
+  "bst": 472,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Garchomp",
+  "ids": [
+   "P1LA"
+  ],
+  "types": [
+   "Dragon",
+   "Ground"
+  ],
+  "level": 48,
+  "bst": 600,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Gardevoir",
+  "ids": [
+   "EN0B"
+  ],
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "level": 30,
+  "bst": 518,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Geodude",
+  "ids": [
+   "E00N"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Gible",
+  "ids": [
+   "P1NA"
+  ],
+  "types": [
+   "Dragon",
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Glaceon",
+  "ids": [
+   "E03T"
+  ],
+  "types": [
+   "Ice"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Gloom",
+  "ids": [
+   "P1OA"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 21,
+  "bst": 395,
+  "pmin": 4,
+  "pmax": 6
+ },
+ {
+  "species": "Golbat",
+  "ids": [
+   "E048"
+  ],
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "level": 22,
+  "bst": 455,
+  "pmin": 4,
+  "pmax": 6
+ },
+ {
+  "species": "Golduck",
+  "ids": [
+   "P1PA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 33,
+  "bst": 500,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Golem",
+  "ids": [
+   "E00P"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 40,
+  "bst": 495,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Granbull",
+  "ids": [
+   "P1QA"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 23,
+  "bst": 450,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Graveler",
+  "ids": [
+   "E00O"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 25,
+  "bst": 390,
+  "pmin": 5,
+  "pmax": 6
+ },
+ {
+  "species": "Grovyle",
+  "ids": [
+   "EN04"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Growlithe",
+  "ids": [
+   "E02F"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 350,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Gyarados",
+  "ids": [
+   "E03F"
+  ],
+  "types": [
+   "Water",
+   "Flying"
+  ],
+  "level": 20,
+  "bst": 540,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Heracross",
+  "ids": [
+   "P1SA"
+  ],
+  "types": [
+   "Bug",
+   "Fighting"
+  ],
+  "level": null,
+  "bst": 500,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Hitmonchan",
+  "ids": [
+   "E01Z"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 20,
+  "bst": 455,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Hitmonlee",
+  "ids": [
+   "E03Y"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 20,
+  "bst": 455,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Hitmontop",
+  "ids": [
+   "E03Z"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 20,
+  "bst": 455,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Honedge",
+  "ids": [
+   "P4OA"
+  ],
+  "types": [
+   "Steel",
+   "Ghost"
+  ],
+  "level": 1,
+  "bst": null,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Horsea",
+  "ids": [
+   "P1VA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 295,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Hydreigon",
+  "ids": [
+   "P1YA"
+  ],
+  "types": [
+   "Dark",
+   "Dragon"
+  ],
+  "level": 64,
+  "bst": 600,
+  "pmin": 9,
+  "pmax": 10
+ },
+ {
+  "species": "Hypno",
+  "ids": [
+   "P1ZA"
+  ],
+  "types": [
+   "Psychic"
+  ],
+  "level": 26,
+  "bst": 483,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Ivysaur",
+  "ids": [
+   "E001"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Jigglypuff",
+  "ids": [
+   "P20A"
+  ],
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "level": 1,
+  "bst": 270,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Jolteon",
+  "ids": [
+   "E01E"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Joltik",
+  "ids": [
+   "P22A"
+  ],
+  "types": [
+   "Bug",
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 319,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Jynx",
+  "ids": [
+   "P23A"
+  ],
+  "types": [
+   "Ice",
+   "Psychic"
+  ],
+  "level": 30,
+  "bst": 455,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Kabuto",
+  "ids": [
+   "E03P"
+  ],
+  "types": [
+   "Rock",
+   "Water"
+  ],
+  "level": 1,
+  "bst": 355,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Kabutops",
+  "ids": [
+   "E035"
+  ],
+  "types": [
+   "Rock",
+   "Water"
+  ],
+  "level": 35,
+  "bst": 495,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Kakuna",
+  "ids": [
+   "E02J"
+  ],
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "level": 6,
+  "bst": 205,
+  "pmin": 1,
+  "pmax": 1
+ },
+ {
+  "species": "Kangaskhan",
+  "ids": [
+   "E02P"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": null,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Kingdra",
+  "ids": [
+   "P24A"
+  ],
+  "types": [
+   "Water",
+   "Dragon"
+  ],
+  "level": 55,
+  "bst": 540,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Kingler",
+  "ids": [
+   "E03D"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 28,
+  "bst": 475,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Kirlia",
+  "ids": [
+   "EN0A"
+  ],
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "level": 20,
+  "bst": 278,
+  "pmin": 4,
+  "pmax": 4
+ },
+ {
+  "species": "Koffing",
+  "ids": [
+   "E01V"
+  ],
+  "types": [
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 340,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Krabby",
+  "ids": [
+   "E03C"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 325,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Lampent",
+  "ids": [
+   "P27A"
+  ],
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "level": 41,
+  "bst": 370,
+  "pmin": 7,
+  "pmax": 7
+ },
+ {
+  "species": "Lanturn",
+  "ids": [
+   "P28A"
+  ],
+  "types": [
+   "Water",
+   "Electric"
+  ],
+  "level": 27,
+  "bst": 460,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Larvitar",
+  "ids": [
+   "EN06"
+  ],
+  "types": [
+   "Rock",
+   "Dark"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Leafeon",
+  "ids": [
+   "P2BA"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Lileep",
+  "ids": [
+   "P2CA"
+  ],
+  "types": [
+   "Rock",
+   "Grass"
+  ],
+  "level": 1,
+  "bst": 355,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Litwick",
+  "ids": [
+   "P2DA"
+  ],
+  "types": [
+   "Ghost",
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 275,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Lombre",
+  "ids": [
+   "P2EA"
+  ],
+  "types": [
+   "Water",
+   "Grass"
+  ],
+  "level": 14,
+  "bst": 340,
+  "pmin": 3,
+  "pmax": 7
+ },
+ {
+  "species": "Lucario",
+  "ids": [
+   "EN0J"
+  ],
+  "types": [
+   "Fighting",
+   "Steel"
+  ],
+  "level": null,
+  "bst": 525,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Machamp",
+  "ids": [
+   "E010"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 40,
+  "bst": 505,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Machoke",
+  "ids": [
+   "E00Z"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 28,
+  "bst": 405,
+  "pmin": 5,
+  "pmax": 6
+ },
+ {
+  "species": "Machop",
+  "ids": [
+   "E00Y"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 1,
+  "bst": 305,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Magby",
+  "ids": [
+   "P2HA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 365,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Magcargo",
+  "ids": [
+   "P2IA"
+  ],
+  "types": [
+   "Fire",
+   "Rock"
+  ],
+  "level": 38,
+  "bst": 430,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Magmar",
+  "ids": [
+   "P2JA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 30,
+  "bst": 495,
+  "pmin": 5,
+  "pmax": 7
+ },
+ {
+  "species": "Magnemite",
+  "ids": [
+   "E031",
+   "P4WA"
+  ],
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "level": 1,
+  "bst": 325,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Magneton",
+  "ids": [
+   "E032",
+   "P4XA"
+  ],
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "level": 30,
+  "bst": 465,
+  "pmin": 5,
+  "pmax": 7
+ },
+ {
+  "species": "Magnezone",
+  "ids": [
+   "P2LA"
+  ],
+  "types": [
+   "Electric",
+   "Steel"
+  ],
+  "level": 55,
+  "bst": 535,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Mankey",
+  "ids": [
+   "E02S"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 1,
+  "bst": 305,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Marowak",
+  "ids": [
+   "P2PA"
+  ],
+  "types": [
+   "Ground"
+  ],
+  "level": 28,
+  "bst": 425,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Meganium",
+  "ids": [
+   "(new)"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 32,
+  "bst": null,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Meowth",
+  "ids": [
+   "P2QA"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 1,
+  "bst": 290,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Metagross",
+  "ids": [
+   "EN0I"
+  ],
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "level": 45,
+  "bst": 600,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Metang",
+  "ids": [
+   "EN0H"
+  ],
+  "types": [
+   "Steel",
+   "Psychic"
+  ],
+  "level": 20,
+  "bst": 420,
+  "pmin": 4,
+  "pmax": 6
+ },
+ {
+  "species": "Milotic",
+  "ids": [
+   "P2TA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 36,
+  "bst": 540,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Mr. Mime",
+  "ids": [
+   "P2WA"
+  ],
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "level": null,
+  "bst": 460,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Nincada",
+  "ids": [
+   "P2XA"
+  ],
+  "types": [
+   "Bug",
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 266,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Ninetales",
+  "ids": [
+   "E04P"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 36,
+  "bst": 505,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Ninjask",
+  "ids": [
+   "P2YA"
+  ],
+  "types": [
+   "Bug",
+   "Flying"
+  ],
+  "level": 20,
+  "bst": 456,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Oddish",
+  "ids": [
+   "P30A"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 320,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Omanyte",
+  "ids": [
+   "E03Q"
+  ],
+  "types": [
+   "Rock",
+   "Water"
+  ],
+  "level": 1,
+  "bst": 355,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Omastar",
+  "ids": [
+   "E03R"
+  ],
+  "types": [
+   "Rock",
+   "Water"
+  ],
+  "level": 35,
+  "bst": 495,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Onix",
+  "ids": [
+   "E03U"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 385,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Pawniard",
+  "ids": [
+   "P4RA"
+  ],
+  "types": [
+   "Dark",
+   "Steel"
+  ],
+  "level": 1,
+  "bst": null,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Persian",
+  "ids": [
+   "P31A"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 28,
+  "bst": 440,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Pidgey",
+  "ids": [
+   "E00B"
+  ],
+  "types": [
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 251,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Pikachu",
+  "ids": [
+   "E005"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 320,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Pinsir",
+  "ids": [
+   "E03W"
+  ],
+  "types": [
+   "Bug"
+  ],
+  "level": null,
+  "bst": 500,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Politoed",
+  "ids": [
+   "P34A"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 55,
+  "bst": 500,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Poliwag",
+  "ids": [
+   "E012",
+   "P4YA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Poliwhirl",
+  "ids": [
+   "E013",
+   "P4ZA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 25,
+  "bst": 385,
+  "pmin": 5,
+  "pmax": 6
+ },
+ {
+  "species": "Poliwrath",
+  "ids": [
+   "E014"
+  ],
+  "types": [
+   "Water",
+   "Fighting"
+  ],
+  "level": 45,
+  "bst": 510,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Porygon",
+  "ids": [
+   "P35A"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 1,
+  "bst": 395,
+  "pmin": 1,
+  "pmax": 7
+ },
+ {
+  "species": "Porygon2",
+  "ids": [
+   "(new)"
+  ],
+  "types": [
+   "Normal"
+  ],
+  "level": 50,
+  "bst": null,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Psyduck",
+  "ids": [
+   "P36A"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 320,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Pupitar",
+  "ids": [
+   "EN07"
+  ],
+  "types": [
+   "Rock",
+   "Dark"
+  ],
+  "level": 30,
+  "bst": 410,
+  "pmin": 5,
+  "pmax": 7
+ },
+ {
+  "species": "Quilava",
+  "ids": [
+   "P38A"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 14,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Raichu",
+  "ids": [
+   "E006"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 36,
+  "bst": 485,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Ralts",
+  "ids": [
+   "EN09"
+  ],
+  "types": [
+   "Psychic",
+   "Fairy"
+  ],
+  "level": 1,
+  "bst": 198,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Rhydon",
+  "ids": [
+   "E02Z",
+   "P51A"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 42,
+  "bst": 485,
+  "pmin": 7,
+  "pmax": 7
+ },
+ {
+  "species": "Rhyhorn",
+  "ids": [
+   "E02Y",
+   "P50A"
+  ],
+  "types": [
+   "Rock",
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 345,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Sableye",
+  "ids": [
+   "P3DA"
+  ],
+  "types": [
+   "Dark",
+   "Ghost"
+  ],
+  "level": null,
+  "bst": 380,
+  "pmin": 2,
+  "pmax": 10
+ },
+ {
+  "species": "Salamence",
+  "ids": [
+   "EN0F"
+  ],
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "level": 50,
+  "bst": 600,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Sceptile",
+  "ids": [
+   "EN05"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 36,
+  "bst": 530,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Scizor",
+  "ids": [
+   "E03M"
+  ],
+  "types": [
+   "Bug",
+   "Steel"
+  ],
+  "level": 40,
+  "bst": 500,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Scyther",
+  "ids": [
+   "E03L"
+  ],
+  "types": [
+   "Bug",
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 500,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Seadra",
+  "ids": [
+   "P3GA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 32,
+  "bst": 440,
+  "pmin": 6,
+  "pmax": 7
+ },
+ {
+  "species": "Seel",
+  "ids": [
+   "P3HA"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 325,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Sharpedo",
+  "ids": [
+   "P3IA"
+  ],
+  "types": [
+   "Water",
+   "Dark"
+  ],
+  "level": 30,
+  "bst": 460,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Shedinja",
+  "ids": [
+   "P3JA"
+  ],
+  "types": [
+   "Bug",
+   "Ghost"
+  ],
+  "level": 36,
+  "bst": 236,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Shelgon",
+  "ids": [
+   "EN0E"
+  ],
+  "types": [
+   "Dragon",
+   "Flying"
+  ],
+  "level": 30,
+  "bst": 420,
+  "pmin": 5,
+  "pmax": 7
+ },
+ {
+  "species": "Shroomish",
+  "ids": [
+   "P3LA"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 1,
+  "bst": 295,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Sirfetch'd",
+  "ids": [
+   "P3MA"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 36,
+  "bst": 507,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Slowbro",
+  "ids": [
+   "P3NA"
+  ],
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "level": 37,
+  "bst": 490,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Slowking",
+  "ids": [
+   "P3OA"
+  ],
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "level": 36,
+  "bst": 490,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Slowpoke",
+  "ids": [
+   "P3PA"
+  ],
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 315,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Slugma",
+  "ids": [
+   "P3QA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 250,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Smoochum",
+  "ids": [
+   "P3RA"
+  ],
+  "types": [
+   "Ice",
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 305,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Snover",
+  "ids": [
+   "P3UA"
+  ],
+  "types": [
+   "Grass",
+   "Ice"
+  ],
+  "level": 1,
+  "bst": 334,
+  "pmin": 1,
+  "pmax": 6
+ },
+ {
+  "species": "Snubbull",
+  "ids": [
+   "P3VA"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 1,
+  "bst": 300,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Squirtle",
+  "ids": [
+   "E004"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 314,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Starmie",
+  "ids": [
+   "E04M"
+  ],
+  "types": [
+   "Water",
+   "Psychic"
+  ],
+  "level": 36,
+  "bst": 520,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Staryu",
+  "ids": [
+   "E04N"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 1,
+  "bst": 340,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Steelix",
+  "ids": [
+   "E03V"
+  ],
+  "types": [
+   "Steel",
+   "Ground"
+  ],
+  "level": 40,
+  "bst": 510,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Sudowoodo",
+  "ids": [
+   "P3WA"
+  ],
+  "types": [
+   "Rock"
+  ],
+  "level": 36,
+  "bst": 410,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Swablu",
+  "ids": [
+   "P3YA"
+  ],
+  "types": [
+   "Normal",
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 310,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Sylveon",
+  "ids": [
+   "E03X"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 35,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Tangela",
+  "ids": [
+   "P40A"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 1,
+  "bst": 435,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Tangrowth",
+  "ids": [
+   "P41A"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 36,
+  "bst": 535,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Tauros Aqua",
+  "ids": [
+   "P42A"
+  ],
+  "types": [
+   "Fighting",
+   "Water"
+  ],
+  "level": null,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Tauros Blaze",
+  "ids": [
+   "P43A"
+  ],
+  "types": [
+   "Fighting",
+   "Fire"
+  ],
+  "level": null,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Tauros Combat",
+  "ids": [
+   "P44A"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": null,
+  "bst": 490,
+  "pmin": 5,
+  "pmax": 10
+ },
+ {
+  "species": "Togekiss",
+  "ids": [
+   "P45A"
+  ],
+  "types": [
+   "Fairy",
+   "Flying"
+  ],
+  "level": 55,
+  "bst": 545,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Togepi",
+  "ids": [
+   "P46A"
+  ],
+  "types": [
+   "Fairy"
+  ],
+  "level": 1,
+  "bst": 245,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Togetic",
+  "ids": [
+   "P47A"
+  ],
+  "types": [
+   "Fairy",
+   "Flying"
+  ],
+  "level": 36,
+  "bst": 405,
+  "pmin": 6,
+  "pmax": 7
+ },
+ {
+  "species": "Torchic",
+  "ids": [
+   "EN00"
+  ],
+  "types": [
+   "Fire",
+   "Fighting"
+  ],
+  "level": 1,
+  "bst": 310,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Torkoal",
+  "ids": [
+   "P49A"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": null,
+  "bst": 470,
+  "pmin": 4,
+  "pmax": 10
+ },
+ {
+  "species": "Toxicroak",
+  "ids": [
+   "P4AA"
+  ],
+  "types": [
+   "Poison",
+   "Fighting"
+  ],
+  "level": 37,
+  "bst": 490,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Trapinch",
+  "ids": [
+   "P4BA"
+  ],
+  "types": [
+   "Ground"
+  ],
+  "level": 1,
+  "bst": 290,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Treecko",
+  "ids": [
+   "EN03"
+  ],
+  "types": [
+   "Grass"
+  ],
+  "level": 1,
+  "bst": 310,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Typhlosion",
+  "ids": [
+   "P4DA"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 36,
+  "bst": 534,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Tyranitar",
+  "ids": [
+   "EN08"
+  ],
+  "types": [
+   "Rock",
+   "Dark"
+  ],
+  "level": 55,
+  "bst": 600,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Tyrogue",
+  "ids": [
+   "P4EA"
+  ],
+  "types": [
+   "Fighting"
+  ],
+  "level": 1,
+  "bst": 210,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Umbreon",
+  "ids": [
+   "E03I"
+  ],
+  "types": [
+   "Dark"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Vaporeon",
+  "ids": [
+   "E037"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 36,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Venusaur",
+  "ids": [
+   "E002"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 32,
+  "bst": 525,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Victreebel",
+  "ids": [
+   "E02C"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 45,
+  "bst": 490,
+  "pmin": 7,
+  "pmax": 10
+ },
+ {
+  "species": "Vileplume",
+  "ids": [
+   "P4GA"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 55,
+  "bst": 490,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Voltorb",
+  "ids": [
+   "E01D"
+  ],
+  "types": [
+   "Electric"
+  ],
+  "level": 1,
+  "bst": 330,
+  "pmin": 1,
+  "pmax": 4
+ },
+ {
+  "species": "Vulpix",
+  "ids": [
+   "E04O"
+  ],
+  "types": [
+   "Fire"
+  ],
+  "level": 1,
+  "bst": 299,
+  "pmin": 1,
+  "pmax": 5
+ },
+ {
+  "species": "Wartortle",
+  "ids": [
+   "E009"
+  ],
+  "types": [
+   "Water"
+  ],
+  "level": 16,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 5
+ },
+ {
+  "species": "Weedle",
+  "ids": [
+   "E02I"
+  ],
+  "types": [
+   "Bug",
+   "Poison"
+  ],
+  "level": 1,
+  "bst": 195,
+  "pmin": 1,
+  "pmax": 1
+ },
+ {
+  "species": "Weepinbell",
+  "ids": [
+   "E01A"
+  ],
+  "types": [
+   "Grass",
+   "Poison"
+  ],
+  "level": 21,
+  "bst": 390,
+  "pmin": 4,
+  "pmax": 6
+ },
+ {
+  "species": "Weezing",
+  "ids": [
+   "E019"
+  ],
+  "types": [
+   "Poison"
+  ],
+  "level": 35,
+  "bst": 490,
+  "pmin": 6,
+  "pmax": 10
+ },
+ {
+  "species": "Wigglytuff",
+  "ids": [
+   "P4IA"
+  ],
+  "types": [
+   "Normal",
+   "Fairy"
+  ],
+  "level": 55,
+  "bst": 435,
+  "pmin": 8,
+  "pmax": 10
+ },
+ {
+  "species": "Wobbuffet",
+  "ids": [
+   "P4JA"
+  ],
+  "types": [
+   "Psychic"
+  ],
+  "level": 15,
+  "bst": 405,
+  "pmin": 3,
+  "pmax": 10
+ },
+ {
+  "species": "Wynaut",
+  "ids": [
+   "P4KA"
+  ],
+  "types": [
+   "Psychic"
+  ],
+  "level": 1,
+  "bst": 260,
+  "pmin": 1,
+  "pmax": 2
+ },
+ {
+  "species": "Zubat",
+  "ids": [
+   "E046"
+  ],
+  "types": [
+   "Poison",
+   "Flying"
+  ],
+  "level": 1,
+  "bst": 245,
+  "pmin": 1,
+  "pmax": 3
+ },
+ {
+  "species": "Zweilous",
+  "ids": [
+   "P4LA"
+  ],
+  "types": [
+   "Dark",
+   "Dragon"
+  ],
+  "level": 50,
+  "bst": 420,
+  "pmin": 8,
+  "pmax": 8
+ }
+]

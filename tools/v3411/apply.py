@@ -24,6 +24,9 @@ import status_moves as SM  # noqa: E402
 import fx_more  # noqa: E402
 import starters  # noqa: E402
 import megas  # noqa: E402
+import gym342  # noqa: E402
+import repick_random  # noqa: E402
+import gym_order  # noqa: E402
 
 BASE_MAP = os.path.join(MAPS, 'Pokemon Arena v3.4.10.w3x')
 OUT_DIR = os.path.join(WORK, 'v3411')
@@ -1086,6 +1089,9 @@ function Wth_Tick takes nothing returns nothing
 ''')
     fx_entries, fx_pw = fx_more.plan(script, fx_abil, fx_secs)
     s = fx_more.patch_script(s, fx_entries)
+    s = gym342.patch_script(s)  # v4.3: the gym features of 3.4.2 (difficulty table, -gym, stuck-gym fixes)
+    s = repick_random.patch_script(s)  # v4.3.1: -repick gives one random Pokemon
+    s = gym_order.patch_script(s)  # v4.3.3: gyms in order, minimum level per gym
     fx_report = [(mv, aid, idx, rep_txt) for idx, aid, _hd, _ly, mv, rep_txt in fx_entries]
     with open(os.path.join(OUT_DIR, 'fx_more_report.txt'), 'w', encoding='utf-8') as fr:
         fr.write('\n'.join('%s (%s, data %d): %s' % r for r in fx_report) + '\n')

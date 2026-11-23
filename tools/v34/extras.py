@@ -9,7 +9,7 @@ BTN = 'ReplaceableTextures\\CommandButtons\\BTN%s.blp'
 # index k (Ab_HT key 140 + k on the holder, Mega_HT key 91 = k + 1 on the item type), id, name, price, kind, icon, text
 ITEMS = [
     ('IB00', 'Life Orb', 4000, 'battle', 'OrbOfDarkness',
-     'Attacks and moves deal +30% damage; each hit costs 1% max HP (not below 20% HP).'),
+     'Attacks and moves deal +25% damage; each hit costs 1% max HP (not below 20% HP).'),
     ('IB01', 'Choice Band', 4000, 'battle', 'GauntletsOfOgrePower', 'Attacks deal +35% damage. -10% move speed.'),
     ('IB02', 'Choice Specs', 4000, 'battle', 'MantleOfIntelligence', 'Moves deal +35% damage. -10% move speed.'),
     ('IB03', 'Choice Scarf', 4000, 'battle', 'BootsOfSpeed', '+30% move speed and +20% attack speed.'),
@@ -34,7 +34,42 @@ ITEMS = [
     ('IT06', 'Mega Ring', 8000, 'util', 'GoldRing', 'Mega Evolution lasts 90s instead of 60s; Mega Stones recharge 30% faster.'),
     ('IT07', 'Ice Stone', 1250, 'stone', 'IceShard', 'Evolution stone: Eevee -> Glaceon.'),
     ('IT08', 'Shiny Stone', 1250, 'stone', 'SoulGem', 'Evolution stone: Eevee -> Sylveon, Togetic -> Togekiss.'),
+    # v3.4.5 (proposal 12): new items; Quick Claw and Weakness Policy wait for their hooks
+    ('IB0C', 'Shell Bell', 3000, 'battle', 'HealingSalve', 'Heals 10% of the damage it deals.'),
+    ('IB0D', 'Bright Powder', 3000, 'battle', 'AntiMagicShell',
+     '10% chance that a hit on it does no damage (the damage is undone).'),
+    ('IB0E', 'Wise Glasses', 3500, 'battle', 'SpellBreakerMagicDefend', 'Moves deal +10% damage. No speed penalty.'),
+    ('IT09', 'Oran Berry', 150, 'berry', 'PotionGreenSmall', 'Used up when HP drops below 30%: heals 20% max HP.'),
+    # v3.4.6 (proposal 12, approved): appended so the indices of the items above stay the same
+    ('IB0F', 'Quick Claw', 3500, 'battle', 'BootsOfSpeed',
+     '15% chance per attack that the first skill still cooling down is ready again.'),
+    ('IB10', 'Weakness Policy', 3500, 'battle', 'MantleOfIntelligence',
+     'After a super effective hit: +30% damage for 10 seconds.'),
 ]
+# v3.4.5: the Pokemon held-item icons of the map itself: files at the root of the archive named like
+# "BTNCharcoal (64 x 64).blp" (the v1.8 set). Used as Art of the type items and of the new items.
+def _held(name):
+    return name + ' (64 x 64).blp'
+
+
+TYPE_ICONS = {  # type item -> held-item icon of that type
+    'I00Q': _held('BTNCharcoal'), 'I00R': _held('BTNMiracle_Seed'), 'I00S': _held('BTNMystic_Water'),
+    'I00T': _held('BTNMagnet'), 'I00U': _held('BTNSilverPowder'), 'I00V': _held('BTNPoison_Barb'),
+    'I00W': _held('BTNNeverMeltIce'), 'I00X': _held('BTNDragon_Fang'), 'I00Y': _held('BTNSharp_Beak'),
+    'I00Z': _held('BTNSilk_Scarf'), 'I010': _held('BTNTwistedSpoon'), 'I011': _held('BTNBlack_Belt'),
+    'I012': _held('BTNHard_Stone'), 'I013': _held('BTNSoft_Sand'), 'I01X': _held('BTNMetalcoat'),
+    'I01Y': _held('BTNBlack Glasses'), 'I020': _held('BTNSpell Tag'), 'ITFY': _held('BTNMoomoo_Milk'),
+}
+ITEM_ICONS = {  # new / battle items -> icon (a Pokemon item icon where one fits)
+    'IB00': _held('BTNMystic_Water'), 'IB01': _held('BTNDragon_Fang'), 'IB02': _held('BTNBlack Glasses'),
+    'IB03': _held('BTNSilk_Scarf'), 'IB04': _held('BTNLeftovers'), 'IB05': _held('BTNStone_Badge'),
+    'IB06': _held('BTNBlack_Belt'), 'IB07': _held('BTNPoison_Barb'), 'IB08': _held('BTNMetalcoat'),
+    'IB09': _held('BTNSharp_Beak'), 'IB0A': _held('BTNTwistedSpoon'), 'IB0B': _held('BTNCalcium'),
+    'IT00': _held('BTNRare_Candy'), 'IT01': _held('BTNCarbos'), 'IT02': _held('BTNSunStone'),
+    'IT07': _held('BTNWaterStone'), 'IT08': _held('BTNMoonStone'), 'IB0C': _held('BTNshellder'),
+    'IB0D': _held('BTNSilverPowder'), 'IB0E': _held('BTNSpell Tag'), 'IT09': 'ReplaceableTextures\\CommandButtons\\BTNRazzBerry.blp',
+    'IB10': 'ReplaceableTextures\\CommandButtons\\BTNSpellBreakerMagicDefend.blp',  # Weakness Policy (no Pokemon icon)
+}
 BATTLE_LIMIT_KIND = 3   # Mega_HT key 90 of the item type (Item_OnPickup: at most 3 battle items)
 ROPE_ABILITY = 'AXR0'
 ROPE_ORDER = 'spirittroll'
@@ -111,7 +146,7 @@ def add(c, script, units, allu, ids, by_name, base):
         if kind == 'stone':
             vals = {'goldcost': str(price)}
         c.item_rows.append((tmpl, iid, vals))
-        shop_slot = next(sl.index(k) for _sid, _n, sl in SHOPS if k in sl)
+        shop_slot = k  # v3.4.5: items are sold by the item NPC, the slot is only the order of the list
         c.item_txt.append((iid, [('Name', name), ('Tip', 'Purchase |cffffcc00%s|r' % name), ('Ubertip', text),
                                  ('Description', text), ('Art', BTN % icon),
                                  ('Buttonpos', '%d,%d' % (shop_slot % 4, shop_slot // 4))]))
@@ -134,10 +169,20 @@ def add(c, script, units, allu, ids, by_name, base):
     # v3.4.2: the shop rows of a base (y = +-544: Poke Mart / Super Marts, Mega Shops) are full and the first spots
     # of v3.4.0 sat on Mega Shop III / Haunt Legendary: the free band between the rows, either side of the walkway
     # from the Poke Center to the door (checked walkable in war3map.wpm, analysis/base_layout.py)
+    # v3.4.3 (de xuat 7, buoc B): the two shops moved out of the gap between the rows to the open column
+    # x = -5120 (between the pillars ncop and the gates n030 / nwgt, >= 315 units from any base unit);
+    # the old spots stay as fallbacks
+    # v3.4.5: back to the v3.4.2 spots. The v3.4.3 spots at x = -5120 / -5264 stood on the way to the West gym gate
+    # (nwgt at -5120, 640): a hero could not walk into the gym any more
     spots = [(-5696, 288), (-5696, -288), (-5392, 288), (-5392, -288), (-5904, 288), (-5904, -288)]
     for i, (x, y) in enumerate(spots):
         c.data += ['    set Ext_SpotX[%d] = %s' % (i, repr(float(-x))), '    set Ext_SpotY[%d] = %s' % (i, repr(float(y)))]
-    c.data.append('    set Ext_SpotN = %d' % len(spots))
+    # v3.4.5 (proposal 11): no Battle / Item shop buildings any more; the items are sold by the item NPC (item_shop.j)
+    c.data.append('    set Ext_SpotN = 0')
+    c.data.append('    set Ish_N = %d' % len(ITEMS))
+    for k, (_iid, name, price, _kind, _icon, text) in enumerate(ITEMS):
+        c.data += ['    set Ish_Price[%d] = %d' % (k, price), '    set Ish_Name[%d] = "%s"' % (k, name),
+                   '    set Ish_Desc[%d] = "%s"' % (k, text.replace('"', "'"))]
     c.report.append('items: %d new (%s), shops nBS0 Battle Shop, nIS0 Item Shop' % (len(ITEMS), ', '.join(ix)))
 
     # ---------------- stone evolutions (Evo_Item*), skipping the ones v1.8 already does
@@ -247,6 +292,17 @@ def add(c, script, units, allu, ids, by_name, base):
         ('I01X', [('Ubertip', 'Raise 20% damage and 15 armor.|n|n|cffffcc00Equip with Steel Pokemon. Onix and Scyther '
                               'evolve with it (they may buy it).|r')]),
     ]
+    # v3.4.5: Pokemon held-item icons of the map for the type items and the new items (see TYPE_ICONS, ITEM_ICONS)
+    # v3.4.6: an item with a PNG of the TrainerOps set (item_icons.PNG) uses that icon instead
+    import item_icons
+    icons = dict(TYPE_ICONS)
+    icons.update(ITEM_ICONS)
+    art, icon_files = item_icons.plan()
+    icons.update(art)
+    c.files.update(icon_files)
+    for iid, icon in sorted(icons.items()):
+        c.item_txt_mods.append((iid, [('Art', icon)]))
+    c.report.append('item icons: %d from the TrainerOps set, %d map icons' % (len(art), len(icons) - len(art)))
     c.shop_add.setdefault('n00Q', []).append('ITFY')
     c.report.append('type items: Ground (I013 Soft Sand) and Fairy (ITFY Pixie Plate, Super Mart 2) added')
 

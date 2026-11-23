@@ -30,8 +30,8 @@ LINES = [
     (('Litten', 'Torracat', 'Incineroar'), (725, 726, 727), (17, 34), 2),
 ]
 # own Abilities of the final forms (Arena indices: 15 Intimidate, 18 Shell Armor, 27 Iron Fist, 31 Reckless,
-# 70 Strong Jaw, 79 Protean = new in v3.4.16)
-FINAL_AB = {'Feraligatr': 70, 'Torterra': 18, 'Infernape': 27, 'Emboar': 31, 'Greninja': 79, 'Incineroar': 15}
+# 70 Strong Jaw, 3 Torrent = Greninja changed from 79 Protean to avoid colliding with Primordial Sea in v4.1.2)
+FINAL_AB = {'Feraligatr': 70, 'Torterra': 18, 'Infernape': 27, 'Emboar': 31, 'Greninja': 3, 'Incineroar': 15}
 # Pokemon World's unit scale for the model (None there -> 1.2)
 SCALE = {158: 0.7, 159: 1.4, 160: 1.5, 258: 1.5, 260: 1.2, 387: 1.5, 388: 3.0, 389: 5.0, 390: 2.8, 391: 0.55,
          392: 2.8, 393: 0.3, 394: 0.5, 395: 0.95, 495: 1.2, 497: 1.3, 498: 1.8, 499: 1.7, 500: 1.5, 652: 1.65,

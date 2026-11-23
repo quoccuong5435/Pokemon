@@ -1,0 +1,382 @@
+# Danh Sách Chọn Đánh Gần (Melee) vs Đánh Xa (Archer) — Pokemon Arena v4.2b
+
+### Cách dùng (rất đơn giản):
+- **`- [x]` (đã tick):** Pokemon **Đánh Gần (Melee)** → `ua1w = normal`, tầm đánh `135–175`, không bắn đạn, kích hoạt phản đòn cận chiến (Static / Flame Body / Rocky Helmet / Hard Stone).
+- **`- [ ]` (bỏ tick):** Pokemon **Đánh Xa (Archer)** → `ua1w = missile` (Staryu/Starmie giữ `mbounce`), tầm đánh `450–600`, bắn đạn chuẩn theo Hệ (không còn bắn cục lửa `LavaSpawnMissile` hàng loạt).
+
+> Mình đã **tick sẵn gợi ý** cho bạn (**164 Melee** / **196 Archer** trên tổng **360** Hero). Bạn chỉ cần tick/bỏ tick những con muốn đổi rồi **Lưu file (Ctrl+S)** và nhắn mình **`ok xong rồi`** — code sẽ đọc trực tiếp file này để áp dụng chính xác 100%!
+
+---
+
+## 1. Legend & Pseudo-Legend Heroes (61 con — đang tick **14 Melee** / **47 Archer**)
+
+- [x] ![](hero_icons/P0JA.png) `P0JA` **Buzzwole** — Bug&Fighting · `STR` · Atk `139` / SpA `53` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1DA.png) `P1DA` **Entei** — Fire · `STR` · Atk `85` / SpA `75` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EN0C.png) `EN0C` **Gallade** — Psychic&Fighting · `STR` · Atk `65` / SpA `115` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E028.png) `E028` **Giratina** — Ghost&Dragon · `STR` · Atk `120` / SpA `120` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/P4UA.png) `P4UA` **Groudon** — Ground · `STR` · Atk `140` / SpA `90` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EL0M.png) `EL0M` **Marshadow** — Fighting&Ghost · `STR` · Atk `80` / SpA `90` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E025.png) `E025` **Regigigas** — Normal · `STR` · Atk `110` / SpA `110` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3BA.png) `P3BA` **Regirock** — Rock · `STR` · Atk `200` / SpA `100` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EL01.png) `EL01` **Registeel** — Steel · `STR` · Atk `150` / SpA `150` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EL0I.png) `EL0I` **Solgaleo** — Psychic&Steel · `STR` · Atk `107` / SpA `89` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EN08.png) `EN08` **Tyranitar** — Rock&Dark · `STR` · Atk `110` / SpA `100` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EL0N.png) `EL0N` **Zacian** — Fairy&Steel · `STR` · Atk `115` / SpA `115` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EL09.png) `EL09` **Zekrom** — Dragon&Electric · `STR` · Atk `120` / SpA `100` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EL0E.png) `EL0E` **Zygarde** — Dragon&Ground · `STR` · Atk `121` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E02A.png) `E02A` **Arceus** — God · `STR` · Atk `120` / SpA `120` *(tầm cũ: `180`)*
+- [ ] ![](hero_icons/E020.png) `E020` **Articuno** — Ice&Flying · `INT` · Atk `100` / SpA `125` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/EL04.png) `EL04` **Azelf** — Psychic · `STR` · Atk `70` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/PZZA.png) `PZZA` **Celebi** — Psychic&Grass · `STR` · Atk `100` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL06.png) `EL06` **Cresselia** — Psychic · `INT` · Atk `110` / SpA `120` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E023.png) `E023` **Darkrai** — Dark · `INT` · Atk `90` / SpA `90` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/E027.png) `E027` **Deoxys** — Psychic · `STR` · Atk `50` / SpA `50` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/E04C.png) `E04C` **Dialga** — Time · `INT` · Atk `120` / SpA `100` *(tầm cũ: `180`)*
+- [ ] ![](hero_icons/EL0F.png) `EL0F` **Diancie** — Rock&Fairy · `STR` · Atk `150` / SpA `150` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0O.png) `EL0O` **Eternatus** — Poison&Dragon · `INT` · Atk `95` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EN0B.png) `EN0B` **Gardevoir** — Psychic&Fairy · `INT` · Atk `65` / SpA `115` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/EL0B.png) `EL0B` **Genesect** — Bug&Steel · `STR` · Atk `95` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL05.png) `EL05` **Heatran** — Fire&Steel · `INT` · Atk `106` / SpA `106` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1TA.png) `P1TA` **Ho-Oh** — Fire&Flying · `STR` · Atk `90` / SpA `154` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0G.png) `EL0G` **Hoopa** — Psychic&Ghost · `INT` · Atk `60` / SpA `130` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1YA.png) `P1YA` **Hydreigon** — Dark&Dragon · `INT` · Atk `90` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P20A.png) `P20A` **Jigglypuff** — Normal&Fairy · `STR` · Atk `20` / SpA `25` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P21A.png) `P21A` **Jirachi** — Steel&Psychic · `STR` · Atk `100` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P26A.png) `P26A` **Kyogre** — Water · `INT` · Atk `90` / SpA `140` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0A.png) `EL0A` **Kyurem** — Dragon&Ice · `STR` · Atk `90` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/PV2A.png) `PV2A` **Latias & Latios** — Dragon&Psychic · `INT` · Atk `90` / SpA `120` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0J.png) `EL0J` **Lunala** — Psychic&Ghost · `INT` · Atk `89` / SpA `107` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0L.png) `EL0L` **Magearna** — Steel&Fairy · `INT` · Atk `115` / SpA `115` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E032.png) `E032` **Magneton** — Electric&Steel · `INT` · Atk `95` / SpA `70` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/P4XA.png) `P4XA` **Magneton** — Electric&Steel · `INT` · Atk `95` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2LA.png) `P2LA` **Magnezone** — Electric&Steel · `INT` · Atk `115` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL03.png) `EL03` **Mesprit** — Psychic · `STR` · Atk `105` / SpA `105` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E024.png) `E024` **Mew** — Psychic · `STR` · Atk `100` / SpA `100` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/E026.png) `E026` **Mewtwo** — Psychic · `INT` · Atk `90` / SpA `90` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/P2UA.png) `P2UA` **Misdreavus** — Ghost · `INT` · Atk `60` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2VA.png) `P2VA` **Mismagius** — Ghost · `INT` · Atk `60` / SpA `105` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E021.png) `E021` **Moltres** — Fire&Flying · `INT` · Atk `90` / SpA `85` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/EL0K.png) `EL0K` **Necrozma** — Psychic · `INT` · Atk `101` / SpA `89` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E04D.png) `E04D` **Palkia** — Space · `INT` · Atk `100` / SpA `120` *(tầm cũ: `180`)*
+- [ ] ![](hero_icons/P39A.png) `P39A` **Raikou** — Electric · `INT` · Atk `75` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E029.png) `E029` **Rayquaza** — Dragon&Flying · `STR` · Atk `90` / SpA `90` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/EL00.png) `EL00` **Regice** — Ice · `INT` · Atk `100` / SpA `200` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL08.png) `EL08` **Reshiram** — Dragon&Fire · `INT` · Atk `100` / SpA `120` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EN0F.png) `EN0F` **Salamence** — Dragon&Flying · `STR` · Atk `80` / SpA `80` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/P3XA.png) `P3XA` **Suicune** — Water · `INT` · Atk `115` / SpA `115` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL02.png) `EL02` **Uxie** — Psychic · `STR` · Atk `130` / SpA `130` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL07.png) `EL07` **Victini** — Psychic&Fire · `STR` · Atk `100` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0H.png) `EL0H` **Volcanion** — Fire&Water · `INT` · Atk `120` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4IA.png) `P4IA` **Wigglytuff** — Normal&Fairy · `INT` · Atk `45` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0C.png) `EL0C` **Xerneas** — Fairy · `STR` · Atk `95` / SpA `98` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EL0D.png) `EL0D` **Yveltal** — Dark&Flying · `STR` · Atk `95` / SpA `98` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E03J.png) `E03J` **Zapdos** — Electric&Flying · `INT` · Atk `85` / SpA `90` *(tầm cũ: `500`)*
+
+---
+
+## 2. Classic, Starter & Tiến Hóa (Gen 1–6) (152 con — đang tick **95 Melee** / **57 Archer**)
+
+- [x] ![](hero_icons/EN0K.png) `EN0K` **Absol** — Dark · `STR` · Atk `60` / SpA `60` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E01C.png) `E01C` **Arcanine** — Fire · `STR` · Atk `80` / SpA `80` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EN0D.png) `EN0D` **Bagon** — Dragon&Flying · `STR` · Atk `60` / SpA `30` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EN0G.png) `EN0G` **Beldum** — Steel&Psychic · `STR` · Atk `80` / SpA `60` *(tầm cũ: `350`)*
+- [x] ![](hero_icons/E02B.png) `E02B` **Bellsprout** — Grass&Poison · `STR` · Atk `35` / SpA `30` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EN02.png) `EN02` **Blaziken** — Fire&Fighting · `STR` · Atk `70` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01N.png) `E01N` **Caterpie** — Bug · `STR` · Atk `35` / SpA `20` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EP0N.png) `EP0N` **Chesnaught** — Grass&Fighting · `STR` · Atk `122` / SpA `75` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EP0L.png) `EP0L` **Chespin** — Grass · `STR` · Atk `65` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EP09.png) `EP09` **Chimchar** — Fire · `STR` · Atk `44` / SpA `44` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01F.png) `E01F` **Cloyster** — Water&Ice · `STR` · Atk `180` / SpA `45` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EN01.png) `EN01` **Combusken** — Fire&Fighting · `STR` · Atk `60` / SpA `60` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E049.png) `E049` **Crobat** — Poison&Flying · `STR` · Atk `80` / SpA `80` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EP01.png) `EP01` **Croconaw** — Water · `STR` · Atk `80` / SpA `63` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/E01S.png) `E01S` **Dratini** — Dragon · `STR` · Atk `45` / SpA `50` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03A.png) `E03A` **Eevee** — Normal · `STR` · Atk `50` / SpA `65` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/EP0K.png) `EP0K` **Emboar** — Fire&Fighting · `STR` · Atk `65` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E03H.png) `E03H` **Espeon** — Psychic · `INT` · Atk `60` / SpA `95` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E038.png) `E038` **Flareon** — Fire · `STR` · Atk `60` / SpA `110` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00N.png) `E00N` **Geodude** — Rock&Ground · `STR` · Atk `100` / SpA `30` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03T.png) `E03T` **Glaceon** — Ice · `INT` · Atk `110` / SpA `95` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00P.png) `E00P` **Golem** — Rock&Ground · `STR` · Atk `130` / SpA `65` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E00O.png) `E00O` **Graveler** — Rock&Ground · `STR` · Atk `115` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EP07.png) `EP07` **Grotle** — Grass · `STR` · Atk `85` / SpA `65` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E03F.png) `E03F` **Gyarados** — Water&Flying · `STR` · Atk `79` / SpA `100` *(tầm cũ: `180`)*
+- [x] ![](hero_icons/E01Z.png) `E01Z` **Hitmonchan** — Fighting · `STR` · Atk `79` / SpA `110` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E03Y.png) `E03Y` **Hitmonlee** — Fighting · `STR` · Atk `53` / SpA `110` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E03Z.png) `E03Z` **Hitmontop** — Fighting · `STR` · Atk `95` / SpA `110` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/EP0W.png) `EP0W` **Incineroar** — Fire&Dark · `STR` · Atk `90` / SpA `90` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EP0B.png) `EP0B` **Infernape** — Fire&Fighting · `STR` · Atk `71` / SpA `71` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01E.png) `E01E` **Jolteon** — Electric · `INT` · Atk `60` / SpA `95` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03P.png) `E03P` **Kabuto** — Rock&Water · `STR` · Atk `90` / SpA `45` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E035.png) `E035` **Kabutops** — Rock&Water · `STR` · Atk `105` / SpA `70` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E02J.png) `E02J` **Kakuna** — Bug&Poison · `STR` · Atk `50` / SpA `25` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E02P.png) `E02P` **Kangaskhan** — Normal · `STR` · Atk `80` / SpA `80` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E03D.png) `E03D` **Kingler** — Water · `STR` · Atk `115` / SpA `50` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01V.png) `E01V` **Koffing** — Poison · `STR` · Atk `95` / SpA `45` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E03C.png) `E03C` **Krabby** — Water · `STR` · Atk `90` / SpA `25` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EN06.png) `EN06` **Larvitar** — Rock&Dark · `STR` · Atk `50` / SpA `50` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03S.png) `E03S` **Leafleon** — Grass · `STR` · Atk `130` / SpA `65` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EP0U.png) `EP0U` **Litten** — Fire · `STR` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EN0J.png) `EN0J` **Lucario** — Fighting&Steel · `INT` · Atk `70` / SpA `70` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E010.png) `E010` **Machamp** — Fighting · `STR` · Atk `80` / SpA `85` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00Z.png) `E00Z` **Machoke** — Fighting · `STR` · Atk `70` / SpA `60` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00Y.png) `E00Y` **Machop** — Fighting · `STR` · Atk `50` / SpA `35` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03E.png) `E03E` **Magikarp** — Water · `INT` · Atk `55` / SpA `20` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E02S.png) `E02S` **Mankey** — Fighting · `STR` · Atk `35` / SpA `45` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EP04.png) `EP04` **Marshtomp** — Water&Ground · `STR` · Atk `70` / SpA `70` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EN0I.png) `EN0I` **Metagross** — Steel&Psychic · `STR` · Atk `130` / SpA `90` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EN0H.png) `EN0H` **Metang** — Steel&Psychic · `STR` · Atk `100` / SpA `80` *(tầm cũ: `350`)*
+- [x] ![](hero_icons/E01P.png) `E01P` **Metapod** — Bug · `INT` · Atk `55` / SpA `25` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EP0A.png) `EP0A` **Monferno** — Fire&Fighting · `STR` · Atk `52` / SpA `52` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E040.png) `E040` **Mr.mime** — Psychic · `INT` · Atk `65` / SpA `120` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EP03.png) `EP03` **Mudkip** — Water · `STR` · Atk `50` / SpA `50` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E01J.png) `E01J` **Nidoking** — Ground&Poison · `STR` · Atk `77` / SpA `75` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01M.png) `E01M` **Nidoran** — Poison · `STR` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E01L.png) `E01L` **Nidorino** — Poison · `STR` · Atk `57` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E03Q.png) `E03Q` **Omanyte** — Rock&Water · `INT` · Atk `100` / SpA `55` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03R.png) `E03R` **Omastar** — Rock&Water · `INT` · Atk `125` / SpA `70` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03U.png) `E03U` **Onix** — Rock&Ground · `STR` · Atk `160` / SpA `45` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00B.png) `E00B` **Pidgey** — Flying · `STR` · Atk `40` / SpA `35` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EP0J.png) `EP0J` **Pignite** — Fire&Fighting · `STR` · Atk `55` / SpA `55` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E03W.png) `E03W` **Pinsir** — Bug · `STR` · Atk `100` / SpA `70` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E012.png) `E012` **Poliwag** — Water · `STR` · Atk `40` / SpA `40` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E013.png) `E013` **Poliwhirl** — Water · `STR` · Atk `65` / SpA `50` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E014.png) `E014` **Poliwrath** — Water&Fighting · `STR` · Atk `95` / SpA `90` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E02T.png) `E02T` **Primeape** — Fighting · `STR` · Atk `60` / SpA `70` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/EN07.png) `EN07` **Pupitar** — Rock&Dark · `STR` · Atk `70` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EP0M.png) `EP0M` **Quilladin** — Grass · `STR` · Atk `95` / SpA `58` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E00U.png) `E00U` **Raticate** — Normal · `STR` · Atk `60` / SpA `70` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E00T.png) `E00T` **Rattata** — Normal · `STR` · Atk `35` / SpA `35` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E02Z.png) `E02Z` **Rhydon** — Rock&Ground · `STR` · Atk `120` / SpA `45` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E02Y.png) `E02Y` **Rhyhorn** — Rock&Ground · `STR` · Atk `95` / SpA `30` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00A.png) `E00A` **Sandshrew** — Ground · `STR` · Atk `85` / SpA `30` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E00F.png) `E00F` **Sandslash** — Ground · `STR` · Atk `110` / SpA `55` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03M.png) `E03M` **Scizor** — Bug&Steel · `STR` · Atk `100` / SpA `80` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E03L.png) `E03L` **Scyther** — Bug&Flying · `STR` · Atk `80` / SpA `80` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/EP0H.png) `EP0H` **Serperior** — Grass · `STR` · Atk `95` / SpA `95` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EP0G.png) `EP0G` **Servine** — Grass · `STR` · Atk `75` / SpA `75` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EN0E.png) `EN0E` **Shelgon** — Dragon&Flying · `STR` · Atk `100` / SpA `50` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/E02E.png) `E02E` **Shellder** — Water&Ice · `STR` · Atk `100` / SpA `25` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EP0F.png) `EP0F` **Snivy** — Grass · `STR` · Atk `55` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E03V.png) `E03V` **Steelix** — Steel&Ground · `STR` · Atk `200` / SpA `65` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E03X.png) `E03X` **Sylveon** — Fairy · `INT` · Atk `65` / SpA `130` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/E018.png) `E018` **Tauros** — Normal · `STR` · Atk `95` / SpA `70` *(tầm cũ: `128`)*
+- [x] ![](hero_icons/EP0I.png) `EP0I` **Tepig** — Fire · `STR` · Atk `45` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/EP0V.png) `EP0V` **Torracat** — Fire · `STR` · Atk `50` / SpA `50` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EP08.png) `EP08` **Torterra** — Grass&Ground · `STR` · Atk `105` / SpA `85` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/EP00.png) `EP00` **Totodile** — Water · `STR` · Atk `64` / SpA `48` *(tầm cũ: `250`)*
+- [x] ![](hero_icons/EP06.png) `EP06` **Turtwig** — Grass · `STR` · Atk `64` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/E03I.png) `E03I` **Umbreon** — Dark · `STR` · Atk `110` / SpA `130` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E037.png) `E037` **Vaporeon** — Water · `INT` · Atk `60` / SpA `95` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E02I.png) `E02I` **Weedle** — Bug&Poison · `STR` · Atk `30` / SpA `20` *(tầm cũ: `150`)*
+- [x] ![](hero_icons/E01A.png) `E01A` **Weepinbell** — Grass&Poison · `STR` · Atk `50` / SpA `45` *(tầm cũ: `300`)*
+- [x] ![](hero_icons/E019.png) `E019` **Weezing** — Poison · `STR` · Atk `120` / SpA `70` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E00G.png) `E00G` **Abra** — Psychic · `INT` · Atk `15` / SpA `55` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/E00I.png) `E00I` **Alakazam** — Psychic · `INT` · Atk `45` / SpA `95` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/E02K.png) `E02K` **Beedrill** — Bug&Poison · `STR` · Atk `40` / SpA `80` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E000.png) `E000` **Blastoise** — Water · `INT` · Atk `100` / SpA `105` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/EP0P.png) `EP0P` **Braixen** — Fire · `INT` · Atk `58` / SpA `70` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E008.png) `E008` **Bulbasaur** — Grass&Poison · `INT` · Atk `49` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E01Q.png) `E01Q` **Butterfree** — Bug&Flying · `INT` · Atk `50` / SpA `80` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/E00E.png) `E00E` **Charizard** — Fire&Flying · `INT` · Atk `78` / SpA `85` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/E003.png) `E003` **Charmander** — Fire · `INT` · Atk `43` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E007.png) `E007` **Charmeleon** — Fire · `INT` · Atk `58` / SpA `65` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/EP0Q.png) `EP0Q` **Delphox** — Fire&Psychic · `INT` · Atk `72` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E01T.png) `E01T` **Dragonair** — Dragon · `STR` · Atk `65` / SpA `70` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E01K.png) `E01K` **Dragonite** — Dragon&Flying · `STR` · Atk `95` / SpA `100` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/E01X.png) `E01X` **Electrode** — Electric · `INT` · Atk `70` / SpA `80` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/EP0E.png) `EP0E` **Empoleon** — Water&Steel · `INT` · Atk `88` / SpA `101` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/E02U.png) `E02U` **Exeggcute** — Grass&Psychic · `INT` · Atk `80` / SpA `45` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E02W.png) `E02W` **Exeggutor** — Grass&Psychic · `INT` · Atk `85` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EP0O.png) `EP0O` **Fennekin** — Fire · `INT` · Atk `40` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EP02.png) `EP02` **Feraligatr** — Water · `STR` · Atk `100` / SpA `83` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/EP0R.png) `EP0R` **Froakie** — Water · `INT` · Atk `40` / SpA `44` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/EP0S.png) `EP0S` **Frogadier** — Water · `INT` · Atk `52` / SpA `56` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E02G.png) `E02G` **Gastly** — Ghost&Poison · `INT` · Atk `30` / SpA `35` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/E01G.png) `E01G` **Gengar** — Ghost&Poison · `INT` · Atk `60` / SpA `75` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/E048.png) `E048` **Golbat** — Poison&Flying · `STR` · Atk `70` / SpA `75` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/EP0T.png) `EP0T` **Greninja** — Water&Dark · `INT` · Atk `67` / SpA `71` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/EN04.png) `EN04` **Grovyle** — Grass · `INT` · Atk `45` / SpA `65` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E02F.png) `E02F` **Growlithe** — Fire · `STR` · Atk `45` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E02H.png) `E02H` **Haunter** — Ghost&Poison · `INT` · Atk `45` / SpA `55` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/E001.png) `E001` **Ivysaur** — Grass&Poison · `INT` · Atk `63` / SpA `80` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E00H.png) `E00H` **Kadabra** — Psychic · `INT` · Atk `30` / SpA `70` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/EN0A.png) `EN0A` **Kirlia** — Psychic&Fairy · `INT` · Atk `35` / SpA `55` *(tầm cũ: `500`)*
+- [ ] ![](hero_icons/E031.png) `E031` **Magnemite** — Electric&Steel · `INT` · Atk `70` / SpA `55` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/E04P.png) `E04P` **Ninetales** — Fire · `INT` · Atk `75` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E00D.png) `E00D` **Pidgeot** — Flying · `STR` · Atk `75` / SpA `70` *(tầm cũ: `600`)*
+- [ ] ![](hero_icons/E00C.png) `E00C` **Pidgeotto** — Flying · `STR` · Atk `55` / SpA `50` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/E005.png) `E005` **Pikachu** — Electric · `STR` · Atk `40` / SpA `50` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/EP0C.png) `EP0C` **Piplup** — Water · `INT` · Atk `53` / SpA `56` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E01B.png) `E01B` **Ponyta** — Fire · `STR` · Atk `55` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EP0D.png) `EP0D` **Prinplup** — Water · `INT` · Atk `68` / SpA `76` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E006.png) `E006` **Raichu** — Electric · `STR` · Atk `55` / SpA `80` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/EN09.png) `EN09` **Ralts** — Psychic&Fairy · `INT` · Atk `25` / SpA `35` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/E01H.png) `E01H` **Rapidash** — Fire · `STR` · Atk `70` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EN05.png) `EN05` **Sceptile** — Grass · `INT` · Atk `65` / SpA `85` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E004.png) `E004` **Squirtle** — Water · `INT` · Atk `65` / SpA `64` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E04M.png) `E04M` **Starmie** — Water&Psychic · `INT` · Atk `85` / SpA `85` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/E04N.png) `E04N` **Staryu** — Water · `INT` · Atk `55` / SpA `55` *(tầm cũ: `350`)*
+- [ ] ![](hero_icons/EP05.png) `EP05` **Swampert** — Water&Ground · `STR` · Atk `90` / SpA `90` *(tầm cũ: `450`)*
+- [ ] ![](hero_icons/E02D.png) `E02D` **Tentacool** — Water&Poison · `INT` · Atk `35` / SpA `100` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E01I.png) `E01I` **Tentacruel** — Water&Poison · `INT` · Atk `65` / SpA `120` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/EN00.png) `EN00` **Torchic** — Fire&Fighting · `INT` · Atk `40` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/EN03.png) `EN03` **Treecko** — Grass · `INT` · Atk `35` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E002.png) `E002` **Venusaur** — Grass&Poison · `INT` · Atk `83` / SpA `100` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E02C.png) `E02C` **Victreebel** — Grass&Poison · `STR` · Atk `65` / SpA `70` *(tầm cũ: `400`)*
+- [ ] ![](hero_icons/E01D.png) `E01D` **Voltorb** — Electric · `INT` · Atk `50` / SpA `55` *(tầm cũ: `250`)*
+- [ ] ![](hero_icons/E04O.png) `E04O` **Vulpix** — Fire · `INT` · Atk `40` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/E009.png) `E009` **Wartortle** — Water · `INT` · Atk `80` / SpA `80` *(tầm cũ: `300`)*
+- [ ] ![](hero_icons/E046.png) `E046` **Zubat** — Poison&Flying · `STR` · Atk `35` / SpA `40` *(tầm cũ: `300`)*
+
+---
+
+## 3. Pokemon Rừng / Soul (Gen 2–9) (147 con — đang tick **55 Melee** / **92 Archer**)
+
+- [x] ![](hero_icons/P4QA.png) `P4QA` **Aegislash** — Steel&Ghost · `STR` · Atk `140` / SpA `140` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P03A.png) `P03A` **Alolan-Geodude** — Rock&Electric · `STR` · Atk `100` / SpA `30` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P04A.png) `P04A` **Alolan-Golem** — Rock&Electric · `STR` · Atk `130` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P05A.png) `P05A` **Alolan-Graveler** — Rock&Electric · `STR` · Atk `115` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4MA.png) `P4MA` **Alolan-Sandshrew** — Ice&Steel · `STR` · Atk `90` / SpA `35` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4NA.png) `P4NA` **Alolan-Sandslash** — Ice&Steel · `STR` · Atk `120` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4SA.png) `P4SA` **Bisharp** — Dark&Steel · `STR` · Atk `100` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0HA.png) `P0HA` **Bonsly** — Rock · `STR` · Atk `95` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0IA.png) `P0IA` **Breloom** — Grass&Fighting · `STR` · Atk `80` / SpA `60` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0KA.png) `P0KA` **Carvanha** — Water&Dark · `STR` · Atk `20` / SpA `20` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0NA.png) `P0NA` **Chikorita** — Grass · `STR` · Atk `65` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0UA.png) `P0UA` **Croagunk** — Poison&Fighting · `STR` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0VA.png) `P0VA` **Cubone** — Ground · `STR` · Atk `95` / SpA `50` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0XA.png) `P0XA` **Darmanitan** — Fire · `STR` · Atk `55` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0YA.png) `P0YA` **Darumaka** — Fire · `STR` · Atk `45` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P0ZA.png) `P0ZA` **Deino** — Dark&Dragon · `STR` · Atk `50` / SpA `50` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P12A.png) `P12A` **Ditto** — Normal · `STR` · Atk `48` / SpA `48` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4PA.png) `P4PA` **Doublade** — Steel&Ghost · `STR` · Atk `150` / SpA `49` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1HA.png) `P1HA` **Flygon** — Ground&Dragon · `STR` · Atk `80` / SpA `80` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1IA.png) `P1IA` **Gabite** — Dragon&Ground · `STR` · Atk `65` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1LA.png) `P1LA` **Garchomp** — Dragon&Ground · `STR` · Atk `95` / SpA `85` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1NA.png) `P1NA` **Gible** — Dragon&Ground · `STR` · Atk `45` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P1QA.png) `P1QA` **Granbull** — Fairy · `STR` · Atk `75` / SpA `60` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4OA.png) `P4OA` **Honedge** — Steel&Ghost · `STR` · Atk `100` / SpA `37` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4TA.png) `P4TA` **Kingambit** — Dark&Steel · `STR` · Atk `120` / SpA `85` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P24A.png) `P24A` **Kingdra** — Water&Dragon · `STR` · Atk `95` / SpA `95` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P2BA.png) `P2BA` **Leafeon** — Grass · `STR` · Atk `0` / SpA `0` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P2MA.png) `P2MA` **Mamoswine** — Ice&Ground · `STR` · Atk `80` / SpA `60` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P2PA.png) `P2PA` **Marowak** — Ground · `STR` · Atk `110` / SpA `80` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P2XA.png) `P2XA` **Nincada** — Bug&Ground · `STR` · Atk `90` / SpA `30` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4RA.png) `P4RA` **Pawniard** — Dark&Steel · `STR` · Atk `70` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P32A.png) `P32A` **Piloswine** — Ice&Ground · `STR` · Atk `80` / SpA `60` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4YA.png) `P4YA` **Poliwag** — Water · `STR` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4ZA.png) `P4ZA` **Poliwhirl** — Water · `STR` · Atk `65` / SpA `50` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P51A.png) `P51A` **Rhydon** — Ground&Rock · `STR` · Atk `120` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P50A.png) `P50A` **Rhyhorn** — Ground&Rock · `STR` · Atk `95` / SpA `30` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3CA.png) `P3CA` **Rhyperior** — Ground&Rock · `STR` · Atk `130` / SpA `55` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3DA.png) `P3DA` **Sableye** — Dark&Ghost · `STR` · Atk `75` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3IA.png) `P3IA` **Sharpedo** — Water&Dark · `STR` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3JA.png) `P3JA` **Shedinja** — Bug&Ghost · `STR` · Atk `45` / SpA `30` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3LA.png) `P3LA` **Shroomish** — Grass · `STR` · Atk `60` / SpA `60` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3MA.png) `P3MA` **Sirfetch'd** — Fighting · `STR` · Atk `95` / SpA `82` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3PA.png) `P3PA` **Slowpoke** — Water&Psychic · `STR` · Atk `65` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3VA.png) `P3VA` **Snubbull** — Fairy · `STR` · Atk `50` / SpA `40` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3WA.png) `P3WA` **Sudowoodo** — Rock · `STR` · Atk `115` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P3ZA.png) `P3ZA` **Swinub** — Ice&Ground · `STR` · Atk `40` / SpA `30` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P42A.png) `P42A` **Tauros Aqua** — Fighting&Water · `STR` · Atk `105` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P43A.png) `P43A` **Tauros Blaze** — Fighting&Fire · `STR` · Atk `105` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P44A.png) `P44A` **Tauros Combat** — Fighting · `STR` · Atk `105` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P49A.png) `P49A` **Torkoal** — Fire · `STR` · Atk `140` / SpA `70` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4AA.png) `P4AA` **Toxicroak** — Poison&Fighting · `STR` · Atk `65` / SpA `65` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4BA.png) `P4BA` **Trapinch** — Ground · `STR` · Atk `45` / SpA `45` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4EA.png) `P4EA` **Tyrogue** — Fighting · `STR` · Atk `35` / SpA `35` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4FA.png) `P4FA` **Vibrava** — Ground&Dragon · `STR` · Atk `50` / SpA `50` *(tầm cũ: `200`)*
+- [x] ![](hero_icons/P4LA.png) `P4LA` **Zweilous** — Dark&Dragon · `STR` · Atk `70` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P00A.png) `P00A` **Abomasnow** — Grass&Ice · `STR` · Atk `75` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P02A.png) `P02A` **Aerodactyl** — Rock&Flying · `STR` · Atk `65` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P06A.png) `P06A` **Alolan-Raichu** — Electric&Psychic · `INT` · Atk `50` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P08A.png) `P08A` **Ampharos** — Electric · `INT` · Atk `85` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P09A.png) `P09A` **Arbok** — Poison · `STR` · Atk `69` / SpA `79` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0BA.png) `P0BA` **Baltoy** — Ground&Psychic · `STR` · Atk `55` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0CA.png) `P0CA` **Bayleef** — Grass · `INT` · Atk `80` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0EA.png) `P0EA` **Bellossom** — Grass · `INT` · Atk `95` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0GA.png) `P0GA` **Blissey** — Normal · `INT` · Atk `10` / SpA `135` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0LA.png) `P0LA` **Chandelure** — Ghost&Fire · `INT` · Atk `90` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0MA.png) `P0MA` **Chansey** — Normal · `INT` · Atk `5` / SpA `105` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0OA.png) `P0OA` **Chinchou** — Water&Electric · `INT` · Atk `38` / SpA `56` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0PA.png) `P0PA` **Claydol** — Ground&Psychic · `STR` · Atk `105` / SpA `120` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0QA.png) `P0QA` **Clefable** — Fairy · `INT` · Atk `73` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0RA.png) `P0RA` **Clefairy** — Fairy · `INT` · Atk `48` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0TA.png) `P0TA` **Cradily** — Rock&Grass · `STR` · Atk `97` / SpA `107` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P0WA.png) `P0WA` **Cyndaquil** — Fire · `INT` · Atk `43` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P10A.png) `P10A` **Dewgong** — Water&Ice · `STR` · Atk `80` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P11A.png) `P11A` **Diglett** — Ground · `STR` · Atk `25` / SpA `45` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P13A.png) `P13A` **Drowzee** — Psychic · `STR` · Atk `45` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P14A.png) `P14A` **Dugtrio** — Ground · `STR` · Atk `50` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P15A.png) `P15A` **Dusclops** — Ghost · `STR` · Atk `130` / SpA `130` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P16A.png) `P16A` **Dusknoir** — Ghost · `STR` · Atk `135` / SpA `135` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P17A.png) `P17A` **Duskull** — Ghost · `STR` · Atk `90` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4VA.png) `P4VA` **Eevee** — Normal · `STR` · Atk `50` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P18A.png) `P18A` **Ekans** — Poison · `STR` · Atk `44` / SpA `54` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P19A.png) `P19A` **Electabuzz** — Electric · `INT` · Atk `57` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1AA.png) `P1AA` **Electivire** — Electric · `STR` · Atk `67` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1BA.png) `P1BA` **Electrike** — Electric · `INT` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1CA.png) `P1CA` **Elekid** — Electric · `INT` · Atk `37` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1EA.png) `P1EA` **Farfetch'd** — Normal&Flying · `STR` · Atk `55` / SpA `62` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1FA.png) `P1FA` **Feebas** — Water · `STR` · Atk `20` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1GA.png) `P1GA` **Flaaffy** — Electric · `INT` · Atk `55` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1KA.png) `P1KA` **Galvantula** — Bug&Electric · `INT` · Atk `60` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1OA.png) `P1OA` **Gloom** — Grass&Poison · `INT` · Atk `70` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1PA.png) `P1PA` **Golduck** — Water · `INT` · Atk `78` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1SA.png) `P1SA` **Heracross** — Bug&Fighting · `STR` · Atk `75` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1UA.png) `P1UA` **Hoothoot** — Normal&Flying · `INT` · Atk `30` / SpA `56` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1VA.png) `P1VA` **Horsea** — Water · `INT` · Atk `70` / SpA `25` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1WA.png) `P1WA` **Houndoom** — Dark&Fire · `INT` · Atk `50` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1XA.png) `P1XA` **Houndour** — Dark&Fire · `INT` · Atk `30` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P1ZA.png) `P1ZA` **Hypno** — Psychic · `STR` · Atk `70` / SpA `115` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P22A.png) `P22A` **Joltik** — Bug&Electric · `INT` · Atk `50` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P23A.png) `P23A` **Jynx** — Ice&Psychic · `INT` · Atk `35` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P27A.png) `P27A` **Lampent** — Ghost&Fire · `INT` · Atk `60` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P28A.png) `P28A` **Lanturn** — Water&Electric · `INT` · Atk `58` / SpA `76` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P29A.png) `P29A` **Lapras** — Water&Ice · `STR` · Atk `80` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2CA.png) `P2CA` **Lileep** — Rock&Grass · `INT` · Atk `77` / SpA `87` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2DA.png) `P2DA` **Litwick** — Ghost&Fire · `INT` · Atk `55` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2EA.png) `P2EA` **Lombre** — Water&Grass · `INT` · Atk `50` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2FA.png) `P2FA` **Lotad** — Water&Grass · `INT` · Atk `30` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2GA.png) `P2GA` **Ludicolo** — Water&Grass · `INT` · Atk `70` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2HA.png) `P2HA` **Magby** — Fire · `STR` · Atk `37` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2IA.png) `P2IA` **Magcargo** — Fire&Rock · `INT` · Atk `120` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2JA.png) `P2JA` **Magmar** — Fire · `INT` · Atk `57` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2KA.png) `P2KA` **Magmortar** — Fire · `INT` · Atk `67` / SpA `95` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4WA.png) `P4WA` **Magnemite** — Electric&Steel · `INT` · Atk `70` / SpA `55` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2NA.png) `P2NA` **Manectric** — Electric · `INT` · Atk `60` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2OA.png) `P2OA` **Mareep** — Electric · `INT` · Atk `40` / SpA `45` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/PV0A.png) `PV0A` **Meganium** — Grass · `INT` · Atk `0` / SpA `0` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2QA.png) `P2QA` **Meowth** — Normal · `STR` · Atk `35` / SpA `40` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2TA.png) `P2TA` **Milotic** — Water · `INT` · Atk `79` / SpA `125` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2WA.png) `P2WA` **Mr. Mime** — Psychic&Fairy · `INT` · Atk `0` / SpA `0` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2YA.png) `P2YA` **Ninjask** — Bug&Flying · `STR` · Atk `45` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P2ZA.png) `P2ZA` **Noctowl** — Normal&Flying · `INT` · Atk `50` / SpA `96` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P30A.png) `P30A` **Oddish** — Grass&Poison · `INT` · Atk `55` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P31A.png) `P31A` **Persian** — Normal · `STR` · Atk `60` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P34A.png) `P34A` **Politoed** — Water · `INT` · Atk `75` / SpA `100` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P35A.png) `P35A` **Porygon** — Normal · `INT` · Atk `70` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/PV1A.png) `PV1A` **Porygon2** — Normal · `INT` · Atk `0` / SpA `0` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P36A.png) `P36A` **Psyduck** — Water · `INT` · Atk `48` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P38A.png) `P38A` **Quilava** — Fire · `INT` · Atk `58` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3GA.png) `P3GA` **Seadra** — Water · `INT` · Atk `95` / SpA `45` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3HA.png) `P3HA` **Seel** — Water · `STR` · Atk `55` / SpA `70` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3NA.png) `P3NA` **Slowbro** — Water&Psychic · `INT` · Atk `110` / SpA `80` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3OA.png) `P3OA` **Slowking** — Water&Psychic · `INT` · Atk `80` / SpA `110` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3QA.png) `P3QA` **Slugma** — Fire · `INT` · Atk `40` / SpA `40` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3RA.png) `P3RA` **Smoochum** — Ice&Psychic · `INT` · Atk `15` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3SA.png) `P3SA` **Sneasel** — Dark&Ice · `STR` · Atk `55` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3TA.png) `P3TA` **Snorlax** — Normal · `STR` · Atk `65` / SpA `110` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3UA.png) `P3UA` **Snover** — Grass&Ice · `STR` · Atk `50` / SpA `60` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P3YA.png) `P3YA` **Swablu** — Normal&Flying · `STR` · Atk `60` / SpA `75` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P40A.png) `P40A` **Tangela** — Grass · `INT` · Atk `115` / SpA `40` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P41A.png) `P41A` **Tangrowth** — Grass · `INT` · Atk `125` / SpA `50` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P45A.png) `P45A` **Togekiss** — Fairy&Flying · `INT` · Atk `95` / SpA `115` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P46A.png) `P46A` **Togepi** — Fairy · `INT` · Atk `65` / SpA `65` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P47A.png) `P47A` **Togetic** — Fairy&Flying · `INT` · Atk `85` / SpA `105` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4DA.png) `P4DA` **Typhlosion** — Fire · `INT` · Atk `78` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4GA.png) `P4GA` **Vileplume** — Grass&Poison · `INT` · Atk `85` / SpA `90` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4HA.png) `P4HA` **Weavile** — Dark&Ice · `STR` · Atk `65` / SpA `85` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4JA.png) `P4JA` **Wobbuffet** — Psychic · `STR` · Atk `58` / SpA `58` *(tầm cũ: `200`)*
+- [ ] ![](hero_icons/P4KA.png) `P4KA` **Wynaut** — Psychic · `STR` · Atk `48` / SpA `48` *(tầm cũ: `200`)*

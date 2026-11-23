@@ -1,0 +1,385 @@
+{
+  "items": {
+    "Aftermath": {
+      "d": "edit",
+      "n": "nổ 1000% thuộc tính  choáng 3s"
+    },
+    "Air_Lock": {
+      "d": "ok",
+      "n": ""
+    },
+    "Analytic": {
+      "d": "ok",
+      "n": ""
+    },
+    "Anger_Point": {
+      "d": "ok",
+      "n": ""
+    },
+    "Anticipation": {
+      "d": "ok",
+      "n": ""
+    },
+    "Bad_Dreams": {
+      "d": "ok",
+      "n": ""
+    },
+    "Battle_Armor": {
+      "d": "ok",
+      "n": ""
+    },
+    "Big_Pecks": {
+      "d": "ok",
+      "n": ""
+    },
+    "Bulletproof": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Chlorophyll": {
+      "d": "ok",
+      "n": ""
+    },
+    "Clear_Body": {
+      "d": "ok",
+      "n": ""
+    },
+    "Cloud_Nine": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Competitive": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Cud_Chew": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Damp": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Drizzle": {
+      "d": "edit",
+      "n": "những cái gọi thời tiết bỏ hết sửa thành cái khác"
+    },
+    "Drought": {
+      "d": "edit",
+      "n": "ko gọi thời tiết đổi mới luôn không theo mô tả"
+    },
+    "Dry_Skin": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Early_Bird": {
+      "d": "ok",
+      "n": ""
+    },
+    "Flame_Body": {
+      "d": "ok",
+      "n": ""
+    },
+    "Flash_Fire": {
+      "d": "ok",
+      "n": ""
+    },
+    "Friend_Guard": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Frisk": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Gluttony": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Guts": {
+      "d": "ok",
+      "n": ""
+    },
+    "Harvest": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Healer": {
+      "d": "edit",
+      "n": "100%"
+    },
+    "Hydration": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Hyper_Cutter": {
+      "d": "ok",
+      "n": ""
+    },
+    "Ice_Body": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Imposter": {
+      "d": "edit",
+      "n": "luôn luôn copy thuộc tính của ng target , nếu target người khác thì cũng đổi luôn"
+    },
+    "Inner_Focus": {
+      "d": "ok",
+      "n": ""
+    },
+    "Insomnia": {
+      "d": "ok",
+      "n": ""
+    },
+    "Intimidate": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Justified": {
+      "d": "ok",
+      "n": ""
+    },
+    "Keen_Eye": {
+      "d": "ok",
+      "n": ""
+    },
+    "Light_Metal": {
+      "d": "edit",
+      "n": "tăng"
+    },
+    "Lightning_Rod": {
+      "d": "edit",
+      "n": "tăng với thêm hiệu ứng"
+    },
+    "Limber": {
+      "d": "edit",
+      "n": "tăng"
+    },
+    "Magic_Bounce": {
+      "d": "ok",
+      "n": ""
+    },
+    "Magic_Guard": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Magnet_Pull": {
+      "d": "edit",
+      "n": "tăng lên"
+    },
+    "Marvel_Scale": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Minus": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Motor_Drive": {
+      "d": "edit",
+      "n": "tăng"
+    },
+    "Natural_Cure": {
+      "d": "ok",
+      "n": ""
+    },
+    "Oblivious": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Overgrow": {
+      "d": "ok",
+      "n": ""
+    },
+    "Own_Tempo": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Pickpocket": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Pixilate": {
+      "d": "ok",
+      "n": ""
+    },
+    "Plus": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Poison_Touch": {
+      "d": "edit",
+      "n": "độc gây ra như nào"
+    },
+    "Pressure": {
+      "d": "edit",
+      "n": "tăng chứ yếu"
+    },
+    "Protean": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Quick_Feet": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Rain_Dish": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Rattled": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Reckless": {
+      "d": "ok",
+      "n": ""
+    },
+    "Regenerator": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Rock_Head": {
+      "d": "edit",
+      "n": "kể cả đánh thường bị phản "
+    },
+    "Rough_Skin": {
+      "d": "ok",
+      "n": ""
+    },
+    "Run_Away": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Sand_Force": {
+      "d": "ok",
+      "n": ""
+    },
+    "Sand_Rush": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Sand_Stream": {
+      "d": "edit",
+      "n": "như những cái trên"
+    },
+    "Sand_Veil": {
+      "d": "ok",
+      "n": ""
+    },
+    "Scrappy": {
+      "d": "edit",
+      "n": "tăng"
+    },
+    "Serene_Grace": {
+      "d": "ok",
+      "n": ""
+    },
+    "Shadow_Tag": {
+      "d": "ok",
+      "n": ""
+    },
+    "Shell_Armor": {
+      "d": "ok",
+      "n": ""
+    },
+    "Shield_Dust": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Slow_Start": {
+      "d": "ok",
+      "n": "tăng thời gian"
+    },
+    "Slush_Rush": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Snow_Cloak": {
+      "d": "ok",
+      "n": ""
+    },
+    "Snow_Warning": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Speed_Boost": {
+      "d": "ok",
+      "n": ""
+    },
+    "Stance_Change": {
+      "d": "ok",
+      "n": ""
+    },
+    "Static": {
+      "d": "ok",
+      "n": ""
+    },
+    "Stench": {
+      "d": "edit",
+      "n": "tăng thêm"
+    },
+    "Storm_Drain": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Sturdy": {
+      "d": "ok",
+      "n": ""
+    },
+    "Suction_Cups": {
+      "d": "edit",
+      "n": "tăng mạnh"
+    },
+    "Surge_Surfer": {
+      "d": "edit",
+      "n": "đổi mới luôn không theo mô tả"
+    },
+    "Synchronize": {
+      "d": "edit",
+      "n": "tăng lên"
+    },
+    "Technician": {
+      "d": "ok",
+      "n": ""
+    },
+    "Telepathy": {
+      "d": "ok",
+      "n": ""
+    },
+    "Thick_Fat": {
+      "d": "ok",
+      "n": ""
+    },
+    "Unaware": {
+      "d": "edit",
+      "n": "bỏ qua thủ có work không"
+    },
+    "Unburden": {
+      "d": "ok",
+      "n": ""
+    },
+    "Vital_Spirit": {
+      "d": "ok",
+      "n": ""
+    },
+    "Volt_Absorb": {
+      "d": "ok",
+      "n": ""
+    },
+    "Water_Absorb": {
+      "d": "ok",
+      "n": ""
+    },
+    "Wonder_Guard": {
+      "d": "ok",
+      "n": ""
+    },
+    "Zen_Mode": {
+      "d": "ok",
+      "n": ""
+    }
+  },
+  "t": 1795317634199
+}

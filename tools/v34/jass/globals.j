@@ -27,7 +27,7 @@ integer array Ty_PPhys
 integer Ty_CurPow = 60                  // power / class of the move found by Ty_Resolve
 integer Ty_CurPhys = 2
 constant real Ty_Window = 6.0           // damage within 6s of a cast counts as that move's damage
-constant real Ty_ImmuneMult = 0.25      // an immune type still takes 25% (never 0)
+constant real Ty_ImmuneMult = 0.0       // v3.4.7: immune = x0 as in the chart image (was 0.25)
 constant real Ty_MaxMult = 2.0          // dual weakness is still x2
 unit array Ab_FxSrc                     // source of a damage-over-time slot (kill credit)
 unit Ab_FxCur = null                    // source given to the next Ab_FxAdd
@@ -55,6 +55,21 @@ integer array Itm_Id                    // held / utility item k (Ab_HT key 140 
 integer Itm_Everstone = 0
 integer Itm_MegaRing = 0
 integer Itm_Rope = 0
+// v3.4.5 (proposal 11): the item NPC and its dialog list (item_shop.j)
+constant real Ish_X = -5376.0
+constant real Ish_Y = 0.0
+unit Ish_Npc = null
+group Ish_Tmp = null
+integer Ish_N = 0
+integer array Ish_Price                 // item k: price in gold
+string array Ish_Name                   // item k: name
+string array Ish_Desc                   // item k: description
+unit array Ish_Hero                     // pid: the hero that opened the list
+integer array Ish_Page                  // pid: page of the list
+integer array Ish_Sel                   // pid: selected item (-1 none)
+dialog array Ish_Dlg                    // pid: the dialog
+button array Ish_Bt                     // pid * 12 + i: button i of the dialog
+integer array Ish_Code                  // pid * 12 + i: item k (>= 0), -1 previous, -2 next, -3 close, -4 buy, -5 back
 boolean Mega_EvoItem = false            // a stone or a Soul is replacing the unit: Everstone does not stop it
 constant integer Shiny_Chance = 100
 constant integer Shiny_ChanceChamp = 20
@@ -93,6 +108,9 @@ real League_EX = 0.0                    // exit portal (to your base),
 real League_EY = 0.0
 real League_GX = 0.0                    // entrance portal of the west base (the east base mirrors x)
 real League_GY = 0.0
+boolean League_Resting = false          // v3.4.6: 30 s rest between two Elite Four
+unit League_RestU = null                // the challenger the rest belongs to
+texttag array Gym_Tag                   // v3.4.6: label of each gym (name, difficulty, who cleared it)
 real League_RoomX0 = 0.0
 real League_RoomY0 = 0.0
 real League_RoomX1 = 0.0

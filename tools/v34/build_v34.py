@@ -37,6 +37,8 @@ import objdata  # noqa: E402
 import content  # noqa: E402
 import move_icons  # noqa: E402
 import league_area  # noqa: E402
+import melee_fx  # noqa: E402
+import attack_fx  # noqa: E402
 
 BASE_VERSION = '3.3.3'
 BASE_MAP = os.path.join(MAPS, 'Pokemon Arena v%s.w3x' % BASE_VERSION)
@@ -62,7 +64,7 @@ def patch_w3i(data, version):
                .replace(old_desc, (DESC % version).encode('latin-1'))
 
 
-def patch_ability_slk(data, rows):
+def patch_ability_slk(data, rows, over=()):
     s = slk.Slk(data.decode('latin-1'))
     for n, _c, _name, _t in abilities.ABILITIES:
         if n > OLD_ABILITIES and s.find(info_id(n)) is None:
@@ -70,7 +72,21 @@ def patch_ability_slk(data, rows):
     for tmpl, new, values in rows:
         if s.find(new) is None:
             objects._row_from(s, tmpl, new, values)
+    for aid, cols in over:  # v3.4.3 (melee_fx): change columns of existing move rows
+        row = s.find(aid)
+        if row is None:
+            raise SystemExit('ability row %s not found' % aid)
+        for col, v in cols.items():
+            row[s.name_to_x[col]] = v
     return s.to_text().encode('latin-1')
+
+
+def apply_text_sets(data, sets):
+    """v3.4.3 (melee_fx): set keys inside existing ability sections of the text file"""
+    text = data.decode('utf-8')
+    for sid, pairs in sets:
+        text = _set_keys(text, sid, pairs)
+    return text.encode('utf-8')
 
 
 def _append_sections(text, sections):
@@ -163,7 +179,11 @@ def build(version, out, dry_run=False):
         raise SystemExit('war3map.w3u does not round-trip through objdata: not touching it')
     units = {o.id: o for o in w3u.custom}
     c = content.make(open(BASE_SCRIPT, encoding='utf-8').read(), units, base, with_files=True)
+    melee_over, melee_txt, melee_files = melee_fx.plan(script.decode('latin-1'))
     patch_units(w3u, c)
+    changed, skipped = attack_fx.apply(w3u)  # v3.4.5 (plan 9): physical attackers melee
+    print('attack: %d units now melee, %d species not in learnsets (kept): %s'
+          % (len(changed), len(skipped), ', '.join(sorted(set(skipped)))[:300]))
     extra, warns = mega_look.map_files(w3u)
     for w in warns + [r for r in c.report if r.startswith('WARNING')]:
         print('warning:', w)
@@ -176,12 +196,14 @@ def build(version, out, dry_run=False):
         'war3map.w3e': league_area.repaint(base.read('war3map.w3e'))[0],  # v3.4.2: League room floor
         objects.ITEM_SLK: item_slk,
         objects.ITEM_TXT: item_txt,
-        objects.ABIL_SLK: patch_ability_slk(base.read(objects.ABIL_SLK), c.abil_rows),
-        objects.ABIL_TXT: patch_ability_txt(base.read(objects.ABIL_TXT), c.abil_txt,
-                                            move_icons.plan(open(BASE_SCRIPT, encoding='utf-8').read())),
+        objects.ABIL_SLK: patch_ability_slk(base.read(objects.ABIL_SLK), c.abil_rows, melee_over),
+        objects.ABIL_TXT: apply_text_sets(patch_ability_txt(base.read(objects.ABIL_TXT), c.abil_txt,
+                                                            move_icons.plan(open(BASE_SCRIPT, encoding='utf-8').read())),
+                                          melee_txt),
     }
     imported = dict(c.files)
     imported.update(extra)
+    imported.update(melee_files)  # v3.4.3: PKLegends models of the melee moves
     clash = [n for n in imported if base.has(n) and base.read(n) != imported[n]]
     if clash:
         raise SystemExit('imported files would replace files of the map: %s' % clash[:10])

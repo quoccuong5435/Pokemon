@@ -218,6 +218,11 @@ def build(out, dry):
             buffs.rows.append(r)
         icon_new.append((aid, bid, k))
     files['Units\\AbilityBuffData.slk'] = buffs.to_text().encode('latin-1')
+    # v4.3.2: the Poke Center restores 15% of the HP per second (ACnr) but only 5% of the mana (ANre): mana as fast as HP
+    row = abil.find('ANre')
+    if row is None or abil.get(row, 'DataA1') != '0.05':
+        raise SystemExit('ANre (Poke Center mana aura) not found or not 0.05')
+    row[abil.name_to_x['DataA1']] = '0.15'
     files['Units\\AbilityData.slk'] = abil.to_text().encode('latin-1')
     strings = base.read('Units\\CampaignAbilityStrings.txt').decode('utf-8', 'replace')
     for new, tmpl, name, ty, icon, desc in buttons:

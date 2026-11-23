@@ -1,0 +1,13472 @@
+{
+ "abomasnow": {
+  "abilities": [
+   "snow-warning",
+   "soundproof"
+  ],
+  "dex": "460",
+  "height_m": 2.2,
+  "slug": "abomasnow",
+  "types": [
+   "grass",
+   "ice"
+  ]
+ },
+ "abra": {
+  "abilities": [
+   "synchronize",
+   "inner-focus",
+   "magic-guard"
+  ],
+  "dex": "63",
+  "height_m": 0.9,
+  "slug": "abra",
+  "types": [
+   "psychic"
+  ]
+ },
+ "absol": {
+  "abilities": [
+   "pressure",
+   "super-luck",
+   "justified"
+  ],
+  "dex": "359",
+  "height_m": 1.2,
+  "slug": "absol",
+  "types": [
+   "dark"
+  ]
+ },
+ "accelgor": {
+  "abilities": [
+   "hydration",
+   "sticky-hold",
+   "unburden"
+  ],
+  "dex": "617",
+  "height_m": 0.8,
+  "slug": "accelgor",
+  "types": [
+   "bug"
+  ]
+ },
+ "aegislash-shield": {
+  "abilities": [
+   "stance-change"
+  ],
+  "dex": "681",
+  "height_m": 1.7,
+  "slug": "aegislash-shield",
+  "types": [
+   "steel",
+   "ghost"
+  ]
+ },
+ "aerodactyl": {
+  "abilities": [
+   "rock-head",
+   "pressure",
+   "unnerve"
+  ],
+  "dex": "142",
+  "height_m": 1.8,
+  "slug": "aerodactyl",
+  "types": [
+   "rock",
+   "flying"
+  ]
+ },
+ "aggron": {
+  "abilities": [
+   "sturdy",
+   "rock-head",
+   "heavy-metal"
+  ],
+  "dex": "306",
+  "height_m": 2.1,
+  "slug": "aggron",
+  "types": [
+   "steel",
+   "rock"
+  ]
+ },
+ "aipom": {
+  "abilities": [
+   "run-away",
+   "pickup",
+   "skill-link"
+  ],
+  "dex": "190",
+  "height_m": 0.8,
+  "slug": "aipom",
+  "types": [
+   "normal"
+  ]
+ },
+ "alakazam": {
+  "abilities": [
+   "synchronize",
+   "inner-focus",
+   "magic-guard"
+  ],
+  "dex": "65",
+  "height_m": 1.5,
+  "slug": "alakazam",
+  "types": [
+   "psychic"
+  ]
+ },
+ "alcremie": {
+  "abilities": [
+   "sweet-veil",
+   "aroma-veil"
+  ],
+  "dex": "869",
+  "height_m": 0.3,
+  "slug": "alcremie",
+  "types": [
+   "fairy"
+  ]
+ },
+ "alomomola": {
+  "abilities": [
+   "healer",
+   "hydration",
+   "regenerator"
+  ],
+  "dex": "594",
+  "height_m": 1.2,
+  "slug": "alomomola",
+  "types": [
+   "water"
+  ]
+ },
+ "altaria": {
+  "abilities": [
+   "natural-cure",
+   "cloud-nine"
+  ],
+  "dex": "334",
+  "height_m": 1.1,
+  "slug": "altaria",
+  "types": [
+   "dragon",
+   "flying"
+  ]
+ },
+ "amaura": {
+  "abilities": [
+   "refrigerate",
+   "snow-warning"
+  ],
+  "dex": "698",
+  "height_m": 1.3,
+  "slug": "amaura",
+  "types": [
+   "rock",
+   "ice"
+  ]
+ },
+ "ambipom": {
+  "abilities": [
+   "technician",
+   "pickup",
+   "skill-link"
+  ],
+  "dex": "424",
+  "height_m": 1.2,
+  "slug": "ambipom",
+  "types": [
+   "normal"
+  ]
+ },
+ "amoonguss": {
+  "abilities": [
+   "effect-spore",
+   "regenerator"
+  ],
+  "dex": "591",
+  "height_m": 0.6,
+  "slug": "amoonguss",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "ampharos": {
+  "abilities": [
+   "static",
+   "plus"
+  ],
+  "dex": "181",
+  "height_m": 1.4,
+  "slug": "ampharos",
+  "types": [
+   "electric"
+  ]
+ },
+ "annihilape": {
+  "abilities": [
+   "vital-spirit",
+   "inner-focus",
+   "defiant"
+  ],
+  "dex": "979",
+  "height_m": 1.2,
+  "slug": "annihilape",
+  "types": [
+   "fighting",
+   "ghost"
+  ]
+ },
+ "anorith": {
+  "abilities": [
+   "battle-armor",
+   "swift-swim"
+  ],
+  "dex": "347",
+  "height_m": 0.7,
+  "slug": "anorith",
+  "types": [
+   "rock",
+   "bug"
+  ]
+ },
+ "appletun": {
+  "abilities": [
+   "ripen",
+   "gluttony",
+   "thick-fat"
+  ],
+  "dex": "842",
+  "height_m": 0.4,
+  "slug": "appletun",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "applin": {
+  "abilities": [
+   "ripen",
+   "gluttony",
+   "bulletproof"
+  ],
+  "dex": "840",
+  "height_m": 0.2,
+  "slug": "applin",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "araquanid": {
+  "abilities": [
+   "water-bubble",
+   "water-absorb"
+  ],
+  "dex": "752",
+  "height_m": 1.8,
+  "slug": "araquanid",
+  "types": [
+   "water",
+   "bug"
+  ]
+ },
+ "arbok": {
+  "abilities": [
+   "intimidate",
+   "shed-skin",
+   "unnerve"
+  ],
+  "dex": "24",
+  "height_m": 3.5,
+  "slug": "arbok",
+  "types": [
+   "poison"
+  ]
+ },
+ "arboliva": {
+  "abilities": [
+   "seed-sower",
+   "harvest"
+  ],
+  "dex": "930",
+  "height_m": 1.4,
+  "slug": "arboliva",
+  "types": [
+   "grass",
+   "normal"
+  ]
+ },
+ "arcanine": {
+  "abilities": [
+   "intimidate",
+   "flash-fire",
+   "justified"
+  ],
+  "dex": "59",
+  "height_m": 1.9,
+  "slug": "arcanine",
+  "types": [
+   "fire"
+  ]
+ },
+ "arceus": {
+  "abilities": [
+   "multitype"
+  ],
+  "dex": "493",
+  "height_m": 3.2,
+  "slug": "arceus",
+  "types": [
+   "normal"
+  ]
+ },
+ "archaludon": {
+  "abilities": [
+   "stamina",
+   "sturdy",
+   "stalwart"
+  ],
+  "dex": "1018",
+  "height_m": 2.0,
+  "slug": "archaludon",
+  "types": [
+   "steel",
+   "dragon"
+  ]
+ },
+ "archen": {
+  "abilities": [
+   "defeatist"
+  ],
+  "dex": "566",
+  "height_m": 0.5,
+  "slug": "archen",
+  "types": [
+   "rock",
+   "flying"
+  ]
+ },
+ "archeops": {
+  "abilities": [
+   "defeatist"
+  ],
+  "dex": "567",
+  "height_m": 1.4,
+  "slug": "archeops",
+  "types": [
+   "rock",
+   "flying"
+  ]
+ },
+ "arctibax": {
+  "abilities": [
+   "thermal-exchange",
+   "ice-body"
+  ],
+  "dex": "997",
+  "height_m": 0.8,
+  "slug": "arctibax",
+  "types": [
+   "dragon",
+   "ice"
+  ]
+ },
+ "arctovish": {
+  "abilities": [
+   "water-absorb",
+   "ice-body",
+   "slush-rush"
+  ],
+  "dex": "883",
+  "height_m": 2.0,
+  "slug": "arctovish",
+  "types": [
+   "water",
+   "ice"
+  ]
+ },
+ "arctozolt": {
+  "abilities": [
+   "volt-absorb",
+   "static",
+   "slush-rush"
+  ],
+  "dex": "881",
+  "height_m": 2.3,
+  "slug": "arctozolt",
+  "types": [
+   "electric",
+   "ice"
+  ]
+ },
+ "ariados": {
+  "abilities": [
+   "swarm",
+   "insomnia",
+   "sniper"
+  ],
+  "dex": "168",
+  "height_m": 1.1,
+  "slug": "ariados",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "armaldo": {
+  "abilities": [
+   "battle-armor",
+   "swift-swim"
+  ],
+  "dex": "348",
+  "height_m": 1.5,
+  "slug": "armaldo",
+  "types": [
+   "rock",
+   "bug"
+  ]
+ },
+ "armarouge": {
+  "abilities": [
+   "flash-fire",
+   "weak-armor"
+  ],
+  "dex": "936",
+  "height_m": 1.5,
+  "slug": "armarouge",
+  "types": [
+   "fire",
+   "psychic"
+  ]
+ },
+ "aromatisse": {
+  "abilities": [
+   "healer",
+   "aroma-veil"
+  ],
+  "dex": "683",
+  "height_m": 0.8,
+  "slug": "aromatisse",
+  "types": [
+   "fairy"
+  ]
+ },
+ "aron": {
+  "abilities": [
+   "sturdy",
+   "rock-head",
+   "heavy-metal"
+  ],
+  "dex": "304",
+  "height_m": 0.4,
+  "slug": "aron",
+  "types": [
+   "steel",
+   "rock"
+  ]
+ },
+ "arrokuda": {
+  "abilities": [
+   "swift-swim",
+   "propeller-tail"
+  ],
+  "dex": "846",
+  "height_m": 0.5,
+  "slug": "arrokuda",
+  "types": [
+   "water"
+  ]
+ },
+ "articuno": {
+  "abilities": [
+   "pressure",
+   "snow-cloak"
+  ],
+  "dex": "144",
+  "height_m": 1.7,
+  "slug": "articuno",
+  "types": [
+   "ice",
+   "flying"
+  ]
+ },
+ "audino": {
+  "abilities": [
+   "healer",
+   "regenerator",
+   "klutz"
+  ],
+  "dex": "531",
+  "height_m": 1.1,
+  "slug": "audino",
+  "types": [
+   "normal"
+  ]
+ },
+ "aurorus": {
+  "abilities": [
+   "refrigerate",
+   "snow-warning"
+  ],
+  "dex": "699",
+  "height_m": 2.7,
+  "slug": "aurorus",
+  "types": [
+   "rock",
+   "ice"
+  ]
+ },
+ "avalugg": {
+  "abilities": [
+   "own-tempo",
+   "ice-body",
+   "sturdy"
+  ],
+  "dex": "713",
+  "height_m": 2.0,
+  "slug": "avalugg",
+  "types": [
+   "ice"
+  ]
+ },
+ "axew": {
+  "abilities": [
+   "rivalry",
+   "mold-breaker",
+   "unnerve"
+  ],
+  "dex": "610",
+  "height_m": 0.6,
+  "slug": "axew",
+  "types": [
+   "dragon"
+  ]
+ },
+ "azelf": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "482",
+  "height_m": 0.3,
+  "slug": "azelf",
+  "types": [
+   "psychic"
+  ]
+ },
+ "azumarill": {
+  "abilities": [
+   "thick-fat",
+   "huge-power",
+   "sap-sipper"
+  ],
+  "dex": "184",
+  "height_m": 0.8,
+  "slug": "azumarill",
+  "types": [
+   "water",
+   "fairy"
+  ]
+ },
+ "azurill": {
+  "abilities": [
+   "thick-fat",
+   "huge-power",
+   "sap-sipper"
+  ],
+  "dex": "298",
+  "height_m": 0.2,
+  "slug": "azurill",
+  "types": [
+   "normal",
+   "fairy"
+  ]
+ },
+ "bagon": {
+  "abilities": [
+   "rock-head",
+   "sheer-force"
+  ],
+  "dex": "371",
+  "height_m": 0.6,
+  "slug": "bagon",
+  "types": [
+   "dragon"
+  ]
+ },
+ "baltoy": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "343",
+  "height_m": 0.5,
+  "slug": "baltoy",
+  "types": [
+   "ground",
+   "psychic"
+  ]
+ },
+ "banette": {
+  "abilities": [
+   "insomnia",
+   "frisk",
+   "cursed-body"
+  ],
+  "dex": "354",
+  "height_m": 1.1,
+  "slug": "banette",
+  "types": [
+   "ghost"
+  ]
+ },
+ "barbaracle": {
+  "abilities": [
+   "tough-claws",
+   "sniper",
+   "pickpocket"
+  ],
+  "dex": "689",
+  "height_m": 1.3,
+  "slug": "barbaracle",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "barboach": {
+  "abilities": [
+   "oblivious",
+   "anticipation",
+   "hydration"
+  ],
+  "dex": "339",
+  "height_m": 0.4,
+  "slug": "barboach",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "barraskewda": {
+  "abilities": [
+   "swift-swim",
+   "propeller-tail"
+  ],
+  "dex": "847",
+  "height_m": 1.3,
+  "slug": "barraskewda",
+  "types": [
+   "water"
+  ]
+ },
+ "basculegion-male": {
+  "abilities": [
+   "swift-swim",
+   "adaptability",
+   "mold-breaker"
+  ],
+  "dex": "902",
+  "height_m": 3.0,
+  "slug": "basculegion-male",
+  "types": [
+   "water",
+   "ghost"
+  ]
+ },
+ "basculin-red-striped": {
+  "abilities": [
+   "reckless",
+   "adaptability",
+   "mold-breaker"
+  ],
+  "dex": "550",
+  "height_m": 1.0,
+  "slug": "basculin-red-striped",
+  "types": [
+   "water"
+  ]
+ },
+ "bastiodon": {
+  "abilities": [
+   "sturdy",
+   "soundproof"
+  ],
+  "dex": "411",
+  "height_m": 1.3,
+  "slug": "bastiodon",
+  "types": [
+   "rock",
+   "steel"
+  ]
+ },
+ "baxcalibur": {
+  "abilities": [
+   "thermal-exchange",
+   "ice-body"
+  ],
+  "dex": "998",
+  "height_m": 2.1,
+  "slug": "baxcalibur",
+  "types": [
+   "dragon",
+   "ice"
+  ]
+ },
+ "bayleef": {
+  "abilities": [
+   "overgrow",
+   "leaf-guard"
+  ],
+  "dex": "153",
+  "height_m": 1.2,
+  "slug": "bayleef",
+  "types": [
+   "grass"
+  ]
+ },
+ "beartic": {
+  "abilities": [
+   "snow-cloak",
+   "slush-rush",
+   "swift-swim"
+  ],
+  "dex": "614",
+  "height_m": 2.6,
+  "slug": "beartic",
+  "types": [
+   "ice"
+  ]
+ },
+ "beautifly": {
+  "abilities": [
+   "swarm",
+   "rivalry"
+  ],
+  "dex": "267",
+  "height_m": 1.0,
+  "slug": "beautifly",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "beedrill": {
+  "abilities": [
+   "swarm",
+   "sniper"
+  ],
+  "dex": "15",
+  "height_m": 1.0,
+  "slug": "beedrill",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "beheeyem": {
+  "abilities": [
+   "telepathy",
+   "synchronize",
+   "analytic"
+  ],
+  "dex": "606",
+  "height_m": 1.0,
+  "slug": "beheeyem",
+  "types": [
+   "psychic"
+  ]
+ },
+ "beldum": {
+  "abilities": [
+   "clear-body",
+   "light-metal"
+  ],
+  "dex": "374",
+  "height_m": 0.6,
+  "slug": "beldum",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "bellibolt": {
+  "abilities": [
+   "electromorphosis",
+   "static",
+   "damp"
+  ],
+  "dex": "939",
+  "height_m": 1.2,
+  "slug": "bellibolt",
+  "types": [
+   "electric"
+  ]
+ },
+ "bellossom": {
+  "abilities": [
+   "chlorophyll",
+   "healer"
+  ],
+  "dex": "182",
+  "height_m": 0.4,
+  "slug": "bellossom",
+  "types": [
+   "grass"
+  ]
+ },
+ "bellsprout": {
+  "abilities": [
+   "chlorophyll",
+   "gluttony"
+  ],
+  "dex": "69",
+  "height_m": 0.7,
+  "slug": "bellsprout",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "bergmite": {
+  "abilities": [
+   "own-tempo",
+   "ice-body",
+   "sturdy"
+  ],
+  "dex": "712",
+  "height_m": 1.0,
+  "slug": "bergmite",
+  "types": [
+   "ice"
+  ]
+ },
+ "bewear": {
+  "abilities": [
+   "fluffy",
+   "klutz",
+   "unnerve"
+  ],
+  "dex": "760",
+  "height_m": 2.1,
+  "slug": "bewear",
+  "types": [
+   "normal",
+   "fighting"
+  ]
+ },
+ "bibarel": {
+  "abilities": [
+   "simple",
+   "unaware",
+   "moody"
+  ],
+  "dex": "400",
+  "height_m": 1.0,
+  "slug": "bibarel",
+  "types": [
+   "normal",
+   "water"
+  ]
+ },
+ "bidoof": {
+  "abilities": [
+   "simple",
+   "unaware",
+   "moody"
+  ],
+  "dex": "399",
+  "height_m": 0.5,
+  "slug": "bidoof",
+  "types": [
+   "normal"
+  ]
+ },
+ "binacle": {
+  "abilities": [
+   "tough-claws",
+   "sniper",
+   "pickpocket"
+  ],
+  "dex": "688",
+  "height_m": 0.5,
+  "slug": "binacle",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "bisharp": {
+  "abilities": [
+   "defiant",
+   "inner-focus",
+   "pressure"
+  ],
+  "dex": "625",
+  "height_m": 1.6,
+  "slug": "bisharp",
+  "types": [
+   "dark",
+   "steel"
+  ]
+ },
+ "blacephalon": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "806",
+  "height_m": 1.8,
+  "slug": "blacephalon",
+  "types": [
+   "fire",
+   "ghost"
+  ]
+ },
+ "blastoise": {
+  "abilities": [
+   "torrent",
+   "rain-dish"
+  ],
+  "dex": "9",
+  "height_m": 1.6,
+  "slug": "blastoise",
+  "types": [
+   "water"
+  ]
+ },
+ "blaziken": {
+  "abilities": [
+   "blaze",
+   "speed-boost"
+  ],
+  "dex": "257",
+  "height_m": 1.9,
+  "slug": "blaziken",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "blipbug": {
+  "abilities": [
+   "swarm",
+   "compound-eyes",
+   "telepathy"
+  ],
+  "dex": "824",
+  "height_m": 0.4,
+  "slug": "blipbug",
+  "types": [
+   "bug"
+  ]
+ },
+ "blissey": {
+  "abilities": [
+   "natural-cure",
+   "serene-grace",
+   "healer"
+  ],
+  "dex": "242",
+  "height_m": 1.5,
+  "slug": "blissey",
+  "types": [
+   "normal"
+  ]
+ },
+ "blitzle": {
+  "abilities": [
+   "lightning-rod",
+   "motor-drive",
+   "sap-sipper"
+  ],
+  "dex": "522",
+  "height_m": 0.8,
+  "slug": "blitzle",
+  "types": [
+   "electric"
+  ]
+ },
+ "boldore": {
+  "abilities": [
+   "sturdy",
+   "weak-armor",
+   "sand-force"
+  ],
+  "dex": "525",
+  "height_m": 0.9,
+  "slug": "boldore",
+  "types": [
+   "rock"
+  ]
+ },
+ "boltund": {
+  "abilities": [
+   "strong-jaw",
+   "competitive"
+  ],
+  "dex": "836",
+  "height_m": 1.0,
+  "slug": "boltund",
+  "types": [
+   "electric"
+  ]
+ },
+ "bombirdier": {
+  "abilities": [
+   "big-pecks",
+   "keen-eye",
+   "rocky-payload"
+  ],
+  "dex": "962",
+  "height_m": 1.5,
+  "slug": "bombirdier",
+  "types": [
+   "flying",
+   "dark"
+  ]
+ },
+ "bonsly": {
+  "abilities": [
+   "sturdy",
+   "rock-head",
+   "rattled"
+  ],
+  "dex": "438",
+  "height_m": 0.5,
+  "slug": "bonsly",
+  "types": [
+   "rock"
+  ]
+ },
+ "bouffalant": {
+  "abilities": [
+   "reckless",
+   "sap-sipper",
+   "soundproof"
+  ],
+  "dex": "626",
+  "height_m": 1.6,
+  "slug": "bouffalant",
+  "types": [
+   "normal"
+  ]
+ },
+ "bounsweet": {
+  "abilities": [
+   "leaf-guard",
+   "oblivious",
+   "sweet-veil"
+  ],
+  "dex": "761",
+  "height_m": 0.3,
+  "slug": "bounsweet",
+  "types": [
+   "grass"
+  ]
+ },
+ "braixen": {
+  "abilities": [
+   "blaze",
+   "magician"
+  ],
+  "dex": "654",
+  "height_m": 1.0,
+  "slug": "braixen",
+  "types": [
+   "fire"
+  ]
+ },
+ "brambleghast": {
+  "abilities": [
+   "wind-rider",
+   "infiltrator"
+  ],
+  "dex": "947",
+  "height_m": 1.2,
+  "slug": "brambleghast",
+  "types": [
+   "grass",
+   "ghost"
+  ]
+ },
+ "bramblin": {
+  "abilities": [
+   "wind-rider",
+   "infiltrator"
+  ],
+  "dex": "946",
+  "height_m": 0.6,
+  "slug": "bramblin",
+  "types": [
+   "grass",
+   "ghost"
+  ]
+ },
+ "braviary": {
+  "abilities": [
+   "keen-eye",
+   "sheer-force",
+   "defiant"
+  ],
+  "dex": "628",
+  "height_m": 1.5,
+  "slug": "braviary",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "breloom": {
+  "abilities": [
+   "effect-spore",
+   "poison-heal",
+   "technician"
+  ],
+  "dex": "286",
+  "height_m": 1.2,
+  "slug": "breloom",
+  "types": [
+   "grass",
+   "fighting"
+  ]
+ },
+ "brionne": {
+  "abilities": [
+   "torrent",
+   "liquid-voice"
+  ],
+  "dex": "729",
+  "height_m": 0.6,
+  "slug": "brionne",
+  "types": [
+   "water"
+  ]
+ },
+ "bronzong": {
+  "abilities": [
+   "levitate",
+   "heatproof",
+   "heavy-metal"
+  ],
+  "dex": "437",
+  "height_m": 1.3,
+  "slug": "bronzong",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "bronzor": {
+  "abilities": [
+   "levitate",
+   "heatproof",
+   "heavy-metal"
+  ],
+  "dex": "436",
+  "height_m": 0.5,
+  "slug": "bronzor",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "brute-bonnet": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "986",
+  "height_m": 1.2,
+  "slug": "brute-bonnet",
+  "types": [
+   "grass",
+   "dark"
+  ]
+ },
+ "bruxish": {
+  "abilities": [
+   "dazzling",
+   "strong-jaw",
+   "wonder-skin"
+  ],
+  "dex": "779",
+  "height_m": 0.9,
+  "slug": "bruxish",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "budew": {
+  "abilities": [
+   "natural-cure",
+   "poison-point",
+   "leaf-guard"
+  ],
+  "dex": "406",
+  "height_m": 0.2,
+  "slug": "budew",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "buizel": {
+  "abilities": [
+   "swift-swim",
+   "water-veil"
+  ],
+  "dex": "418",
+  "height_m": 0.7,
+  "slug": "buizel",
+  "types": [
+   "water"
+  ]
+ },
+ "bulbasaur": {
+  "abilities": [
+   "overgrow",
+   "chlorophyll"
+  ],
+  "dex": "1",
+  "height_m": 0.7,
+  "slug": "bulbasaur",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "buneary": {
+  "abilities": [
+   "run-away",
+   "klutz",
+   "limber"
+  ],
+  "dex": "427",
+  "height_m": 0.4,
+  "slug": "buneary",
+  "types": [
+   "normal"
+  ]
+ },
+ "bunnelby": {
+  "abilities": [
+   "pickup",
+   "cheek-pouch",
+   "huge-power"
+  ],
+  "dex": "659",
+  "height_m": 0.4,
+  "slug": "bunnelby",
+  "types": [
+   "normal"
+  ]
+ },
+ "burmy": {
+  "abilities": [
+   "shed-skin",
+   "overcoat"
+  ],
+  "dex": "412",
+  "height_m": 0.2,
+  "slug": "burmy",
+  "types": [
+   "bug"
+  ]
+ },
+ "butterfree": {
+  "abilities": [
+   "compound-eyes",
+   "tinted-lens"
+  ],
+  "dex": "12",
+  "height_m": 1.1,
+  "slug": "butterfree",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "buzzwole": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "794",
+  "height_m": 2.4,
+  "slug": "buzzwole",
+  "types": [
+   "bug",
+   "fighting"
+  ]
+ },
+ "cacnea": {
+  "abilities": [
+   "sand-veil",
+   "water-absorb"
+  ],
+  "dex": "331",
+  "height_m": 0.4,
+  "slug": "cacnea",
+  "types": [
+   "grass"
+  ]
+ },
+ "cacturne": {
+  "abilities": [
+   "sand-veil",
+   "water-absorb"
+  ],
+  "dex": "332",
+  "height_m": 1.3,
+  "slug": "cacturne",
+  "types": [
+   "grass",
+   "dark"
+  ]
+ },
+ "calyrex": {
+  "abilities": [
+   "unnerve"
+  ],
+  "dex": "898",
+  "height_m": 1.1,
+  "slug": "calyrex",
+  "types": [
+   "psychic",
+   "grass"
+  ]
+ },
+ "camerupt": {
+  "abilities": [
+   "magma-armor",
+   "solid-rock",
+   "anger-point"
+  ],
+  "dex": "323",
+  "height_m": 1.9,
+  "slug": "camerupt",
+  "types": [
+   "fire",
+   "ground"
+  ]
+ },
+ "capsakid": {
+  "abilities": [
+   "chlorophyll",
+   "insomnia",
+   "klutz"
+  ],
+  "dex": "951",
+  "height_m": 0.3,
+  "slug": "capsakid",
+  "types": [
+   "grass"
+  ]
+ },
+ "carbink": {
+  "abilities": [
+   "clear-body",
+   "sturdy"
+  ],
+  "dex": "703",
+  "height_m": 0.3,
+  "slug": "carbink",
+  "types": [
+   "rock",
+   "fairy"
+  ]
+ },
+ "carkol": {
+  "abilities": [
+   "steam-engine",
+   "flame-body",
+   "flash-fire"
+  ],
+  "dex": "838",
+  "height_m": 1.1,
+  "slug": "carkol",
+  "types": [
+   "rock",
+   "fire"
+  ]
+ },
+ "carnivine": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "455",
+  "height_m": 1.4,
+  "slug": "carnivine",
+  "types": [
+   "grass"
+  ]
+ },
+ "carracosta": {
+  "abilities": [
+   "solid-rock",
+   "sturdy",
+   "swift-swim"
+  ],
+  "dex": "565",
+  "height_m": 1.2,
+  "slug": "carracosta",
+  "types": [
+   "water",
+   "rock"
+  ]
+ },
+ "carvanha": {
+  "abilities": [
+   "rough-skin",
+   "speed-boost"
+  ],
+  "dex": "318",
+  "height_m": 0.8,
+  "slug": "carvanha",
+  "types": [
+   "water",
+   "dark"
+  ]
+ },
+ "cascoon": {
+  "abilities": [
+   "shed-skin"
+  ],
+  "dex": "268",
+  "height_m": 0.7,
+  "slug": "cascoon",
+  "types": [
+   "bug"
+  ]
+ },
+ "castform": {
+  "abilities": [
+   "forecast"
+  ],
+  "dex": "351",
+  "height_m": 0.3,
+  "slug": "castform",
+  "types": [
+   "normal"
+  ]
+ },
+ "caterpie": {
+  "abilities": [
+   "shield-dust",
+   "run-away"
+  ],
+  "dex": "10",
+  "height_m": 0.3,
+  "slug": "caterpie",
+  "types": [
+   "bug"
+  ]
+ },
+ "celebi": {
+  "abilities": [
+   "natural-cure"
+  ],
+  "dex": "251",
+  "height_m": 0.6,
+  "slug": "celebi",
+  "types": [
+   "psychic",
+   "grass"
+  ]
+ },
+ "celesteela": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "797",
+  "height_m": 9.2,
+  "slug": "celesteela",
+  "types": [
+   "steel",
+   "flying"
+  ]
+ },
+ "centiskorch": {
+  "abilities": [
+   "flash-fire",
+   "white-smoke",
+   "flame-body"
+  ],
+  "dex": "851",
+  "height_m": 3.0,
+  "slug": "centiskorch",
+  "types": [
+   "fire",
+   "bug"
+  ]
+ },
+ "ceruledge": {
+  "abilities": [
+   "flash-fire",
+   "weak-armor"
+  ],
+  "dex": "937",
+  "height_m": 1.6,
+  "slug": "ceruledge",
+  "types": [
+   "fire",
+   "ghost"
+  ]
+ },
+ "cetitan": {
+  "abilities": [
+   "thick-fat",
+   "slush-rush",
+   "sheer-force"
+  ],
+  "dex": "975",
+  "height_m": 4.5,
+  "slug": "cetitan",
+  "types": [
+   "ice"
+  ]
+ },
+ "cetoddle": {
+  "abilities": [
+   "thick-fat",
+   "snow-cloak",
+   "sheer-force"
+  ],
+  "dex": "974",
+  "height_m": 1.2,
+  "slug": "cetoddle",
+  "types": [
+   "ice"
+  ]
+ },
+ "chandelure": {
+  "abilities": [
+   "flash-fire",
+   "flame-body",
+   "infiltrator"
+  ],
+  "dex": "609",
+  "height_m": 1.0,
+  "slug": "chandelure",
+  "types": [
+   "ghost",
+   "fire"
+  ]
+ },
+ "chansey": {
+  "abilities": [
+   "natural-cure",
+   "serene-grace",
+   "healer"
+  ],
+  "dex": "113",
+  "height_m": 1.1,
+  "slug": "chansey",
+  "types": [
+   "normal"
+  ]
+ },
+ "charcadet": {
+  "abilities": [
+   "flash-fire",
+   "flame-body"
+  ],
+  "dex": "935",
+  "height_m": 0.6,
+  "slug": "charcadet",
+  "types": [
+   "fire"
+  ]
+ },
+ "charizard": {
+  "abilities": [
+   "blaze",
+   "solar-power"
+  ],
+  "dex": "6",
+  "height_m": 1.7,
+  "slug": "charizard",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "charjabug": {
+  "abilities": [
+   "battery"
+  ],
+  "dex": "737",
+  "height_m": 0.5,
+  "slug": "charjabug",
+  "types": [
+   "bug",
+   "electric"
+  ]
+ },
+ "charmander": {
+  "abilities": [
+   "blaze",
+   "solar-power"
+  ],
+  "dex": "4",
+  "height_m": 0.6,
+  "slug": "charmander",
+  "types": [
+   "fire"
+  ]
+ },
+ "charmeleon": {
+  "abilities": [
+   "blaze",
+   "solar-power"
+  ],
+  "dex": "5",
+  "height_m": 1.1,
+  "slug": "charmeleon",
+  "types": [
+   "fire"
+  ]
+ },
+ "chatot": {
+  "abilities": [
+   "keen-eye",
+   "tangled-feet",
+   "big-pecks"
+  ],
+  "dex": "441",
+  "height_m": 0.5,
+  "slug": "chatot",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "cherrim": {
+  "abilities": [
+   "flower-gift"
+  ],
+  "dex": "421",
+  "height_m": 0.5,
+  "slug": "cherrim",
+  "types": [
+   "grass"
+  ]
+ },
+ "cherubi": {
+  "abilities": [
+   "chlorophyll"
+  ],
+  "dex": "420",
+  "height_m": 0.4,
+  "slug": "cherubi",
+  "types": [
+   "grass"
+  ]
+ },
+ "chesnaught": {
+  "abilities": [
+   "overgrow",
+   "bulletproof"
+  ],
+  "dex": "652",
+  "height_m": 1.6,
+  "slug": "chesnaught",
+  "types": [
+   "grass",
+   "fighting"
+  ]
+ },
+ "chespin": {
+  "abilities": [
+   "overgrow",
+   "bulletproof"
+  ],
+  "dex": "650",
+  "height_m": 0.4,
+  "slug": "chespin",
+  "types": [
+   "grass"
+  ]
+ },
+ "chewtle": {
+  "abilities": [
+   "strong-jaw",
+   "shell-armor",
+   "swift-swim"
+  ],
+  "dex": "833",
+  "height_m": 0.3,
+  "slug": "chewtle",
+  "types": [
+   "water"
+  ]
+ },
+ "chi-yu": {
+  "abilities": [
+   "beads-of-ruin"
+  ],
+  "dex": "1004",
+  "height_m": 0.4,
+  "slug": "chi-yu",
+  "types": [
+   "dark",
+   "fire"
+  ]
+ },
+ "chien-pao": {
+  "abilities": [
+   "sword-of-ruin"
+  ],
+  "dex": "1002",
+  "height_m": 1.9,
+  "slug": "chien-pao",
+  "types": [
+   "dark",
+   "ice"
+  ]
+ },
+ "chikorita": {
+  "abilities": [
+   "overgrow",
+   "leaf-guard"
+  ],
+  "dex": "152",
+  "height_m": 0.9,
+  "slug": "chikorita",
+  "types": [
+   "grass"
+  ]
+ },
+ "chimchar": {
+  "abilities": [
+   "blaze",
+   "iron-fist"
+  ],
+  "dex": "390",
+  "height_m": 0.5,
+  "slug": "chimchar",
+  "types": [
+   "fire"
+  ]
+ },
+ "chimecho": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "358",
+  "height_m": 0.6,
+  "slug": "chimecho",
+  "types": [
+   "psychic"
+  ]
+ },
+ "chinchou": {
+  "abilities": [
+   "volt-absorb",
+   "illuminate",
+   "water-absorb"
+  ],
+  "dex": "170",
+  "height_m": 0.5,
+  "slug": "chinchou",
+  "types": [
+   "water",
+   "electric"
+  ]
+ },
+ "chingling": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "433",
+  "height_m": 0.2,
+  "slug": "chingling",
+  "types": [
+   "psychic"
+  ]
+ },
+ "cinccino": {
+  "abilities": [
+   "cute-charm",
+   "technician",
+   "skill-link"
+  ],
+  "dex": "573",
+  "height_m": 0.5,
+  "slug": "cinccino",
+  "types": [
+   "normal"
+  ]
+ },
+ "cinderace": {
+  "abilities": [
+   "blaze",
+   "libero"
+  ],
+  "dex": "815",
+  "height_m": 1.4,
+  "slug": "cinderace",
+  "types": [
+   "fire"
+  ]
+ },
+ "clamperl": {
+  "abilities": [
+   "shell-armor",
+   "rattled"
+  ],
+  "dex": "366",
+  "height_m": 0.4,
+  "slug": "clamperl",
+  "types": [
+   "water"
+  ]
+ },
+ "clauncher": {
+  "abilities": [
+   "mega-launcher"
+  ],
+  "dex": "692",
+  "height_m": 0.5,
+  "slug": "clauncher",
+  "types": [
+   "water"
+  ]
+ },
+ "clawitzer": {
+  "abilities": [
+   "mega-launcher"
+  ],
+  "dex": "693",
+  "height_m": 1.3,
+  "slug": "clawitzer",
+  "types": [
+   "water"
+  ]
+ },
+ "claydol": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "344",
+  "height_m": 1.5,
+  "slug": "claydol",
+  "types": [
+   "ground",
+   "psychic"
+  ]
+ },
+ "clefable": {
+  "abilities": [
+   "cute-charm",
+   "magic-guard",
+   "unaware"
+  ],
+  "dex": "36",
+  "height_m": 1.3,
+  "slug": "clefable",
+  "types": [
+   "fairy"
+  ]
+ },
+ "clefairy": {
+  "abilities": [
+   "cute-charm",
+   "magic-guard",
+   "friend-guard"
+  ],
+  "dex": "35",
+  "height_m": 0.6,
+  "slug": "clefairy",
+  "types": [
+   "fairy"
+  ]
+ },
+ "cleffa": {
+  "abilities": [
+   "cute-charm",
+   "magic-guard",
+   "friend-guard"
+  ],
+  "dex": "173",
+  "height_m": 0.3,
+  "slug": "cleffa",
+  "types": [
+   "fairy"
+  ]
+ },
+ "clobbopus": {
+  "abilities": [
+   "limber",
+   "technician"
+  ],
+  "dex": "852",
+  "height_m": 0.6,
+  "slug": "clobbopus",
+  "types": [
+   "fighting"
+  ]
+ },
+ "clodsire": {
+  "abilities": [
+   "poison-point",
+   "water-absorb",
+   "unaware"
+  ],
+  "dex": "980",
+  "height_m": 1.8,
+  "slug": "clodsire",
+  "types": [
+   "poison",
+   "ground"
+  ]
+ },
+ "cloyster": {
+  "abilities": [
+   "shell-armor",
+   "skill-link",
+   "overcoat"
+  ],
+  "dex": "91",
+  "height_m": 1.5,
+  "slug": "cloyster",
+  "types": [
+   "water",
+   "ice"
+  ]
+ },
+ "coalossal": {
+  "abilities": [
+   "steam-engine",
+   "flame-body",
+   "flash-fire"
+  ],
+  "dex": "839",
+  "height_m": 2.8,
+  "slug": "coalossal",
+  "types": [
+   "rock",
+   "fire"
+  ]
+ },
+ "cobalion": {
+  "abilities": [
+   "justified"
+  ],
+  "dex": "638",
+  "height_m": 2.1,
+  "slug": "cobalion",
+  "types": [
+   "steel",
+   "fighting"
+  ]
+ },
+ "cofagrigus": {
+  "abilities": [
+   "mummy"
+  ],
+  "dex": "563",
+  "height_m": 1.7,
+  "slug": "cofagrigus",
+  "types": [
+   "ghost"
+  ]
+ },
+ "combee": {
+  "abilities": [
+   "honey-gather",
+   "hustle"
+  ],
+  "dex": "415",
+  "height_m": 0.3,
+  "slug": "combee",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "combusken": {
+  "abilities": [
+   "blaze",
+   "speed-boost"
+  ],
+  "dex": "256",
+  "height_m": 0.9,
+  "slug": "combusken",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "comfey": {
+  "abilities": [
+   "flower-veil",
+   "triage",
+   "natural-cure"
+  ],
+  "dex": "764",
+  "height_m": 0.1,
+  "slug": "comfey",
+  "types": [
+   "fairy"
+  ]
+ },
+ "conkeldurr": {
+  "abilities": [
+   "guts",
+   "sheer-force",
+   "iron-fist"
+  ],
+  "dex": "534",
+  "height_m": 1.4,
+  "slug": "conkeldurr",
+  "types": [
+   "fighting"
+  ]
+ },
+ "copperajah": {
+  "abilities": [
+   "sheer-force",
+   "heavy-metal"
+  ],
+  "dex": "879",
+  "height_m": 3.0,
+  "slug": "copperajah",
+  "types": [
+   "steel"
+  ]
+ },
+ "corphish": {
+  "abilities": [
+   "hyper-cutter",
+   "shell-armor",
+   "adaptability"
+  ],
+  "dex": "341",
+  "height_m": 0.6,
+  "slug": "corphish",
+  "types": [
+   "water"
+  ]
+ },
+ "corsola": {
+  "abilities": [
+   "hustle",
+   "natural-cure",
+   "regenerator"
+  ],
+  "dex": "222",
+  "height_m": 0.6,
+  "slug": "corsola",
+  "types": [
+   "water",
+   "rock"
+  ]
+ },
+ "corviknight": {
+  "abilities": [
+   "pressure",
+   "unnerve",
+   "mirror-armor"
+  ],
+  "dex": "823",
+  "height_m": 2.2,
+  "slug": "corviknight",
+  "types": [
+   "flying",
+   "steel"
+  ]
+ },
+ "corvisquire": {
+  "abilities": [
+   "keen-eye",
+   "unnerve",
+   "big-pecks"
+  ],
+  "dex": "822",
+  "height_m": 0.8,
+  "slug": "corvisquire",
+  "types": [
+   "flying"
+  ]
+ },
+ "cosmoem": {
+  "abilities": [
+   "sturdy"
+  ],
+  "dex": "790",
+  "height_m": 0.1,
+  "slug": "cosmoem",
+  "types": [
+   "psychic"
+  ]
+ },
+ "cosmog": {
+  "abilities": [
+   "unaware"
+  ],
+  "dex": "789",
+  "height_m": 0.2,
+  "slug": "cosmog",
+  "types": [
+   "psychic"
+  ]
+ },
+ "cottonee": {
+  "abilities": [
+   "prankster",
+   "infiltrator",
+   "chlorophyll"
+  ],
+  "dex": "546",
+  "height_m": 0.3,
+  "slug": "cottonee",
+  "types": [
+   "grass",
+   "fairy"
+  ]
+ },
+ "crabominable": {
+  "abilities": [
+   "hyper-cutter",
+   "iron-fist",
+   "anger-point"
+  ],
+  "dex": "740",
+  "height_m": 1.7,
+  "slug": "crabominable",
+  "types": [
+   "fighting",
+   "ice"
+  ]
+ },
+ "crabrawler": {
+  "abilities": [
+   "hyper-cutter",
+   "iron-fist",
+   "anger-point"
+  ],
+  "dex": "739",
+  "height_m": 0.6,
+  "slug": "crabrawler",
+  "types": [
+   "fighting"
+  ]
+ },
+ "cradily": {
+  "abilities": [
+   "suction-cups",
+   "storm-drain"
+  ],
+  "dex": "346",
+  "height_m": 1.5,
+  "slug": "cradily",
+  "types": [
+   "rock",
+   "grass"
+  ]
+ },
+ "cramorant": {
+  "abilities": [
+   "gulp-missile"
+  ],
+  "dex": "845",
+  "height_m": 0.8,
+  "slug": "cramorant",
+  "types": [
+   "flying",
+   "water"
+  ]
+ },
+ "cranidos": {
+  "abilities": [
+   "mold-breaker",
+   "sheer-force"
+  ],
+  "dex": "408",
+  "height_m": 0.9,
+  "slug": "cranidos",
+  "types": [
+   "rock"
+  ]
+ },
+ "crawdaunt": {
+  "abilities": [
+   "hyper-cutter",
+   "shell-armor",
+   "adaptability"
+  ],
+  "dex": "342",
+  "height_m": 1.1,
+  "slug": "crawdaunt",
+  "types": [
+   "water",
+   "dark"
+  ]
+ },
+ "cresselia": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "488",
+  "height_m": 1.5,
+  "slug": "cresselia",
+  "types": [
+   "psychic"
+  ]
+ },
+ "croagunk": {
+  "abilities": [
+   "anticipation",
+   "dry-skin",
+   "poison-touch"
+  ],
+  "dex": "453",
+  "height_m": 0.7,
+  "slug": "croagunk",
+  "types": [
+   "poison",
+   "fighting"
+  ]
+ },
+ "crobat": {
+  "abilities": [
+   "inner-focus",
+   "infiltrator"
+  ],
+  "dex": "169",
+  "height_m": 1.8,
+  "slug": "crobat",
+  "types": [
+   "poison",
+   "flying"
+  ]
+ },
+ "crocalor": {
+  "abilities": [
+   "blaze",
+   "unaware"
+  ],
+  "dex": "910",
+  "height_m": 1.0,
+  "slug": "crocalor",
+  "types": [
+   "fire"
+  ]
+ },
+ "croconaw": {
+  "abilities": [
+   "torrent",
+   "sheer-force"
+  ],
+  "dex": "159",
+  "height_m": 1.1,
+  "slug": "croconaw",
+  "types": [
+   "water"
+  ]
+ },
+ "crustle": {
+  "abilities": [
+   "sturdy",
+   "shell-armor",
+   "weak-armor"
+  ],
+  "dex": "558",
+  "height_m": 1.4,
+  "slug": "crustle",
+  "types": [
+   "bug",
+   "rock"
+  ]
+ },
+ "cryogonal": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "615",
+  "height_m": 1.1,
+  "slug": "cryogonal",
+  "types": [
+   "ice"
+  ]
+ },
+ "cubchoo": {
+  "abilities": [
+   "snow-cloak",
+   "slush-rush",
+   "rattled"
+  ],
+  "dex": "613",
+  "height_m": 0.5,
+  "slug": "cubchoo",
+  "types": [
+   "ice"
+  ]
+ },
+ "cubone": {
+  "abilities": [
+   "rock-head",
+   "lightning-rod",
+   "battle-armor"
+  ],
+  "dex": "104",
+  "height_m": 0.4,
+  "slug": "cubone",
+  "types": [
+   "ground"
+  ]
+ },
+ "cufant": {
+  "abilities": [
+   "sheer-force",
+   "heavy-metal"
+  ],
+  "dex": "878",
+  "height_m": 1.2,
+  "slug": "cufant",
+  "types": [
+   "steel"
+  ]
+ },
+ "cursola": {
+  "abilities": [
+   "weak-armor",
+   "perish-body"
+  ],
+  "dex": "864",
+  "height_m": 1.0,
+  "slug": "cursola",
+  "types": [
+   "ghost"
+  ]
+ },
+ "cutiefly": {
+  "abilities": [
+   "honey-gather",
+   "shield-dust",
+   "sweet-veil"
+  ],
+  "dex": "742",
+  "height_m": 0.1,
+  "slug": "cutiefly",
+  "types": [
+   "bug",
+   "fairy"
+  ]
+ },
+ "cyclizar": {
+  "abilities": [
+   "shed-skin",
+   "regenerator"
+  ],
+  "dex": "967",
+  "height_m": 1.6,
+  "slug": "cyclizar",
+  "types": [
+   "dragon",
+   "normal"
+  ]
+ },
+ "cyndaquil": {
+  "abilities": [
+   "blaze",
+   "flash-fire"
+  ],
+  "dex": "155",
+  "height_m": 0.5,
+  "slug": "cyndaquil",
+  "types": [
+   "fire"
+  ]
+ },
+ "dachsbun": {
+  "abilities": [
+   "well-baked-body",
+   "aroma-veil"
+  ],
+  "dex": "927",
+  "height_m": 0.5,
+  "slug": "dachsbun",
+  "types": [
+   "fairy"
+  ]
+ },
+ "darkrai": {
+  "abilities": [
+   "bad-dreams"
+  ],
+  "dex": "491",
+  "height_m": 1.5,
+  "slug": "darkrai",
+  "types": [
+   "dark"
+  ]
+ },
+ "darmanitan-standard": {
+  "abilities": [
+   "sheer-force",
+   "zen-mode"
+  ],
+  "dex": "555",
+  "height_m": 1.3,
+  "slug": "darmanitan-standard",
+  "types": [
+   "fire"
+  ]
+ },
+ "dartrix": {
+  "abilities": [
+   "overgrow",
+   "long-reach"
+  ],
+  "dex": "723",
+  "height_m": 0.7,
+  "slug": "dartrix",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "darumaka": {
+  "abilities": [
+   "hustle",
+   "inner-focus"
+  ],
+  "dex": "554",
+  "height_m": 0.6,
+  "slug": "darumaka",
+  "types": [
+   "fire"
+  ]
+ },
+ "decidueye": {
+  "abilities": [
+   "overgrow",
+   "long-reach"
+  ],
+  "dex": "724",
+  "height_m": 1.6,
+  "slug": "decidueye",
+  "types": [
+   "grass",
+   "ghost"
+  ]
+ },
+ "dedenne": {
+  "abilities": [
+   "cheek-pouch",
+   "pickup",
+   "plus"
+  ],
+  "dex": "702",
+  "height_m": 0.2,
+  "slug": "dedenne",
+  "types": [
+   "electric",
+   "fairy"
+  ]
+ },
+ "deerling": {
+  "abilities": [
+   "chlorophyll",
+   "sap-sipper",
+   "serene-grace"
+  ],
+  "dex": "585",
+  "height_m": 0.6,
+  "slug": "deerling",
+  "types": [
+   "normal",
+   "grass"
+  ]
+ },
+ "deino": {
+  "abilities": [
+   "hustle"
+  ],
+  "dex": "633",
+  "height_m": 0.8,
+  "slug": "deino",
+  "types": [
+   "dark",
+   "dragon"
+  ]
+ },
+ "delcatty": {
+  "abilities": [
+   "cute-charm",
+   "normalize",
+   "wonder-skin"
+  ],
+  "dex": "301",
+  "height_m": 1.1,
+  "slug": "delcatty",
+  "types": [
+   "normal"
+  ]
+ },
+ "delibird": {
+  "abilities": [
+   "vital-spirit",
+   "hustle",
+   "insomnia"
+  ],
+  "dex": "225",
+  "height_m": 0.9,
+  "slug": "delibird",
+  "types": [
+   "ice",
+   "flying"
+  ]
+ },
+ "delphox": {
+  "abilities": [
+   "blaze",
+   "magician"
+  ],
+  "dex": "655",
+  "height_m": 1.5,
+  "slug": "delphox",
+  "types": [
+   "fire",
+   "psychic"
+  ]
+ },
+ "deoxys-normal": {
+  "abilities": [
+   "pressure"
+  ],
+  "dex": "386",
+  "height_m": 1.7,
+  "slug": "deoxys-normal",
+  "types": [
+   "psychic"
+  ]
+ },
+ "dewgong": {
+  "abilities": [
+   "thick-fat",
+   "hydration",
+   "ice-body"
+  ],
+  "dex": "87",
+  "height_m": 1.7,
+  "slug": "dewgong",
+  "types": [
+   "water",
+   "ice"
+  ]
+ },
+ "dewott": {
+  "abilities": [
+   "torrent",
+   "shell-armor"
+  ],
+  "dex": "502",
+  "height_m": 0.8,
+  "slug": "dewott",
+  "types": [
+   "water"
+  ]
+ },
+ "dewpider": {
+  "abilities": [
+   "water-bubble",
+   "water-absorb"
+  ],
+  "dex": "751",
+  "height_m": 0.3,
+  "slug": "dewpider",
+  "types": [
+   "water",
+   "bug"
+  ]
+ },
+ "dhelmise": {
+  "abilities": [
+   "steelworker"
+  ],
+  "dex": "781",
+  "height_m": 3.9,
+  "slug": "dhelmise",
+  "types": [
+   "ghost",
+   "grass"
+  ]
+ },
+ "dialga": {
+  "abilities": [
+   "pressure",
+   "telepathy"
+  ],
+  "dex": "483",
+  "height_m": 5.4,
+  "slug": "dialga",
+  "types": [
+   "steel",
+   "dragon"
+  ]
+ },
+ "diancie": {
+  "abilities": [
+   "clear-body"
+  ],
+  "dex": "719",
+  "height_m": 0.7,
+  "slug": "diancie",
+  "types": [
+   "rock",
+   "fairy"
+  ]
+ },
+ "diggersby": {
+  "abilities": [
+   "pickup",
+   "cheek-pouch",
+   "huge-power"
+  ],
+  "dex": "660",
+  "height_m": 1.0,
+  "slug": "diggersby",
+  "types": [
+   "normal",
+   "ground"
+  ]
+ },
+ "diglett": {
+  "abilities": [
+   "sand-veil",
+   "arena-trap",
+   "sand-force"
+  ],
+  "dex": "50",
+  "height_m": 0.2,
+  "slug": "diglett",
+  "types": [
+   "ground"
+  ]
+ },
+ "diglett-alola": {
+  "abilities": [
+   "sand-veil",
+   "tangling-hair",
+   "sand-force"
+  ],
+  "dex": "50",
+  "height_m": 0.2,
+  "slug": "diglett-alola",
+  "types": [
+   "ground",
+   "steel"
+  ]
+ },
+ "dipplin": {
+  "abilities": [
+   "supersweet-syrup",
+   "gluttony",
+   "sticky-hold"
+  ],
+  "dex": "1011",
+  "height_m": 0.4,
+  "slug": "dipplin",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "ditto": {
+  "abilities": [
+   "limber",
+   "imposter"
+  ],
+  "dex": "132",
+  "height_m": 0.3,
+  "slug": "ditto",
+  "types": [
+   "normal"
+  ]
+ },
+ "dodrio": {
+  "abilities": [
+   "run-away",
+   "early-bird",
+   "tangled-feet"
+  ],
+  "dex": "85",
+  "height_m": 1.8,
+  "slug": "dodrio",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "doduo": {
+  "abilities": [
+   "run-away",
+   "early-bird",
+   "tangled-feet"
+  ],
+  "dex": "84",
+  "height_m": 1.4,
+  "slug": "doduo",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "dolliv": {
+  "abilities": [
+   "early-bird",
+   "harvest"
+  ],
+  "dex": "929",
+  "height_m": 0.6,
+  "slug": "dolliv",
+  "types": [
+   "grass",
+   "normal"
+  ]
+ },
+ "dondozo": {
+  "abilities": [
+   "unaware",
+   "oblivious",
+   "water-veil"
+  ],
+  "dex": "977",
+  "height_m": 12.0,
+  "slug": "dondozo",
+  "types": [
+   "water"
+  ]
+ },
+ "donphan": {
+  "abilities": [
+   "sturdy",
+   "sand-veil"
+  ],
+  "dex": "232",
+  "height_m": 1.1,
+  "slug": "donphan",
+  "types": [
+   "ground"
+  ]
+ },
+ "dottler": {
+  "abilities": [
+   "swarm",
+   "compound-eyes",
+   "telepathy"
+  ],
+  "dex": "825",
+  "height_m": 0.4,
+  "slug": "dottler",
+  "types": [
+   "bug",
+   "psychic"
+  ]
+ },
+ "doublade": {
+  "abilities": [
+   "no-guard"
+  ],
+  "dex": "680",
+  "height_m": 0.8,
+  "slug": "doublade",
+  "types": [
+   "steel",
+   "ghost"
+  ]
+ },
+ "dracovish": {
+  "abilities": [
+   "water-absorb",
+   "strong-jaw",
+   "sand-rush"
+  ],
+  "dex": "882",
+  "height_m": 2.3,
+  "slug": "dracovish",
+  "types": [
+   "water",
+   "dragon"
+  ]
+ },
+ "dracozolt": {
+  "abilities": [
+   "volt-absorb",
+   "hustle",
+   "sand-rush"
+  ],
+  "dex": "880",
+  "height_m": 1.8,
+  "slug": "dracozolt",
+  "types": [
+   "electric",
+   "dragon"
+  ]
+ },
+ "dragalge": {
+  "abilities": [
+   "poison-point",
+   "poison-touch",
+   "adaptability"
+  ],
+  "dex": "691",
+  "height_m": 1.8,
+  "slug": "dragalge",
+  "types": [
+   "poison",
+   "dragon"
+  ]
+ },
+ "dragapult": {
+  "abilities": [
+   "clear-body",
+   "infiltrator",
+   "cursed-body"
+  ],
+  "dex": "887",
+  "height_m": 3.0,
+  "slug": "dragapult",
+  "types": [
+   "dragon",
+   "ghost"
+  ]
+ },
+ "dragonair": {
+  "abilities": [
+   "shed-skin",
+   "marvel-scale"
+  ],
+  "dex": "148",
+  "height_m": 4.0,
+  "slug": "dragonair",
+  "types": [
+   "dragon"
+  ]
+ },
+ "dragonite": {
+  "abilities": [
+   "inner-focus",
+   "multiscale"
+  ],
+  "dex": "149",
+  "height_m": 2.2,
+  "slug": "dragonite",
+  "types": [
+   "dragon",
+   "flying"
+  ]
+ },
+ "drakloak": {
+  "abilities": [
+   "clear-body",
+   "infiltrator",
+   "cursed-body"
+  ],
+  "dex": "886",
+  "height_m": 1.4,
+  "slug": "drakloak",
+  "types": [
+   "dragon",
+   "ghost"
+  ]
+ },
+ "drampa": {
+  "abilities": [
+   "berserk",
+   "sap-sipper",
+   "cloud-nine"
+  ],
+  "dex": "780",
+  "height_m": 3.0,
+  "slug": "drampa",
+  "types": [
+   "normal",
+   "dragon"
+  ]
+ },
+ "drapion": {
+  "abilities": [
+   "battle-armor",
+   "sniper",
+   "keen-eye"
+  ],
+  "dex": "452",
+  "height_m": 1.3,
+  "slug": "drapion",
+  "types": [
+   "poison",
+   "dark"
+  ]
+ },
+ "dratini": {
+  "abilities": [
+   "shed-skin",
+   "marvel-scale"
+  ],
+  "dex": "147",
+  "height_m": 1.8,
+  "slug": "dratini",
+  "types": [
+   "dragon"
+  ]
+ },
+ "drednaw": {
+  "abilities": [
+   "strong-jaw",
+   "shell-armor",
+   "swift-swim"
+  ],
+  "dex": "834",
+  "height_m": 1.0,
+  "slug": "drednaw",
+  "types": [
+   "water",
+   "rock"
+  ]
+ },
+ "dreepy": {
+  "abilities": [
+   "clear-body",
+   "infiltrator",
+   "cursed-body"
+  ],
+  "dex": "885",
+  "height_m": 0.5,
+  "slug": "dreepy",
+  "types": [
+   "dragon",
+   "ghost"
+  ]
+ },
+ "drifblim": {
+  "abilities": [
+   "aftermath",
+   "unburden",
+   "flare-boost"
+  ],
+  "dex": "426",
+  "height_m": 1.2,
+  "slug": "drifblim",
+  "types": [
+   "ghost",
+   "flying"
+  ]
+ },
+ "drifloon": {
+  "abilities": [
+   "aftermath",
+   "unburden",
+   "flare-boost"
+  ],
+  "dex": "425",
+  "height_m": 0.4,
+  "slug": "drifloon",
+  "types": [
+   "ghost",
+   "flying"
+  ]
+ },
+ "drilbur": {
+  "abilities": [
+   "sand-rush",
+   "sand-force",
+   "mold-breaker"
+  ],
+  "dex": "529",
+  "height_m": 0.3,
+  "slug": "drilbur",
+  "types": [
+   "ground"
+  ]
+ },
+ "drizzile": {
+  "abilities": [
+   "torrent",
+   "sniper"
+  ],
+  "dex": "817",
+  "height_m": 0.7,
+  "slug": "drizzile",
+  "types": [
+   "water"
+  ]
+ },
+ "drowzee": {
+  "abilities": [
+   "insomnia",
+   "forewarn",
+   "inner-focus"
+  ],
+  "dex": "96",
+  "height_m": 1.0,
+  "slug": "drowzee",
+  "types": [
+   "psychic"
+  ]
+ },
+ "druddigon": {
+  "abilities": [
+   "rough-skin",
+   "sheer-force",
+   "mold-breaker"
+  ],
+  "dex": "621",
+  "height_m": 1.6,
+  "slug": "druddigon",
+  "types": [
+   "dragon"
+  ]
+ },
+ "dubwool": {
+  "abilities": [
+   "fluffy",
+   "steadfast",
+   "bulletproof"
+  ],
+  "dex": "832",
+  "height_m": 1.3,
+  "slug": "dubwool",
+  "types": [
+   "normal"
+  ]
+ },
+ "ducklett": {
+  "abilities": [
+   "keen-eye",
+   "big-pecks",
+   "hydration"
+  ],
+  "dex": "580",
+  "height_m": 0.5,
+  "slug": "ducklett",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "dudunsparce-two-segment": {
+  "abilities": [
+   "serene-grace",
+   "run-away",
+   "rattled"
+  ],
+  "dex": "982",
+  "height_m": 3.6,
+  "slug": "dudunsparce-two-segment",
+  "types": [
+   "normal"
+  ]
+ },
+ "dugtrio": {
+  "abilities": [
+   "sand-veil",
+   "arena-trap",
+   "sand-force"
+  ],
+  "dex": "51",
+  "height_m": 0.7,
+  "slug": "dugtrio",
+  "types": [
+   "ground"
+  ]
+ },
+ "dugtrio-alola": {
+  "abilities": [
+   "sand-veil",
+   "tangling-hair",
+   "sand-force"
+  ],
+  "dex": "51",
+  "height_m": 0.7,
+  "slug": "dugtrio-alola",
+  "types": [
+   "ground",
+   "steel"
+  ]
+ },
+ "dunsparce": {
+  "abilities": [
+   "serene-grace",
+   "run-away",
+   "rattled"
+  ],
+  "dex": "206",
+  "height_m": 1.5,
+  "slug": "dunsparce",
+  "types": [
+   "normal"
+  ]
+ },
+ "duosion": {
+  "abilities": [
+   "overcoat",
+   "magic-guard",
+   "regenerator"
+  ],
+  "dex": "578",
+  "height_m": 0.6,
+  "slug": "duosion",
+  "types": [
+   "psychic"
+  ]
+ },
+ "duraludon": {
+  "abilities": [
+   "light-metal",
+   "heavy-metal",
+   "stalwart"
+  ],
+  "dex": "884",
+  "height_m": 1.8,
+  "slug": "duraludon",
+  "types": [
+   "steel",
+   "dragon"
+  ]
+ },
+ "durant": {
+  "abilities": [
+   "swarm",
+   "hustle",
+   "truant"
+  ],
+  "dex": "632",
+  "height_m": 0.3,
+  "slug": "durant",
+  "types": [
+   "bug",
+   "steel"
+  ]
+ },
+ "dusclops": {
+  "abilities": [
+   "pressure",
+   "frisk"
+  ],
+  "dex": "356",
+  "height_m": 1.6,
+  "slug": "dusclops",
+  "types": [
+   "ghost"
+  ]
+ },
+ "dusknoir": {
+  "abilities": [
+   "pressure",
+   "frisk"
+  ],
+  "dex": "477",
+  "height_m": 2.2,
+  "slug": "dusknoir",
+  "types": [
+   "ghost"
+  ]
+ },
+ "duskull": {
+  "abilities": [
+   "levitate",
+   "frisk"
+  ],
+  "dex": "355",
+  "height_m": 0.8,
+  "slug": "duskull",
+  "types": [
+   "ghost"
+  ]
+ },
+ "dustox": {
+  "abilities": [
+   "shield-dust",
+   "compound-eyes"
+  ],
+  "dex": "269",
+  "height_m": 1.2,
+  "slug": "dustox",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "dwebble": {
+  "abilities": [
+   "sturdy",
+   "shell-armor",
+   "weak-armor"
+  ],
+  "dex": "557",
+  "height_m": 0.3,
+  "slug": "dwebble",
+  "types": [
+   "bug",
+   "rock"
+  ]
+ },
+ "eelektrik": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "603",
+  "height_m": 1.2,
+  "slug": "eelektrik",
+  "types": [
+   "electric"
+  ]
+ },
+ "eelektross": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "604",
+  "height_m": 2.1,
+  "slug": "eelektross",
+  "types": [
+   "electric"
+  ]
+ },
+ "eevee": {
+  "abilities": [
+   "run-away",
+   "adaptability",
+   "anticipation"
+  ],
+  "dex": "133",
+  "height_m": 0.3,
+  "slug": "eevee",
+  "types": [
+   "normal"
+  ]
+ },
+ "eiscue-ice": {
+  "abilities": [
+   "ice-face"
+  ],
+  "dex": "875",
+  "height_m": 1.4,
+  "slug": "eiscue-ice",
+  "types": [
+   "ice"
+  ]
+ },
+ "ekans": {
+  "abilities": [
+   "intimidate",
+   "shed-skin",
+   "unnerve"
+  ],
+  "dex": "23",
+  "height_m": 2.0,
+  "slug": "ekans",
+  "types": [
+   "poison"
+  ]
+ },
+ "eldegoss": {
+  "abilities": [
+   "cotton-down",
+   "regenerator",
+   "effect-spore"
+  ],
+  "dex": "830",
+  "height_m": 0.5,
+  "slug": "eldegoss",
+  "types": [
+   "grass"
+  ]
+ },
+ "electabuzz": {
+  "abilities": [
+   "static",
+   "vital-spirit"
+  ],
+  "dex": "125",
+  "height_m": 1.1,
+  "slug": "electabuzz",
+  "types": [
+   "electric"
+  ]
+ },
+ "electivire": {
+  "abilities": [
+   "motor-drive",
+   "vital-spirit"
+  ],
+  "dex": "466",
+  "height_m": 1.8,
+  "slug": "electivire",
+  "types": [
+   "electric"
+  ]
+ },
+ "electrike": {
+  "abilities": [
+   "static",
+   "lightning-rod",
+   "minus"
+  ],
+  "dex": "309",
+  "height_m": 0.6,
+  "slug": "electrike",
+  "types": [
+   "electric"
+  ]
+ },
+ "electrode": {
+  "abilities": [
+   "soundproof",
+   "static",
+   "aftermath"
+  ],
+  "dex": "101",
+  "height_m": 1.2,
+  "slug": "electrode",
+  "types": [
+   "electric"
+  ]
+ },
+ "elekid": {
+  "abilities": [
+   "static",
+   "vital-spirit"
+  ],
+  "dex": "239",
+  "height_m": 0.6,
+  "slug": "elekid",
+  "types": [
+   "electric"
+  ]
+ },
+ "elgyem": {
+  "abilities": [
+   "telepathy",
+   "synchronize",
+   "analytic"
+  ],
+  "dex": "605",
+  "height_m": 0.5,
+  "slug": "elgyem",
+  "types": [
+   "psychic"
+  ]
+ },
+ "emboar": {
+  "abilities": [
+   "blaze",
+   "reckless"
+  ],
+  "dex": "500",
+  "height_m": 1.6,
+  "slug": "emboar",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "emolga": {
+  "abilities": [
+   "static",
+   "motor-drive"
+  ],
+  "dex": "587",
+  "height_m": 0.4,
+  "slug": "emolga",
+  "types": [
+   "electric",
+   "flying"
+  ]
+ },
+ "empoleon": {
+  "abilities": [
+   "torrent",
+   "competitive"
+  ],
+  "dex": "395",
+  "height_m": 1.7,
+  "slug": "empoleon",
+  "types": [
+   "water",
+   "steel"
+  ]
+ },
+ "enamorus-incarnate": {
+  "abilities": [
+   "cute-charm",
+   "contrary"
+  ],
+  "dex": "905",
+  "height_m": 1.6,
+  "slug": "enamorus-incarnate",
+  "types": [
+   "fairy",
+   "flying"
+  ]
+ },
+ "entei": {
+  "abilities": [
+   "pressure",
+   "inner-focus"
+  ],
+  "dex": "244",
+  "height_m": 2.1,
+  "slug": "entei",
+  "types": [
+   "fire"
+  ]
+ },
+ "escavalier": {
+  "abilities": [
+   "swarm",
+   "shell-armor",
+   "overcoat"
+  ],
+  "dex": "589",
+  "height_m": 1.0,
+  "slug": "escavalier",
+  "types": [
+   "bug",
+   "steel"
+  ]
+ },
+ "espathra": {
+  "abilities": [
+   "opportunist",
+   "frisk",
+   "speed-boost"
+  ],
+  "dex": "956",
+  "height_m": 1.9,
+  "slug": "espathra",
+  "types": [
+   "psychic"
+  ]
+ },
+ "espeon": {
+  "abilities": [
+   "synchronize",
+   "magic-bounce"
+  ],
+  "dex": "196",
+  "height_m": 0.9,
+  "slug": "espeon",
+  "types": [
+   "psychic"
+  ]
+ },
+ "espurr": {
+  "abilities": [
+   "keen-eye",
+   "infiltrator",
+   "own-tempo"
+  ],
+  "dex": "677",
+  "height_m": 0.3,
+  "slug": "espurr",
+  "types": [
+   "psychic"
+  ]
+ },
+ "eternatus": {
+  "abilities": [
+   "pressure"
+  ],
+  "dex": "890",
+  "height_m": 20.0,
+  "slug": "eternatus",
+  "types": [
+   "poison",
+   "dragon"
+  ]
+ },
+ "excadrill": {
+  "abilities": [
+   "sand-rush",
+   "sand-force",
+   "mold-breaker"
+  ],
+  "dex": "530",
+  "height_m": 0.7,
+  "slug": "excadrill",
+  "types": [
+   "ground",
+   "steel"
+  ]
+ },
+ "exeggcute": {
+  "abilities": [
+   "chlorophyll",
+   "harvest"
+  ],
+  "dex": "102",
+  "height_m": 0.4,
+  "slug": "exeggcute",
+  "types": [
+   "grass",
+   "psychic"
+  ]
+ },
+ "exeggutor": {
+  "abilities": [
+   "chlorophyll",
+   "harvest"
+  ],
+  "dex": "103",
+  "height_m": 2.0,
+  "slug": "exeggutor",
+  "types": [
+   "grass",
+   "psychic"
+  ]
+ },
+ "exeggutor-alola": {
+  "abilities": [
+   "frisk",
+   "harvest"
+  ],
+  "dex": "103",
+  "height_m": 10.9,
+  "slug": "exeggutor-alola",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "exploud": {
+  "abilities": [
+   "soundproof",
+   "scrappy"
+  ],
+  "dex": "295",
+  "height_m": 1.5,
+  "slug": "exploud",
+  "types": [
+   "normal"
+  ]
+ },
+ "falinks": {
+  "abilities": [
+   "battle-armor",
+   "defiant"
+  ],
+  "dex": "870",
+  "height_m": 3.0,
+  "slug": "falinks",
+  "types": [
+   "fighting"
+  ]
+ },
+ "farfetchd": {
+  "abilities": [
+   "keen-eye",
+   "inner-focus",
+   "defiant"
+  ],
+  "dex": "83",
+  "height_m": 0.8,
+  "slug": "farfetchd",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "farigiraf": {
+  "abilities": [
+   "cud-chew",
+   "armor-tail",
+   "sap-sipper"
+  ],
+  "dex": "981",
+  "height_m": 3.2,
+  "slug": "farigiraf",
+  "types": [
+   "normal",
+   "psychic"
+  ]
+ },
+ "fearow": {
+  "abilities": [
+   "keen-eye",
+   "sniper"
+  ],
+  "dex": "22",
+  "height_m": 1.2,
+  "slug": "fearow",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "feebas": {
+  "abilities": [
+   "swift-swim",
+   "oblivious",
+   "adaptability"
+  ],
+  "dex": "349",
+  "height_m": 0.6,
+  "slug": "feebas",
+  "types": [
+   "water"
+  ]
+ },
+ "fennekin": {
+  "abilities": [
+   "blaze",
+   "magician"
+  ],
+  "dex": "653",
+  "height_m": 0.4,
+  "slug": "fennekin",
+  "types": [
+   "fire"
+  ]
+ },
+ "feraligatr": {
+  "abilities": [
+   "torrent",
+   "sheer-force"
+  ],
+  "dex": "160",
+  "height_m": 2.3,
+  "slug": "feraligatr",
+  "types": [
+   "water"
+  ]
+ },
+ "ferroseed": {
+  "abilities": [
+   "iron-barbs"
+  ],
+  "dex": "597",
+  "height_m": 0.6,
+  "slug": "ferroseed",
+  "types": [
+   "grass",
+   "steel"
+  ]
+ },
+ "ferrothorn": {
+  "abilities": [
+   "iron-barbs",
+   "anticipation"
+  ],
+  "dex": "598",
+  "height_m": 1.0,
+  "slug": "ferrothorn",
+  "types": [
+   "grass",
+   "steel"
+  ]
+ },
+ "fezandipiti": {
+  "abilities": [
+   "toxic-chain",
+   "technician"
+  ],
+  "dex": "1016",
+  "height_m": 1.4,
+  "slug": "fezandipiti",
+  "types": [
+   "poison",
+   "fairy"
+  ]
+ },
+ "fidough": {
+  "abilities": [
+   "own-tempo",
+   "klutz"
+  ],
+  "dex": "926",
+  "height_m": 0.3,
+  "slug": "fidough",
+  "types": [
+   "fairy"
+  ]
+ },
+ "finizen": {
+  "abilities": [
+   "water-veil"
+  ],
+  "dex": "963",
+  "height_m": 1.3,
+  "slug": "finizen",
+  "types": [
+   "water"
+  ]
+ },
+ "finneon": {
+  "abilities": [
+   "swift-swim",
+   "storm-drain",
+   "water-veil"
+  ],
+  "dex": "456",
+  "height_m": 0.4,
+  "slug": "finneon",
+  "types": [
+   "water"
+  ]
+ },
+ "flaaffy": {
+  "abilities": [
+   "static",
+   "plus"
+  ],
+  "dex": "180",
+  "height_m": 0.8,
+  "slug": "flaaffy",
+  "types": [
+   "electric"
+  ]
+ },
+ "flabebe": {
+  "abilities": [
+   "flower-veil",
+   "symbiosis"
+  ],
+  "dex": "669",
+  "height_m": 0.1,
+  "slug": "flabebe",
+  "types": [
+   "fairy"
+  ]
+ },
+ "flamigo": {
+  "abilities": [
+   "scrappy",
+   "tangled-feet",
+   "costar"
+  ],
+  "dex": "973",
+  "height_m": 1.6,
+  "slug": "flamigo",
+  "types": [
+   "flying",
+   "fighting"
+  ]
+ },
+ "flapple": {
+  "abilities": [
+   "ripen",
+   "gluttony",
+   "hustle"
+  ],
+  "dex": "841",
+  "height_m": 0.3,
+  "slug": "flapple",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "flareon": {
+  "abilities": [
+   "flash-fire",
+   "guts"
+  ],
+  "dex": "136",
+  "height_m": 0.9,
+  "slug": "flareon",
+  "types": [
+   "fire"
+  ]
+ },
+ "fletchinder": {
+  "abilities": [
+   "flame-body",
+   "gale-wings"
+  ],
+  "dex": "662",
+  "height_m": 0.7,
+  "slug": "fletchinder",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "fletchling": {
+  "abilities": [
+   "big-pecks",
+   "gale-wings"
+  ],
+  "dex": "661",
+  "height_m": 0.3,
+  "slug": "fletchling",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "flittle": {
+  "abilities": [
+   "anticipation",
+   "frisk",
+   "speed-boost"
+  ],
+  "dex": "955",
+  "height_m": 0.2,
+  "slug": "flittle",
+  "types": [
+   "psychic"
+  ]
+ },
+ "floatzel": {
+  "abilities": [
+   "swift-swim",
+   "water-veil"
+  ],
+  "dex": "419",
+  "height_m": 1.1,
+  "slug": "floatzel",
+  "types": [
+   "water"
+  ]
+ },
+ "floette": {
+  "abilities": [
+   "flower-veil",
+   "symbiosis"
+  ],
+  "dex": "670",
+  "height_m": 0.2,
+  "slug": "floette",
+  "types": [
+   "fairy"
+  ]
+ },
+ "floragato": {
+  "abilities": [
+   "overgrow",
+   "protean"
+  ],
+  "dex": "907",
+  "height_m": 0.9,
+  "slug": "floragato",
+  "types": [
+   "grass"
+  ]
+ },
+ "florges": {
+  "abilities": [
+   "flower-veil",
+   "symbiosis"
+  ],
+  "dex": "671",
+  "height_m": 1.1,
+  "slug": "florges",
+  "types": [
+   "fairy"
+  ]
+ },
+ "flutter-mane": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "987",
+  "height_m": 1.4,
+  "slug": "flutter-mane",
+  "types": [
+   "ghost",
+   "fairy"
+  ]
+ },
+ "flygon": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "330",
+  "height_m": 2.0,
+  "slug": "flygon",
+  "types": [
+   "ground",
+   "dragon"
+  ]
+ },
+ "fomantis": {
+  "abilities": [
+   "leaf-guard",
+   "contrary"
+  ],
+  "dex": "753",
+  "height_m": 0.3,
+  "slug": "fomantis",
+  "types": [
+   "grass"
+  ]
+ },
+ "foongus": {
+  "abilities": [
+   "effect-spore",
+   "regenerator"
+  ],
+  "dex": "590",
+  "height_m": 0.2,
+  "slug": "foongus",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "forretress": {
+  "abilities": [
+   "sturdy",
+   "overcoat"
+  ],
+  "dex": "205",
+  "height_m": 1.2,
+  "slug": "forretress",
+  "types": [
+   "bug",
+   "steel"
+  ]
+ },
+ "fraxure": {
+  "abilities": [
+   "rivalry",
+   "mold-breaker",
+   "unnerve"
+  ],
+  "dex": "611",
+  "height_m": 1.0,
+  "slug": "fraxure",
+  "types": [
+   "dragon"
+  ]
+ },
+ "frigibax": {
+  "abilities": [
+   "thermal-exchange",
+   "ice-body"
+  ],
+  "dex": "996",
+  "height_m": 0.5,
+  "slug": "frigibax",
+  "types": [
+   "dragon",
+   "ice"
+  ]
+ },
+ "frillish-male": {
+  "abilities": [
+   "water-absorb",
+   "cursed-body",
+   "damp"
+  ],
+  "dex": "592",
+  "height_m": 1.2,
+  "slug": "frillish-male",
+  "types": [
+   "water",
+   "ghost"
+  ]
+ },
+ "froakie": {
+  "abilities": [
+   "torrent",
+   "protean"
+  ],
+  "dex": "656",
+  "height_m": 0.3,
+  "slug": "froakie",
+  "types": [
+   "water"
+  ]
+ },
+ "frogadier": {
+  "abilities": [
+   "torrent",
+   "protean"
+  ],
+  "dex": "657",
+  "height_m": 0.6,
+  "slug": "frogadier",
+  "types": [
+   "water"
+  ]
+ },
+ "froslass": {
+  "abilities": [
+   "snow-cloak",
+   "cursed-body"
+  ],
+  "dex": "478",
+  "height_m": 1.3,
+  "slug": "froslass",
+  "types": [
+   "ice",
+   "ghost"
+  ]
+ },
+ "frosmoth": {
+  "abilities": [
+   "shield-dust",
+   "ice-scales"
+  ],
+  "dex": "873",
+  "height_m": 1.3,
+  "slug": "frosmoth",
+  "types": [
+   "ice",
+   "bug"
+  ]
+ },
+ "fuecoco": {
+  "abilities": [
+   "blaze",
+   "unaware"
+  ],
+  "dex": "909",
+  "height_m": 0.4,
+  "slug": "fuecoco",
+  "types": [
+   "fire"
+  ]
+ },
+ "furfrou": {
+  "abilities": [
+   "fur-coat"
+  ],
+  "dex": "676",
+  "height_m": 1.2,
+  "slug": "furfrou",
+  "types": [
+   "normal"
+  ]
+ },
+ "furret": {
+  "abilities": [
+   "run-away",
+   "keen-eye",
+   "frisk"
+  ],
+  "dex": "162",
+  "height_m": 1.8,
+  "slug": "furret",
+  "types": [
+   "normal"
+  ]
+ },
+ "gabite": {
+  "abilities": [
+   "sand-veil",
+   "rough-skin"
+  ],
+  "dex": "444",
+  "height_m": 1.4,
+  "slug": "gabite",
+  "types": [
+   "dragon",
+   "ground"
+  ]
+ },
+ "gallade": {
+  "abilities": [
+   "steadfast",
+   "sharpness",
+   "justified"
+  ],
+  "dex": "475",
+  "height_m": 1.6,
+  "slug": "gallade",
+  "types": [
+   "psychic",
+   "fighting"
+  ]
+ },
+ "galvantula": {
+  "abilities": [
+   "compound-eyes",
+   "unnerve",
+   "swarm"
+  ],
+  "dex": "596",
+  "height_m": 0.8,
+  "slug": "galvantula",
+  "types": [
+   "bug",
+   "electric"
+  ]
+ },
+ "garbodor": {
+  "abilities": [
+   "stench",
+   "weak-armor",
+   "aftermath"
+  ],
+  "dex": "569",
+  "height_m": 1.9,
+  "slug": "garbodor",
+  "types": [
+   "poison"
+  ]
+ },
+ "garchomp": {
+  "abilities": [
+   "sand-veil",
+   "rough-skin"
+  ],
+  "dex": "445",
+  "height_m": 1.9,
+  "slug": "garchomp",
+  "types": [
+   "dragon",
+   "ground"
+  ]
+ },
+ "gardevoir": {
+  "abilities": [
+   "synchronize",
+   "trace",
+   "telepathy"
+  ],
+  "dex": "282",
+  "height_m": 1.6,
+  "slug": "gardevoir",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "garganacl": {
+  "abilities": [
+   "purifying-salt",
+   "sturdy",
+   "clear-body"
+  ],
+  "dex": "934",
+  "height_m": 2.3,
+  "slug": "garganacl",
+  "types": [
+   "rock"
+  ]
+ },
+ "gastly": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "92",
+  "height_m": 1.3,
+  "slug": "gastly",
+  "types": [
+   "ghost",
+   "poison"
+  ]
+ },
+ "gastrodon": {
+  "abilities": [
+   "sticky-hold",
+   "storm-drain",
+   "sand-force"
+  ],
+  "dex": "423",
+  "height_m": 0.9,
+  "slug": "gastrodon",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "genesect": {
+  "abilities": [
+   "download"
+  ],
+  "dex": "649",
+  "height_m": 1.5,
+  "slug": "genesect",
+  "types": [
+   "bug",
+   "steel"
+  ]
+ },
+ "gengar": {
+  "abilities": [
+   "cursed-body"
+  ],
+  "dex": "94",
+  "height_m": 1.5,
+  "slug": "gengar",
+  "types": [
+   "ghost",
+   "poison"
+  ]
+ },
+ "geodude": {
+  "abilities": [
+   "rock-head",
+   "sturdy",
+   "sand-veil"
+  ],
+  "dex": "74",
+  "height_m": 0.4,
+  "slug": "geodude",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "geodude-alola": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "galvanize"
+  ],
+  "dex": "74",
+  "height_m": 0.4,
+  "slug": "geodude-alola",
+  "types": [
+   "rock",
+   "electric"
+  ]
+ },
+ "gholdengo": {
+  "abilities": [
+   "good-as-gold"
+  ],
+  "dex": "1000",
+  "height_m": 1.2,
+  "slug": "gholdengo",
+  "types": [
+   "steel",
+   "ghost"
+  ]
+ },
+ "gible": {
+  "abilities": [
+   "sand-veil",
+   "rough-skin"
+  ],
+  "dex": "443",
+  "height_m": 0.7,
+  "slug": "gible",
+  "types": [
+   "dragon",
+   "ground"
+  ]
+ },
+ "gigalith": {
+  "abilities": [
+   "sturdy",
+   "sand-stream",
+   "sand-force"
+  ],
+  "dex": "526",
+  "height_m": 1.7,
+  "slug": "gigalith",
+  "types": [
+   "rock"
+  ]
+ },
+ "gimmighoul": {
+  "abilities": [
+   "rattled"
+  ],
+  "dex": "999",
+  "height_m": 0.3,
+  "slug": "gimmighoul",
+  "types": [
+   "ghost"
+  ]
+ },
+ "girafarig": {
+  "abilities": [
+   "inner-focus",
+   "early-bird",
+   "sap-sipper"
+  ],
+  "dex": "203",
+  "height_m": 1.5,
+  "slug": "girafarig",
+  "types": [
+   "normal",
+   "psychic"
+  ]
+ },
+ "giratina-altered": {
+  "abilities": [
+   "pressure",
+   "telepathy"
+  ],
+  "dex": "487",
+  "height_m": 4.5,
+  "slug": "giratina-altered",
+  "types": [
+   "ghost",
+   "dragon"
+  ]
+ },
+ "glaceon": {
+  "abilities": [
+   "snow-cloak",
+   "ice-body"
+  ],
+  "dex": "471",
+  "height_m": 0.8,
+  "slug": "glaceon",
+  "types": [
+   "ice"
+  ]
+ },
+ "glalie": {
+  "abilities": [
+   "inner-focus",
+   "ice-body",
+   "moody"
+  ],
+  "dex": "362",
+  "height_m": 1.5,
+  "slug": "glalie",
+  "types": [
+   "ice"
+  ]
+ },
+ "glameow": {
+  "abilities": [
+   "limber",
+   "own-tempo",
+   "keen-eye"
+  ],
+  "dex": "431",
+  "height_m": 0.5,
+  "slug": "glameow",
+  "types": [
+   "normal"
+  ]
+ },
+ "glastrier": {
+  "abilities": [
+   "chilling-neigh"
+  ],
+  "dex": "896",
+  "height_m": 2.2,
+  "slug": "glastrier",
+  "types": [
+   "ice"
+  ]
+ },
+ "gligar": {
+  "abilities": [
+   "hyper-cutter",
+   "sand-veil",
+   "immunity"
+  ],
+  "dex": "207",
+  "height_m": 1.1,
+  "slug": "gligar",
+  "types": [
+   "ground",
+   "flying"
+  ]
+ },
+ "glimmet": {
+  "abilities": [
+   "toxic-debris",
+   "corrosion"
+  ],
+  "dex": "969",
+  "height_m": 0.7,
+  "slug": "glimmet",
+  "types": [
+   "rock",
+   "poison"
+  ]
+ },
+ "glimmora": {
+  "abilities": [
+   "toxic-debris",
+   "corrosion"
+  ],
+  "dex": "970",
+  "height_m": 1.5,
+  "slug": "glimmora",
+  "types": [
+   "rock",
+   "poison"
+  ]
+ },
+ "gliscor": {
+  "abilities": [
+   "hyper-cutter",
+   "sand-veil",
+   "poison-heal"
+  ],
+  "dex": "472",
+  "height_m": 2.0,
+  "slug": "gliscor",
+  "types": [
+   "ground",
+   "flying"
+  ]
+ },
+ "gloom": {
+  "abilities": [
+   "chlorophyll",
+   "stench"
+  ],
+  "dex": "44",
+  "height_m": 0.8,
+  "slug": "gloom",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "gogoat": {
+  "abilities": [
+   "sap-sipper",
+   "grass-pelt"
+  ],
+  "dex": "673",
+  "height_m": 1.7,
+  "slug": "gogoat",
+  "types": [
+   "grass"
+  ]
+ },
+ "golbat": {
+  "abilities": [
+   "inner-focus",
+   "infiltrator"
+  ],
+  "dex": "42",
+  "height_m": 1.6,
+  "slug": "golbat",
+  "types": [
+   "poison",
+   "flying"
+  ]
+ },
+ "goldeen": {
+  "abilities": [
+   "swift-swim",
+   "water-veil",
+   "lightning-rod"
+  ],
+  "dex": "118",
+  "height_m": 0.6,
+  "slug": "goldeen",
+  "types": [
+   "water"
+  ]
+ },
+ "golduck": {
+  "abilities": [
+   "damp",
+   "cloud-nine",
+   "swift-swim"
+  ],
+  "dex": "55",
+  "height_m": 1.7,
+  "slug": "golduck",
+  "types": [
+   "water"
+  ]
+ },
+ "golem": {
+  "abilities": [
+   "rock-head",
+   "sturdy",
+   "sand-veil"
+  ],
+  "dex": "76",
+  "height_m": 1.4,
+  "slug": "golem",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "golem-alola": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "galvanize"
+  ],
+  "dex": "76",
+  "height_m": 1.7,
+  "slug": "golem-alola",
+  "types": [
+   "rock",
+   "electric"
+  ]
+ },
+ "golett": {
+  "abilities": [
+   "iron-fist",
+   "klutz",
+   "no-guard"
+  ],
+  "dex": "622",
+  "height_m": 1.0,
+  "slug": "golett",
+  "types": [
+   "ground",
+   "ghost"
+  ]
+ },
+ "golisopod": {
+  "abilities": [
+   "emergency-exit"
+  ],
+  "dex": "768",
+  "height_m": 2.0,
+  "slug": "golisopod",
+  "types": [
+   "bug",
+   "water"
+  ]
+ },
+ "golurk": {
+  "abilities": [
+   "iron-fist",
+   "klutz",
+   "no-guard"
+  ],
+  "dex": "623",
+  "height_m": 2.8,
+  "slug": "golurk",
+  "types": [
+   "ground",
+   "ghost"
+  ]
+ },
+ "goodra": {
+  "abilities": [
+   "sap-sipper",
+   "hydration",
+   "gooey"
+  ],
+  "dex": "706",
+  "height_m": 2.0,
+  "slug": "goodra",
+  "types": [
+   "dragon"
+  ]
+ },
+ "goomy": {
+  "abilities": [
+   "sap-sipper",
+   "hydration",
+   "gooey"
+  ],
+  "dex": "704",
+  "height_m": 0.3,
+  "slug": "goomy",
+  "types": [
+   "dragon"
+  ]
+ },
+ "gorebyss": {
+  "abilities": [
+   "swift-swim",
+   "hydration"
+  ],
+  "dex": "368",
+  "height_m": 1.8,
+  "slug": "gorebyss",
+  "types": [
+   "water"
+  ]
+ },
+ "gossifleur": {
+  "abilities": [
+   "cotton-down",
+   "regenerator",
+   "effect-spore"
+  ],
+  "dex": "829",
+  "height_m": 0.4,
+  "slug": "gossifleur",
+  "types": [
+   "grass"
+  ]
+ },
+ "gothita": {
+  "abilities": [
+   "frisk",
+   "competitive",
+   "shadow-tag"
+  ],
+  "dex": "574",
+  "height_m": 0.4,
+  "slug": "gothita",
+  "types": [
+   "psychic"
+  ]
+ },
+ "gothitelle": {
+  "abilities": [
+   "frisk",
+   "competitive",
+   "shadow-tag"
+  ],
+  "dex": "576",
+  "height_m": 1.5,
+  "slug": "gothitelle",
+  "types": [
+   "psychic"
+  ]
+ },
+ "gothorita": {
+  "abilities": [
+   "frisk",
+   "competitive",
+   "shadow-tag"
+  ],
+  "dex": "575",
+  "height_m": 0.7,
+  "slug": "gothorita",
+  "types": [
+   "psychic"
+  ]
+ },
+ "gouging-fire": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "1020",
+  "height_m": 3.5,
+  "slug": "gouging-fire",
+  "types": [
+   "fire",
+   "dragon"
+  ]
+ },
+ "gourgeist-average": {
+  "abilities": [
+   "pickup",
+   "frisk",
+   "insomnia"
+  ],
+  "dex": "711",
+  "height_m": 0.9,
+  "slug": "gourgeist-average",
+  "types": [
+   "ghost",
+   "grass"
+  ]
+ },
+ "grafaiai": {
+  "abilities": [
+   "unburden",
+   "poison-touch",
+   "prankster"
+  ],
+  "dex": "945",
+  "height_m": 0.7,
+  "slug": "grafaiai",
+  "types": [
+   "poison",
+   "normal"
+  ]
+ },
+ "granbull": {
+  "abilities": [
+   "intimidate",
+   "quick-feet",
+   "rattled"
+  ],
+  "dex": "210",
+  "height_m": 1.4,
+  "slug": "granbull",
+  "types": [
+   "fairy"
+  ]
+ },
+ "grapploct": {
+  "abilities": [
+   "limber",
+   "technician"
+  ],
+  "dex": "853",
+  "height_m": 1.6,
+  "slug": "grapploct",
+  "types": [
+   "fighting"
+  ]
+ },
+ "graveler": {
+  "abilities": [
+   "rock-head",
+   "sturdy",
+   "sand-veil"
+  ],
+  "dex": "75",
+  "height_m": 1.0,
+  "slug": "graveler",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "graveler-alola": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "galvanize"
+  ],
+  "dex": "75",
+  "height_m": 1.0,
+  "slug": "graveler-alola",
+  "types": [
+   "rock",
+   "electric"
+  ]
+ },
+ "great-tusk": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "984",
+  "height_m": 2.2,
+  "slug": "great-tusk",
+  "types": [
+   "ground",
+   "fighting"
+  ]
+ },
+ "greavard": {
+  "abilities": [
+   "pickup",
+   "fluffy"
+  ],
+  "dex": "971",
+  "height_m": 0.6,
+  "slug": "greavard",
+  "types": [
+   "ghost"
+  ]
+ },
+ "greedent": {
+  "abilities": [
+   "cheek-pouch",
+   "gluttony"
+  ],
+  "dex": "820",
+  "height_m": 0.6,
+  "slug": "greedent",
+  "types": [
+   "normal"
+  ]
+ },
+ "greninja": {
+  "abilities": [
+   "torrent",
+   "protean"
+  ],
+  "dex": "658",
+  "height_m": 1.5,
+  "slug": "greninja",
+  "types": [
+   "water",
+   "dark"
+  ]
+ },
+ "grimer": {
+  "abilities": [
+   "stench",
+   "sticky-hold",
+   "poison-touch"
+  ],
+  "dex": "88",
+  "height_m": 0.9,
+  "slug": "grimer",
+  "types": [
+   "poison"
+  ]
+ },
+ "grimer-alola": {
+  "abilities": [
+   "poison-touch",
+   "gluttony",
+   "power-of-alchemy"
+  ],
+  "dex": "88",
+  "height_m": 0.7,
+  "slug": "grimer-alola",
+  "types": [
+   "poison",
+   "dark"
+  ]
+ },
+ "grimmsnarl": {
+  "abilities": [
+   "prankster",
+   "frisk",
+   "pickpocket"
+  ],
+  "dex": "861",
+  "height_m": 1.5,
+  "slug": "grimmsnarl",
+  "types": [
+   "dark",
+   "fairy"
+  ]
+ },
+ "grookey": {
+  "abilities": [
+   "overgrow",
+   "grassy-surge"
+  ],
+  "dex": "810",
+  "height_m": 0.3,
+  "slug": "grookey",
+  "types": [
+   "grass"
+  ]
+ },
+ "grotle": {
+  "abilities": [
+   "overgrow",
+   "shell-armor"
+  ],
+  "dex": "388",
+  "height_m": 1.1,
+  "slug": "grotle",
+  "types": [
+   "grass"
+  ]
+ },
+ "groudon": {
+  "abilities": [
+   "drought"
+  ],
+  "dex": "383",
+  "height_m": 3.5,
+  "slug": "groudon",
+  "types": [
+   "ground"
+  ]
+ },
+ "grovyle": {
+  "abilities": [
+   "overgrow",
+   "unburden"
+  ],
+  "dex": "253",
+  "height_m": 0.9,
+  "slug": "grovyle",
+  "types": [
+   "grass"
+  ]
+ },
+ "growlithe": {
+  "abilities": [
+   "intimidate",
+   "flash-fire",
+   "justified"
+  ],
+  "dex": "58",
+  "height_m": 0.7,
+  "slug": "growlithe",
+  "types": [
+   "fire"
+  ]
+ },
+ "grubbin": {
+  "abilities": [
+   "swarm"
+  ],
+  "dex": "736",
+  "height_m": 0.4,
+  "slug": "grubbin",
+  "types": [
+   "bug"
+  ]
+ },
+ "grumpig": {
+  "abilities": [
+   "thick-fat",
+   "own-tempo",
+   "gluttony"
+  ],
+  "dex": "326",
+  "height_m": 0.9,
+  "slug": "grumpig",
+  "types": [
+   "psychic"
+  ]
+ },
+ "gulpin": {
+  "abilities": [
+   "liquid-ooze",
+   "sticky-hold",
+   "gluttony"
+  ],
+  "dex": "316",
+  "height_m": 0.4,
+  "slug": "gulpin",
+  "types": [
+   "poison"
+  ]
+ },
+ "gumshoos": {
+  "abilities": [
+   "stakeout",
+   "strong-jaw",
+   "adaptability"
+  ],
+  "dex": "735",
+  "height_m": 0.7,
+  "slug": "gumshoos",
+  "types": [
+   "normal"
+  ]
+ },
+ "gurdurr": {
+  "abilities": [
+   "guts",
+   "sheer-force",
+   "iron-fist"
+  ],
+  "dex": "533",
+  "height_m": 1.2,
+  "slug": "gurdurr",
+  "types": [
+   "fighting"
+  ]
+ },
+ "guzzlord": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "799",
+  "height_m": 5.5,
+  "slug": "guzzlord",
+  "types": [
+   "dark",
+   "dragon"
+  ]
+ },
+ "gyarados": {
+  "abilities": [
+   "intimidate",
+   "moxie"
+  ],
+  "dex": "130",
+  "height_m": 6.5,
+  "slug": "gyarados",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "hakamo-o": {
+  "abilities": [
+   "bulletproof",
+   "soundproof",
+   "overcoat"
+  ],
+  "dex": "783",
+  "height_m": 1.2,
+  "slug": "hakamo-o",
+  "types": [
+   "dragon",
+   "fighting"
+  ]
+ },
+ "happiny": {
+  "abilities": [
+   "natural-cure",
+   "serene-grace",
+   "friend-guard"
+  ],
+  "dex": "440",
+  "height_m": 0.6,
+  "slug": "happiny",
+  "types": [
+   "normal"
+  ]
+ },
+ "hariyama": {
+  "abilities": [
+   "thick-fat",
+   "guts",
+   "sheer-force"
+  ],
+  "dex": "297",
+  "height_m": 2.3,
+  "slug": "hariyama",
+  "types": [
+   "fighting"
+  ]
+ },
+ "hatenna": {
+  "abilities": [
+   "healer",
+   "anticipation",
+   "magic-bounce"
+  ],
+  "dex": "856",
+  "height_m": 0.4,
+  "slug": "hatenna",
+  "types": [
+   "psychic"
+  ]
+ },
+ "hatterene": {
+  "abilities": [
+   "healer",
+   "anticipation",
+   "magic-bounce"
+  ],
+  "dex": "858",
+  "height_m": 2.1,
+  "slug": "hatterene",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "hattrem": {
+  "abilities": [
+   "healer",
+   "anticipation",
+   "magic-bounce"
+  ],
+  "dex": "857",
+  "height_m": 0.6,
+  "slug": "hattrem",
+  "types": [
+   "psychic"
+  ]
+ },
+ "haunter": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "93",
+  "height_m": 1.6,
+  "slug": "haunter",
+  "types": [
+   "ghost",
+   "poison"
+  ]
+ },
+ "hawlucha": {
+  "abilities": [
+   "limber",
+   "unburden",
+   "mold-breaker"
+  ],
+  "dex": "701",
+  "height_m": 0.8,
+  "slug": "hawlucha",
+  "types": [
+   "fighting",
+   "flying"
+  ]
+ },
+ "haxorus": {
+  "abilities": [
+   "rivalry",
+   "mold-breaker",
+   "unnerve"
+  ],
+  "dex": "612",
+  "height_m": 1.8,
+  "slug": "haxorus",
+  "types": [
+   "dragon"
+  ]
+ },
+ "heatmor": {
+  "abilities": [
+   "gluttony",
+   "flash-fire",
+   "white-smoke"
+  ],
+  "dex": "631",
+  "height_m": 1.4,
+  "slug": "heatmor",
+  "types": [
+   "fire"
+  ]
+ },
+ "heatran": {
+  "abilities": [
+   "flash-fire",
+   "flame-body"
+  ],
+  "dex": "485",
+  "height_m": 1.7,
+  "slug": "heatran",
+  "types": [
+   "fire",
+   "steel"
+  ]
+ },
+ "heliolisk": {
+  "abilities": [
+   "dry-skin",
+   "sand-veil",
+   "solar-power"
+  ],
+  "dex": "695",
+  "height_m": 1.0,
+  "slug": "heliolisk",
+  "types": [
+   "electric",
+   "normal"
+  ]
+ },
+ "helioptile": {
+  "abilities": [
+   "dry-skin",
+   "sand-veil",
+   "solar-power"
+  ],
+  "dex": "694",
+  "height_m": 0.5,
+  "slug": "helioptile",
+  "types": [
+   "electric",
+   "normal"
+  ]
+ },
+ "heracross": {
+  "abilities": [
+   "swarm",
+   "guts",
+   "moxie"
+  ],
+  "dex": "214",
+  "height_m": 1.5,
+  "slug": "heracross",
+  "types": [
+   "bug",
+   "fighting"
+  ]
+ },
+ "herdier": {
+  "abilities": [
+   "intimidate",
+   "sand-rush",
+   "scrappy"
+  ],
+  "dex": "507",
+  "height_m": 0.9,
+  "slug": "herdier",
+  "types": [
+   "normal"
+  ]
+ },
+ "hippopotas": {
+  "abilities": [
+   "sand-stream",
+   "sand-force"
+  ],
+  "dex": "449",
+  "height_m": 0.8,
+  "slug": "hippopotas",
+  "types": [
+   "ground"
+  ]
+ },
+ "hippowdon": {
+  "abilities": [
+   "sand-stream",
+   "sand-force"
+  ],
+  "dex": "450",
+  "height_m": 2.0,
+  "slug": "hippowdon",
+  "types": [
+   "ground"
+  ]
+ },
+ "hitmonchan": {
+  "abilities": [
+   "keen-eye",
+   "iron-fist",
+   "inner-focus"
+  ],
+  "dex": "107",
+  "height_m": 1.4,
+  "slug": "hitmonchan",
+  "types": [
+   "fighting"
+  ]
+ },
+ "hitmonlee": {
+  "abilities": [
+   "limber",
+   "reckless",
+   "unburden"
+  ],
+  "dex": "106",
+  "height_m": 1.5,
+  "slug": "hitmonlee",
+  "types": [
+   "fighting"
+  ]
+ },
+ "hitmontop": {
+  "abilities": [
+   "intimidate",
+   "technician",
+   "steadfast"
+  ],
+  "dex": "237",
+  "height_m": 1.4,
+  "slug": "hitmontop",
+  "types": [
+   "fighting"
+  ]
+ },
+ "ho-oh": {
+  "abilities": [
+   "pressure",
+   "regenerator"
+  ],
+  "dex": "250",
+  "height_m": 3.8,
+  "slug": "ho-oh",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "honchkrow": {
+  "abilities": [
+   "insomnia",
+   "super-luck",
+   "moxie"
+  ],
+  "dex": "430",
+  "height_m": 0.9,
+  "slug": "honchkrow",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "honedge": {
+  "abilities": [
+   "no-guard"
+  ],
+  "dex": "679",
+  "height_m": 0.8,
+  "slug": "honedge",
+  "types": [
+   "steel",
+   "ghost"
+  ]
+ },
+ "hoopa": {
+  "abilities": [
+   "magician"
+  ],
+  "dex": "720",
+  "height_m": 0.5,
+  "slug": "hoopa",
+  "types": [
+   "psychic",
+   "ghost"
+  ]
+ },
+ "hoothoot": {
+  "abilities": [
+   "insomnia",
+   "keen-eye",
+   "tinted-lens"
+  ],
+  "dex": "163",
+  "height_m": 0.7,
+  "slug": "hoothoot",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "hoppip": {
+  "abilities": [
+   "chlorophyll",
+   "leaf-guard",
+   "infiltrator"
+  ],
+  "dex": "187",
+  "height_m": 0.4,
+  "slug": "hoppip",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "horsea": {
+  "abilities": [
+   "swift-swim",
+   "sniper",
+   "damp"
+  ],
+  "dex": "116",
+  "height_m": 0.4,
+  "slug": "horsea",
+  "types": [
+   "water"
+  ]
+ },
+ "houndoom": {
+  "abilities": [
+   "early-bird",
+   "flash-fire",
+   "unnerve"
+  ],
+  "dex": "229",
+  "height_m": 1.4,
+  "slug": "houndoom",
+  "types": [
+   "dark",
+   "fire"
+  ]
+ },
+ "houndour": {
+  "abilities": [
+   "early-bird",
+   "flash-fire",
+   "unnerve"
+  ],
+  "dex": "228",
+  "height_m": 0.6,
+  "slug": "houndour",
+  "types": [
+   "dark",
+   "fire"
+  ]
+ },
+ "houndstone": {
+  "abilities": [
+   "sand-rush",
+   "fluffy"
+  ],
+  "dex": "972",
+  "height_m": 2.0,
+  "slug": "houndstone",
+  "types": [
+   "ghost"
+  ]
+ },
+ "huntail": {
+  "abilities": [
+   "swift-swim",
+   "water-veil"
+  ],
+  "dex": "367",
+  "height_m": 1.7,
+  "slug": "huntail",
+  "types": [
+   "water"
+  ]
+ },
+ "hydrapple": {
+  "abilities": [
+   "supersweet-syrup",
+   "regenerator",
+   "sticky-hold"
+  ],
+  "dex": "1019",
+  "height_m": 1.8,
+  "slug": "hydrapple",
+  "types": [
+   "grass",
+   "dragon"
+  ]
+ },
+ "hydreigon": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "635",
+  "height_m": 1.8,
+  "slug": "hydreigon",
+  "types": [
+   "dark",
+   "dragon"
+  ]
+ },
+ "hypno": {
+  "abilities": [
+   "insomnia",
+   "forewarn",
+   "inner-focus"
+  ],
+  "dex": "97",
+  "height_m": 1.6,
+  "slug": "hypno",
+  "types": [
+   "psychic"
+  ]
+ },
+ "igglybuff": {
+  "abilities": [
+   "cute-charm",
+   "competitive",
+   "friend-guard"
+  ],
+  "dex": "174",
+  "height_m": 0.3,
+  "slug": "igglybuff",
+  "types": [
+   "normal",
+   "fairy"
+  ]
+ },
+ "illumise": {
+  "abilities": [
+   "oblivious",
+   "tinted-lens",
+   "prankster"
+  ],
+  "dex": "314",
+  "height_m": 0.6,
+  "slug": "illumise",
+  "types": [
+   "bug"
+  ]
+ },
+ "impidimp": {
+  "abilities": [
+   "prankster",
+   "frisk",
+   "pickpocket"
+  ],
+  "dex": "859",
+  "height_m": 0.4,
+  "slug": "impidimp",
+  "types": [
+   "dark",
+   "fairy"
+  ]
+ },
+ "incineroar": {
+  "abilities": [
+   "blaze",
+   "intimidate"
+  ],
+  "dex": "727",
+  "height_m": 1.8,
+  "slug": "incineroar",
+  "types": [
+   "fire",
+   "dark"
+  ]
+ },
+ "indeedee-male": {
+  "abilities": [
+   "inner-focus",
+   "synchronize",
+   "psychic-surge"
+  ],
+  "dex": "876",
+  "height_m": 0.9,
+  "slug": "indeedee-male",
+  "types": [
+   "psychic",
+   "normal"
+  ]
+ },
+ "infernape": {
+  "abilities": [
+   "blaze",
+   "iron-fist"
+  ],
+  "dex": "392",
+  "height_m": 1.2,
+  "slug": "infernape",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "inkay": {
+  "abilities": [
+   "contrary",
+   "suction-cups",
+   "infiltrator"
+  ],
+  "dex": "686",
+  "height_m": 0.4,
+  "slug": "inkay",
+  "types": [
+   "dark",
+   "psychic"
+  ]
+ },
+ "inteleon": {
+  "abilities": [
+   "torrent",
+   "sniper"
+  ],
+  "dex": "818",
+  "height_m": 1.9,
+  "slug": "inteleon",
+  "types": [
+   "water"
+  ]
+ },
+ "iron-boulder": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "1022",
+  "height_m": 1.5,
+  "slug": "iron-boulder",
+  "types": [
+   "rock",
+   "psychic"
+  ]
+ },
+ "iron-bundle": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "991",
+  "height_m": 0.6,
+  "slug": "iron-bundle",
+  "types": [
+   "ice",
+   "water"
+  ]
+ },
+ "iron-crown": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "1023",
+  "height_m": 1.6,
+  "slug": "iron-crown",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "iron-hands": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "992",
+  "height_m": 1.8,
+  "slug": "iron-hands",
+  "types": [
+   "fighting",
+   "electric"
+  ]
+ },
+ "iron-jugulis": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "993",
+  "height_m": 1.3,
+  "slug": "iron-jugulis",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "iron-leaves": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "1010",
+  "height_m": 1.5,
+  "slug": "iron-leaves",
+  "types": [
+   "grass",
+   "psychic"
+  ]
+ },
+ "iron-moth": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "994",
+  "height_m": 1.2,
+  "slug": "iron-moth",
+  "types": [
+   "fire",
+   "poison"
+  ]
+ },
+ "iron-thorns": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "995",
+  "height_m": 1.6,
+  "slug": "iron-thorns",
+  "types": [
+   "rock",
+   "electric"
+  ]
+ },
+ "iron-treads": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "990",
+  "height_m": 0.9,
+  "slug": "iron-treads",
+  "types": [
+   "ground",
+   "steel"
+  ]
+ },
+ "iron-valiant": {
+  "abilities": [
+   "quark-drive"
+  ],
+  "dex": "1006",
+  "height_m": 1.4,
+  "slug": "iron-valiant",
+  "types": [
+   "fairy",
+   "fighting"
+  ]
+ },
+ "ivysaur": {
+  "abilities": [
+   "overgrow",
+   "chlorophyll"
+  ],
+  "dex": "2",
+  "height_m": 1.0,
+  "slug": "ivysaur",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "jangmo-o": {
+  "abilities": [
+   "bulletproof",
+   "soundproof",
+   "overcoat"
+  ],
+  "dex": "782",
+  "height_m": 0.6,
+  "slug": "jangmo-o",
+  "types": [
+   "dragon"
+  ]
+ },
+ "jellicent-male": {
+  "abilities": [
+   "water-absorb",
+   "cursed-body",
+   "damp"
+  ],
+  "dex": "593",
+  "height_m": 2.2,
+  "slug": "jellicent-male",
+  "types": [
+   "water",
+   "ghost"
+  ]
+ },
+ "jigglypuff": {
+  "abilities": [
+   "cute-charm",
+   "competitive",
+   "friend-guard"
+  ],
+  "dex": "39",
+  "height_m": 0.5,
+  "slug": "jigglypuff",
+  "types": [
+   "normal",
+   "fairy"
+  ]
+ },
+ "jirachi": {
+  "abilities": [
+   "serene-grace"
+  ],
+  "dex": "385",
+  "height_m": 0.3,
+  "slug": "jirachi",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "jolteon": {
+  "abilities": [
+   "volt-absorb",
+   "quick-feet"
+  ],
+  "dex": "135",
+  "height_m": 0.8,
+  "slug": "jolteon",
+  "types": [
+   "electric"
+  ]
+ },
+ "joltik": {
+  "abilities": [
+   "compound-eyes",
+   "unnerve",
+   "swarm"
+  ],
+  "dex": "595",
+  "height_m": 0.1,
+  "slug": "joltik",
+  "types": [
+   "bug",
+   "electric"
+  ]
+ },
+ "jumpluff": {
+  "abilities": [
+   "chlorophyll",
+   "leaf-guard",
+   "infiltrator"
+  ],
+  "dex": "189",
+  "height_m": 0.8,
+  "slug": "jumpluff",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "jynx": {
+  "abilities": [
+   "oblivious",
+   "forewarn",
+   "dry-skin"
+  ],
+  "dex": "124",
+  "height_m": 1.4,
+  "slug": "jynx",
+  "types": [
+   "ice",
+   "psychic"
+  ]
+ },
+ "kabuto": {
+  "abilities": [
+   "swift-swim",
+   "battle-armor",
+   "weak-armor"
+  ],
+  "dex": "140",
+  "height_m": 0.5,
+  "slug": "kabuto",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "kabutops": {
+  "abilities": [
+   "swift-swim",
+   "battle-armor",
+   "weak-armor"
+  ],
+  "dex": "141",
+  "height_m": 1.3,
+  "slug": "kabutops",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "kadabra": {
+  "abilities": [
+   "synchronize",
+   "inner-focus",
+   "magic-guard"
+  ],
+  "dex": "64",
+  "height_m": 1.3,
+  "slug": "kadabra",
+  "types": [
+   "psychic"
+  ]
+ },
+ "kakuna": {
+  "abilities": [
+   "shed-skin"
+  ],
+  "dex": "14",
+  "height_m": 0.6,
+  "slug": "kakuna",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "kangaskhan": {
+  "abilities": [
+   "early-bird",
+   "scrappy",
+   "inner-focus"
+  ],
+  "dex": "115",
+  "height_m": 2.2,
+  "slug": "kangaskhan",
+  "types": [
+   "normal"
+  ]
+ },
+ "karrablast": {
+  "abilities": [
+   "swarm",
+   "shed-skin",
+   "no-guard"
+  ],
+  "dex": "588",
+  "height_m": 0.5,
+  "slug": "karrablast",
+  "types": [
+   "bug"
+  ]
+ },
+ "kartana": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "798",
+  "height_m": 0.3,
+  "slug": "kartana",
+  "types": [
+   "grass",
+   "steel"
+  ]
+ },
+ "kecleon": {
+  "abilities": [
+   "color-change",
+   "protean"
+  ],
+  "dex": "352",
+  "height_m": 1.0,
+  "slug": "kecleon",
+  "types": [
+   "normal"
+  ]
+ },
+ "keldeo-ordinary": {
+  "abilities": [
+   "justified"
+  ],
+  "dex": "647",
+  "height_m": 1.4,
+  "slug": "keldeo-ordinary",
+  "types": [
+   "water",
+   "fighting"
+  ]
+ },
+ "kilowattrel": {
+  "abilities": [
+   "wind-power",
+   "volt-absorb",
+   "competitive"
+  ],
+  "dex": "941",
+  "height_m": 1.4,
+  "slug": "kilowattrel",
+  "types": [
+   "electric",
+   "flying"
+  ]
+ },
+ "kingambit": {
+  "abilities": [
+   "defiant",
+   "supreme-overlord",
+   "pressure"
+  ],
+  "dex": "983",
+  "height_m": 2.0,
+  "slug": "kingambit",
+  "types": [
+   "dark",
+   "steel"
+  ]
+ },
+ "kingdra": {
+  "abilities": [
+   "swift-swim",
+   "sniper",
+   "damp"
+  ],
+  "dex": "230",
+  "height_m": 1.8,
+  "slug": "kingdra",
+  "types": [
+   "water",
+   "dragon"
+  ]
+ },
+ "kingler": {
+  "abilities": [
+   "hyper-cutter",
+   "shell-armor",
+   "sheer-force"
+  ],
+  "dex": "99",
+  "height_m": 1.3,
+  "slug": "kingler",
+  "types": [
+   "water"
+  ]
+ },
+ "kirlia": {
+  "abilities": [
+   "synchronize",
+   "trace",
+   "telepathy"
+  ],
+  "dex": "281",
+  "height_m": 0.8,
+  "slug": "kirlia",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "klang": {
+  "abilities": [
+   "plus",
+   "minus",
+   "clear-body"
+  ],
+  "dex": "600",
+  "height_m": 0.6,
+  "slug": "klang",
+  "types": [
+   "steel"
+  ]
+ },
+ "klawf": {
+  "abilities": [
+   "anger-shell",
+   "shell-armor",
+   "regenerator"
+  ],
+  "dex": "950",
+  "height_m": 1.3,
+  "slug": "klawf",
+  "types": [
+   "rock"
+  ]
+ },
+ "kleavor": {
+  "abilities": [
+   "swarm",
+   "sheer-force",
+   "sharpness"
+  ],
+  "dex": "900",
+  "height_m": 1.8,
+  "slug": "kleavor",
+  "types": [
+   "bug",
+   "rock"
+  ]
+ },
+ "klefki": {
+  "abilities": [
+   "prankster",
+   "magician"
+  ],
+  "dex": "707",
+  "height_m": 0.2,
+  "slug": "klefki",
+  "types": [
+   "steel",
+   "fairy"
+  ]
+ },
+ "klink": {
+  "abilities": [
+   "plus",
+   "minus",
+   "clear-body"
+  ],
+  "dex": "599",
+  "height_m": 0.3,
+  "slug": "klink",
+  "types": [
+   "steel"
+  ]
+ },
+ "klinklang": {
+  "abilities": [
+   "plus",
+   "minus",
+   "clear-body"
+  ],
+  "dex": "601",
+  "height_m": 0.6,
+  "slug": "klinklang",
+  "types": [
+   "steel"
+  ]
+ },
+ "koffing": {
+  "abilities": [
+   "levitate",
+   "neutralizing-gas",
+   "stench"
+  ],
+  "dex": "109",
+  "height_m": 0.6,
+  "slug": "koffing",
+  "types": [
+   "poison"
+  ]
+ },
+ "komala": {
+  "abilities": [
+   "comatose"
+  ],
+  "dex": "775",
+  "height_m": 0.4,
+  "slug": "komala",
+  "types": [
+   "normal"
+  ]
+ },
+ "kommo-o": {
+  "abilities": [
+   "bulletproof",
+   "soundproof",
+   "overcoat"
+  ],
+  "dex": "784",
+  "height_m": 1.6,
+  "slug": "kommo-o",
+  "types": [
+   "dragon",
+   "fighting"
+  ]
+ },
+ "koraidon": {
+  "abilities": [
+   "orichalcum-pulse"
+  ],
+  "dex": "1007",
+  "height_m": 2.5,
+  "slug": "koraidon",
+  "types": [
+   "fighting",
+   "dragon"
+  ]
+ },
+ "krabby": {
+  "abilities": [
+   "hyper-cutter",
+   "shell-armor",
+   "sheer-force"
+  ],
+  "dex": "98",
+  "height_m": 0.4,
+  "slug": "krabby",
+  "types": [
+   "water"
+  ]
+ },
+ "kricketot": {
+  "abilities": [
+   "shed-skin",
+   "run-away"
+  ],
+  "dex": "401",
+  "height_m": 0.3,
+  "slug": "kricketot",
+  "types": [
+   "bug"
+  ]
+ },
+ "kricketune": {
+  "abilities": [
+   "swarm",
+   "technician"
+  ],
+  "dex": "402",
+  "height_m": 1.0,
+  "slug": "kricketune",
+  "types": [
+   "bug"
+  ]
+ },
+ "krokorok": {
+  "abilities": [
+   "intimidate",
+   "moxie",
+   "anger-point"
+  ],
+  "dex": "552",
+  "height_m": 1.0,
+  "slug": "krokorok",
+  "types": [
+   "ground",
+   "dark"
+  ]
+ },
+ "krookodile": {
+  "abilities": [
+   "intimidate",
+   "moxie",
+   "anger-point"
+  ],
+  "dex": "553",
+  "height_m": 1.5,
+  "slug": "krookodile",
+  "types": [
+   "ground",
+   "dark"
+  ]
+ },
+ "kubfu": {
+  "abilities": [
+   "inner-focus"
+  ],
+  "dex": "891",
+  "height_m": 0.6,
+  "slug": "kubfu",
+  "types": [
+   "fighting"
+  ]
+ },
+ "kyogre": {
+  "abilities": [
+   "drizzle"
+  ],
+  "dex": "382",
+  "height_m": 4.5,
+  "slug": "kyogre",
+  "types": [
+   "water"
+  ]
+ },
+ "kyurem": {
+  "abilities": [
+   "pressure"
+  ],
+  "dex": "646",
+  "height_m": 3.0,
+  "slug": "kyurem",
+  "types": [
+   "dragon",
+   "ice"
+  ]
+ },
+ "lairon": {
+  "abilities": [
+   "sturdy",
+   "rock-head",
+   "heavy-metal"
+  ],
+  "dex": "305",
+  "height_m": 0.9,
+  "slug": "lairon",
+  "types": [
+   "steel",
+   "rock"
+  ]
+ },
+ "lampent": {
+  "abilities": [
+   "flash-fire",
+   "flame-body",
+   "infiltrator"
+  ],
+  "dex": "608",
+  "height_m": 0.6,
+  "slug": "lampent",
+  "types": [
+   "ghost",
+   "fire"
+  ]
+ },
+ "landorus-incarnate": {
+  "abilities": [
+   "sand-force",
+   "sheer-force"
+  ],
+  "dex": "645",
+  "height_m": 1.5,
+  "slug": "landorus-incarnate",
+  "types": [
+   "ground",
+   "flying"
+  ]
+ },
+ "lanturn": {
+  "abilities": [
+   "volt-absorb",
+   "illuminate",
+   "water-absorb"
+  ],
+  "dex": "171",
+  "height_m": 1.2,
+  "slug": "lanturn",
+  "types": [
+   "water",
+   "electric"
+  ]
+ },
+ "lapras": {
+  "abilities": [
+   "water-absorb",
+   "shell-armor",
+   "hydration"
+  ],
+  "dex": "131",
+  "height_m": 2.5,
+  "slug": "lapras",
+  "types": [
+   "water",
+   "ice"
+  ]
+ },
+ "larvesta": {
+  "abilities": [
+   "flame-body",
+   "swarm"
+  ],
+  "dex": "636",
+  "height_m": 1.1,
+  "slug": "larvesta",
+  "types": [
+   "bug",
+   "fire"
+  ]
+ },
+ "larvitar": {
+  "abilities": [
+   "guts",
+   "sand-veil"
+  ],
+  "dex": "246",
+  "height_m": 0.6,
+  "slug": "larvitar",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "latias": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "380",
+  "height_m": 1.4,
+  "slug": "latias",
+  "types": [
+   "dragon",
+   "psychic"
+  ]
+ },
+ "latios": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "381",
+  "height_m": 2.0,
+  "slug": "latios",
+  "types": [
+   "dragon",
+   "psychic"
+  ]
+ },
+ "leafeon": {
+  "abilities": [
+   "leaf-guard",
+   "chlorophyll"
+  ],
+  "dex": "470",
+  "height_m": 1.0,
+  "slug": "leafeon",
+  "types": [
+   "grass"
+  ]
+ },
+ "leavanny": {
+  "abilities": [
+   "swarm",
+   "chlorophyll",
+   "overcoat"
+  ],
+  "dex": "542",
+  "height_m": 1.2,
+  "slug": "leavanny",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "lechonk": {
+  "abilities": [
+   "aroma-veil",
+   "gluttony",
+   "thick-fat"
+  ],
+  "dex": "915",
+  "height_m": 0.5,
+  "slug": "lechonk",
+  "types": [
+   "normal"
+  ]
+ },
+ "ledian": {
+  "abilities": [
+   "swarm",
+   "early-bird",
+   "iron-fist"
+  ],
+  "dex": "166",
+  "height_m": 1.4,
+  "slug": "ledian",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "ledyba": {
+  "abilities": [
+   "swarm",
+   "early-bird",
+   "rattled"
+  ],
+  "dex": "165",
+  "height_m": 1.0,
+  "slug": "ledyba",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "lickilicky": {
+  "abilities": [
+   "own-tempo",
+   "oblivious",
+   "cloud-nine"
+  ],
+  "dex": "463",
+  "height_m": 1.7,
+  "slug": "lickilicky",
+  "types": [
+   "normal"
+  ]
+ },
+ "lickitung": {
+  "abilities": [
+   "own-tempo",
+   "oblivious",
+   "cloud-nine"
+  ],
+  "dex": "108",
+  "height_m": 1.2,
+  "slug": "lickitung",
+  "types": [
+   "normal"
+  ]
+ },
+ "liepard": {
+  "abilities": [
+   "limber",
+   "unburden",
+   "prankster"
+  ],
+  "dex": "510",
+  "height_m": 1.1,
+  "slug": "liepard",
+  "types": [
+   "dark"
+  ]
+ },
+ "lileep": {
+  "abilities": [
+   "suction-cups",
+   "storm-drain"
+  ],
+  "dex": "345",
+  "height_m": 1.0,
+  "slug": "lileep",
+  "types": [
+   "rock",
+   "grass"
+  ]
+ },
+ "lilligant": {
+  "abilities": [
+   "chlorophyll",
+   "own-tempo",
+   "leaf-guard"
+  ],
+  "dex": "549",
+  "height_m": 1.1,
+  "slug": "lilligant",
+  "types": [
+   "grass"
+  ]
+ },
+ "lillipup": {
+  "abilities": [
+   "vital-spirit",
+   "pickup",
+   "run-away"
+  ],
+  "dex": "506",
+  "height_m": 0.4,
+  "slug": "lillipup",
+  "types": [
+   "normal"
+  ]
+ },
+ "linoone": {
+  "abilities": [
+   "pickup",
+   "gluttony",
+   "quick-feet"
+  ],
+  "dex": "264",
+  "height_m": 0.5,
+  "slug": "linoone",
+  "types": [
+   "normal"
+  ]
+ },
+ "litleo": {
+  "abilities": [
+   "rivalry",
+   "unnerve",
+   "moxie"
+  ],
+  "dex": "667",
+  "height_m": 0.6,
+  "slug": "litleo",
+  "types": [
+   "fire",
+   "normal"
+  ]
+ },
+ "litten": {
+  "abilities": [
+   "blaze",
+   "intimidate"
+  ],
+  "dex": "725",
+  "height_m": 0.4,
+  "slug": "litten",
+  "types": [
+   "fire"
+  ]
+ },
+ "litwick": {
+  "abilities": [
+   "flash-fire",
+   "flame-body",
+   "infiltrator"
+  ],
+  "dex": "607",
+  "height_m": 0.3,
+  "slug": "litwick",
+  "types": [
+   "ghost",
+   "fire"
+  ]
+ },
+ "lokix": {
+  "abilities": [
+   "swarm",
+   "tinted-lens"
+  ],
+  "dex": "920",
+  "height_m": 1.0,
+  "slug": "lokix",
+  "types": [
+   "bug",
+   "dark"
+  ]
+ },
+ "lombre": {
+  "abilities": [
+   "swift-swim",
+   "rain-dish",
+   "own-tempo"
+  ],
+  "dex": "271",
+  "height_m": 1.2,
+  "slug": "lombre",
+  "types": [
+   "water",
+   "grass"
+  ]
+ },
+ "lopunny": {
+  "abilities": [
+   "cute-charm",
+   "klutz",
+   "limber"
+  ],
+  "dex": "428",
+  "height_m": 1.2,
+  "slug": "lopunny",
+  "types": [
+   "normal"
+  ]
+ },
+ "lotad": {
+  "abilities": [
+   "swift-swim",
+   "rain-dish",
+   "own-tempo"
+  ],
+  "dex": "270",
+  "height_m": 0.5,
+  "slug": "lotad",
+  "types": [
+   "water",
+   "grass"
+  ]
+ },
+ "loudred": {
+  "abilities": [
+   "soundproof",
+   "scrappy"
+  ],
+  "dex": "294",
+  "height_m": 1.0,
+  "slug": "loudred",
+  "types": [
+   "normal"
+  ]
+ },
+ "lucario": {
+  "abilities": [
+   "steadfast",
+   "inner-focus",
+   "justified"
+  ],
+  "dex": "448",
+  "height_m": 1.2,
+  "slug": "lucario",
+  "types": [
+   "fighting",
+   "steel"
+  ]
+ },
+ "ludicolo": {
+  "abilities": [
+   "swift-swim",
+   "rain-dish",
+   "own-tempo"
+  ],
+  "dex": "272",
+  "height_m": 1.5,
+  "slug": "ludicolo",
+  "types": [
+   "water",
+   "grass"
+  ]
+ },
+ "lugia": {
+  "abilities": [
+   "pressure",
+   "multiscale"
+  ],
+  "dex": "249",
+  "height_m": 5.2,
+  "slug": "lugia",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "lumineon": {
+  "abilities": [
+   "swift-swim",
+   "storm-drain",
+   "water-veil"
+  ],
+  "dex": "457",
+  "height_m": 1.2,
+  "slug": "lumineon",
+  "types": [
+   "water"
+  ]
+ },
+ "lunala": {
+  "abilities": [
+   "shadow-shield"
+  ],
+  "dex": "792",
+  "height_m": 4.0,
+  "slug": "lunala",
+  "types": [
+   "psychic",
+   "ghost"
+  ]
+ },
+ "lunatone": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "337",
+  "height_m": 1.0,
+  "slug": "lunatone",
+  "types": [
+   "rock",
+   "psychic"
+  ]
+ },
+ "lurantis": {
+  "abilities": [
+   "leaf-guard",
+   "contrary"
+  ],
+  "dex": "754",
+  "height_m": 0.9,
+  "slug": "lurantis",
+  "types": [
+   "grass"
+  ]
+ },
+ "luvdisc": {
+  "abilities": [
+   "swift-swim",
+   "hydration"
+  ],
+  "dex": "370",
+  "height_m": 0.6,
+  "slug": "luvdisc",
+  "types": [
+   "water"
+  ]
+ },
+ "luxio": {
+  "abilities": [
+   "rivalry",
+   "intimidate",
+   "guts"
+  ],
+  "dex": "404",
+  "height_m": 0.9,
+  "slug": "luxio",
+  "types": [
+   "electric"
+  ]
+ },
+ "luxray": {
+  "abilities": [
+   "rivalry",
+   "intimidate",
+   "guts"
+  ],
+  "dex": "405",
+  "height_m": 1.4,
+  "slug": "luxray",
+  "types": [
+   "electric"
+  ]
+ },
+ "lycanroc-midday": {
+  "abilities": [
+   "keen-eye",
+   "sand-rush",
+   "steadfast"
+  ],
+  "dex": "745",
+  "height_m": 0.8,
+  "slug": "lycanroc-midday",
+  "types": [
+   "rock"
+  ]
+ },
+ "mabosstiff": {
+  "abilities": [
+   "intimidate",
+   "guard-dog",
+   "stakeout"
+  ],
+  "dex": "943",
+  "height_m": 1.1,
+  "slug": "mabosstiff",
+  "types": [
+   "dark"
+  ]
+ },
+ "machamp": {
+  "abilities": [
+   "guts",
+   "no-guard",
+   "steadfast"
+  ],
+  "dex": "68",
+  "height_m": 1.6,
+  "slug": "machamp",
+  "types": [
+   "fighting"
+  ]
+ },
+ "machoke": {
+  "abilities": [
+   "guts",
+   "no-guard",
+   "steadfast"
+  ],
+  "dex": "67",
+  "height_m": 1.5,
+  "slug": "machoke",
+  "types": [
+   "fighting"
+  ]
+ },
+ "machop": {
+  "abilities": [
+   "guts",
+   "no-guard",
+   "steadfast"
+  ],
+  "dex": "66",
+  "height_m": 0.8,
+  "slug": "machop",
+  "types": [
+   "fighting"
+  ]
+ },
+ "magby": {
+  "abilities": [
+   "flame-body",
+   "vital-spirit"
+  ],
+  "dex": "240",
+  "height_m": 0.7,
+  "slug": "magby",
+  "types": [
+   "fire"
+  ]
+ },
+ "magcargo": {
+  "abilities": [
+   "magma-armor",
+   "flame-body",
+   "weak-armor"
+  ],
+  "dex": "219",
+  "height_m": 0.8,
+  "slug": "magcargo",
+  "types": [
+   "fire",
+   "rock"
+  ]
+ },
+ "magearna": {
+  "abilities": [
+   "soul-heart"
+  ],
+  "dex": "801",
+  "height_m": 1.0,
+  "slug": "magearna",
+  "types": [
+   "steel",
+   "fairy"
+  ]
+ },
+ "magikarp": {
+  "abilities": [
+   "swift-swim",
+   "rattled"
+  ],
+  "dex": "129",
+  "height_m": 0.9,
+  "slug": "magikarp",
+  "types": [
+   "water"
+  ]
+ },
+ "magmar": {
+  "abilities": [
+   "flame-body",
+   "vital-spirit"
+  ],
+  "dex": "126",
+  "height_m": 1.3,
+  "slug": "magmar",
+  "types": [
+   "fire"
+  ]
+ },
+ "magmortar": {
+  "abilities": [
+   "flame-body",
+   "vital-spirit"
+  ],
+  "dex": "467",
+  "height_m": 1.6,
+  "slug": "magmortar",
+  "types": [
+   "fire"
+  ]
+ },
+ "magnemite": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "analytic"
+  ],
+  "dex": "81",
+  "height_m": 0.3,
+  "slug": "magnemite",
+  "types": [
+   "electric",
+   "steel"
+  ]
+ },
+ "magneton": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "analytic"
+  ],
+  "dex": "82",
+  "height_m": 1.0,
+  "slug": "magneton",
+  "types": [
+   "electric",
+   "steel"
+  ]
+ },
+ "magnezone": {
+  "abilities": [
+   "magnet-pull",
+   "sturdy",
+   "analytic"
+  ],
+  "dex": "462",
+  "height_m": 1.2,
+  "slug": "magnezone",
+  "types": [
+   "electric",
+   "steel"
+  ]
+ },
+ "makuhita": {
+  "abilities": [
+   "thick-fat",
+   "guts",
+   "sheer-force"
+  ],
+  "dex": "296",
+  "height_m": 1.0,
+  "slug": "makuhita",
+  "types": [
+   "fighting"
+  ]
+ },
+ "malamar": {
+  "abilities": [
+   "contrary",
+   "suction-cups",
+   "infiltrator"
+  ],
+  "dex": "687",
+  "height_m": 1.5,
+  "slug": "malamar",
+  "types": [
+   "dark",
+   "psychic"
+  ]
+ },
+ "mamoswine": {
+  "abilities": [
+   "oblivious",
+   "snow-cloak",
+   "thick-fat"
+  ],
+  "dex": "473",
+  "height_m": 2.5,
+  "slug": "mamoswine",
+  "types": [
+   "ice",
+   "ground"
+  ]
+ },
+ "manaphy": {
+  "abilities": [
+   "hydration"
+  ],
+  "dex": "490",
+  "height_m": 0.3,
+  "slug": "manaphy",
+  "types": [
+   "water"
+  ]
+ },
+ "mandibuzz": {
+  "abilities": [
+   "big-pecks",
+   "overcoat",
+   "weak-armor"
+  ],
+  "dex": "630",
+  "height_m": 1.2,
+  "slug": "mandibuzz",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "manectric": {
+  "abilities": [
+   "static",
+   "lightning-rod",
+   "minus"
+  ],
+  "dex": "310",
+  "height_m": 1.5,
+  "slug": "manectric",
+  "types": [
+   "electric"
+  ]
+ },
+ "mankey": {
+  "abilities": [
+   "vital-spirit",
+   "anger-point",
+   "defiant"
+  ],
+  "dex": "56",
+  "height_m": 0.5,
+  "slug": "mankey",
+  "types": [
+   "fighting"
+  ]
+ },
+ "mantine": {
+  "abilities": [
+   "swift-swim",
+   "water-absorb",
+   "water-veil"
+  ],
+  "dex": "226",
+  "height_m": 2.1,
+  "slug": "mantine",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "mantyke": {
+  "abilities": [
+   "swift-swim",
+   "water-absorb",
+   "water-veil"
+  ],
+  "dex": "458",
+  "height_m": 1.0,
+  "slug": "mantyke",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "maractus": {
+  "abilities": [
+   "water-absorb",
+   "chlorophyll",
+   "storm-drain"
+  ],
+  "dex": "556",
+  "height_m": 1.0,
+  "slug": "maractus",
+  "types": [
+   "grass"
+  ]
+ },
+ "mareanie": {
+  "abilities": [
+   "merciless",
+   "limber",
+   "regenerator"
+  ],
+  "dex": "747",
+  "height_m": 0.4,
+  "slug": "mareanie",
+  "types": [
+   "poison",
+   "water"
+  ]
+ },
+ "mareep": {
+  "abilities": [
+   "static",
+   "plus"
+  ],
+  "dex": "179",
+  "height_m": 0.6,
+  "slug": "mareep",
+  "types": [
+   "electric"
+  ]
+ },
+ "marill": {
+  "abilities": [
+   "thick-fat",
+   "huge-power",
+   "sap-sipper"
+  ],
+  "dex": "183",
+  "height_m": 0.4,
+  "slug": "marill",
+  "types": [
+   "water",
+   "fairy"
+  ]
+ },
+ "marowak": {
+  "abilities": [
+   "rock-head",
+   "lightning-rod",
+   "battle-armor"
+  ],
+  "dex": "105",
+  "height_m": 1.0,
+  "slug": "marowak",
+  "types": [
+   "ground"
+  ]
+ },
+ "marowak-alola": {
+  "abilities": [
+   "cursed-body",
+   "lightning-rod",
+   "rock-head"
+  ],
+  "dex": "105",
+  "height_m": 1.0,
+  "slug": "marowak-alola",
+  "types": [
+   "fire",
+   "ghost"
+  ]
+ },
+ "marshadow": {
+  "abilities": [
+   "technician"
+  ],
+  "dex": "802",
+  "height_m": 0.7,
+  "slug": "marshadow",
+  "types": [
+   "fighting",
+   "ghost"
+  ]
+ },
+ "marshtomp": {
+  "abilities": [
+   "torrent",
+   "damp"
+  ],
+  "dex": "259",
+  "height_m": 0.7,
+  "slug": "marshtomp",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "maschiff": {
+  "abilities": [
+   "intimidate",
+   "run-away",
+   "stakeout"
+  ],
+  "dex": "942",
+  "height_m": 0.5,
+  "slug": "maschiff",
+  "types": [
+   "dark"
+  ]
+ },
+ "masquerain": {
+  "abilities": [
+   "intimidate",
+   "unnerve"
+  ],
+  "dex": "284",
+  "height_m": 0.8,
+  "slug": "masquerain",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "maushold-family-of-four": {
+  "abilities": [
+   "friend-guard",
+   "cheek-pouch",
+   "technician"
+  ],
+  "dex": "925",
+  "height_m": 0.3,
+  "slug": "maushold-family-of-four",
+  "types": [
+   "normal"
+  ]
+ },
+ "mawile": {
+  "abilities": [
+   "hyper-cutter",
+   "intimidate",
+   "sheer-force"
+  ],
+  "dex": "303",
+  "height_m": 0.6,
+  "slug": "mawile",
+  "types": [
+   "steel",
+   "fairy"
+  ]
+ },
+ "medicham": {
+  "abilities": [
+   "pure-power",
+   "telepathy"
+  ],
+  "dex": "308",
+  "height_m": 1.3,
+  "slug": "medicham",
+  "types": [
+   "fighting",
+   "psychic"
+  ]
+ },
+ "meditite": {
+  "abilities": [
+   "pure-power",
+   "telepathy"
+  ],
+  "dex": "307",
+  "height_m": 0.6,
+  "slug": "meditite",
+  "types": [
+   "fighting",
+   "psychic"
+  ]
+ },
+ "meganium": {
+  "abilities": [
+   "overgrow",
+   "leaf-guard"
+  ],
+  "dex": "154",
+  "height_m": 1.8,
+  "slug": "meganium",
+  "types": [
+   "grass"
+  ]
+ },
+ "melmetal": {
+  "abilities": [
+   "iron-fist"
+  ],
+  "dex": "809",
+  "height_m": 2.5,
+  "slug": "melmetal",
+  "types": [
+   "steel"
+  ]
+ },
+ "meloetta-aria": {
+  "abilities": [
+   "serene-grace"
+  ],
+  "dex": "648",
+  "height_m": 0.6,
+  "slug": "meloetta-aria",
+  "types": [
+   "normal",
+   "psychic"
+  ]
+ },
+ "meltan": {
+  "abilities": [
+   "magnet-pull"
+  ],
+  "dex": "808",
+  "height_m": 0.2,
+  "slug": "meltan",
+  "types": [
+   "steel"
+  ]
+ },
+ "meowscarada": {
+  "abilities": [
+   "overgrow",
+   "protean"
+  ],
+  "dex": "908",
+  "height_m": 1.5,
+  "slug": "meowscarada",
+  "types": [
+   "grass",
+   "dark"
+  ]
+ },
+ "meowstic-male": {
+  "abilities": [
+   "keen-eye",
+   "infiltrator",
+   "prankster"
+  ],
+  "dex": "678",
+  "height_m": 0.6,
+  "slug": "meowstic-male",
+  "types": [
+   "psychic"
+  ]
+ },
+ "meowth": {
+  "abilities": [
+   "pickup",
+   "technician",
+   "unnerve"
+  ],
+  "dex": "52",
+  "height_m": 0.4,
+  "slug": "meowth",
+  "types": [
+   "normal"
+  ]
+ },
+ "meowth-alola": {
+  "abilities": [
+   "pickup",
+   "technician",
+   "rattled"
+  ],
+  "dex": "52",
+  "height_m": 0.4,
+  "slug": "meowth-alola",
+  "types": [
+   "dark"
+  ]
+ },
+ "mesprit": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "481",
+  "height_m": 0.3,
+  "slug": "mesprit",
+  "types": [
+   "psychic"
+  ]
+ },
+ "metagross": {
+  "abilities": [
+   "clear-body",
+   "light-metal"
+  ],
+  "dex": "376",
+  "height_m": 1.6,
+  "slug": "metagross",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "metang": {
+  "abilities": [
+   "clear-body",
+   "light-metal"
+  ],
+  "dex": "375",
+  "height_m": 1.2,
+  "slug": "metang",
+  "types": [
+   "steel",
+   "psychic"
+  ]
+ },
+ "metapod": {
+  "abilities": [
+   "shed-skin"
+  ],
+  "dex": "11",
+  "height_m": 0.7,
+  "slug": "metapod",
+  "types": [
+   "bug"
+  ]
+ },
+ "mew": {
+  "abilities": [
+   "synchronize"
+  ],
+  "dex": "151",
+  "height_m": 0.4,
+  "slug": "mew",
+  "types": [
+   "psychic"
+  ]
+ },
+ "mewtwo": {
+  "abilities": [
+   "pressure",
+   "unnerve"
+  ],
+  "dex": "150",
+  "height_m": 2.0,
+  "slug": "mewtwo",
+  "types": [
+   "psychic"
+  ]
+ },
+ "mienfoo": {
+  "abilities": [
+   "inner-focus",
+   "regenerator",
+   "reckless"
+  ],
+  "dex": "619",
+  "height_m": 0.9,
+  "slug": "mienfoo",
+  "types": [
+   "fighting"
+  ]
+ },
+ "mienshao": {
+  "abilities": [
+   "inner-focus",
+   "regenerator",
+   "reckless"
+  ],
+  "dex": "620",
+  "height_m": 1.4,
+  "slug": "mienshao",
+  "types": [
+   "fighting"
+  ]
+ },
+ "mightyena": {
+  "abilities": [
+   "intimidate",
+   "quick-feet",
+   "moxie"
+  ],
+  "dex": "262",
+  "height_m": 1.0,
+  "slug": "mightyena",
+  "types": [
+   "dark"
+  ]
+ },
+ "milcery": {
+  "abilities": [
+   "sweet-veil",
+   "aroma-veil"
+  ],
+  "dex": "868",
+  "height_m": 0.2,
+  "slug": "milcery",
+  "types": [
+   "fairy"
+  ]
+ },
+ "milotic": {
+  "abilities": [
+   "marvel-scale",
+   "competitive",
+   "cute-charm"
+  ],
+  "dex": "350",
+  "height_m": 6.2,
+  "slug": "milotic",
+  "types": [
+   "water"
+  ]
+ },
+ "miltank": {
+  "abilities": [
+   "thick-fat",
+   "scrappy",
+   "sap-sipper"
+  ],
+  "dex": "241",
+  "height_m": 1.2,
+  "slug": "miltank",
+  "types": [
+   "normal"
+  ]
+ },
+ "mime-jr": {
+  "abilities": [
+   "soundproof",
+   "filter",
+   "technician"
+  ],
+  "dex": "439",
+  "height_m": 0.6,
+  "slug": "mime-jr",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "mimikyu-disguised": {
+  "abilities": [
+   "disguise"
+  ],
+  "dex": "778",
+  "height_m": 0.2,
+  "slug": "mimikyu-disguised",
+  "types": [
+   "ghost",
+   "fairy"
+  ]
+ },
+ "minccino": {
+  "abilities": [
+   "cute-charm",
+   "technician",
+   "skill-link"
+  ],
+  "dex": "572",
+  "height_m": 0.4,
+  "slug": "minccino",
+  "types": [
+   "normal"
+  ]
+ },
+ "minior-red-meteor": {
+  "abilities": [
+   "shields-down"
+  ],
+  "dex": "774",
+  "height_m": 0.3,
+  "slug": "minior-red-meteor",
+  "types": [
+   "rock",
+   "flying"
+  ]
+ },
+ "minun": {
+  "abilities": [
+   "minus",
+   "volt-absorb"
+  ],
+  "dex": "312",
+  "height_m": 0.4,
+  "slug": "minun",
+  "types": [
+   "electric"
+  ]
+ },
+ "miraidon": {
+  "abilities": [
+   "hadron-engine"
+  ],
+  "dex": "1008",
+  "height_m": 3.5,
+  "slug": "miraidon",
+  "types": [
+   "electric",
+   "dragon"
+  ]
+ },
+ "misdreavus": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "200",
+  "height_m": 0.7,
+  "slug": "misdreavus",
+  "types": [
+   "ghost"
+  ]
+ },
+ "mismagius": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "429",
+  "height_m": 0.9,
+  "slug": "mismagius",
+  "types": [
+   "ghost"
+  ]
+ },
+ "moltres": {
+  "abilities": [
+   "pressure",
+   "flame-body"
+  ],
+  "dex": "146",
+  "height_m": 2.0,
+  "slug": "moltres",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "monferno": {
+  "abilities": [
+   "blaze",
+   "iron-fist"
+  ],
+  "dex": "391",
+  "height_m": 0.9,
+  "slug": "monferno",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "morelull": {
+  "abilities": [
+   "illuminate",
+   "effect-spore",
+   "rain-dish"
+  ],
+  "dex": "755",
+  "height_m": 0.2,
+  "slug": "morelull",
+  "types": [
+   "grass",
+   "fairy"
+  ]
+ },
+ "morgrem": {
+  "abilities": [
+   "prankster",
+   "frisk",
+   "pickpocket"
+  ],
+  "dex": "860",
+  "height_m": 0.8,
+  "slug": "morgrem",
+  "types": [
+   "dark",
+   "fairy"
+  ]
+ },
+ "morpeko-full-belly": {
+  "abilities": [
+   "hunger-switch"
+  ],
+  "dex": "877",
+  "height_m": 0.3,
+  "slug": "morpeko-full-belly",
+  "types": [
+   "electric",
+   "dark"
+  ]
+ },
+ "mothim": {
+  "abilities": [
+   "swarm",
+   "tinted-lens"
+  ],
+  "dex": "414",
+  "height_m": 0.9,
+  "slug": "mothim",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "mr-mime": {
+  "abilities": [
+   "soundproof",
+   "filter",
+   "technician"
+  ],
+  "dex": "122",
+  "height_m": 1.3,
+  "slug": "mr-mime",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "mr-rime": {
+  "abilities": [
+   "tangled-feet",
+   "screen-cleaner",
+   "ice-body"
+  ],
+  "dex": "866",
+  "height_m": 1.5,
+  "slug": "mr-rime",
+  "types": [
+   "ice",
+   "psychic"
+  ]
+ },
+ "mudbray": {
+  "abilities": [
+   "own-tempo",
+   "stamina",
+   "inner-focus"
+  ],
+  "dex": "749",
+  "height_m": 1.0,
+  "slug": "mudbray",
+  "types": [
+   "ground"
+  ]
+ },
+ "mudkip": {
+  "abilities": [
+   "torrent",
+   "damp"
+  ],
+  "dex": "258",
+  "height_m": 0.4,
+  "slug": "mudkip",
+  "types": [
+   "water"
+  ]
+ },
+ "mudsdale": {
+  "abilities": [
+   "own-tempo",
+   "stamina",
+   "inner-focus"
+  ],
+  "dex": "750",
+  "height_m": 2.5,
+  "slug": "mudsdale",
+  "types": [
+   "ground"
+  ]
+ },
+ "muk": {
+  "abilities": [
+   "stench",
+   "sticky-hold",
+   "poison-touch"
+  ],
+  "dex": "89",
+  "height_m": 1.2,
+  "slug": "muk",
+  "types": [
+   "poison"
+  ]
+ },
+ "muk-alola": {
+  "abilities": [
+   "poison-touch",
+   "gluttony",
+   "power-of-alchemy"
+  ],
+  "dex": "89",
+  "height_m": 1.0,
+  "slug": "muk-alola",
+  "types": [
+   "poison",
+   "dark"
+  ]
+ },
+ "munchlax": {
+  "abilities": [
+   "pickup",
+   "thick-fat",
+   "gluttony"
+  ],
+  "dex": "446",
+  "height_m": 0.6,
+  "slug": "munchlax",
+  "types": [
+   "normal"
+  ]
+ },
+ "munkidori": {
+  "abilities": [
+   "toxic-chain",
+   "frisk"
+  ],
+  "dex": "1015",
+  "height_m": 1.0,
+  "slug": "munkidori",
+  "types": [
+   "poison",
+   "psychic"
+  ]
+ },
+ "munna": {
+  "abilities": [
+   "forewarn",
+   "synchronize",
+   "telepathy"
+  ],
+  "dex": "517",
+  "height_m": 0.6,
+  "slug": "munna",
+  "types": [
+   "psychic"
+  ]
+ },
+ "murkrow": {
+  "abilities": [
+   "insomnia",
+   "super-luck",
+   "prankster"
+  ],
+  "dex": "198",
+  "height_m": 0.5,
+  "slug": "murkrow",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "musharna": {
+  "abilities": [
+   "forewarn",
+   "synchronize",
+   "telepathy"
+  ],
+  "dex": "518",
+  "height_m": 1.1,
+  "slug": "musharna",
+  "types": [
+   "psychic"
+  ]
+ },
+ "nacli": {
+  "abilities": [
+   "purifying-salt",
+   "sturdy",
+   "clear-body"
+  ],
+  "dex": "932",
+  "height_m": 0.4,
+  "slug": "nacli",
+  "types": [
+   "rock"
+  ]
+ },
+ "naclstack": {
+  "abilities": [
+   "purifying-salt",
+   "sturdy",
+   "clear-body"
+  ],
+  "dex": "933",
+  "height_m": 0.6,
+  "slug": "naclstack",
+  "types": [
+   "rock"
+  ]
+ },
+ "naganadel": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "804",
+  "height_m": 3.6,
+  "slug": "naganadel",
+  "types": [
+   "poison",
+   "dragon"
+  ]
+ },
+ "natu": {
+  "abilities": [
+   "synchronize",
+   "early-bird",
+   "magic-bounce"
+  ],
+  "dex": "177",
+  "height_m": 0.2,
+  "slug": "natu",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "necrozma": {
+  "abilities": [
+   "prism-armor"
+  ],
+  "dex": "800",
+  "height_m": 2.4,
+  "slug": "necrozma",
+  "types": [
+   "psychic"
+  ]
+ },
+ "nickit": {
+  "abilities": [
+   "run-away",
+   "unburden",
+   "stakeout"
+  ],
+  "dex": "827",
+  "height_m": 0.6,
+  "slug": "nickit",
+  "types": [
+   "dark"
+  ]
+ },
+ "nidoking": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "sheer-force"
+  ],
+  "dex": "34",
+  "height_m": 1.4,
+  "slug": "nidoking",
+  "types": [
+   "poison",
+   "ground"
+  ]
+ },
+ "nidoqueen": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "sheer-force"
+  ],
+  "dex": "31",
+  "height_m": 1.3,
+  "slug": "nidoqueen",
+  "types": [
+   "poison",
+   "ground"
+  ]
+ },
+ "nidoran-f": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "hustle"
+  ],
+  "dex": "29",
+  "height_m": 0.4,
+  "slug": "nidoran-f",
+  "types": [
+   "poison"
+  ]
+ },
+ "nidoran-m": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "hustle"
+  ],
+  "dex": "32",
+  "height_m": 0.5,
+  "slug": "nidoran-m",
+  "types": [
+   "poison"
+  ]
+ },
+ "nidorina": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "hustle"
+  ],
+  "dex": "30",
+  "height_m": 0.8,
+  "slug": "nidorina",
+  "types": [
+   "poison"
+  ]
+ },
+ "nidorino": {
+  "abilities": [
+   "poison-point",
+   "rivalry",
+   "hustle"
+  ],
+  "dex": "33",
+  "height_m": 0.9,
+  "slug": "nidorino",
+  "types": [
+   "poison"
+  ]
+ },
+ "nihilego": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "793",
+  "height_m": 1.2,
+  "slug": "nihilego",
+  "types": [
+   "rock",
+   "poison"
+  ]
+ },
+ "nincada": {
+  "abilities": [
+   "compound-eyes",
+   "run-away"
+  ],
+  "dex": "290",
+  "height_m": 0.5,
+  "slug": "nincada",
+  "types": [
+   "bug",
+   "ground"
+  ]
+ },
+ "ninetales": {
+  "abilities": [
+   "flash-fire",
+   "drought"
+  ],
+  "dex": "38",
+  "height_m": 1.1,
+  "slug": "ninetales",
+  "types": [
+   "fire"
+  ]
+ },
+ "ninetales-alola": {
+  "abilities": [
+   "snow-cloak",
+   "snow-warning"
+  ],
+  "dex": "38",
+  "height_m": 1.1,
+  "slug": "ninetales-alola",
+  "types": [
+   "ice",
+   "fairy"
+  ]
+ },
+ "ninjask": {
+  "abilities": [
+   "speed-boost",
+   "infiltrator"
+  ],
+  "dex": "291",
+  "height_m": 0.8,
+  "slug": "ninjask",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "noctowl": {
+  "abilities": [
+   "insomnia",
+   "keen-eye",
+   "tinted-lens"
+  ],
+  "dex": "164",
+  "height_m": 1.6,
+  "slug": "noctowl",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "noibat": {
+  "abilities": [
+   "frisk",
+   "infiltrator",
+   "telepathy"
+  ],
+  "dex": "714",
+  "height_m": 0.5,
+  "slug": "noibat",
+  "types": [
+   "flying",
+   "dragon"
+  ]
+ },
+ "noivern": {
+  "abilities": [
+   "frisk",
+   "infiltrator",
+   "telepathy"
+  ],
+  "dex": "715",
+  "height_m": 1.5,
+  "slug": "noivern",
+  "types": [
+   "flying",
+   "dragon"
+  ]
+ },
+ "nosepass": {
+  "abilities": [
+   "sturdy",
+   "magnet-pull",
+   "sand-force"
+  ],
+  "dex": "299",
+  "height_m": 1.0,
+  "slug": "nosepass",
+  "types": [
+   "rock"
+  ]
+ },
+ "numel": {
+  "abilities": [
+   "oblivious",
+   "simple",
+   "own-tempo"
+  ],
+  "dex": "322",
+  "height_m": 0.7,
+  "slug": "numel",
+  "types": [
+   "fire",
+   "ground"
+  ]
+ },
+ "nuzleaf": {
+  "abilities": [
+   "chlorophyll",
+   "early-bird",
+   "pickpocket"
+  ],
+  "dex": "274",
+  "height_m": 1.0,
+  "slug": "nuzleaf",
+  "types": [
+   "grass",
+   "dark"
+  ]
+ },
+ "nymble": {
+  "abilities": [
+   "swarm",
+   "tinted-lens"
+  ],
+  "dex": "919",
+  "height_m": 0.2,
+  "slug": "nymble",
+  "types": [
+   "bug"
+  ]
+ },
+ "obstagoon": {
+  "abilities": [
+   "reckless",
+   "guts",
+   "defiant"
+  ],
+  "dex": "862",
+  "height_m": 1.6,
+  "slug": "obstagoon",
+  "types": [
+   "dark",
+   "normal"
+  ]
+ },
+ "octillery": {
+  "abilities": [
+   "suction-cups",
+   "sniper",
+   "moody"
+  ],
+  "dex": "224",
+  "height_m": 0.9,
+  "slug": "octillery",
+  "types": [
+   "water"
+  ]
+ },
+ "oddish": {
+  "abilities": [
+   "chlorophyll",
+   "run-away"
+  ],
+  "dex": "43",
+  "height_m": 0.5,
+  "slug": "oddish",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "ogerpon": {
+  "abilities": [
+   "defiant"
+  ],
+  "dex": "1017",
+  "height_m": 1.2,
+  "slug": "ogerpon",
+  "types": [
+   "grass"
+  ]
+ },
+ "oinkologne-male": {
+  "abilities": [
+   "lingering-aroma",
+   "gluttony",
+   "thick-fat"
+  ],
+  "dex": "916",
+  "height_m": 1.0,
+  "slug": "oinkologne-male",
+  "types": [
+   "normal"
+  ]
+ },
+ "okidogi": {
+  "abilities": [
+   "toxic-chain",
+   "guard-dog"
+  ],
+  "dex": "1014",
+  "height_m": 1.8,
+  "slug": "okidogi",
+  "types": [
+   "poison",
+   "fighting"
+  ]
+ },
+ "omanyte": {
+  "abilities": [
+   "swift-swim",
+   "shell-armor",
+   "weak-armor"
+  ],
+  "dex": "138",
+  "height_m": 0.4,
+  "slug": "omanyte",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "omastar": {
+  "abilities": [
+   "swift-swim",
+   "shell-armor",
+   "weak-armor"
+  ],
+  "dex": "139",
+  "height_m": 1.0,
+  "slug": "omastar",
+  "types": [
+   "rock",
+   "water"
+  ]
+ },
+ "onix": {
+  "abilities": [
+   "rock-head",
+   "sturdy",
+   "weak-armor"
+  ],
+  "dex": "95",
+  "height_m": 8.8,
+  "slug": "onix",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "oranguru": {
+  "abilities": [
+   "inner-focus",
+   "telepathy",
+   "symbiosis"
+  ],
+  "dex": "765",
+  "height_m": 1.5,
+  "slug": "oranguru",
+  "types": [
+   "normal",
+   "psychic"
+  ]
+ },
+ "orbeetle": {
+  "abilities": [
+   "swarm",
+   "frisk",
+   "telepathy"
+  ],
+  "dex": "826",
+  "height_m": 0.4,
+  "slug": "orbeetle",
+  "types": [
+   "bug",
+   "psychic"
+  ]
+ },
+ "oricorio-baile": {
+  "abilities": [
+   "dancer"
+  ],
+  "dex": "741",
+  "height_m": 0.6,
+  "slug": "oricorio-baile",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "orthworm": {
+  "abilities": [
+   "earth-eater",
+   "sand-veil"
+  ],
+  "dex": "968",
+  "height_m": 2.5,
+  "slug": "orthworm",
+  "types": [
+   "steel"
+  ]
+ },
+ "oshawott": {
+  "abilities": [
+   "torrent",
+   "shell-armor"
+  ],
+  "dex": "501",
+  "height_m": 0.5,
+  "slug": "oshawott",
+  "types": [
+   "water"
+  ]
+ },
+ "overqwil": {
+  "abilities": [
+   "poison-point",
+   "swift-swim",
+   "intimidate"
+  ],
+  "dex": "904",
+  "height_m": 2.5,
+  "slug": "overqwil",
+  "types": [
+   "dark",
+   "poison"
+  ]
+ },
+ "pachirisu": {
+  "abilities": [
+   "run-away",
+   "pickup",
+   "volt-absorb"
+  ],
+  "dex": "417",
+  "height_m": 0.4,
+  "slug": "pachirisu",
+  "types": [
+   "electric"
+  ]
+ },
+ "palafin-zero": {
+  "abilities": [
+   "zero-to-hero"
+  ],
+  "dex": "964",
+  "height_m": 1.3,
+  "slug": "palafin-zero",
+  "types": [
+   "water"
+  ]
+ },
+ "palkia": {
+  "abilities": [
+   "pressure",
+   "telepathy"
+  ],
+  "dex": "484",
+  "height_m": 4.2,
+  "slug": "palkia",
+  "types": [
+   "water",
+   "dragon"
+  ]
+ },
+ "palossand": {
+  "abilities": [
+   "water-compaction",
+   "sand-veil"
+  ],
+  "dex": "770",
+  "height_m": 1.3,
+  "slug": "palossand",
+  "types": [
+   "ghost",
+   "ground"
+  ]
+ },
+ "palpitoad": {
+  "abilities": [
+   "swift-swim",
+   "hydration",
+   "water-absorb"
+  ],
+  "dex": "536",
+  "height_m": 0.8,
+  "slug": "palpitoad",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "pancham": {
+  "abilities": [
+   "iron-fist",
+   "mold-breaker",
+   "scrappy"
+  ],
+  "dex": "674",
+  "height_m": 0.6,
+  "slug": "pancham",
+  "types": [
+   "fighting"
+  ]
+ },
+ "pangoro": {
+  "abilities": [
+   "iron-fist",
+   "mold-breaker",
+   "scrappy"
+  ],
+  "dex": "675",
+  "height_m": 2.1,
+  "slug": "pangoro",
+  "types": [
+   "fighting",
+   "dark"
+  ]
+ },
+ "panpour": {
+  "abilities": [
+   "gluttony",
+   "torrent"
+  ],
+  "dex": "515",
+  "height_m": 0.6,
+  "slug": "panpour",
+  "types": [
+   "water"
+  ]
+ },
+ "pansage": {
+  "abilities": [
+   "gluttony",
+   "overgrow"
+  ],
+  "dex": "511",
+  "height_m": 0.6,
+  "slug": "pansage",
+  "types": [
+   "grass"
+  ]
+ },
+ "pansear": {
+  "abilities": [
+   "gluttony",
+   "blaze"
+  ],
+  "dex": "513",
+  "height_m": 0.6,
+  "slug": "pansear",
+  "types": [
+   "fire"
+  ]
+ },
+ "paras": {
+  "abilities": [
+   "effect-spore",
+   "dry-skin",
+   "damp"
+  ],
+  "dex": "46",
+  "height_m": 0.3,
+  "slug": "paras",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "parasect": {
+  "abilities": [
+   "effect-spore",
+   "dry-skin",
+   "damp"
+  ],
+  "dex": "47",
+  "height_m": 1.0,
+  "slug": "parasect",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "passimian": {
+  "abilities": [
+   "receiver",
+   "defiant"
+  ],
+  "dex": "766",
+  "height_m": 2.0,
+  "slug": "passimian",
+  "types": [
+   "fighting"
+  ]
+ },
+ "patrat": {
+  "abilities": [
+   "run-away",
+   "keen-eye",
+   "analytic"
+  ],
+  "dex": "504",
+  "height_m": 0.5,
+  "slug": "patrat",
+  "types": [
+   "normal"
+  ]
+ },
+ "pawmi": {
+  "abilities": [
+   "static",
+   "natural-cure",
+   "iron-fist"
+  ],
+  "dex": "921",
+  "height_m": 0.3,
+  "slug": "pawmi",
+  "types": [
+   "electric"
+  ]
+ },
+ "pawmo": {
+  "abilities": [
+   "volt-absorb",
+   "natural-cure",
+   "iron-fist"
+  ],
+  "dex": "922",
+  "height_m": 0.4,
+  "slug": "pawmo",
+  "types": [
+   "electric",
+   "fighting"
+  ]
+ },
+ "pawmot": {
+  "abilities": [
+   "volt-absorb",
+   "natural-cure",
+   "iron-fist"
+  ],
+  "dex": "923",
+  "height_m": 0.9,
+  "slug": "pawmot",
+  "types": [
+   "electric",
+   "fighting"
+  ]
+ },
+ "pawniard": {
+  "abilities": [
+   "defiant",
+   "inner-focus",
+   "pressure"
+  ],
+  "dex": "624",
+  "height_m": 0.5,
+  "slug": "pawniard",
+  "types": [
+   "dark",
+   "steel"
+  ]
+ },
+ "pecharunt": {
+  "abilities": [
+   "poison-puppeteer"
+  ],
+  "dex": "1025",
+  "height_m": 0.3,
+  "slug": "pecharunt",
+  "types": [
+   "poison",
+   "ghost"
+  ]
+ },
+ "pelipper": {
+  "abilities": [
+   "keen-eye",
+   "drizzle",
+   "rain-dish"
+  ],
+  "dex": "279",
+  "height_m": 1.2,
+  "slug": "pelipper",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "perrserker": {
+  "abilities": [
+   "battle-armor",
+   "tough-claws",
+   "steely-spirit"
+  ],
+  "dex": "863",
+  "height_m": 0.8,
+  "slug": "perrserker",
+  "types": [
+   "steel"
+  ]
+ },
+ "persian": {
+  "abilities": [
+   "limber",
+   "technician",
+   "unnerve"
+  ],
+  "dex": "53",
+  "height_m": 1.0,
+  "slug": "persian",
+  "types": [
+   "normal"
+  ]
+ },
+ "persian-alola": {
+  "abilities": [
+   "fur-coat",
+   "technician",
+   "rattled"
+  ],
+  "dex": "53",
+  "height_m": 1.1,
+  "slug": "persian-alola",
+  "types": [
+   "dark"
+  ]
+ },
+ "petilil": {
+  "abilities": [
+   "chlorophyll",
+   "own-tempo",
+   "leaf-guard"
+  ],
+  "dex": "548",
+  "height_m": 0.5,
+  "slug": "petilil",
+  "types": [
+   "grass"
+  ]
+ },
+ "phanpy": {
+  "abilities": [
+   "pickup",
+   "sand-veil"
+  ],
+  "dex": "231",
+  "height_m": 0.5,
+  "slug": "phanpy",
+  "types": [
+   "ground"
+  ]
+ },
+ "phantump": {
+  "abilities": [
+   "natural-cure",
+   "frisk",
+   "harvest"
+  ],
+  "dex": "708",
+  "height_m": 0.4,
+  "slug": "phantump",
+  "types": [
+   "ghost",
+   "grass"
+  ]
+ },
+ "pheromosa": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "795",
+  "height_m": 1.8,
+  "slug": "pheromosa",
+  "types": [
+   "bug",
+   "fighting"
+  ]
+ },
+ "phione": {
+  "abilities": [
+   "hydration"
+  ],
+  "dex": "489",
+  "height_m": 0.4,
+  "slug": "phione",
+  "types": [
+   "water"
+  ]
+ },
+ "pichu": {
+  "abilities": [
+   "static",
+   "lightning-rod"
+  ],
+  "dex": "172",
+  "height_m": 0.3,
+  "slug": "pichu",
+  "types": [
+   "electric"
+  ]
+ },
+ "pidgeot": {
+  "abilities": [
+   "keen-eye",
+   "tangled-feet",
+   "big-pecks"
+  ],
+  "dex": "18",
+  "height_m": 1.5,
+  "slug": "pidgeot",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "pidgeotto": {
+  "abilities": [
+   "keen-eye",
+   "tangled-feet",
+   "big-pecks"
+  ],
+  "dex": "17",
+  "height_m": 1.1,
+  "slug": "pidgeotto",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "pidgey": {
+  "abilities": [
+   "keen-eye",
+   "tangled-feet",
+   "big-pecks"
+  ],
+  "dex": "16",
+  "height_m": 0.3,
+  "slug": "pidgey",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "pidove": {
+  "abilities": [
+   "big-pecks",
+   "super-luck",
+   "rivalry"
+  ],
+  "dex": "519",
+  "height_m": 0.3,
+  "slug": "pidove",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "pignite": {
+  "abilities": [
+   "blaze",
+   "thick-fat"
+  ],
+  "dex": "499",
+  "height_m": 1.0,
+  "slug": "pignite",
+  "types": [
+   "fire",
+   "fighting"
+  ]
+ },
+ "pikachu": {
+  "abilities": [
+   "static",
+   "lightning-rod"
+  ],
+  "dex": "25",
+  "height_m": 0.4,
+  "slug": "pikachu",
+  "types": [
+   "electric"
+  ]
+ },
+ "pikipek": {
+  "abilities": [
+   "keen-eye",
+   "skill-link",
+   "pickup"
+  ],
+  "dex": "731",
+  "height_m": 0.3,
+  "slug": "pikipek",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "piloswine": {
+  "abilities": [
+   "oblivious",
+   "snow-cloak",
+   "thick-fat"
+  ],
+  "dex": "221",
+  "height_m": 1.1,
+  "slug": "piloswine",
+  "types": [
+   "ice",
+   "ground"
+  ]
+ },
+ "pincurchin": {
+  "abilities": [
+   "lightning-rod",
+   "electric-surge"
+  ],
+  "dex": "871",
+  "height_m": 0.3,
+  "slug": "pincurchin",
+  "types": [
+   "electric"
+  ]
+ },
+ "pineco": {
+  "abilities": [
+   "sturdy",
+   "overcoat"
+  ],
+  "dex": "204",
+  "height_m": 0.6,
+  "slug": "pineco",
+  "types": [
+   "bug"
+  ]
+ },
+ "pinsir": {
+  "abilities": [
+   "hyper-cutter",
+   "mold-breaker",
+   "moxie"
+  ],
+  "dex": "127",
+  "height_m": 1.5,
+  "slug": "pinsir",
+  "types": [
+   "bug"
+  ]
+ },
+ "piplup": {
+  "abilities": [
+   "torrent",
+   "competitive"
+  ],
+  "dex": "393",
+  "height_m": 0.4,
+  "slug": "piplup",
+  "types": [
+   "water"
+  ]
+ },
+ "plusle": {
+  "abilities": [
+   "plus",
+   "lightning-rod"
+  ],
+  "dex": "311",
+  "height_m": 0.4,
+  "slug": "plusle",
+  "types": [
+   "electric"
+  ]
+ },
+ "poipole": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "803",
+  "height_m": 0.6,
+  "slug": "poipole",
+  "types": [
+   "poison"
+  ]
+ },
+ "politoed": {
+  "abilities": [
+   "water-absorb",
+   "damp",
+   "drizzle"
+  ],
+  "dex": "186",
+  "height_m": 1.1,
+  "slug": "politoed",
+  "types": [
+   "water"
+  ]
+ },
+ "poliwag": {
+  "abilities": [
+   "water-absorb",
+   "damp",
+   "swift-swim"
+  ],
+  "dex": "60",
+  "height_m": 0.6,
+  "slug": "poliwag",
+  "types": [
+   "water"
+  ]
+ },
+ "poliwhirl": {
+  "abilities": [
+   "water-absorb",
+   "damp",
+   "swift-swim"
+  ],
+  "dex": "61",
+  "height_m": 1.0,
+  "slug": "poliwhirl",
+  "types": [
+   "water"
+  ]
+ },
+ "poliwrath": {
+  "abilities": [
+   "water-absorb",
+   "damp",
+   "swift-swim"
+  ],
+  "dex": "62",
+  "height_m": 1.3,
+  "slug": "poliwrath",
+  "types": [
+   "water",
+   "fighting"
+  ]
+ },
+ "poltchageist": {
+  "abilities": [
+   "hospitality",
+   "heatproof"
+  ],
+  "dex": "1012",
+  "height_m": 0.1,
+  "slug": "poltchageist",
+  "types": [
+   "grass",
+   "ghost"
+  ]
+ },
+ "polteageist": {
+  "abilities": [
+   "weak-armor",
+   "cursed-body"
+  ],
+  "dex": "855",
+  "height_m": 0.2,
+  "slug": "polteageist",
+  "types": [
+   "ghost"
+  ]
+ },
+ "ponyta": {
+  "abilities": [
+   "run-away",
+   "flash-fire",
+   "flame-body"
+  ],
+  "dex": "77",
+  "height_m": 1.0,
+  "slug": "ponyta",
+  "types": [
+   "fire"
+  ]
+ },
+ "poochyena": {
+  "abilities": [
+   "run-away",
+   "quick-feet",
+   "rattled"
+  ],
+  "dex": "261",
+  "height_m": 0.5,
+  "slug": "poochyena",
+  "types": [
+   "dark"
+  ]
+ },
+ "popplio": {
+  "abilities": [
+   "torrent",
+   "liquid-voice"
+  ],
+  "dex": "728",
+  "height_m": 0.4,
+  "slug": "popplio",
+  "types": [
+   "water"
+  ]
+ },
+ "porygon": {
+  "abilities": [
+   "trace",
+   "download",
+   "analytic"
+  ],
+  "dex": "137",
+  "height_m": 0.8,
+  "slug": "porygon",
+  "types": [
+   "normal"
+  ]
+ },
+ "porygon-z": {
+  "abilities": [
+   "adaptability",
+   "download",
+   "analytic"
+  ],
+  "dex": "474",
+  "height_m": 0.9,
+  "slug": "porygon-z",
+  "types": [
+   "normal"
+  ]
+ },
+ "porygon2": {
+  "abilities": [
+   "trace",
+   "download",
+   "analytic"
+  ],
+  "dex": "233",
+  "height_m": 0.6,
+  "slug": "porygon2",
+  "types": [
+   "normal"
+  ]
+ },
+ "primarina": {
+  "abilities": [
+   "torrent",
+   "liquid-voice"
+  ],
+  "dex": "730",
+  "height_m": 1.8,
+  "slug": "primarina",
+  "types": [
+   "water",
+   "fairy"
+  ]
+ },
+ "primeape": {
+  "abilities": [
+   "vital-spirit",
+   "anger-point",
+   "defiant"
+  ],
+  "dex": "57",
+  "height_m": 1.0,
+  "slug": "primeape",
+  "types": [
+   "fighting"
+  ]
+ },
+ "prinplup": {
+  "abilities": [
+   "torrent",
+   "competitive"
+  ],
+  "dex": "394",
+  "height_m": 0.8,
+  "slug": "prinplup",
+  "types": [
+   "water"
+  ]
+ },
+ "probopass": {
+  "abilities": [
+   "sturdy",
+   "magnet-pull",
+   "sand-force"
+  ],
+  "dex": "476",
+  "height_m": 1.4,
+  "slug": "probopass",
+  "types": [
+   "rock",
+   "steel"
+  ]
+ },
+ "psyduck": {
+  "abilities": [
+   "damp",
+   "cloud-nine",
+   "swift-swim"
+  ],
+  "dex": "54",
+  "height_m": 0.8,
+  "slug": "psyduck",
+  "types": [
+   "water"
+  ]
+ },
+ "pumpkaboo-average": {
+  "abilities": [
+   "pickup",
+   "frisk",
+   "insomnia"
+  ],
+  "dex": "710",
+  "height_m": 0.4,
+  "slug": "pumpkaboo-average",
+  "types": [
+   "ghost",
+   "grass"
+  ]
+ },
+ "pupitar": {
+  "abilities": [
+   "shed-skin"
+  ],
+  "dex": "247",
+  "height_m": 1.2,
+  "slug": "pupitar",
+  "types": [
+   "rock",
+   "ground"
+  ]
+ },
+ "purrloin": {
+  "abilities": [
+   "limber",
+   "unburden",
+   "prankster"
+  ],
+  "dex": "509",
+  "height_m": 0.4,
+  "slug": "purrloin",
+  "types": [
+   "dark"
+  ]
+ },
+ "purugly": {
+  "abilities": [
+   "thick-fat",
+   "own-tempo",
+   "defiant"
+  ],
+  "dex": "432",
+  "height_m": 1.0,
+  "slug": "purugly",
+  "types": [
+   "normal"
+  ]
+ },
+ "pyroar-male": {
+  "abilities": [
+   "rivalry",
+   "unnerve",
+   "moxie"
+  ],
+  "dex": "668",
+  "height_m": 1.5,
+  "slug": "pyroar-male",
+  "types": [
+   "fire",
+   "normal"
+  ]
+ },
+ "pyukumuku": {
+  "abilities": [
+   "innards-out",
+   "unaware"
+  ],
+  "dex": "771",
+  "height_m": 0.3,
+  "slug": "pyukumuku",
+  "types": [
+   "water"
+  ]
+ },
+ "quagsire": {
+  "abilities": [
+   "damp",
+   "water-absorb",
+   "unaware"
+  ],
+  "dex": "195",
+  "height_m": 1.4,
+  "slug": "quagsire",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "quaquaval": {
+  "abilities": [
+   "torrent",
+   "moxie"
+  ],
+  "dex": "914",
+  "height_m": 1.8,
+  "slug": "quaquaval",
+  "types": [
+   "water",
+   "fighting"
+  ]
+ },
+ "quaxly": {
+  "abilities": [
+   "torrent",
+   "moxie"
+  ],
+  "dex": "912",
+  "height_m": 0.5,
+  "slug": "quaxly",
+  "types": [
+   "water"
+  ]
+ },
+ "quaxwell": {
+  "abilities": [
+   "torrent",
+   "moxie"
+  ],
+  "dex": "913",
+  "height_m": 1.2,
+  "slug": "quaxwell",
+  "types": [
+   "water"
+  ]
+ },
+ "quilava": {
+  "abilities": [
+   "blaze",
+   "flash-fire"
+  ],
+  "dex": "156",
+  "height_m": 0.9,
+  "slug": "quilava",
+  "types": [
+   "fire"
+  ]
+ },
+ "quilladin": {
+  "abilities": [
+   "overgrow",
+   "bulletproof"
+  ],
+  "dex": "651",
+  "height_m": 0.7,
+  "slug": "quilladin",
+  "types": [
+   "grass"
+  ]
+ },
+ "qwilfish": {
+  "abilities": [
+   "poison-point",
+   "swift-swim",
+   "intimidate"
+  ],
+  "dex": "211",
+  "height_m": 0.5,
+  "slug": "qwilfish",
+  "types": [
+   "water",
+   "poison"
+  ]
+ },
+ "raboot": {
+  "abilities": [
+   "blaze",
+   "libero"
+  ],
+  "dex": "814",
+  "height_m": 0.6,
+  "slug": "raboot",
+  "types": [
+   "fire"
+  ]
+ },
+ "rabsca": {
+  "abilities": [
+   "synchronize",
+   "telepathy"
+  ],
+  "dex": "954",
+  "height_m": 0.3,
+  "slug": "rabsca",
+  "types": [
+   "bug",
+   "psychic"
+  ]
+ },
+ "raging-bolt": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "1021",
+  "height_m": 5.2,
+  "slug": "raging-bolt",
+  "types": [
+   "electric",
+   "dragon"
+  ]
+ },
+ "raichu": {
+  "abilities": [
+   "static",
+   "lightning-rod"
+  ],
+  "dex": "26",
+  "height_m": 0.8,
+  "slug": "raichu",
+  "types": [
+   "electric"
+  ]
+ },
+ "raichu-alola": {
+  "abilities": [
+   "surge-surfer"
+  ],
+  "dex": "26",
+  "height_m": 0.7,
+  "slug": "raichu-alola",
+  "types": [
+   "electric",
+   "psychic"
+  ]
+ },
+ "raikou": {
+  "abilities": [
+   "pressure",
+   "inner-focus"
+  ],
+  "dex": "243",
+  "height_m": 1.9,
+  "slug": "raikou",
+  "types": [
+   "electric"
+  ]
+ },
+ "ralts": {
+  "abilities": [
+   "synchronize",
+   "trace",
+   "telepathy"
+  ],
+  "dex": "280",
+  "height_m": 0.4,
+  "slug": "ralts",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "rampardos": {
+  "abilities": [
+   "mold-breaker",
+   "sheer-force"
+  ],
+  "dex": "409",
+  "height_m": 1.6,
+  "slug": "rampardos",
+  "types": [
+   "rock"
+  ]
+ },
+ "rapidash": {
+  "abilities": [
+   "run-away",
+   "flash-fire",
+   "flame-body"
+  ],
+  "dex": "78",
+  "height_m": 1.7,
+  "slug": "rapidash",
+  "types": [
+   "fire"
+  ]
+ },
+ "raticate": {
+  "abilities": [
+   "run-away",
+   "guts",
+   "hustle"
+  ],
+  "dex": "20",
+  "height_m": 0.7,
+  "slug": "raticate",
+  "types": [
+   "normal"
+  ]
+ },
+ "raticate-alola": {
+  "abilities": [
+   "gluttony",
+   "hustle",
+   "thick-fat"
+  ],
+  "dex": "20",
+  "height_m": 0.7,
+  "slug": "raticate-alola",
+  "types": [
+   "dark",
+   "normal"
+  ]
+ },
+ "rattata": {
+  "abilities": [
+   "run-away",
+   "guts",
+   "hustle"
+  ],
+  "dex": "19",
+  "height_m": 0.3,
+  "slug": "rattata",
+  "types": [
+   "normal"
+  ]
+ },
+ "rattata-alola": {
+  "abilities": [
+   "gluttony",
+   "hustle",
+   "thick-fat"
+  ],
+  "dex": "19",
+  "height_m": 0.3,
+  "slug": "rattata-alola",
+  "types": [
+   "dark",
+   "normal"
+  ]
+ },
+ "rayquaza": {
+  "abilities": [
+   "air-lock"
+  ],
+  "dex": "384",
+  "height_m": 7.0,
+  "slug": "rayquaza",
+  "types": [
+   "dragon",
+   "flying"
+  ]
+ },
+ "regice": {
+  "abilities": [
+   "clear-body",
+   "ice-body"
+  ],
+  "dex": "378",
+  "height_m": 1.8,
+  "slug": "regice",
+  "types": [
+   "ice"
+  ]
+ },
+ "regidrago": {
+  "abilities": [
+   "dragons-maw"
+  ],
+  "dex": "895",
+  "height_m": 2.1,
+  "slug": "regidrago",
+  "types": [
+   "dragon"
+  ]
+ },
+ "regieleki": {
+  "abilities": [
+   "transistor"
+  ],
+  "dex": "894",
+  "height_m": 1.2,
+  "slug": "regieleki",
+  "types": [
+   "electric"
+  ]
+ },
+ "regigigas": {
+  "abilities": [
+   "slow-start"
+  ],
+  "dex": "486",
+  "height_m": 3.7,
+  "slug": "regigigas",
+  "types": [
+   "normal"
+  ]
+ },
+ "regirock": {
+  "abilities": [
+   "clear-body",
+   "sturdy"
+  ],
+  "dex": "377",
+  "height_m": 1.7,
+  "slug": "regirock",
+  "types": [
+   "rock"
+  ]
+ },
+ "registeel": {
+  "abilities": [
+   "clear-body",
+   "light-metal"
+  ],
+  "dex": "379",
+  "height_m": 1.9,
+  "slug": "registeel",
+  "types": [
+   "steel"
+  ]
+ },
+ "relicanth": {
+  "abilities": [
+   "swift-swim",
+   "rock-head",
+   "sturdy"
+  ],
+  "dex": "369",
+  "height_m": 1.0,
+  "slug": "relicanth",
+  "types": [
+   "water",
+   "rock"
+  ]
+ },
+ "rellor": {
+  "abilities": [
+   "compound-eyes",
+   "shed-skin"
+  ],
+  "dex": "953",
+  "height_m": 0.2,
+  "slug": "rellor",
+  "types": [
+   "bug"
+  ]
+ },
+ "remoraid": {
+  "abilities": [
+   "hustle",
+   "sniper",
+   "moody"
+  ],
+  "dex": "223",
+  "height_m": 0.6,
+  "slug": "remoraid",
+  "types": [
+   "water"
+  ]
+ },
+ "reshiram": {
+  "abilities": [
+   "turboblaze"
+  ],
+  "dex": "643",
+  "height_m": 3.2,
+  "slug": "reshiram",
+  "types": [
+   "dragon",
+   "fire"
+  ]
+ },
+ "reuniclus": {
+  "abilities": [
+   "overcoat",
+   "magic-guard",
+   "regenerator"
+  ],
+  "dex": "579",
+  "height_m": 1.0,
+  "slug": "reuniclus",
+  "types": [
+   "psychic"
+  ]
+ },
+ "revavroom": {
+  "abilities": [
+   "overcoat",
+   "filter"
+  ],
+  "dex": "966",
+  "height_m": 1.8,
+  "slug": "revavroom",
+  "types": [
+   "steel",
+   "poison"
+  ]
+ },
+ "rhydon": {
+  "abilities": [
+   "lightning-rod",
+   "rock-head",
+   "reckless"
+  ],
+  "dex": "112",
+  "height_m": 1.9,
+  "slug": "rhydon",
+  "types": [
+   "ground",
+   "rock"
+  ]
+ },
+ "rhyhorn": {
+  "abilities": [
+   "lightning-rod",
+   "rock-head",
+   "reckless"
+  ],
+  "dex": "111",
+  "height_m": 1.0,
+  "slug": "rhyhorn",
+  "types": [
+   "ground",
+   "rock"
+  ]
+ },
+ "rhyperior": {
+  "abilities": [
+   "lightning-rod",
+   "solid-rock",
+   "reckless"
+  ],
+  "dex": "464",
+  "height_m": 2.4,
+  "slug": "rhyperior",
+  "types": [
+   "ground",
+   "rock"
+  ]
+ },
+ "ribombee": {
+  "abilities": [
+   "honey-gather",
+   "shield-dust",
+   "sweet-veil"
+  ],
+  "dex": "743",
+  "height_m": 0.2,
+  "slug": "ribombee",
+  "types": [
+   "bug",
+   "fairy"
+  ]
+ },
+ "rillaboom": {
+  "abilities": [
+   "overgrow",
+   "grassy-surge"
+  ],
+  "dex": "812",
+  "height_m": 2.1,
+  "slug": "rillaboom",
+  "types": [
+   "grass"
+  ]
+ },
+ "riolu": {
+  "abilities": [
+   "steadfast",
+   "inner-focus",
+   "prankster"
+  ],
+  "dex": "447",
+  "height_m": 0.7,
+  "slug": "riolu",
+  "types": [
+   "fighting"
+  ]
+ },
+ "roaring-moon": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "1005",
+  "height_m": 2.0,
+  "slug": "roaring-moon",
+  "types": [
+   "dragon",
+   "dark"
+  ]
+ },
+ "rockruff": {
+  "abilities": [
+   "keen-eye",
+   "vital-spirit",
+   "steadfast"
+  ],
+  "dex": "744",
+  "height_m": 0.5,
+  "slug": "rockruff",
+  "types": [
+   "rock"
+  ]
+ },
+ "roggenrola": {
+  "abilities": [
+   "sturdy",
+   "weak-armor",
+   "sand-force"
+  ],
+  "dex": "524",
+  "height_m": 0.4,
+  "slug": "roggenrola",
+  "types": [
+   "rock"
+  ]
+ },
+ "rolycoly": {
+  "abilities": [
+   "steam-engine",
+   "heatproof",
+   "flash-fire"
+  ],
+  "dex": "837",
+  "height_m": 0.3,
+  "slug": "rolycoly",
+  "types": [
+   "rock"
+  ]
+ },
+ "rookidee": {
+  "abilities": [
+   "keen-eye",
+   "unnerve",
+   "big-pecks"
+  ],
+  "dex": "821",
+  "height_m": 0.2,
+  "slug": "rookidee",
+  "types": [
+   "flying"
+  ]
+ },
+ "roselia": {
+  "abilities": [
+   "natural-cure",
+   "poison-point",
+   "leaf-guard"
+  ],
+  "dex": "315",
+  "height_m": 0.3,
+  "slug": "roselia",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "roserade": {
+  "abilities": [
+   "natural-cure",
+   "poison-point",
+   "technician"
+  ],
+  "dex": "407",
+  "height_m": 0.9,
+  "slug": "roserade",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "rotom": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "479",
+  "height_m": 0.3,
+  "slug": "rotom",
+  "types": [
+   "electric",
+   "ghost"
+  ]
+ },
+ "rowlet": {
+  "abilities": [
+   "overgrow",
+   "long-reach"
+  ],
+  "dex": "722",
+  "height_m": 0.3,
+  "slug": "rowlet",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "rufflet": {
+  "abilities": [
+   "keen-eye",
+   "sheer-force",
+   "hustle"
+  ],
+  "dex": "627",
+  "height_m": 0.5,
+  "slug": "rufflet",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "runerigus": {
+  "abilities": [
+   "wandering-spirit"
+  ],
+  "dex": "867",
+  "height_m": 1.6,
+  "slug": "runerigus",
+  "types": [
+   "ground",
+   "ghost"
+  ]
+ },
+ "sableye": {
+  "abilities": [
+   "keen-eye",
+   "stall",
+   "prankster"
+  ],
+  "dex": "302",
+  "height_m": 0.5,
+  "slug": "sableye",
+  "types": [
+   "dark",
+   "ghost"
+  ]
+ },
+ "salamence": {
+  "abilities": [
+   "intimidate",
+   "moxie"
+  ],
+  "dex": "373",
+  "height_m": 1.5,
+  "slug": "salamence",
+  "types": [
+   "dragon",
+   "flying"
+  ]
+ },
+ "salandit": {
+  "abilities": [
+   "corrosion",
+   "oblivious"
+  ],
+  "dex": "757",
+  "height_m": 0.6,
+  "slug": "salandit",
+  "types": [
+   "poison",
+   "fire"
+  ]
+ },
+ "salazzle": {
+  "abilities": [
+   "corrosion",
+   "oblivious"
+  ],
+  "dex": "758",
+  "height_m": 1.2,
+  "slug": "salazzle",
+  "types": [
+   "poison",
+   "fire"
+  ]
+ },
+ "samurott": {
+  "abilities": [
+   "torrent",
+   "shell-armor"
+  ],
+  "dex": "503",
+  "height_m": 1.5,
+  "slug": "samurott",
+  "types": [
+   "water"
+  ]
+ },
+ "sandaconda": {
+  "abilities": [
+   "sand-spit",
+   "shed-skin",
+   "sand-veil"
+  ],
+  "dex": "844",
+  "height_m": 3.8,
+  "slug": "sandaconda",
+  "types": [
+   "ground"
+  ]
+ },
+ "sandile": {
+  "abilities": [
+   "intimidate",
+   "moxie",
+   "anger-point"
+  ],
+  "dex": "551",
+  "height_m": 0.7,
+  "slug": "sandile",
+  "types": [
+   "ground",
+   "dark"
+  ]
+ },
+ "sandshrew": {
+  "abilities": [
+   "sand-veil",
+   "sand-rush"
+  ],
+  "dex": "27",
+  "height_m": 0.6,
+  "slug": "sandshrew",
+  "types": [
+   "ground"
+  ]
+ },
+ "sandshrew-alola": {
+  "abilities": [
+   "snow-cloak",
+   "slush-rush"
+  ],
+  "dex": "27",
+  "height_m": 0.7,
+  "slug": "sandshrew-alola",
+  "types": [
+   "ice",
+   "steel"
+  ]
+ },
+ "sandslash": {
+  "abilities": [
+   "sand-veil",
+   "sand-rush"
+  ],
+  "dex": "28",
+  "height_m": 1.0,
+  "slug": "sandslash",
+  "types": [
+   "ground"
+  ]
+ },
+ "sandslash-alola": {
+  "abilities": [
+   "snow-cloak",
+   "slush-rush"
+  ],
+  "dex": "28",
+  "height_m": 1.2,
+  "slug": "sandslash-alola",
+  "types": [
+   "ice",
+   "steel"
+  ]
+ },
+ "sandy-shocks": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "989",
+  "height_m": 2.3,
+  "slug": "sandy-shocks",
+  "types": [
+   "electric",
+   "ground"
+  ]
+ },
+ "sandygast": {
+  "abilities": [
+   "water-compaction",
+   "sand-veil"
+  ],
+  "dex": "769",
+  "height_m": 0.5,
+  "slug": "sandygast",
+  "types": [
+   "ghost",
+   "ground"
+  ]
+ },
+ "sawk": {
+  "abilities": [
+   "sturdy",
+   "inner-focus",
+   "mold-breaker"
+  ],
+  "dex": "539",
+  "height_m": 1.4,
+  "slug": "sawk",
+  "types": [
+   "fighting"
+  ]
+ },
+ "sawsbuck": {
+  "abilities": [
+   "chlorophyll",
+   "sap-sipper",
+   "serene-grace"
+  ],
+  "dex": "586",
+  "height_m": 1.9,
+  "slug": "sawsbuck",
+  "types": [
+   "normal",
+   "grass"
+  ]
+ },
+ "scatterbug": {
+  "abilities": [
+   "shield-dust",
+   "compound-eyes",
+   "friend-guard"
+  ],
+  "dex": "664",
+  "height_m": 0.3,
+  "slug": "scatterbug",
+  "types": [
+   "bug"
+  ]
+ },
+ "sceptile": {
+  "abilities": [
+   "overgrow",
+   "unburden"
+  ],
+  "dex": "254",
+  "height_m": 1.7,
+  "slug": "sceptile",
+  "types": [
+   "grass"
+  ]
+ },
+ "scizor": {
+  "abilities": [
+   "swarm",
+   "technician",
+   "light-metal"
+  ],
+  "dex": "212",
+  "height_m": 1.8,
+  "slug": "scizor",
+  "types": [
+   "bug",
+   "steel"
+  ]
+ },
+ "scolipede": {
+  "abilities": [
+   "poison-point",
+   "swarm",
+   "speed-boost"
+  ],
+  "dex": "545",
+  "height_m": 2.5,
+  "slug": "scolipede",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "scorbunny": {
+  "abilities": [
+   "blaze",
+   "libero"
+  ],
+  "dex": "813",
+  "height_m": 0.3,
+  "slug": "scorbunny",
+  "types": [
+   "fire"
+  ]
+ },
+ "scovillain": {
+  "abilities": [
+   "chlorophyll",
+   "insomnia",
+   "moody"
+  ],
+  "dex": "952",
+  "height_m": 0.9,
+  "slug": "scovillain",
+  "types": [
+   "grass",
+   "fire"
+  ]
+ },
+ "scrafty": {
+  "abilities": [
+   "shed-skin",
+   "moxie",
+   "intimidate"
+  ],
+  "dex": "560",
+  "height_m": 1.1,
+  "slug": "scrafty",
+  "types": [
+   "dark",
+   "fighting"
+  ]
+ },
+ "scraggy": {
+  "abilities": [
+   "shed-skin",
+   "moxie",
+   "intimidate"
+  ],
+  "dex": "559",
+  "height_m": 0.6,
+  "slug": "scraggy",
+  "types": [
+   "dark",
+   "fighting"
+  ]
+ },
+ "scream-tail": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "985",
+  "height_m": 1.2,
+  "slug": "scream-tail",
+  "types": [
+   "fairy",
+   "psychic"
+  ]
+ },
+ "scyther": {
+  "abilities": [
+   "swarm",
+   "technician",
+   "steadfast"
+  ],
+  "dex": "123",
+  "height_m": 1.5,
+  "slug": "scyther",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "seadra": {
+  "abilities": [
+   "poison-point",
+   "sniper",
+   "damp"
+  ],
+  "dex": "117",
+  "height_m": 1.2,
+  "slug": "seadra",
+  "types": [
+   "water"
+  ]
+ },
+ "seaking": {
+  "abilities": [
+   "swift-swim",
+   "water-veil",
+   "lightning-rod"
+  ],
+  "dex": "119",
+  "height_m": 1.3,
+  "slug": "seaking",
+  "types": [
+   "water"
+  ]
+ },
+ "sealeo": {
+  "abilities": [
+   "thick-fat",
+   "ice-body",
+   "oblivious"
+  ],
+  "dex": "364",
+  "height_m": 1.1,
+  "slug": "sealeo",
+  "types": [
+   "ice",
+   "water"
+  ]
+ },
+ "seedot": {
+  "abilities": [
+   "chlorophyll",
+   "early-bird",
+   "pickpocket"
+  ],
+  "dex": "273",
+  "height_m": 0.5,
+  "slug": "seedot",
+  "types": [
+   "grass"
+  ]
+ },
+ "seel": {
+  "abilities": [
+   "thick-fat",
+   "hydration",
+   "ice-body"
+  ],
+  "dex": "86",
+  "height_m": 1.1,
+  "slug": "seel",
+  "types": [
+   "water"
+  ]
+ },
+ "seismitoad": {
+  "abilities": [
+   "swift-swim",
+   "poison-touch",
+   "water-absorb"
+  ],
+  "dex": "537",
+  "height_m": 1.5,
+  "slug": "seismitoad",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "sentret": {
+  "abilities": [
+   "run-away",
+   "keen-eye",
+   "frisk"
+  ],
+  "dex": "161",
+  "height_m": 0.8,
+  "slug": "sentret",
+  "types": [
+   "normal"
+  ]
+ },
+ "serperior": {
+  "abilities": [
+   "overgrow",
+   "contrary"
+  ],
+  "dex": "497",
+  "height_m": 3.3,
+  "slug": "serperior",
+  "types": [
+   "grass"
+  ]
+ },
+ "servine": {
+  "abilities": [
+   "overgrow",
+   "contrary"
+  ],
+  "dex": "496",
+  "height_m": 0.8,
+  "slug": "servine",
+  "types": [
+   "grass"
+  ]
+ },
+ "seviper": {
+  "abilities": [
+   "shed-skin",
+   "infiltrator"
+  ],
+  "dex": "336",
+  "height_m": 2.7,
+  "slug": "seviper",
+  "types": [
+   "poison"
+  ]
+ },
+ "sewaddle": {
+  "abilities": [
+   "swarm",
+   "chlorophyll",
+   "overcoat"
+  ],
+  "dex": "540",
+  "height_m": 0.3,
+  "slug": "sewaddle",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "sharpedo": {
+  "abilities": [
+   "rough-skin",
+   "speed-boost"
+  ],
+  "dex": "319",
+  "height_m": 1.8,
+  "slug": "sharpedo",
+  "types": [
+   "water",
+   "dark"
+  ]
+ },
+ "shaymin-land": {
+  "abilities": [
+   "natural-cure"
+  ],
+  "dex": "492",
+  "height_m": 0.2,
+  "slug": "shaymin-land",
+  "types": [
+   "grass"
+  ]
+ },
+ "shedinja": {
+  "abilities": [
+   "wonder-guard"
+  ],
+  "dex": "292",
+  "height_m": 0.8,
+  "slug": "shedinja",
+  "types": [
+   "bug",
+   "ghost"
+  ]
+ },
+ "shelgon": {
+  "abilities": [
+   "rock-head",
+   "overcoat"
+  ],
+  "dex": "372",
+  "height_m": 1.1,
+  "slug": "shelgon",
+  "types": [
+   "dragon"
+  ]
+ },
+ "shellder": {
+  "abilities": [
+   "shell-armor",
+   "skill-link",
+   "overcoat"
+  ],
+  "dex": "90",
+  "height_m": 0.3,
+  "slug": "shellder",
+  "types": [
+   "water"
+  ]
+ },
+ "shellos": {
+  "abilities": [
+   "sticky-hold",
+   "storm-drain",
+   "sand-force"
+  ],
+  "dex": "422",
+  "height_m": 0.3,
+  "slug": "shellos",
+  "types": [
+   "water"
+  ]
+ },
+ "shelmet": {
+  "abilities": [
+   "hydration",
+   "shell-armor",
+   "overcoat"
+  ],
+  "dex": "616",
+  "height_m": 0.4,
+  "slug": "shelmet",
+  "types": [
+   "bug"
+  ]
+ },
+ "shieldon": {
+  "abilities": [
+   "sturdy",
+   "soundproof"
+  ],
+  "dex": "410",
+  "height_m": 0.5,
+  "slug": "shieldon",
+  "types": [
+   "rock",
+   "steel"
+  ]
+ },
+ "shiftry": {
+  "abilities": [
+   "chlorophyll",
+   "wind-rider",
+   "pickpocket"
+  ],
+  "dex": "275",
+  "height_m": 1.3,
+  "slug": "shiftry",
+  "types": [
+   "grass",
+   "dark"
+  ]
+ },
+ "shiinotic": {
+  "abilities": [
+   "illuminate",
+   "effect-spore",
+   "rain-dish"
+  ],
+  "dex": "756",
+  "height_m": 1.0,
+  "slug": "shiinotic",
+  "types": [
+   "grass",
+   "fairy"
+  ]
+ },
+ "shinx": {
+  "abilities": [
+   "rivalry",
+   "intimidate",
+   "guts"
+  ],
+  "dex": "403",
+  "height_m": 0.5,
+  "slug": "shinx",
+  "types": [
+   "electric"
+  ]
+ },
+ "shroodle": {
+  "abilities": [
+   "unburden",
+   "pickpocket",
+   "prankster"
+  ],
+  "dex": "944",
+  "height_m": 0.2,
+  "slug": "shroodle",
+  "types": [
+   "poison",
+   "normal"
+  ]
+ },
+ "shroomish": {
+  "abilities": [
+   "effect-spore",
+   "poison-heal",
+   "quick-feet"
+  ],
+  "dex": "285",
+  "height_m": 0.4,
+  "slug": "shroomish",
+  "types": [
+   "grass"
+  ]
+ },
+ "shuckle": {
+  "abilities": [
+   "sturdy",
+   "gluttony",
+   "contrary"
+  ],
+  "dex": "213",
+  "height_m": 0.6,
+  "slug": "shuckle",
+  "types": [
+   "bug",
+   "rock"
+  ]
+ },
+ "shuppet": {
+  "abilities": [
+   "insomnia",
+   "frisk",
+   "cursed-body"
+  ],
+  "dex": "353",
+  "height_m": 0.6,
+  "slug": "shuppet",
+  "types": [
+   "ghost"
+  ]
+ },
+ "sigilyph": {
+  "abilities": [
+   "wonder-skin",
+   "magic-guard",
+   "tinted-lens"
+  ],
+  "dex": "561",
+  "height_m": 1.4,
+  "slug": "sigilyph",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "silcoon": {
+  "abilities": [
+   "shed-skin"
+  ],
+  "dex": "266",
+  "height_m": 0.6,
+  "slug": "silcoon",
+  "types": [
+   "bug"
+  ]
+ },
+ "silicobra": {
+  "abilities": [
+   "sand-spit",
+   "shed-skin",
+   "sand-veil"
+  ],
+  "dex": "843",
+  "height_m": 2.2,
+  "slug": "silicobra",
+  "types": [
+   "ground"
+  ]
+ },
+ "silvally": {
+  "abilities": [
+   "rks-system"
+  ],
+  "dex": "773",
+  "height_m": 2.3,
+  "slug": "silvally",
+  "types": [
+   "normal"
+  ]
+ },
+ "simipour": {
+  "abilities": [
+   "gluttony",
+   "torrent"
+  ],
+  "dex": "516",
+  "height_m": 1.0,
+  "slug": "simipour",
+  "types": [
+   "water"
+  ]
+ },
+ "simisage": {
+  "abilities": [
+   "gluttony",
+   "overgrow"
+  ],
+  "dex": "512",
+  "height_m": 1.1,
+  "slug": "simisage",
+  "types": [
+   "grass"
+  ]
+ },
+ "simisear": {
+  "abilities": [
+   "gluttony",
+   "blaze"
+  ],
+  "dex": "514",
+  "height_m": 1.0,
+  "slug": "simisear",
+  "types": [
+   "fire"
+  ]
+ },
+ "sinistcha": {
+  "abilities": [
+   "hospitality",
+   "heatproof"
+  ],
+  "dex": "1013",
+  "height_m": 0.2,
+  "slug": "sinistcha",
+  "types": [
+   "grass",
+   "ghost"
+  ]
+ },
+ "sinistea": {
+  "abilities": [
+   "weak-armor",
+   "cursed-body"
+  ],
+  "dex": "854",
+  "height_m": 0.1,
+  "slug": "sinistea",
+  "types": [
+   "ghost"
+  ]
+ },
+ "sirfetchd": {
+  "abilities": [
+   "steadfast",
+   "scrappy"
+  ],
+  "dex": "865",
+  "height_m": 0.8,
+  "slug": "sirfetchd",
+  "types": [
+   "fighting"
+  ]
+ },
+ "sizzlipede": {
+  "abilities": [
+   "flash-fire",
+   "white-smoke",
+   "flame-body"
+  ],
+  "dex": "850",
+  "height_m": 0.7,
+  "slug": "sizzlipede",
+  "types": [
+   "fire",
+   "bug"
+  ]
+ },
+ "skarmory": {
+  "abilities": [
+   "keen-eye",
+   "sturdy",
+   "weak-armor"
+  ],
+  "dex": "227",
+  "height_m": 1.7,
+  "slug": "skarmory",
+  "types": [
+   "steel",
+   "flying"
+  ]
+ },
+ "skeledirge": {
+  "abilities": [
+   "blaze",
+   "unaware"
+  ],
+  "dex": "911",
+  "height_m": 1.6,
+  "slug": "skeledirge",
+  "types": [
+   "fire",
+   "ghost"
+  ]
+ },
+ "skiddo": {
+  "abilities": [
+   "sap-sipper",
+   "grass-pelt"
+  ],
+  "dex": "672",
+  "height_m": 0.9,
+  "slug": "skiddo",
+  "types": [
+   "grass"
+  ]
+ },
+ "skiploom": {
+  "abilities": [
+   "chlorophyll",
+   "leaf-guard",
+   "infiltrator"
+  ],
+  "dex": "188",
+  "height_m": 0.6,
+  "slug": "skiploom",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "skitty": {
+  "abilities": [
+   "cute-charm",
+   "normalize",
+   "wonder-skin"
+  ],
+  "dex": "300",
+  "height_m": 0.6,
+  "slug": "skitty",
+  "types": [
+   "normal"
+  ]
+ },
+ "skorupi": {
+  "abilities": [
+   "battle-armor",
+   "sniper",
+   "keen-eye"
+  ],
+  "dex": "451",
+  "height_m": 0.8,
+  "slug": "skorupi",
+  "types": [
+   "poison",
+   "bug"
+  ]
+ },
+ "skrelp": {
+  "abilities": [
+   "poison-point",
+   "poison-touch",
+   "adaptability"
+  ],
+  "dex": "690",
+  "height_m": 0.5,
+  "slug": "skrelp",
+  "types": [
+   "poison",
+   "water"
+  ]
+ },
+ "skuntank": {
+  "abilities": [
+   "stench",
+   "aftermath",
+   "keen-eye"
+  ],
+  "dex": "435",
+  "height_m": 1.0,
+  "slug": "skuntank",
+  "types": [
+   "poison",
+   "dark"
+  ]
+ },
+ "skwovet": {
+  "abilities": [
+   "cheek-pouch",
+   "gluttony"
+  ],
+  "dex": "819",
+  "height_m": 0.3,
+  "slug": "skwovet",
+  "types": [
+   "normal"
+  ]
+ },
+ "slaking": {
+  "abilities": [
+   "truant"
+  ],
+  "dex": "289",
+  "height_m": 2.0,
+  "slug": "slaking",
+  "types": [
+   "normal"
+  ]
+ },
+ "slakoth": {
+  "abilities": [
+   "truant"
+  ],
+  "dex": "287",
+  "height_m": 0.8,
+  "slug": "slakoth",
+  "types": [
+   "normal"
+  ]
+ },
+ "sliggoo": {
+  "abilities": [
+   "sap-sipper",
+   "hydration",
+   "gooey"
+  ],
+  "dex": "705",
+  "height_m": 0.8,
+  "slug": "sliggoo",
+  "types": [
+   "dragon"
+  ]
+ },
+ "slither-wing": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "988",
+  "height_m": 3.2,
+  "slug": "slither-wing",
+  "types": [
+   "bug",
+   "fighting"
+  ]
+ },
+ "slowbro": {
+  "abilities": [
+   "oblivious",
+   "own-tempo",
+   "regenerator"
+  ],
+  "dex": "80",
+  "height_m": 1.6,
+  "slug": "slowbro",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "slowking": {
+  "abilities": [
+   "oblivious",
+   "own-tempo",
+   "regenerator"
+  ],
+  "dex": "199",
+  "height_m": 2.0,
+  "slug": "slowking",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "slowpoke": {
+  "abilities": [
+   "oblivious",
+   "own-tempo",
+   "regenerator"
+  ],
+  "dex": "79",
+  "height_m": 1.2,
+  "slug": "slowpoke",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "slugma": {
+  "abilities": [
+   "magma-armor",
+   "flame-body",
+   "weak-armor"
+  ],
+  "dex": "218",
+  "height_m": 0.7,
+  "slug": "slugma",
+  "types": [
+   "fire"
+  ]
+ },
+ "slurpuff": {
+  "abilities": [
+   "sweet-veil",
+   "unburden"
+  ],
+  "dex": "685",
+  "height_m": 0.8,
+  "slug": "slurpuff",
+  "types": [
+   "fairy"
+  ]
+ },
+ "smeargle": {
+  "abilities": [
+   "own-tempo",
+   "technician",
+   "moody"
+  ],
+  "dex": "235",
+  "height_m": 1.2,
+  "slug": "smeargle",
+  "types": [
+   "normal"
+  ]
+ },
+ "smoliv": {
+  "abilities": [
+   "early-bird",
+   "harvest"
+  ],
+  "dex": "928",
+  "height_m": 0.3,
+  "slug": "smoliv",
+  "types": [
+   "grass",
+   "normal"
+  ]
+ },
+ "smoochum": {
+  "abilities": [
+   "oblivious",
+   "forewarn",
+   "hydration"
+  ],
+  "dex": "238",
+  "height_m": 0.4,
+  "slug": "smoochum",
+  "types": [
+   "ice",
+   "psychic"
+  ]
+ },
+ "sneasel": {
+  "abilities": [
+   "inner-focus",
+   "keen-eye",
+   "pickpocket"
+  ],
+  "dex": "215",
+  "height_m": 0.9,
+  "slug": "sneasel",
+  "types": [
+   "dark",
+   "ice"
+  ]
+ },
+ "sneasler": {
+  "abilities": [
+   "pressure",
+   "unburden",
+   "poison-touch"
+  ],
+  "dex": "903",
+  "height_m": 1.3,
+  "slug": "sneasler",
+  "types": [
+   "fighting",
+   "poison"
+  ]
+ },
+ "snivy": {
+  "abilities": [
+   "overgrow",
+   "contrary"
+  ],
+  "dex": "495",
+  "height_m": 0.6,
+  "slug": "snivy",
+  "types": [
+   "grass"
+  ]
+ },
+ "snom": {
+  "abilities": [
+   "shield-dust",
+   "ice-scales"
+  ],
+  "dex": "872",
+  "height_m": 0.3,
+  "slug": "snom",
+  "types": [
+   "ice",
+   "bug"
+  ]
+ },
+ "snorlax": {
+  "abilities": [
+   "immunity",
+   "thick-fat",
+   "gluttony"
+  ],
+  "dex": "143",
+  "height_m": 2.1,
+  "slug": "snorlax",
+  "types": [
+   "normal"
+  ]
+ },
+ "snorunt": {
+  "abilities": [
+   "inner-focus",
+   "ice-body",
+   "moody"
+  ],
+  "dex": "361",
+  "height_m": 0.7,
+  "slug": "snorunt",
+  "types": [
+   "ice"
+  ]
+ },
+ "snover": {
+  "abilities": [
+   "snow-warning",
+   "soundproof"
+  ],
+  "dex": "459",
+  "height_m": 1.0,
+  "slug": "snover",
+  "types": [
+   "grass",
+   "ice"
+  ]
+ },
+ "snubbull": {
+  "abilities": [
+   "intimidate",
+   "run-away",
+   "rattled"
+  ],
+  "dex": "209",
+  "height_m": 0.6,
+  "slug": "snubbull",
+  "types": [
+   "fairy"
+  ]
+ },
+ "sobble": {
+  "abilities": [
+   "torrent",
+   "sniper"
+  ],
+  "dex": "816",
+  "height_m": 0.3,
+  "slug": "sobble",
+  "types": [
+   "water"
+  ]
+ },
+ "solgaleo": {
+  "abilities": [
+   "full-metal-body"
+  ],
+  "dex": "791",
+  "height_m": 3.4,
+  "slug": "solgaleo",
+  "types": [
+   "psychic",
+   "steel"
+  ]
+ },
+ "solosis": {
+  "abilities": [
+   "overcoat",
+   "magic-guard",
+   "regenerator"
+  ],
+  "dex": "577",
+  "height_m": 0.3,
+  "slug": "solosis",
+  "types": [
+   "psychic"
+  ]
+ },
+ "solrock": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "338",
+  "height_m": 1.2,
+  "slug": "solrock",
+  "types": [
+   "rock",
+   "psychic"
+  ]
+ },
+ "spearow": {
+  "abilities": [
+   "keen-eye",
+   "sniper"
+  ],
+  "dex": "21",
+  "height_m": 0.3,
+  "slug": "spearow",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "spectrier": {
+  "abilities": [
+   "grim-neigh"
+  ],
+  "dex": "897",
+  "height_m": 2.0,
+  "slug": "spectrier",
+  "types": [
+   "ghost"
+  ]
+ },
+ "spewpa": {
+  "abilities": [
+   "shed-skin",
+   "friend-guard"
+  ],
+  "dex": "665",
+  "height_m": 0.3,
+  "slug": "spewpa",
+  "types": [
+   "bug"
+  ]
+ },
+ "spheal": {
+  "abilities": [
+   "thick-fat",
+   "ice-body",
+   "oblivious"
+  ],
+  "dex": "363",
+  "height_m": 0.8,
+  "slug": "spheal",
+  "types": [
+   "ice",
+   "water"
+  ]
+ },
+ "spidops": {
+  "abilities": [
+   "insomnia",
+   "stakeout"
+  ],
+  "dex": "918",
+  "height_m": 1.0,
+  "slug": "spidops",
+  "types": [
+   "bug"
+  ]
+ },
+ "spinarak": {
+  "abilities": [
+   "swarm",
+   "insomnia",
+   "sniper"
+  ],
+  "dex": "167",
+  "height_m": 0.5,
+  "slug": "spinarak",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "spinda": {
+  "abilities": [
+   "own-tempo",
+   "tangled-feet",
+   "contrary"
+  ],
+  "dex": "327",
+  "height_m": 1.1,
+  "slug": "spinda",
+  "types": [
+   "normal"
+  ]
+ },
+ "spiritomb": {
+  "abilities": [
+   "pressure",
+   "infiltrator"
+  ],
+  "dex": "442",
+  "height_m": 1.0,
+  "slug": "spiritomb",
+  "types": [
+   "ghost",
+   "dark"
+  ]
+ },
+ "spoink": {
+  "abilities": [
+   "thick-fat",
+   "own-tempo",
+   "gluttony"
+  ],
+  "dex": "325",
+  "height_m": 0.7,
+  "slug": "spoink",
+  "types": [
+   "psychic"
+  ]
+ },
+ "sprigatito": {
+  "abilities": [
+   "overgrow",
+   "protean"
+  ],
+  "dex": "906",
+  "height_m": 0.4,
+  "slug": "sprigatito",
+  "types": [
+   "grass"
+  ]
+ },
+ "spritzee": {
+  "abilities": [
+   "healer",
+   "aroma-veil"
+  ],
+  "dex": "682",
+  "height_m": 0.2,
+  "slug": "spritzee",
+  "types": [
+   "fairy"
+  ]
+ },
+ "squawkabilly-green-plumage": {
+  "abilities": [
+   "intimidate",
+   "hustle",
+   "guts"
+  ],
+  "dex": "931",
+  "height_m": 0.6,
+  "slug": "squawkabilly-green-plumage",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "squirtle": {
+  "abilities": [
+   "torrent",
+   "rain-dish"
+  ],
+  "dex": "7",
+  "height_m": 0.5,
+  "slug": "squirtle",
+  "types": [
+   "water"
+  ]
+ },
+ "stakataka": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "805",
+  "height_m": 5.5,
+  "slug": "stakataka",
+  "types": [
+   "rock",
+   "steel"
+  ]
+ },
+ "stantler": {
+  "abilities": [
+   "intimidate",
+   "frisk",
+   "sap-sipper"
+  ],
+  "dex": "234",
+  "height_m": 1.4,
+  "slug": "stantler",
+  "types": [
+   "normal"
+  ]
+ },
+ "staraptor": {
+  "abilities": [
+   "intimidate",
+   "reckless"
+  ],
+  "dex": "398",
+  "height_m": 1.2,
+  "slug": "staraptor",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "staravia": {
+  "abilities": [
+   "intimidate",
+   "reckless"
+  ],
+  "dex": "397",
+  "height_m": 0.6,
+  "slug": "staravia",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "starly": {
+  "abilities": [
+   "keen-eye",
+   "reckless"
+  ],
+  "dex": "396",
+  "height_m": 0.3,
+  "slug": "starly",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "starmie": {
+  "abilities": [
+   "illuminate",
+   "natural-cure",
+   "analytic"
+  ],
+  "dex": "121",
+  "height_m": 1.1,
+  "slug": "starmie",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "staryu": {
+  "abilities": [
+   "illuminate",
+   "natural-cure",
+   "analytic"
+  ],
+  "dex": "120",
+  "height_m": 0.8,
+  "slug": "staryu",
+  "types": [
+   "water"
+  ]
+ },
+ "steelix": {
+  "abilities": [
+   "rock-head",
+   "sturdy",
+   "sheer-force"
+  ],
+  "dex": "208",
+  "height_m": 9.2,
+  "slug": "steelix",
+  "types": [
+   "steel",
+   "ground"
+  ]
+ },
+ "steenee": {
+  "abilities": [
+   "leaf-guard",
+   "oblivious",
+   "sweet-veil"
+  ],
+  "dex": "762",
+  "height_m": 0.7,
+  "slug": "steenee",
+  "types": [
+   "grass"
+  ]
+ },
+ "stonjourner": {
+  "abilities": [
+   "power-spot"
+  ],
+  "dex": "874",
+  "height_m": 2.5,
+  "slug": "stonjourner",
+  "types": [
+   "rock"
+  ]
+ },
+ "stoutland": {
+  "abilities": [
+   "intimidate",
+   "sand-rush",
+   "scrappy"
+  ],
+  "dex": "508",
+  "height_m": 1.2,
+  "slug": "stoutland",
+  "types": [
+   "normal"
+  ]
+ },
+ "stufful": {
+  "abilities": [
+   "fluffy",
+   "klutz",
+   "cute-charm"
+  ],
+  "dex": "759",
+  "height_m": 0.5,
+  "slug": "stufful",
+  "types": [
+   "normal",
+   "fighting"
+  ]
+ },
+ "stunfisk": {
+  "abilities": [
+   "static",
+   "limber",
+   "sand-veil"
+  ],
+  "dex": "618",
+  "height_m": 0.7,
+  "slug": "stunfisk",
+  "types": [
+   "ground",
+   "electric"
+  ]
+ },
+ "stunky": {
+  "abilities": [
+   "stench",
+   "aftermath",
+   "keen-eye"
+  ],
+  "dex": "434",
+  "height_m": 0.4,
+  "slug": "stunky",
+  "types": [
+   "poison",
+   "dark"
+  ]
+ },
+ "sudowoodo": {
+  "abilities": [
+   "sturdy",
+   "rock-head",
+   "rattled"
+  ],
+  "dex": "185",
+  "height_m": 1.2,
+  "slug": "sudowoodo",
+  "types": [
+   "rock"
+  ]
+ },
+ "suicune": {
+  "abilities": [
+   "pressure",
+   "inner-focus"
+  ],
+  "dex": "245",
+  "height_m": 2.0,
+  "slug": "suicune",
+  "types": [
+   "water"
+  ]
+ },
+ "sunflora": {
+  "abilities": [
+   "chlorophyll",
+   "solar-power",
+   "early-bird"
+  ],
+  "dex": "192",
+  "height_m": 0.8,
+  "slug": "sunflora",
+  "types": [
+   "grass"
+  ]
+ },
+ "sunkern": {
+  "abilities": [
+   "chlorophyll",
+   "solar-power",
+   "early-bird"
+  ],
+  "dex": "191",
+  "height_m": 0.3,
+  "slug": "sunkern",
+  "types": [
+   "grass"
+  ]
+ },
+ "surskit": {
+  "abilities": [
+   "swift-swim",
+   "rain-dish"
+  ],
+  "dex": "283",
+  "height_m": 0.5,
+  "slug": "surskit",
+  "types": [
+   "bug",
+   "water"
+  ]
+ },
+ "swablu": {
+  "abilities": [
+   "natural-cure",
+   "cloud-nine"
+  ],
+  "dex": "333",
+  "height_m": 0.4,
+  "slug": "swablu",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "swadloon": {
+  "abilities": [
+   "leaf-guard",
+   "chlorophyll",
+   "overcoat"
+  ],
+  "dex": "541",
+  "height_m": 0.5,
+  "slug": "swadloon",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "swalot": {
+  "abilities": [
+   "liquid-ooze",
+   "sticky-hold",
+   "gluttony"
+  ],
+  "dex": "317",
+  "height_m": 1.7,
+  "slug": "swalot",
+  "types": [
+   "poison"
+  ]
+ },
+ "swampert": {
+  "abilities": [
+   "torrent",
+   "damp"
+  ],
+  "dex": "260",
+  "height_m": 1.5,
+  "slug": "swampert",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "swanna": {
+  "abilities": [
+   "keen-eye",
+   "big-pecks",
+   "hydration"
+  ],
+  "dex": "581",
+  "height_m": 1.3,
+  "slug": "swanna",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "swellow": {
+  "abilities": [
+   "guts",
+   "scrappy"
+  ],
+  "dex": "277",
+  "height_m": 0.7,
+  "slug": "swellow",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "swinub": {
+  "abilities": [
+   "oblivious",
+   "snow-cloak",
+   "thick-fat"
+  ],
+  "dex": "220",
+  "height_m": 0.4,
+  "slug": "swinub",
+  "types": [
+   "ice",
+   "ground"
+  ]
+ },
+ "swirlix": {
+  "abilities": [
+   "sweet-veil",
+   "unburden"
+  ],
+  "dex": "684",
+  "height_m": 0.4,
+  "slug": "swirlix",
+  "types": [
+   "fairy"
+  ]
+ },
+ "swoobat": {
+  "abilities": [
+   "unaware",
+   "klutz",
+   "simple"
+  ],
+  "dex": "528",
+  "height_m": 0.9,
+  "slug": "swoobat",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "sylveon": {
+  "abilities": [
+   "cute-charm",
+   "pixilate"
+  ],
+  "dex": "700",
+  "height_m": 1.0,
+  "slug": "sylveon",
+  "types": [
+   "fairy"
+  ]
+ },
+ "tadbulb": {
+  "abilities": [
+   "own-tempo",
+   "static",
+   "damp"
+  ],
+  "dex": "938",
+  "height_m": 0.3,
+  "slug": "tadbulb",
+  "types": [
+   "electric"
+  ]
+ },
+ "taillow": {
+  "abilities": [
+   "guts",
+   "scrappy"
+  ],
+  "dex": "276",
+  "height_m": 0.3,
+  "slug": "taillow",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "talonflame": {
+  "abilities": [
+   "flame-body",
+   "gale-wings"
+  ],
+  "dex": "663",
+  "height_m": 1.2,
+  "slug": "talonflame",
+  "types": [
+   "fire",
+   "flying"
+  ]
+ },
+ "tandemaus": {
+  "abilities": [
+   "run-away",
+   "pickup",
+   "own-tempo"
+  ],
+  "dex": "924",
+  "height_m": 0.3,
+  "slug": "tandemaus",
+  "types": [
+   "normal"
+  ]
+ },
+ "tangela": {
+  "abilities": [
+   "chlorophyll",
+   "leaf-guard",
+   "regenerator"
+  ],
+  "dex": "114",
+  "height_m": 1.0,
+  "slug": "tangela",
+  "types": [
+   "grass"
+  ]
+ },
+ "tangrowth": {
+  "abilities": [
+   "chlorophyll",
+   "leaf-guard",
+   "regenerator"
+  ],
+  "dex": "465",
+  "height_m": 2.0,
+  "slug": "tangrowth",
+  "types": [
+   "grass"
+  ]
+ },
+ "tapu-bulu": {
+  "abilities": [
+   "grassy-surge",
+   "telepathy"
+  ],
+  "dex": "787",
+  "height_m": 1.9,
+  "slug": "tapu-bulu",
+  "types": [
+   "grass",
+   "fairy"
+  ]
+ },
+ "tapu-fini": {
+  "abilities": [
+   "misty-surge",
+   "telepathy"
+  ],
+  "dex": "788",
+  "height_m": 1.3,
+  "slug": "tapu-fini",
+  "types": [
+   "water",
+   "fairy"
+  ]
+ },
+ "tapu-koko": {
+  "abilities": [
+   "electric-surge",
+   "telepathy"
+  ],
+  "dex": "785",
+  "height_m": 1.8,
+  "slug": "tapu-koko",
+  "types": [
+   "electric",
+   "fairy"
+  ]
+ },
+ "tapu-lele": {
+  "abilities": [
+   "psychic-surge",
+   "telepathy"
+  ],
+  "dex": "786",
+  "height_m": 1.2,
+  "slug": "tapu-lele",
+  "types": [
+   "psychic",
+   "fairy"
+  ]
+ },
+ "tarountula": {
+  "abilities": [
+   "insomnia",
+   "stakeout"
+  ],
+  "dex": "917",
+  "height_m": 0.3,
+  "slug": "tarountula",
+  "types": [
+   "bug"
+  ]
+ },
+ "tatsugiri-curly": {
+  "abilities": [
+   "commander",
+   "storm-drain"
+  ],
+  "dex": "978",
+  "height_m": 0.3,
+  "slug": "tatsugiri-curly",
+  "types": [
+   "dragon",
+   "water"
+  ]
+ },
+ "tauros": {
+  "abilities": [
+   "intimidate",
+   "anger-point",
+   "sheer-force"
+  ],
+  "dex": "128",
+  "height_m": 1.4,
+  "slug": "tauros",
+  "types": [
+   "normal"
+  ]
+ },
+ "tauros-paldea-aqua-breed": {
+  "abilities": [
+   "intimidate",
+   "anger-point",
+   "cud-chew"
+  ],
+  "dex": "128",
+  "height_m": 1.4,
+  "slug": "tauros-paldea-aqua-breed",
+  "types": [
+   "fighting",
+   "water"
+  ]
+ },
+ "tauros-paldea-blaze-breed": {
+  "abilities": [
+   "intimidate",
+   "anger-point",
+   "cud-chew"
+  ],
+  "dex": "128",
+  "height_m": 1.4,
+  "slug": "tauros-paldea-blaze-breed",
+  "types": [
+   "fighting",
+   "fire"
+  ]
+ },
+ "tauros-paldea-combat-breed": {
+  "abilities": [
+   "intimidate",
+   "anger-point",
+   "cud-chew"
+  ],
+  "dex": "128",
+  "height_m": 1.4,
+  "slug": "tauros-paldea-combat-breed",
+  "types": [
+   "fighting"
+  ]
+ },
+ "teddiursa": {
+  "abilities": [
+   "pickup",
+   "quick-feet",
+   "honey-gather"
+  ],
+  "dex": "216",
+  "height_m": 0.6,
+  "slug": "teddiursa",
+  "types": [
+   "normal"
+  ]
+ },
+ "tentacool": {
+  "abilities": [
+   "clear-body",
+   "liquid-ooze",
+   "rain-dish"
+  ],
+  "dex": "72",
+  "height_m": 0.9,
+  "slug": "tentacool",
+  "types": [
+   "water",
+   "poison"
+  ]
+ },
+ "tentacruel": {
+  "abilities": [
+   "clear-body",
+   "liquid-ooze",
+   "rain-dish"
+  ],
+  "dex": "73",
+  "height_m": 1.6,
+  "slug": "tentacruel",
+  "types": [
+   "water",
+   "poison"
+  ]
+ },
+ "tepig": {
+  "abilities": [
+   "blaze",
+   "thick-fat"
+  ],
+  "dex": "498",
+  "height_m": 0.5,
+  "slug": "tepig",
+  "types": [
+   "fire"
+  ]
+ },
+ "terapagos": {
+  "abilities": [
+   "tera-shift"
+  ],
+  "dex": "1024",
+  "height_m": 0.2,
+  "slug": "terapagos",
+  "types": [
+   "normal"
+  ]
+ },
+ "terrakion": {
+  "abilities": [
+   "justified"
+  ],
+  "dex": "639",
+  "height_m": 1.9,
+  "slug": "terrakion",
+  "types": [
+   "rock",
+   "fighting"
+  ]
+ },
+ "thievul": {
+  "abilities": [
+   "run-away",
+   "unburden",
+   "stakeout"
+  ],
+  "dex": "828",
+  "height_m": 1.2,
+  "slug": "thievul",
+  "types": [
+   "dark"
+  ]
+ },
+ "throh": {
+  "abilities": [
+   "guts",
+   "inner-focus",
+   "mold-breaker"
+  ],
+  "dex": "538",
+  "height_m": 1.3,
+  "slug": "throh",
+  "types": [
+   "fighting"
+  ]
+ },
+ "thundurus-incarnate": {
+  "abilities": [
+   "prankster",
+   "defiant"
+  ],
+  "dex": "642",
+  "height_m": 1.5,
+  "slug": "thundurus-incarnate",
+  "types": [
+   "electric",
+   "flying"
+  ]
+ },
+ "thwackey": {
+  "abilities": [
+   "overgrow",
+   "grassy-surge"
+  ],
+  "dex": "811",
+  "height_m": 0.7,
+  "slug": "thwackey",
+  "types": [
+   "grass"
+  ]
+ },
+ "timburr": {
+  "abilities": [
+   "guts",
+   "sheer-force",
+   "iron-fist"
+  ],
+  "dex": "532",
+  "height_m": 0.6,
+  "slug": "timburr",
+  "types": [
+   "fighting"
+  ]
+ },
+ "ting-lu": {
+  "abilities": [
+   "vessel-of-ruin"
+  ],
+  "dex": "1003",
+  "height_m": 2.7,
+  "slug": "ting-lu",
+  "types": [
+   "dark",
+   "ground"
+  ]
+ },
+ "tinkatink": {
+  "abilities": [
+   "mold-breaker",
+   "own-tempo",
+   "pickpocket"
+  ],
+  "dex": "957",
+  "height_m": 0.4,
+  "slug": "tinkatink",
+  "types": [
+   "fairy",
+   "steel"
+  ]
+ },
+ "tinkaton": {
+  "abilities": [
+   "mold-breaker",
+   "own-tempo",
+   "pickpocket"
+  ],
+  "dex": "959",
+  "height_m": 0.7,
+  "slug": "tinkaton",
+  "types": [
+   "fairy",
+   "steel"
+  ]
+ },
+ "tinkatuff": {
+  "abilities": [
+   "mold-breaker",
+   "own-tempo",
+   "pickpocket"
+  ],
+  "dex": "958",
+  "height_m": 0.7,
+  "slug": "tinkatuff",
+  "types": [
+   "fairy",
+   "steel"
+  ]
+ },
+ "tirtouga": {
+  "abilities": [
+   "solid-rock",
+   "sturdy",
+   "swift-swim"
+  ],
+  "dex": "564",
+  "height_m": 0.7,
+  "slug": "tirtouga",
+  "types": [
+   "water",
+   "rock"
+  ]
+ },
+ "toedscool": {
+  "abilities": [
+   "mycelium-might"
+  ],
+  "dex": "948",
+  "height_m": 0.9,
+  "slug": "toedscool",
+  "types": [
+   "ground",
+   "grass"
+  ]
+ },
+ "toedscruel": {
+  "abilities": [
+   "mycelium-might"
+  ],
+  "dex": "949",
+  "height_m": 1.9,
+  "slug": "toedscruel",
+  "types": [
+   "ground",
+   "grass"
+  ]
+ },
+ "togedemaru": {
+  "abilities": [
+   "iron-barbs",
+   "lightning-rod",
+   "sturdy"
+  ],
+  "dex": "777",
+  "height_m": 0.3,
+  "slug": "togedemaru",
+  "types": [
+   "electric",
+   "steel"
+  ]
+ },
+ "togekiss": {
+  "abilities": [
+   "hustle",
+   "serene-grace",
+   "super-luck"
+  ],
+  "dex": "468",
+  "height_m": 1.5,
+  "slug": "togekiss",
+  "types": [
+   "fairy",
+   "flying"
+  ]
+ },
+ "togepi": {
+  "abilities": [
+   "hustle",
+   "serene-grace",
+   "super-luck"
+  ],
+  "dex": "175",
+  "height_m": 0.3,
+  "slug": "togepi",
+  "types": [
+   "fairy"
+  ]
+ },
+ "togetic": {
+  "abilities": [
+   "hustle",
+   "serene-grace",
+   "super-luck"
+  ],
+  "dex": "176",
+  "height_m": 0.6,
+  "slug": "togetic",
+  "types": [
+   "fairy",
+   "flying"
+  ]
+ },
+ "torchic": {
+  "abilities": [
+   "blaze",
+   "speed-boost"
+  ],
+  "dex": "255",
+  "height_m": 0.4,
+  "slug": "torchic",
+  "types": [
+   "fire"
+  ]
+ },
+ "torkoal": {
+  "abilities": [
+   "white-smoke",
+   "drought",
+   "shell-armor"
+  ],
+  "dex": "324",
+  "height_m": 0.5,
+  "slug": "torkoal",
+  "types": [
+   "fire"
+  ]
+ },
+ "tornadus-incarnate": {
+  "abilities": [
+   "prankster",
+   "defiant"
+  ],
+  "dex": "641",
+  "height_m": 1.5,
+  "slug": "tornadus-incarnate",
+  "types": [
+   "flying"
+  ]
+ },
+ "torracat": {
+  "abilities": [
+   "blaze",
+   "intimidate"
+  ],
+  "dex": "726",
+  "height_m": 0.7,
+  "slug": "torracat",
+  "types": [
+   "fire"
+  ]
+ },
+ "torterra": {
+  "abilities": [
+   "overgrow",
+   "shell-armor"
+  ],
+  "dex": "389",
+  "height_m": 2.2,
+  "slug": "torterra",
+  "types": [
+   "grass",
+   "ground"
+  ]
+ },
+ "totodile": {
+  "abilities": [
+   "torrent",
+   "sheer-force"
+  ],
+  "dex": "158",
+  "height_m": 0.6,
+  "slug": "totodile",
+  "types": [
+   "water"
+  ]
+ },
+ "toucannon": {
+  "abilities": [
+   "keen-eye",
+   "skill-link",
+   "sheer-force"
+  ],
+  "dex": "733",
+  "height_m": 1.1,
+  "slug": "toucannon",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "toxapex": {
+  "abilities": [
+   "merciless",
+   "limber",
+   "regenerator"
+  ],
+  "dex": "748",
+  "height_m": 0.7,
+  "slug": "toxapex",
+  "types": [
+   "poison",
+   "water"
+  ]
+ },
+ "toxel": {
+  "abilities": [
+   "rattled",
+   "static",
+   "klutz"
+  ],
+  "dex": "848",
+  "height_m": 0.4,
+  "slug": "toxel",
+  "types": [
+   "electric",
+   "poison"
+  ]
+ },
+ "toxicroak": {
+  "abilities": [
+   "anticipation",
+   "dry-skin",
+   "poison-touch"
+  ],
+  "dex": "454",
+  "height_m": 1.3,
+  "slug": "toxicroak",
+  "types": [
+   "poison",
+   "fighting"
+  ]
+ },
+ "toxtricity-amped": {
+  "abilities": [
+   "punk-rock",
+   "plus",
+   "technician"
+  ],
+  "dex": "849",
+  "height_m": 1.6,
+  "slug": "toxtricity-amped",
+  "types": [
+   "electric",
+   "poison"
+  ]
+ },
+ "tranquill": {
+  "abilities": [
+   "big-pecks",
+   "super-luck",
+   "rivalry"
+  ],
+  "dex": "520",
+  "height_m": 0.6,
+  "slug": "tranquill",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "trapinch": {
+  "abilities": [
+   "hyper-cutter",
+   "arena-trap",
+   "sheer-force"
+  ],
+  "dex": "328",
+  "height_m": 0.7,
+  "slug": "trapinch",
+  "types": [
+   "ground"
+  ]
+ },
+ "treecko": {
+  "abilities": [
+   "overgrow",
+   "unburden"
+  ],
+  "dex": "252",
+  "height_m": 0.5,
+  "slug": "treecko",
+  "types": [
+   "grass"
+  ]
+ },
+ "trevenant": {
+  "abilities": [
+   "natural-cure",
+   "frisk",
+   "harvest"
+  ],
+  "dex": "709",
+  "height_m": 1.5,
+  "slug": "trevenant",
+  "types": [
+   "ghost",
+   "grass"
+  ]
+ },
+ "tropius": {
+  "abilities": [
+   "chlorophyll",
+   "solar-power",
+   "harvest"
+  ],
+  "dex": "357",
+  "height_m": 2.0,
+  "slug": "tropius",
+  "types": [
+   "grass",
+   "flying"
+  ]
+ },
+ "trubbish": {
+  "abilities": [
+   "stench",
+   "sticky-hold",
+   "aftermath"
+  ],
+  "dex": "568",
+  "height_m": 0.6,
+  "slug": "trubbish",
+  "types": [
+   "poison"
+  ]
+ },
+ "trumbeak": {
+  "abilities": [
+   "keen-eye",
+   "skill-link",
+   "pickup"
+  ],
+  "dex": "732",
+  "height_m": 0.6,
+  "slug": "trumbeak",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "tsareena": {
+  "abilities": [
+   "leaf-guard",
+   "queenly-majesty",
+   "sweet-veil"
+  ],
+  "dex": "763",
+  "height_m": 1.2,
+  "slug": "tsareena",
+  "types": [
+   "grass"
+  ]
+ },
+ "turtonator": {
+  "abilities": [
+   "shell-armor"
+  ],
+  "dex": "776",
+  "height_m": 2.0,
+  "slug": "turtonator",
+  "types": [
+   "fire",
+   "dragon"
+  ]
+ },
+ "turtwig": {
+  "abilities": [
+   "overgrow",
+   "shell-armor"
+  ],
+  "dex": "387",
+  "height_m": 0.4,
+  "slug": "turtwig",
+  "types": [
+   "grass"
+  ]
+ },
+ "tympole": {
+  "abilities": [
+   "swift-swim",
+   "hydration",
+   "water-absorb"
+  ],
+  "dex": "535",
+  "height_m": 0.5,
+  "slug": "tympole",
+  "types": [
+   "water"
+  ]
+ },
+ "tynamo": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "602",
+  "height_m": 0.2,
+  "slug": "tynamo",
+  "types": [
+   "electric"
+  ]
+ },
+ "type-null": {
+  "abilities": [
+   "battle-armor"
+  ],
+  "dex": "772",
+  "height_m": 1.9,
+  "slug": "type-null",
+  "types": [
+   "normal"
+  ]
+ },
+ "typhlosion": {
+  "abilities": [
+   "blaze",
+   "flash-fire"
+  ],
+  "dex": "157",
+  "height_m": 1.7,
+  "slug": "typhlosion",
+  "types": [
+   "fire"
+  ]
+ },
+ "tyranitar": {
+  "abilities": [
+   "sand-stream",
+   "unnerve"
+  ],
+  "dex": "248",
+  "height_m": 2.0,
+  "slug": "tyranitar",
+  "types": [
+   "rock",
+   "dark"
+  ]
+ },
+ "tyrantrum": {
+  "abilities": [
+   "strong-jaw",
+   "rock-head"
+  ],
+  "dex": "697",
+  "height_m": 2.5,
+  "slug": "tyrantrum",
+  "types": [
+   "rock",
+   "dragon"
+  ]
+ },
+ "tyrogue": {
+  "abilities": [
+   "guts",
+   "steadfast",
+   "vital-spirit"
+  ],
+  "dex": "236",
+  "height_m": 0.7,
+  "slug": "tyrogue",
+  "types": [
+   "fighting"
+  ]
+ },
+ "tyrunt": {
+  "abilities": [
+   "strong-jaw",
+   "sturdy"
+  ],
+  "dex": "696",
+  "height_m": 0.8,
+  "slug": "tyrunt",
+  "types": [
+   "rock",
+   "dragon"
+  ]
+ },
+ "umbreon": {
+  "abilities": [
+   "synchronize",
+   "inner-focus"
+  ],
+  "dex": "197",
+  "height_m": 1.0,
+  "slug": "umbreon",
+  "types": [
+   "dark"
+  ]
+ },
+ "unfezant": {
+  "abilities": [
+   "big-pecks",
+   "super-luck",
+   "rivalry"
+  ],
+  "dex": "521",
+  "height_m": 1.2,
+  "slug": "unfezant",
+  "types": [
+   "normal",
+   "flying"
+  ]
+ },
+ "unown": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "201",
+  "height_m": 0.5,
+  "slug": "unown",
+  "types": [
+   "psychic"
+  ]
+ },
+ "ursaluna": {
+  "abilities": [
+   "guts",
+   "bulletproof",
+   "unnerve"
+  ],
+  "dex": "901",
+  "height_m": 2.4,
+  "slug": "ursaluna",
+  "types": [
+   "ground",
+   "normal"
+  ]
+ },
+ "ursaring": {
+  "abilities": [
+   "guts",
+   "quick-feet",
+   "unnerve"
+  ],
+  "dex": "217",
+  "height_m": 1.8,
+  "slug": "ursaring",
+  "types": [
+   "normal"
+  ]
+ },
+ "urshifu-single-strike": {
+  "abilities": [
+   "unseen-fist"
+  ],
+  "dex": "892",
+  "height_m": 1.9,
+  "slug": "urshifu-single-strike",
+  "types": [
+   "fighting",
+   "dark"
+  ]
+ },
+ "uxie": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "480",
+  "height_m": 0.3,
+  "slug": "uxie",
+  "types": [
+   "psychic"
+  ]
+ },
+ "vanillish": {
+  "abilities": [
+   "ice-body",
+   "snow-cloak",
+   "weak-armor"
+  ],
+  "dex": "583",
+  "height_m": 1.1,
+  "slug": "vanillish",
+  "types": [
+   "ice"
+  ]
+ },
+ "vanillite": {
+  "abilities": [
+   "ice-body",
+   "snow-cloak",
+   "weak-armor"
+  ],
+  "dex": "582",
+  "height_m": 0.4,
+  "slug": "vanillite",
+  "types": [
+   "ice"
+  ]
+ },
+ "vanilluxe": {
+  "abilities": [
+   "ice-body",
+   "snow-warning",
+   "weak-armor"
+  ],
+  "dex": "584",
+  "height_m": 1.3,
+  "slug": "vanilluxe",
+  "types": [
+   "ice"
+  ]
+ },
+ "vaporeon": {
+  "abilities": [
+   "water-absorb",
+   "hydration"
+  ],
+  "dex": "134",
+  "height_m": 1.0,
+  "slug": "vaporeon",
+  "types": [
+   "water"
+  ]
+ },
+ "varoom": {
+  "abilities": [
+   "overcoat",
+   "slow-start"
+  ],
+  "dex": "965",
+  "height_m": 1.0,
+  "slug": "varoom",
+  "types": [
+   "steel",
+   "poison"
+  ]
+ },
+ "veluza": {
+  "abilities": [
+   "mold-breaker",
+   "sharpness"
+  ],
+  "dex": "976",
+  "height_m": 2.5,
+  "slug": "veluza",
+  "types": [
+   "water",
+   "psychic"
+  ]
+ },
+ "venipede": {
+  "abilities": [
+   "poison-point",
+   "swarm",
+   "speed-boost"
+  ],
+  "dex": "543",
+  "height_m": 0.4,
+  "slug": "venipede",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "venomoth": {
+  "abilities": [
+   "shield-dust",
+   "tinted-lens",
+   "wonder-skin"
+  ],
+  "dex": "49",
+  "height_m": 1.5,
+  "slug": "venomoth",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "venonat": {
+  "abilities": [
+   "compound-eyes",
+   "tinted-lens",
+   "run-away"
+  ],
+  "dex": "48",
+  "height_m": 1.0,
+  "slug": "venonat",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "venusaur": {
+  "abilities": [
+   "overgrow",
+   "chlorophyll"
+  ],
+  "dex": "3",
+  "height_m": 2.0,
+  "slug": "venusaur",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "vespiquen": {
+  "abilities": [
+   "pressure",
+   "unnerve"
+  ],
+  "dex": "416",
+  "height_m": 1.2,
+  "slug": "vespiquen",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "vibrava": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "329",
+  "height_m": 1.1,
+  "slug": "vibrava",
+  "types": [
+   "ground",
+   "dragon"
+  ]
+ },
+ "victini": {
+  "abilities": [
+   "victory-star"
+  ],
+  "dex": "494",
+  "height_m": 0.4,
+  "slug": "victini",
+  "types": [
+   "psychic",
+   "fire"
+  ]
+ },
+ "victreebel": {
+  "abilities": [
+   "chlorophyll",
+   "gluttony"
+  ],
+  "dex": "71",
+  "height_m": 1.7,
+  "slug": "victreebel",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "vigoroth": {
+  "abilities": [
+   "vital-spirit"
+  ],
+  "dex": "288",
+  "height_m": 1.4,
+  "slug": "vigoroth",
+  "types": [
+   "normal"
+  ]
+ },
+ "vikavolt": {
+  "abilities": [
+   "levitate"
+  ],
+  "dex": "738",
+  "height_m": 1.5,
+  "slug": "vikavolt",
+  "types": [
+   "bug",
+   "electric"
+  ]
+ },
+ "vileplume": {
+  "abilities": [
+   "chlorophyll",
+   "effect-spore"
+  ],
+  "dex": "45",
+  "height_m": 1.2,
+  "slug": "vileplume",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "virizion": {
+  "abilities": [
+   "justified"
+  ],
+  "dex": "640",
+  "height_m": 2.0,
+  "slug": "virizion",
+  "types": [
+   "grass",
+   "fighting"
+  ]
+ },
+ "vivillon": {
+  "abilities": [
+   "shield-dust",
+   "compound-eyes",
+   "friend-guard"
+  ],
+  "dex": "666",
+  "height_m": 1.2,
+  "slug": "vivillon",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "volbeat": {
+  "abilities": [
+   "illuminate",
+   "swarm",
+   "prankster"
+  ],
+  "dex": "313",
+  "height_m": 0.7,
+  "slug": "volbeat",
+  "types": [
+   "bug"
+  ]
+ },
+ "volcanion": {
+  "abilities": [
+   "water-absorb"
+  ],
+  "dex": "721",
+  "height_m": 1.7,
+  "slug": "volcanion",
+  "types": [
+   "fire",
+   "water"
+  ]
+ },
+ "volcarona": {
+  "abilities": [
+   "flame-body",
+   "swarm"
+  ],
+  "dex": "637",
+  "height_m": 1.6,
+  "slug": "volcarona",
+  "types": [
+   "bug",
+   "fire"
+  ]
+ },
+ "voltorb": {
+  "abilities": [
+   "soundproof",
+   "static",
+   "aftermath"
+  ],
+  "dex": "100",
+  "height_m": 0.5,
+  "slug": "voltorb",
+  "types": [
+   "electric"
+  ]
+ },
+ "vullaby": {
+  "abilities": [
+   "big-pecks",
+   "overcoat",
+   "weak-armor"
+  ],
+  "dex": "629",
+  "height_m": 0.5,
+  "slug": "vullaby",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "vulpix": {
+  "abilities": [
+   "flash-fire",
+   "drought"
+  ],
+  "dex": "37",
+  "height_m": 0.6,
+  "slug": "vulpix",
+  "types": [
+   "fire"
+  ]
+ },
+ "vulpix-alola": {
+  "abilities": [
+   "snow-cloak",
+   "snow-warning"
+  ],
+  "dex": "37",
+  "height_m": 0.6,
+  "slug": "vulpix-alola",
+  "types": [
+   "ice"
+  ]
+ },
+ "wailmer": {
+  "abilities": [
+   "water-veil",
+   "oblivious",
+   "pressure"
+  ],
+  "dex": "320",
+  "height_m": 2.0,
+  "slug": "wailmer",
+  "types": [
+   "water"
+  ]
+ },
+ "wailord": {
+  "abilities": [
+   "water-veil",
+   "oblivious",
+   "pressure"
+  ],
+  "dex": "321",
+  "height_m": 14.5,
+  "slug": "wailord",
+  "types": [
+   "water"
+  ]
+ },
+ "walking-wake": {
+  "abilities": [
+   "protosynthesis"
+  ],
+  "dex": "1009",
+  "height_m": 3.5,
+  "slug": "walking-wake",
+  "types": [
+   "water",
+   "dragon"
+  ]
+ },
+ "walrein": {
+  "abilities": [
+   "thick-fat",
+   "ice-body",
+   "oblivious"
+  ],
+  "dex": "365",
+  "height_m": 1.4,
+  "slug": "walrein",
+  "types": [
+   "ice",
+   "water"
+  ]
+ },
+ "wartortle": {
+  "abilities": [
+   "torrent",
+   "rain-dish"
+  ],
+  "dex": "8",
+  "height_m": 1.0,
+  "slug": "wartortle",
+  "types": [
+   "water"
+  ]
+ },
+ "watchog": {
+  "abilities": [
+   "illuminate",
+   "keen-eye",
+   "analytic"
+  ],
+  "dex": "505",
+  "height_m": 1.1,
+  "slug": "watchog",
+  "types": [
+   "normal"
+  ]
+ },
+ "wattrel": {
+  "abilities": [
+   "wind-power",
+   "volt-absorb",
+   "competitive"
+  ],
+  "dex": "940",
+  "height_m": 0.4,
+  "slug": "wattrel",
+  "types": [
+   "electric",
+   "flying"
+  ]
+ },
+ "weavile": {
+  "abilities": [
+   "pressure",
+   "pickpocket"
+  ],
+  "dex": "461",
+  "height_m": 1.1,
+  "slug": "weavile",
+  "types": [
+   "dark",
+   "ice"
+  ]
+ },
+ "weedle": {
+  "abilities": [
+   "shield-dust",
+   "run-away"
+  ],
+  "dex": "13",
+  "height_m": 0.3,
+  "slug": "weedle",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "weepinbell": {
+  "abilities": [
+   "chlorophyll",
+   "gluttony"
+  ],
+  "dex": "70",
+  "height_m": 1.0,
+  "slug": "weepinbell",
+  "types": [
+   "grass",
+   "poison"
+  ]
+ },
+ "weezing": {
+  "abilities": [
+   "levitate",
+   "neutralizing-gas",
+   "stench"
+  ],
+  "dex": "110",
+  "height_m": 1.2,
+  "slug": "weezing",
+  "types": [
+   "poison"
+  ]
+ },
+ "whimsicott": {
+  "abilities": [
+   "prankster",
+   "infiltrator",
+   "chlorophyll"
+  ],
+  "dex": "547",
+  "height_m": 0.7,
+  "slug": "whimsicott",
+  "types": [
+   "grass",
+   "fairy"
+  ]
+ },
+ "whirlipede": {
+  "abilities": [
+   "poison-point",
+   "swarm",
+   "speed-boost"
+  ],
+  "dex": "544",
+  "height_m": 1.2,
+  "slug": "whirlipede",
+  "types": [
+   "bug",
+   "poison"
+  ]
+ },
+ "whiscash": {
+  "abilities": [
+   "oblivious",
+   "anticipation",
+   "hydration"
+  ],
+  "dex": "340",
+  "height_m": 0.9,
+  "slug": "whiscash",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "whismur": {
+  "abilities": [
+   "soundproof",
+   "rattled"
+  ],
+  "dex": "293",
+  "height_m": 0.6,
+  "slug": "whismur",
+  "types": [
+   "normal"
+  ]
+ },
+ "wigglytuff": {
+  "abilities": [
+   "cute-charm",
+   "competitive",
+   "frisk"
+  ],
+  "dex": "40",
+  "height_m": 1.0,
+  "slug": "wigglytuff",
+  "types": [
+   "normal",
+   "fairy"
+  ]
+ },
+ "wiglett": {
+  "abilities": [
+   "gooey",
+   "rattled",
+   "sand-veil"
+  ],
+  "dex": "960",
+  "height_m": 1.2,
+  "slug": "wiglett",
+  "types": [
+   "water"
+  ]
+ },
+ "wimpod": {
+  "abilities": [
+   "wimp-out"
+  ],
+  "dex": "767",
+  "height_m": 0.5,
+  "slug": "wimpod",
+  "types": [
+   "bug",
+   "water"
+  ]
+ },
+ "wingull": {
+  "abilities": [
+   "keen-eye",
+   "hydration",
+   "rain-dish"
+  ],
+  "dex": "278",
+  "height_m": 0.6,
+  "slug": "wingull",
+  "types": [
+   "water",
+   "flying"
+  ]
+ },
+ "wishiwashi-solo": {
+  "abilities": [
+   "schooling"
+  ],
+  "dex": "746",
+  "height_m": 0.2,
+  "slug": "wishiwashi-solo",
+  "types": [
+   "water"
+  ]
+ },
+ "wo-chien": {
+  "abilities": [
+   "tablets-of-ruin"
+  ],
+  "dex": "1001",
+  "height_m": 1.5,
+  "slug": "wo-chien",
+  "types": [
+   "dark",
+   "grass"
+  ]
+ },
+ "wobbuffet": {
+  "abilities": [
+   "shadow-tag",
+   "telepathy"
+  ],
+  "dex": "202",
+  "height_m": 1.3,
+  "slug": "wobbuffet",
+  "types": [
+   "psychic"
+  ]
+ },
+ "woobat": {
+  "abilities": [
+   "unaware",
+   "klutz",
+   "simple"
+  ],
+  "dex": "527",
+  "height_m": 0.4,
+  "slug": "woobat",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "wooloo": {
+  "abilities": [
+   "fluffy",
+   "run-away",
+   "bulletproof"
+  ],
+  "dex": "831",
+  "height_m": 0.6,
+  "slug": "wooloo",
+  "types": [
+   "normal"
+  ]
+ },
+ "wooper": {
+  "abilities": [
+   "damp",
+   "water-absorb",
+   "unaware"
+  ],
+  "dex": "194",
+  "height_m": 0.4,
+  "slug": "wooper",
+  "types": [
+   "water",
+   "ground"
+  ]
+ },
+ "wormadam-plant": {
+  "abilities": [
+   "anticipation",
+   "overcoat"
+  ],
+  "dex": "413",
+  "height_m": 0.5,
+  "slug": "wormadam-plant",
+  "types": [
+   "bug",
+   "grass"
+  ]
+ },
+ "wugtrio": {
+  "abilities": [
+   "gooey",
+   "rattled",
+   "sand-veil"
+  ],
+  "dex": "961",
+  "height_m": 1.2,
+  "slug": "wugtrio",
+  "types": [
+   "water"
+  ]
+ },
+ "wurmple": {
+  "abilities": [
+   "shield-dust",
+   "run-away"
+  ],
+  "dex": "265",
+  "height_m": 0.3,
+  "slug": "wurmple",
+  "types": [
+   "bug"
+  ]
+ },
+ "wynaut": {
+  "abilities": [
+   "shadow-tag",
+   "telepathy"
+  ],
+  "dex": "360",
+  "height_m": 0.6,
+  "slug": "wynaut",
+  "types": [
+   "psychic"
+  ]
+ },
+ "wyrdeer": {
+  "abilities": [
+   "intimidate",
+   "frisk",
+   "sap-sipper"
+  ],
+  "dex": "899",
+  "height_m": 1.8,
+  "slug": "wyrdeer",
+  "types": [
+   "normal",
+   "psychic"
+  ]
+ },
+ "xatu": {
+  "abilities": [
+   "synchronize",
+   "early-bird",
+   "magic-bounce"
+  ],
+  "dex": "178",
+  "height_m": 1.5,
+  "slug": "xatu",
+  "types": [
+   "psychic",
+   "flying"
+  ]
+ },
+ "xerneas": {
+  "abilities": [
+   "fairy-aura"
+  ],
+  "dex": "716",
+  "height_m": 3.0,
+  "slug": "xerneas",
+  "types": [
+   "fairy"
+  ]
+ },
+ "xurkitree": {
+  "abilities": [
+   "beast-boost"
+  ],
+  "dex": "796",
+  "height_m": 3.8,
+  "slug": "xurkitree",
+  "types": [
+   "electric"
+  ]
+ },
+ "yamask": {
+  "abilities": [
+   "mummy"
+  ],
+  "dex": "562",
+  "height_m": 0.5,
+  "slug": "yamask",
+  "types": [
+   "ghost"
+  ]
+ },
+ "yamper": {
+  "abilities": [
+   "ball-fetch",
+   "rattled"
+  ],
+  "dex": "835",
+  "height_m": 0.3,
+  "slug": "yamper",
+  "types": [
+   "electric"
+  ]
+ },
+ "yanma": {
+  "abilities": [
+   "speed-boost",
+   "compound-eyes",
+   "frisk"
+  ],
+  "dex": "193",
+  "height_m": 1.2,
+  "slug": "yanma",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "yanmega": {
+  "abilities": [
+   "speed-boost",
+   "tinted-lens",
+   "frisk"
+  ],
+  "dex": "469",
+  "height_m": 1.9,
+  "slug": "yanmega",
+  "types": [
+   "bug",
+   "flying"
+  ]
+ },
+ "yungoos": {
+  "abilities": [
+   "stakeout",
+   "strong-jaw",
+   "adaptability"
+  ],
+  "dex": "734",
+  "height_m": 0.4,
+  "slug": "yungoos",
+  "types": [
+   "normal"
+  ]
+ },
+ "yveltal": {
+  "abilities": [
+   "dark-aura"
+  ],
+  "dex": "717",
+  "height_m": 5.8,
+  "slug": "yveltal",
+  "types": [
+   "dark",
+   "flying"
+  ]
+ },
+ "zacian": {
+  "abilities": [
+   "intrepid-sword"
+  ],
+  "dex": "888",
+  "height_m": 2.8,
+  "slug": "zacian",
+  "types": [
+   "fairy"
+  ]
+ },
+ "zamazenta": {
+  "abilities": [
+   "dauntless-shield"
+  ],
+  "dex": "889",
+  "height_m": 2.9,
+  "slug": "zamazenta",
+  "types": [
+   "fighting"
+  ]
+ },
+ "zangoose": {
+  "abilities": [
+   "immunity",
+   "toxic-boost"
+  ],
+  "dex": "335",
+  "height_m": 1.3,
+  "slug": "zangoose",
+  "types": [
+   "normal"
+  ]
+ },
+ "zapdos": {
+  "abilities": [
+   "pressure",
+   "static"
+  ],
+  "dex": "145",
+  "height_m": 1.6,
+  "slug": "zapdos",
+  "types": [
+   "electric",
+   "flying"
+  ]
+ },
+ "zarude": {
+  "abilities": [
+   "leaf-guard"
+  ],
+  "dex": "893",
+  "height_m": 1.8,
+  "slug": "zarude",
+  "types": [
+   "dark",
+   "grass"
+  ]
+ },
+ "zebstrika": {
+  "abilities": [
+   "lightning-rod",
+   "motor-drive",
+   "sap-sipper"
+  ],
+  "dex": "523",
+  "height_m": 1.6,
+  "slug": "zebstrika",
+  "types": [
+   "electric"
+  ]
+ },
+ "zekrom": {
+  "abilities": [
+   "teravolt"
+  ],
+  "dex": "644",
+  "height_m": 2.9,
+  "slug": "zekrom",
+  "types": [
+   "dragon",
+   "electric"
+  ]
+ },
+ "zeraora": {
+  "abilities": [
+   "volt-absorb"
+  ],
+  "dex": "807",
+  "height_m": 1.5,
+  "slug": "zeraora",
+  "types": [
+   "electric"
+  ]
+ },
+ "zigzagoon": {
+  "abilities": [
+   "pickup",
+   "gluttony",
+   "quick-feet"
+  ],
+  "dex": "263",
+  "height_m": 0.4,
+  "slug": "zigzagoon",
+  "types": [
+   "normal"
+  ]
+ },
+ "zoroark": {
+  "abilities": [
+   "illusion"
+  ],
+  "dex": "571",
+  "height_m": 1.6,
+  "slug": "zoroark",
+  "types": [
+   "dark"
+  ]
+ },
+ "zorua": {
+  "abilities": [
+   "illusion"
+  ],
+  "dex": "570",
+  "height_m": 0.7,
+  "slug": "zorua",
+  "types": [
+   "dark"
+  ]
+ },
+ "zubat": {
+  "abilities": [
+   "inner-focus",
+   "infiltrator"
+  ],
+  "dex": "41",
+  "height_m": 0.8,
+  "slug": "zubat",
+  "types": [
+   "poison",
+   "flying"
+  ]
+ },
+ "zweilous": {
+  "abilities": [
+   "hustle"
+  ],
+  "dex": "634",
+  "height_m": 1.4,
+  "slug": "zweilous",
+  "types": [
+   "dark",
+   "dragon"
+  ]
+ },
+ "zygarde-50": {
+  "abilities": [
+   "aura-break"
+  ],
+  "dex": "718",
+  "height_m": 5.0,
+  "slug": "zygarde-50",
+  "types": [
+   "dragon",
+   "ground"
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Bản Cập Nhật Pokemon Arena v4.1.2-ver2e</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.6; margin: 0; padding: 2rem; }
+    .container { max-width: 900px; margin: 0 auto; background: #1e293b; padding: 2.5rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+    h1 { color: #f59e0b; border-bottom: 2px solid #334155; padding-bottom: 0.8rem; margin-top: 0; }
+    h2 { color: #38bdf8; margin-top: 1.8rem; border-bottom: 1px solid #334155; padding-bottom: 0.4rem; }
+    h3 { color: #a78bfa; margin-top: 1.2rem; }
+    ul { padding-left: 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+    code { background: #0f172a; color: #fbbf24; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
+    .badge { display: inline-block; background: #10b981; color: white; padding: 0.2rem 0.6rem; border-radius: 9999px; font-weight: bold; font-size: 0.8rem; margin-left: 0.5rem; }
+    .badge-fix { background: #ef4444; }
+    .badge-up { background: #6366f1; }
+    .card { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 1.2rem; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pokemon Arena v4.1.2-ver2e <span class="badge">Bản Hoàn Thiện</span></h1>
+    <p>Bản cập nhật lớn khắc phục triệt để lỗi phòng (Room/Boundary), hoàn thiện quy hoạch căn cứ (Base Plaza), nạp đầy đủ 100% chiêu thức cho 33 Starter từ v3.4.16, và bổ sung hoạt ảnh xuất chiêu chân thực cho toàn bộ Pokémon.</p>
+
+    <h2>1. Khắc Phục Lỗi Mở Rộng Map & Ổn Định Toàn Bộ Room <span class="badge badge-fix">Sửa Lỗi</span></h2>
+    <ul>
+      <li><strong>Hoàn nguyên khung địa hình chuẩn 160x160:</strong> Việc thử nghiệm nới rộng 192x192 trước đó làm lệch vùng biên giới hạn của engine, khiến các căn phòng ở góc biên như Darkrai Room (Tây), Celebi Room (Đông), phòng thi đấu Gym (Bắc) và các hang Boss bị lỗi đường đi (Pathing) và góc quay Camera.</li>
+      <li><strong>Sửa lỗi 100%:</strong> Bản ver2e đưa khung địa hình và camera bounds về chuẩn vững chắc <code>[-10240, 10240]</code>, khôi phục toàn bộ tính ổn định cho tất cả phòng, giải đấu League và hang động thần thú.</li>
+    </ul>
+
+    <h2>2. Nâng Cấp 1: Quy Hoạch Lại Căn Cứ Rộng Rãi & Ngăn Nắp <span class="badge badge-up">Căn Cứ</span></h2>
+    <div class="card">
+      <ul>
+        <li><strong>Giải phóng mặt tiền Poké Center:</strong> Dời Tiệm Rèn Thần Bí (<code>MYTHIC FORGE</code>) ra khỏi cửa xe đỏ. Trước mặt Poké Center giờ đây hoàn toàn thông thoáng, không còn bị mô hình che chắn hay cản trở lối vào hồi phục.</li>
+        <li><strong>Quy hoạch dãy cửa hàng phía Nam (Y = -544):</strong> Gom 3 trạm Mega Shop, Form Shop (nhà xanh lá) và Paradox Shop (nhà tím) thành một hàng ngang thẳng thớm sát chân tường Nam. Không còn nhà nào đứng lơ lửng giữa đường đi.</li>
+        <li><strong>Bố cục sân trung tâm cân xứng:</strong>
+          <ul>
+            <li><code>MYTHIC FORGE</code> (Tiệm Rèn): Đặt tại góc Đông - Bắc bãi cỏ (<code>X = -5340, Y = +220</code>).</li>
+            <li><code>MOVES NPC</code> (Học Chiêu): Đặt đối xứng tại góc Đông - Nam bãi cỏ (<code>X = -5340, Y = -220</code>).</li>
+            <li>Khoảng sân trung tâm (<code>X = -5500, Y = 0</code>) hoàn toàn trống trải, rộng rãi cho người chơi xuất hiện và PK.</li>
+          </ul>
+        </li>
+        <li><strong>Cụm Đấu Trường & Dịch Chuyển:</strong> Cổng Gym (<code>Y = 640</code>) và Cổng League (<code>Y = 460</code>) nằm cạnh nhau gọn gàng ở góc Đông - Bắc. Vòng tròn ma thuật Haunt Legendary nằm riêng biệt ở góc Đông - Nam.</li>
+      </ul>
+    </div>
+
+    <h2>3. Nâng Cấp 2: Nạp 100% Chiêu Thức Chuẩn Cho 33 Starter & Tự Động Cấp Chiêu Cấp 1 <span class="badge badge-up">Kỹ Năng</span></h2>
+    <div class="card">
+      <ul>
+        <li><strong>Khôi phục 1.578 định nghĩa chiêu thức:</strong> Tái lập <code>Fx_AddLv</code> và <code>Fx_AddTm</code>, trích xuất nguyên vẹn toàn bộ cây kỹ năng tăng cấp và danh sách đĩa học chiêu (TM) từ bản v3.4.16 cho cả 33 Starter (Gen 2-7: Totodile, Froakie, Greninja, Torchic, Blaziken, Treecko, Sceptile, Lucario, Decidueye...).</li>
+        <li><strong>Tự động cấp chiêu ban đầu (Cấp 1):</strong> Ngay khi vừa chọn hoặc nhận ngẫu nhiên Pokémon, hệ thống tự động gán ngay 1-2 chiêu khởi đầu đặc trưng (như Tackle, Scratch, Water Gun, Ember, Pound...) vào các phím tắt [Q, W]. Người chơi có thể chiến đấu ngay lập tức mà không cần chạy đi tìm NPC để mua.</li>
+        <li><strong>Tự động học chiêu khi lên cấp:</strong> Hệ thống <code>Mv_Sync</code> tự động mở khóa các chiêu thức mới khi đạt cấp độ yêu cầu.</li>
+      </ul>
+    </div>
+
+    <h2>4. Nâng Cấp 3: Hoạt Ảnh Xuất Chiêu Chân Thực Cho Mọi Pokémon <span class="badge badge-up">Animation</span></h2>
+    <div class="card">
+      <ul>
+        <li><strong>Chiêu Vật Lý (Physical):</strong> Đấm, đá, cào, cắn, húc (Tackle, Iron Tail, Close Combat...) $\rightarrow$ Pokémon lập tức tung động tác tấn công vật lý (<code>attack</code>).</li>
+        <li><strong>Chiêu Đặc Biệt (Special / Ranged):</strong> Phóng sét, phun lửa, bắn nước, sóng tâm linh (Thunderbolt, Flamethrower, Surf, Solar Beam...) $\rightarrow$ Pokémon thực hiện động tác vận nội công / phóng phép thuật (<code>spell</code>).</li>
+        <li><strong>Chuyển động mượt mà:</strong> Sau khi tung chiêu, Pokémon tự động chuyển mượt về thế thủ (<code>stand</code>), chấm dứt hoàn toàn tình trạng đứng đờ như tượng gỗ khi xả chưởng.</li>
+      </ul>
+    </div>
+
+    <h2>5. Hoàn Thiện Việt Hóa 100% Thông Báo Đầu Trận</h2>
+    <ul>
+      <li>Việt hóa thông báo khởi động của Host: <code>-random</code> phát ngẫu nhiên, tự động chọn sau 45s, lệnh đổi <code>-repick</code> trong 2 phút đầu trận.</li>
+      <li>Việt hóa thông báo tiện ích: Lệnh dịch chuyển về nhà <code>-tp</code>, <code>-home</code>, vật phẩm Dây Thoát Hiểm (<code>Escape Rope</code>), và hướng dẫn vào giải đấu Pokémon League.</li>
+      <li>Toàn bộ tên Pokémon và tên Chiêu Thức được bảo tồn 100% nguyên bản tiếng Anh chuẩn quốc tế.</li>
+    </ul>
+
+    <h2>6. Tổng Hợp File</h2>
+    <ul>
+      <li>File bản đồ chính thức: <code>Pokemon Arena v4.1.2-ver2e.w3x</code> (Dung lượng: 159.0 MB)</li>
+      <li>Trình biên dịch: <code>pjass.exe</code> Reforged kiểm tra 122.102 dòng JASS, <strong>0 lỗi cú pháp</strong>.</li>
+    </ul>
+  </div>
+</body>
+</html>

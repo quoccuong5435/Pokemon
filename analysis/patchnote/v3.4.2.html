@@ -1,0 +1,159 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Pokemon Arena - Patch Note v3.4.2</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#12151c;color:#e6e8ee;line-height:1.45}
+header{padding:24px 32px;background:linear-gradient(90deg,#c0392b,#8e44ad)}h1{margin:0}
+header p{margin:6px 0 0;opacity:.92}
+main{max-width:1200px;margin:auto;padding:16px 24px 40px}
+h2{margin:28px 0 10px;border-bottom:1px solid #2a3140;padding-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stats div{background:#1d222d;border-radius:10px;padding:10px 14px}
+.stats b{display:block;font-size:22px;color:#ffd166}.stats small{color:#8a93a6}
+.pn{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.pn>div{background:#1d222d;border-radius:10px;padding:12px 16px}.pn h3{margin:0 0 6px;color:#ffd166}
+.pn li{margin:5px 0;font-size:14px}.pn ul{padding-left:20px;margin:6px 0}
+.v{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;padding:0 6px;margin-right:4px;vertical-align:1px}
+.v33{background:#2e5d8a}.v340{background:#7a3e9d}.v341{background:#9d6a1f}.v342{background:#2f7d4f}
+table{border-collapse:collapse;font-size:13px;margin:6px 0}td,th{border:1px solid #333b4b;padding:3px 8px;text-align:center}
+th{background:#262c39}.old{color:#8a93a6}.note{background:#2a2333;border-left:4px solid #c0392b;padding:10px 14px;border-radius:6px;font-size:14px}
+.legend span{margin-right:10px}
+</style>
+<header>
+<h1>Pokemon Arena — Patch Note v3.4.2</h1>
+<p>Tổng hợp chức năng của map <b>Pokemon Arena v3.4.2.w3x</b> (build 08/11/2026, 110,4 MB), so với <b>v3.2.16</b>.</p>
+</header>
+<main>
+
+<p class="legend">Nhãn cho biết bản nào thêm vào:
+<span><span class="v v33">3.3</span>3.2.17 – 3.3.3</span>
+<span><span class="v v340">3.4.0</span></span>
+<span><span class="v v341">3.4.1</span></span>
+<span><span class="v v342">3.4.2</span></span></p>
+
+<p class="note">3.4.2 thuộc <b>dòng cũ</b> (build ở máy này từ map 3.3.3). Dòng 3.4.10 → 3.4.16 tách ra từ 3.4.0 nên <b>không có</b> các sửa của 3.4.1 – 3.4.2 ở dưới.
+Mã nguồn 3.2.17 – 3.3.3 không còn: phần <span class="v v33">3.3</span> được đọc lại từ script của map.</p>
+
+<h2>Con số</h2>
+<div class="stats">
+<div><b>848</b><small>unit (3.2.16: 621, +227)</small></div>
+<div><b>437</b><small>item (3.2.16: 196, +241)</small></div>
+<div><b>33</b><small>Mega (3.2.16: 25)</small></div>
+<div><b>73</b><small>Ability Pokémon (3.2.16: 68)</small></div>
+<div><b>+211</b><small>loài quái hoang, mỗi loài có Soul</small></div>
+<div><b>15</b><small>huyền thoại ngẫu nhiên (3.2.16: 13)</small></div>
+<div><b>319</b><small>move, 249 move đổi dạng chiêu</small></div>
+<div><b>+103</b><small>hàm JASS mới, 55 hàm sửa</small></div>
+</div>
+
+<h2>Thay đổi</h2>
+<div class="pn">
+
+<div><h3>Gym và level cap</h3><ul>
+<li><span class="v v33">3.3</span><b>Mốc level theo cặp gym</b> (3.2.16: cap = 30 + 10 × số huy hiệu):
+<table><tr><th>Mốc</th><th>Điều kiện</th><th>Level tối đa</th><th>Được đánh</th></tr>
+<tr><td>1</td><td>bắt đầu</td><td>30</td><td>Gym 1–2</td></tr>
+<tr><td>2</td><td>xong Gym 1 + 2</td><td>50</td><td>Gym 1–4</td></tr>
+<tr><td>3</td><td>xong Gym 3 + 4</td><td>70</td><td>Gym 1–6</td></tr>
+<tr><td>4</td><td>xong Gym 5 + 6</td><td>90</td><td>Gym 1–8</td></tr>
+<tr><td>5</td><td>đủ 8 gym</td><td>100</td><td>—</td></tr></table>
+Vượt mốc bị trừ level. Vào gym chưa mở thì có thông báo "Gym X is locked". Gõ <code>-badges</code> để xem mốc của mọi người.</li>
+<li><span class="v v33">3.3</span>Pokémon gym: máu x0,8, chỉ rơi huy hiệu (không rơi item hệ nữa).</li>
+<li><span class="v v340">3.4.0</span><b>Đội 6 con chọn sẵn lúc bắt đầu:</b> 6 dòng tiến hóa khác nhau (112 loài), form đúng theo level; con 1–5 thấp hơn bạn 5..1 level, con 6 bằng level bạn, có hệ khắc bạn và dùng chiêu hệ đó (trước: thấp hơn 30..10 level).</li>
+<li><span class="v v340">3.4.0</span>Vào gym được hồi đầy máu và mana. Thua thì đấu lại ngay; clear xong chỉ người vừa clear phải chờ 5 giây.</li>
+<li><span class="v v340">3.4.0</span>Pokémon gym dùng 5 skill theo hệ.</li>
+<li><span class="v v341">3.4.1</span>Tiến hóa giữa trận không còn làm reset gym. Người thứ hai đến gym đang có người đánh thì được báo.</li>
+<li><span class="v v342">3.4.2</span>Sửa gym kẹt kiểu "3/6, không thấy quái": mỗi lượt ra quân chạy riêng, có con thay thế khi một chỗ bị trống, xử lý con đã chết hoặc đi lạc. Lệnh mới <code>-gym</code> xem trạng thái gym.</li>
+<li><span class="v v342">3.4.2</span><b>Gym 1–4 dễ hơn:</b>
+<table><tr><th>Gym</th><th>Máu</th><th>Sát thương</th><th>Dùng skill</th><th>Đánh nhanh x1,7</th></tr>
+<tr><td>1</td><td>x0,35</td><td>x0,45</td><td>x0,25</td><td>không</td></tr>
+<tr><td>2</td><td>x0,45</td><td>x0,55</td><td>x0,25</td><td>không</td></tr>
+<tr><td>3</td><td>x0,70</td><td>x0,75</td><td>x0,45</td><td>không</td></tr>
+<tr><td>4</td><td>x0,85</td><td>x0,85</td><td>x0,45</td><td>không</td></tr>
+<tr><td>5–8, League</td><td>x1</td><td>x1</td><td>x0,6</td><td>có</td></tr></table></li>
+</ul></div>
+
+<div><h3>Elite Four và Champion</h3><ul>
+<li><span class="v v340">3.4.0</span>Đủ 8 huy hiệu: bước vào vòng sân hoặc gõ <code>-league</code>. Đánh 5 trận liên tiếp: <b>Will</b> (Psychic), <b>Koga</b> (Poison), <b>Bruno</b> (Fighting), <b>Karen</b> (Dark), <b>Lance</b> (Dragon). Đội của Lance tự Mega khi còn 50% máu.</li>
+<li><span class="v v340">3.4.0</span>Thua: chờ 60 giây mới đấu lại.</li>
+<li><span class="v v340">3.4.0</span>Thắng Lance được danh hiệu <b>[Champion]</b>: +15% STR / AGI / INT, Champion Aura (đồng minh trong tầm 800 gây thêm 10% và nhận ít hơn 10% sát thương), 10000 vàng, Mega Ring, Shiny Charm (shiny 1/20). Cả map được thông báo.</li>
+<li><span class="v v342">3.4.2</span><b>League chuyển vào phòng cũ của Darkrai</b> (góc tây): nền mới (sân tròn đá trắng, lối đi lát gạch, sảnh), 5 tượng đá (Espeon, Weezing, Machamp, Umbreon, Dragonite) có tên từng Elite Four.
+<ul><li>Cổng vào ở mỗi căn cứ, cạnh Item Shop; item <b>Pokemon League</b> (dịch chuyển) ở shop Haunt Legendary.</li>
+<li>Cổng ra ở sảnh, về đúng căn cứ của mình.</li>
+<li class="old">3.4.0 – 3.4.1 đấu ở sân gym 8.</li></ul></li>
+</ul></div>
+
+<div><h3>Chiến đấu</h3><ul>
+<li><span class="v v33">3.3</span><b>Máu Pokémon người chơi còn 1/5:</b> máu gốc = chỉ số HP × 20 thay vì × 100 (đổi ở cả 301 loài; ví dụ Blastoise 7900 → 1580).</li>
+<li><span class="v v33">3.3</span>Sửa lỗi của 3.2.16 làm đánh thường yếu (bị trừ mất chỉ số chính): đánh thường nay là 0,8–1,2 × chỉ số chính.</li>
+<li><span class="v v33">3.3</span><b>Dạng chiêu theo đúng hình dạng move</b> (một mục tiêu / đường thẳng / hình nón / quanh mình), dựa vào tên move; trước đây chỉ theo sức mạnh nên đa số move mạnh thành đường thẳng. 249 / 319 move đổi dạng. Ví dụ Absorb: trúng 4 địch → trói 3 giây và hút máu mỗi giây.</li>
+<li><span class="v v33">3.3</span>Bẫy và môi trường ở vùng huyền thoại chỉ còn gây 20% sát thương.</li>
+<li><span class="v v340">3.4.0</span><b>Tốc đánh x1,7</b> cho Pokémon của người chơi.</li>
+<li><span class="v v340">3.4.0</span><b>Khắc hệ theo hệ của chiêu:</b> x2 / x0,5, miễn nhiễm vẫn nhận 25%; tối đa x2 dù khắc kép. Hiện chữ "Super effective!". Khi Mega dùng hệ Mega; Darmanitan Zen Mode là Fire / Psychic.</li>
+<li><span class="v v340">3.4.0</span><b>73 Ability:</b> làm lại 68 Ability cũ, thêm Super Luck, Strong Jaw, Solar Power, Skill Link, Zen Mode. 21 Pokémon chưa có Ability đã được gán. Khi Mega, game báo Ability của dạng Mega.</li>
+<li><span class="v v340">3.4.0</span>Elite, Pokémon gym và huyền thoại <b>dùng 5 skill theo hệ</b>; trước đây AI quái không dùng skill hero nên quái luôn đầy mana.</li>
+<li><span class="v v341">3.4.1</span>Mỗi Pokémon giữ tối đa 1 move cho mỗi loại skill gốc, để mỗi nút ra đúng chiêu của nút đó (sửa lỗi phím Q ra chiêu của ô E / W).</li>
+</ul></div>
+
+<div><h3>Mega Evolution</h3><ul>
+<li><span class="v v33">3.3</span><b>Mega bằng cách bấm Mega Stone trong túi</b> (bỏ nút Mega trên bảng lệnh). Nếu không Mega được thì báo lý do: sai loài, đang Mega, hoặc đá đang hồi (còn bao nhiêu giây).</li>
+<li><span class="v v33">3.3</span>Quái hoang thường không còn rơi Mega Stone; đá mua ở Mega Shop.</li>
+<li><span class="v v340">3.4.0</span><b>8 Mega mới</b>, đá bán ở Mega Shop: Slowbro, Sharpedo, Ampharos, Houndoom, Aerodactyl, Manectric, Heracross, Altaria (tổng 33 Mega).</li>
+<li><span class="v v340">3.4.0</span>Elite của loài có Mega: 25% xuất hiện ở dạng Mega (máu và sát thương thêm x1,2), 5% rơi đá Mega của nó.</li>
+<li><span class="v v340">3.4.0</span>Mewtwo và Rayquaza (ở chỗ cố định) Mega khi còn 50% máu.</li>
+<li><span class="v v340">3.4.0</span>Mega Ring: Mega kéo dài 90 giây thay vì 60, đá hồi nhanh hơn 30%.</li>
+<li><span class="v v340">3.4.0</span>5 Mega chưa có model riêng (Beedrill, Kangaskhan, Mewtwo X / Y, Rayquaza): to hơn, đổi màu, có hào quang.</li>
+</ul></div>
+
+<div><h3>Pokémon, quái hoang, huyền thoại</h3><ul>
+<li><span class="v v340">3.4.0</span><b>Pokémon mới chơi được:</b> Meganium (Bayleef lv 32), Porygon2 (Porygon lv 50), Darmanitan Zen Mode.</li>
+<li><span class="v v340">3.4.0</span><b>+211 loài quái hoang</b> (kể cả form Alola), mỗi loài có Soul riêng (elite rơi 20%).</li>
+<li><span class="v v340">3.4.0</span>Máu quái tính theo bảng sức mạnh × bậc tier. Khi tier tăng, quái tiến hóa lên form kế tiếp của chính nó.</li>
+<li><span class="v v340">3.4.0</span><b>Shiny 1/100</b> khi pick, khi <code>-random</code> hoặc khi dùng Soul: đổi màu, +10% STR / AGI / INT, cả map được thông báo.</li>
+<li><span class="v v340">3.4.0</span>Huyền thoại ngẫu nhiên mới: <b>Latias &amp; Latios</b>.</li>
+<li><span class="v v342">3.4.2</span><b>Darkrai</b> không còn ở phòng riêng mà thành huyền thoại ngẫu nhiên (Soul riêng). Darkrai xuất hiện ở phút 31 như v1.8 vẫn giữ.</li>
+<li class="old">Huyền thoại ngẫu nhiên (15): Regigigas, Zapdos, Dialga, Palkia, Raikou, Entei, Suicune, Ho-Oh, Regirock, Kyogre, Jirachi, Groudon, Buzzwole, Latias &amp; Latios, Darkrai. Cứ 3 phút xuất hiện một con, chỉ Pokémon lv 100 gây được sát thương, hạ xong chắc chắn rơi Soul.</li>
+</ul></div>
+
+<div><h3>Item và shop</h3><ul>
+<li><span class="v v33">3.3</span><b>Giới hạn túi:</b> tối đa 4 huy hiệu và 2 item tăng chỉ số (item hệ, Leaf Tover, Shell Bell, Mega Stone...). Soul không bị giới hạn.</li>
+<li><span class="v v33">3.3</span>Mỗi nhà có một <b>Moves NPC</b> riêng (3.2.16 chỉ có 1 NPC chung ngoài map). Mega Shop I / II / III dời vào trong nhà, hàng dưới Poke Center; các shop trong nhà xếp lại thành 2 hàng.</li>
+<li><span class="v v340">3.4.0</span><b>Battle Shop</b> (12 item cầm theo, mỗi Pokémon tối đa 3): Life Orb (+30% sát thương, mỗi đòn mất 1% máu), Choice Band (+35% đánh thường), Choice Specs (+35% chiêu), Choice Scarf (+30% tốc chạy, +20% tốc đánh), Leftovers (hồi 1% máu/giây), Focus Sash (còn 1 máu thay vì gục, 60 giây/lần), Expert Belt (+25% khi khắc hệ), Rocky Helmet, Assault Vest (-25% sát thương chiêu), Scope Lens (15% chí mạng x1,5), King's Rock (10% choáng 1 giây), Eviolite (-20% sát thương nếu còn tiến hóa được).</li>
+<li><span class="v v340">3.4.0</span><b>Item Shop</b> (9 item): Lucky Egg (+50% kinh nghiệm), Amulet Coin (+50% vàng), Everstone (không tiến hóa), Sitrus Berry, Lum Berry, Escape Rope (về nhà sau 3 giây), Mega Ring, Ice Stone, Shiny Stone.</li>
+<li><span class="v v340">3.4.0</span>Đá tiến hóa: 8 nhánh của Eevee (thêm Glaceon, Sylveon) và đá cho các loài khác (Togetic → Togekiss).</li>
+<li><span class="v v341">3.4.1</span>Sửa Amulet Coin không cộng vàng.</li>
+<li><span class="v v342">3.4.2</span>Battle Shop và Item Shop đặt cố định giữa hai hàng shop của căn cứ (ở 3.4.0 / 3.4.1 có thể không đặt được).</li>
+<li><span class="v v342">3.4.2</span><b>Item hệ đủ 18 hệ:</b> Soft Sand (Ground) ở Super Mart 1, Pixie Plate (Fairy) ở Super Mart 2, giá 3000.</li>
+<li><span class="v v342">3.4.2</span>Onix và Scyther mua được Metal Coat để tiến hóa, dù không phải hệ Steel.</li>
+</ul></div>
+
+<div><h3>Thế giới và giao diện</h3><ul>
+<li><span class="v v340">3.4.0</span><b>Thời tiết đổi mỗi 5 phút:</b> trời quang; mưa (Water +30%, Fire -30%); nắng gắt (Fire +30%, Water -30%); bão cát (Pokémon không phải Rock / Ground / Steel mất máu); mưa đá (Pokémon không phải Ice mất máu). Ability Swift Swim, Chlorophyll, Sand Veil, Snow Cloak có tác dụng theo thời tiết.</li>
+<li><span class="v v340">3.4.0</span><b>Icon chiêu khớp tên chiêu:</b> 278 move có icon theo tên, 41 move theo hệ.</li>
+<li><span class="v v340">3.4.0</span>Model mới lấy từ PKLegends: 8 Mega, Meganium, Porygon2, Latias &amp; Latios, Darmanitan Zen.</li>
+<li><span class="v v33">3.3</span>Quest F9 mới "Gym &amp; Level" giải thích mốc level; hướng dẫn Mega và Learned Moves được cập nhật.</li>
+</ul></div>
+
+<div><h3>Lệnh chat mới</h3><ul>
+<li><span class="v v340">3.4.0</span><code>-league</code>: thách đấu Elite Four (cần 8 huy hiệu).</li>
+<li><span class="v v342">3.4.2</span><code>-gym</code>: trạng thái gym bạn đang đánh (hoặc mọi gym đang bận).</li>
+<li class="old">Vẫn giữ: <code>-badges</code>, <code>-moves</code>, <code>-random</code>, <code>-repick</code>.</li>
+</ul></div>
+
+<div><h3>Đã bỏ so với 3.2.16</h3><ul>
+<li><span class="v v33">3.3</span>Nút Mega trên bảng lệnh (thay bằng bấm đá).</li>
+<li><span class="v v33">3.3</span>Elite quái hoang rơi Mega Stone ngẫu nhiên của cả map (3.4.0 thay bằng: elite dạng Mega rơi đúng đá của nó, 5%).</li>
+<li><span class="v v33">3.3</span>Level cap 30 + 10 × số huy hiệu (thay bằng mốc theo cặp gym).</li>
+<li><span class="v v342">3.4.2</span>Phòng riêng của Darkrai (thành phòng League).</li>
+</ul></div>
+
+</div>
+
+<h2>Chưa kiểm tra trong game</h2>
+<ul>
+<li>Hiệu ứng thời tiết hiện đúng chưa.</li>
+<li>Hình dạng Mega của elite và huyền thoại.</li>
+<li>Bản sửa gym kẹt: nếu còn kẹt, gõ <code>-gym</code> và chụp lại kết quả.</li>
+<li>Phòng League: cổng vào / ra, tượng, chữ tên Elite Four, nền mới.</li>
+</ul>
+
+</main></html>

@@ -1,0 +1,142 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Pokemon Arena - Patch Note v4.1.2-ver2c</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#12151c;color:#e6e8ee;line-height:1.45}
+header{padding:24px 32px;background:linear-gradient(90deg,#1f6f5c,#c0392b,#8e44ad)}h1{margin:0}
+header p{margin:6px 0 0;opacity:.92}
+main{max-width:1200px;margin:auto;padding:16px 24px 40px}
+h2{margin:28px 0 10px;border-bottom:1px solid #2a3140;padding-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stats div{background:#1d222d;border-radius:10px;padding:10px 14px}
+.stats b{display:block;font-size:22px;color:#ffd166}.stats small{color:#8a93a6}
+.pn{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.pn>div{background:#1d222d;border-radius:10px;padding:12px 16px}.pn h3{margin:0 0 6px;color:#ffd166}
+.pn li{margin:5px 0;font-size:14px}.pn ul{padding-left:20px;margin:6px 0}
+.wide{grid-column:1/-1}
+.v{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;padding:0 6px;margin-right:4px;vertical-align:1px;white-space:nowrap}
+.v2c{background:#2f7d4f}.v2b{background:#2e5d8a}.v412{background:#7a3e9d}
+table{border-collapse:collapse;font-size:13px;margin:6px 0;width:100%}td,th{border:1px solid #333b4b;padding:4px 8px;text-align:left;vertical-align:top}
+th{background:#262c39}td.c,th.c{text-align:center}.old{color:#8a93a6}
+.note{background:#2a2333;border-left:4px solid #2f7d4f;padding:10px 14px;border-radius:6px;font-size:14px}
+code{background:#262c39;border-radius:4px;padding:0 4px}
+</style>
+<header>
+<h1>Pokemon Arena — Patch Note v4.1.2-ver2c</h1>
+<p>Bản tổng hợp nâng cấp toàn diện cho map <b>Pokemon Arena v4.1.2-ver2c.w3x</b> (build 21/11/2026, 159,0 MB). Biên dịch qua pjass đạt <b>0 lỗi</b>, vượt qua toàn bộ 6 test suite xác thực.</p>
+</header>
+<main>
+
+<div class="stats">
+<div><b>192 x 192</b><small>kích thước bản đồ (+44% diện tích)</small></div>
+<div><b>+33</b><small>starter Gen 2–7 chơi được & có Soul</small></div>
+<div><b>18</b><small>buff icon trạng thái & bậc chỉ số trực quan</small></div>
+<div><b>10</b><small>move trạng thái mới (+9 debuff, Transform)</small></div>
+<div><b>105.451</b><small>dòng script JASS (pjass 0 lỗi)</small></div>
+<div><b>159,0 MB</b><small>dung lượng map hoàn chỉnh</small></div>
+</div>
+
+<h2>Những thay đổi nổi bật trong bản v4.1.2-ver2c</h2>
+<div class="pn">
+
+<div class="wide"><h3>1. Mở rộng kích thước bản đồ lên 192 x 192 ô tile</h3>
+<ul>
+<li><b>Tăng +44% diện tích:</b> Bản đồ được nới rộng từ 160x160 (25.600 tile) lên <b>192x192 (36.864 tile)</b>, bổ sung hơn 11.200 ô đất mới.</li>
+<li><b>Mở rộng đều 4 phía (Centered Expansion):</b>
+Gốc tọa độ trung tâm <code>(0, 0)</code> giữ nguyên vị trí. Toàn bộ Altar giữa map, hai căn cứ, 8 Gym, phòng đấu League và 55 bãi quái rừng giữ nguyên 100% tọa độ thực tế.</li>
+<li><b>Vành đai sự kiện mới:</b> Tạo một vành đai đất rộng 16 ô tile (2.048 units) quanh 4 cạnh bản đồ, chuẩn bị mặt bằng sẵn sàng cho các sự kiện tương lai (Tera Raid, Đảo săn bắt Safari, Căn cứ ngầm Team Rocket, Đỉnh núi Mt. Silver).</li>
+<li><b>Camera Bounds:</b> Cập nhật trường nhìn camera bao quát vùng mở rộng <code>[-12288, 12288]</code>.</li>
+</ul></div>
+
+<div><h3>2. Quy hoạch lại mặt bằng Căn cứ (Base Courtyard)</h3>
+<ul>
+<li><b>Giải phóng hoàn toàn khu trung tâm (-5568, 0):</b> Dời đống lửa và tượng rèn ra khỏi điểm hồi sinh/teleport về nhà. Sân trung tâm phẳng phiu, sạch sẽ, tướng hồi sinh không còn bị kẹt đống lửa hay click nhầm.</li>
+<li><b>Tiệm rèn Mythic Forge:</b> Dời về góc Tây Nam <code>(-5952, -220)</code>, nằm ngay dưới Poke Center xe đỏ thành một góc xưởng rèn riêng biệt, thanh máu và chữ không che bất kỳ ai.</li>
+<li><b>Lửa trại Moves NPC:</b> Dời về góc Đông Nam <code>(-5340, -220)</code>, tạo thành góc học chiêu thoáng đãng.</li>
+<li><b>Chữa kẹt tường Form Shop & Paradox Shop:</b> Kéo hai shop lùi vào trong <code>(-5440, 200)</code> và <code>(-5200, 200)</code>, cách xa bờ tường đá hơn 200 range, dứt điểm lỗi mái nhà tím cắm xuyên tường.</li>
+<li><b>Cụm Cổng Viễn Chinh:</b> Đặt Cổng League <code>(-5120, 460)</code> ngay cạnh Cổng GYM <code>(-5120, 624)</code>, tạo thành cụm cổng đi đôi gọn gàng.</li>
+<li><b>Xóa hào quang ma thuật rải rác:</b> Dọn sạch các vòng sáng ma thuật che lối ra căn cứ.</li>
+</ul></div>
+
+<div><h3>3. Hiệu ứng Thời tiết điện ảnh từ bản 3.4.16</h3>
+<ul>
+<li><b>Màn sương phủ màu theo thời tiết (Terrain Fog):</b>
+  <ul>
+    <li><b>Mưa (Rain):</b> Phủ màn sương xanh lam thẫm bí ẩn, tầm nhìn mờ ảo đặc trưng mưa bão.</li>
+    <li><b>Nắng gắt (Harsh Sun):</b> Phủ màn sương ánh vàng cam rực rỡ nhiệt đới.</li>
+    <li><b>Bão cát (Sandstorm):</b> Phủ sương vàng đất bụi mù mịt khắp chiến trường.</li>
+    <li><b>Mưa đá (Hail):</b> Phủ sương giá trắng băng tuyết sắc lạnh.</li>
+    <li><b>Trời quang (Clear):</b> Trả lại bầu trời quang đãng, không gian trong trẻo.</li>
+  </ul>
+</li>
+<li><b>Sấm sét rơi ngẫu nhiên trong mưa (Ambient Thunder):</b> Cứ mỗi 3 giây trong lúc mưa bão, sấm sét ngẫu nhiên giáng xuống quanh các hero (hiệu ứng thị giác hoành tráng, không gây sát thương).</li>
+</ul></div>
+
+<div class="wide"><h3>4. Bổ sung 33 Pokémon Starter chơi được (Gen 2 – 7)</h3>
+<ul>
+<li><b>11 dòng tiến hóa starter kinh điển:</b>
+  <table>
+    <tr><th>Hệ</th><th>Loài & Dòng tiến hóa</th><th>Cấp tiến hóa</th><th>Ability đặc trưng</th></tr>
+    <tr><td>Nước</td><td>Totodile → Croconaw → <b>Feraligatr</b></td><td>Lv 18 / 30</td><td>Strong Jaw (70)</td></tr>
+    <tr><td>Nước</td><td>Mudkip → Marshtomp → <b>Swampert</b></td><td>Lv 16 / 36</td><td>Torrent (3)</td></tr>
+    <tr><td>Cỏ</td><td>Turtwig → Grotle → <b>Torterra</b></td><td>Lv 18 / 32</td><td>Shell Armor (18)</td></tr>
+    <tr><td>Lửa</td><td>Chimchar → Monferno → <b>Infernape</b></td><td>Lv 14 / 36</td><td>Iron Fist (27)</td></tr>
+    <tr><td>Nước</td><td>Piplup → Prinplup → <b>Empoleon</b></td><td>Lv 16 / 36</td><td>Torrent (3)</td></tr>
+    <tr><td>Cỏ</td><td>Snivy → Servine → <b>Serperior</b></td><td>Lv 17 / 36</td><td>Overgrow (1)</td></tr>
+    <tr><td>Lửa</td><td>Tepig → Pignite → <b>Emboar</b></td><td>Lv 17 / 36</td><td>Reckless (31)</td></tr>
+    <tr><td>Cỏ</td><td>Chespin → Quilladin → <b>Chesnaught</b></td><td>Lv 16 / 36</td><td>Overgrow (1)</td></tr>
+    <tr><td>Lửa</td><td>Fennekin → Braixen → <b>Delphox</b></td><td>Lv 16 / 36</td><td>Blaze (2)</td></tr>
+    <tr><td>Nước</td><td>Froakie → Frogadier → <b>Greninja</b></td><td>Lv 16 / 36</td><td><b>Torrent (3)</b> <i>(chuyển từ 79 để tránh đè Primordial Sea)</i></td></tr>
+    <tr><td>Lửa</td><td>Litten → Torracat → <b>Incineroar</b></td><td>Lv 17 / 34</td><td>Intimidate (15)</td></tr>
+  </table>
+</li>
+<li><b>33 Hero Units (EP00..EP0W):</b> Bộ chỉ số HP x40, STR/AGI/INT cân đối theo chuẩn PokeAPI.</li>
+<li><b>33 Quái hoang (nZ00..nZ0W) & 33 Soul (IZ00..IZ0W):</b> Starter xuất hiện dưới dạng quái hoang theo các bậc sức mạnh, hạ gục có thể nhặt Soul để đổi dạng tại bệ tròn trung tâm.</li>
+<li><b>Sinh dữ liệu theo 4 đoạn an toàn:</b> Dữ liệu học chiêu, TM và tiến hóa được chia nhỏ thành 4 hàm <code>Fx_Data13</code>, <code>Fx_Data14</code>, <code>Fx_Data15</code>, <code>Fx_Data16</code> (gọi qua <code>ExecuteFunc</code>), tránh nghẽn luồng xử lý của engine JASS.</li>
+<li><b>Nạp đủ 185 asset:</b> Đầy đủ model MDX (<code>PkFx\Starter\*.mdx</code>), texture và icon lệnh (BTN/DISBTN) từ Pokemon World.</li>
+</ul></div>
+
+<div><h3>5. 10 Move Trạng thái mới & Transform (Ditto)</h3>
+<ul>
+<li><b>9 chiêu debuff mới:</b>
+  <ul>
+    <li><i>Feather Dance</i>: Giảm 2 bậc Attack mục tiêu.</li>
+    <li><i>Cotton Spore</i>: Giảm 2 bậc Speed kẻ địch xung quanh.</li>
+    <li><i>Tickle</i>: Giảm 1 bậc Attack và 1 bậc Defense mục tiêu.</li>
+    <li><i>Eerie Impulse</i>: Giảm 2 bậc Sp. Atk mục tiêu.</li>
+    <li><i>Confide</i>: Giảm 1 bậc Sp. Atk kẻ địch xung quanh.</li>
+    <li><i>Baby-Doll Eyes</i>: Giảm 1 bậc Attack kẻ địch xung quanh.</li>
+    <li><i>Smokescreen & Kinesis</i>: Khiến mục tiêu đánh trượt 30% trong 10 giây.</li>
+    <li><i>Sweet Kiss</i>: Gây hỗn loạn (Confused) 4 giây.</li>
+  </ul>
+</li>
+<li><b>Transform (Ditto):</b> Dùng lệnh chiêu Transform lên mục tiêu sẽ sao chép ngoại hình mục tiêu (<code>BlzSetUnitSkin</code>) trong 30 giây đồng thời sao chép toàn bộ các bậc chỉ số tăng của đối thủ.</li>
+<li>Dựng đầy đủ object data cho cả 4 nút chiêu (Q/W/E/R) trong <code>AbilityData.slk</code> và <code>CampaignAbilityStrings.txt</code>.</li>
+</ul></div>
+
+<div><h3>6. Bậc chỉ số nhìn thấy được (Visible Stat Stages)</h3>
+<ul>
+<li><b>18 Buff Icons trực quan trên thanh trạng thái (AF1A.. / BF1A..):</b>
+  <ul>
+    <li><b>5 Bậc tăng:</b> Attack, Defense, Sp. Atk, Sp. Def, Speed (+icon xanh).</li>
+    <li><b>5 Bậc giảm:</b> Attack, Defense, Sp. Atk, Sp. Def, Speed (+icon đỏ).</li>
+    <li><b>8 Trạng thái:</b> Burn, Poison, Bad Poison, Paralysis, Sleep, Freeze, Confused, Accuracy Down.</li>
+  </ul>
+</li>
+<li><b>Đồng bộ chỉ số ẩn mượt mà (Fx_StatSync):</b> Giáp cộng theo bậc Defense, tốc đánh và sát thương đánh thường tăng giảm trực tiếp theo thời gian thực.</li>
+</ul></div>
+
+</div>
+
+<h2>Kế thừa nguyên vẹn từ các bản ver2 & ver2b</h2>
+<ul>
+<li><b>169 hiệu ứng chiêu sát thương mới:</b> Đã ghép đầy đủ cùng 154 model hiệu ứng từ Pokemon World.</li>
+<li><b>Cân bằng Loot 55 bãi quái:</b> Mọi bãi quái rừng đều có kỳ vọng rơi 0.32 món/lần dọn.</li>
+<li><b>Cap mềm Max HP từ Loot:</b> 15.000 đầu tính đủ 100%, phần vượt tính 50%.</li>
+<li><b>Buff 3 Effect Charm:</b> Storm Shock, Soul Burn, Mana Surge.</li>
+<li><b>Cụm Gym & League:</b> Gym theo thứ tự và level cap, Gym 1-4 dễ hơn, lệnh <code>-gym</code>.</li>
+<li><b>Poke Center:</b> Hồi mana nhanh 15%/giây tương đương tốc độ hồi máu.</li>
+<li><b>Dynamax:</b> Dynamax Band và Max Move nổ chiêu theo hệ.</li>
+<li><b>Boss huyền thoại:</b> Máu x20, công x5, giáp x3 và nổi giận dưới 50% máu.</li>
+</ul>
+
+</main></html>

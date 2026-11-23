@@ -23,6 +23,17 @@ function Mv_Put takes unit u, integer s, integer m returns nothing
     endif
     call SaveInteger(Ab_HT, h, 40 + s, m + 1)
     call UnitAddAbility(u, Mv_Id(s, m))
+    // v3.4.6 B7: how many of the move slots are filled
+    set slotB = 0
+    set other = 0
+    loop
+        exitwhen slotB >= Mv_Slots
+        if Mv_Slot(u, slotB) >= 0 then
+            set other = other + 1
+        endif
+        set slotB = slotB + 1
+    endloop
+    call DisplayTimedTextToPlayer(GetOwningPlayer(u), 0, 0, 5.0, "|cffffcc00Moves: " + I2S(other) + "/" + I2S(Mv_Slots) + " slots filled.|r")
 endfunction
 //@replace Mv_Sync
 // slot of the move of the same kind as m that u holds, -1 if none

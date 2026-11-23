@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Aftermath",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Electrode",
+      "Voltorb"
+    ],
+    "desc": "Khi tử trận, phát nổ gây sát thương diện rộng bằng 25% Máu tối đa của bản thân lên tất cả kẻ địch xung quanh. (Hidden Ability)"
+  },
+  {
+    "name": "Analytic",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Magneton",
+      "Magnezone",
+      "Magnemite",
+      "Porygon2"
+    ],
+    "desc": "Nếu hành động/ra chiêu sau mục tiêu, kỹ năng gây thêm +30% sát thương. (Hidden Ability)"
+  },
+  {
+    "name": "Anticipation",
+    "normal_count": 2,
+    "normal_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Eevee"
+    ],
+    "desc": "Cảm nhận được đòn hiểm: nếu đối thủ sở hữu chiêu thức Siêu Hiệu Quả hoặc One-hit KO, lập tức phát ra cảnh báo và nhận giáp ảo 200 HP. (Normal/Hidden)"
+  },
+  {
+    "name": "Arena Trap",
+    "normal_count": 3,
+    "normal_examples": [
+      "Diglett",
+      "Dugtrio",
+      "Trapinch"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khóa chặt mặt đất, ngăn không cho tất cả Pokémon không bay trong phạm vi 600 bỏ chạy hoặc dịch chuyển tức thời. (Normal)"
+  },
+  {
+    "name": "Big Pecks",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Pidgeot",
+      "Pidgeotto",
+      "Pidgey"
+    ],
+    "desc": "Giáp không thể bị bào mòn hoặc giảm bởi bất kỳ chiêu thức phá giáp nào. (Hidden Ability)"
+  },
+  {
+    "name": "Bulletproof",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Chespin",
+      "Chesnaught",
+      "Quilladin"
+    ],
+    "desc": "Miễn nhiễm 100% sát thương và hiệu ứng từ các kỹ năng dạng đạn pháo, cầu năng lượng, bom (Shadow Ball, Sludge Bomb, Gyro Ball, Focus Blast...). (Hidden Ability)"
+  },
+  {
+    "name": "Cloud Nine",
+    "normal_count": 2,
+    "normal_examples": [
+      "Golduck",
+      "Psyduck"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Altaria",
+      "Swablu"
+    ],
+    "desc": "Hào quang xóa sổ thời tiết: khi có mặt trên sân, toàn bộ hiệu ứng môi trường (Nắng, Mưa, Cát, Tuyết) đều bị vô hiệu hóa. (Normal/Hidden)"
+  },
+  {
+    "name": "Contrary",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Serperior",
+      "Servine",
+      "Snivy"
+    ],
+    "desc": "Đảo ngược mọi hiệu ứng buff/debuff chỉ số: các chiêu thức tự giảm chỉ số (như Leaf Storm, Overheat) sẽ biến thành TĂNG chỉ số tương ứng. (Hidden Ability)"
+  },
+  {
+    "name": "Cud Chew",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Tauros Aqua",
+      "Tauros Blaze",
+      "Tauros Combat"
+    ],
+    "desc": "Nhai lại: sau khi ăn quả Berry, vào lượt tiếp theo sẽ tự động nhận thêm một lần hiệu ứng của quả Berry đó miễn phí. (Hidden Ability)"
+  },
+  {
+    "name": "Cursed Body",
+    "normal_count": 1,
+    "normal_examples": [
+      "Gengar"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khi bị trúng kỹ năng từ đối phương, có 30% tỉ lệ khóa chiêu thức đó của kẻ địch trong 4 giây. (Normal)"
+  },
+  {
+    "name": "Damp",
+    "normal_count": 6,
+    "normal_examples": [
+      "Golduck",
+      "Politoed",
+      "Poliwhirl",
+      "Poliwag"
+    ],
+    "hidden_count": 6,
+    "hidden_examples": [
+      "Horsea",
+      "Kingdra",
+      "Mudkip",
+      "Marshtomp"
+    ],
+    "desc": "Tỏa ra độ ẩm ức chế: khóa hoàn toàn các kỹ năng Tự sát (Self-Destruct, Explosion) và giảm 40% sát thương nổ diện rộng trong phạm vi 800. (Normal/Hidden)"
+  },
+  {
+    "name": "Download",
+    "normal_count": 2,
+    "normal_examples": [
+      "Porygon2",
+      "Porygon"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khi bước vào tầm giao tranh với tướng địch: nếu Giáp địch thấp hơn Kháng phép, nhận +25% Sát thương Vật lý; nếu Kháng phép thấp hơn, nhận +25% Sát thương Phép. (Normal)"
+  },
+  {
+    "name": "Dry Skin",
+    "normal_count": 2,
+    "normal_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Jynx"
+    ],
+    "desc": "Hồi 2% Máu/s trong Mưa và hồi máu khi trúng đòn Nước; nhưng nhận thêm +25% sát thương trong Nắng và từ hệ Lửa. (Normal/Hidden)"
+  },
+  {
+    "name": "Effect Spore",
+    "normal_count": 2,
+    "normal_examples": [
+      "Breloom",
+      "Shroomish"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Vileplume"
+    ],
+    "desc": "Khi nhận đòn đánh vật lý, có 30% cơ hội khiến kẻ tấn công ngẫu nhiên dính phải: Trúng Độc, Tê Liệt (Stun 1.5s), hoặc Ngủ say (Sleep 2s). (Normal/Hidden)"
+  },
+  {
+    "name": "Filter",
+    "normal_count": 2,
+    "normal_examples": [
+      "Mr. Mime",
+      "Mr.mime"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Forewarn",
+    "normal_count": 4,
+    "normal_examples": [
+      "Drowzee",
+      "Jynx",
+      "Hypno",
+      "Smoochum"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khi lại gần tướng địch, tự động phát hiện và cảnh báo chiêu thức có sát thương cơ bản cao nhất của kẻ địch đó. (Normal)"
+  },
+  {
+    "name": "Friend Guard",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Clefairy",
+      "Jigglypuff"
+    ],
+    "desc": "Giảm 25% toàn bộ sát thương mà đồng đội xung quanh nhận phải trong bán kính 600. (Hidden Ability)"
+  },
+  {
+    "name": "Frisk",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Duskull",
+      "Dusknoir",
+      "Dusclops",
+      "Wigglytuff"
+    ],
+    "desc": "Phát hiện trang bị và lượng vàng mà tướng địch đang mang trên người ngay khi vừa chạm mặt. (Hidden Ability)"
+  },
+  {
+    "name": "Galvanize",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Alolan-Golem",
+      "Alolan-Graveler",
+      "Alolan-Geodude"
+    ],
+    "desc": "Chuyển toàn bộ kỹ năng và đòn đánh hệ Normal (Thường) sang hệ Electric (Điện) và tăng thêm +20% sát thương. (Hidden Ability)"
+  },
+  {
+    "name": "Gluttony",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Bellsprout",
+      "Snorlax",
+      "Victreebel",
+      "Weepinbell"
+    ],
+    "desc": "Tự động sử dụng Berries sớm hơn bình thường (ngay khi Máu xuống dưới 50% thay vì chờ đến 25%). (Hidden Ability)"
+  },
+  {
+    "name": "Harvest",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Exeggcute",
+      "Exeggutor"
+    ],
+    "desc": "Sau khi ăn quả Berries, có 50% cơ hội mỗi 10 giây (100% nếu trời Nắng) tự động mọc lại quả Berry đó trong hòm đồ. (Hidden Ability)"
+  },
+  {
+    "name": "Healer",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Bellossom",
+      "Blissey",
+      "Chansey"
+    ],
+    "desc": "Mỗi 5 giây, có 30% tỉ lệ tự động hóa giải một hiệu ứng bất lợi trên người đồng minh đứng cạnh. (Hidden Ability)"
+  },
+  {
+    "name": "Hustle",
+    "normal_count": 6,
+    "normal_examples": [
+      "Deino",
+      "Darumaka",
+      "Togekiss",
+      "Togetic"
+    ],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Nidorino",
+      "Nidoran",
+      "Rattata",
+      "Raticate"
+    ],
+    "desc": "Tăng +50% Sát thương Tấn công cơ bản nhưng giảm 15% độ chính xác (15% tỉ lệ đánh trượt). (Normal/Hidden)"
+  },
+  {
+    "name": "Hydration",
+    "normal_count": 2,
+    "normal_examples": [
+      "Dewgong",
+      "Seel"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Lapras",
+      "Smoochum",
+      "Vaporeon"
+    ],
+    "desc": "Tự động hóa giải và thanh lọc mọi trạng thái bất lợi (Stun/Slow/Burn/Poison) vào cuối mỗi giây nếu trời mưa. (Normal/Hidden)"
+  },
+  {
+    "name": "Ice Body",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Dewgong",
+      "Glaceon",
+      "Seel"
+    ],
+    "desc": "Hồi phục 3% Máu tối đa mỗi giây và miễn nhiễm sát thương đóng băng khi Thời tiết là Mưa Đá (Hail). (Hidden Ability)"
+  },
+  {
+    "name": "Illuminate",
+    "normal_count": 4,
+    "normal_examples": [
+      "Chinchou",
+      "Lanturn",
+      "Starmie",
+      "Staryu"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Tầm nhìn đêm và ngày tăng thêm +500 phạm vi, đồng thời phát hiện tàng hình (True Sight) trong phạm vi 400. (Normal)"
+  },
+  {
+    "name": "Immunity",
+    "normal_count": 1,
+    "normal_examples": [
+      "Snorlax"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Hệ miễn dịch tuyệt đối, không thể bị Trúng Độc (Poison/Toxic). (Normal)"
+  },
+  {
+    "name": "Imposter",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Ditto"
+    ],
+    "desc": "Tự động sao chép hoàn toàn ngoại hình, kỹ năng và chỉ số cơ bản của tướng địch đối diện ngay khi vào giao tranh. (Hidden Ability)"
+  },
+  {
+    "name": "Infiltrator",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Chandelure",
+      "Golbat",
+      "Crobat",
+      "Lampent"
+    ],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Justified",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Arcanine",
+      "Absol",
+      "Growlithe",
+      "Gallade"
+    ],
+    "desc": "Mỗi khi nhận sát thương từ kỹ năng hệ Dark (Bóng tối), Sát thương Tấn công được tăng thêm +25% trong 8 giây. (Hidden Ability)"
+  },
+  {
+    "name": "Light Metal",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Beldum",
+      "Metagross",
+      "Metang",
+      "Scizor"
+    ],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Limber",
+    "normal_count": 3,
+    "normal_examples": [
+      "Ditto",
+      "Hitmonlee",
+      "Persian"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Cơ thể dẻo dai miễn nhiễm hoàn toàn với trạng thái Tê Liệt (Paralysis) và Làm choáng (Stun). (Normal)"
+  },
+  {
+    "name": "Liquid Ooze",
+    "normal_count": 2,
+    "normal_examples": [
+      "Tentacruel",
+      "Tentacool"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Kẻ địch cố tình hút máu (Life Drain, Giga Drain, Leech Seed) lên người này sẽ bị phản sát thương bằng đúng lượng máu muốn hút thay vì được hồi phục. (Normal)"
+  },
+  {
+    "name": "Magic Guard",
+    "normal_count": 2,
+    "normal_examples": [
+      "Clefable",
+      "Clefairy"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Abra",
+      "Alakazam",
+      "Kadabra"
+    ],
+    "desc": "Miễn nhiễm hoàn toàn với mọi dạng sát thương gián tiếp: không bị mất máu bởi Độc, Bỏng, Bão cát, Mưa đá hay Phản đòn. (Normal/Hidden)"
+  },
+  {
+    "name": "Magician",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Braixen",
+      "Delphox",
+      "Fennekin"
+    ],
+    "desc": "Tung chiêu trúng kẻ địch sẽ đánh cắp 1 điểm tích lũy buff hoặc tạm thời phong ấn trang bị kích hoạt của địch trong 3s. (Hidden Ability)"
+  },
+  {
+    "name": "Magma Armor",
+    "normal_count": 2,
+    "normal_examples": [
+      "Magcargo",
+      "Slugma"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Thân nhiệt dung nham, miễn nhiễm hoàn toàn với trạng thái Đóng băng (Freeze) và Đòn làm chậm băng giá. (Normal)"
+  },
+  {
+    "name": "Marvel Scale",
+    "normal_count": 1,
+    "normal_examples": [
+      "Milotic"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Dragonair",
+      "Dratini"
+    ],
+    "desc": "Khi đang bị dính bất kỳ hiệu ứng bất lợi nào (Stun, Slow, Burn, Poison, Freeze), Giáp và Kháng phép được tăng vọt +50%. (Normal/Hidden)"
+  },
+  {
+    "name": "Minus",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Electrike",
+      "Manectric"
+    ],
+    "desc": "Khi đứng gần đồng minh có Đặc tính Plus hoặc Minus, cả hai cùng nhận thêm +20% Sát thương Phép. (Hidden Ability)"
+  },
+  {
+    "name": "Motor Drive",
+    "normal_count": 1,
+    "normal_examples": [
+      "Electivire"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Hấp thụ mọi kỹ năng hệ Điện: miễn nhiễm sát thương điện và tăng +30% Tốc độ di chuyển trong 6s. (Normal)"
+  },
+  {
+    "name": "Moxie",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Gyarados",
+      "Heracross",
+      "Pinsir",
+      "Salamence"
+    ],
+    "desc": "Mỗi khi hạ gục một tướng địch hoặc quái lớn, nhận vĩnh viễn +10% Sát thương Vật lý (cộng dồn tối đa 5 tầng, kéo dài 60s). (Hidden Ability)"
+  },
+  {
+    "name": "Neutralizing Gas",
+    "normal_count": 2,
+    "normal_examples": [
+      "Koffing",
+      "Weezing"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Tỏa ra khí độc đặc biệt dập tắt và vô hiệu hóa toàn bộ Kỹ năng Bị động (Abilities) của tất cả Pokémon xung quanh trong phạm vi 700! (Normal)"
+  },
+  {
+    "name": "Oblivious",
+    "normal_count": 9,
+    "normal_examples": [
+      "Feebas",
+      "Jynx",
+      "Mamoswine",
+      "Piloswine"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Overcoat",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Cloyster",
+      "Shelgon",
+      "Shellder"
+    ],
+    "desc": "Miễn nhiễm hoàn toàn sát thương bão cát/mưa đá và các chiêu thức dạng bột phấn (Spore, Sleep Powder). (Hidden Ability)"
+  },
+  {
+    "name": "Own Tempo",
+    "normal_count": 3,
+    "normal_examples": [
+      "Slowbro",
+      "Slowking",
+      "Slowpoke"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Lombre",
+      "Lotad",
+      "Ludicolo"
+    ],
+    "desc": "Nhịp điệu tự nhiên giúp miễn nhiễm hoàn toàn với trạng thái Rối loạn (Confusion) và Khiêu khích (Taunt). (Normal/Hidden)"
+  },
+  {
+    "name": "Pickpocket",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Sneasel",
+      "Weavile"
+    ],
+    "desc": "Khi bị đối phương đánh cận chiến, đánh cắp ngay lập tức 50-100 vàng từ người đánh (hồi chiêu 15s). (Hidden Ability)"
+  },
+  {
+    "name": "Pickup",
+    "normal_count": 1,
+    "normal_examples": [
+      "Meowth"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Plus",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Ampharos",
+      "Flaaffy",
+      "Mareep"
+    ],
+    "desc": "Khi đứng gần đồng minh có Đặc tính Plus hoặc Minus, cả hai cùng nhận thêm +20% Sát thương Phép. (Hidden Ability)"
+  },
+  {
+    "name": "Poison Heal",
+    "normal_count": 2,
+    "normal_examples": [
+      "Breloom",
+      "Shroomish"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Thay vì mất máu khi Trúng Độc (Poison/Toxic), Pokémon này sẽ được hồi lại 12.5% Máu tối đa mỗi 2 giây! (Normal)"
+  },
+  {
+    "name": "Poison Touch",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Croagunk",
+      "Toxicroak"
+    ],
+    "desc": "Tất cả các đòn đánh cận chiến có 30% tỉ lệ đầu độc đối thủ (gây sát thương DPS và giảm 25% tốc độ hồi máu). (Hidden Ability)"
+  },
+  {
+    "name": "Prankster",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Sableye"
+    ],
+    "desc": "Tất cả các chiêu thức trạng thái, khống chế, buff/debuff và hồi phục được giảm 50% thời gian hồi chiêu và thi triển tức thì. (Hidden Ability)"
+  },
+  {
+    "name": "Protean",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Froakie",
+      "Frogadier",
+      "Greninja"
+    ],
+    "desc": "Đổi hệ của Pokémon sang hệ của chiêu thức vừa sử dụng ngay trước khi tung chiêu, nhận 1.5x STAB cho mọi kỹ năng. (Hidden Ability)"
+  },
+  {
+    "name": "Quick Feet",
+    "normal_count": 1,
+    "normal_examples": [
+      "Granbull"
+    ],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Jolteon",
+      "Shroomish"
+    ],
+    "desc": "Khi bị dính hiệu ứng bất lợi, Tốc độ chạy tăng thêm +50% và bỏ qua giới hạn tốc độ chạy tối đa. (Normal/Hidden)"
+  },
+  {
+    "name": "Rain Dish",
+    "normal_count": 3,
+    "normal_examples": [
+      "Lombre",
+      "Lotad",
+      "Ludicolo"
+    ],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Blastoise",
+      "Squirtle",
+      "Tentacruel",
+      "Tentacool"
+    ],
+    "desc": "Hồi phục 3% Máu tối đa mỗi giây liên tục khi Thời tiết là Mưa Rào (Rain). (Normal/Hidden)"
+  },
+  {
+    "name": "Rattled",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 5,
+    "hidden_examples": [
+      "Bonsly",
+      "Granbull",
+      "Magikarp",
+      "Snubbull"
+    ],
+    "desc": "Khi bị trúng đòn đánh từ hệ Bug, Ghost hoặc Dark, tốc độ di chuyển tăng thêm +25% trong 5 giây. (Hidden Ability)"
+  },
+  {
+    "name": "Rivalry",
+    "normal_count": 3,
+    "normal_examples": [
+      "Nidorino",
+      "Nidoran",
+      "Nidoking"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Gây thêm +25% sát thương lên mục tiêu cùng giới tính hoặc quái rừng trung lập; giảm 20% sát thương nếu khác giới tính. (Normal)"
+  },
+  {
+    "name": "Rough Skin",
+    "normal_count": 2,
+    "normal_examples": [
+      "Carvanha",
+      "Sharpedo"
+    ],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Gabite",
+      "Garchomp",
+      "Gible"
+    ],
+    "desc": "Kẻ địch khi tung đòn đánh vật lý tiếp xúc cận chiến sẽ bị phản lại 12% Máu tối đa dưới dạng sát thương chuẩn. (Normal/Hidden)"
+  },
+  {
+    "name": "Sand Rush",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Sandshrew",
+      "Sandslash"
+    ],
+    "desc": "Tăng gấp đôi (+100%) Tốc độ di chuyển và Tốc độ đánh khi Thời tiết là Bão Cát (Sandstorm). (Hidden Ability)"
+  },
+  {
+    "name": "Scrappy",
+    "normal_count": 1,
+    "normal_examples": [
+      "Kangaskhan"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Sirfetch'd"
+    ],
+    "desc": "Đòn đánh và kỹ năng hệ Normal/Fighting có thể đánh trúng và gây sát thương đầy đủ lên hệ Ghost (Bóng ma), miễn nhiễm hiệu ứng Intimidate. (Normal/Hidden)"
+  },
+  {
+    "name": "Sharpness",
+    "normal_count": 1,
+    "normal_examples": [
+      "Gallade"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Các đòn tấn công dạng kiếm, chém, vuốt sắt (Sacred Sword, Night Slash, Leaf Blade...) được gia tăng +50% sát thương. (Normal)"
+  },
+  {
+    "name": "Sheer Force",
+    "normal_count": 1,
+    "normal_examples": [
+      "Darmanitan"
+    ],
+    "hidden_count": 10,
+    "hidden_examples": [
+      "Bagon",
+      "Croconaw",
+      "Feraligatr",
+      "Kingler"
+    ],
+    "desc": "Loại bỏ hoàn toàn các hiệu ứng phụ (slow/stun/burn) của kỹ năng để tăng thẳng +30% Sát thương gốc cho kỹ năng đó. (Normal/Hidden)"
+  },
+  {
+    "name": "Shield Dust",
+    "normal_count": 2,
+    "normal_examples": [
+      "Caterpie",
+      "Weedle"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Ngăn chặn và miễn nhiễm 100% với các hiệu ứng phụ bất lợi kèm theo của mọi chiêu thức đối thủ. (Normal)"
+  },
+  {
+    "name": "Slush Rush",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Alolan-Sandslash",
+      "Alolan-Sandshrew"
+    ],
+    "desc": "Tăng gấp đôi (+100%) Tốc độ di chuyển và Tốc độ đánh khi Thời tiết là Mưa Đá (Hail / Snow). (Hidden Ability)"
+  },
+  {
+    "name": "Sniper",
+    "normal_count": 3,
+    "normal_examples": [
+      "Horsea",
+      "Kingdra",
+      "Seadra"
+    ],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Beedrill"
+    ],
+    "desc": "Sát thương từ các đòn đánh Chí mạng (Critical Strike) tăng từ 150% lên 225%. (Normal/Hidden)"
+  },
+  {
+    "name": "Snow Warning",
+    "normal_count": 2,
+    "normal_examples": [
+      "Abomasnow",
+      "Snover"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Đặc tính chiến đấu đặc trưng theo hệ thống PokeAPI canon."
+  },
+  {
+    "name": "Solid Rock",
+    "normal_count": 1,
+    "normal_examples": [
+      "Rhyperior"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Giảm 25% sát thương nhận vào từ các đòn đánh Siêu Hiệu Quả (Super Effective). (Normal)"
+  },
+  {
+    "name": "Stall",
+    "normal_count": 1,
+    "normal_examples": [
+      "Sableye"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Đòn đánh luôn đi sau đối thủ một nhịp, nhưng mỗi đòn đánh được tích lũy thêm uy lực và giảm 20% sát thương nhận vào. (Normal)"
+  },
+  {
+    "name": "Stance Change",
+    "normal_count": 1,
+    "normal_examples": [
+      "Aegislash"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Chuyển đổi dạng: Tung chiêu tấn công sẽ chuyển sang Dạng Kiếm (+Attack, -Armor); Dùng khiên/phòng thủ sẽ chuyển sang Dạng Khiên (+Armor, +Kháng phép). (Normal)"
+  },
+  {
+    "name": "Stench",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Gloom",
+      "Koffing",
+      "Weezing"
+    ],
+    "desc": "Mỗi đòn đánh hoặc kỹ năng gây sát thương có 10% cơ hội làm choáng (micro-stun 0.5s) đối thủ. (Hidden Ability)"
+  },
+  {
+    "name": "Storm Drain",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 2,
+    "hidden_examples": [
+      "Cradily",
+      "Lileep"
+    ],
+    "desc": "Hút mọi kỹ năng hệ Nước về phía bản thân, miễn nhiễm sát thương nước và nhận ngay +25% Sát thương Phép. (Hidden Ability)"
+  },
+  {
+    "name": "Suction Cups",
+    "normal_count": 2,
+    "normal_examples": [
+      "Cradily",
+      "Lileep"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Bám chặt vào mặt đất, miễn nhiễm hoàn toàn với các kỹ năng hất tung, đẩy lùi, kéo giật hoặc dịch chuyển cưỡng chế. (Normal)"
+  },
+  {
+    "name": "Supreme Overlord",
+    "normal_count": 1,
+    "normal_examples": [
+      "Kingambit"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Nhận thêm +5% Sát thương tổng cho mỗi đồng đội đã bị hạ gục trước đó trong giao tranh (tối đa +25%). (Normal)"
+  },
+  {
+    "name": "Surge Surfer",
+    "normal_count": 1,
+    "normal_examples": [
+      "Alolan-Raichu"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Tốc độ di chuyển tăng gấp đôi (+100%) khi đứng trong Vùng Địa Hình Điện (Electric Terrain) hoặc gần tháp/nhà sét. (Normal)"
+  },
+  {
+    "name": "Tangled Feet",
+    "normal_count": 3,
+    "normal_examples": [
+      "Pidgeot",
+      "Pidgeotto",
+      "Pidgey"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khi bị rơi vào trạng thái Rối loạn (Confusion), Tỉ lệ né tránh đòn đánh tăng vọt lên +50%. (Normal)"
+  },
+  {
+    "name": "Telepathy",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 8,
+    "hidden_examples": [
+      "Dialga",
+      "Gardevoir",
+      "Giratina",
+      "Kirlia"
+    ],
+    "desc": "Miễn nhiễm hoàn toàn với mọi sát thương diện rộng và kỹ năng do đồng đội gây ra (chống Friendly Fire). (Hidden Ability)"
+  },
+  {
+    "name": "Tinted Lens",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 3,
+    "hidden_examples": [
+      "Butterfree",
+      "Hoothoot",
+      "Noctowl"
+    ],
+    "desc": "Các kỹ năng bị khắc chế (Not very effective / Kháng đòn) được nhân đôi sát thương (trở về 100% sát thương bình thường). (Hidden Ability)"
+  },
+  {
+    "name": "Unaware",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 1,
+    "hidden_examples": [
+      "Clefable"
+    ],
+    "desc": "Bỏ qua hoàn toàn các chỉ số cộng thêm (Attack boost, Defense buff) của mục tiêu khi tính toán sát thương gây ra và nhận vào. (Hidden Ability)"
+  },
+  {
+    "name": "Unburden",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 4,
+    "hidden_examples": [
+      "Grovyle",
+      "Hitmonlee",
+      "Sceptile",
+      "Treecko"
+    ],
+    "desc": "Khi sử dụng hết một vật phẩm tiêu hao (Potion, Berry, Scroll), Tốc độ di chuyển tăng vọt +100% trong 8 giây. (Hidden Ability)"
+  },
+  {
+    "name": "Unnerve",
+    "normal_count": 2,
+    "normal_examples": [
+      "Galvantula",
+      "Joltik"
+    ],
+    "hidden_count": 9,
+    "hidden_examples": [
+      "Aerodactyl",
+      "Arbok",
+      "Ekans",
+      "Houndour"
+    ],
+    "desc": "Phát ra khí tức căng thẳng khiến tất cả kẻ địch trong phạm vi 800 không thể cắn Berries hay dùng bình máu/mana. (Normal/Hidden)"
+  },
+  {
+    "name": "Vital Spirit",
+    "normal_count": 2,
+    "normal_examples": [
+      "Primeape",
+      "Mankey"
+    ],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Electabuzz",
+      "Elekid",
+      "Electivire",
+      "Magby"
+    ],
+    "desc": "Tinh thần hưng phấn, miễn nhiễm hoàn toàn với trạng thái Buồn ngủ / Ngủ say (Sleep). (Normal/Hidden)"
+  },
+  {
+    "name": "Weak Armor",
+    "normal_count": 0,
+    "normal_examples": [],
+    "hidden_count": 7,
+    "hidden_examples": [
+      "Kabuto",
+      "Kabutops",
+      "Magcargo",
+      "Omanyte"
+    ],
+    "desc": "Khi nhận đòn đánh vật lý, giảm 2 Giáp nhưng nhận ngay +25% Tốc độ di chuyển trong 4s (cộng dồn). (Hidden Ability)"
+  },
+  {
+    "name": "White Smoke",
+    "normal_count": 1,
+    "normal_examples": [
+      "Torkoal"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Khói trắng bảo hộ ngăn không cho đối phương làm suy giảm bất kỳ chỉ số cơ bản nào. (Normal)"
+  },
+  {
+    "name": "Wonder Guard",
+    "normal_count": 1,
+    "normal_examples": [
+      "Shedinja"
+    ],
+    "hidden_count": 0,
+    "hidden_examples": [],
+    "desc": "Chỉ nhận sát thương từ các đòn đánh Siêu Hiệu Quả (Super Effective). Miễn nhiễm 100% mọi sát thương từ các hệ đòn đánh khác! (Normal)"
+  }
+]

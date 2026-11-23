@@ -1,0 +1,82 @@
+PKL v3.2 units: 995  with imported model: 829
+
+== Mega / Primal / Gmax units (35) ==
+h000 base=None | Mega-Gallade (Lvl.100) | model=MegaGallade.mdl NO | in_arena=False
+h007 base=None | Mega-Venusaur (Lvl.100) | model=war3mapImported\MegaBisaflor.mdl OK | in_arena=False
+h00F base=None | Mega-Charizard X (Lvl.100) | model=war3mapImported\MegaGlurakX.mdl OK | in_arena=False
+h00N base=None | Mega-Blastoise (Lvl.100) | model=war3mapImported\MegaTurtok.mdl OK | in_arena=False
+h01D base=None | Mega-Alakazam (Lvl.100) | model=war3mapImported\MegaSimsala.mdl OK | in_arena=False
+h04A base=None | Mega-Gengar (Lvl.100) | model=war3mapImported\MegaGengar.mdl OK | in_arena=False
+h05T base=None | Mega-Gyarados (Lvl.100) | model=war3mapImported\MegaGarados.mdl OK | in_arena=False
+h07Z base=None | Mega-Slowbro (Lvl.100) | model=war3mapImported\080mega.mdl OK | in_arena=False
+h0AW base=None | Mega-Salamence (Lvl.100) | model=war3mapImported\MegaBrutalanda.mdl OK | in_arena=False
+h0AX base=None | Mega-Blaziken (Lvl.100) | model=war3mapImported\MegaLohgock.mdl OK | in_arena=False
+h0C5 base=None | Mega-Absol (Lvl.100) | model=war3mapImported\MegaAbsol.mdl OK | in_arena=False
+h0CF base=None | Mega-Pidgeot (Lvl.100) | model=war3mapImported\MegaTauboss.mdl OK | in_arena=False
+h0DG base=None | Mega-Sharpedo (Lvl.100) | model=war3mapImported\MegaSharpedo.mdl OK | in_arena=False
+h0DX base=None | Mega-Gardevoir (Lvl.100) | model=war3mapImported\GardevoirMega.mdl OK | in_arena=False
+h0DY base=None | Mega-Lucario (Lvl.100) | model=war3mapImported\MegaLucario.mdl OK | in_arena=False
+h0E3 base=None | Mega-Ampharos (Lvl.100) | model=war3mapImported\MegaAmpharos.mdl OK | in_arena=False
+h0E4 base=None | Mega-Tyranitar (Lvl.100) | model=war3mapImported\MegaDespotar.mdl OK | in_arena=False
+h0E5 base=None | Mega-Houndoom (Lvl.100) | model=war3mapImported\MegaHundemon.mdl OK | in_arena=False
+h0E6 base=None | Mega-Kangaskhan (lvl.100) | model=war3mapImported\Kangaskhan.mdl OK | in_arena=False
+h0EE base=None | Mega-Metagross (Lvl.100) | model=war3mapImported\MegaMetagross.mdl OK | in_arena=False
+h0EJ base=None | Mega-Sceptile (Lvl.100) | model=war3mapImported\MegaGewaldro.mdl OK | in_arena=False
+h0EK base=None | Mega-Pinsir (Lvl.100) | model=war3mapImported\MegaPinsir.mdl OK | in_arena=False
+h0F9 base=None | Mega-Scizor (Lvl.100) | model=war3mapImported\MegaScherox.mdl OK | in_arena=False
+h0FH base=None | Mega-Aerodactyl (Lvl.100) | model=war3mapImported\MegaAerodactyl.mdl OK | in_arena=False
+h0FU base=None | Mega-Manectric (Lvl.100) | model=war3mapImported\MegaVoltenso.mdl OK | in_arena=False
+h0GG base=None | Mega-Charizard Y (Lvl.100) | model=war3mapImported\MegaGlurakY.mdl OK | in_arena=False
+h0HY base=None | Mega-Tyranitar (Lvl.100) | model=war3mapImported\MegaDespotar.mdl OK | in_arena=False
+h0J6 base=None | Mega-Lucario (Lvl.100) | model=war3mapImported\MegaLucario.mdl OK | in_arena=False
+h0LP base=None | Mega-Steelix (Lvl.100) | model=war3mapImported\MegaSteelix.mdl OK | in_arena=False
+h0LS base=None | Meganium (Lvl.32) | model=war3mapImported\Meganium.mdl OK | in_arena=False
+h0LT base=None | Meganium (Lvl.60) | model=war3mapImported\Meganium.mdl OK | in_arena=False
+h0LU base=None | Meganium (Lvl.100) | model=war3mapImported\Meganium.mdl OK | in_arena=False
+h0LV base=None | Mega-Heracross (Lvl.100) | model=war3mapImported\MegaHeracross.mdl OK | in_arena=False
+h0LW base=None | Mega-Altaria (Lvl.100) | model=war3mapImported\MegaAltaria.mdl OK | in_arena=False
+o00A base=None | MegaDonnerDummy | model=Abilities\Spells\NightElf\TreeofLifeUpgrade\TreeofLifeUpgradeTargetArt.mdl NO | in_arena=False
+
+== Regional / alternate forms (39) ==
+e000 | Shiny Mew | model OK | in_arena=False
+e002 | Shiny Seedraking | model OK | in_arena=False
+h00A | Alolan-Sandshrew (Lvl.5) | model NO | in_arena=True
+h00H | Alolan-Sandshrew (Lvl.10) | model NO | in_arena=True
+h0AP | Duskull (Lvl.5) | model OK | in_arena=True
+h0AQ | Duskull (Lvl.15) | model OK | in_arena=True
+h0DM | Dusknoir (Lvl.100) | model OK | in_arena=True
+h0I4 | Alolan-Raichu (Lvl.32) | model OK | in_arena=True
+h0I5 | Alolan-Raichu (Lvl.70) | model OK | in_arena=True
+h0I6 | Alolan-Raichu (Lvl.100) | model OK | in_arena=True
+h0JT | Tauros Aqua (Lvl.25) | model OK | in_arena=True
+h0JU | Tauros Aqua (Lvl.50) | model OK | in_arena=True
+h0JV | Tauros Aqua (Lvl.75) | model OK | in_arena=True
+h0JW | Tauros Aqua (Lvl.100) | model OK | in_arena=True
+h0JX | Tauros Blaze (Lvl.25) | model OK | in_arena=True
+h0JY | Tauros Blaze (Lvl.50) | model OK | in_arena=True
+h0JZ | Tauros Blaze (Lvl.75) | model OK | in_arena=True
+h0K0 | Tauros Blaze (Lvl.100) | model OK | in_arena=True
+h0K1 | Tauros Combat (Lvl.25) | model OK | in_arena=True
+h0K2 | Tauros Combat (Lvl.50) | model OK | in_arena=True
+h0K3 | Tauros Combat (Lvl.75) | model OK | in_arena=True
+h0K4 | Tauros Combat (Lvl.100) | model OK | in_arena=True
+h0KT | Alolan-Geodude (Lvl.5) | model OK | in_arena=True
+h0KU | Alolan-Geodude (Lvl.16) | model OK | in_arena=True
+h0KV | Alolan-Graveler (Lvl.25) | model OK | in_arena=True
+h0KW | Alolan-Golem (Lvl.40) | model OK | in_arena=True
+h0KX | Alolan-Golem (Lvl.70) | model OK | in_arena=True
+h0KY | Alolan-Golem (Lvl.100) | model OK | in_arena=True
+h0KZ | Alolan-Sandslash (Lvl.28) | model NO | in_arena=True
+h0L0 | Alolan-Sandslash (Lvl.65) | model NO | in_arena=True
+h0L1 | Alolan-Sandslash (Lvl.100) | model NO | in_arena=True
+o01W | TaurosBlazeInvulDummy | model OK | in_arena=False
+o01Y | DefenseUpFx | model OK | in_arena=False
+o01Z | DefenseDownFx | model OK | in_arena=False
+o02C | OriginPulseDummy (Lvl.25) | model NO | in_arena=False
+o02D | OriginPulseDummy (Lvl.50) | model NO | in_arena=False
+o02E | OriginPulseDummy (Lvl.75) | model NO | in_arena=False
+o02F | OriginPulseDummy (Lvl.100) | model NO | in_arena=False
+o03O | TaurosBlazeChargeDummy | model OK | in_arena=False
+
+== Species with model and (lvl N) name not in Arena by name (35) ==
+Darmanitan (Zen), Heimsuchung, Latias & Latios, Maschinedramon, Mega-Absol, Mega-Aerodactyl, Mega-Alakazam, Mega-Altaria, Mega-Ampharos, Mega-Blastoise, Mega-Blaziken, Mega-Charizard X, Mega-Charizard Y, Mega-Gardevoir, Mega-Gengar, Mega-Gyarados, Mega-Heracross, Mega-Houndoom, Mega-Kangaskhan, Mega-Lucario, Mega-Manectric, Mega-Metagross, Mega-Pidgeot, Mega-Pinsir, Mega-Salamence, Mega-Sceptile, Mega-Scizor, Mega-Sharpedo, Mega-Slowbro, Mega-Steelix, Mega-Tyranitar, Mega-Venusaur, Meganium, Politeod, Porygon2

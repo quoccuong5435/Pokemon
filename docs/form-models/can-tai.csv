@@ -1,0 +1,152 @@
+﻿uu_tien,key,ten,nhom,dong,trang_thai,nguon_hien_co,file_can_co,tim_kiem
+0,exeggutor-alola,Alolan Exeggutor,Alola,Exeggcute,"CO SAN, chi can chuyen",Pokemon World (Unit\2003),(đã có) Pokemon World (Unit\2003),
+0,marowak-alola,Alolan Marowak,Alola,Marowak,"CO SAN, chi can chuyen",Pokemon World (Unit\2004),(đã có) Pokemon World (Unit\2004),
+0,ninetales-alola,Alolan Ninetales,Alola,Ninetales,"CO SAN, chi can chuyen",Pokemon World (Unit\2008),(đã có) Pokemon World (Unit\2008),
+0,vulpix-alola,Alolan Vulpix,Alola,Ninetales,"CO SAN, chi can chuyen",Pokemon World (Unit\2007),(đã có) Pokemon World (Unit\2007),
+0,farfetchd-galar,Galarian Farfetch'd,Galar,Farfetch'd,"CO SAN, chi can chuyen",Pokemon World (Unit\2009),(đã có) Pokemon World (Unit\2009),
+0,meowth-galar,Galarian Meowth,Galar,Meowth,"CO SAN, chi can chuyen",PKLegends 3.2 (MeowthGalarian4),(đã có) PKLegends 3.2 (MeowthGalarian4),
+0,sneasel-hisui,Hisuian Sneasel,Hisui,Weavile,"CO SAN, chi can chuyen",Pokemon World (Unit\2022),(đã có) Pokemon World (Unit\2022),
+0,typhlosion-hisui,Hisuian Typhlosion,Hisui,Cyndaquil,"CO SAN, chi can chuyen",Pokemon World (Unit\2011),(đã có) Pokemon World (Unit\2011),
+0,flutter-mane,Flutter Mane (từ Misdreavus),Paradox,Misdreavus,"CO SAN, chi can chuyen (thay model doi mau)",Booster Energy: model Misdreavus đổi màu; có .glb thật để thay,(đã có) imports/pokemon_3d_all/987.glb,
+0,great-tusk,Great Tusk (từ Donphan),Paradox,Donphan,"CO SAN, chi can chuyen",pokemon_3d_all/984.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/984.glb,
+0,iron-thorns,Iron Thorns (từ Tyranitar),Paradox,Pupitar,"CO SAN, chi can chuyen (thay model doi mau)",Booster Energy: model Tyranitar đổi màu; có .glb thật để thay,(đã có) imports/pokemon_3d_all/995.glb,
+0,iron-treads,Iron Treads (từ Donphan),Paradox,Donphan,"CO SAN, chi can chuyen",pokemon_3d_all/990.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/990.glb,
+0,iron-valiant,Iron Valiant (từ Gardevoir),Paradox,Kirlia,"CO SAN, chi can chuyen (thay model doi mau)",Booster Energy: model Gardevoir đổi màu; có .glb thật để thay,(đã có) imports/pokemon_3d_all/1006.glb,
+0,roaring-moon,Roaring Moon (từ Salamence),Paradox,Salamence,"CO SAN, chi can chuyen (thay model doi mau)",Booster Energy: model Salamence đổi màu; có .glb thật để thay,(đã có) imports/pokemon_3d_all/1005.glb,
+0,scream-tail,Scream Tail (từ Jigglypuff),Paradox,Igglybuff,"CO SAN, chi can chuyen (thay model doi mau)",Booster Energy: model Jigglypuff đổi màu; có .glb thật để thay,(đã có) imports/pokemon_3d_all/985.glb,
+0,clodsire,Clodsire,Tiến hóa vùng,Quagsire,"CO SAN, chi can chuyen",pokemon_3d_all/980.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/980.glb,
+0,kleavor,Kleavor,Tiến hóa vùng,Scizor,"CO SAN, chi can chuyen",pokemon_3d_all/900.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/900.glb,
+0,obstagoon,Obstagoon,Tiến hóa vùng,Linoone,"CO SAN, chi can chuyen",pokemon_3d_all/862.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/862.glb,
+0,overqwil,Overqwil,Tiến hóa vùng,Qwilfish,"CO SAN, chi can chuyen",pokemon_3d_all/904.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/904.glb,
+0,sneasler,Sneasler,Tiến hóa vùng,Weavile,"CO SAN, chi can chuyen",pokemon_3d_all/903.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/903.glb,
+0,ursaluna,Ursaluna,Tiến hóa vùng,Teddiursa,"CO SAN, chi can chuyen",pokemon_3d_all/901.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/901.glb,
+0,wyrdeer,Wyrdeer,Tiến hóa vùng,Stantler,"CO SAN, chi can chuyen",pokemon_3d_all/899.glb (chưa chuyển),(đã có) imports/pokemon_3d_all/899.glb,
+0,rotom-fan,Fan Rotom,Đổi dạng,Rotom,"CO SAN, chi can chuyen",Pokemon World (Unit\2017),(đã có) Pokemon World (Unit\2017),
+0,rotom-frost,Frost Rotom,Đổi dạng,Rotom,"CO SAN, chi can chuyen",Pokemon World (Unit\2016),(đã có) Pokemon World (Unit\2016),
+0,rotom-heat,Heat Rotom,Đổi dạng,Rotom,"CO SAN, chi can chuyen",Pokemon World (Unit\2014),(đã có) Pokemon World (Unit\2014),
+0,rotom-mow,Mow Rotom,Đổi dạng,Rotom,"CO SAN, chi can chuyen",Pokemon World (Unit\2015),(đã có) Pokemon World (Unit\2015),
+0,rotom-wash,Wash Rotom,Đổi dạng,Rotom,"CO SAN, chi can chuyen",Pokemon World (Unit\2018),(đã có) Pokemon World (Unit\2018),
+1,diglett-alola,Alolan Diglett,Alola,Diglett,TAI MOI,,imports/pokemon_3d_forms/diglett-alola.glb,pokemon Alolan Diglett 3d model glb
+1,dugtrio-alola,Alolan Dugtrio,Alola,Diglett,TAI MOI,,imports/pokemon_3d_forms/dugtrio-alola.glb,pokemon Alolan Dugtrio 3d model glb
+1,grimer-alola,Alolan Grimer,Alola,Muk,TAI MOI,,imports/pokemon_3d_forms/grimer-alola.glb,pokemon Alolan Grimer 3d model glb
+1,meowth-alola,Alolan Meowth,Alola,Meowth,TAI MOI,,imports/pokemon_3d_forms/meowth-alola.glb,pokemon Alolan Meowth 3d model glb
+1,muk-alola,Alolan Muk,Alola,Muk,TAI MOI,,imports/pokemon_3d_forms/muk-alola.glb,pokemon Alolan Muk 3d model glb
+1,persian-alola,Alolan Persian,Alola,Meowth,TAI MOI,,imports/pokemon_3d_forms/persian-alola.glb,pokemon Alolan Persian 3d model glb
+1,raticate-alola,Alolan Raticate,Alola,Raticate,TAI MOI,,imports/pokemon_3d_forms/raticate-alola.glb,pokemon Alolan Raticate 3d model glb
+1,rattata-alola,Alolan Rattata,Alola,Raticate,TAI MOI,,imports/pokemon_3d_forms/rattata-alola.glb,pokemon Alolan Rattata 3d model glb
+1,corsola-galar,Galarian Corsola,Galar,Corsola,TAI MOI,,imports/pokemon_3d_forms/corsola-galar.glb,pokemon Galarian Corsola 3d model glb
+1,darmanitan-galar-standard,Galarian Darmanitan (Standard),Galar,Darmanitan,TAI MOI,,imports/pokemon_3d_forms/darmanitan-galar-standard.glb,pokemon Galarian Darmanitan 3d model glb
+1,darmanitan-galar-zen,Galarian Darmanitan (Zen),Galar,Darmanitan,TAI MOI,,imports/pokemon_3d_forms/darmanitan-galar-zen.glb,pokemon Galarian Darmanitan 3d model glb
+1,darumaka-galar,Galarian Darumaka,Galar,Darumaka,TAI MOI,,imports/pokemon_3d_forms/darumaka-galar.glb,pokemon Galarian Darumaka 3d model glb
+1,linoone-galar,Galarian Linoone,Galar,Linoone,TAI MOI,,imports/pokemon_3d_forms/linoone-galar.glb,pokemon Galarian Linoone 3d model glb
+1,mr-mime-galar,Galarian Mr. Mime,Galar,Mr.mime,TAI MOI,,imports/pokemon_3d_forms/mr-mime-galar.glb,pokemon Galarian Mr. Mime 3d model glb
+1,ponyta-galar,Galarian Ponyta,Galar,Rapidash,TAI MOI,,imports/pokemon_3d_forms/ponyta-galar.glb,pokemon Galarian Ponyta 3d model glb
+1,rapidash-galar,Galarian Rapidash,Galar,Rapidash,TAI MOI,,imports/pokemon_3d_forms/rapidash-galar.glb,pokemon Galarian Rapidash 3d model glb
+1,slowbro-galar,Galarian Slowbro,Galar,Slowpoke,TAI MOI,,imports/pokemon_3d_forms/slowbro-galar.glb,pokemon Galarian Slowbro 3d model glb
+1,slowpoke-galar,Galarian Slowpoke,Galar,Slowpoke,TAI MOI,,imports/pokemon_3d_forms/slowpoke-galar.glb,pokemon Galarian Slowpoke 3d model glb
+1,weezing-galar,Galarian Weezing,Galar,Weezing,TAI MOI,Pokemon World có tên nhưng dùng model Weezing thường,imports/pokemon_3d_forms/weezing-galar.glb,pokemon Galarian Weezing 3d model glb
+1,zigzagoon-galar,Galarian Zigzagoon,Galar,Linoone,TAI MOI,,imports/pokemon_3d_forms/zigzagoon-galar.glb,pokemon Galarian Zigzagoon 3d model glb
+1,arcanine-hisui,Hisuian Arcanine,Hisui,Arcanine,TAI MOI,,imports/pokemon_3d_forms/arcanine-hisui.glb,pokemon Hisuian Arcanine 3d model glb
+1,electrode-hisui,Hisuian Electrode,Hisui,Voltorb,TAI MOI,,imports/pokemon_3d_forms/electrode-hisui.glb,pokemon Hisuian Electrode 3d model glb
+1,growlithe-hisui,Hisuian Growlithe,Hisui,Arcanine,TAI MOI,,imports/pokemon_3d_forms/growlithe-hisui.glb,pokemon Hisuian Growlithe 3d model glb
+1,qwilfish-hisui,Hisuian Qwilfish,Hisui,Qwilfish,TAI MOI,,imports/pokemon_3d_forms/qwilfish-hisui.glb,pokemon Hisuian Qwilfish 3d model glb
+1,voltorb-hisui,Hisuian Voltorb,Hisui,Voltorb,TAI MOI,,imports/pokemon_3d_forms/voltorb-hisui.glb,pokemon Hisuian Voltorb 3d model glb
+1,abomasnow-mega,Mega Abomasnow,Mega,Snover,TAI MOI,,imports/pokemon_3d_forms/abomasnow-mega.glb,pokemon Mega Abomasnow 3d model glb
+1,aggron-mega,Mega Aggron,Mega,Aggron,TAI MOI,,imports/pokemon_3d_forms/aggron-mega.glb,pokemon Mega Aggron 3d model glb
+1,banette-mega,Mega Banette,Mega,Banette,TAI MOI,,imports/pokemon_3d_forms/banette-mega.glb,pokemon Mega Banette 3d model glb
+1,camerupt-mega,Mega Camerupt,Mega,Camerupt,TAI MOI,,imports/pokemon_3d_forms/camerupt-mega.glb,pokemon Mega Camerupt 3d model glb
+1,glalie-mega,Mega Glalie,Mega,Glalie,TAI MOI,,imports/pokemon_3d_forms/glalie-mega.glb,pokemon Mega Glalie 3d model glb
+1,lopunny-mega,Mega Lopunny,Mega,Buneary,TAI MOI,,imports/pokemon_3d_forms/lopunny-mega.glb,pokemon Mega Lopunny 3d model glb
+1,mawile-mega,Mega Mawile,Mega,Mawile,TAI MOI,,imports/pokemon_3d_forms/mawile-mega.glb,pokemon Mega Mawile 3d model glb
+1,medicham-mega,Mega Medicham,Mega,Meditite,TAI MOI,,imports/pokemon_3d_forms/medicham-mega.glb,pokemon Mega Medicham 3d model glb
+1,sableye-mega,Mega Sableye,Mega,Sableye,TAI MOI,,imports/pokemon_3d_forms/sableye-mega.glb,pokemon Mega Sableye 3d model glb
+1,wooper-paldea,Paldean Wooper,Paldea,Quagsire,TAI MOI,,imports/pokemon_3d_forms/wooper-paldea.glb,pokemon Paldean Wooper 3d model glb
+1,iron-bundle,Iron Bundle (từ Delibird),Paradox,Delibird,TAI MOI,,imports/pokemon_3d_forms/iron-bundle.glb,pokemon Iron Bundle 3d model glb
+1,iron-hands,Iron Hands (từ Hariyama),Paradox,Hariyama,TAI MOI,,imports/pokemon_3d_forms/iron-hands.glb,pokemon Iron Hands 3d model glb
+1,cursola,Cursola,Tiến hóa vùng,Corsola,TAI MOI,,imports/pokemon_3d_forms/cursola.glb,pokemon Cursola 3d model glb
+1,mr-rime,Mr. Rime,Tiến hóa vùng,Mr.mime,TAI MOI,,imports/pokemon_3d_forms/mr-rime.glb,pokemon Mr. Rime 3d model glb
+1,perrserker,Perrserker,Tiến hóa vùng,Meowth,TAI MOI,,imports/pokemon_3d_forms/perrserker.glb,pokemon Perrserker 3d model glb
+1,aegislash-blade,Aegislash Blade,Đổi dạng,Aegislash,TAI MOI,,imports/pokemon_3d_forms/aegislash-blade.glb,pokemon Aegislash Blade 3d model glb
+1,greninja-ash,Ash-Greninja,Đổi dạng,Frogadier,TAI MOI,,imports/pokemon_3d_forms/greninja-ash.glb,pokemon Ash-Greninja 3d model glb
+1,castform-rainy,Castform Rainy,Đổi dạng,Castform,TAI MOI,,imports/pokemon_3d_forms/castform-rainy.glb,pokemon Castform Rainy 3d model glb
+1,castform-snowy,Castform Snowy,Đổi dạng,Castform,TAI MOI,,imports/pokemon_3d_forms/castform-snowy.glb,pokemon Castform Snowy 3d model glb
+1,castform-sunny,Castform Sunny,Đổi dạng,Castform,TAI MOI,,imports/pokemon_3d_forms/castform-sunny.glb,pokemon Castform Sunny 3d model glb
+1,cherrim-sunshine,Cherrim Sunshine,Đổi dạng,Cherubi,TAI MOI,,imports/pokemon_3d_forms/cherrim-sunshine.glb,pokemon Cherrim Sunshine 3d model glb
+1,gastrodon-east,Gastrodon (East Sea),Đổi dạng,Shellos,TAI MOI,,imports/pokemon_3d_forms/gastrodon-east.glb,pokemon Gastrodon 3d model glb
+1,shellos-east,Shellos (East Sea),Đổi dạng,Shellos,TAI MOI,,imports/pokemon_3d_forms/shellos-east.glb,pokemon Shellos 3d model glb
+1,wormadam-sandy,Wormadam Sandy,Đổi dạng,Wormadam,TAI MOI,,imports/pokemon_3d_forms/wormadam-sandy.glb,pokemon Wormadam Sandy 3d model glb
+1,wormadam-trash,Wormadam Trash,Đổi dạng,Wormadam,TAI MOI,,imports/pokemon_3d_forms/wormadam-trash.glb,pokemon Wormadam Trash 3d model glb
+2,beedrill-mega,Mega Beedrill,Mega,Beedrill,TAI MOI (thay model doi mau),"model Beedrill thường, phóng to + aura",imports/pokemon_3d_forms/beedrill-mega.glb,pokemon Mega Beedrill 3d model glb
+2,kangaskhan-mega,Mega Kangaskhan,Mega,Kangaskhan,TAI MOI (thay model doi mau),model Kangaskhan thường (+ Kid riêng),imports/pokemon_3d_forms/kangaskhan-mega.glb,pokemon Mega Kangaskhan 3d model glb
+2,iron-jugulis,Iron Jugulis (từ Hydreigon),Paradox,Deino,TAI MOI (thay model doi mau),Booster Energy: model Hydreigon đổi màu,imports/pokemon_3d_forms/iron-jugulis.glb,pokemon Iron Jugulis 3d model glb
+2,sandy-shocks,Sandy Shocks (từ Magneton),Paradox,Magnemite,TAI MOI (thay model doi mau),Booster Energy: model Magneton đổi màu,imports/pokemon_3d_forms/sandy-shocks.glb,pokemon Sandy Shocks 3d model glb
+3,blastoise-gmax,Gigantamax Blastoise,Gigantamax,Wartortle,TAI MOI,,imports/pokemon_3d_forms/blastoise-gmax.glb,pokemon Gigantamax Blastoise 3d model glb
+3,butterfree-gmax,Gigantamax Butterfree,Gigantamax,Metapod,TAI MOI,,imports/pokemon_3d_forms/butterfree-gmax.glb,pokemon Gigantamax Butterfree 3d model glb
+3,charizard-gmax,Gigantamax Charizard,Gigantamax,Charizard,TAI MOI,,imports/pokemon_3d_forms/charizard-gmax.glb,pokemon Gigantamax Charizard 3d model glb
+3,eevee-gmax,Gigantamax Eevee,Gigantamax,Glaceon,TAI MOI,,imports/pokemon_3d_forms/eevee-gmax.glb,pokemon Gigantamax Eevee 3d model glb
+3,gengar-gmax,Gigantamax Gengar,Gigantamax,Haunter,TAI MOI,,imports/pokemon_3d_forms/gengar-gmax.glb,pokemon Gigantamax Gengar 3d model glb
+3,kingler-gmax,Gigantamax Kingler,Gigantamax,Krabby,TAI MOI,,imports/pokemon_3d_forms/kingler-gmax.glb,pokemon Gigantamax Kingler 3d model glb
+3,lapras-gmax,Gigantamax Lapras,Gigantamax,Lapras,TAI MOI,,imports/pokemon_3d_forms/lapras-gmax.glb,pokemon Gigantamax Lapras 3d model glb
+3,machamp-gmax,Gigantamax Machamp,Gigantamax,Machoke,TAI MOI,,imports/pokemon_3d_forms/machamp-gmax.glb,pokemon Gigantamax Machamp 3d model glb
+3,meowth-gmax,Gigantamax Meowth,Gigantamax,Meowth,TAI MOI,,imports/pokemon_3d_forms/meowth-gmax.glb,pokemon Gigantamax Meowth 3d model glb
+3,pikachu-gmax,Gigantamax Pikachu,Gigantamax,Raichu,TAI MOI,,imports/pokemon_3d_forms/pikachu-gmax.glb,pokemon Gigantamax Pikachu 3d model glb
+3,snorlax-gmax,Gigantamax Snorlax,Gigantamax,Snorlax,TAI MOI,,imports/pokemon_3d_forms/snorlax-gmax.glb,pokemon Gigantamax Snorlax 3d model glb
+3,venusaur-gmax,Gigantamax Venusaur,Gigantamax,Bulbasaur,TAI MOI,,imports/pokemon_3d_forms/venusaur-gmax.glb,pokemon Gigantamax Venusaur 3d model glb
+3,absol-mega-z,Mega Absol Z,Mega Z-A,Absol,TAI MOI,,imports/pokemon_3d_forms/absol-mega-z.glb,pokemon Mega Absol Z 3d model glb
+3,chandelure-mega,Mega Chandelure,Mega Z-A,Litwick,TAI MOI,,imports/pokemon_3d_forms/chandelure-mega.glb,pokemon Mega Chandelure 3d model glb
+3,chesnaught-mega,Mega Chesnaught,Mega Z-A,Quilladin,TAI MOI,,imports/pokemon_3d_forms/chesnaught-mega.glb,pokemon Mega Chesnaught 3d model glb
+3,chimecho-mega,Mega Chimecho,Mega Z-A,Chimecho,TAI MOI,,imports/pokemon_3d_forms/chimecho-mega.glb,pokemon Mega Chimecho 3d model glb
+3,clefable-mega,Mega Clefable,Mega Z-A,Cleffa,TAI MOI,,imports/pokemon_3d_forms/clefable-mega.glb,pokemon Mega Clefable 3d model glb
+3,delphox-mega,Mega Delphox,Mega Z-A,Delphox,TAI MOI,,imports/pokemon_3d_forms/delphox-mega.glb,pokemon Mega Delphox 3d model glb
+3,dragonite-mega,Mega Dragonite,Mega Z-A,Dragonite,TAI MOI,,imports/pokemon_3d_forms/dragonite-mega.glb,pokemon Mega Dragonite 3d model glb
+3,emboar-mega,Mega Emboar,Mega Z-A,Tepig,TAI MOI,,imports/pokemon_3d_forms/emboar-mega.glb,pokemon Mega Emboar 3d model glb
+3,feraligatr-mega,Mega Feraligatr,Mega Z-A,Croconaw,TAI MOI,,imports/pokemon_3d_forms/feraligatr-mega.glb,pokemon Mega Feraligatr 3d model glb
+3,garchomp-mega-z,Mega Garchomp Z,Mega Z-A,Gabite,TAI MOI,,imports/pokemon_3d_forms/garchomp-mega-z.glb,pokemon Mega Garchomp Z 3d model glb
+3,greninja-mega,Mega Greninja,Mega Z-A,Frogadier,TAI MOI,,imports/pokemon_3d_forms/greninja-mega.glb,pokemon Mega Greninja 3d model glb
+3,lucario-mega-z,Mega Lucario Z,Mega Z-A,Riolu,TAI MOI,,imports/pokemon_3d_forms/lucario-mega-z.glb,pokemon Mega Lucario Z 3d model glb
+3,meganium-mega,Mega Meganium,Mega Z-A,Meganium,TAI MOI,,imports/pokemon_3d_forms/meganium-mega.glb,pokemon Mega Meganium 3d model glb
+3,raichu-mega-x,Mega Raichu X,Mega Z-A,Raichu,TAI MOI,,imports/pokemon_3d_forms/raichu-mega-x.glb,pokemon Mega Raichu X 3d model glb
+3,raichu-mega-y,Mega Raichu Y,Mega Z-A,Raichu,TAI MOI,,imports/pokemon_3d_forms/raichu-mega-y.glb,pokemon Mega Raichu Y 3d model glb
+3,skarmory-mega,Mega Skarmory,Mega Z-A,Skarmory,TAI MOI,,imports/pokemon_3d_forms/skarmory-mega.glb,pokemon Mega Skarmory 3d model glb
+3,staraptor-mega,Mega Staraptor,Mega Z-A,Starly,TAI MOI,,imports/pokemon_3d_forms/staraptor-mega.glb,pokemon Mega Staraptor 3d model glb
+3,starmie-mega,Mega Starmie,Mega Z-A,Starmie,TAI MOI,,imports/pokemon_3d_forms/starmie-mega.glb,pokemon Mega Starmie 3d model glb
+3,victreebel-mega,Mega Victreebel,Mega Z-A,Victreebel,TAI MOI,,imports/pokemon_3d_forms/victreebel-mega.glb,pokemon Mega Victreebel 3d model glb
+3,pikachu-world-cap,Ash-Pikachu (mũ Ash),Đặc biệt,Raichu,TAI MOI,,imports/pokemon_3d_forms/pikachu-world-cap.glb,pokemon Ash-Pikachu 3d model glb
+3,pichu-spiky-eared,Spiky-eared Pichu,Đặc biệt,Raichu,TAI MOI,,imports/pokemon_3d_forms/pichu-spiky-eared.glb,pokemon Spiky-eared Pichu 3d model glb
+4,articuno-galar,Galarian Articuno,Legend (Legendary),Articuno,TAI MOI (thay model doi mau),model Articuno đổi màu,imports/pokemon_3d_forms/articuno-galar.glb,pokemon Galarian Articuno 3d model glb
+4,zapdos-galar,Galarian Zapdos,Legend (Legendary),Zapdos,TAI MOI (thay model doi mau),model Zapdos đổi màu,imports/pokemon_3d_forms/zapdos-galar.glb,pokemon Galarian Zapdos 3d model glb
+4,moltres-galar,Galarian Moltres,Legend (Legendary),Moltres,TAI MOI (thay model doi mau),model Moltres đổi màu,imports/pokemon_3d_forms/moltres-galar.glb,pokemon Galarian Moltres 3d model glb
+4,dialga-origin,Dialga Origin,Legend (Legendary),Dialga,TAI MOI (thay model doi mau),model Dialga đổi màu,imports/pokemon_3d_forms/dialga-origin.glb,pokemon Dialga Origin 3d model glb
+4,palkia-origin,Palkia Origin,Legend (Legendary),Palkia,TAI MOI (thay model doi mau),model Palkia đổi màu,imports/pokemon_3d_forms/palkia-origin.glb,pokemon Palkia Origin 3d model glb
+4,heatran-mega,Mega Heatran,Legend (Legendary),Heatran,TAI MOI,,imports/pokemon_3d_forms/heatran-mega.glb,pokemon Mega Heatran 3d model glb
+4,darkrai-mega,Mega Darkrai,Legend (Mythical),Darkrai,TAI MOI,,imports/pokemon_3d_forms/darkrai-mega.glb,pokemon Mega Darkrai 3d model glb
+4,shaymin-sky,Shaymin Sky,Legend (Mythical),Shaymin,TAI MOI,,imports/pokemon_3d_forms/shaymin-sky.glb,pokemon Shaymin Sky 3d model glb
+4,tornadus-therian,Tornadus Therian,Legend (Legendary),Tornadus,TAI MOI,,imports/pokemon_3d_forms/tornadus-therian.glb,pokemon Tornadus Therian 3d model glb
+4,thundurus-therian,Thundurus Therian,Legend (Legendary),Thundurus,TAI MOI,,imports/pokemon_3d_forms/thundurus-therian.glb,pokemon Thundurus Therian 3d model glb
+4,landorus-therian,Landorus Therian,Legend (Legendary),Landorus,TAI MOI,,imports/pokemon_3d_forms/landorus-therian.glb,pokemon Landorus Therian 3d model glb
+4,keldeo-resolute,Keldeo Resolute,Legend (Mythical),Keldeo,TAI MOI,,imports/pokemon_3d_forms/keldeo-resolute.glb,pokemon Keldeo Resolute 3d model glb
+4,meloetta-pirouette,Meloetta Pirouette,Legend (Mythical),Meloetta,TAI MOI,,imports/pokemon_3d_forms/meloetta-pirouette.glb,pokemon Meloetta Pirouette 3d model glb
+4,zygarde-complete,Zygarde Complete,Legend (Legendary),Zygarde,TAI MOI,,imports/pokemon_3d_forms/zygarde-complete.glb,pokemon Zygarde Complete 3d model glb
+4,zygarde-10,Zygarde 10%,Legend (Legendary),Zygarde,TAI MOI,,imports/pokemon_3d_forms/zygarde-10.glb,pokemon Zygarde 10% 3d model glb
+4,zygarde-mega,Mega Zygarde,Legend (Legendary),Zygarde,TAI MOI,,imports/pokemon_3d_forms/zygarde-mega.glb,pokemon Mega Zygarde 3d model glb
+4,necrozma-dusk,Dusk Mane Necrozma,Legend (Legendary),Necrozma,TAI MOI,,imports/pokemon_3d_forms/necrozma-dusk.glb,pokemon Dusk Mane Necrozma 3d model glb
+4,necrozma-dawn,Dawn Wings Necrozma,Legend (Legendary),Necrozma,TAI MOI,,imports/pokemon_3d_forms/necrozma-dawn.glb,pokemon Dawn Wings Necrozma 3d model glb
+4,magearna-mega,Mega Magearna,Legend (Mythical),Magearna,TAI MOI,,imports/pokemon_3d_forms/magearna-mega.glb,pokemon Mega Magearna 3d model glb
+4,magearna-original-mega,Mega Magearna (Original),Legend (Mythical),Magearna,TAI MOI,,imports/pokemon_3d_forms/magearna-original-mega.glb,pokemon Mega Magearna (Original) 3d model glb
+4,zeraora-mega,Mega Zeraora,Legend (Mythical),Zeraora,TAI MOI,,imports/pokemon_3d_forms/zeraora-mega.glb,pokemon Mega Zeraora 3d model glb
+4,melmetal-gmax,Gigantamax Melmetal,Legend (Mythical),Melmetal,TAI MOI,,imports/pokemon_3d_forms/melmetal-gmax.glb,pokemon Gigantamax Melmetal 3d model glb
+4,zacian-crowned,Zacian Crowned,Legend (Legendary),Zacian,TAI MOI,,imports/pokemon_3d_forms/zacian-crowned.glb,pokemon Zacian Crowned 3d model glb
+4,zamazenta-crowned,Zamazenta Crowned,Legend (Legendary),Zamazenta,TAI MOI,,imports/pokemon_3d_forms/zamazenta-crowned.glb,pokemon Zamazenta Crowned 3d model glb
+4,eternatus-eternamax,Eternamax Eternatus,Legend (Legendary),Eternatus,TAI MOI,,imports/pokemon_3d_forms/eternatus-eternamax.glb,pokemon Eternamax Eternatus 3d model glb
+4,urshifu-rapid-strike,Urshifu Rapid Strike,Legend (Legendary),Urshifu,TAI MOI,,imports/pokemon_3d_forms/urshifu-rapid-strike.glb,pokemon Urshifu Rapid Strike 3d model glb
+4,urshifu-single-strike-gmax,Gigantamax Urshifu (Single Strike),Legend (Legendary),Urshifu,TAI MOI,,imports/pokemon_3d_forms/urshifu-single-strike-gmax.glb,pokemon Gigantamax Urshifu (Single Strike) 3d model glb
+4,urshifu-rapid-strike-gmax,Gigantamax Urshifu (Rapid Strike),Legend (Legendary),Urshifu,TAI MOI,,imports/pokemon_3d_forms/urshifu-rapid-strike-gmax.glb,pokemon Gigantamax Urshifu (Rapid Strike) 3d model glb
+4,calyrex-ice,Ice Rider Calyrex,Legend (Legendary),Calyrex,TAI MOI,,imports/pokemon_3d_forms/calyrex-ice.glb,pokemon Ice Rider Calyrex 3d model glb
+4,calyrex-shadow,Shadow Rider Calyrex,Legend (Legendary),Calyrex,TAI MOI,,imports/pokemon_3d_forms/calyrex-shadow.glb,pokemon Shadow Rider Calyrex 3d model glb
+4,enamorus-therian,Enamorus Therian,Legend (Legendary),Enamorus,TAI MOI,,imports/pokemon_3d_forms/enamorus-therian.glb,pokemon Enamorus Therian 3d model glb
+4,ogerpon-wellspring-mask,Ogerpon Wellspring,Legend (Legendary),Ogerpon,TAI MOI,,imports/pokemon_3d_forms/ogerpon-wellspring-mask.glb,pokemon Ogerpon Wellspring 3d model glb
+4,ogerpon-hearthflame-mask,Ogerpon Hearthflame,Legend (Legendary),Ogerpon,TAI MOI,,imports/pokemon_3d_forms/ogerpon-hearthflame-mask.glb,pokemon Ogerpon Hearthflame 3d model glb
+4,ogerpon-cornerstone-mask,Ogerpon Cornerstone,Legend (Legendary),Ogerpon,TAI MOI,,imports/pokemon_3d_forms/ogerpon-cornerstone-mask.glb,pokemon Ogerpon Cornerstone 3d model glb
+4,terapagos-terastal,Terapagos Terastal,Legend (Legendary),Terapagos,TAI MOI,,imports/pokemon_3d_forms/terapagos-terastal.glb,pokemon Terapagos Terastal 3d model glb
+4,terapagos-stellar,Terapagos Stellar,Legend (Legendary),Terapagos,TAI MOI,,imports/pokemon_3d_forms/terapagos-stellar.glb,pokemon Terapagos Stellar 3d model glb
+4,terapagos,Terapagos (dạng thường),Legend (Legendary),Terapagos,TAI MOI,không có trong pokemon_3d_all,imports/pokemon_3d_forms/terapagos.glb,pokemon terapagos 3d model glb

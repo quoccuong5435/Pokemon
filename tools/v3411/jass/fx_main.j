@@ -2320,6 +2320,7 @@ function Fx_RocketStart takes nothing returns nothing
     local integer pick = -1
     local integer k = 0
     local integer pw = Wild_Tier + Fx_RocketPow
+    local integer made = 0  // v4.3.2: Pokemon that really came
     local real x = 0.0
     local real y = -300.0
     local unit u = null
@@ -2355,6 +2356,7 @@ function Fx_RocketStart takes nothing returns nothing
     loop
         exitwhen k >= Fx_RocketCount
         set u = CreateUnit(Player(PLAYER_NEUTRAL_AGGRESSIVE), Fx_RocketType[ModuloInteger(k, 6)], x + GetRandomReal(-250.0, 250.0), y + GetRandomReal(-250.0, 250.0), 0.0)
+        if u != null then  // v4.3.2: a missing unit type must not end the raid at once with a free reward
         call SaveInteger(Mega_HT, GetHandleId(u), 31, pw)
         call Wild_Apply(u)
         call Wild_MakeElite(u)
@@ -2370,11 +2372,40 @@ function Fx_RocketStart takes nothing returns nothing
         call RemoveGuardPosition(u)
         call IssuePointOrder(u, "attack", Fx_RocketTX, Fx_RocketTY)
         call GroupAddUnit(Fx_RocketG, u)
+        set made = made + 1
+        endif
         set k = k + 1
     endloop
+    if made == 0 then  // v4.3.2: nothing was created (unit types missing): cancel, no reward, say so
+        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 12.0, "|cffff4040Team Rocket raid cancelled: its Pokemon could not be created.|r")
+        call Fx_RocketClear()
+        set u = null
+        return
+    endif
     call PingMinimap(x, y, 6.0)
-    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 12.0, "|cffff66ccTeam Rocket attacks the base of " + GetPlayerName(Player(pick)) + "'s side! Defeat their " + I2S(Fx_RocketCount) + " Pokemon within " + I2S(R2I(Fx_RocketTime)) + "s (+" + I2S(Fx_RocketKill) + " gold each, +" + I2S(Fx_RocketWin) + " gold for the side) or lose " + I2S(Fx_RocketStealPct) + "% of your gold and get weakened!|r")
+    call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 12.0, "|cffff66ccTeam Rocket attacks the base of " + GetPlayerName(Player(pick)) + "'s side! Defeat their " + I2S(made) + " Pokemon within " + I2S(R2I(Fx_RocketTime)) + "s (+" + I2S(Fx_RocketKill) + " gold each, +" + I2S(Fx_RocketWin) + " gold for the side) or lose " + I2S(Fx_RocketStealPct) + "% of your gold and get weakened!|r")
     set u = null
+endfunction
+
+// v4.3.2: the first raid at Fx_RocketFirst, then every Fx_RocketEvery (a periodic timer started at game start fired
+// 5 minutes after the first raid: 10:00, 15:00, 30:00 ...)
+function Fx_RocketFirstX takes nothing returns nothing
+    call DestroyTimer(GetExpiredTimer())
+    call TimerStart(CreateTimer(), Fx_RocketEvery, true, function Fx_RocketStart)
+    call Fx_RocketStart()
+endfunction
+
+// v4.3.2: "-rocket" (host only) starts a raid now, to test it
+function Fx_RocketCmd takes nothing returns nothing
+    if GetPlayerId(GetTriggerPlayer()) != Host_Id() then
+        call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 5.0, "|cffffcc00Only the host can type -rocket.|r")
+        return
+    endif
+    if Fx_RocketOn then
+        call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 5.0, "|cffffcc00A Team Rocket raid is already running.|r")
+        return
+    endif
+    call Fx_RocketStart()
 endfunction
 
 function Fx_RocketTick takes nothing returns nothing
@@ -2475,8 +2506,15 @@ function Fx_EventsInit takes nothing returns nothing
     set t = CreateTrigger()  // v3.4.16 Dynamax
     call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_EFFECT)
     call TriggerAddCondition(t, Condition(function Fx_DynaCast))
-    call TimerStart(CreateTimer(), Fx_RocketFirst, false, function Fx_RocketStart)
-    call TimerStart(CreateTimer(), Fx_RocketEvery, true, function Fx_RocketStart)
+    call TimerStart(CreateTimer(), Fx_RocketFirst, false, function Fx_RocketFirstX)
+    set t = CreateTrigger()  // v4.3.2: -rocket (host)
+    set pid = 0
+    loop
+        exitwhen pid >= 12
+        call TriggerRegisterPlayerChatEvent(t, Player(pid), "-rocket", true)
+        set pid = pid + 1
+    endloop
+    call TriggerAddAction(t, function Fx_RocketCmd)
     set t = null
 endfunction
 

@@ -1,0 +1,1398 @@
+{
+  "21": {
+    "src": "PW",
+    "ref": "Unit\\021.mdx",
+    "tris": 354,
+    "bh": 47.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_021.blp"
+  },
+  "22": {
+    "src": "PW",
+    "ref": "Unit\\022.mdx",
+    "tris": 6592,
+    "bh": 62.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_022.blp"
+  },
+  "29": {
+    "src": "PW",
+    "ref": "Unit\\029.mdx",
+    "tris": 4484,
+    "bh": 57.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_029.blp"
+  },
+  "30": {
+    "src": "PW",
+    "ref": "Unit\\030.mdx",
+    "tris": 4988,
+    "bh": 88.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_030.blp"
+  },
+  "31": {
+    "src": "PW",
+    "ref": "Unit\\031.mdx",
+    "tris": 4992,
+    "bh": 148.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_031.blp"
+  },
+  "46": {
+    "src": "PW",
+    "ref": "Unit\\046.mdx",
+    "tris": 650,
+    "bh": 74.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_046.blp"
+  },
+  "47": {
+    "src": "PW",
+    "ref": "Unit\\047.mdx",
+    "tris": 4980,
+    "bh": 91.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_047.blp"
+  },
+  "48": {
+    "src": "PW",
+    "ref": "Unit\\048.mdx",
+    "tris": 478,
+    "bh": 155.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_048.blp"
+  },
+  "49": {
+    "src": "PW",
+    "ref": "Unit\\049.mdx",
+    "tris": 592,
+    "bh": 58.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_049.blp"
+  },
+  "84": {
+    "src": "PW",
+    "ref": "Unit\\084.mdx",
+    "tris": 5504,
+    "bh": 141.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_084.blp"
+  },
+  "85": {
+    "src": "PW",
+    "ref": "Unit\\085.mdx",
+    "tris": 6035,
+    "bh": 189.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_085.blp"
+  },
+  "88": {
+    "src": "PW",
+    "ref": "Unit\\088.mdx",
+    "tris": 4418,
+    "bh": 139.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_088.blp"
+  },
+  "89": {
+    "src": "PW",
+    "ref": "Unit\\089.mdx",
+    "tris": 5312,
+    "bh": 187.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_089.blp"
+  },
+  "108": {
+    "src": "RPG79",
+    "ref": 5649,
+    "tris": 5156,
+    "bh": 111.5,
+    "btn": null
+  },
+  "118": {
+    "src": "PW",
+    "ref": "Unit\\118.mdx",
+    "tris": 496,
+    "bh": 43.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_118.blp"
+  },
+  "119": {
+    "src": "PW",
+    "ref": "Unit\\119.mdx",
+    "tris": 351,
+    "bh": 61.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_119.blp"
+  },
+  "161": {
+    "src": "PW",
+    "ref": "Unit\\161.mdx",
+    "tris": 4978,
+    "bh": 82.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_161.blp"
+  },
+  "162": {
+    "src": "PW",
+    "ref": "Unit\\162.mdx",
+    "tris": 3744,
+    "bh": 41.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_162.blp"
+  },
+  "165": {
+    "src": "RPG79",
+    "ref": 5761,
+    "tris": 4890,
+    "bh": 36.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_165.blp"
+  },
+  "166": {
+    "src": "RPG79",
+    "ref": 5762,
+    "tris": 5114,
+    "bh": 93.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_166.blp"
+  },
+  "167": {
+    "src": "PW",
+    "ref": "Unit\\167.mdx",
+    "tris": 4018,
+    "bh": 21.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_167.blp"
+  },
+  "168": {
+    "src": "PW",
+    "ref": "Unit\\168.mdx",
+    "tris": 3586,
+    "bh": 73.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_168.blp"
+  },
+  "172": {
+    "src": "PW",
+    "ref": "Unit\\172.mdx",
+    "tris": 1185,
+    "bh": 61.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_172.blp"
+  },
+  "173": {
+    "src": "MEW",
+    "ref": 5386,
+    "tris": 3965,
+    "bh": 27.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_173.blp"
+  },
+  "174": {
+    "src": "RPG79",
+    "ref": 5774,
+    "tris": 3472,
+    "bh": 123.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_174.blp"
+  },
+  "177": {
+    "src": "PW",
+    "ref": "Unit\\177.mdx",
+    "tris": 815,
+    "bh": 83.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_177.blp"
+  },
+  "178": {
+    "src": "PW",
+    "ref": "Unit\\178.mdx",
+    "tris": 8640,
+    "bh": 49.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_178.blp"
+  },
+  "183": {
+    "src": "RPG79",
+    "ref": 5800,
+    "tris": 717,
+    "bh": 70.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_183.blp"
+  },
+  "184": {
+    "src": "PW",
+    "ref": "Unit\\184.mdx",
+    "tris": 4058,
+    "bh": 207.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_184.blp"
+  },
+  "187": {
+    "src": "PW",
+    "ref": "Unit\\187.mdx",
+    "tris": 3788,
+    "bh": 86.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_187.blp"
+  },
+  "188": {
+    "src": "PW",
+    "ref": "Unit\\188.mdx",
+    "tris": 4560,
+    "bh": 60.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_188.blp"
+  },
+  "189": {
+    "src": "PW",
+    "ref": "Unit\\189.mdx",
+    "tris": 3328,
+    "bh": 90.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_189.blp"
+  },
+  "190": {
+    "src": "MEW",
+    "ref": 4113,
+    "tris": 4962,
+    "bh": 72.3,
+    "btn": null
+  },
+  "191": {
+    "src": "PW",
+    "ref": "Unit\\191.mdx",
+    "tris": 3006,
+    "bh": 27.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_191.blp"
+  },
+  "192": {
+    "src": "PW",
+    "ref": "Unit\\192.mdx",
+    "tris": 5118,
+    "bh": 72.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_192.blp"
+  },
+  "193": {
+    "src": "PW",
+    "ref": "Unit\\193.mdx",
+    "tris": 5204,
+    "bh": 48.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_193.blp"
+  },
+  "194": {
+    "src": "PW",
+    "ref": "Unit\\194.mdx",
+    "tris": 3920,
+    "bh": 48.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_194.blp"
+  },
+  "195": {
+    "src": "PW",
+    "ref": "Unit\\195.mdx",
+    "tris": 5526,
+    "bh": 81.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_195.blp"
+  },
+  "198": {
+    "src": "PW",
+    "ref": "Unit\\198.mdx",
+    "tris": 1558,
+    "bh": 133.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_198.blp"
+  },
+  "201": {
+    "src": "MEW",
+    "ref": 2856,
+    "tris": 1424,
+    "bh": 70.9,
+    "btn": null
+  },
+  "203": {
+    "src": "PW",
+    "ref": "Unit\\203.mdx",
+    "tris": 5394,
+    "bh": 150.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_203.blp"
+  },
+  "204": {
+    "src": "PW",
+    "ref": "Unit\\204.mdx",
+    "tris": 4390,
+    "bh": 91.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_204.blp"
+  },
+  "205": {
+    "src": "PW",
+    "ref": "Unit\\205.mdx",
+    "tris": 5086,
+    "bh": 131.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_205.blp"
+  },
+  "206": {
+    "src": "PW",
+    "ref": "Unit\\206.mdx",
+    "tris": 4380,
+    "bh": 56.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_206.blp"
+  },
+  "207": {
+    "src": "PW",
+    "ref": "Unit\\207.mdx",
+    "tris": 5990,
+    "bh": 124.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_207.blp"
+  },
+  "211": {
+    "src": "PW",
+    "ref": "Unit\\211.mdx",
+    "tris": 3654,
+    "bh": 44.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_211.blp"
+  },
+  "213": {
+    "src": "PW",
+    "ref": "Unit\\213.mdx",
+    "tris": 400,
+    "bh": 82.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_213.blp"
+  },
+  "216": {
+    "src": "PW",
+    "ref": "Unit\\216.mdx",
+    "tris": 4868,
+    "bh": 52.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_216.blp"
+  },
+  "217": {
+    "src": "PW",
+    "ref": "Unit\\217.mdx",
+    "tris": 6120,
+    "bh": 179.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_217.blp"
+  },
+  "222": {
+    "src": "RPG79",
+    "ref": 5864,
+    "tris": 5092,
+    "bh": 57.4,
+    "btn": null
+  },
+  "223": {
+    "src": "PW",
+    "ref": "Unit\\223.mdx",
+    "tris": 3138,
+    "bh": 34.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_223.blp"
+  },
+  "224": {
+    "src": "PW",
+    "ref": "Unit\\224.mdx",
+    "tris": 4964,
+    "bh": 83.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_224.blp"
+  },
+  "225": {
+    "src": "PW",
+    "ref": "Unit\\225.mdx",
+    "tris": 5872,
+    "bh": 85.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_225.blp"
+  },
+  "226": {
+    "src": "PW",
+    "ref": "Unit\\226.mdx",
+    "tris": 4180,
+    "bh": 45.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_226.blp"
+  },
+  "227": {
+    "src": "PW",
+    "ref": "Unit\\227.mdx",
+    "tris": 694,
+    "bh": 52.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_227.blp"
+  },
+  "231": {
+    "src": "PW",
+    "ref": "Unit\\231.mdx",
+    "tris": 4104,
+    "bh": 70.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_231.blp"
+  },
+  "232": {
+    "src": "PW",
+    "ref": "Unit\\232.mdx",
+    "tris": 5976,
+    "bh": 108.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_232.blp"
+  },
+  "234": {
+    "src": "PW",
+    "ref": "Unit\\234.mdx",
+    "tris": 6226,
+    "bh": 161.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_234.blp"
+  },
+  "235": {
+    "src": "RPG79",
+    "ref": 5894,
+    "tris": 5156,
+    "bh": 109.1,
+    "btn": null
+  },
+  "241": {
+    "src": "PW",
+    "ref": "Unit\\241.mdx",
+    "tris": 1504,
+    "bh": 1024.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_241.blp"
+  },
+  "249": {
+    "src": "PW",
+    "ref": "Unit\\249.mdx",
+    "tris": 724,
+    "bh": 230.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_249.blp"
+  },
+  "261": {
+    "src": "PW",
+    "ref": "Unit\\261.mdx",
+    "tris": 5594,
+    "bh": 76.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_261.blp"
+  },
+  "262": {
+    "src": "PW",
+    "ref": "Unit\\262.mdx",
+    "tris": 6998,
+    "bh": 147.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_262.blp"
+  },
+  "263": {
+    "src": "PW",
+    "ref": "Unit\\263.mdx",
+    "tris": 2690,
+    "bh": 52.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_263.blp"
+  },
+  "264": {
+    "src": "PW",
+    "ref": "Unit\\264.mdx",
+    "tris": 2132,
+    "bh": 63.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_264.blp"
+  },
+  "265": {
+    "src": "PW",
+    "ref": "Unit\\265.mdx",
+    "tris": 4560,
+    "bh": 57.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_265.blp"
+  },
+  "266": {
+    "src": "PW",
+    "ref": "Unit\\266.mdx",
+    "tris": 1904,
+    "bh": 73.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_266.blp"
+  },
+  "267": {
+    "src": "PW",
+    "ref": "Unit\\267.mdx",
+    "tris": 4580,
+    "bh": 96.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_267.blp"
+  },
+  "269": {
+    "src": "PW",
+    "ref": "Unit\\269.mdx",
+    "tris": 5864,
+    "bh": 106.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_269.blp"
+  },
+  "283": {
+    "src": "RPG79",
+    "ref": 5919,
+    "tris": 4956,
+    "bh": 158.9,
+    "btn": null
+  },
+  "284": {
+    "src": "RPG79",
+    "ref": 5948,
+    "tris": 2488,
+    "bh": 69.5,
+    "btn": null
+  },
+  "287": {
+    "src": "PW",
+    "ref": "Unit\\287.mdx",
+    "tris": 3764,
+    "bh": 98.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_287.blp"
+  },
+  "288": {
+    "src": "PW",
+    "ref": "Unit\\288.mdx",
+    "tris": 5066,
+    "bh": 133.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_288.blp"
+  },
+  "289": {
+    "src": "PW",
+    "ref": "Unit\\289.mdx",
+    "tris": 7080,
+    "bh": 224.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_289.blp"
+  },
+  "293": {
+    "src": "PW",
+    "ref": "Unit\\293.mdx",
+    "tris": 2966,
+    "bh": 57.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_293.blp"
+  },
+  "294": {
+    "src": "PW",
+    "ref": "Unit\\294.mdx",
+    "tris": 5514,
+    "bh": 91.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_294.blp"
+  },
+  "295": {
+    "src": "PW",
+    "ref": "Unit\\295.mdx",
+    "tris": 6866,
+    "bh": 139.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_295.blp"
+  },
+  "296": {
+    "src": "PW",
+    "ref": "Unit\\296.mdx",
+    "tris": 4672,
+    "bh": 68.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_296.blp"
+  },
+  "297": {
+    "src": "PW",
+    "ref": "Unit\\297.mdx",
+    "tris": 5952,
+    "bh": 88.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_297.blp"
+  },
+  "298": {
+    "src": "PW",
+    "ref": "Unit\\298.mdx",
+    "tris": 3386,
+    "bh": 70.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_298.blp"
+  },
+  "299": {
+    "src": "RPG79",
+    "ref": 5972,
+    "tris": 1658,
+    "bh": 92.5,
+    "btn": null
+  },
+  "303": {
+    "src": "PW",
+    "ref": "Unit\\303.mdx",
+    "tris": 5682,
+    "bh": 99.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_303.blp"
+  },
+  "304": {
+    "src": "PW",
+    "ref": "Unit\\304.mdx",
+    "tris": 5988,
+    "bh": 41.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_304.blp"
+  },
+  "305": {
+    "src": "PW",
+    "ref": "Unit\\305.mdx",
+    "tris": 6742,
+    "bh": 72.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_305.blp"
+  },
+  "306": {
+    "src": "PW",
+    "ref": "Unit\\306.mdx",
+    "tris": 7132,
+    "bh": 199.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_306.blp"
+  },
+  "307": {
+    "src": "PW",
+    "ref": "Unit\\307.mdx",
+    "tris": 4596,
+    "bh": 90.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_307.blp"
+  },
+  "308": {
+    "src": "PW",
+    "ref": "Unit\\308.mdx",
+    "tris": 4588,
+    "bh": 172.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_308.blp"
+  },
+  "311": {
+    "src": "RPG79",
+    "ref": 5996,
+    "tris": 3966,
+    "bh": 79.3,
+    "btn": null
+  },
+  "312": {
+    "src": "RPG79",
+    "ref": 6001,
+    "tris": 3890,
+    "bh": 79.1,
+    "btn": null
+  },
+  "313": {
+    "src": "RPG79",
+    "ref": 6006,
+    "tris": 6102,
+    "bh": 84.3,
+    "btn": null
+  },
+  "314": {
+    "src": "RPG79",
+    "ref": 6007,
+    "tris": 4994,
+    "bh": 74.5,
+    "btn": null
+  },
+  "315": {
+    "src": "PW",
+    "ref": "Unit\\315.mdx",
+    "tris": 6466,
+    "bh": 83.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_315.blp"
+  },
+  "320": {
+    "src": "RPG79",
+    "ref": 6012,
+    "tris": 3512,
+    "bh": 70.6,
+    "btn": null
+  },
+  "321": {
+    "src": "RPG79",
+    "ref": 6015,
+    "tris": 5400,
+    "bh": 88.6,
+    "btn": null
+  },
+  "322": {
+    "src": "PW",
+    "ref": "Unit\\322.mdx",
+    "tris": 905,
+    "bh": 189.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_322.blp"
+  },
+  "323": {
+    "src": "PW",
+    "ref": "Unit\\323.mdx",
+    "tris": 1921,
+    "bh": 172.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_323.blp"
+  },
+  "327": {
+    "src": "RPG79",
+    "ref": 6029,
+    "tris": 1498,
+    "bh": 43.5,
+    "btn": null
+  },
+  "331": {
+    "src": "PW",
+    "ref": "Unit\\331.mdx",
+    "tris": 4636,
+    "bh": 67.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_331.blp"
+  },
+  "332": {
+    "src": "PW",
+    "ref": "Unit\\332.mdx",
+    "tris": 5648,
+    "bh": 111.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_332.blp"
+  },
+  "334": {
+    "src": "PW",
+    "ref": "Unit\\334.mdx",
+    "tris": 7098,
+    "bh": 108.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_334.blp"
+  },
+  "335": {
+    "src": "PW",
+    "ref": "Unit\\335.mdx",
+    "tris": 5244,
+    "bh": 132.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_335.blp"
+  },
+  "336": {
+    "src": "PW",
+    "ref": "Unit\\336.mdx",
+    "tris": 5200,
+    "bh": 305.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_336.blp"
+  },
+  "337": {
+    "src": "PW",
+    "ref": "Unit\\337.mdx",
+    "tris": 2436,
+    "bh": 91.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_337.blp"
+  },
+  "338": {
+    "src": "PW",
+    "ref": "Unit\\338.mdx",
+    "tris": 5042,
+    "bh": 112.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_338.blp"
+  },
+  "341": {
+    "src": "PW",
+    "ref": "Unit\\341.mdx",
+    "tris": 5168,
+    "bh": 51.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_341.blp"
+  },
+  "342": {
+    "src": "PW",
+    "ref": "Unit\\342.mdx",
+    "tris": 6590,
+    "bh": 82.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_342.blp"
+  },
+  "347": {
+    "src": "PW",
+    "ref": "Unit\\347.mdx",
+    "tris": 5780,
+    "bh": 51.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_347.blp"
+  },
+  "348": {
+    "src": "PW",
+    "ref": "Unit\\348.mdx",
+    "tris": 6932,
+    "bh": 128.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_348.blp"
+  },
+  "357": {
+    "src": "PW",
+    "ref": "Unit\\357.mdx",
+    "tris": 5928,
+    "bh": 271.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_357.blp"
+  },
+  "358": {
+    "src": "RPG79",
+    "ref": 6102,
+    "tris": 3662,
+    "bh": 132.3,
+    "btn": null
+  },
+  "361": {
+    "src": "PW",
+    "ref": "Unit\\361.mdx",
+    "tris": 3460,
+    "bh": 65.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_361.blp"
+  },
+  "362": {
+    "src": "PW",
+    "ref": "Unit\\362.mdx",
+    "tris": 3882,
+    "bh": 123.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_362.blp"
+  },
+  "363": {
+    "src": "PW",
+    "ref": "Unit\\363.mdx",
+    "tris": 3260,
+    "bh": 90.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_363.blp"
+  },
+  "364": {
+    "src": "PW",
+    "ref": "Unit\\364.mdx",
+    "tris": 5202,
+    "bh": 84.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_364.blp"
+  },
+  "365": {
+    "src": "PW",
+    "ref": "Unit\\365.mdx",
+    "tris": 6962,
+    "bh": 138.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_365.blp"
+  },
+  "366": {
+    "src": "RPG79",
+    "ref": 6112,
+    "tris": 5454,
+    "bh": 60.3,
+    "btn": null
+  },
+  "367": {
+    "src": "RPG79",
+    "ref": 6113,
+    "tris": 5222,
+    "bh": 38.6,
+    "btn": null
+  },
+  "368": {
+    "src": "RPG79",
+    "ref": 6114,
+    "tris": 3322,
+    "bh": 47.1,
+    "btn": null
+  },
+  "369": {
+    "src": "PW",
+    "ref": "Unit\\369.mdx",
+    "tris": 376,
+    "bh": 150.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_369.blp"
+  },
+  "396": {
+    "src": "PW",
+    "ref": "Unit\\396.mdx",
+    "tris": 4818,
+    "bh": 46.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_396.blp"
+  },
+  "397": {
+    "src": "PW",
+    "ref": "Unit\\397.mdx",
+    "tris": 5698,
+    "bh": 75.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_397.blp"
+  },
+  "398": {
+    "src": "PW",
+    "ref": "Unit\\398.mdx",
+    "tris": 6768,
+    "bh": 93.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_398.blp"
+  },
+  "399": {
+    "src": "PW",
+    "ref": "Unit\\399.mdx",
+    "tris": 1245,
+    "bh": 51.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_399.blp"
+  },
+  "400": {
+    "src": "PW",
+    "ref": "Unit\\400.mdx",
+    "tris": 5098,
+    "bh": 74.9,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_400.blp"
+  },
+  "403": {
+    "src": "PW",
+    "ref": "Unit\\403.mdx",
+    "tris": 760,
+    "bh": 231.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_403.blp"
+  },
+  "404": {
+    "src": "PW",
+    "ref": "Unit\\404.mdx",
+    "tris": 706,
+    "bh": 242.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_404.blp"
+  },
+  "405": {
+    "src": "PW",
+    "ref": "Unit\\405.mdx",
+    "tris": 6874,
+    "bh": 163.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_405.blp"
+  },
+  "406": {
+    "src": "PW",
+    "ref": "Unit\\406.mdx",
+    "tris": 3208,
+    "bh": 120.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_406.blp"
+  },
+  "407": {
+    "src": "PW",
+    "ref": "Unit\\407.mdx",
+    "tris": 6981,
+    "bh": 96.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_407.blp"
+  },
+  "408": {
+    "src": "PW",
+    "ref": "Unit\\408.mdx",
+    "tris": 4172,
+    "bh": 80.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_408.blp"
+  },
+  "409": {
+    "src": "PW",
+    "ref": "Unit\\409.mdx",
+    "tris": 6070,
+    "bh": 136.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_409.blp"
+  },
+  "410": {
+    "src": "RPG79",
+    "ref": 6208,
+    "tris": 4058,
+    "bh": 99.8,
+    "btn": null
+  },
+  "411": {
+    "src": "RPG79",
+    "ref": 6211,
+    "tris": 1558,
+    "bh": 148.3,
+    "btn": null
+  },
+  "415": {
+    "src": "PW",
+    "ref": "Unit\\415.mdx",
+    "tris": 3232,
+    "bh": 40.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_415.blp"
+  },
+  "416": {
+    "src": "PW",
+    "ref": "Unit\\416.mdx",
+    "tris": 5880,
+    "bh": 96.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_416.blp"
+  },
+  "417": {
+    "src": "RPG79",
+    "ref": 6217,
+    "tris": 5500,
+    "bh": 89.5,
+    "btn": null
+  },
+  "424": {
+    "src": "MEW",
+    "ref": 4108,
+    "tris": 6918,
+    "bh": 94.8,
+    "btn": null
+  },
+  "425": {
+    "src": "PW",
+    "ref": "Unit\\425.mdx",
+    "tris": 3620,
+    "bh": 63.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_425.blp"
+  },
+  "426": {
+    "src": "PW",
+    "ref": "Unit\\426.mdx",
+    "tris": 4686,
+    "bh": 134.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_426.blp"
+  },
+  "427": {
+    "src": "PW",
+    "ref": "Unit\\427.mdx",
+    "tris": 6170,
+    "bh": 105.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_427.blp"
+  },
+  "428": {
+    "src": "PW",
+    "ref": "Unit\\428.mdx",
+    "tris": 6998,
+    "bh": 179.1,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_428.blp"
+  },
+  "433": {
+    "src": "RPG79",
+    "ref": 6255,
+    "tris": 5400,
+    "bh": 92.8,
+    "btn": null
+  },
+  "436": {
+    "src": "RPG79",
+    "ref": 6258,
+    "tris": 2514,
+    "bh": 42.5,
+    "btn": null
+  },
+  "437": {
+    "src": "RPG79",
+    "ref": 6259,
+    "tris": 284,
+    "bh": 77.8,
+    "btn": null
+  },
+  "439": {
+    "src": "PW",
+    "ref": "Unit\\439.mdx",
+    "tris": 4662,
+    "bh": 108.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_439.blp"
+  },
+  "440": {
+    "src": "PW",
+    "ref": "Unit\\440.mdx",
+    "tris": 1065,
+    "bh": 54.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_440.blp"
+  },
+  "442": {
+    "src": "RPG79",
+    "ref": 6264,
+    "tris": 3806,
+    "bh": 114.9,
+    "btn": null
+  },
+  "446": {
+    "src": "PW",
+    "ref": "Unit\\446.mdx",
+    "tris": 4892,
+    "bh": 53.8,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_446.blp"
+  },
+  "447": {
+    "src": "PW",
+    "ref": "Unit\\447.mdx",
+    "tris": 5264,
+    "bh": 64.6,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_447.blp"
+  },
+  "449": {
+    "src": "RPG79",
+    "ref": 6293,
+    "tris": 5560,
+    "bh": 77.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_449.blp"
+  },
+  "450": {
+    "src": "RPG79",
+    "ref": 6295,
+    "tris": 6710,
+    "bh": 64.2,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_450.blp"
+  },
+  "451": {
+    "src": "PW",
+    "ref": "Unit\\451.mdx",
+    "tris": 1560,
+    "bh": 44.3,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_451.blp"
+  },
+  "452": {
+    "src": "PW",
+    "ref": "Unit\\452.mdx",
+    "tris": 6832,
+    "bh": 62.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_452.blp"
+  },
+  "456": {
+    "src": "RPG79",
+    "ref": 6304,
+    "tris": 3698,
+    "bh": 45.9,
+    "btn": null
+  },
+  "457": {
+    "src": "RPG79",
+    "ref": 6308,
+    "tris": 3378,
+    "bh": 109.8,
+    "btn": null
+  },
+  "458": {
+    "src": "PW",
+    "ref": "Unit\\458.mdx",
+    "tris": 1692,
+    "bh": 42.7,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_458.blp"
+  },
+  "463": {
+    "src": "RPG79",
+    "ref": 6319,
+    "tris": 6262,
+    "bh": 186.6,
+    "btn": null
+  },
+  "469": {
+    "src": "PW",
+    "ref": "Unit\\469.mdx",
+    "tris": 5936,
+    "bh": 65.4,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_469.blp"
+  },
+  "472": {
+    "src": "PW",
+    "ref": "Unit\\472.mdx",
+    "tris": 7080,
+    "bh": 267.0,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_472.blp"
+  },
+  "474": {
+    "src": "RPG79",
+    "ref": 6337,
+    "tris": 3492,
+    "bh": 90.1,
+    "btn": null
+  },
+  "476": {
+    "src": "RPG79",
+    "ref": 6350,
+    "tris": 4624,
+    "bh": 138.6,
+    "btn": null
+  },
+  "478": {
+    "src": "PW",
+    "ref": "Unit\\478.mdx",
+    "tris": 5100,
+    "bh": 120.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_478.blp"
+  },
+  "479": {
+    "src": "PW",
+    "ref": "Unit\\479.mdx",
+    "tris": 2952,
+    "bh": 68.5,
+    "btn": "ReplaceableTextures\\CommandButtons\\BTN_479.blp"
+  },
+  "489": {
+    "src": "RPG79",
+    "ref": 6382,
+    "tris": 2708,
+    "bh": 69.6,
+    "btn": null
+  },
+  "490": {
+    "src": "RPG79",
+    "ref": 6383,
+    "tris": 2154,
+    "bh": 149.3,
+    "btn": null
+  },
+  "492": {
+    "src": "RPG79",
+    "ref": 6389,
+    "tris": 1794,
+    "bh": 53.3,
+    "btn": null
+  },
+  "268": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\268.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "273": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\273.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "274": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\274.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "275": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\275.png",
+    "bh": 95.0,
+    "btn": null
+  },
+  "276": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\276.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "277": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\277.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "278": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\278.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "279": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\279.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "300": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\300.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "301": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\301.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "316": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\316.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "317": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\317.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "325": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\325.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "326": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\326.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "339": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\339.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "340": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\340.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "351": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\351.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "352": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\352.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "353": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\353.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "354": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\354.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "370": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\370.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "401": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\401.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "402": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\402.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "412": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\412.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "413": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\413.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "414": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\414.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "418": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\418.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "419": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\419.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "420": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\420.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "421": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\421.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "422": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\422.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "423": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\423.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "431": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\431.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "432": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\432.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "434": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\434.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "435": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\435.png",
+    "bh": 75.0,
+    "btn": null
+  },
+  "441": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\441.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "455": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\455.png",
+    "bh": 55.0,
+    "btn": null
+  },
+  "430": {
+    "src": "2.5D",
+    "ref": "analysis\\home_sprites\\430.png",
+    "bh": 95.0,
+    "btn": null
+  }
+}

@@ -40,6 +40,7 @@ PATCH = [
  ('Chiêu thức', ['Sửa lỗi bấm skill này ra skill khác (mỗi ô Q W E R có order riêng).', 'Mô tả skill hiện sát thương theo chỉ số chính và level hiện tại (màu xanh).', 'Hệ số skill: tối đa x5 (mỗi điểm chỉ số chính 0,05), thêm 0,02 mỗi level trên 50. Đòn đánh thường x1,8.']),
  ('Gym, huy hiệu, level cap', ['Gym 2 đến 8 kích hoạt từ cửa (vùng 900); mỗi gym là 6 Pokémon khác loài (chỉ loài cầm được item), mỗi con cầm item hệ và rớt khi chết. Level 6 con: thấp hơn bạn 30, 25, 20, 15, 10 level rồi bằng bạn; dame gym -20%.', 'Mỗi huy hiệu gym mang theo cộng Str/Agi/Int: +5 x số thứ tự gym (huy hiệu 8: +40, đủ 8 huy hiệu: +180).', 'Clear gym nhận huy hiệu. Level cap = 30 + 10 mỗi huy hiệu (tối đa 100); đạt cap thì ngừng nhận exp. Gõ -badges / -rank để xem.']),
  ('Duel', ['-duel <tên> thách đấu, người kia gõ -accept hoặc -decline. Hồi đầy máu, thua khi dưới 15% máu, hòa sau 2 phút.', 'Thắng nhận 500 vàng, tính vào -rank.']),
+ ('Wish legend', ['Gõ -legend nhận 4 wish miễn phí (một lần).', 'Bấm NPC Legend Wish (cạnh NPC Moves): Random wish (1 wish) = 40% ra Soul legend, không thì 1 token. Đủ 2 token (pity 2): wish random kế tiếp chắc chắn ra legend và nhận x2 Soul.', 'Chọn legend theo ý mình tốn 2 wish.']),
  ('Quái hoang dã & legend', ['Quái hoang dã dame x0,5, hồi sinh trại 10 giây, elite rớt Soul 20%.', 'Legend spawn 3 con mỗi lần.', 'Lệnh chicken: +10 level và +10.000 vàng.']),
 ]
 page = '''<!doctype html><html lang="vi"><meta charset="utf-8"><title>Pokemon Arena - Patch Note</title>

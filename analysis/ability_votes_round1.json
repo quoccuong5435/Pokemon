@@ -1,0 +1,529 @@
+{
+  "items": {
+    "Adaptability": {
+      "d": "keep",
+      "n": ""
+    },
+    "Aftermath": {
+      "d": "edit",
+      "n": ""
+    },
+    "Air_Lock": {
+      "d": "up",
+      "n": ""
+    },
+    "Analytic": {
+      "d": "edit",
+      "n": ""
+    },
+    "Anger_Point": {
+      "d": "up",
+      "n": ""
+    },
+    "Anticipation": {
+      "d": "edit",
+      "n": ""
+    },
+    "Bad_Dreams": {
+      "d": "up",
+      "n": ""
+    },
+    "Battle_Armor": {
+      "d": "edit",
+      "n": ""
+    },
+    "Big_Pecks": {
+      "d": "edit",
+      "n": ""
+    },
+    "Blaze": {
+      "d": "keep",
+      "n": ""
+    },
+    "Bulletproof": {
+      "d": "edit",
+      "n": ""
+    },
+    "Chlorophyll": {
+      "d": "up",
+      "n": ""
+    },
+    "Clear_Body": {
+      "d": "up",
+      "n": ""
+    },
+    "Cloud_Nine": {
+      "d": "edit",
+      "n": ""
+    },
+    "Competitive": {
+      "d": "edit",
+      "n": ""
+    },
+    "Compound_Eyes": {
+      "d": "keep",
+      "n": ""
+    },
+    "Contrary": {
+      "d": "keep",
+      "n": ""
+    },
+    "Cud_Chew": {
+      "d": "edit",
+      "n": ""
+    },
+    "Cursed_Body": {
+      "d": "keep",
+      "n": ""
+    },
+    "Cute_Charm": {
+      "d": "keep",
+      "n": ""
+    },
+    "Damp": {
+      "d": "edit",
+      "n": ""
+    },
+    "Defiant": {
+      "d": "keep",
+      "n": ""
+    },
+    "Drizzle": {
+      "d": "edit",
+      "n": ""
+    },
+    "Drought": {
+      "d": "edit",
+      "n": ""
+    },
+    "Dry_Skin": {
+      "d": "edit",
+      "n": ""
+    },
+    "Early_Bird": {
+      "d": "edit",
+      "n": ""
+    },
+    "Effect_Spore": {
+      "d": "keep",
+      "n": ""
+    },
+    "Flame_Body": {
+      "d": "up",
+      "n": ""
+    },
+    "Flash_Fire": {
+      "d": "edit",
+      "n": ""
+    },
+    "Friend_Guard": {
+      "d": "up",
+      "n": ""
+    },
+    "Frisk": {
+      "d": "edit",
+      "n": ""
+    },
+    "Galvanize": {
+      "d": "keep",
+      "n": ""
+    },
+    "Gluttony": {
+      "d": "edit",
+      "n": ""
+    },
+    "Guts": {
+      "d": "edit",
+      "n": ""
+    },
+    "Harvest": {
+      "d": "edit",
+      "n": ""
+    },
+    "Healer": {
+      "d": "edit",
+      "n": "cho bản thân"
+    },
+    "Hustle": {
+      "d": "keep",
+      "n": ""
+    },
+    "Hydration": {
+      "d": "edit",
+      "n": ""
+    },
+    "Hyper_Cutter": {
+      "d": "up",
+      "n": ""
+    },
+    "Ice_Body": {
+      "d": "edit",
+      "n": ""
+    },
+    "Imposter": {
+      "d": "up",
+      "n": ""
+    },
+    "Infiltrator": {
+      "d": "keep",
+      "n": ""
+    },
+    "Inner_Focus": {
+      "d": "edit",
+      "n": ""
+    },
+    "Insomnia": {
+      "d": "up",
+      "n": ""
+    },
+    "Intimidate": {
+      "d": "edit",
+      "n": ""
+    },
+    "Iron_Fist": {
+      "d": "keep",
+      "n": ""
+    },
+    "Justified": {
+      "d": "edit",
+      "n": ""
+    },
+    "Keen_Eye": {
+      "d": "up",
+      "n": ""
+    },
+    "Leaf_Guard": {
+      "d": "keep",
+      "n": ""
+    },
+    "Levitate": {
+      "d": "keep",
+      "n": ""
+    },
+    "Light_Metal": {
+      "d": "edit",
+      "n": ""
+    },
+    "Lightning_Rod": {
+      "d": "edit",
+      "n": ""
+    },
+    "Limber": {
+      "d": "edit",
+      "n": ""
+    },
+    "Magic_Bounce": {
+      "d": "up",
+      "n": ""
+    },
+    "Magic_Guard": {
+      "d": "up",
+      "n": ""
+    },
+    "Magician": {
+      "d": "keep",
+      "n": ""
+    },
+    "Magnet_Pull": {
+      "d": "edit",
+      "n": ""
+    },
+    "Marvel_Scale": {
+      "d": "edit",
+      "n": ""
+    },
+    "Minus": {
+      "d": "edit",
+      "n": ""
+    },
+    "Motor_Drive": {
+      "d": "up",
+      "n": ""
+    },
+    "Moxie": {
+      "d": "keep",
+      "n": ""
+    },
+    "Multiscale": {
+      "d": "keep",
+      "n": ""
+    },
+    "Multitype": {
+      "d": "keep",
+      "n": ""
+    },
+    "Natural_Cure": {
+      "d": "edit",
+      "n": ""
+    },
+    "No_Guard": {
+      "d": "keep",
+      "n": ""
+    },
+    "Oblivious": {
+      "d": "edit",
+      "n": ""
+    },
+    "Overcoat": {
+      "d": "edit",
+      "n": ""
+    },
+    "Overgrow": {
+      "d": "edit",
+      "n": ""
+    },
+    "Own_Tempo": {
+      "d": "up",
+      "n": ""
+    },
+    "Pickpocket": {
+      "d": "edit",
+      "n": ""
+    },
+    "Pixilate": {
+      "d": "edit",
+      "n": ""
+    },
+    "Plus": {
+      "d": "edit",
+      "n": ""
+    },
+    "Poison_Point": {
+      "d": "keep",
+      "n": ""
+    },
+    "Poison_Touch": {
+      "d": "up",
+      "n": ""
+    },
+    "Prankster": {
+      "d": "keep",
+      "n": ""
+    },
+    "Pressure": {
+      "d": "edit",
+      "n": ""
+    },
+    "Protean": {
+      "d": "edit",
+      "n": ""
+    },
+    "Quick_Feet": {
+      "d": "edit",
+      "n": ""
+    },
+    "Rain_Dish": {
+      "d": "edit",
+      "n": ""
+    },
+    "Rattled": {
+      "d": "edit",
+      "n": ""
+    },
+    "Reckless": {
+      "d": "edit",
+      "n": ""
+    },
+    "Regenerator": {
+      "d": "edit",
+      "n": ""
+    },
+    "Rock_Head": {
+      "d": "up",
+      "n": ""
+    },
+    "Rough_Skin": {
+      "d": "edit",
+      "n": "theo máu bản thân 5%"
+    },
+    "Run_Away": {
+      "d": "edit",
+      "n": ""
+    },
+    "Sand_Force": {
+      "d": "up",
+      "n": ""
+    },
+    "Sand_Rush": {
+      "d": "edit",
+      "n": ""
+    },
+    "Sand_Stream": {
+      "d": "edit",
+      "n": ""
+    },
+    "Sand_Veil": {
+      "d": "edit",
+      "n": ""
+    },
+    "Scrappy": {
+      "d": "up",
+      "n": ""
+    },
+    "Serene_Grace": {
+      "d": "edit",
+      "n": ""
+    },
+    "Shadow_Tag": {
+      "d": "up",
+      "n": ""
+    },
+    "Shed_Skin": {
+      "d": "keep",
+      "n": ""
+    },
+    "Sheer_Force": {
+      "d": "keep",
+      "n": ""
+    },
+    "Shell_Armor": {
+      "d": "up",
+      "n": ""
+    },
+    "Shield_Dust": {
+      "d": "up",
+      "n": ""
+    },
+    "Slow_Start": {
+      "d": "up",
+      "n": ""
+    },
+    "Slush_Rush": {
+      "d": "edit",
+      "n": ""
+    },
+    "Sniper": {
+      "d": "keep",
+      "n": ""
+    },
+    "Snow_Cloak": {
+      "d": "up",
+      "n": ""
+    },
+    "Snow_Warning": {
+      "d": "edit",
+      "n": ""
+    },
+    "Solar_Power": {
+      "d": "keep",
+      "n": ""
+    },
+    "Soundproof": {
+      "d": "keep",
+      "n": ""
+    },
+    "Speed_Boost": {
+      "d": "up",
+      "n": ""
+    },
+    "Stance_Change": {
+      "d": "edit",
+      "n": ""
+    },
+    "Static": {
+      "d": "down",
+      "n": ""
+    },
+    "Steadfast": {
+      "d": "keep",
+      "n": ""
+    },
+    "Stench": {
+      "d": "up",
+      "n": ""
+    },
+    "Storm_Drain": {
+      "d": "up",
+      "n": ""
+    },
+    "Sturdy": {
+      "d": "edit",
+      "n": ""
+    },
+    "Suction_Cups": {
+      "d": "edit",
+      "n": ""
+    },
+    "Super_Luck": {
+      "d": "keep",
+      "n": ""
+    },
+    "Surge_Surfer": {
+      "d": "edit",
+      "n": ""
+    },
+    "Swarm": {
+      "d": "keep",
+      "n": ""
+    },
+    "Swift_Swim": {
+      "d": "keep",
+      "n": ""
+    },
+    "Synchronize": {
+      "d": "edit",
+      "n": ""
+    },
+    "Technician": {
+      "d": "edit",
+      "n": ""
+    },
+    "Telepathy": {
+      "d": "edit",
+      "n": ""
+    },
+    "Thick_Fat": {
+      "d": "edit",
+      "n": ""
+    },
+    "Tinted_Lens": {
+      "d": "keep",
+      "n": ""
+    },
+    "Torrent": {
+      "d": "keep",
+      "n": ""
+    },
+    "Trace": {
+      "d": "keep",
+      "n": ""
+    },
+    "Unaware": {
+      "d": "edit",
+      "n": ""
+    },
+    "Unburden": {
+      "d": "edit",
+      "n": ""
+    },
+    "Unnerve": {
+      "d": "keep",
+      "n": ""
+    },
+    "Vital_Spirit": {
+      "d": "edit",
+      "n": ""
+    },
+    "Volt_Absorb": {
+      "d": "edit",
+      "n": ""
+    },
+    "Water_Absorb": {
+      "d": "edit",
+      "n": ""
+    },
+    "Weak_Armor": {
+      "d": "keep",
+      "n": "Có tích stack không , tối đa nhiêu stack"
+    },
+    "Wonder_Guard": {
+      "d": "edit",
+      "n": ""
+    },
+    "Zen_Mode": {
+      "d": "edit",
+      "n": ""
+    }
+  },
+  "t": 1795316292165
+}

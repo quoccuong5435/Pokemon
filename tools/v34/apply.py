@@ -625,7 +625,7 @@ SOUL_NEW = ('            set Mega_EvoItem = true\n' + SOUL_OLD + '            se
             '                call SaveInteger(Ab_HT, GetHandleId(bj_lastReplacedUnit), 123, 0)\n'
             '            endif\n')
 WIRING = ('    call TimerStart(CreateTimer(), 1.0, true, function League_Tick)\n'
-          '    call TimerStart(CreateTimer(), 300.0, true, function Wth_Tick)\n'
+          '    call TimerStart(CreateTimer(), 300.0, true, function Wth_Pre)\n'
           '    set t = CreateTrigger()\n'
           '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)\n'
           '    call TriggerAddCondition(t, Condition(function League_OnDeath))\n'
@@ -730,7 +730,8 @@ def assemble(base_script, units, version, orders=(), extra=None):
     script = replace_functions(script, snippet('moves.j'))  # v3.4.1: one learned move per kind (no shared button)
     script = replace_range(script, 'Ab_FxFind', 'Ab_BeatFx', snippet('ab_core.j'), start_at=FX_HEADER)
     script = replace_range(script, 'Ab_Hero', 'Ab_OnDamaging', snippet('ab_tick.j'))
-    script = replace_once(script, '\nfunction Ab_Hero takes', '\n' + snippet('extra_late.j') + '\nfunction Ab_Hero takes')
+    script = replace_once(script, '\nfunction Ab_Hero takes', '\n' + snippet('extra_late.j') + '\n' + snippet('item_shop.j')
+                          + '\nfunction Ab_Hero takes')
     # wiring in Mega_Init
     # own threads (ExecuteFunc): Mega_Init already runs ~20k lines of data, keep it away from the op limit
     script = replace_once(script, '    call Ab_InitData()\n',
@@ -749,9 +750,9 @@ def assemble(base_script, units, version, orders=(), extra=None):
                           '    call TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_DEATH)\n'
                           '    call TriggerAddCondition(t, Condition(function Ty_OnDeath))\n'
                           '    call TimerStart(CreateTimer(), 1.0, true, function Ai_Tick)\n' + WIRING)
-    script = replace_once(script, '    call Base_Init()\n', '    call Base_Init()\n    call Ext_PlaceShops()\n'
+    script = replace_once(script, '    call Base_Init()\n', '    call Base_Init()\n    call Ext_PlaceShops()\n    call Ish_Init()\n'
                           '    call ExecuteFunc("League_Setup")\n'
-                          '    call TimerStart(CreateTimer(), 0.5, true, function League_PortalTick)\n')
+                          '    call Gym_Labels()\n')  # v3.4.6: gym labels, minimap icons (portals run in Ext_Pulse)
     # v1.8 "Kill Hero" (+500 XP, +1 lumber) must not pay for the gym Pokemon (neutral heroes since v3.4)
     script = replace_once(script, KILL_HERO_OLD, KILL_HERO_NEW)
     script = replace_once(script, MEGA_MSG_OLD, MEGA_MSG_NEW)

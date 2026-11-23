@@ -2,6 +2,22 @@
 // v3.4 extras that need the Ability helpers (Ab_Deal, Ab_Heal, Ab_FxAdd ...): item effects after a hit, the
 // per-second work of the players' heroes (items, weather, Shiny, Champion title), shops, Escape Rope, Amulet Coin
 // ---------------------------------------------------------------------------------------------
+// v3.4.6 B3 Quick Claw: the first skill of u that is still cooling down is ready again
+function Ext_ResetCD takes unit u returns nothing
+    local integer i = 0
+    local integer id = 0
+    loop
+        exitwhen i >= 30
+        set id = BlzGetAbilityId(BlzGetUnitAbilityByIndex(u, i))
+        if id > 0 and BlzGetUnitAbilityCooldownRemaining(u, id) > 0.0 then
+            call BlzEndUnitAbilityCooldown(u, id)
+            call Ab_Say(u, "Quick Claw", 255, 255, 120, GetOwningPlayer(u), GetOwningPlayer(u))
+            return
+        endif
+        set i = i + 1
+    endloop
+endfunction
+
 function Ext_AfterHit takes unit src, unit t, boolean atk, real d returns nothing
     local real mx = 0.0
     if IsUnitType(src, UNIT_TYPE_HERO) then
@@ -14,6 +30,12 @@ function Ext_AfterHit takes unit src, unit t, boolean atk, real d returns nothin
             call Ab_FxAdd(t, 3, 1.0, 0.0)
             set Ab_FxCur = null
         endif
+        if atk and Itm_Flag(src, 14) and GetRandomReal(0.0, 1.0) < 0.15 then  // v3.4.6 Quick Claw
+            call Ext_ResetCD(src)
+        endif
+    endif
+    if IsUnitType(src, UNIT_TYPE_HERO) and Itm_Flag(src, 21) and d > 0.0 then  // v3.4.5 Shell Bell: heals 10% of the damage
+        call Ab_Heal(src, 0.1 * d)
     endif
     if atk and IsUnitType(t, UNIT_TYPE_HERO) and Itm_Flag(t, 7) and BlzGetUnitWeaponRealField(src, UNIT_WEAPON_RF_ATTACK_RANGE, 0) <= 250.0 then
         call Ab_Deal(t, src, 0.03 * I2R(BlzGetUnitMaxHP(src)))  // Rocky Helmet
@@ -23,6 +45,11 @@ endfunction
 // Focus Sash: the final damage d of a hit on t
 function Ext_Final takes unit t, real d returns real
     local integer ht = GetHandleId(t)
+    // v3.4.6 B2 Bright Powder: a real dodge, 10% of the hits on the holder do no damage
+    if IsUnitType(t, UNIT_TYPE_HERO) and Itm_Flag(t, 22) and d > 0.0 and GetRandomReal(0.0, 1.0) < 0.1 then
+        call Ab_Say(t, "Bright Powder: miss", 230, 230, 230, GetOwningPlayer(t), GetOwningPlayer(t))
+        return 0.0
+    endif
     if IsUnitType(t, UNIT_TYPE_HERO) and Itm_Flag(t, 5) and d >= GetWidgetLife(t) - 0.405 then
         if GetWidgetLife(t) > 0.5 * I2R(BlzGetUnitMaxHP(t)) and Mega_Time >= LoadReal(Ab_HT, ht, 126) then
             call SaveReal(Ab_HT, ht, 126, Mega_Time + 60.0)
@@ -66,9 +93,18 @@ function Ext_Pulse takes unit u returns nothing
     local integer last = LoadInteger(Ab_HT, h, 127)
     local integer pct = 0
     local unit v = null
-    call Itm_Refresh(u)
+    // v3.4.6 C1: the held items are read every 5 s (and on pickup, purchase, use); C2: the League portals by position
+    if ModuloInteger(Ab_Beat, 5) == 0 then
+        call Itm_Refresh(u)
+    endif
+    call League_PortalHero(u)
     if Itm_Flag(u, 4) then  // Leftovers
         call Ab_Heal(u, 0.01 * mx)
+    endif
+    if Itm_Flag(u, 24) and GetWidgetLife(u) < 0.3 * mx then  // v3.4.5 Oran Berry
+        call Ab_Heal(u, 0.2 * mx)
+        call Itm_Use(u, Itm_Id[24])
+        call Ab_Say(u, "Oran Berry", 120, 255, 120, p, p)
     endif
     if Itm_Flag(u, 15) and GetWidgetLife(u) < 0.5 * mx then  // Sitrus Berry
         call Ab_Heal(u, 0.25 * mx)
@@ -153,8 +189,13 @@ function Ext_OnUseItem takes nothing returns nothing
             call DisplayTimedTextToPlayer(p, 0, 0, 5.0, "|cffff4040No Escape Rope during a gym or League battle.|r")
             call UnitAddItemById(u, Itm_Rope)
         else
-            call DisplayTimedTextToPlayer(p, 0, 0, 3.0, "|cffffcc00Escape Rope: back to base in 3 seconds...|r")
-            call TriggerSleepAction(3.0)
+            // v3.4.6 B6: a countdown, one line per second
+            call DisplayTimedTextToPlayer(p, 0, 0, 1.0, "|cffffcc00Escape Rope: back to base in 3...|r")
+            call TriggerSleepAction(1.0)
+            call DisplayTimedTextToPlayer(p, 0, 0, 1.0, "|cffffcc00Escape Rope: 2...|r")
+            call TriggerSleepAction(1.0)
+            call DisplayTimedTextToPlayer(p, 0, 0, 1.0, "|cffffcc00Escape Rope: 1...|r")
+            call TriggerSleepAction(1.0)
             if GetWidgetLife(u) > 0.405 and not Gym_Busy(pid) then
                 set x = GetStartLocationX(GetPlayerStartLocation(p))
                 set y = GetStartLocationY(GetPlayerStartLocation(p))

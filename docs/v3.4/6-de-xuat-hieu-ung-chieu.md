@@ -350,3 +350,35 @@ Ngày 2026-11-08. Chưa sửa code phần này.
 | 316 | X Scissor | Bug | Vật lý | 80 | Shadow Strike, ZigguratMissile, tầm 300 | Đạn hệ Bug: Wizardry Missile |
 | 317 | Zap Cannon | Electric | Đặc biệt | 120 | Carrion Swarm, FarseerMissile, tầm 800 | Đạn hệ Electric: blue energy arrow |
 | 318 | Zen Headbutt | Psychic | Vật lý | 80 | Shockwave, FaerieDragonMissile, tầm 700 | Cận chiến (tầm 150, không đạn): AnimatedBash trên mục tiêu |
+
+## Bổ sung: model từ map khác (đã ghép vào đề xuất, chưa nhập vào map)
+
+Nguồn chi tiết: [8-quet-map-khac-model-hieu-ung.md](8-quet-map-khac-model-hieu-ung.md). Tên model lấy từ danh sách file của từng map (`analysis/map_scan_models.json`).
+
+Lưu ý trước khi nhập:
+- Các model này thuộc tác giả map khác. Trước khi đưa vào map, cần bạn xác nhận lại quyền sử dụng.
+- Phải kiểm tra đủ texture đi kèm, nếu thiếu model sẽ hiện ô trắng hoặc đen.
+- Chưa kiểm tra dung lượng và chưa xem model trong game.
+
+### Cận chiến (106 move): model chém, đấm, va chạm
+- Chém: `6Slash`, `CrossSlash Red`, `Ephemeral Cut Red`, `ESlash5`, `SlashOne` (Fight Of Anime), `Blade Light` (God Mode).
+- Đấm / va chạm: `E Punch1`, `AnginHitNew1`, `AZ_Zeusking_Impact-hit`, `EarthSmash`, `Black Stomp` (God Mode).
+- Ưu tiên dùng model PKL (`slash-luc`, `purple claw`, `AnimatedBash`) trước; model từ map khác chỉ dùng khi PKL không có hiệu ứng phù hợp.
+
+### Đạn theo hệ (81 move)
+- Lửa: `Flamestrike Mystic I` (Boss Battle), `FireSword` (Hoi Hoi Kho).
+- Băng: `Frost Missile`, `FrostNova` (Random Farm TD).
+- Điện: `LightningWrath`, `LightningMilssile` (Random Farm TD), `ThunderStrike` (God Mode).
+- Bóng tối: `DarkOrb` (Random Farm TD), `DarkImpale` (Hoi Hoi Kho), `BlackDragonMissile` (God Mode).
+- Ánh sáng: `White Holy Ray` (God Mode), `WhiteXMissile` (Fight Of Anime).
+- Ưu tiên PKL theo hệ trước; model từ map khác dùng để bổ sung hệ mà PKL thiếu.
+
+### Diện rộng (66 move)
+- Nổ / sóng: `BlueStrikeArray`, `LightStrikeArray` (Fight Of Anime), `BladeShockwave` (God Mode), `WhiteShockwave` (God Mode).
+
+## Trạng thái thực hiện (v3.4.3)
+
+- **Đã làm: cận chiến (106 move).** `tools/v34/melee_fx.py` đọc bảng ở trên, với mỗi move cận chiến và cả 4 ô (V, W, Y, Z): tầm 150 (`Rng1`), bỏ đạn (`Missileart` trống), và model hiệu ứng trên mục tiêu (`Targetart`) lấy từ PKLegends 3.2 và chép vào `war3mapImported\V34\Melee\`. `build_v34.py` đã nối vào.
+- Kiểm tra: 424 dòng AbilityData đổi, 27 model và texture chép vào, pjass 0 lỗi, dry-run đạt. Dung lượng tăng thêm khoảng 3,3 MB (cao hơn ước tính 1,5 MB).
+- **Chưa làm:** đạn theo hệ (81 move), diện rộng (66 move), hiệu ứng riêng (10 move). Model từ map khác (mục bổ sung) chưa nhập: cần xác nhận quyền sử dụng trước.
+- **Chưa kiểm tra trong game:** hiển thị model trên mục tiêu, cảm giác tầm 150, và việc quái/hero đánh gần có trúng đúng không.

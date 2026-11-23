@@ -1,0 +1,148 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Pokemon Arena - Patch Note v4.1.2-ver2d</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#12151c;color:#e6e8ee;line-height:1.45}
+header{padding:24px 32px;background:linear-gradient(90deg,#0f4c81,#1f6f5c,#c0392b)}h1{margin:0}
+header p{margin:6px 0 0;opacity:.92}
+main{max-width:1200px;margin:auto;padding:16px 24px 40px}
+h2{margin:28px 0 10px;border-bottom:1px solid #2a3140;padding-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stats div{background:#1d222d;border-radius:10px;padding:10px 14px}
+.stats b{display:block;font-size:22px;color:#ffd166}.stats small{color:#8a93a6}
+.pn{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.pn>div{background:#1d222d;border-radius:10px;padding:12px 16px}.pn h3{margin:0 0 6px;color:#ffd166}
+.pn li{margin:5px 0;font-size:14px}.pn ul{padding-left:20px;margin:6px 0}
+.wide{grid-column:1/-1}
+.v{display:inline-block;font-size:11px;font-weight:600;border-radius:5px;padding:0 6px;margin-right:4px;vertical-align:1px;white-space:nowrap}
+.v2d{background:#0f4c81}.v2c{background:#2f7d4f}.v2b{background:#2e5d8a}
+table{border-collapse:collapse;font-size:13px;margin:6px 0;width:100%}td,th{border:1px solid #333b4b;padding:4px 8px;text-align:left;vertical-align:top}
+th{background:#262c39}td.c,th.c{text-align:center}.old{color:#8a93a6}
+.note{background:#1e293b;border-left:4px solid #38bdf8;padding:10px 14px;border-radius:6px;font-size:14px}
+code{background:#262c39;border-radius:4px;padding:0 4px}
+.cmd-box{background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:14px;font-family:Consolas,monospace;font-size:13.5px;line-height:1.6;color:#c9d1d9}
+.cmd-key{color:#79c0ff;font-weight:bold}
+.cmd-val{color:#e6edf3}
+</style>
+<header>
+<h1>Pokemon Arena — Patch Note v4.1.2-ver2d</h1>
+<p>Bản nâng cấp toàn diện và Việt Hóa hệ thống cho map <b>Pokemon Arena v4.1.2-ver2d.w3x</b> (build 21/11/2026, 159,5 MB). Biên dịch qua pjass đạt <b>0 lỗi</b>, vượt qua toàn bộ test suite xác thực.</p>
+</header>
+<main>
+
+<div class="stats">
+<div><b>Việt Hóa 100%</b><small>thông báo, sự kiện, -help & mô tả đồ</small></div>
+<div><b>English Kept</b><small>giữ nguyên tên Pokémon & Moves</small></div>
+<div><b>192 x 192</b><small>kích thước bản đồ (+44% diện tích)</small></div>
+<div><b>+33 Starter</b><small>Gen 2–7 chơi được & có Soul</small></div>
+<div><b>18 Icon Bậc</b><small>hiển thị buff/debuff trực quan</small></div>
+<div><b>105.454</b><small>dòng script JASS (pjass 0 lỗi)</small></div>
+</div>
+
+<h2>Những thay đổi trọng tâm trong bản v4.1.2-ver2d</h2>
+<div class="pn">
+
+<div class="wide"><h3>1. Bản địa hóa Tiếng Việt (Vietnamese Localization)</h3>
+<div class="note">
+<b>Tiêu chí cốt lõi theo yêu cầu:</b> Toàn bộ thông báo hệ thống, sự kiện chiến trường, hướng dẫn lệnh và mô tả trang bị được dịch sang tiếng Việt tự nhiên, có dấu đầy đủ. <b>Đặc biệt: Giữ nguyên 100% tên Pokémon</b> (Pikachu, Charizard, Greninja, Darkrai...), <b>tên Chiêu thức Moves</b> (Thunderbolt, Swords Dance, Hydro Pump...) và <b>từ khóa lệnh chat gốc</b> (<code>-help</code>, <code>-up</code>, <code>-forge</code>, <code>-solo</code>...) để người chơi tiện thao tác.
+</div>
+<ul>
+<li><b>Bảng hướng dẫn lệnh <code>-help</code> mới:</b> Trình bày trực quan, đầy đủ từng cú pháp và mô tả chi tiết:
+  <div class="cmd-box">
+  <span style="color:#ffd166">=============== BẢNG HƯỚNG DẪN LỆNH POKEMON ARENA ===============</span><br>
+  <span class="cmd-key">-pick / -repick</span> : <span class="cmd-val">Chọn / đổi Pokémon ngẫu nhiên (2 phút đầu, tối đa 2 lần)</span><br>
+  <span class="cmd-key">-moves</span> : <span class="cmd-val">Menu học / đổi 4 chiêu Q-W-E-R   |   <span class="cmd-key">-quest</span> : Tiến độ Thức Tỉnh Thần</span><br>
+  <span class="cmd-key">-up / -train</span> : <span class="cmd-val">Luyện tập chỉ số cuối game (All Stats, Máu, Giáp, Dược Phẩm)</span><br>
+  <span class="cmd-key">-forge</span> : <span class="cmd-val">Tiệm Rèn đập đồ +1..+5 [MYTHIC] / Dung hợp đồ (hoặc bấm vào Tượng)</span><br>
+  <span class="cmd-key">-gym</span> : <span class="cmd-val">Xem trạng thái & đội hình 8 Gym   |   <span class="cmd-key">-league</span> : Khiêu chiến Champion Lance</span><br>
+  <span class="cmd-key">-me</span> : <span class="cmd-val">Xem chi tiết chỉ số ẩn (Relic, Bùa Charm, Hút máu, Chí mạng, Tiền thưởng, Cổ ngữ)</span><br>
+  <span class="cmd-key">-home / -stuck</span> : <span class="cmd-val">Biến về căn cứ sau 5s (CD 30s, chặn khi đang mang Legend Soul)</span><br>
+  <span class="cmd-key">-tp</span> : <span class="cmd-val">Dịch chuyển tức thời về căn cứ và hồi đầy Máu / Mana</span><br>
+  <span class="cmd-key">-solo [1..12] / -yes / -no</span> : <span class="cmd-val">Thách đấu Sinh Tử 1v1 cướp 1 món trang bị</span><br>
+  <span class="cmd-key">-duel [1..12] / -accept / -rank</span> : <span class="cmd-val">Đấu giao hữu 1v1 tính điểm xếp hạng</span><br>
+  <span class="cmd-key">-gamble</span> : <span class="cmd-val">Vòng quay may mắn (1.000 vàng/lượt)   |   <span class="cmd-key">-ez / -taunt</span> : Khiêu khích</span><br>
+  <span class="cmd-key">-pet</span> : <span class="cmd-val">Đổi / bật tắt Thú Cưng mini (+1% Mana/s)   |   <span class="cmd-key">-title</span> : Đổi danh hiệu bay trên đầu</span><br>
+  <span style="color:#ffd166">[HOST]</span> <span class="cmd-key">-random</span> <span class="cmd-val">(random cả phòng)</span> | <span class="cmd-key">-fog</span> <span class="cmd-val">(bật/tắt sương)</span> | <span class="cmd-key">-win &lt;N&gt;</span> <span class="cmd-val">(đặt điểm thắng)</span><br>
+  <span style="color:#ffd166">=============================================================================</span>
+  </div>
+</li>
+<li><b>Thông tin chi tiết chỉ số ẩn (<code>-me</code>):</b>
+  <ul>
+    <li>Hiển thị tên Pokémon và Cấp độ: <code>====== Charizard (Cấp 45) ======</code></li>
+    <li>K/D, Chuỗi hạ gục, Tiền thưởng mạng (Bounty), Huy hiệu Gym đã đoạt (<code>0/8</code> đến <code>8/8</code>).</li>
+    <li>Chỉ số Loot: <code>+120 STR, +85 AGI, +40 INT, +35 Giáp, +8.500 Máu (trên tổng 18.000: 15.000 đầu nhận đủ, phần dư nhận 50%)</code>.</li>
+    <li>Bùa Charm: <code>Hút máu 25% (tối đa 25%) | Chí mạng 45% (tối đa 60%) | Gai phản đòn 35% | Cổ ngữ: Tốc Độ (42s)</code>.</li>
+  </ul>
+</li>
+<li><b>Giao diện Tiệm Rèn Thần Bí (<code>-forge</code>):</b>
+  <ul>
+    <li>Hộp thoại: <code>TIỆM RÈN THẦN BÍ - Nâng cấp & Dung hợp Đồ Loot</code>.</li>
+    <li>Nút bấm theo từng ô: <code>Ô 1: Cổ Vật Chỉ Số +2 (40%, 4.500 vàng)</code>, <code>Ô 2: Bùa Hiệu Ứng [TỐI ĐA +5]</code>.</li>
+    <li>Nút: <code>Dung hợp 2 đồ thấp nhất -> Bậc kế (60/40/20%, 1500 vàng)</code> và <code>Đóng</code>.</li>
+    <li>Thông báo thành công / tụt cấp rõ ràng, không còn tiếng Anh lạ lẫm.</li>
+  </ul>
+</li>
+<li><b>Hộp thoại Luyện Tập Cuối Game (<code>-up</code> / <code>-train</code>):</b>
+  <ul>
+    <li>Tiêu đề: <code>Luyện Tập Cuối Game & Tiệm Vàng (-up)</code>.</li>
+    <li>Nút nâng cấp: <code>Tăng All Stats +10 (5/15) - 4500 vàng</code>, <code>+500 Máu & +3 Giáp (2/10) - 3000 vàng</code>.</li>
+    <li>Nút mua hòm & thuốc: <code>Hòm Đồ Bí Ẩn (Hiếm/Sử Thi/Huyền Thoại) - 3500 vàng</code>, <code>Dược Phẩm (+15% Dmg/-10% Nhận/+15% MS, 3p) - 3000 vàng</code>.</li>
+  </ul>
+</li>
+<li><b>Hệ thống Thách Đấu Sinh Tử (<code>-solo</code>):</b>
+  <ul>
+    <li>Thông báo gạ kèo: <code>[THÁCH ĐẤU SOLO] Player 1 đã thách đấu Player 2 SOLO SINH TỬ 1v1 (thua rơi 1 đồ)! Gõ -yes hoặc -no trong 20s!</code></li>
+    <li>Từ chối: <code>[SOLO] Player 2 đã từ chối Solo! (Sợ quá chạy mất dép! =)))</code></li>
+    <li>Bắt đầu: <code>[SOLO SINH TỬ!] Player 1 vs Player 2 ĐẤU ĐẾN CHẾT tại Trung Tâm! Kẻ thua rơi 1 đồ ngẫu nhiên!</code></li>
+    <li>Chiến thắng: <code>[SOLO CHIẾN THẮNG!] Player 1 đã đè bẹp Player 2 và cướp được Bùa Hiệu Ứng +3!</code></li>
+  </ul>
+</li>
+<li><b>Toàn bộ Sự kiện & Broadcast chiến trường:</b>
+  <ul>
+    <li><b>Sự kiện Altar:</b> Bàn thờ trung tâm mở sau 60s, giữ 20s để nhận vàng & đồ thưởng.</li>
+    <li><b>Lệnh Truy Nã (Wanted):</b> Truy nã 90s, săn được +1.200 vàng, sống sót nhận +1.000 vàng.</li>
+    <li><b>Kho Báu Hoàng Kim:</b> Xuất hiện gần trung tâm, săn đuổi trong 60s nhận +1.800 vàng & đồ quý.</li>
+    <li><b>Magikarp Khổng Lồ & Bẫy Gyarados Đỏ:</b> Vàng miễn phí hay bẫy tiến hóa thành Raging Red Gyarados (+3.000 vàng & đồ Legend).</li>
+    <li><b>Chế độ Hỗn Loạn (Chaos Mode):</b> Tốc Độ Tối Đa (522 MS), Khổng Lồ Hóa (x1.8 kích thước), Cơn Sốt Vàng (+1.000 vàng mỗi mạng).</li>
+    <li><b>Cổ Ngữ (Runes):</b> Cổ Ngữ Tốc Độ, Cổ Ngữ Cuồng Nộ, Cổ Ngữ Hồi Phục, Cổ Ngữ Tài Phú.</li>
+    <li><b>Tiếp tế lật kèo (Underdog Supply):</b> Phe bị dẫn 10+ điểm nhận ngay +1.000 vàng mỗi người và Hòm Tiếp Tế tại căn cứ.</li>
+    <li><b>Chiến Công Đầu & Chấm Dứt Chuỗi:</b> <code>[CHIẾN CÔNG ĐẦU!]</code> (+800 vàng), <code>[CHẤM DỨT CHUỖI!]</code> (+tiền thưởng mạng).</li>
+  </ul>
+</li>
+<li><b>Chuỗi Nhiệm vụ Thức Tỉnh (<code>-quest</code>):</b>
+  <ul>
+    <li>Giai đoạn 1/3: Đạt cấp độ yêu cầu và kiếm 20 điểm quái rừng hoặc 150.000 sát thương.</li>
+    <li>Giai đoạn 2/3: Thu thập 6 Điểm Huyết Tế từ Quái Tinh Anh, Boss hoặc Tướng địch.</li>
+    <li>Giai đoạn 3/3: Thực hiện Nghi Lễ tại Bàn thờ Trung Tâm trong 60 giây.</li>
+    <li>Hoàn tất: <code>[THỨC TỈNH HOÀN TẤT] Player đã Thức Tỉnh sức mạnh tiềm ẩn Hidden Power của Pokémon!</code></li>
+  </ul>
+</li>
+<li><b>Mô tả Trang bị & Đồ Loot:</b>
+  <ul>
+    <li>Đồ Loot: <code>Đồ Loot Thường</code>, <code>Đồ Loot Hiếm</code>, <code>Đồ Loot Sử Thi</code>, <code>Đồ Loot Huyền Thoại</code>, <code>Cổ Vật Chỉ Số</code>, <code>Bùa Hiệu Ứng</code>, dòng <code>Giá bán: ... vàng</code>.</li>
+    <li>Trang bị chiến đấu: Focus Sash (giữ 1 máu khi chịu đòn dứt điểm), Choice Band (+35% sát thương, -10% tốc chạy), Leftovers (hồi 1% máu tối đa/giây)...</li>
+  </ul>
+</li>
+</ul></div>
+
+<div><h3>2. Giữ trọn vẹn toàn bộ tính năng v4.1.2-ver2c</h3>
+<ul>
+<li><b>Bản đồ 192 x 192 (+44% diện tích):</b> Mở rộng đều 4 cạnh, giữ nguyên tọa độ bãi quái, căn cứ, gym, altar. Vành đai 16 ô tile rộng thênh thang sẵn sàng cho event tương lai.</li>
+<li><b>Quy hoạch căn cứ:</b> Sân trung tâm thoáng đãng, Forge Tây Nam, Moves Đông Nam, Cổng League cạnh Gym, lùi Form/Paradox shop tránh xuyên tường.</li>
+<li><b>Hiệu ứng thời tiết từ 3.4.16:</b> Màn sương màu thay đổi theo thời tiết (Rain sương lam, Sun sương vàng, Sandstorm sương đất, Hail sương tuyết) và sấm sét ngẫu nhiên trong mưa.</li>
+<li><b>33 Starter Gen 2–7:</b> Đầy đủ hero, quái rừng, soul, model 3D, icon riêng. Greninja sở hữu Torrent chuẩn v4.1.2.</li>
+<li><b>9 Move Debuff & Transform:</b> Feather Dance, Cotton Spore, Tickle, Eerie Impulse, Confide, Baby-Doll Eyes, Smokescreen, Kinesis, Sweet Kiss và Transform (Ditto).</li>
+<li><b>18 Icon Bậc chỉ số:</b> Hiển thị icon trực quan trên thanh buff khi được tăng/giảm Attack, Defense, Speed từ bậc -6 đến +6.</li>
+</ul></div>
+
+<div><h3>3. Kiểm tra chất lượng & Biên dịch</h3>
+<ul>
+<li><b>pjass compiler:</b> Kiểm tra trực tiếp qua <code>pjass.exe</code> với <code>common.j</code> và <code>Blizzard.j</code>, toàn bộ <b>105.454 dòng JASS đạt 0 lỗi cú pháp</b>.</li>
+<li><b>Unicode UTF-8:</b> Tiếng Việt hiển thị chuẩn xác, không bị lỗi font hay biến dạng ký tự trên client Warcraft III.</li>
+<li><b>Test suite tự động:</b> 5/5 bài kiểm tra chuyên sâu trong <code>tests/test_v412_ver2d.py</code> đạt <b>100% PASS</b>.</li>
+<li><b>Dung lượng file:</b> Map hoàn chỉnh <b>159,5 MB</b>, tích hợp đầy đủ model và texture.</li>
+</ul></div>
+
+</div>
+
+</main>
+</html>
